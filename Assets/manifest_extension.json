@@ -1,0 +1,1714 @@
+[
+    {
+        "id": "1.19_deep_dark_experimental_snapshot-1",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_19_deep_dark_experimental_snapshot-1.json",
+        "releaseTime": "2022-02-17T13:55:59+00:00",
+        "time": "2022-02-17T13:55:59+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-7",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-7.json",
+        "releaseTime": "2021-09-08T12:33:23+00:00",
+        "time": "2021-09-08T12:33:23+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-6",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-6.json",
+        "releaseTime": "2021-09-01T12:53:14+00:00",
+        "time": "2021-09-01T12:53:14+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-5",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-5.json",
+        "releaseTime": "2021-08-25T14:41:57+00:00",
+        "time": "2021-08-25T14:41:57+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-4",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-4.json",
+        "releaseTime": "2021-08-17T16:10:25+00:00",
+        "time": "2021-08-17T16:10:25+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-3",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-3.json",
+        "releaseTime": "2021-08-10T12:42:45+00:00",
+        "time": "2021-08-10T12:42:45+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-2",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-2.json",
+        "releaseTime": "2021-07-20T13:35:08+00:00",
+        "time": "2021-07-20T13:35:08+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "1.18_experimental-snapshot-1",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_18_experimental-snapshot-1.json",
+        "releaseTime": "2021-07-13T12:54:19+00:00",
+        "time": "2021-07-13T12:54:19+00:00",
+        "complianceLevel": 1
+    },
+    {
+        "id": "13w12~",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w12~.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w12~-1439.jar",
+        "releaseTime": "2013-03-19",
+        "time": "2013-03-19",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w11a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w11a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w11a.jar",
+        "releaseTime": "2013-03-14",
+        "time": "2013-03-14",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w10b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w10b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w10b.jar",
+        "releaseTime": "2013-03-06",
+        "time": "2013-03-06",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w10a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w10a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w10a.jar",
+        "releaseTime": "2013-03-04",
+        "time": "2013-03-04",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w09c",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w09c.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w09c.jar",
+        "releaseTime": "2013-03-01",
+        "time": "2013-03-01",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w09b",
+        "type": "snapshot",
+        "url": "https://ia801403.us.archive.org/11/items/Minecraft-JSONs/13w09b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w09b.jar",
+        "releaseTime": "2013-02-27",
+        "time": "2013-02-27",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w09a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w09a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w09a.jar",
+        "releaseTime": "2013-02-26",
+        "time": "2013-02-26",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w07a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w07a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w07a.jar",
+        "releaseTime": "2013-02-14",
+        "time": "2013-02-14",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w06a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w06a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w06a-1636.jar",
+        "releaseTime": "2013-02-07",
+        "time": "2013-02-07",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w05b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w05b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w05b.jar",
+        "releaseTime": "2013-02-01",
+        "time": "2013-02-01",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w05a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w05a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w05a-1504.jar",
+        "releaseTime": "2013-01-31",
+        "time": "2013-01-31",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w04a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w04a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w04a.jar",
+        "releaseTime": "2013-01-24",
+        "time": "2013-01-24",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w03a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w03a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w03a-1647.jar",
+        "releaseTime": "2013-01-17",
+        "time": "2013-01-17",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w02b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w02b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w02b.jar",
+        "releaseTime": "2013-01-11",
+        "time": "2013-01-11",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w02a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w02a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w02a.jar",
+        "releaseTime": "2013-01-10",
+        "time": "2013-01-10",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w01b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w01b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w01b.jar",
+        "releaseTime": "2013-01-04",
+        "time": "2013-01-04",
+        "complianceLevel": 0
+    },
+    {
+        "id": "13w01a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/13w01a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w01a.jar",
+        "releaseTime": "2013-01-03",
+        "time": "2013-01-03",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w50b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w50b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w50b.jar",
+        "releaseTime": "2012-12-14",
+        "time": "2012-12-14",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w50a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w50a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w50a.jar",
+        "releaseTime": "2012-12-13",
+        "time": "2012-12-13",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w49a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w49a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w49a.jar",
+        "releaseTime": "2012-12-07",
+        "time": "2012-12-07",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w42b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w42b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w42b.jar",
+        "releaseTime": "2012-10-18",
+        "time": "2012-10-18",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w42a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w42a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w42a.jar",
+        "releaseTime": "2012-10-17",
+        "time": "2012-10-17",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w41b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w41b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w41b.jar",
+        "releaseTime": "2012-10-12",
+        "time": "2012-10-12",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w41a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w41a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w41a.jar",
+        "releaseTime": "2012-10-11",
+        "time": "2012-10-11",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w40b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w40b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w40b.jar",
+        "releaseTime": "2012-10-05",
+        "time": "2012-01-05",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w40a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w40a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w40a.jar",
+        "releaseTime": "2012-10-04",
+        "time": "2012-10-04",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w39b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w39b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w39b.jar",
+        "releaseTime": "2012-09-28",
+        "time": "2012-09-28",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w39a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w39a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w39a-1243.jar",
+        "releaseTime": "2012-09-27",
+        "time": "2012-09-27",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w38b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w38b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w38b.jar",
+        "releaseTime": "2012-09-21",
+        "time": "2012-09-21",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w38a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w38a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w38a.jar",
+        "releaseTime": "2012-09-20",
+        "time": "2012-09-20",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w37a",
+        "type": "snapshot",
+        "url": "https://ia801403.us.archive.org/11/items/Minecraft-JSONs/12w37a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w37a.jar",
+        "releaseTime": "2012-09-13",
+        "time": "2012-09-13",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w36a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w36a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w36a.jar",
+        "releaseTime": "2012-09-06",
+        "time": "2012-09-06",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w34b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w34b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w34b.jar",
+        "releaseTime": "2012-08-24",
+        "time": "2012-08-24",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w34a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w34a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w34a.jar",
+        "releaseTime": "2012-08-23",
+        "time": "2012-08-23",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w32a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w32a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w32a-1532.jar",
+        "releaseTime": "2012-08-09",
+        "time": "2012-08-09",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w30e",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w30e.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w30e.jar",
+        "releaseTime": "2012-07-25",
+        "time": "2012-07-25",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w30d",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w30d.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w30d.jar",
+        "releaseTime": "2012-07-25",
+        "time": "2012-07-25",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w30c",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w30c.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w30c.jar",
+        "releaseTime": "2012-07-24",
+        "time": "2012-07-24",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w30b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w30b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w30b.jar",
+        "releaseTime": "2012-07-23",
+        "time": "2012-07-23",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w30a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w30a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w30a.jar",
+        "releaseTime": "2012-07-23",
+        "time": "2012-07-23",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w27a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w27a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w27a.jar",
+        "releaseTime": "2012-07-05",
+        "time": "2012-07-05",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w26a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w26a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w26a.jar",
+        "releaseTime": "2012-06-27",
+        "time": "2012-06-27",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w25a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w25a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w25a.jar",
+        "releaseTime": "2012-06-21",
+        "time": "2012-06-21",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w24a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w24a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w24a.jar",
+        "releaseTime": "2012-06-14",
+        "time": "2012-06-14",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w23b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w23b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w23b.jar",
+        "releaseTime": "2012-06-07",
+        "time": "2012-06-07",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w23a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w23a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w23a.jar",
+        "releaseTime": "2012-06-07",
+        "time": "2012-06-07",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w22a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w22a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w22a.jar",
+        "releaseTime": "2012-05-31",
+        "time": "2012-05-31",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w21b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w21b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w21b.jar",
+        "releaseTime": "2012-05-25",
+        "time": "2012-05-25",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w21a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w21a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w21a.jar",
+        "releaseTime": "2012-05-24",
+        "time": "2012-05-24",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w19a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w19a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w19a.jar",
+        "releaseTime": "2012-05-10",
+        "time": "2012-05-10",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w18a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w18a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w18a.jar",
+        "releaseTime": "2012-05-03",
+        "time": "2012-05-03",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w17a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w17a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w17a.jar",
+        "releaseTime": "2012-04-26",
+        "time": "2012-04-26",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w16a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w16a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.3/pre/12w16a.jar",
+        "releaseTime": "2012-04-19",
+        "time": "2012-04-19",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.2",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/1.2.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/1.2-pre.jar",
+        "releaseTime": "2012-02-29",
+        "time": "2012-02-29",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w08a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w08a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w08a.jar",
+        "releaseTime": "2012-02-23",
+        "time": "2012-02-23",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w07b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w07b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w07b.jar",
+        "releaseTime": "2012-02-15",
+        "time": "2012-02-15",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w07a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w07a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w07a.jar",
+        "releaseTime": "2012-02-15",
+        "time": "2012-02-15",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w06a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w06a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w06a.jar",
+        "releaseTime": "2012-02-09",
+        "time": "2012-02-09",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w05b",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w05b.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w05b.jar",
+        "releaseTime": "2012-02-03",
+        "time": "2012-02-03",
+        "complianceLevel":0
+    },
+    {
+        "id": "12w05a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w05a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w05a-1442.jar",
+        "releaseTime": "2012-02-02",
+        "time": "2012-02-02",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w04a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w04a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w04a.jar",
+        "releaseTime": "2012-01-26",
+        "time": "2012-01-26",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w03a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w03a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.2/pre/12w03a.jar",
+        "releaseTime": "2012-01-19",
+        "time": "2012-01-19",
+        "complianceLevel": 0
+    },
+    {
+        "id": "12w01a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/12w01a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/12w01a.jar",
+        "releaseTime": "2012-01-05",
+        "time": "2012-01-05",
+        "complianceLevel": 0
+    },
+    {
+        "id": "11w50a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/11w50a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w50a.jar",
+        "releaseTime": "2011-12-15",
+        "time": "2011-12-15",
+        "complianceLevel": 0
+    },
+    {
+        "id": "11w49a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/11w49a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w49a.jar",
+        "releaseTime": "2011-12-08",
+        "time": "2011-12-08",
+        "complianceLevel": 0
+    },
+    {
+        "id": "11w48a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/11w48a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w48a.jar",
+        "releaseTime": "2011-12-01",
+        "time": "2011-12-01",
+        "complianceLevel": 0
+    },
+    {
+        "id": "11w47a",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/11w47a.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w47a.jar",
+        "releaseTime": "2011-11-24",
+        "time": "2011-11-24",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.0.0-rc2-3",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-3/1.0.0-rc2-3.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1656.jar",
+        "releaseTime": "2011-11-14T15:00:00-07:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.0.0-rc2-2",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-2/1.0.0-rc2-2.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1649.jar",
+        "releaseTime": "2011-11-14T00:00:00+00:00",
+        "time": "2019-04-21T21:04:24+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.0.0-rc2-1",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-1/1.0.0-rc2-1.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1633.jar",
+        "releaseTime": "2011-11-13T17:33:00+00:00",
+        "time": "2019-11-21T22:37:45+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.0.0-rc1",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/1.0.0-rc1/1.0.0-rc1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/1.0.0-rc1/1.0.0-rc1.jar",
+        "releaseTime": "2011-11-13T15:00:00-07:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre6",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre6.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre6.jar",
+        "releaseTime": "2011-11-11",
+        "time": "2011-11-11",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre5",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre5.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre5.jar",
+        "releaseTime": "2011-10-27",
+        "time": "2011-10-27",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre4",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre4.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre4-1434.jar",
+        "releaseTime": "2011-10-13",
+        "time": "2011-10-13",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre3",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre3.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre3-1402.jar",
+        "releaseTime": "2011-10-06",
+        "time": "2011-10-06",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre3-1",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/b1.9-pre3-1/b1.9-pre3-1.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre3-1350.jar",
+        "releaseTime": "2011-10-06T00:00:00+02:00",
+        "time": "2013-08-06T14:00:00+03:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre2",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre2.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre2.jar",
+        "releaseTime": "2011-09-29",
+        "time": "2011-09-29",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.9-pre1",
+        "type": "snapshot",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.9-pre1.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre1.jar",
+        "releaseTime": "2011-09-22",
+        "time": "2011-09-22",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.8-pre2",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.8-pre2.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre2.jar",
+        "releaseTime": "2011-09-13",
+        "time": "2011-09-13",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.8-pre1-2",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.8-pre1-2.json",
+        "clientUrl": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre1-091357.jar",
+        "releaseTime": "2011-09-09",
+        "time": "2011-09-09",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.8-pre1-1",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JSONs/b1.8-pre1-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/b1.8-pre1-1/b1.8-pre1-1.jar",
+        "releaseTime": "2011-09-09",
+        "time": "2011-09-09",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.7_01",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/b1.7_01/b1.7_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/b1.7_01/b1.7_01.jar",
+        "releaseTime": "2011-06-30T14:00:00-05:00",
+        "time": "2013-08-06T04:00:00-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.6-tb3",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/b1.6-tb3/b1.6-tb3.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/b1.6-tb3/b1.6-tb3.jar",
+        "releaseTime": "2011-05-24T15:00:00-07:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.4-1",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/b1.4-1/b1.4-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/b1.4-1/b1.4-1.jar",
+        "releaseTime": "2011-03-30T22:00:00+00:00",
+        "time": "2018-07-11T01:30:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.3b",
+        "type": "old_beta",
+        "url": "https://piston-meta.mojang.com/v1/packages/4bb25e224116e7e06e08f0edaea49320b5ecf591/b1.3b.json",
+        "clientUrl": "https://piston-data.mojang.com/v1/objects/e19cfb3a2043f185c44237ef05eac80e8ad2d8e7/client.jar",
+        "releaseTime": "2011-02-21T22:00:00+00:00",
+        "time": "2011-02-21T22:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.3-1",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/b1.3-1/b1.3-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/b1.3-1/b1.3-1.jar",
+        "releaseTime": "2011-02-21T22:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.1-2",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-2/b1.1-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/b1.1-2/b1.1-2.jar",
+        "releaseTime": "2010-12-21T22:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "b1.1-1",
+        "type": "old_beta",
+        "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-1/b1.1-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Beta/b1.1-1/b1.1-1.jar",
+        "releaseTime": "2010-12-21T22:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.2.3_05",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.2.3_05/a1.2.3_05.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.2.3_05/a1.2.3_05.jar",
+        "releaseTime": "2010-11-30T00:00:00+00:00",
+        "time": "2019-03-18T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.2.0",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.2.0/a1.2.0.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.2.0/a1.2.0.jar",
+        "releaseTime": "2010-10-30T00:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.1.1",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.1/a1.1.1%20%28Moresteck%27s%20grey%20screen%20fix%29.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.1/a1.1.1.jar",
+        "releaseTime": "2010-09-18T19:29:56+02:00",
+        "time": "2010-09-18T19:29:56+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.1.0-2",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-2/a1.1.0-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-2/a1.1.0-2.jar",
+        "releaseTime": "2010-09-12T22:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.1.0-1",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-1/a1.1.0-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-1/a1.1.0-1.jar",
+        "releaseTime": "2010-09-10T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.17_03",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.17_03/a1.0.17_03.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.17_03/a1.0.17_03.jar",
+        "releaseTime": "2010-08-23T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.16_02",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_02/a1.0.16_02.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_02/a1.0.16_02.jar",
+        "releaseTime": "2010-08-13T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.16_01",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_01/a1.0.16_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_01/a1.0.16_01.jar",
+        "releaseTime": "2010-08-12T15:00:00-07:00",
+        "time": "2013-08-06T04:00:00-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.14-2",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-2/a1.0.14-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-2/a1.0.14-2.jar",
+        "releaseTime": "2010-07-30T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.14-1",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-1/a1.0.14-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-1/a1.0.14-1.jar",
+        "releaseTime": "2010-07-30T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.13_01-2",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-2/a1.0.13_01-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-2/a1.0.13_01-2.jar",
+        "releaseTime": "2010-07-29T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.13_01-1",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-1/a1.0.13_01-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-1/a1.0.13_01-1.jar",
+        "releaseTime": "2010-07-29T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.13",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13/a1.0.13.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13/a1.0.13.jar",
+        "releaseTime": "2010-07-28T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.12",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.12/a1.0.12.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.12/a1.0.12.jar",
+        "releaseTime": "2010-07-26T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.10",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.10/a1.0.10.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.10/a1.0.10.jar",
+        "releaseTime": "2010-07-22T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.9",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.9/a1.0.9.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.9/a1.0.9.jar",
+        "releaseTime": "2010-07-21T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.8_01",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.8_01/a1.0.8_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.8_01/a1.0.8_01.jar",
+        "releaseTime": "2010-07-19T15:00:00-07:00",
+        "time": "2013-08-06T04:00:00-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.7",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.7/a1.0.7.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.7/a1.0.7.jar",
+        "releaseTime": "2010-07-19T15:00:00-07:00",
+        "time": "2013-08-06T04:00:00-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.6_03",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_03/a1.0.6_03.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_03/a1.0.6_03.jar",
+        "releaseTime": "2010-07-17T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.6_01",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_01/a1.0.6_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_01/a1.0.6_01.jar",
+        "releaseTime": "2010-07-17T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.6",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6/a1.0.6.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6/a1.0.6.jar",
+        "releaseTime": "2010-07-16T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.5",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.5/a1.0.5.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.5/a1.0.5.jar",
+        "releaseTime": "2010-07-13T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.4",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.4/a1.0.4.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.4/a1.0.4.jar",
+        "releaseTime": "2010-07-09T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.3",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.3/a1.0.3.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.3/a1.0.3.jar",
+        "releaseTime": "2010-07-07T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.2_02",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_02/a1.0.2_02.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_02/a1.0.2_02.jar",
+        "releaseTime": "2010-07-06T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.2_01",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_01/a1.0.2_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_01/a1.0.2_01.jar",
+        "releaseTime": "2010-07-06T00:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "a1.0.1_01",
+        "type": "old_alpha",
+        "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.1_01/a1.0.1_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.1_01/a1.0.1_01.jar",
+        "releaseTime": "2010-07-03T22:00:00+00:00",
+        "time": "2017-10-22T05:26:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100630-2",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-2/inf-20100630-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-2/inf-20100630-2.jar",
+        "releaseTime": "2010-06-30T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100630-1",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-1/inf-20100630-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-1/inf-20100630-1.jar",
+        "releaseTime": "2010-06-30T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100629",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100629/inf-20100629.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100629/inf-20100629.jar",
+        "releaseTime": "2010-06-29T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100627",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100627/inf-20100627.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100627/inf-20100627.jar",
+        "releaseTime": "2010-06-27T15:00:00-07:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100625-2",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100625-2/inf-20100625-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100625-2/inf-20100625-2.jar",
+        "releaseTime": "2010-06-25T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100625-1",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100625-1/inf-20100625-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100625-1/inf-20100625-1.jar",
+        "releaseTime": "2010-06-25T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100624",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100624/inf-20100624.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100624/inf-20100624.jar",
+        "releaseTime": "2010-06-24T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100617-3",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100617-3/inf-20100617-3.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100617-3/inf-20100617-3.jar",
+        "releaseTime": "2010-06-17T00:00:00-00:00",
+        "time": "2010-06-17T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100617-2",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100617-2/inf-20100617-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100617-2/inf-20100617-2.jar",
+        "releaseTime": "2010-06-17T00:00:00-00:00",
+        "time": "2010-06-17T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100616",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100616/inf-20100616.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100616/inf-20100616.jar",
+        "releaseTime": "2010-06-16T00:00:00+00:00",
+        "time": "2021-06-26T23:01:15+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100615",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100615/inf-20100615.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100615/inf-20100615.jar",
+        "releaseTime": "2010-06-15T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100611",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100611/inf-20100611.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100611/inf-20100611.jar",
+        "releaseTime": "2010-06-11T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100608",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100608/inf-20100608.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100608/inf-20100608.jar",
+        "releaseTime": "2010-06-08T15:00:00-07:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100607",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100607/inf-20100607.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100607/inf-20100607.jar",
+        "releaseTime": "2010-06-07T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100420",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100420/inf-20100420.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100420/inf-20100420.jar",
+        "releaseTime": "2010-04-20T15:00:00-07:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100415",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100415/inf-20100415.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100415/inf-20100415.jar",
+        "releaseTime": "2010-04-15T15:00:00-07:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100414",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100414/inf-20100414.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100414/inf-20100414.jar",
+        "releaseTime": "2010-04-14T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100413",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100413/inf-20100413.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100413/inf-20100413.jar",
+        "releaseTime": "2010-04-13T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100330",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100330/inf-20100330.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100330/inf-20100330.jar",
+        "releaseTime": "2010-03-30T00:00:00-00:00",
+        "time": "2010-03-30T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100327",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100327/inf-20100327.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100327/inf-20100327.jar",
+        "releaseTime": "2010-03-27T00:00:00-00:00",
+        "time": "2010-03-27T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100325",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100325/inf-20100325.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100325/inf-20100325.jar",
+        "releaseTime": "2010-03-25T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100321",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100321/inf-20100321.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100321/inf-20100321.jar",
+        "releaseTime": "2010-03-21T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100320",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100320/inf-20100320.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100320/inf-20100320.jar",
+        "releaseTime": "2010-03-20T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100316",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100316/inf-20100316.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100316/inf-20100316.jar",
+        "releaseTime": "2010-03-16T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100313",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100313/inf-20100313.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100313/inf-20100313.jar",
+        "releaseTime": "2010-03-13T00:00:00-00:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "inf-20100227",
+        "type": "infdev",
+        "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100227/inf-20100227.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100227/inf-20100227.jar",
+        "releaseTime": "2010-02-27T15:00:00-07:00",
+        "time": "2015-04-13T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100223",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100223/in-20100223.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100223/in-20100223.jar",
+        "releaseTime": "2010-02-23T15:00:00-07:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100219",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100219/in-20100219.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100219/in-20100219.jar",
+        "releaseTime": "2010-02-19T00:00:00+00:00",
+        "time": "2017-10-24T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100218",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100218/in-20100218.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100218/in-20100218.jar",
+        "releaseTime": "2010-02-18T00:00:00+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    
+    },
+    {
+        "id": "in-20100214-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-2/in-20100214-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-2/in-20100214-2.jar",
+        "releaseTime": "2010-02-14T00:00:01+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100214-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-1/in-20100214-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-1/in-20100214-1.jar",
+        "releaseTime": "2010-02-14T00:00:00+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100212-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-2/in-20100212-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-2/in-20100212-2.jar",
+        "releaseTime": "2010-02-12T00:00:01+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100212-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-1/in-20100212-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-1/in-20100212-1.jar",
+        "releaseTime": "2010-02-12T00:00:00+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100207-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-2/in-20100207-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-2/in-20100207-2.jar",
+        "releaseTime": "2010-02-07T00:00:01+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100207-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-1/in-20100207-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-1/in-20100207-1.jar",
+        "releaseTime": "2010-02-07T00:00:00+00:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100206-2103",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100206-2103/in-20100206-2103.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100206-2103/in-20100206-2103.jar",
+        "releaseTime": "2010-02-06T21:03:00+00:00",
+        "time": "2020-10-14T18:51:02+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100203",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100203/in-20100203.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100203/in-20100203.jar",
+        "releaseTime": "2010-02-03T00:30:00+02:00",
+        "time": "2017-09-20T19:21:48+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100201-3",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-3/in-20100201-3.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-3/in-20100201-3.jar",
+        "releaseTime": "2010-02-01T00:00:00+00:00",
+        "time": "2017-09-20T19:21:48+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100201-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-2/in-20100201-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-2/in-20100201-2.jar",
+        "releaseTime": "2010-02-01T00:00:00+00:00",
+        "time": "2017-09-20T19:21:48+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100201-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-1/in-20100201-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-1/in-20100201-1.jar",
+        "releaseTime": "2010-02-01T00:00:00+00:00",
+        "time": "2017-09-20T19:21:48+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100130",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100130/in-20100130.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100130/in-20100130.jar",
+        "releaseTime": "2010-01-30T00:00:00-00:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100129",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100129/in-20100129.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100129/in-20100129.jar",
+        "releaseTime": "2010-01-29T00:00:00-00:00",
+        "time": "2010-01-29T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100128-2304",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100128-2304/in-20100128-2304.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100128-2304/in-20100128-2304.jar",
+        "releaseTime": "2010-01-28T23:04:00-00:00",
+        "time": "2010-01-28T23:04:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100125-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-2/in-20100125-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-2/in-20100125-2.jar",
+        "releaseTime": "2010-01-25T15:00:01-07:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100125-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-1/in-20100125-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-1/in-20100125-1.jar",
+        "releaseTime": "2010-01-25T15:00:00-07:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20100105",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100105/in-20100105.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100105/in-20100105.jar",
+        "releaseTime": "2010-01-05T00:00:00-00:00",
+        "time": "2013-08-06T07:33:30-07:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20091231-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20091231-2/in-20091231-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20091231-2/in-20091231-2.jar",
+        "releaseTime": "2009-12-31T23:55:00+00:00",
+        "time": "2021-06-26T22:48:05+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "in-20091223-2",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20091223-2/in-20091223-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20091223-2/in-20091223-2.jar",
+        "releaseTime": "2009-12-23T00:00:00-00:00",
+        "time": "2009-12-23T00:00:00-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.29_02",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.29_02/c0.29_02.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.29_02/c0.29_02.jar",
+        "releaseTime": "2009-10-30T00:00:00+00:00",
+        "time": "2017-09-20T03:05:00+01:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.29_01",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.29_01/c0.29_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.29_01/c0.29_01.jar",
+        "releaseTime": "2009-10-29T00:00:00+00:00",
+        "time": "2021-06-26T12:16:50+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.28_01",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.28_01/c0.28_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.28_01/c0.28_01.jar",
+        "releaseTime": "2009-10-27T00:00:00+00:00",
+        "time": "2017-20-09T03:19:48+01:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.30-2",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.30-2/c0.30-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.30-2/c0.30-2.jar",
+        "releaseTime": "2009-11-10T00:00:01+02:00",
+        "time": "2013-08-06T17:33:30+03:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.30-1",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.30-1/c0.30-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.30-1/c0.30-1.jar",
+        "releaseTime": "2009-11-10T00:00:00+02:00",
+        "time": "2013-08-06T17:33:30+03:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.27_st",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.27_st/c0.27_st.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.27_st/c0.27_st.jar",
+        "releaseTime": "2009-10-24T00:00:00+00:00",
+        "time": "2017-09-17T16:33:30+02:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.25_05_st",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.25_05_st/c0.25_05_st.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.25_05_st/c0.25_05_st.jar",
+        "releaseTime": "2009-09-03T00:00:00+00:00",
+        "time": "2009-09-03T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.24_st_03",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.24_st_03/c0.24_st_03.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.24_st_03/c0.24_st_03.jar",
+        "releaseTime": "2009-09-01T00:00:00+00:00",
+        "time": "2009-09-01T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.23a_01",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.23a_01/c0.0.23a_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.23a_01/c0.0.23a_01.jar",
+        "releaseTime": "2009-05-28T23:11:11+01:00",
+        "time": "2013-08-06T15:33:30+01:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.22a_05",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.22a_05/c0.0.22a_05.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.22a_05/c0.0.22a_05.jar",
+        "releaseTime": "2009-06-30T00:00:00+00:00",
+        "time": "2009-06-30T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.21a",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.21a/c0.0.21a.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.21a/c0.0.21a.jar",
+        "releaseTime": "2009-06-22T23:11:11+01:00",
+        "time": "2017-09-20T03:12:34+01:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.20a_01",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.20a_01/c0.0.20a_01.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.20a_01/c0.0.20a_01.jar",
+        "releaseTime": "2009-06-20T23:10:00+00:00",
+        "time": "2020-10-14T23:51:10+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.19a_06-2",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.19a_06-2/c0.0.19a_06-2.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.19a_06-2/c0.0.19a_06-2.jar",
+        "releaseTime": "2009-06-20T01:37:00-00:00",
+        "time": "2020-10-17T19:47:58-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.18a_02",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.18a_02/c0.0.18a_02.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.18a_02/c0.0.18a_02.jar",
+        "releaseTime": "2009-06-14T10:53:00-00:00",
+        "time": "2020-10-15T18:45:15-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.17a",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.17a/c0.0.17a.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.17a/c0.0.17a.jar",
+        "releaseTime": "2009-06-10T20:14:00-00:00",
+        "time": "2021-04-17T21:49:29-00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.16a_02",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.16a_02/c0.0.16a_02.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.16a_02/c0.0.16a_02.jar",
+        "releaseTime": "2009-06-08T12:47:00+00:00",
+        "time": "2019-10-20T21:42:41+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.15a-1",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JSONs/c0.0.15a-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.15a-1/c0.0.15a-1.jar",
+        "releaseTime": "2009-05-31",
+        "time": "2009-05-31",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.14a_08",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.14a_08/c0.0.14a_08.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.14a_08/c0.0.14a_08.jar",
+        "releaseTime": "2009-05-28T22:37:00+00:00",
+        "time": "2019-10-20T21:41:28+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.13a_03",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.13a_03/c0.0.13a_03.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.13a_03/c0.0.13a_03.jar",
+        "releaseTime": "2009-05-22T22:00:00+00:00",
+        "time": "2016-02-02T15:37:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "c0.0.12a_03",
+        "type": "classic",
+        "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.12a_03/c0.0.12a_03.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Classic/c0.0.12a_03/c0.0.12a_03.jar",
+        "releaseTime": "2009-05-20T00:00:00-00:00",
+        "time": "2021-04-26T19:18:00-00:00",
+        "complianceLevel": 0
+    }
+]

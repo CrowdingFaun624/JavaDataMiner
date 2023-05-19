@@ -1,0 +1,7 @@
+_assets
+_assets_storage
+_comparisons
+_search
+_versions
+*__pycache__
+*.pyc
