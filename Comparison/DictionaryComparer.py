@@ -18,9 +18,9 @@ class DictionaryComparer(DataComparer.DataComparer):
             if not isinstance(key, (str, int, float, bool)): raise TypeError("Key is not a valid type!")
             if not isinstance(value, (str, int, float, bool, D.Difference)): raise TypeError("Dictionary is not shallow!")
             if not isinstance(value, D.Difference): continue
-            if value.type == D.ADD: additions.append((key, value))
-            elif value.type == D.CHANGE: changes.append((key, value))
-            elif value.type == D.REMOVE: removals.append((key, value))
+            if value.is_addition(): additions.append((key, value))
+            elif value.is_change(): changes.append((key, value))
+            elif value.is_removal(): removals.append((key, value))
             output = ""
             for key, value in additions: output += self.add_message % (json.dumps(key), json.dumps(value.new))
             for key, value in changes: output += self.change_message % (json.dumps(key), json.dumps(value.old), json.dumps(value.new))

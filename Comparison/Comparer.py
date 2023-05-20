@@ -4,7 +4,7 @@ except ModuleNotFoundError:
     import Difference as D
 
 def compare_simple(old:any, new:any) -> D.Difference:
-    return D.Difference(D.CHANGE, old, new)
+    return D.Difference("c", old, new)
 
 def compare_dict(old:dict, new:dict) -> dict:
     additions = {}
@@ -12,10 +12,10 @@ def compare_dict(old:dict, new:dict) -> dict:
     removals = {}
     for new_key, new_value in list(new.items()):
         if new_key not in old.keys():
-            additions[new_key] = D.Difference(D.ADD, None, new_value)
+            additions[new_key] = D.Difference("a", None, new_value)
     for old_key, old_value in list(old.items()):
         if old_key not in new.keys():
-            removals[old_key] = D.Difference(D.REMOVE, old_value, None)
+            removals[old_key] = D.Difference("r", old_value, None)
     for key in list(new.keys()):
         if key not in old: continue
         if new[key] != old[key]:
@@ -45,10 +45,10 @@ def compare_set(old:set, new:set) -> set:
     removals = set()
     for new_item in new:
         if new_item not in old:
-            additions.add(D.Difference(D.ADD, None, new_item))
+            additions.add(D.Difference("a", None, new_item))
     for old_item in old:
         if old_item not in new:
-            removals.add(D.Difference(D.REMOVE, old_item, None))
+            removals.add(D.Difference("r", old_item, None))
     final = new.copy()
     final.update(additions)
     final.update(removals)

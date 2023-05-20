@@ -71,11 +71,11 @@ def get_table(comparison:dict, subtitles_comparison:dict[str,str|D.Difference]) 
     rows:list[str] = []
     for sound_event_name, sound_event_content in list(comparison.items()):
         if isinstance(sound_event_content, D.Difference):
-            if sound_event_content.type == D.CHANGE:
+            if sound_event_content.is_change():
                 raise ValueError("A sound event has a type of D.CHANGE, which should not happen!")
-            elif sound_event_content.type == D.ADD:
+            elif sound_event_content.is_addition():
                 rows.append(get_row(sound_event_name, sound_event_content.new, subtitles_comparison, event_append=UPCOMING))
-            elif sound_event_content.type == D.REMOVE:
+            elif sound_event_content.is_removal():
                 rows.append(get_row(sound_event_name, sound_event_content.old, subtitles_comparison, event_append=UNTIL))
         else:
             rows.append(get_row(sound_event_name, sound_event_content, subtitles_comparison))
@@ -97,11 +97,11 @@ def get_subtitle_key_column(sound_event_content:dict[str,str]) -> str:
         if "subtitle" not in sound_event_content: return ""
         subtitle = sound_event_content["subtitle"]
         if isinstance(subtitle, D.Difference):
-            if subtitle.type == D.CHANGE:
+            if subtitle.is_change():
                 return CHANGE_BR % (subtitle.old, subtitle.new)
-            elif subtitle.type == D.ADD:
+            elif subtitle.is_addition():
                 return ADD % subtitle.new
-            elif subtitle.type == D.REMOVE:
+            elif subtitle.is_removal():
                 return REMOVE % subtitle.old
         else: return subtitle
 
@@ -125,20 +125,20 @@ def get_subtitle_value_column(sound_event_content:dict[str,str], subtitles_compa
             subtitle_key_new = subtitle_key.new
             subtitle_value_old = get_subtitle(subtitle_key_old, "old")
             subtitle_value_new = get_subtitle(subtitle_key_new, "new")
-            if subtitle_key.type == D.CHANGE:
+            if subtitle_key.is_change():
                 return CHANGE_BR % (subtitle_value_old, subtitle_value_new)
-            elif subtitle_key.type == D.ADD:
+            elif subtitle_key.is_addition():
                 return ADD % subtitle_value_new
-            elif subtitle_key.type == D.REMOVE:
+            elif subtitle_key.is_removal():
                 return REMOVE % subtitle_value_old
         else:
             subtitle_value = get_subtitle(subtitle_key)
             if isinstance(subtitle_value, D.Difference):
-                if subtitle_value.type == D.CHANGE:
+                if subtitle_value.is_change():
                     return CHANGE_BR % (subtitle_value.old, subtitle_value.new)
-                elif subtitle_value.type == D.ADD:
+                elif subtitle_value.is_addition():
                     return ADD % subtitle_value.new
-                elif subtitle_value.type == D.REMOVE:
+                elif subtitle_value.is_removal():
                     return REMOVE % subtitle_value.old
             else: return subtitle_value
 
@@ -147,11 +147,11 @@ def get_sound_column(sounds:dict[str,dict[str,str|bool|float|int]]) -> str:
     sounds_strings = []
     for sound_name, sound_content in list(sounds.items()):
         if isinstance(sound_content, D.Difference):
-            if sound_content.type == D.CHANGE:
+            if sound_content.is_change():
                 raise ValueError("A sound has a type of D.CHANGE, which should not happen!")
-            elif sound_content.type == D.ADD:
+            elif sound_content.is_addition():
                 sounds_strings.append(get_sound_vars(sound_name, sound_content.new, sound_append=UPCOMING))
-            elif sound_content.type == D.REMOVE:
+            elif sound_content.is_removal():
                 sounds_strings.append(get_sound_vars(sound_name, sound_content.old, sound_append=UNTIL))
         else:
             sounds_strings.append(get_sound_vars(sound_name, sound_content))
@@ -168,11 +168,11 @@ def get_sound_vars(sound_name:str, sound_content:dict[str,str|bool|float|int], s
     variables = [true_sound_name + sound_append]
     for var_name, var_value in list(sound_content.items()):
         if isinstance(var_value, D.Difference):
-            if var_value.type == D.CHANGE:
+            if var_value.is_change():
                 value = CHANGE % (var_value.old, var_value.new)
-            elif var_value.type == D.ADD:
+            elif var_value.is_addition():
                 value = ADD % var_value.new
-            elif var_value.type == D.REMOVE:
+            elif var_value.is_removal():
                 value = REMOVE % var_value.old
         else:
             value = var_value

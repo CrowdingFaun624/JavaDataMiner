@@ -5,15 +5,17 @@ import DataMiners.DataMiner as DataMiner
 import DataMiners.DataMiners as DataMiners
 
 import Comparison.DataComparer as DataComparer
+import Comparison.DataMiners.BlocksComparer as BlocksComparer
 import Comparison.DataMiners.SoundTypeBlocksComparer as SoundTypeBlocksComparer
+import Comparison.DataMiners.SoundTypeComparer as SoundTypeComparer
 import Comparison.ListComparer as ListComparer
 import Comparison.DictionaryComparer as DictionaryComparer
 
 all_comparers:dict[str,DataComparer.DataComparer] = {
-    "blocks": None,
+    "blocks": BlocksComparer.BlocksComparer,
     "language": DictionaryComparer.DictionaryComparer,
     "sound_events": DictionaryComparer.DictionaryComparer,
-    "sound_type": None,
+    "sound_type": SoundTypeComparer.SoundTypeComparer,
     "sound_type_blocks": SoundTypeBlocksComparer.SoundTypeBlocksComparer,
     "subtitles": DictionaryComparer.DictionaryComparer
 }

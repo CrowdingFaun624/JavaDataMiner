@@ -16,9 +16,9 @@ class ListComparer(DataComparer.DataComparer):
         removals:list[tuple[int,D.Difference]] = []
         for index, value in enumerate(comparison):
             if not isinstance(value, D.Difference): continue
-            if value.type == D.ADD: additions.append((index, value))
-            elif value.type == D.CHANGE: changes.append((index, value))
-            elif value.type == D.REMOVE: removals.append((index, value))
+            if value.is_addition(): additions.append((index, value))
+            elif value.is_change(): changes.append((index, value))
+            elif value.is_removal(): removals.append((index, value))
         output = ""
         for index, value in additions: output += self.add_message % (index, json.dumps(value.new, indent=2))
         for index, value in changes: output += self.change_message % (index, json.dumps(value.old, indent=2), json.dumps(value.new, indent=2))

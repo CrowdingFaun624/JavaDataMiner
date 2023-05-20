@@ -1,5 +1,3 @@
-import json
-
 import Comparison.DataComparer as DataComparer
 import Comparison.Difference as D
 
@@ -28,21 +26,21 @@ class SoundTypeBlocksComparer(DataComparer.DataComparer):
         type_removals:dict[str,list[str]] = {}
         for type_name, type_content in list(comparison.items()):
             if isinstance(type_content, D.Difference):
-                if type_content.type == D.CHANGE:
+                if type_content.is_change():
                     raise ValueError("Type should not be change!")
-                elif type_content.type == D.ADD:
+                elif type_content.is_addition():
                     output += self.add_message % type_name, self.get_blocks_string(type_content.new)
-                elif type_content.type == D.REMOVE:
+                elif type_content.is_removal():
                     output += self.remove_message % type_name
             else:
                 for block in type_content:
                     if not isinstance(block, D.Difference): continue
-                    if block.type == D.CHANGE:
+                    if block.is_change():
                         raise ValueError("Sets should not have changes!")
-                    elif block.type == D.ADD:
+                    elif block.is_addition():
                         if type_name not in type_additions: type_additions[type_name] = []
                         type_additions[type_name].append(block.new)
-                    elif block.type == D.REMOVE:
+                    elif block.is_removal():
                         if type_name not in type_removals: type_removals[type_name] = []
                         type_removals[type_name].append(block.old)
         if len(type_additions) > 0:
