@@ -10,18 +10,13 @@ import Utilities.Installer as Installer
 import Utilities.Searcher as Searcher
 import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 
-# sound_events_dataminer = DataMiners.get_dataminer("1.19.3", DataMiners.sound_events)
-# 
-# sound_events_dataminer.activate("1.19.3")
-
 Manifest.fetch_manifest(store=True)
 # import sys; sys.exit()
 version = Manifest.get_latest()[1] # latest snapshot
 
 Installer.install(version, True)
 
-if not os.path.exists("./_versions/%s/client_decompiled" % version):
-    Decompiler.decompile(version, "client")
+Decompiler.get_decompiled_client(version)
 
 if not os.path.exists("./_versions/%s/data" % version):
     DataMiners.run_all(version)
@@ -30,7 +25,7 @@ if not os.path.exists("./_versions/%s/data" % version):
 
 search_versions = [version, Manifest.get_id_version(Manifest.get_version_id(version)-1)]
 
-print(search_versions)
+# print(search_versions)
 Searcher.clear_search()
 for search_version in search_versions:
     Searcher.search(search_version, "client", ["sound", "Sound", "SOUND"], output_path=search_version, suppress_clear=True)

@@ -10,17 +10,11 @@ import Importer.WebRequest as WebRequest
 
 def fetch_client(version:str) -> None:
     '''Fetches the client using the version name'''
-    version_json = VersionJson.get_version_json(version)
-    url = version_json["downloads"]["client"]["url"]
-    with open("./_versions/%s/client.jar" % version, "wb") as f:
-        f.write(WebRequest.web_request(url, "b"))
+    fetch(version, "client")
 
 def fetch_server(version:str) -> None:
     '''Fetches the server using the version name'''
-    version_json = VersionJson.get_version_json(version)
-    url = version_json["downloads"]["server"]["url"]
-    with open("./_versions/%s/server.jar" % version, "wb") as f:
-        f.write(WebRequest.web_request(url, "b"))
+    fetch(version, "server")
 
 def fetch_unzipped_client(version:str) -> None:
     '''Unzips the version's client jar'''
@@ -54,9 +48,12 @@ def get_unzipped(version:str, side:str) -> None:
 
 def fetch(version:str, side:str) -> None:
     '''Fetches the file based on the side using the version name'''
-    if side == "client": fetch_client(version)
-    elif side == "server": fetch_server(version)
-    else: raise ValueError("%s is not a valid side!" % side)
+    version_json = VersionJson.get_version_json(version)
+    if "downloads" in version_json and side in version_json["downloads"]:
+        url = version_json["downloads"][side]["url"]
+    else: raise KeyError("Could not find the %s's url of version \"%s\"!" % (side, version))
+    with open("./_versions/%s/%s.jar" % (version, side), "wb") as f:
+        f.write(WebRequest.web_request(url, "b"))
 
 def main() -> None:
     '''Asks what version to fetch'''

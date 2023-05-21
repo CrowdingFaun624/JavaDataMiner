@@ -2,6 +2,7 @@ import Comparison.Comparers as Comparers
 import DataMiners.DataMiners as DataMiners
 import Importer.JarImporter as JarImporter
 import Utilities.AssetsStorage as AssetsStorage
+import Utilities.DecompileZipper as DecompileZipper
 import Utilities.MappingCondenser as MappingCondenser
 import Utilities.PlaylistAssembler as PlaylistAssembler
 import Utilities.Searcher as Searcher
@@ -12,6 +13,7 @@ if __name__ == "__main__":
         "AssetsStorage": AssetsStorage.main,
         "Comparers": Comparers.main,
         "DataMiners": DataMiners.main,
+        "DecompileZipper": DecompileZipper.main,
         "JarImporter": JarImporter.main,
         "MappingCondenser": MappingCondenser.main,
         "PlaylistAssembler": PlaylistAssembler.main,

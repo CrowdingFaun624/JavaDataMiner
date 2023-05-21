@@ -2,6 +2,7 @@
 
 import os
 import subprocess
+import zipfile
 
 import Importer.JarRemapper as JarRemapper
 
@@ -24,6 +25,23 @@ def decompile(version:str, side:str):
                     ], check=True, capture_output=False)
     os.remove(jar_path)
     os.remove(os.path.join(output_path, "summary.txt"))
+
+def get_decompiled(version:str, side:str="client") -> None:
+    '''Decompiles the given version's client or unzips an archive if available'''
+    zip_path = os.path.join("./_versions", version, "%s_decompiled.zip" % side)
+    dest_path = os.path.join("./_versions", version, "%s_decompiled" % side)
+    if os.path.exists(dest_path): return
+    if os.path.exists(zip_path):
+        with zipfile.ZipFile(zip_path) as zip_file:
+            zip_file.extractall(dest_path)
+    else:
+        decompile(version, side)
+
+def get_decompiled_client(version:str) -> None:
+    get_decompiled(version, "client")
+
+def get_decompiled_server(version:str) -> None:
+    get_decompiled(version, "server")
 
 def decompile_client(version:str) -> None:
     '''Decompiles the given version's client'''

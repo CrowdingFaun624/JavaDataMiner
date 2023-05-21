@@ -3,6 +3,10 @@
 import os
 import shutil
 
+try:
+    import Importer.Decompiler as Decompiler
+except ImportError: pass
+
 def clear_search() -> None:
     '''Clears the contents of the "_search" folder'''
     file_list = os.listdir("./_search")
@@ -67,13 +71,14 @@ def full_path(version:str, side:str, file_path:str) -> str:
         raise FileNotFoundError("file \"%s\" does not exist in %s's %s!" % (file_path, version, side))
     return path
 
-def search(version:str, side:str, terms:list[str], keywords:set[str]=None, additional_path:str="/", output_path:str="", suppress_clear:bool=False) -> list[str]:
+def search(version:str, side:str, terms:list[str], keywords:set[str]=None, additional_path:str="/", output_path:str="", actually_copy_files:bool=False, suppress_clear:bool=False, allow_decompile:bool=False) -> list[str]:
     '''Searches through a version's decompiled content to search for files containg the terms, with the keywords. Modify `output_path` to make subfolders of "_search".
-    Will return items such as "/net/minecraft/world/entity/monster/Evoker.java.
+    Will return items such as "net/minecraft/world/entity/monster/Evoker.java.
     Modifiers can be attached to terms using colons, such as "only:file:SoundEvents.java". Here is a list of them, and their functions:
     * `not`: returns the opposite of normal
     * `only`: returns if the content exactly matches the term, instead of just containing it
     * `file`: uses the file name instead of the file contents.'''
+    if allow_decompile and not os.path.exists(os.path.join("./_versions", version, "%s_decompiled" % side)): Decompiler.get_decompiled(version, side)
     if keywords is None: keywords = set()
     if additional_path == "/" and not suppress_clear: clear_search() # if it's the top iteration
     if not output_path.startswith("/"): output_path = "/" + output_path
@@ -81,19 +86,21 @@ def search(version:str, side:str, terms:list[str], keywords:set[str]=None, addit
     if side not in ("client", "server"): raise ValueError("Side \"%s\" is not a valid side!")
     if not os.path.exists(path): raise FileNotFoundError("Version \"%s\"'s %s does not exist!" % (version, side))
     file_list = os.listdir(path)
-    output = []
+    output:list[str] = []
     for file in file_list:
         file_path = path + file # ./versions/1.19.3/client_decompiled/net/file.java
         cut_path = additional_path + file # such as /net/file.java
         if os.path.isdir(file_path):
-            output.extend(search(version, side, terms, keywords, additional_path + file + "/", output_path))
+            output.extend(search(version, side, terms, keywords, additional_path + file + "/", output_path, actually_copy_files, suppress_clear, allow_decompile))
         elif os.path.isfile(file_path):
             if is_in(file_path, terms, keywords):
                 output.append(additional_path + file)
-                copy_path = "./_search" + output_path + cut_path
-                os.makedirs(os.path.split(copy_path)[0], exist_ok=True)
-                shutil.copy(file_path, copy_path)
-    return output
+                if actually_copy_files:
+                    copy_path = "./_search" + output_path + cut_path
+                    os.makedirs(os.path.split(copy_path)[0], exist_ok=True)
+                    shutil.copy(file_path, copy_path)
+    output2:list[str] = [path[1:] if path.startswith("/") else path for path in output] # prevent absolute paths starting with "/"
+    return output2
         
 def main() -> None:
     possible_versions = os.listdir("./_versions")

@@ -17,10 +17,12 @@ all_dataminers = {
     "subtitles": Subtitles.dataminers
 }
 
-def run_all(version:str) -> None:
+def run_all(version:str, error_on_none:bool=False) -> None:
     for name, dataminers in list(all_dataminers.items()):
         dataminer = DataMiner.get_dataminer(version, dataminers)
-        if dataminer is None: continue
+        if dataminer is None:
+            if error_on_none: raise KeyError("DataMiner %s for version %s does not exist!" % (name, version))
+            else: continue
         dataminer.activate(version)
 
 def main() -> None:

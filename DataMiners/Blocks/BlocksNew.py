@@ -32,7 +32,7 @@ class BlocksNew(DataMiner.DataMiner):
 
     def search(self, version:str) -> str:
         '''Returns the file path of the desired file.'''
-        blocks_files = Searcher.search(version, "client", ["only:file:Blocks.java"])
+        blocks_files = Searcher.search(version, "client", ["only:file:Blocks.java"], allow_decompile=True)
         if len(blocks_files) > 1:
             print("\n".join(blocks_files))
             raise FileExistsError("Too many Blocks files found for %s" % version)
@@ -43,7 +43,7 @@ class BlocksNew(DataMiner.DataMiner):
     
     def search_woodtype(self, version:str) -> str:
         '''Returns the path of the WoodType file.'''
-        woodtype_files = Searcher.search(version, "client", ["only:file:WoodType.java"], suppress_clear=True)
+        woodtype_files = Searcher.search(version, "client", ["only:file:WoodType.java"], suppress_clear=True, allow_decompile=True)
         if len(woodtype_files) > 1:
             print("\n".join(woodtype_files))
             raise FileExistsError("Too many WoodType files found for %s" % version)
@@ -54,7 +54,7 @@ class BlocksNew(DataMiner.DataMiner):
 
     def search_blocksettype(self, version:str) -> str:
         '''Returns the path of the BlockSetType file.'''
-        blocksettype_files = Searcher.search(version, "client", ["only:file:BlockSetType.java"], suppress_clear=True)
+        blocksettype_files = Searcher.search(version, "client", ["only:file:BlockSetType.java"], suppress_clear=True, allow_decompile=True)
         if len(blocksettype_files) > 1:
             print("\n".join(blocksettype_files))
             raise FileExistsError("Too many BlockSetType files found for %s" % version)
@@ -179,7 +179,7 @@ class BlocksNew(DataMiner.DataMiner):
         WOODTYPE_START = "    public static final WoodType "
         WOODTYPE_END = "    }"
         woodtype_file = self.search_woodtype(version)
-        with open("./_search" + woodtype_file, "rt") as f:
+        with open(os.path.join("./_versions", version, "client_decompiled", woodtype_file), "rt") as f:
             lines = f.readlines()
         
         defaults = []
@@ -217,7 +217,7 @@ class BlocksNew(DataMiner.DataMiner):
         BLOCKSETTYPE_END = "    }"
         BLOCKSETTYPE_INDICATOR = "    public static final BlockSetType "
         blocksettype_file = self.search_blocksettype(version)
-        with open("./_search" + blocksettype_file, "rt") as f:
+        with open(os.path.join("./_versions", version, "client_decompiled", blocksettype_file), "rt") as f:
             lines = f.readlines()
         
         recording = False
@@ -367,7 +367,8 @@ class BlocksNew(DataMiner.DataMiner):
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)
-        with open("./_search"+blocks_file, "rt") as f:
+        #print(blocks_file, os.path.join("./_versions", version, "client_decompiled", blocks_file), "\"" + os.path.join("./_versions", version, "client_decompiled") + "\"")
+        with open(os.path.join("./_versions", version, "client_decompiled", blocks_file), "rt") as f:
             blocks_file_contents = f.readlines()
         blocks = self.analyze(blocks_file_contents, version)
         if store: self.store(version, blocks, "blocks.json")

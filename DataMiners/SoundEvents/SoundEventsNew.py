@@ -1,3 +1,5 @@
+import os
+
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
@@ -5,7 +7,7 @@ class SoundEventsNew(DataMiner.DataMiner):
     '''Returns a list of sound events in the provided version.'''
     def search(self, version:str) -> str:
         '''Returns the file path of the desired file.'''
-        sound_events_file:list[str] = Searcher.search(version, "client", ["only:file:SoundEvents.java"])
+        sound_events_file:list[str] = Searcher.search(version, "client", ["only:file:SoundEvents.java"], allow_decompile=True)
         if len(sound_events_file) > 1:
             print("\n".join(sound_events_file))
             raise FileExistsError("Too many files SoundEvents files found for %s" % version)
@@ -25,9 +27,10 @@ class SoundEventsNew(DataMiner.DataMiner):
         START_SOUND_EVENTS = "public class SoundEvents {"
         END_SOUND_EVENTS = ""
         MULTI_EVENT_LENGTH = "    public static final int "
-        MULTI_EVENT_DECLARER = "    public static final ImmutableList<Holder.Reference<SoundEvent>> "
+        MULTI_EVENT_DECLARER1 = "    public static final ImmutableList<Holder.Reference<SoundEvent>> "
+        MULTI_EVENT_DECLARER2 = "    public static final ImmutableList<SoundEvent> " # used before about 22w45a
         VALID_EVENT_STARTS = ["    public static final SoundEvent ", "    public static final Holder.Reference<SoundEvent> "]
-        VALID_ALTERNATE_STARTS = [MULTI_EVENT_LENGTH, MULTI_EVENT_DECLARER]
+        VALID_ALTERNATE_STARTS = [MULTI_EVENT_LENGTH, MULTI_EVENT_DECLARER1, MULTI_EVENT_DECLARER2]
         FUNCTION_START = "    private "
 
         multi_length = None
@@ -58,7 +61,7 @@ class SoundEventsNew(DataMiner.DataMiner):
                     if line.startswith(MULTI_EVENT_LENGTH):
                         multi_length = int(line.split(" ")[-1].replace(";", ""))
                         multi_length_name = line.split(" ")[-3].replace("_VARIANT_COUNT", "")
-                    elif line.startswith(MULTI_EVENT_DECLARER):
+                    elif line.startswith(MULTI_EVENT_DECLARER1) or line.startswith(MULTI_EVENT_DECLARER2):
                         if multi_length is None: raise ValueError("Out of order multi-events declaration and length declaration!")
                         function_name = line.split(".")[-1].replace("();", "")
                         category_name = line.split(" ")[-3].replace("_SOUND_VARIANTS", "")
@@ -87,9 +90,8 @@ class SoundEventsNew(DataMiner.DataMiner):
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         sound_events_file = self.search(version)
-        with open("./_search"+sound_events_file, "rt") as f:
+        with open(os.path.join("./_versions", version, "client_decompiled", sound_events_file), "rt") as f:
             sound_events_file_contents = f.readlines()
         sound_events = self.analyze(sound_events_file_contents)
         if store: self.store(version, sound_events, "sound_events.json")
         return sound_events
-

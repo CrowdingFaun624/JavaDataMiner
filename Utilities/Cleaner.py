@@ -80,6 +80,16 @@ def sort_dict(input_dict:dict) -> dict:
     output = dict(output)
     return output
 
+def clear_incomplete_decompiles(versions:list[str]=None) -> None:
+    '''Removes decompiled client and servers that contain summary.txt'''
+    if versions is None: versions = os.listdir("./_versions")
+    for version in versions:
+        if not os.path.isdir("./_versions/%s" % version): continue
+        if os.path.exists("./_versions/%s/client_decompiled/summary.txt" % version):
+            shutil.rmtree("./_versions/%s/client_decompiled" % version)
+        if os.path.exists("./_versions/%s/server_decompiled/summary.txt" % version):
+            shutil.rmtree("./_versions/%s/server_decompiled" % version)
+
 def estimate_sizes(print_data:bool=True) -> dict[str,int]:
     def get_size(path:str) -> int:
         if os.path.isfile(path): return os.path.getsize(path)
@@ -121,6 +131,7 @@ def main() -> None:
         "clear_compressed_mappings": clear_compressed_mappings,
         "clear_empty_folders": clear_empty_folders,
         "clear_extremely_trivial_data": clear_extremely_trivial_data,
+        "clear_incomplete_decompiles": clear_incomplete_decompiles,
         "clear_mappings": clear_mappings,
         "clear_mappings_tsrg": clear_mappings_tsrg,
         "clear_trivial_data": clear_trivial_data,

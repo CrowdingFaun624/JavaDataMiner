@@ -1,10 +1,12 @@
+import os
+
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
 class SoundTypeNew(DataMiner.DataMiner):
     def search(self, version:str) -> str:
         '''Returns the file path of the desired file.'''
-        sound_events_file:list[str] = Searcher.search(version, "client", ["only:file:SoundType.java"])
+        sound_events_file:list[str] = Searcher.search(version, "client", ["only:file:SoundType.java"], allow_decompile=True)
         if len(sound_events_file) > 1:
             print("\n".join(sound_events_file))
             raise FileExistsError("Too many files SoundEvents files found for %s" % version)
@@ -56,7 +58,7 @@ class SoundTypeNew(DataMiner.DataMiner):
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         sound_type_file = self.search(version)
-        with open("./_search"+sound_type_file, "rt") as f:
+        with open(os.path.join("./_versions", version, "client_decompiled", sound_type_file), "rt") as f:
             sound_type_file_contents = f.readlines()
         sound_types = self.analyze(sound_type_file_contents)
         if store: self.store(version, sound_types, "sound_types.json")
