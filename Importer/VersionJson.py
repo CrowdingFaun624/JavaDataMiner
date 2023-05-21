@@ -17,7 +17,11 @@ def fetch_version_json(version:str, manifest:dict[str,dict[str,str]|list[dict[st
     if manifest is None: manifest = Manifest.get_manifest()
     version_properties = Manifest.get_version(version, manifest)
     url:str = version_properties["url"]
-    version_json:dict = WebRequest.web_request(url, "j")
+    if url.startswith("http"):
+        version_json:dict = WebRequest.web_request(url, "j")
+    else:
+        with open(url, "rt") as f:
+            version_json = json.loads(f.read())
     if "clientUrl" in version_properties:
         client_url = version_properties["clientUrl"]
         version_json = insert_client_url(version_json, client_url)

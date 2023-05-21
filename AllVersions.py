@@ -23,7 +23,9 @@ def get_version_collections(manifest:list[dict[str,str|int]], group_size:int=8) 
 
 def terminate_version(version:str) -> None:
     # print("Please remove version %s; it must be reevaluated." % version)
-    shutil.rmtree(os.path.join("./_versions", version, "data"))
+    data_path = os.path.join("./_versions", version, "data")
+    if os.path.exists(data_path):
+        shutil.rmtree(data_path)
 
 def do_version(version:str, exception_holder:dict[str,any]) -> None:
     try:
@@ -34,16 +36,16 @@ def do_version(version:str, exception_holder:dict[str,any]) -> None:
             print(version)
         DecompileZipper.zip_decompiled_client(version, does_not_exist_error=False)
         Cleaner.clear_unzipped([version])
-    except KeyboardInterrupt:
+    except KeyboardInterrupt: # doesn't actually occur lol
         terminate_version(version)
         exception_holder[version] = "KeyboardInterrupt"
     except BaseException as e:
         print("%s HAD AN EXCEPTION" % version)
-        
         terminate_version(version)
         exception_holder[version] = e
 
 def main() -> None:
+    Cleaner.clear_incomplete_decompiles()
     versions_properties = Manifest.get_manifest()["versions"]
     CONCURRENT_COUNT = 4
     # version_groups = get_version_collections(versions, CONCURRENT_COUNT)
@@ -51,7 +53,9 @@ def main() -> None:
     active_threads:dict[str,threading.Thread] = {}
     exception_holder:dict[str,any] = {}
     stop_creating_threads = False
-    for version in versions:
+    index = 0
+    while True:
+        version = versions[index] # do this so it never skips any
         if not stop_creating_threads and len(active_threads) < CONCURRENT_COUNT:
             # thread creator
             time.sleep(0.125)
@@ -59,6 +63,7 @@ def main() -> None:
             exception_holder[version] = None # default, empty error message
             new_thread.start()
             active_threads[version] = new_thread
+            index += 1
         else:
             # thread ender
             while True:
@@ -77,7 +82,7 @@ def main() -> None:
                             print(thread_name)
                             traceback.print_exception(exception_holder[thread_name])
                     break
-            if stop_creating_threads and len(active_threads) == 0: break
+        if stop_creating_threads and len(active_threads) == 0: break
     print("Finished datamining; cleaning up...")
     Cleaner.clear_incomplete_decompiles()
     Cleaner.clear_unzipped()

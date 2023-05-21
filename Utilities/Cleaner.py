@@ -82,13 +82,21 @@ def sort_dict(input_dict:dict) -> dict:
 
 def clear_incomplete_decompiles(versions:list[str]=None) -> None:
     '''Removes decompiled client and servers that contain summary.txt'''
+    def rm_client(version:str) -> None:
+        shutil.rmtree("./_versions/%s/client_decompiled" % version)
+    def rm_server(version:str) -> None:
+        shutil.rmtree("./_versions/%s/server_decompiled" % version)
     if versions is None: versions = os.listdir("./_versions")
     for version in versions:
         if not os.path.isdir("./_versions/%s" % version): continue
         if os.path.exists("./_versions/%s/client_decompiled/summary.txt" % version):
-            shutil.rmtree("./_versions/%s/client_decompiled" % version)
+            rm_client(version)
+        elif os.path.exists("./_versions/%s/client_decompiled" % version) and len(os.listdir("./_versions/%s/client_decompiled" % version)) == 0:
+            rm_client(version)
         if os.path.exists("./_versions/%s/server_decompiled/summary.txt" % version):
-            shutil.rmtree("./_versions/%s/server_decompiled" % version)
+            rm_server(version)
+        elif os.path.exists("./_versions/%s/server_decompiled" % version) and len(os.listdir("./_versions/%s/server_decompiled" % version)) == 0:
+            rm_server(version)
 
 def estimate_sizes(print_data:bool=True) -> dict[str,int]:
     def get_size(path:str) -> int:
