@@ -28,7 +28,7 @@ search_versions = [version, Manifest.get_id_version(Manifest.get_version_id(vers
 # print(search_versions)
 Searcher.clear_search()
 for search_version in search_versions:
-    Searcher.search(search_version, "client", ["sound", "Sound", "SOUND"], output_path=search_version, suppress_clear=True)
+    Searcher.search(search_version, "client", ["sound", "Sound", "SOUND"], output_path=search_version, suppress_clear=True, actually_copy_files=True)
 
 if not os.path.exists("./_assets_storage/%s" % version):
     AssetsStorage.reconstruct(version)

@@ -44,3 +44,11 @@ def get(version:str, side:str) -> str:
     if side == "client": return get_client(version)
     elif side == "server": return get_server(version)
     else: raise KeyError("invalid side: %s" % side)
+
+def has_mappings(version:str) -> bool:
+    '''Returns if the mappings exist.'''
+    version_json = VersionJson.get_version_json(version)
+    if "downloads" not in version_json: return False
+    elif "client_mappings" not in version_json["downloads"]: return False
+    elif "url" not in version_json["downloads"]["client_mappings"]: return False
+    else: return True

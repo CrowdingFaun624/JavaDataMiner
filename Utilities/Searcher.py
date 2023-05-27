@@ -26,42 +26,93 @@ def in_multi(content:str, terms:list[str]) -> bool:
     return output
 
 def is_in(path:str, terms:list[str], keywords:set[str]) -> bool:
-    def get_modifiers(term:str) -> tuple[str, list[str]]:
+    def get_modifiers(term:str) -> tuple[str, dict[str,list[any]]]:
         '''Returns the term without the modifiers and the list of modifiers'''
-        modifiers:list[str] = []
-        for available_modifier in available_modifiers:
-            if available_modifier+":" in term:
-                modifiers.append(available_modifier)
-                term = term.replace(available_modifier+":", "", 1)
+        modifiers:dict[str,list[any]] = {}
+        # for available_modifier in available_modifiers:
+        #     if available_modifier+":" in term:
+        #         modifiers.append(available_modifier)
+        #         term = term.replace(available_modifier+":", "", 1)
+        # return term, modifiers
+        while True:
+            had_term = False
+            for available_modifier in available_modifiers:
+                if term.startswith(available_modifier):
+                    had_term = True
+                    if term.startswith(available_modifier + "("):
+                        modifier_parameters = term.split("(")[1].split(")")[0].split(",")
+                        modifier_parameters = [modifier_parameter.strip() for modifier_parameter in modifier_parameters]
+                    else: modifier_parameters = []
+                    modifiers[available_modifier] = modifier_parameters
+                    term = ":".join(term.split(":")[1:]) # remove first term
+            if not had_term: break
         return term, modifiers
-    def advanced_in(term:tuple[str,list[str]], content:str) -> bool:
-        if "not" in term[1]:
-            if "only" in term[1]:
-                return term[0] != content
+    def advanced_in(term:str, modifiers:dict[str,list[any]], content:str) -> bool:
+        if "not" in modifiers:
+            if "only" in modifiers:
+                return term != content
             else:
-                return term[0] not in content
+                return term not in content
         else:
-            if "only" in term[1]:
-                return term[0] == content
+            if "only" in modifiers:
+                return term == content
             else:
-                return term[0] in content
+                return term in content
+    def get_count_condition_satisfied(term:str, modifiers:dict[str,list[any]], content:str) -> bool:
+        condition_type:str = modifiers["count"][0]
+        condition_number:int = int(modifiers["count"][1])
+        if condition_type in ("==", "="):
+            output = content.count(term) == condition_number
+        elif condition_type == "<":
+            output = content.count(term) < condition_number
+        elif condition_type == "<=":
+            output = content.count(term) <= condition_number
+        elif condition_type == ">":
+            output = content.count(term) > condition_number
+        elif condition_type == ">=":
+            output = content.count(term) >= condition_number
+        elif condition_type == "!=":
+            output = content.count(term) >= condition_number
+        if "not" in modifiers: return not output
+        else: return output
     def should_get_file_content(terms:list[tuple[str,list[str]]]) -> bool:
         '''If the terms contains "file", return False'''
         for term in terms:
             if "file" not in term[1]: return True
         else: return False
+    def get_content_to_search(term:str, modifiers:dict[str,list[any]], file_content:str, path:str) -> str:
+        '''Returns the file name or file contents based on the modifiers'''
+        if "file" in modifiers:
+            return os.path.split(path)[1]
+        else:
+            return file_content
 
-    available_modifiers = ["not", "file", "only"]
-    terms:list[tuple[str,list[str]]] = [get_modifiers(term) for term in terms]
+    available_modifiers = ["not", "file", "only", "count"]
+    terms:list[tuple[str,dict[str,list[any]]]] = [get_modifiers(term) for term in terms]
     if should_get_file_content(terms):
         with open(path, "rt") as f:
             file_content = f.read()
-    for term in terms:
-        if "file" in term[1]:
-            if advanced_in(term, os.path.split(path)[1]): return True
-        else:
-            if advanced_in(term, file_content): return True
-    else: return False
+    else: file_content = ""
+    
+    for term, modifiers in terms:
+        contains_this_term = False
+        content_to_search = get_content_to_search(term, modifiers, file_content, path)
+        if advanced_in(term, modifiers, content_to_search):
+            contains_this_term = True
+            if "count" in modifiers:
+                contains_this_term = get_count_condition_satisfied(term, modifiers, file_content) # special probably slower search for count modifier
+        
+        if "and" in keywords:
+            if contains_this_term is False:
+                return False
+            else: continue
+        else: # doesn't contain and
+            if contains_this_term is True:
+                return True
+            else: continue
+    else:
+        if "and" in keywords: return True
+        else: return False
 
 def full_path(version:str, side:str, file_path:str) -> str:
     '''Returns a filepath with the given name in the given version's side'''
@@ -77,14 +128,15 @@ def search(version:str, side:str, terms:list[str], keywords:set[str]=None, addit
     Modifiers can be attached to terms using colons, such as "only:file:SoundEvents.java". Here is a list of them, and their functions:
     * `not`: returns the opposite of normal
     * `only`: returns if the content exactly matches the term, instead of just containing it
-    * `file`: uses the file name instead of the file contents.'''
+    * `file`: uses the file name instead of the file contents.
+    * `count(<=,==,>,>=,<,<=,!=>,[int]): how many times the string shows up'''
     if allow_decompile and not os.path.exists(os.path.join("./_versions", version, "%s_decompiled" % side)): Decompiler.get_decompiled(version, side)
     if keywords is None: keywords = set()
     if additional_path == "/" and not suppress_clear: clear_search() # if it's the top iteration
     if not output_path.startswith("/"): output_path = "/" + output_path
     path = "./_versions/%s/%s_decompiled%s" % (version, side, additional_path)
     if side not in ("client", "server"): raise ValueError("Side \"%s\" is not a valid side!")
-    if not os.path.exists(path): raise FileNotFoundError("Version \"%s\"'s %s does not exist!" % (version, side))
+    if not os.path.exists(path): Decompiler.get_decompiled(version, side)# raise FileNotFoundError("Version \"%s\"'s %s does not exist!" % (version, side))
     file_list = os.listdir(path)
     output:list[str] = []
     for file in file_list:
@@ -102,6 +154,16 @@ def search(version:str, side:str, terms:list[str], keywords:set[str]=None, addit
     output2:list[str] = [path[1:] if path.startswith("/") else path for path in output] # prevent absolute paths starting with "/"
     return output2
         
+def get_keywords(terms:list[str]) -> tuple[list[str], list[str]]:
+    '''Returns the output terms and output keywords in two separate lists'''
+    POSSIBLE_KEYWORDS = ["and"]
+    output_keywords:list[str] = []
+    output_terms:list[str] = []
+    for term in terms:
+        if term in POSSIBLE_KEYWORDS: output_keywords.append(term)
+        else: output_terms.append(term)
+    return output_terms, output_keywords
+
 def main() -> None:
     possible_versions = os.listdir("./_versions")
     decompiled_versions = []
@@ -113,7 +175,9 @@ def main() -> None:
         chosen_version = input("Choose from the following versions:\n%s\n" % "\n".join(decompiled_versions))
         if chosen_version in decompiled_versions: break
     search_terms = input("Search terms: ").split(" ")
-    search(chosen_version, "client", search_terms, [])
+    search_terms, search_keywords = get_keywords(search_terms)
+    paths = search(chosen_version, "client", search_terms, search_keywords, actually_copy_files=True)
+    print("Found %s file(s)!" % len(paths))
 
 if __name__ == "__main__":
     main()

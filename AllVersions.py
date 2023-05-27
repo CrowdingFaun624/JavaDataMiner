@@ -54,6 +54,7 @@ def main() -> None:
     exception_holder:dict[str,any] = {}
     stop_creating_threads = False
     index = 0
+    keyboard_interruptions = 0
     while True:
         version = versions[index] # do this so it never skips any
         if not stop_creating_threads and len(active_threads) < CONCURRENT_COUNT:
@@ -67,7 +68,13 @@ def main() -> None:
         else:
             # thread ender
             while True:
-                time.sleep(0.125)
+                try:
+                    time.sleep(0.025)
+                except KeyboardInterrupt:
+                    print("Preparing to exit...")
+                    keyboard_interruptions += 1
+                    stop_creating_threads = True
+                    if keyboard_interruptions >= 2: os._exit(0)
                 thread_finished = False
                 threads_finished:list[str] = []
                 for thread_name, active_thread in list(active_threads.items()):
@@ -84,6 +91,8 @@ def main() -> None:
                     break
         if stop_creating_threads and len(active_threads) == 0: break
     print("Finished datamining; cleaning up...")
+    Cleaner.clear_mappings()
+    Cleaner.clear_mappings_tsrg()
     Cleaner.clear_incomplete_decompiles()
     Cleaner.clear_unzipped()
 
