@@ -3,38 +3,36 @@ import os
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
-class SoundEvents1(DataMiner.DataMiner):
+class SoundEvents2(DataMiner.DataMiner):
     def search(self, version:str) -> str:
-        '''Returns the path of SoundEvents.java (e.g. "zo.java")'''
-        sound_events_files = Searcher.search(version, "client", ["block.stone.hit"])
+        '''Returns the path of the larger SoundEvents.java file (e.g. "wj.java")'''
+        sound_events_files = Searcher.search(version, "client", ["block.stone.hit", "Bootstrap"], ["and"])
         if len(sound_events_files) > 1:
             raise FileExistsError("Too many SoundEvents files found for %s:\n%s" % (version, "\n".join(sound_events_files)))
         elif len(sound_events_files) == 0:
             raise FileNotFoundError("No SoundEvents file found for %s" % version)
         else: sound_events_files = sound_events_files[0]
         return sound_events_files
-
+    
     def analyze(self, file_contents:list[str], version:str) -> dict[str,str]:
-        START_SOUND_EVENTS = "public class "
-        END_SOUND_EVENTS = ""
-        VALID_EVENT_START = "public static final "
+        RECORD_START = "            throw new RuntimeException(\"Accessed Sounds before Bootstrap!\");"
+        RECORD_END = "    }"
+        SKIP_LINES = ["        }"]
         recording = False
-        output = {}
+        output:dict[str,str] = {}
         for line in file_contents:
-            line = line.strip()
-            if line.startswith(START_SOUND_EVENTS):
-                if recording: raise ValueError("Start recording line for sound events encountered twice in %s!" % version)
+            line = line.rstrip()
+            if line.startswith(RECORD_START):
+                if recording:
+                    raise ValueError("Starting line in SoundEvents in %s encountered twice!" % version)
                 recording = True
-            elif line == END_SOUND_EVENTS and recording:
-                recording = False
-                break
+            elif line.startswith(RECORD_END) and recording: recording = False; break
             else:
                 if not recording: continue
-                if not line.startswith(VALID_EVENT_START): raise ValueError("Strange line encountered in sound events in %s: \"%s\"" % (version, line))
-                stripped_line = line.replace(VALID_EVENT_START, "", 1)
-                stripped_line = stripped_line.split(" ")
-                code_name = stripped_line[1]
-                game_name = stripped_line[-1].split("(")[-1].split(")")[0].replace("\"", "")
+                if line in SKIP_LINES: continue
+                stripped_line = line.strip().split(" ")
+                code_name = stripped_line[0]
+                game_name = stripped_line[-1].split("\"")[-2]
                 output[code_name] = game_name
         output = DataMiner.DataMiner.sort_dict(output, by_values=True)
         return output

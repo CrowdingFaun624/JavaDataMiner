@@ -83,11 +83,14 @@ def is_in(path:str, terms:list[str], keywords:set[str]) -> bool:
     def get_content_to_search(term:str, modifiers:dict[str,list[any]], file_content:str, path:str) -> str:
         '''Returns the file name or file contents based on the modifiers'''
         if "file" in modifiers:
-            return os.path.split(path)[1]
+            output = os.path.split(path)[1]
         else:
-            return file_content
+            output = file_content
+        if "nocaps" in modifiers:
+            output = output.lower()
+        return output
 
-    available_modifiers = ["not", "file", "only", "count"]
+    available_modifiers = ["not", "file", "only", "count", "nocaps"]
     terms:list[tuple[str,dict[str,list[any]]]] = [get_modifiers(term) for term in terms]
     if should_get_file_content(terms):
         with open(path, "rt") as f:
@@ -96,6 +99,7 @@ def is_in(path:str, terms:list[str], keywords:set[str]) -> bool:
     
     for term, modifiers in terms:
         contains_this_term = False
+        if "nocaps" in modifiers: term = term.lower()
         content_to_search = get_content_to_search(term, modifiers, file_content, path)
         if advanced_in(term, modifiers, content_to_search):
             contains_this_term = True

@@ -35,7 +35,7 @@ class Blocks1(DataMiner.DataMiner):
                 return block_class_name, block_declarer
         else: raise ValueError("Unable to find class name of \"Block.java\" and block declarer function for version %s!" % version)
 
-    def get_sound_type_name(self, sound_type_content:dict[str,int|str], version:str) -> str:
+    def get_sound_type_name(self, sound_type_content:dict[str,int|str], version:str) -> str: # TODO: this is duplicated in Blocks1, please fix.
         def is_only_one(input_list:list[str]) -> tuple[bool, str|None]:
             '''Tests if the list contains only the same item, and returns (True, <item>) if so and (False, None) if not.'''
             input_set = set(input_list)
@@ -51,7 +51,7 @@ class Blocks1(DataMiner.DataMiner):
         else:
             return " ".join(sound_blocks).upper()
 
-    def get_stone_name(self, sound_types:dict[str,dict[str,int|str]], version:str) -> str:
+    def get_stone_name(self, sound_types:dict[str,dict[str,int|str]], version:str) -> str: # TODO: also duplicated in Blocks2
         '''Gets the code name of stone'''
         for sound_type_code_name, sound_type_content in list(sound_types.items()):
             if self.get_sound_type_name(sound_type_content, version) == "STONE":
