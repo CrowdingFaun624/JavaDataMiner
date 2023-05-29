@@ -7,21 +7,12 @@ import Utilities.Searcher as Searcher
 class Blocks2(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.record_start_threshold = 3
-        self.blocks_search_query = ["air", "stone", "granite", "polished_granite", "not:Name", "not:nocaps:hashMap", "not:Bootstrap"]
-        self.blocks_list_search_query = ["air", "stone", "granite", "polished_granite", "Bootstrap"]
-        self.remove_air = True
         if "record_start_threshold" in kwargs:
             self.record_start_threshold = kwargs["record_start_threshold"]
-        if "blocks_search_query" in kwargs:
-            self.blocks_search_query = kwargs["blocks_search_query"]
-        if "blocks_list_search_query" in kwargs:
-            self.blocks_list_search_query = kwargs["blocks_list_search_query"]
-        if "remove_air" in kwargs:
-            self.remove_air = kwargs["remove_air"]
 
     def search(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. bcs.java)'''
-        blocks_files = Searcher.search(version, "client", self.blocks_search_query, set(["and"]))
+        blocks_files = Searcher.search(version, "client", ["air", "stone", "granite", "polished_granite", "not:Name", "not:nocaps:hashMap", "not:Bootstrap"], set(["and"]))
         if len(blocks_files) > 1:
             raise FileExistsError("Too many Blocks files found for %s:\n%s" % (version, "\n".join(blocks_files)))
         elif len(blocks_files) == 0:
@@ -31,7 +22,7 @@ class Blocks2(DataMiner.DataMiner):
 
     def search_blocks_list(self, version:str) -> str:
         '''Returns the file path of BlocksList.java (e.g. bct.java)'''
-        blocks_files = Searcher.search(version, "client", self.blocks_list_search_query, set(["and"]))
+        blocks_files = Searcher.search(version, "client", ["air", "stone", "granite", "polished_granite", "Bootstrap"], set(["and"]))
         if len(blocks_files) > 1:
             raise FileExistsError("Too many BlocksList files found for %s:\n%s" % (version, "\n".join(blocks_files)))
         elif len(blocks_files) == 0:
@@ -99,7 +90,7 @@ class Blocks2(DataMiner.DataMiner):
         def defaults() -> tuple[str,str]:
             return "STONE", stone_code_name
         template_id = self.get_template_id(line, version)
-        if sound_types_name +"." in line:
+        if sound_types_name + "." in line:
             sound_type_code_name = line.split("(" + sound_types_name + ".")[-1].split(")")[0]
             sound_type_contents = sound_types[sound_type_code_name]
             sound_type = self.get_sound_type_name(sound_type_contents, version)
@@ -129,7 +120,7 @@ class Blocks2(DataMiner.DataMiner):
             if not recording: raise ValueError("Start recording line never encountered in BlocksList in %s!" % version)
             raise ValueError("Recording line not encountered in BlocksList in %s!" % version)
         if "air" not in output: raise ValueError("\"air\" is not in BlocksList output in %s!" % version)
-        if self.remove_air: del output["air"] # air isn't in Blocks.java for some reason.
+        del output["air"] # air isn't in Blocks.java for some reason.
         return output
 
     def analyze_blocks(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str) -> dict[str,dict[str,any]]:

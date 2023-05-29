@@ -14,7 +14,7 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents1.SoundEvents1("18w43a", "1.14.4-pre7"),
     SoundEvents2.SoundEvents2("-", "1.13.2")
 ]
-
+# TODO: it is possible for the two sound files to differ. Make sure they are documented anyways.
 def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,str]:
     '''Returns the sound events data file for this version, creating it if it does not exist.'''
     return DataMiner.get_data_file(version, "sound_events.json", dataminers, redo, kwargs)

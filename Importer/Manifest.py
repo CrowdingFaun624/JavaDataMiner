@@ -5,7 +5,7 @@ import random
 
 import Importer.WebRequest as WebRequest
 
-
+#TODO: fix weird bug affecting releaseTime
 def fetch_manifest(store:bool=False) -> dict[str,dict[str,str]|list[dict[str,str|int]]]:
     '''Returns the version manifest as a dict. Set `store` to True to place the fancified manifest in ./versions as version_manifest.json.'''
     manifest = WebRequest.web_request("https://piston-meta.mojang.com/mc/game/version_manifest_v2.json", "j")
@@ -33,7 +33,7 @@ def get_manifest_extension() -> list[dict[str,str|int]]:
 def combine_manifests(manifest1:list[dict[str,str|int]], manifest2:list[dict[str,str|int]]) -> list[dict[str,str|int]]:
     '''Takes two lists of dicts of version parameters and merges them and sorts them by releasetime.'''
     def sortkey(value) -> datetime.datetime:
-        date = value["releaseTime"]
+        date = value["releaseTime"][:]
         if date[-6] in "+-" and ":" in date: date = date[:-6]
         return datetime.datetime.fromisoformat(date)
     manifest = manifest1.copy()
