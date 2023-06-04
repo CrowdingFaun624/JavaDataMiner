@@ -5,7 +5,6 @@ import DataMiners.SoundType.SoundType as SoundType
 import Utilities.Searcher as Searcher
 
 class Blocks3(DataMiner.DataMiner):
-
     def search(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. art.java)'''
         blocks_files = Searcher.search(version, "client", ["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap"], set(["and"]))
@@ -35,19 +34,20 @@ class Blocks3(DataMiner.DataMiner):
         sound_events = [sound_type_content[index] for index in ["break", "step", "place", "hit", "fall"]]
         for sound_event in sound_events:
             if not sound_event.count(".") == 2: raise ValueError("Incorrect number of periods in sound type in Blocks process in %s: %s" % (version, str(sound_events)))
-        sound_blocks = [sound_event.split(".")[1] for sound_event in sound_events]
-        is_same = is_only_one(sound_blocks)
+        sound_events = [sound_event.split(".")[1] for sound_event in sound_events]
+        is_same = is_only_one(sound_events)
         if is_same[0]:
             return is_same[1].upper()
         else:
-            return " ".join(sound_blocks).upper()
+            return " ".join(sound_events).upper()
     
     def get_stone_name(self, sound_types:dict[str,dict[str,int|str]], version:str) -> str: # TODO: also duplicated in Blocks1
         '''Gets the code name of stone'''
+        stone_key = "STONE"
         for sound_type_code_name, sound_type_content in list(sound_types.items()):
-            if self.get_sound_type_name(sound_type_content, version) == "STONE":
+            if self.get_sound_type_name(sound_type_content, version) == stone_key:
                 return sound_type_code_name
-        else: raise ValueError("No sound type of STONE exists for Blocks in %s!" % version)
+        else: raise ValueError("No sound type of %s exists for Blocks in %s!" % (stone_key, version))
 
     def get_template_id(self, line:str, version:str) -> tuple[int, str]:
         '''Gets the integer id of the template on the line and the character after the id'''

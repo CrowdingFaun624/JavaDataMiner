@@ -31,7 +31,7 @@ def do_version(version:str, exception_holder:dict[str,any]) -> None:
     try:
         if not os.path.exists(os.path.join("./_versions", version, "data")):
             print("\t" + version)
-            DataMiners.run_all(version, error_on_none=True)
+            DataMiners.run_all(version, error_on_none=False)
         else:
             print(version)
         DecompileZipper.zip_decompiled_client(version, does_not_exist_error=False)

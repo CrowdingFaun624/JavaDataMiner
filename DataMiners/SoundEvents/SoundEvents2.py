@@ -37,7 +37,7 @@ class SoundEvents2(DataMiner.DataMiner):
         output = DataMiner.DataMiner.sort_dict(output, by_values=True)
         return output
 
-    def activate(self, version:str, store:bool=True) -> dict[str,str]|list[str]:
+    def activate(self, version:str, store:bool=True) -> dict[str,str]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         sound_events_file = self.search(version)
