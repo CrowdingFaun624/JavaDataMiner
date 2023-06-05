@@ -27,22 +27,26 @@ def terminate_version(version:str) -> None:
     if os.path.exists(data_path):
         shutil.rmtree(data_path)
 
-def do_version(version:str, exception_holder:dict[str,any]) -> None:
+def do_version(version:str, exception_holder:dict[str,any], time_holder:dict[str,any]) -> None:
     try:
         if not os.path.exists(os.path.join("./_versions", version, "data")):
             print("\t" + version)
             DataMiners.run_all(version, error_on_none=False)
+            time_holder[version] = 1
         else:
             print(version)
+            time_holder[version] = 0
         DecompileZipper.zip_decompiled_client(version, does_not_exist_error=False)
         Cleaner.clear_unzipped([version])
     except KeyboardInterrupt: # doesn't actually occur lol
         terminate_version(version)
         exception_holder[version] = "KeyboardInterrupt"
+        time_holder[version] = 1
     except BaseException as e:
         print("%s HAD AN EXCEPTION" % version)
         terminate_version(version)
         exception_holder[version] = e
+        time_holder[version] = 1
 
 def main() -> None:
     Cleaner.clear_incomplete_decompiles()
@@ -52,15 +56,18 @@ def main() -> None:
     versions = [version["id"] for version in versions_properties]
     active_threads:dict[str,threading.Thread] = {}
     exception_holder:dict[str,any] = {}
+    time_holder:dict[str,any] = {}
     stop_creating_threads = False
     index = 0
     keyboard_interruptions = 0
+    all_short = True
     while True:
         version = versions[index] # do this so it never skips any
         if not stop_creating_threads and len(active_threads) < CONCURRENT_COUNT:
             # thread creator
-            time.sleep(0.125)
-            new_thread = threading.Thread(target=do_version, args=(version, exception_holder))
+            next_wait = 0.005 if all_short else 0.125
+            time.sleep(next_wait)
+            new_thread = threading.Thread(target=do_version, args=(version, exception_holder, time_holder))
             exception_holder[version] = None # default, empty error message
             new_thread.start()
             active_threads[version] = new_thread
@@ -83,11 +90,13 @@ def main() -> None:
                         threads_finished.append(thread_name)
                         thread_finished = True
                 if thread_finished:
+                    all_short = True
                     for thread_name in threads_finished:
                         if exception_holder[thread_name] is not None:
                             stop_creating_threads = True
                             print(thread_name)
                             traceback.print_exception(exception_holder[thread_name])
+                        if time_holder[thread_name] > 0: all_short = False
                     break
         if stop_creating_threads and len(active_threads) == 0: break
     print("Finished datamining; cleaning up...")

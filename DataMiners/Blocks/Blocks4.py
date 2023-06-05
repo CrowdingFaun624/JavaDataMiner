@@ -6,16 +6,25 @@ import Utilities.Searcher as Searcher
 
 class Blocks4(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
+        self.blocks_record_threshold = 2
         self.blocks_list_record_threshold = 1
         self.sound_type_overrides = {"oak_stairs": "wood", "spruce_stairs": "wood", "birch_stairs": "wood", "jungle_stairs": "wood", "acacia_stairs": "wood", "dark_oak_stairs": "wood", "stone_stairs": "stone", "brick_stairs": "stone", "stone_brick_stairs": "stone", "nether_brick_stairs": "stone", "sandstone_stairs": "stone", "cobblestone_wall": "stone", "quartz_stairs": "stone", "red_sandstone_stairs": "stone"}
+        self.sound_type_allowances = ["air", "flowing_water", "water", "flowing_lava", "lava", "web", "redstone_wire", "monster_egg", "cauldron", "tripwire_hook", "tripwire", "barrier"]
+        self.sound_type_class_name_getter_mode = 0
+        if "blocks_record_threshold" in kwargs:
+            self.blocks_record_threshold = kwargs["blocks_record_threshold"]
         if "blocks_list_record_threshold" in kwargs:
             self.blocks_list_record_threshold = kwargs["blocks_list_record_threshold"]
         if "sound_type_overrides" in kwargs:
             self.sound_type_overrides = kwargs["sound_type_overrides"]
+        if "sound_type_allowances" in kwargs:
+            self.sound_type_allowances = kwargs["sound_type_allowances"]
+        if "sound_type_class_name_getter_mode" in kwargs:
+            self.sound_type_class_name_getter_mode = kwargs["sound_type_class_name_getter_mode"]
     
-    def search(self, version:str) -> str:
+    def search_blocks(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. art.java)'''
-        blocks_files = Searcher.search(version, "client", ["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap"], set(["and"]))
+        blocks_files = Searcher.search(version, "client", ["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap", "not:empty"], set(["and"]))
         if len(blocks_files) > 1:
             raise FileExistsError("Too many Blocks files found for %s:\n%s" % (version, "\n".join(blocks_files)))
         elif len(blocks_files) == 0:
@@ -70,14 +79,29 @@ class Blocks4(DataMiner.DataMiner):
                 names[game_name] = code_name
                 files[game_name] = file
         else: # if code did not break before end of file
-            raise ValueError("BlocksList in %s did not break before end of file!" % version)
+            raise ValueError("BlocksList in %s did not stop recording/start recording before end of file!" % version)
         return names, files, default_file
 
-    def find_soundtype(self, line:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str, key:str=".a(%s)") -> str|None:
+    def find_soundtype(self, line:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str, blocks_file_name:str, version:str, keys:list[str]|None=None) -> str|None:
         '''Returns a soundtype from a line, e.g. "i", "g" or "b".'''
+        def get_sound_type_text(sound_type:str) -> list[str]:
+            output:list[str] = []
+            for key in keys:
+                key_count = key.count("%s")
+                if key_count == 1:
+                    output.append(key % sound_type)
+                elif key_count == 2:
+                    output.append(key % (blocks_file_name, sound_type))
+                else: raise ValueError("Wonky key in find_soundtype in Blocks in %s: \"%s\"" % (version, key))
+            return output
+        def is_in(sound_type_texts:list[str], line:str) -> bool:
+            for sound_type_text in sound_type_texts:
+                if sound_type_text in line: return True
+            else: return False
+        keys = [".a(%s)", ".a(%s.%s)"]
         for sound_type in list(sound_types.keys()):
-            sound_type_text = key % sound_type # "a" is not a variable because there should only be one function with an input of a soundtype
-            if sound_type_text in line: return sound_type
+            sound_type_texts = get_sound_type_text(sound_type) # "a" is not a variable because there should only be one function with an input of a soundtype
+            if is_in(sound_type_texts, line): return sound_type
         else: return default_sound_type
 
     def find_other_class_name(self, line:str) -> str:
@@ -93,18 +117,18 @@ class Blocks4(DataMiner.DataMiner):
                 output[key] = value
         return output
 
-    def evaluate_template(self, line:str, version:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str) -> tuple[str,dict[str,any]]:
+    def evaluate_template(self, line:str, version:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str, blocks_file_name:str) -> tuple[str,dict[str,any]]:
         split_line = line.lstrip().split(" ")
         if split_line[1] == "=":
             template_name = split_line[0]
         elif split_line[2] == "=":
             template_name = split_line[1]
         else: raise ValueError("\"=\" in Blocks in %s is in a weird position in line \"%s\"" % (version, line))
-        sound_type = self.find_soundtype(line, sound_types, None)
+        sound_type = self.find_soundtype(line, sound_types, None, blocks_file_name, version)
         class_extension = self.find_other_class_name(line)
         return template_name, self.remove_nones({"sound_type": sound_type, "class_extension": class_extension})
 
-    def evaluate_block(self, line:str, version:str, templates:dict[str,dict[str,any]], sound_types:dict[str,dict[str,int|str]], default_sound_type:str) -> tuple[str,dict[str,any]]:
+    def evaluate_block(self, line:str, version:str, templates:dict[str,dict[str,any]], sound_types:dict[str,dict[str,int|str]], default_sound_type:str, blocks_file_name:str) -> tuple[str,dict[str,any]]:
         def contains_template(line:str, template_names:list[str]) -> tuple[bool,str|None]:
             for template_name in template_names:
                 if "\"%s\", %s" % (game_name, template_name) in line: return True, template_name # ", " is included so other things that don't actually use them don't use them.
@@ -114,7 +138,7 @@ class Blocks4(DataMiner.DataMiner):
         if line_contains_template:
             return game_name, templates[template_name]
         else:
-            sound_type = self.find_soundtype(line, sound_types, default_sound_type)
+            sound_type = self.find_soundtype(line, sound_types, default_sound_type, blocks_file_name, version)
             class_extension = self.find_other_class_name(line)
             return game_name, {"sound_type": sound_type, "class_extension": class_extension}
 
@@ -125,7 +149,7 @@ class Blocks4(DataMiner.DataMiner):
             del properties["class_extension"]
         return blocks, block_other_classes
 
-    def analyze_blocks(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str) -> tuple[dict[str,dict[str,any]],dict[str,str]]:
+    def analyze_blocks(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], default_sound_type:str, blocks_file_name:str) -> tuple[dict[str,dict[str,any]],dict[str,str]]:
         '''Returns a dict of blocks with their dict of properties and another dict of {game_name: extended file name in Blocks.java}'''
         def should_skip_line(line:str) -> bool:
             for skip_line in SKIP_LINES:
@@ -133,7 +157,7 @@ class Blocks4(DataMiner.DataMiner):
             else: return False
         RECORD_START = "    public static void "
         RECORD_END = "        for ("
-        RECORD_START_THRESHOLD = 2
+        RECORD_START_THRESHOLD = self.blocks_record_threshold
         SKIP_LINES = ["        int "]
         recording_threshold = 0
         recording = False
@@ -152,10 +176,10 @@ class Blocks4(DataMiner.DataMiner):
             elif should_skip_line(line): continue
             elif recording:
                 if "=" in line: # template
-                    template_name, template_data = self.evaluate_template(line, version, sound_types, default_sound_type)
+                    template_name, template_data = self.evaluate_template(line, version, sound_types, default_sound_type, blocks_file_name)
                     templates[template_name] = template_data
                 else: # block
-                    block_name, block_properties = self.evaluate_block(line, version, templates, sound_types, default_sound_type)
+                    block_name, block_properties = self.evaluate_block(line, version, templates, sound_types, default_sound_type, blocks_file_name)
                     blocks[block_name] = block_properties
         else:
             raise ValueError("Blocks in %s did not break before end of file!" % version)
@@ -204,14 +228,23 @@ class Blocks4(DataMiner.DataMiner):
 
     def analyze_default_sound_type(self, file_contents:list[str], version:str) -> str:
         '''Returns the default sound type, e.g. "e"'''
-        SOUND_TYPE_CLASS_DECLARER = "    public static class "
-        for line in reversed(file_contents): # first pass in reverse to find class name
-            line = line.rstrip()
-            if line.startswith(SOUND_TYPE_CLASS_DECLARER):
-                sound_type_class = line.replace(SOUND_TYPE_CLASS_DECLARER, "").split(" ")[0]
-                break
-        else:
-            raise ValueError("analyze_default_sound_type first pass in Blocks did not find value before end of file in %s!" % version)
+        if self.sound_type_class_name_getter_mode == 0:
+            SOUND_TYPE_CLASS_DECLARER = "    public static class "
+            for line in reversed(file_contents): # first pass in reverse to find class name
+                line = line.rstrip()
+                if line.startswith(SOUND_TYPE_CLASS_DECLARER):
+                    sound_type_class = line.replace(SOUND_TYPE_CLASS_DECLARER, "").split(" ")[0]
+                    break
+            else: raise ValueError("analyze_default_sound_type first pass in Blocks did not find value before end of file in %s!" % version)
+        elif self.sound_type_class_name_getter_mode == 1:
+            SOUND_TYPE_DECLARER = "    public static final " # and contains """
+            for line in file_contents:
+                line = line.rstrip()
+                if line.startswith(SOUND_TYPE_DECLARER) and "\"" in line:
+                    sound_type_class = line.replace(SOUND_TYPE_DECLARER, "").split(" ")[0]
+                    break
+            else: raise ValueError("analyze_default_sound_type first pass in Blocks did not find value before end of file in %s!" % version)
+        else: raise ValueError("Invalid \"sound_type_class_name_getter_mode\" parameter (%s) in Blocks4 was given in %s!" % (self.sound_type_class_name_getter_mode, version))
         default_sound_type_declarer = "    public " + sound_type_class + " "
         for line in file_contents:
             line = line.rstrip()
@@ -225,7 +258,7 @@ class Blocks4(DataMiner.DataMiner):
         else:
             raise ValueError("analyze_default_sound_type second pass in Blocks did not find value before end of file in %s!" % version)
 
-    def analyze_block_file(self, version:str, file_name:str, all_properties:dict[str,dict[str,any]], default_block_file:str, sound_types:dict[str,dict[str,int|str]]) -> dict[str,dict[str,any]]:
+    def analyze_block_file(self, version:str, file_name:str, all_properties:dict[str,dict[str,any]], default_block_file:str, sound_types:dict[str,dict[str,int|str]], blocks_file_name:str) -> dict[str,dict[str,any]]:
         def should_start_recording(line:str) -> tuple[bool, bool]:
             for record_start in RECORD_STARTS:
                 if line.startswith(record_start % file_name): return True
@@ -246,7 +279,7 @@ class Blocks4(DataMiner.DataMiner):
                 extended_file = line.replace(EXTENSION_DECLARATION, "").split(" ")[0]
                 if extended_file == default_block_file: continue
                 elif extended_file not in all_properties:
-                    self.analyze_block_file(version, extended_file, all_properties, default_block_file, sound_types)
+                    self.analyze_block_file(version, extended_file, all_properties, default_block_file, sound_types, blocks_file_name)
                 all_properties[file_name] = all_properties[extended_file]
 
             elif should_start_recording(line):
@@ -255,14 +288,14 @@ class Blocks4(DataMiner.DataMiner):
                 recording = True
             elif line.startswith(RECORD_END) and recording: recording = False; break
             elif recording:
-                sound_type = self.find_soundtype(line, sound_types, None, key="this.a(%s)") # default_sound_type is None so it returns None if it fails
+                sound_type = self.find_soundtype(line, sound_types, None, blocks_file_name, version, keys=["this.a(%s)","this.a(%s.%s)"]) # default_sound_type is None so it returns None if it fails
                 if sound_type is not None:
                     all_properties[file_name]["sound_type"] = sound_type
         else:
             if recording: raise ValueError("analyze_block_file in %s in Blocks in %s did not find value before end of file!" % (file_name, version))
         return all_properties
 
-    def get_properties_from_files(self, version:str, blocks_files:dict[str,str], default_block_file:str, sound_types:dict[str,dict[str,int|str]]) -> dict[str,dict[str,any]]:
+    def get_properties_from_files(self, version:str, blocks_files:dict[str,str], default_block_file:str, sound_types:dict[str,dict[str,int|str]], blocks_file_name:str) -> dict[str,dict[str,any]]:
         def remove_duplicates(input_list:list) -> list:
             already = set()
             output = []
@@ -275,7 +308,7 @@ class Blocks4(DataMiner.DataMiner):
         files = remove_duplicates([file for file in list(blocks_files.values()) if file != default_block_file]) # all files except Blocks.java
         block_properties:dict[str,dict[str,any]] = {}
         for file in files:
-            self.analyze_block_file(version, file, block_properties, default_block_file, sound_types)
+            self.analyze_block_file(version, file, block_properties, default_block_file, sound_types, blocks_file_name)
         return DataMiner.DataMiner.sort_dict(block_properties)
 
     def resolve_defaults(self, blocks:dict[str,dict[str,any]], overrides:dict[str,str], default_allowances:set[str], default_sound_type:str, sound_type_labels:dict[str,str], version:str) -> dict[str,dict[str,any]]:
@@ -295,15 +328,15 @@ class Blocks4(DataMiner.DataMiner):
             raise KeyError(error_message)
         return blocks
 
-    def analyze(self, blocks_file_contents:list[str], blocks_list_file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]]) -> dict[str,dict[str,any]]:
+    def analyze(self, blocks_file_contents:list[str], blocks_list_file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], blocks_file_name:str) -> dict[str,dict[str,any]]:
         # The code gets super wonky. I had to do it. (referring to SOUND_TYPE_OVERRIDES and SOUND_TYPE_DEFAULT_ALLOWS)
         # NOTE: redstone wire is explicitly defined as default sound type
         SOUND_TYPE_OVERRIDES = self.sound_type_overrides
-        SOUND_TYPE_DEFAULT_ALLOWS = set(["air", "flowing_water", "water", "flowing_lava", "lava", "web", "redstone_wire", "monster_egg", "cauldron", "tripwire_hook", "tripwire", "barrier"])
+        SOUND_TYPE_DEFAULT_ALLOWS = set(self.sound_type_allowances)
         default_sound_type = self.analyze_default_sound_type(blocks_file_contents, version)
-        blocks, blocks_other_files = self.analyze_blocks(blocks_file_contents, version, sound_types, default_sound_type)
+        blocks, blocks_other_files = self.analyze_blocks(blocks_file_contents, version, sound_types, default_sound_type, blocks_file_name)
         blocks_code_names, blocks_files, default_block_file = self.analyze_block_list(blocks_list_file_contents, version)
-        properties_from_files = self.get_properties_from_files(version, blocks_other_files, default_block_file, sound_types)
+        properties_from_files = self.get_properties_from_files(version, blocks_other_files, default_block_file, sound_types, blocks_file_name)
         for game_name, code_name in list(blocks_code_names.items()):
             blocks[game_name]["code_name"] = code_name
         for file_name, properties in list(properties_from_files.items()):
@@ -317,13 +350,13 @@ class Blocks4(DataMiner.DataMiner):
     def activate(self, version:str, store:bool=True) -> dict[str,dict[str,any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
-        blocks_file = self.search(version)
+        blocks_file = self.search_blocks(version)
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_file), "rt") as f:
             blocks_file_contents = f.readlines()
         blocks_list_file = self.search_blocks_list(version)
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_list_file), "rt") as f:
             blocks_list_file_contents = f.readlines()
         sound_types = SoundType.get_data_file(version)
-        blocks = self.analyze(blocks_file_contents, blocks_list_file_contents, version, sound_types)
+        blocks = self.analyze(blocks_file_contents, blocks_list_file_contents, version, sound_types, blocks_file.split(".")[0])
         if store: self.store(version, blocks, "blocks.json")
         return blocks
