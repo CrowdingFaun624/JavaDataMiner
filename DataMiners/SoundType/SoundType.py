@@ -13,7 +13,9 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType2.SoundType2("1.8.9", "1.8.9", ignore_sound_events=["step.anvil"]), # sound types begin being included in Blocks.java; MC-7849
     SoundType1.SoundType1("15w43a", "15w49a"),
     SoundType2.SoundType2("1.8.2-pre5", "15w42a", ignore_sound_events=["step.anvil"]),
-    SoundType3.SoundType3("-", "1.8.2-pre4", ignore_sound_events=["step.anvil"]),
+    SoundType3.SoundType3("14w20a", "1.8.2-pre4", ignore_sound_events=["step.anvil"]),
+    SoundType3.SoundType3("13w42a", "1.7.10", ignore_sound_events=["step.anvil"], search_mode=1),
+    SoundType3.SoundType3("-", "13w41b", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1), # MC-35735
 ]
 
 def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,dict[str,int|str]]:

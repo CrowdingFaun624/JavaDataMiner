@@ -16,7 +16,10 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents2.SoundEvents2("15w49b", "1.13.2"),
     SoundEvents3.SoundEvents3("1.8.9", "1.8.9"),
     SoundEvents2.SoundEvents2("15w43a", "15w49a"),
-    SoundEvents3.SoundEvents3("-", "15w42a")
+    SoundEvents3.SoundEvents3("14w25a", "15w42a", sounds_json_name="minecraft/sounds.json"),
+    SoundEvents3.SoundEvents3("14w20a", "14w21b", sounds_json_name="sounds.json"),
+    SoundEvents3.SoundEvents3("1.7.10-pre4", "1.7.10", sounds_json_name="minecraft/sounds.json"), # idk why it keeps switching
+    SoundEvents3.SoundEvents3("-", "1.7.10-pre3", sounds_json_name="sounds.json"),
 ]
 # TODO: it is possible for the two sound files to differ. Make sure they are documented anyways.
 def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,str]:

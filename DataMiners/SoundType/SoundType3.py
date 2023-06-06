@@ -8,12 +8,17 @@ import DataMiners.SoundEvents.SoundEvents as SoundEvents
 class SoundType3(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.ignore_sound_events:list[str] = []
+        self.search_mode = 0
         if "ignore_sound_events" in kwargs:
             self.ignore_sound_events = kwargs["ignore_sound_events"]
+        if "search_mode" in kwargs:
+            self.search_mode = kwargs["search_mode"]
 
     def search(self, version:str) -> str:
         '''Returns the path of Blocks.java (e.g. "afh.java")'''
-        blocks_files = Searcher.search(version, "client", ["piston", "stone", "grass", "oak_stairs", "not:Bootstrap", "not:name_tag"], ["and"])
+        SEARCH_PARAMETERS = [["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap", "not:empty"],
+                             ["stone", "grass", "leaves", "dispenser", "\".name\""]][self.search_mode]
+        blocks_files = Searcher.search(version, "client", SEARCH_PARAMETERS, ["and"])
         if len(blocks_files) > 1:
             raise FileExistsError("Too many Blocks files found for %s in SoundType:\n%s" % (version, "\n".join(blocks_files)))
         elif len(blocks_files) == 0:
@@ -114,11 +119,13 @@ class SoundType3(DataMiner.DataMiner):
         '''Returns the parent function and all other soundtype classes'''
         SOUNDTYPE_DECLARATION = "    public static final "
         END_RECORDING = "    protected "
+        has_recorded = False
         base_class = None
         subclasses:list[str] = []
         for line in file_contents:
             line = line.rstrip()
-            if line.startswith(SOUNDTYPE_DECLARATION) and "\"" in line:
+            if line.startswith(SOUNDTYPE_DECLARATION) and "\"" in line and "\"air\"" not in line:
+                has_recorded = True
                 split_line = line.replace(SOUNDTYPE_DECLARATION, "").split(" ")
                 new_base_class = split_line[0]
                 if base_class is None: base_class = new_base_class
@@ -126,9 +133,9 @@ class SoundType3(DataMiner.DataMiner):
                     raise ValueError("SoundType base class %s does not match %s in SoundType.Blocks (pass 1) in %s!" % (base_class, new_base_class, version))
                 subclass = split_line[4].split("(")[0]
                 if subclass not in subclasses and subclass != base_class: subclasses.append(subclass)
-            elif line.startswith(END_RECORDING): break
-        else:
-            raise ValueError("SoundType.Blocks (pass 1) did not break before reaching the end of the file in %s!" % version)
+            elif line.startswith(END_RECORDING) and has_recorded: break
+        else: raise ValueError("SoundType.Blocks (pass 1) did not break before reaching the end of the file in %s!" % version)
+        if base_class is None: raise ValueError("SoundType.Blocks (pass 1) did not find base_class before reaching the end of the file in %s!" % version)
         return base_class, subclasses
 
     def analyze_subclass_soundtype(self, file_contents:list[str], file_name:str, version:str, base_functions:dict[str,str]) -> dict[str,str]:
@@ -179,10 +186,12 @@ class SoundType3(DataMiner.DataMiner):
     def analyze_sound_types(self, file_contents:list[str], version:str, subclass_functions:dict[str,dict[str,str]], sound_type_file_name:str) -> dict[str,dict[str,int|str]]:
         SOUND_TYPE_DECLARATION = "    public static final %s " % sound_type_file_name
         RECORD_END = "    protected "
+        has_recorded = False
         output:dict[str,dict[str,int|str]] = {}
         for line in file_contents:
             line = line.rstrip()
             if line.startswith(SOUND_TYPE_DECLARATION):
+                has_recorded = True
                 if not line.endswith(";"):
                     raise ValueError("Line \"%s\" does not end in \";\" in SoundType.Blocks (pass 2) in %s!" % (line, version))
                 split_line = line.replace(SOUND_TYPE_DECLARATION, "").split(" ")
@@ -202,9 +211,9 @@ class SoundType3(DataMiner.DataMiner):
                 if subclass != sound_type_file_name:
                     sound_type.update(subclass_functions[subclass])
                 output[sound_type_name] = sound_type
-            elif line.startswith(RECORD_END): break
-        else:
-            raise ValueError("SoundType.Blocks (pass 2) did not break before reaching the end of the file in %s!" % version)
+            elif line.startswith(RECORD_END) and has_recorded: break
+        else: raise ValueError("SoundType.Blocks (pass 2) did not break before reaching the end of the file in %s!" % version)
+        if output == {}: raise ValueError("SoundType returned an empty dict in %s!" % version)
         return output
 
     def verify_sound_events(self, sound_types:dict[str,dict[str,int|str]], sound_events:list[str], version:str) -> None:
