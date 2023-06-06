@@ -17,7 +17,8 @@ class SoundType3(DataMiner.DataMiner):
     def search(self, version:str) -> str:
         '''Returns the path of Blocks.java (e.g. "afh.java")'''
         SEARCH_PARAMETERS = [["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap", "not:empty"],
-                             ["stone", "grass", "leaves", "dispenser", "\".name\""]][self.search_mode]
+                             ["stone", "grass", "leaves", "dispenser", "\".name\""],
+                             ["stone", "grass", "leaves", "dispenser"]][self.search_mode]
         blocks_files = Searcher.search(version, "client", SEARCH_PARAMETERS, ["and"])
         if len(blocks_files) > 1:
             raise FileExistsError("Too many Blocks files found for %s in SoundType:\n%s" % (version, "\n".join(blocks_files)))
@@ -124,7 +125,8 @@ class SoundType3(DataMiner.DataMiner):
         subclasses:list[str] = []
         for line in file_contents:
             line = line.rstrip()
-            if line.startswith(SOUNDTYPE_DECLARATION) and "\"" in line and "\"air\"" not in line:
+            if self.is_end_line(line, END_RECORDING, version) and has_recorded: break
+            elif line.startswith(SOUNDTYPE_DECLARATION) and "\"" in line and "\"air\"" not in line:
                 has_recorded = True
                 split_line = line.replace(SOUNDTYPE_DECLARATION, "").split(" ")
                 new_base_class = split_line[0]
@@ -133,7 +135,6 @@ class SoundType3(DataMiner.DataMiner):
                     raise ValueError("SoundType base class %s does not match %s in SoundType.Blocks (pass 1) in %s!" % (base_class, new_base_class, version))
                 subclass = split_line[4].split("(")[0]
                 if subclass not in subclasses and subclass != base_class: subclasses.append(subclass)
-            elif line.startswith(END_RECORDING) and has_recorded: break
         else: raise ValueError("SoundType.Blocks (pass 1) did not break before reaching the end of the file in %s!" % version)
         if base_class is None: raise ValueError("SoundType.Blocks (pass 1) did not find base_class before reaching the end of the file in %s!" % version)
         return base_class, subclasses
@@ -183,6 +184,13 @@ class SoundType3(DataMiner.DataMiner):
             raise ValueError("What should be a string value (\"%s\") does not start and/or end with \"\"\"!" % value)
         return value[1:-1] # removes just the start and end quotes
 
+    def is_end_line(self, line:str, record_end:str, version:str) -> bool:
+        if self.search_mode in (0, 1):
+            return line.startswith(record_end)
+        elif self.search_mode in (2, ):
+            return "\"" not in line
+        else: raise ValueError("Invalid search mode in SoundType in %s: %s!" % (version, self.search_mode))
+    
     def analyze_sound_types(self, file_contents:list[str], version:str, subclass_functions:dict[str,dict[str,str]], sound_type_file_name:str) -> dict[str,dict[str,int|str]]:
         SOUND_TYPE_DECLARATION = "    public static final %s " % sound_type_file_name
         RECORD_END = "    protected "
@@ -190,7 +198,8 @@ class SoundType3(DataMiner.DataMiner):
         output:dict[str,dict[str,int|str]] = {}
         for line in file_contents:
             line = line.rstrip()
-            if line.startswith(SOUND_TYPE_DECLARATION):
+            if self.is_end_line(line, RECORD_END, version) and has_recorded: break
+            elif line.startswith(SOUND_TYPE_DECLARATION):
                 has_recorded = True
                 if not line.endswith(";"):
                     raise ValueError("Line \"%s\" does not end in \";\" in SoundType.Blocks (pass 2) in %s!" % (line, version))
@@ -211,7 +220,6 @@ class SoundType3(DataMiner.DataMiner):
                 if subclass != sound_type_file_name:
                     sound_type.update(subclass_functions[subclass])
                 output[sound_type_name] = sound_type
-            elif line.startswith(RECORD_END) and has_recorded: break
         else: raise ValueError("SoundType.Blocks (pass 2) did not break before reaching the end of the file in %s!" % version)
         if output == {}: raise ValueError("SoundType returned an empty dict in %s!" % version)
         return output
