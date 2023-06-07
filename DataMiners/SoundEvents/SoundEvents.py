@@ -1,6 +1,3 @@
-import json
-import os
-
 import DataMiners.DataMiner as DataMiner
 
 import DataMiners.SoundEvents.SoundEventsNew as SoundEventsNew
@@ -20,9 +17,10 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents3.SoundEvents3("14w25a", "15w42a", sounds_json_name="minecraft/sounds.json"),
     SoundEvents3.SoundEvents3("14w20a", "14w21b", sounds_json_name="sounds.json"),
     SoundEvents3.SoundEvents3("1.7.10-pre4", "1.7.10", sounds_json_name="minecraft/sounds.json"), # idk why it keeps switching
-    SoundEvents3.SoundEvents3("-", "1.7.10-pre3", sounds_json_name="sounds.json"),
+    SoundEvents3.SoundEvents3("13w24a", "1.7.10-pre3", sounds_json_name="sounds.json"),
+    SoundEvents4.SoundEvents4("-", "13w23b"),
 ]
 # TODO: it is possible for the two sound files to differ. Make sure they are documented anyways.
-def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,str]:
+def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,str]|list[str]:
     '''Returns the sound events data file for this version, creating it if it does not exist.'''
     return DataMiner.get_data_file(version, "sound_events.json", dataminers, redo, kwargs)

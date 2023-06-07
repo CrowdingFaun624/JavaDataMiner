@@ -37,7 +37,7 @@ def is_in(path:str, terms:list[str], keywords:set[str]) -> bool:
         while True:
             had_term = False
             for available_modifier in available_modifiers:
-                if term.startswith(available_modifier):
+                if term.startswith(available_modifier + ":") or term.startswith(available_modifier + "("): # notes plingy plingy pling hahaha
                     had_term = True
                     if term.startswith(available_modifier + "("):
                         modifier_parameters = term.split("(")[1].split(")")[0].split(",")

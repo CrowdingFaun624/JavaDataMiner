@@ -20,7 +20,8 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType3.SoundType3("13w37b", "13w37b", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1),
     SoundType3.SoundType3("1.6.3", "1.6.3", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
     SoundType3.SoundType3("13w36a", "13w37a", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1),
-    SoundType3.SoundType3("-", "1.6.2", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
+    SoundType3.SoundType3("13w24a", "1.6.2", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
+    SoundType3.SoundType3("-", "13w23b", search_mode=2, rely_on_sounds=False), # when sounds become chaotic evil
 ]
 
 def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,dict[str,int|str]]:

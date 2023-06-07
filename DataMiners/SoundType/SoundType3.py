@@ -9,10 +9,13 @@ class SoundType3(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.ignore_sound_events:list[str] = []
         self.search_mode = 0
+        self.rely_on_sounds = True
         if "ignore_sound_events" in kwargs:
             self.ignore_sound_events = kwargs["ignore_sound_events"]
         if "search_mode" in kwargs:
             self.search_mode = kwargs["search_mode"]
+        if "rely_on_sounds" in kwargs:
+            self.rely_on_sounds = kwargs["rely_on_sounds"]
 
     def search(self, version:str) -> str:
         '''Returns the path of Blocks.java (e.g. "afh.java")'''
@@ -242,13 +245,13 @@ class SoundType3(DataMiner.DataMiner):
             subclass_file_contents = self.get_file_contents(sound_type_file, version)
             subclass_functions[sound_type_file] = self.analyze_subclass_soundtype(subclass_file_contents, sound_type_file, version, base_functions)
         sound_types = self.analyze_sound_types(blocks_file_contents, version, subclass_functions, sound_type_base)
-        self.verify_sound_events(sound_types, sound_events, version)
+        if self.rely_on_sounds: self.verify_sound_events(sound_types, sound_events, version)
         return sound_types
 
     def activate(self, version:str, store:bool=True) -> dict[str,dict[str,int|str]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
-        sound_events = SoundEvents.get_data_file(version)
+        sound_events = SoundEvents.get_data_file(version) if self.rely_on_sounds else []
         if not isinstance(sound_events, list): raise TypeError("SoundEvents subprocess of SoundType gave code keys in %s!" % version)
         blocks_file = self.search(version)
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_file), "rt") as f:
