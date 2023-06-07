@@ -4,7 +4,6 @@ import DataMiners.SoundType.SoundTypeNew as SoundTypeNew
 import DataMiners.SoundType.SoundType1 as SoundType1
 import DataMiners.SoundType.SoundType2 as SoundType2
 import DataMiners.SoundType.SoundType3 as SoundType3
-import DataMiners.SoundType.SoundType4 as SoundType4
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundTypeNew.SoundTypeNew("19w36a", "-"),
@@ -17,7 +16,11 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType3.SoundType3("14w20a", "1.8.2-pre4", ignore_sound_events=["step.anvil"]),
     SoundType3.SoundType3("13w42a", "1.7.10", ignore_sound_events=["step.anvil"], search_mode=1),
     SoundType3.SoundType3("13w38a", "13w41b", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1), # MC-35735
-    SoundType3.SoundType3("-", "1.6.4", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2)
+    SoundType3.SoundType3("1.6.4", "1.6.4", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
+    SoundType3.SoundType3("13w37b", "13w37b", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1),
+    SoundType3.SoundType3("1.6.3", "1.6.3", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
+    SoundType3.SoundType3("13w36a", "13w37a", ignore_sound_events=["step.anvil", "random.glass"], search_mode=1),
+    SoundType3.SoundType3("-", "1.6.2", ignore_sound_events=["step.anvil", "random.glass"], search_mode=2),
 ]
 
 def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,dict[str,int|str]]:

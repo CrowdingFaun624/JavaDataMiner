@@ -39,7 +39,7 @@ class Blocks4(DataMiner.DataMiner):
     
     def search_blocks(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. art.java)'''
-        SEARCH_PARAMETERS = [["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap", "boolean"], 
+        SEARCH_PARAMETERS = [["stone", "grass", "leaves", "dispenser", "not:name_tag", "not:Bootstrap", "float"], 
                              ["stone", "grass", "leaves", "dispenser", "\".name\""]][self.search_mode]
         blocks_files = Searcher.search(version, "client", SEARCH_PARAMETERS, set(["and"]))
         if len(blocks_files) > 1:
@@ -91,11 +91,11 @@ class Blocks4(DataMiner.DataMiner):
                     raise ValueError("Recording line encountered multiple times in Blocks in %s!" % version)
                 start_threshold += 1
                 if start_threshold >= self.blocks_list_record_threshold: recording = True
-            elif line.startswith(RECORD_END) and recording: recording = False; break
+            elif (line.startswith(RECORD_END) or line == "") and recording: recording = False; break
             elif recording:
                 if "\"" not in line: raise ValueError("Line \"%s\" in BlocksList in %s is wonky (search mode %s)!" % (line.lstrip(), version, self.search_mode))
                 split_line = line.lstrip().split(" ")
-                code_name = split_line[CODE_NAME_POSITION]
+                code_name = line.lstrip().replace("    public static final ", "").split(" ")[CODE_NAME_POSITION]
                 game_name = line.split("\"")[-2]
                 if default_file_strategy == 1:
                     new_default_file = line.split(")")[1].split(".")[0]
