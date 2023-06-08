@@ -29,9 +29,9 @@ def terminate_version(version:str) -> None:
 
 def do_version(version:str, exception_holder:dict[str,any], time_holder:dict[str,any]) -> None:
     try:
-        if not os.path.exists(os.path.join("./_versions", version, "data")):
+        if not DataMiners.has_all_files(version):
             print("\t" + version)
-            DataMiners.run_all(version, error_on_none=False)
+            DataMiners.run_all(version, error_on_none=False, run_if_already_existing=False)
             time_holder[version] = 1
         else:
             print(version)
@@ -49,6 +49,15 @@ def do_version(version:str, exception_holder:dict[str,any], time_holder:dict[str
         time_holder[version] = 1
 
 def main() -> None:
+    def sleep(wait_time:float) -> None:
+        try:
+            time.sleep(wait_time)
+        except KeyboardInterrupt:
+            print("Preparing to exit...")
+            keyboard_interruptions += 1
+            stop_creating_threads = True
+            if keyboard_interruptions >= 2: os._exit(0)
+
     Cleaner.clear_incomplete_decompiles()
     versions_properties = Manifest.get_manifest()["versions"]
     CONCURRENT_COUNT = 4
@@ -66,7 +75,7 @@ def main() -> None:
         if not stop_creating_threads and len(active_threads) < CONCURRENT_COUNT:
             # thread creator
             next_wait = 0.005 if all_short else 0.125
-            time.sleep(next_wait)
+            sleep(next_wait)
             new_thread = threading.Thread(target=do_version, args=(version, exception_holder, time_holder))
             exception_holder[version] = None # default, empty error message
             new_thread.start()
@@ -75,13 +84,7 @@ def main() -> None:
         else:
             # thread ender
             while True:
-                try:
-                    time.sleep(0.025)
-                except KeyboardInterrupt:
-                    print("Preparing to exit...")
-                    keyboard_interruptions += 1
-                    stop_creating_threads = True
-                    if keyboard_interruptions >= 2: os._exit(0)
+                sleep(0.025)
                 thread_finished = False
                 threads_finished:list[str] = []
                 for thread_name, active_thread in list(active_threads.items()):

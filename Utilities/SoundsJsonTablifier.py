@@ -193,11 +193,16 @@ def sort_dict(input_dict:dict) -> dict:
 
 def main() -> None:
     OLD_VERSION, NEW_VERSION = Manifest.get_latest()
+    OLD_VERSION = "1.20"; NEW_VERSION = "1.20" # temporary
     files = get_files(OLD_VERSION, NEW_VERSION)
     new_files = []
     for file in files:
         new_files.append(reformat(file))
-    comparison = sort_dict(Comparer.compare(*new_files))
+    if len(new_files) == 2:
+        comparison = sort_dict(Comparer.compare(*new_files))
+    elif len(new_files) == 1:
+        comparison = new_files[0]
+    else: raise ValueError("Invalid number of sounds.json files in SoundsJsonTablifier: %s" % len(new_files))
     old_subtitles = DataMiner.get_dataminer(OLD_VERSION, Subtitles.dataminers).activate(OLD_VERSION)
     new_subtitles = DataMiner.get_dataminer(NEW_VERSION, Subtitles.dataminers).activate(NEW_VERSION)
     subtitles_comparison = Comparer.compare(old_subtitles, new_subtitles)

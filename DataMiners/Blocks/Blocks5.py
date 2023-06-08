@@ -246,7 +246,7 @@ class Blocks5(DataMiner.DataMiner):
         blocks_file = self.search(version)
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_file), "rt") as f:
             blocks_file_contents = f.readlines()
-        sound_types = SoundType.get_data_file(version)
+        sound_types = SoundType.SoundType.get_data_file(version)
         if sound_types == {}: raise ValueError("SoundTypes returned empty dict in Blocks in %s!" % version)
         blocks_file_name = blocks_file.split(".")[0] # without ".java"
         blocks = self.analyze(blocks_file_contents, version, sound_types, blocks_file_name)

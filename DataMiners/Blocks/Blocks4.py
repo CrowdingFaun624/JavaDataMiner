@@ -396,7 +396,7 @@ class Blocks4(DataMiner.DataMiner):
             blocks_list_file = self.search_blocks_list(version)
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_list_file), "rt") as f:
             blocks_list_file_contents = f.readlines()
-        sound_types = SoundType.get_data_file(version)
+        sound_types = SoundType.SoundType.get_data_file(version)
         if sound_types == {}: raise ValueError("SoundTypes returned empty dict in Blocks in %s!" % version)
         blocks = self.analyze(blocks_file_contents, blocks_list_file_contents, version, sound_types, blocks_file.split(".")[0])
         if store: self.store(version, blocks, "blocks.json")

@@ -183,9 +183,9 @@ class SoundEvents4(DataMiner.DataMiner):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         literal_string_list = self.search(version)
         # so many extra data files
-        language_data = set(Language.get_data_file(version).keys())
-        sound_type_data = SoundType.get_data_file(version)
-        notes_data = Notes.get_data_file(version)
+        language_data = set(Language.Language.get_data_file(version).keys())
+        sound_type_data = SoundType.SoundType.get_data_file(version)
+        notes_data = Notes.Notes.get_data_file(version)
         assets_index = AssetsIndex.fetch_assets_index(version, store_in_version=True, store=False)
         # end extra data files
         sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, assets_index)

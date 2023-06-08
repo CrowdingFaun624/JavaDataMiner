@@ -197,7 +197,7 @@ class SoundType2(DataMiner.DataMiner):
     def activate(self, version:str, store:bool=True) -> dict[str,dict[str,int|str]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
-        sound_events = SoundEvents.get_data_file(version)
+        sound_events = SoundEvents.SoundEvents.get_data_file(version)
         if not isinstance(sound_events, list): raise TypeError("SoundEvents subprocess of SoundType gave code keys in %s!" % version)
         sound_type_file = self.search(version)
         with open(os.path.join("./_versions", version, "client_decompiled", sound_type_file), "rt") as f:

@@ -33,8 +33,9 @@ def main() -> None:
     old_version = get_version_input("Older version: ")
     new_version = get_version_input("Newer version: ")
     data_type = get_valid_input("Data type (%s): ", list(DataMiners.all_dataminers.keys()))
-    old_data = DataMiner.get_dataminer(old_version, DataMiners.all_dataminers[data_type]).activate(old_version)
-    new_data = DataMiner.get_dataminer(new_version, DataMiners.all_dataminers[data_type]).activate(new_version)
+    dataminers = DataMiners.all_dataminers[data_type]
+    old_data = DataMiner.get_data_file(old_version, dataminers.file_name, dataminers.dataminers)
+    new_data = DataMiner.get_data_file(new_version, dataminers.file_name, dataminers.dataminers)
     data = all_comparers[data_type]().activate(old_data, new_data)
     file_name = DataComparer.get_valid_file_name(data_type)
     with open(os.path.join("./_comparisons", file_name), "wt") as f:

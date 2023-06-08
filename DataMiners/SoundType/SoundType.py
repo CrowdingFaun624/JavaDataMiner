@@ -1,3 +1,4 @@
+import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
 
 import DataMiners.SoundType.SoundTypeNew as SoundTypeNew
@@ -24,6 +25,4 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType3.SoundType3("-", "13w23b", search_mode=2, rely_on_sounds=False), # when sounds become chaotic evil
 ]
 
-def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,dict[str,int|str]]:
-    '''Returns the sound types data file for this version, creating it if it does not exist.'''
-    return DataMiner.get_data_file(version, "sound_types.json", dataminers, redo, kwargs)
+SoundType = DataMinerType.DataMinerType("sound_types.json", dataminers)

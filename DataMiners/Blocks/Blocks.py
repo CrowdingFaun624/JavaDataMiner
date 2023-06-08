@@ -1,3 +1,4 @@
+import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
 
 import DataMiners.Blocks.Blocks5 as Blocks5
@@ -60,6 +61,4 @@ dataminers:list[DataMiner.DataMiner] = [
     Blocks5.Blocks5("-", "1.6.2", sound_type_allowances=SOUND_TYPE_ALLOWANCES8),
 ]
 
-def get_data_file(version:str, kwargs:dict[str,any]|None=None, redo:bool=False) -> dict[str,dict[str,any]]:
-    '''Returns the blocks data file for this version, creating it if it does not exist.'''
-    return DataMiner.get_data_file(version, "blocks.json", dataminers, redo, kwargs)
+Blocks = DataMinerType.DataMinerType("blocks.json", dataminers)
