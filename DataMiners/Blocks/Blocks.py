@@ -1,6 +1,8 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
 
+import DataMiners.Blocks.Blocks7 as Blocks7
+import DataMiners.Blocks.Blocks6 as Blocks6
 import DataMiners.Blocks.Blocks5 as Blocks5
 import DataMiners.Blocks.Blocks4 as Blocks4
 import DataMiners.Blocks.Blocks3 as Blocks3
@@ -21,6 +23,9 @@ SOUND_TYPE_ALLOWANCES5 = ["air", "flowing_water", "water", "flowing_lava", "lava
 SOUND_TYPE_ALLOWANCES6 = ["flowing_water", "water", "flowing_lava", "lava", "web", "redstone_wire", "monster_egg", "cauldron", "tripwire_hook", "tripwire", "bed", "end_portal", "command_block", "brewing_stand", "flower_pot", "beacon", "piston_extension", "noteblock", "enchanting_table"] # air was made a block internally in 13w38b
 SOUND_TYPE_ALLOWANCES7 = ["minecraft:water_flow", "minecraft:water_still", "minecraft:lava_flow", "minecraft:lava_still", "minecraft:web", "minecraft:redstone_dust", "minecraft:monster_egg", "minecraft:cauldron", "minecraft:trip_wire", "minecraft:trip_wire_source", "minecraft:bed", "minecraft:portal_end", "minecraft:command_block", "minecraft:brewing_stand", "minecraft:flower_pot", "minecraft:beacon", "minecraft:piston_moving_piece", "minecraft:noteblock", "minecraft:enchanting_table"] # this shook things up quite a bit didn't it
 SOUND_TYPE_ALLOWANCES8 = ["water_flow", "water_still", "lava_flow", "lava_still", "noteblock", "bed", "web", 36, 97, "enchanting_table", "brewing_stand", "cauldron", 119, "trip_wire_source", "trip_wire", "command_block", "beacon", "redstone_dust", "flower_pot"]
+SOUND_TYPE_ALLOWANCES9 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 116, 117, 118, 119, 131, 132, 137, 138, 140] # all numbers since they can have the same ids now
+SOUND_TYPE_ALLOWANCES10 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 116, 117, 118, 119, 131, 132, 137, 138, 140, 145] # 145 is anvil
+SOUND_TYPE_ALLOWANCES11 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 115, 116, 117, 118, 119, 131, 132, 137, 138, 140, 145] # 115 is netherStalk
 SOUND_TYPE_SHUT_UP1 = ["slime", "barrier"]
 SOUND_TYPE_SHUT_UP2 = ["minecraft:slime", "minecraft:barrier"] # all of them for a few snapshots have "minecraft:" for some reason
 SOUND_TYPES_CONDENSED1 = {"wood": "wood", "gravel": "gravel", "grass": "grass", "1.0 1.0 dig.stone step.stone dig.stone": "stone", "1.0 1.5 dig.stone step.stone dig.stone": "metal","1.0 1.0 dig.glass step.stone step.stone": "glass","cloth": "cloth", "sand": "sand", "snow": "snow", "1.0 1.0 dig.wood step.ladder dig.wood": "ladder", "0.3 1.0 dig.stone step.anvil random.anvil_land": "anvil", "1.0 1.0 mob.slime.big mob.slime.small mob.slime.big": "slime"}
@@ -58,7 +63,12 @@ dataminers:list[DataMiner.DataMiner] = [
     Blocks5.Blocks5("1.6.3", "1.6.3", sound_type_allowances=SOUND_TYPE_ALLOWANCES8),
     Blocks4.Blocks4("13w37a", "13w37a"            , sound_types_condensed=SOUND_TYPES_CONDENSED2, next_line_look_ahead=0, blocks_record_threshold=1, blocks_list_record_threshold=1, sound_type_overrides=SOUND_TYPE_OVERRIDES4, sound_type_allowances=SOUND_TYPE_ALLOWANCES6, sound_type_shut_up=SOUND_TYPE_SHUT_UP1, sound_type_class_name_getter_mode=1),
     Blocks4.Blocks4("13w36a", "13w36b"            , sound_types_condensed=SOUND_TYPES_CONDENSED2, next_line_look_ahead=0, blocks_record_threshold=1, blocks_list_record_threshold=1, sound_type_overrides=SOUND_TYPE_OVERRIDES5, sound_type_allowances=SOUND_TYPE_ALLOWANCES7, sound_type_shut_up=SOUND_TYPE_SHUT_UP2, sound_type_class_name_getter_mode=1),
-    Blocks5.Blocks5("-", "1.6.2", sound_type_allowances=SOUND_TYPE_ALLOWANCES8),
+    Blocks5.Blocks5("13w24a", "1.6.2", sound_type_allowances=SOUND_TYPE_ALLOWANCES8),
+    Blocks6.Blocks6("1.4", "13w23b", sound_type_allowances=SOUND_TYPE_ALLOWANCES9), # "new" function is removed, just old now. Also I don't want a repeat of Blocks4 so I'm making a new one now.
+    Blocks6.Blocks6("12w34a", "12w42b", sound_type_allowances=SOUND_TYPE_ALLOWANCES10),
+    Blocks6.Blocks6("12w07a", "1.3.2", sound_type_allowances=SOUND_TYPE_ALLOWANCES11),
+    Blocks6.Blocks6("b1.2", "12w06a", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256),
+    Blocks6.Blocks6("-", "b1.1_02", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256, search_mode=1),
 ]
 
 Blocks = DataMinerType.DataMinerType("blocks.json", dataminers)

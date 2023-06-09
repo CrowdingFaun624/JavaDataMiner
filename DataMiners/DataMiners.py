@@ -1,12 +1,14 @@
 import os
 
 import DataMiners.DataMiner as DataMiner
+import Importer.Decompiler as Decompiler
 import Importer.Manifest as Manifest
 
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.Blocks.Blocks as Blocks
 import DataMiners.Language.Language as Language
 import DataMiners.Notes.Notes as Notes
+import DataMiners.Records.Records as Records
 import DataMiners.SoundEvents.SoundEvents as SoundEvents
 import DataMiners.SoundType.SoundType as SoundType
 import DataMiners.SoundTypeBlocks.SoundTypeBlocks as SoundTypeBlocks
@@ -16,6 +18,7 @@ all_dataminers:dict[str,DataMinerType.DataMinerType] = {
     "blocks": Blocks.Blocks,
     "language": Language.Language,
     "notes": Notes.Notes,
+    "records": Records.Records,
     "sound_events": SoundEvents.SoundEvents,
     "sound_type": SoundType.SoundType,
     "sound_type_blocks": SoundTypeBlocks.SoundTypeBlocks,
@@ -34,6 +37,7 @@ def run(version:str, dataminer_name:str, error_on_none:bool=False, run_if_alread
     dataminer_type = all_dataminers[dataminer_name]
     if not run_if_already_existing and os.path.exists(os.path.join("./_versions", version, "data", dataminer_type.file_name)): return
     dataminer = DataMiner.get_dataminer(version, dataminer_type.dataminers)
+    Decompiler.get_decompiled_client(version) # unzips the decompiled client
     if dataminer is None:
         if error_on_none: raise KeyError("DataMiner %s for version %s does not exist!" % (dataminer_name, version))
         else: return None

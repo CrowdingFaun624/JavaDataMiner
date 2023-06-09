@@ -4,64 +4,28 @@ import DataMiners.DataMiner as DataMiner
 import DataMiners.SoundType.SoundType as SoundType
 import Utilities.Searcher as Searcher
 
-class Blocks5(DataMiner.DataMiner):
+class Blocks6(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.sound_type_allowances:list[str] = []
+        self.magic_number = 4096
+        self.search_mode:int = 0
         if "sound_type_allowances" in kwargs:
             self.sound_type_allowances = kwargs["sound_type_allowances"]
+        if "magic_number" in kwargs:
+            self.magic_number = kwargs["magic_number"]
+        if "search_mode" in kwargs:
+            self.search_mode = kwargs["search_mode"]
 
     def search(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. aqz.java)'''
-        blocks_files = Searcher.search(version, "client", ["stone", "grass", "leaves", "dispenser"], set(["and"]))
+        search_terms = [["stone", "grass", "leaves", "dispenser"], ["stone", "grass", "leaves"]][self.search_mode]
+        blocks_files = Searcher.search(version, "client", search_terms, set(["and"]))
         if len(blocks_files) > 1:
             raise FileExistsError("Too many Blocks files found for %s:\n%s" % (version, "\n".join(blocks_files)))
         elif len(blocks_files) == 0:
             raise FileNotFoundError("No Blocks file found for %s" % version)
         else: blocks_file = blocks_files[0]
         return blocks_file
-
-    def try_to_find_new_and_old_name_functions(self, line:str, version:str) -> tuple[str|None,str|None]:
-        '''If conditions are met, it will return the old name function and the new name function'''
-        def get_function(item:str, line:str) -> str:
-            quoted_item = "\"%s\"" % item
-            if quoted_item not in line: raise ValueError("Item \"%s\" is not in line \"%s\" in Blocks in %s!" % (item, line, version))
-            if "(\"%s\")" not in line: raise ValueError("Unable to find function of \"%s\" in Blocks in %s in line \"%s\"!" % (item, version, line))
-            return line.split("(%s)" % quoted_item)[0].split(".")[-1]
-        OLD_SIGNIFIERS = ["stonebrick", "oreGold", "oreIron", "oreCoal", "oreLapis", "blockLapis"]
-        quote_count = line.count("\"")
-        if quote_count % 2 == 1:
-            raise ValueError("Number of quotes (%s) in line \"%s\" is an odd number in Blocks in %s!" % (quote_count, line, version))
-        elif quote_count == 0: return None, None
-        elif quote_count == 2: return None, None
-        # elif quote_count > 4:
-        #     raise ValueError("Number of quotes (%s) in line \"%s\" is above 4 in Blocks in %s!" % (quote_count, line, version))
-        # elif quote_count == 4:
-        else: # 
-            if quote_count > 4: quote_offset = quote_count - 4
-            else: quote_offset = 0
-            split_line = line.split("\"")
-            item1, item2 = split_line[1 + quote_offset], split_line[3 + quote_offset]
-            if item1 == item2: return None, None
-            yippee_it_found_something = False
-            if item1 in OLD_SIGNIFIERS:
-                old_function, new_function = get_function(item1, line), get_function(item2, line)
-                yippee_it_found_something = True
-            elif item2 in OLD_SIGNIFIERS:
-                old_function, new_function = get_function(item2, line), get_function(item1, line)
-                yippee_it_found_something = True
-            if yippee_it_found_something:
-                if old_function == new_function: raise ValueError("Old function \"%s\" and new function \"%s\" are for some reason equal to each other in Blocks in %s!" % (old_function, new_function, version))
-                return old_function, new_function
-        return None, None
-
-    def analyze_old_and_new_functions(self, file_contents:list[str], version:str, file_name:str) -> tuple[str,str]:
-        for line in file_contents:
-            line = line.rstrip()
-            thing = self.try_to_find_new_and_old_name_functions(line, version)
-            old_function, new_function = thing
-            if old_function is not None and new_function is not None:
-                return old_function, new_function
-        else: raise ValueError("Unable to find old name function and new name function before end of file in Blocks in %s!" % version)
 
     def get_sound_type(self, line:str, sound_types:dict[str,dict[str,int|str]], version:str, keys:list[str]=None, backup:str|None=None) -> str|None:
         '''Attempts to return the sound type of the line, and returns the backup (or None) if it can't'''
@@ -89,11 +53,15 @@ class Blocks5(DataMiner.DataMiner):
                 else: return int(output)
         else: raise ValueError("Line \"%s\"'s does not have a numeric id in Blocks in %s!" % (line, version))
 
-    def get_name_from_function(self, line:str, function_name:str) -> str|None:
+    def get_name(self, line:str, version:str) -> str|None:
         '''Returns a block name (e.g. \"stone\") using the name declaring function (e.g. \"e\") or None if it does not exist.'''
-        big_string = ".%s(\"" % function_name
-        if big_string not in line: return None
-        else: return line.split(big_string)[1].split("\")")[0]
+        if "\"" not in line: return None
+        item = line.split("\"")[-2]
+        split_line = line.split(item)
+        before, after = split_line[-2], split_line[-1]
+        if not before.endswith("(\"") or not after.startswith("\")"):
+            raise ValueError("Block maybe named \"%s\" in Blocks in %s is wonky in line \"%s\"!" % (item, version, line))
+        return item
 
     def get_template(self, line:str, blocks:dict[str,dict[str,any]], version:str) -> tuple[bool,dict[str,any]|None]:
         '''Sees if it can get any properties based off of template, and returns that boolean of if it did and the template data.'''
@@ -123,9 +91,13 @@ class Blocks5(DataMiner.DataMiner):
         return default_sound_type
 
     def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], file_name:str) -> dict[int,dict[str,any]]:
+        def is_illegal_start(line:str) -> bool:
+            for illegal_start in ILLEGAL_STARTS:
+                if line.startswith(illegal_start): return True
+            else: return False
         RECORD_START = "    public static final "
-        MAGIC_NUMBER = str(4096)
-        old_name_function, new_name_function = self.analyze_old_and_new_functions(file_contents, version, file_name)
+        ILLEGAL_STARTS = ["    public static final boolean", "    public static final int"]
+        MAGIC_NUMBER = str(self.magic_number)
         met_magic_number = False
         recording = False
         subclasses = self.analyze_block_subclasses_to_analyze(file_contents, version, file_name)
@@ -136,34 +108,36 @@ class Blocks5(DataMiner.DataMiner):
         for line in file_contents:
             line = line.rstrip()
             if MAGIC_NUMBER in line: met_magic_number = True
-            elif line.startswith(RECORD_START) and met_magic_number:
+            elif line.startswith(RECORD_START) and met_magic_number and not is_illegal_start(line):
                 recording = True
             elif len(output) > 0: break # it ends at the first weird line
             if recording:
+                if line.startswith("    public static boolean"): break
+                if line.endswith("null;"): continue
                 code_name = line.replace(RECORD_START, "").split(" ")[1]
                 numeric_id = self.get_numeric_id(line, version)
-                old_name = self.get_name_from_function(line, old_name_function)
-                new_name = self.get_name_from_function(line, new_name_function)
+                name = self.get_name(line, version)
                 block_subclass = line.split("new ")[1].split("(")[0]
                 sound_type = self.get_sound_type(line, sound_types, version, backup=subclass_properties[block_subclass]["sound_type"])
                 is_template, template_data = self.get_template(line, output, version)
                 if is_template:
-                    if old_name is None: old_name = template_data["old_name"]
-                    if new_name is None: new_name = template_data["new_name"]
+                    if name is None: name = template_data["name"]
                     if sound_type is None: sound_type = template_data["sound_type"]
-                output[code_name] = {"id": numeric_id, "new_name": new_name, "old_name": old_name, "sound_type": sound_type}
+                output[code_name] = {"id": numeric_id, "name": name, "sound_type": sound_type}
         else: raise ValueError("Blocks in %s did not start/stop recording before end of file!" % version)
         self.validate_sound_types(output, version, default_sound_type)
         return output
 
     def validate_sound_types(self, blocks:dict[str,dict[str,any]], version:str, default_sound_type:str) -> None:
-        def is_in_allowances(numeric_id:int, new_name:str) -> bool:
+        def is_in_allowances(numeric_id:int, name:str) -> bool:
             if numeric_id in sound_type_allowances: return True
-            elif new_name in sound_type_allowances: return True
+            elif name in sound_type_allowances: return True
             else: return False
         def get_best_identifier(block_properties:dict[str,any]) -> str|int:
-            return block_properties["new_name"] if block_properties["new_name"] is not None else block_properties["id"]
-        REQUIRED_BLOCK_PROPERTIES = set(["id", "old_name", "new_name", "sound_type"])
+            if block_properties["name"] is not None:
+                return "\"%s\" (%s)" % (block_properties["name"], block_properties["id"])
+            else: return block_properties["id"]
+        REQUIRED_BLOCK_PROPERTIES = set(["id", "name", "sound_type"])
         sound_type_allowances = set(self.sound_type_allowances)
         error_list:list[str] = []
         for block_code_name, block_properties in list(blocks.items()):
@@ -171,15 +145,14 @@ class Blocks5(DataMiner.DataMiner):
                 best_identifier = get_best_identifier(block_properties)
                 error_list.append("Block properties \"[%s]\" for %s are not the required properties (\"[%s]\")!" % (", ".join(list(block_properties.keys())), best_identifier, ", ".join(list(REQUIRED_BLOCK_PROPERTIES))))
             elif block_properties["sound_type"] == None:
-                if not is_in_allowances(block_properties["id"], block_properties["new_name"]):
-                    print(block_properties["new_name"], block_properties["new_name"] in sound_type_allowances, block_properties["id"], block_properties["id"] in sound_type_allowances)
+                if not is_in_allowances(block_properties["id"], block_properties["name"]):
                     best_identifier = get_best_identifier(block_properties)
-                    error_list.append("Block \"%s\" has a null sound type but shouldn't be!" % best_identifier)
+                    error_list.append("Block %s has a null sound type but shouldn't be!" % best_identifier)
                 blocks[block_code_name]["sound_type"] = default_sound_type # set it for when it doesn't error
             elif block_properties["sound_type"] == default_sound_type:
-                if not is_in_allowances(block_properties["id"], block_properties["new_name"]):
+                if not is_in_allowances(block_properties["id"], block_properties["name"]):
                     best_identifier = get_best_identifier(block_properties)
-                    error_list.append("Block \"%s\" has the default sound type but shouldn't be!" % best_identifier)
+                    error_list.append("Block %s has the default sound type but shouldn't be!" % best_identifier)
         if len(error_list) > 0:
             raise ValueError("In Blocks in %s: " % version + " ".join(error_list))
 
@@ -195,7 +168,7 @@ class Blocks5(DataMiner.DataMiner):
         properties = DataMiner.DataMiner.sort_dict(properties)
 
     def analyze_subclass(self, file_contents:list[str], file_name:str, version:str, properties:dict[str,dict[str,any]], default_file_name:str, sound_types:dict[str,dict[str,int|str]]) -> None:
-        # NOTE: This does not make an attempt to get names, old or new
+        # NOTE: This does not make an attempt to get names
         def should_start_recording(line:str) -> bool:
             for start_recording in START_RECORDINGS:
                 if line.startswith(start_recording % file_name): return True
@@ -225,18 +198,25 @@ class Blocks5(DataMiner.DataMiner):
         else: raise ValueError("Blocks.analyze_subclass in subclass \"%s\" in %s did not start/stop before reaching end of file!" % (file_name, version))
 
     def analyze_block_subclasses_to_analyze(self, file_contents:list[str], version:str, file_name:str) -> list[str]:
+        def is_illegal_start(line:str) -> bool:
+            for illegal_start in ILLEGAL_STARTS:
+                if line.startswith(illegal_start): return True
+            else: return False
         RECORD_START = "    public static final "
-        MAGIC_NUMBER = str(4096)
+        ILLEGAL_STARTS = ["    public static final boolean", "    public static final int"]
+        MAGIC_NUMBER = str(self.magic_number)
         met_magic_number = False
         recording = False
         output:list[str] = []
         for line in file_contents:
             line = line.rstrip()
             if MAGIC_NUMBER in line: met_magic_number = True
-            elif line.startswith(RECORD_START) and met_magic_number:
+            elif line.startswith(RECORD_START) and met_magic_number and not is_illegal_start(line):
                 recording = True
             elif len(output) > 0: break
             if recording:
+                if line.startswith("    public static boolean"): continue
+                if line.endswith("null;"): continue
                 block_subclass = line.split("new ")[1].split("(")[0]
                 output.append(block_subclass)
         else: raise ValueError("Blocks.analyze_block_subclasses_to_analyze in %s did not start/stop recording before end of file!" % version)

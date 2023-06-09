@@ -3,10 +3,22 @@ import os
 import DataMiners.DataMiner as DataMiner
 import DataMiners.Language.Language as Language
 import DataMiners.Notes.Notes as Notes
+import DataMiners.Records.Records as Records
 import DataMiners.SoundType.SoundType as SoundType
 import Importer.AssetsIndex as AssetsIndex
 
 class SoundEvents4(DataMiner.DataMiner):
+    def init(self, **kwargs) -> None:
+        self.records = "records.ogg"
+        self.sound_type_keys = ["dig", "step", "dig2"]
+        self.grab_assets = True
+        if "records" in kwargs:
+            self.records = kwargs["records"]
+        if "sound_type_keys" in kwargs:
+            self.sound_type_keys = kwargs["sound_type_keys"]
+        if "grab_assets" in kwargs:
+            self.grab_assets = kwargs["grab_assets"]
+    
     def search(self, version:str, subfolder:str="") -> list[str]:
         output:list[str] = []
         file_list = os.listdir("./_versions/%s/client_decompiled%s" % (version, subfolder))
@@ -19,10 +31,11 @@ class SoundEvents4(DataMiner.DataMiner):
                     file_content = f.read()
                 output.extend(self.get_strings(file_content, file, version))
         return output
+    
     def get_strings(self, file_contents:str, file_name:str, version:str) -> list[str]:
         def is_significant_quote(char:str) -> bool:
             if char not in ("\"", "\'"): return False
-            if not in_quote: return True
+            elif not in_quote: return True
             else: return quote_type == char
         output:list[str] = []
         in_quote = False
@@ -45,8 +58,8 @@ class SoundEvents4(DataMiner.DataMiner):
             if is_significant_quote(char):
                 if in_quote:
                     in_quote = False
+                    if quote_type == "\"": output.append(current_quote) # only " quotes since ' quotes mean single character apparently
                     quote_type = None
-                    output.append(current_quote)
                     current_quote = ""
                     continue
                 else:
@@ -56,14 +69,27 @@ class SoundEvents4(DataMiner.DataMiner):
                     continue
             if in_quote:
                 if char == "\n":
-                    print(current_quote)
+                    print(current_quote) # intended print line
                     raise ValueError("newline in file %s in SoundEvents in %s: \"%s\"" % (file_name, version))
                 current_quote += char
         return output
 
     def ensure_no_duplicates(self, string_list:list[str], version:str) -> None:
         if len(set(string_list)) != len(string_list):
-            raise ValueError("SoundEvents has duplicate entries in %s!" % version)
+            already:set[str] = set()
+            duplicates:list[str] = []
+            for item in string_list:
+                if item in already: duplicates.append(item)
+                already.add(item)
+            raise ValueError("SoundEvents has duplicate entries in %s: %s" % (version, ", ".join(duplicates)))
+
+    def replace_minecraft_colon(self, string_list:list[str]) -> list[str]:
+        output:list[str] = []
+        for item in string_list:
+            if item.startswith("minecraft:"):
+                output.append(item.replace("minecraft:", "", 1))
+            else: output.append(item)
+        return output
 
     def filter_illegal_characters(self, string_list:list[str]) -> list[str]:
         ILLEGAL_CHARACTERS = set(" !@#$%^&*()-+=[]{}\\|;:\"\',<>/?`~")
@@ -86,6 +112,16 @@ class SoundEvents4(DataMiner.DataMiner):
             if item.count(".") > 0: output.append(item)
         return output
 
+    def filter_strange_underscores(self, string_list:list[str]) -> list[str]:
+        output:list[str] = []
+        for item in string_list:
+            split_items = item.split(".")
+            is_bad = False
+            for split_item in split_items:
+                if split_item.endswith("_") or split_item.startswith("_"): is_bad = True; break
+            if not is_bad: output.append(item)
+        return output
+
     def filter_language_keys(self, string_list:list[str], language:set[str]) -> list[str]:
         output:list[str] = []
         for item in string_list:
@@ -99,7 +135,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_illegal_endings(self, string_list:list[str]) -> list[str]:
-        ILLEGAL_ENDINGS = [".png", ".desktop", ".txt", ".dat", ".dat_old", ".old", ".tmp", ".dat_new", ".dat_mcr", ".dnscontextfactory", ".main", ".bone", ".nose", ".skin", ".box", ".nostril", ".ear1", ".ear2", ".upperlip", ".scale", ".log", ".body", ".properties", ".jaw", ".upperhead", ".mcmeta"]
+        ILLEGAL_ENDINGS = [".png", ".desktop", ".txt", ".dat", ".dat_old", ".old", ".tmp", ".dat_new", ".dat_mcr", ".dnscontextfactory", ".main", ".bone", ".nose", ".skin", ".box", ".nostril", ".ear1", ".ear2", ".upperlip", ".scale", ".log", ".body", ".properties", ".jaw", ".upperhead", ".mcmeta", ".json", ".lang"]
         output:list[str] = []
         for item in string_list:
             is_bad = False
@@ -109,7 +145,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_illegal_beginnings(self, string_list:list[str]) -> list[str]:
-        ILLEGAL_BEGINNINGS = ["generic.", "java.", "util.", "rcon.", "commands.", "net.", "query.", "com.", "os.", "sun.", "chat.", "damage.", "horse."]
+        ILLEGAL_BEGINNINGS = ["generic.", "java.", "util.", "rcon.", "commands.", "net.", "query.", "com.", "os.", "sun.", "chat.", "damage.", "horse.", "stat.", "mco.", "org.", "alg.", "algorithm", "certpath", "certstore.", "cipher.", "keystore.", "mac.", "secretkeyfactory.", "x509", "javax.", "options.", "language.", "achievement.", "gui.", "potion."]
         output:list[str] = []
         for item in string_list:
             is_bad = False
@@ -129,43 +165,53 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_illegal_items(self, string_list:list[str]) -> list[str]:
-        ILLEGAL_ITEMS = ["session.lock", "container.beacon", "item.charcoal", "item.coal", "zombie.spawnReinforcements", "potion.healthBoost"]
+        ILLEGAL_ITEMS = ["session.lock", "container.beacon", "item.charcoal", "item.coal", "zombie.spawnReinforcements", "potion.healthBoost", "Style.ROOT", "supported.n", "explosion.player", "death.fell.accident", "user.home", "line.separator", "selectServer.editButton", "deathScreen.leaveServer", "disconnect.spam", "file.separator", "www.minecraft.net"]
         output:set[str] = set(string_list)
         for illegal_item in ILLEGAL_ITEMS:
             if illegal_item in output: output.remove(illegal_item)
         return list(output)
 
     def add_sound_type_events(self, string_list:list[str], sound_types:dict[str,dict[str,int|str]]) -> list[str]:
-        SOUND_TYPE_KEYS = ["dig", "step", "dig2"]
+        SOUND_TYPE_KEYS = self.sound_type_keys
         output = set(string_list)
         for sound_type in list(sound_types.values()):
             for sound_type_key in SOUND_TYPE_KEYS:
                 output.add(sound_type[sound_type_key])
         return list(output)
 
-    def add_records(self, string_list:list[str], version:str, assets_index:dict[str,dict[str,dict[str|int]]]) -> list[str]:
-        assets_index = assets_index["objects"]
-        ILLEGAL_RECORDS = ["where are we now"]
-        added_anything = False
+    def add_records(self, string_list:list[str], version:str, records:list[str]) -> list[str]:
+        if "records.far" in string_list: return string_list # some versions have records already in them
+        # assets_index = assets_index["objects"]
+        # ILLEGAL_RECORDS = ["where are we now"]
+        # added_anything = False
+        # output = string_list
+        # beginning, ending = self.records.split(".")
+        # beginning += "/"
+        # for key in assets_index:
+        #     if key.startswith(beginning) and key.endswith(ending):
+        #         record_name = key.replace(beginning, "").split(".")[0]
+        #         if record_name in ILLEGAL_RECORDS: continue
+        #         output.append("records." + record_name)
+        #         added_anything = True
+        # if not added_anything: raise KeyError("Unable to find records to add in SoundEvents in %s!" % version)
+        # return output
         output = string_list
-        for key in assets_index:
-            if key.startswith("streaming/") and key.endswith(".mus"):
-                record_name = key.replace("streaming/", "").split(".")[0]
-                if record_name in ILLEGAL_RECORDS: continue
-                output.append("records." + record_name)
-                added_anything = True
-        if not added_anything: raise KeyError("Unable to find records to add in SoundEvents in %s!" % version)
+        for record in records:
+            output.append("records." + record)
         return output
 
     def add_notes(self, string_list:list[str], notes:list[str]) -> list[str]:
+        if notes is None: return string_list
         for note in notes:
             string_list.append("note." + note)
         return string_list
 
-    def analyze(self, string_list:list[str], version:str, language:dict[str,str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], assets_index:dict[str,dict[str,dict[str|int]]]) -> list[str]:
+    def analyze(self, string_list:list[str], version:str, language:dict[str,str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], assets_index:dict[str,dict[str,dict[str|int]]], records:list[str]) -> list[str]:
         output = self.filter_duplicates(string_list)
+        output = self.replace_minecraft_colon(string_list)
         output = self.filter_illegal_characters(output)
         output = self.filter_no_periods(output)
+        output = self.filter_strange_underscores(output)
         output = self.filter_language_keys(output, language)
         output = self.filter_wonky_periods(output)
         output = self.filter_illegal_endings(output)
@@ -173,7 +219,7 @@ class SoundEvents4(DataMiner.DataMiner):
         output = self.filter_numbery_items(output)
         output = self.filter_illegal_items(output)
         output = self.add_sound_type_events(output, sound_type_data)
-        output = self.add_records(output, version, assets_index)
+        output = self.add_records(output, version, records)
         output = self.add_notes(output, notes_data)
         self.ensure_no_duplicates(output, version)
         return sorted(output)
@@ -186,8 +232,9 @@ class SoundEvents4(DataMiner.DataMiner):
         language_data = set(Language.Language.get_data_file(version).keys())
         sound_type_data = SoundType.SoundType.get_data_file(version)
         notes_data = Notes.Notes.get_data_file(version)
-        assets_index = AssetsIndex.fetch_assets_index(version, store_in_version=True, store=False)
+        records:list[str] = Records.Records.get_data_file(version)
+        assets_index = AssetsIndex.fetch_assets_index(version, store_in_version=True, store=False) if self.grab_assets else None
         # end extra data files
-        sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, assets_index)
+        sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, assets_index, records)
         if store: self.store(version, sound_events, "sound_events.json")
         return literal_string_list

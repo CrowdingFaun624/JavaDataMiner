@@ -38,7 +38,7 @@ def get_decompiled(version:str, side:str="client") -> None:
     zip_path = os.path.join("./_versions", version, "%s_decompiled.zip" % side)
     dest_path = os.path.join("./_versions", version, "%s_decompiled" % side)
     if os.path.exists(dest_path): return
-    if os.path.exists(zip_path):
+    elif os.path.exists(zip_path):
         with zipfile.ZipFile(zip_path) as zip_file:
             zip_file.extractall(dest_path)
         os.remove(zip_path)

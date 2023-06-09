@@ -40,5 +40,5 @@ class NotesNew(DataMiner.DataMiner):
         with open(os.path.join("./_versions", version, "client_decompiled", notes_file), "rt") as f:
             notes_file_contents = f.readlines()
         sound_types = self.analyze(notes_file_contents, version)
-        if store: self.store(version, sound_types, "sound_types.json")
+        if store: self.store(version, sound_types, "notes.json")
         return sound_types

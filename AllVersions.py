@@ -49,33 +49,33 @@ def do_version(version:str, exception_holder:dict[str,any], time_holder:dict[str
         time_holder[version] = 1
 
 def main() -> None:
-    def sleep(wait_time:float) -> None:
+    def sleep(wait_time:float, keyboard_interruptions:list[int], stop_creating_threads:list[bool]) -> None:
         try:
             time.sleep(wait_time)
         except KeyboardInterrupt:
             print("Preparing to exit...")
-            keyboard_interruptions += 1
-            stop_creating_threads = True
-            if keyboard_interruptions >= 2: os._exit(0)
+            keyboard_interruptions[0] += 1
+            stop_creating_threads[0] = True
+            if keyboard_interruptions[0] >= 2: os._exit(0)
 
     Cleaner.clear_incomplete_decompiles()
-    versions_properties = Manifest.get_manifest()["versions"]
+    versions_properties = Manifest.fetch_manifest(store=True)["versions"]
     CONCURRENT_COUNT = 4
     # version_groups = get_version_collections(versions, CONCURRENT_COUNT)
     versions = [version["id"] for version in versions_properties]
     active_threads:dict[str,threading.Thread] = {}
     exception_holder:dict[str,any] = {}
     time_holder:dict[str,any] = {}
-    stop_creating_threads = False
+    stop_creating_threads = [False]
     index = 0
-    keyboard_interruptions = 0
+    keyboard_interruptions = [0]
     all_short = True
     while True:
         version = versions[index] # do this so it never skips any
-        if not stop_creating_threads and len(active_threads) < CONCURRENT_COUNT:
+        if not stop_creating_threads[0] and len(active_threads) < CONCURRENT_COUNT:
             # thread creator
-            next_wait = 0.005 if all_short else 0.125
-            sleep(next_wait)
+            next_wait = 0.0025 if all_short else 0.125
+            sleep(next_wait, keyboard_interruptions, stop_creating_threads)
             new_thread = threading.Thread(target=do_version, args=(version, exception_holder, time_holder))
             exception_holder[version] = None # default, empty error message
             new_thread.start()
@@ -84,7 +84,7 @@ def main() -> None:
         else:
             # thread ender
             while True:
-                sleep(0.025)
+                sleep(0.025, keyboard_interruptions, stop_creating_threads)
                 thread_finished = False
                 threads_finished:list[str] = []
                 for thread_name, active_thread in list(active_threads.items()):
@@ -96,12 +96,12 @@ def main() -> None:
                     all_short = True
                     for thread_name in threads_finished:
                         if exception_holder[thread_name] is not None:
-                            stop_creating_threads = True
+                            stop_creating_threads[0] = True
                             print(thread_name)
                             traceback.print_exception(exception_holder[thread_name])
                         if time_holder[thread_name] > 0: all_short = False
                     break
-        if stop_creating_threads and len(active_threads) == 0: break
+        if stop_creating_threads[0] and len(active_threads) == 0: break
     print("Finished datamining; cleaning up...")
     Cleaner.clear_mappings()
     Cleaner.clear_mappings_tsrg()

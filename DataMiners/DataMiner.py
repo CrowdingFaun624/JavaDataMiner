@@ -57,8 +57,8 @@ def get_data_file(version:str, file_name:str, dataminer_list:list[DataMiner], re
             return json.loads(f.read())
     else:
         dataminer = get_dataminer(version, dataminer_list)
+        if dataminer is None: return None
         if kwargs == {} or kwargs is None:
-            return_value = dataminer.activate(version)
+            return dataminer.activate(version)
         else:
-            return_value = dataminer.activate(version, kwargs=kwargs)
-        return return_value
+            return dataminer.activate(version, kwargs=kwargs)

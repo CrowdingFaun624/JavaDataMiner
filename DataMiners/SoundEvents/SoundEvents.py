@@ -19,7 +19,10 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents3.SoundEvents3("14w20a", "14w21b", sounds_json_name="sounds.json"),
     SoundEvents3.SoundEvents3("1.7.10-pre4", "1.7.10", sounds_json_name="minecraft/sounds.json"), # idk why it keeps switching
     SoundEvents3.SoundEvents3("13w49a", "1.7.10-pre3", sounds_json_name="sounds.json"),
-    SoundEvents4.SoundEvents4("-", "13w48b"), # this is done at this time period due to assets "legacy.json" being inaccurate.
+    SoundEvents4.SoundEvents4("13w24a", "13w48b", records="records.ogg"), # this is done at this time period due to assets "legacy.json" being inaccurate.
+    SoundEvents4.SoundEvents4("12w39a", "13w23b", records="streaming.mus"), # sounds become chaotic evil instead of just neutral evil (no sounds.json at all)
+    SoundEvents4.SoundEvents4("1.0", "12w38b", records="streaming.mus", sound_type_keys=["dig", "step"]),
+    SoundEvents4.SoundEvents4("-", "1.0.0-rc2-3", records="streaming.mus", sound_type_keys=["dig", "step"], grab_assets=False),
 ]
 
 SoundEvents = DataMinerType.DataMinerType("sound_events.json", dataminers)
