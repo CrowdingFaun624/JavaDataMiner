@@ -123,6 +123,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_language_keys(self, string_list:list[str], language:set[str]) -> list[str]:
+        if language is None: return string_list
         output:list[str] = []
         for item in string_list:
             if item not in language: output.append(item)
@@ -181,20 +182,6 @@ class SoundEvents4(DataMiner.DataMiner):
 
     def add_records(self, string_list:list[str], version:str, records:list[str]) -> list[str]:
         if "records.far" in string_list: return string_list # some versions have records already in them
-        # assets_index = assets_index["objects"]
-        # ILLEGAL_RECORDS = ["where are we now"]
-        # added_anything = False
-        # output = string_list
-        # beginning, ending = self.records.split(".")
-        # beginning += "/"
-        # for key in assets_index:
-        #     if key.startswith(beginning) and key.endswith(ending):
-        #         record_name = key.replace(beginning, "").split(".")[0]
-        #         if record_name in ILLEGAL_RECORDS: continue
-        #         output.append("records." + record_name)
-        #         added_anything = True
-        # if not added_anything: raise KeyError("Unable to find records to add in SoundEvents in %s!" % version)
-        # return output
         output = string_list
         for record in records:
             output.append("records." + record)
@@ -229,7 +216,8 @@ class SoundEvents4(DataMiner.DataMiner):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         literal_string_list = self.search(version)
         # so many extra data files
-        language_data = set(Language.Language.get_data_file(version).keys())
+        language_data:dict[str,str]|None = Language.Language.get_data_file(version)
+        language_data = set(language_data.keys()) if language_data is not None else None
         sound_type_data = SoundType.SoundType.get_data_file(version)
         notes_data = Notes.Notes.get_data_file(version)
         records:list[str] = Records.Records.get_data_file(version)

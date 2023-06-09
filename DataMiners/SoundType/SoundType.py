@@ -6,6 +6,7 @@ import DataMiners.SoundType.SoundType1 as SoundType1
 import DataMiners.SoundType.SoundType2 as SoundType2
 import DataMiners.SoundType.SoundType3 as SoundType3
 import DataMiners.SoundType.SoundType4 as SoundType4
+import DataMiners.SoundType.SoundType5 as SoundType5
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundTypeNew.SoundTypeNew("19w36a", "-"),
@@ -24,7 +25,8 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType3.SoundType3("13w36a", "13w37a", search_mode=1, rely_on_sounds=False),
     SoundType3.SoundType3("12w39a", "1.6.2", search_mode=2, rely_on_sounds=False),
     SoundType4.SoundType4("b1.2", "12w38b", rely_on_sounds=False),
-    SoundType4.SoundType4("-", "b1.1_02", search_mode=1, rely_on_sounds=False),
+    SoundType4.SoundType4("b1.0", "b1.1_02", search_mode=1, rely_on_sounds=False),
+    SoundType5.SoundType5("-", "a1.2.6")
 ]
 
 SoundType = DataMinerType.DataMinerType("sound_types.json", dataminers)

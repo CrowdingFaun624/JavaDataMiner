@@ -11,7 +11,8 @@ class DataMiner():
         self.end_version = end_version
         if end_version == "-": end_version = Manifest.get_latest()[1]
         self.end_id = Manifest.get_version_id(end_version)
-        if kwargs != {} and kwargs is not None: self.init(**kwargs)
+        if kwargs is None: kwargs = {}
+        self.init(**kwargs)
     
     def is_valid_version(self, version:str) -> bool:
         '''Returns if the given version is within the dataminer's range.'''
