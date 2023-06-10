@@ -3,8 +3,6 @@ import os
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
-import DataMiners.SoundEvents.SoundEvents as SoundEvents
-
 class SoundType6(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.get_imports = False
