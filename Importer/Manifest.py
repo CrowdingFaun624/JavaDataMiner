@@ -32,12 +32,28 @@ def get_manifest_extension() -> list[dict[str,str|int]]:
 
 def combine_manifests(manifest1:list[dict[str,str|int]], manifest2:list[dict[str,str|int]]) -> list[dict[str,str|int]]:
     '''Takes two lists of dicts of version parameters and merges them and sorts them by releasetime.'''
+    def has_version(manifest:list[dict[str,str|int]], selected_version:str) -> bool:
+        for version_properties in manifest:
+            if version_properties["id"] == selected_version: return True
+        else: return False
+    def remove_version(manifest:list[dict[str,str|int]], version:str) -> list[dict[str,str|int]]:
+        for index, version_properties in enumerate(manifest):
+            if version_properties["id"] == version:
+                del manifest[index]
+                return manifest
+        else: raise KeyError("Unable to find version \"%s\" in manifest!" % version)
+    def special_extend(manifest:list[dict[str,str|int]], manifest2:list[dict[str,str|int]]) -> list[dict[str,str|int]]:
+        for version_properties in manifest2:
+            if has_version(manifest, version_properties["id"]):
+                manifest = remove_version(manifest, version_properties["id"])
+            manifest.append(version_properties)
+        return manifest
     def sortkey(value) -> datetime.datetime:
         date = value["releaseTime"][:]
         if date[-6] in "+-" and ":" in date: date = date[:-6]
         return datetime.datetime.fromisoformat(date)
     manifest = manifest1.copy()
-    manifest.extend(manifest2)
+    manifest = special_extend(manifest, manifest2)
     manifest = sorted(manifest, key=sortkey, reverse=True)
     for version in manifest2:
         version_id = version["id"]

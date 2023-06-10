@@ -1,6 +1,7 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
 
+import DataMiners.Blocks.Blocks8 as Blocks8
 import DataMiners.Blocks.Blocks7 as Blocks7
 import DataMiners.Blocks.Blocks6 as Blocks6
 import DataMiners.Blocks.Blocks5 as Blocks5
@@ -27,6 +28,7 @@ SOUND_TYPE_ALLOWANCES9 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 116, 117, 118, 1
 SOUND_TYPE_ALLOWANCES10 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 116, 117, 118, 119, 131, 132, 137, 138, 140, 145] # 145 is anvil
 SOUND_TYPE_ALLOWANCES11 = [8, 9, 10, 11, 25, 26, 30, 36, 55, 97, 115, 116, 117, 118, 119, 131, 132, 137, 138, 140, 145] # 115 is netherStalk
 SOUND_TYPE_ALLOWANCES12 = [8, 9, 10, 11, 53, 55]
+SOUND_TYPE_ALLOWANCES13 = [8, 9, 10, 11]
 SOUND_TYPE_SHUT_UP1 = ["slime", "barrier"]
 SOUND_TYPE_SHUT_UP2 = ["minecraft:slime", "minecraft:barrier"] # all of them for a few snapshots have "minecraft:" for some reason
 SOUND_TYPES_CONDENSED1 = {"wood": "wood", "gravel": "gravel", "grass": "grass", "1.0 1.0 dig.stone step.stone dig.stone": "stone", "1.0 1.5 dig.stone step.stone dig.stone": "metal","1.0 1.0 dig.glass step.stone step.stone": "glass","cloth": "cloth", "sand": "sand", "snow": "snow", "1.0 1.0 dig.wood step.ladder dig.wood": "ladder", "0.3 1.0 dig.stone step.anvil random.anvil_land": "anvil", "1.0 1.0 mob.slime.big mob.slime.small mob.slime.big": "slime"}
@@ -70,7 +72,8 @@ dataminers:list[DataMiner.DataMiner] = [
     Blocks6.Blocks6("12w07a", "1.3.2", sound_type_allowances=SOUND_TYPE_ALLOWANCES11),
     Blocks6.Blocks6("b1.2", "12w06a", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256),
     Blocks6.Blocks6("b1.0", "b1.1_02", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256, search_mode=1),
-    Blocks7.Blocks7("-", "a1.2.6", sound_type_allowances=SOUND_TYPE_ALLOWANCES12)
+    Blocks7.Blocks7("inf-20100630-1", "a1.2.6", sound_type_allowances=SOUND_TYPE_ALLOWANCES12),
+    Blocks8.Blocks8("-", "inf-20100629", sound_type_allowances=SOUND_TYPE_ALLOWANCES13)
 ]
 
 Blocks = DataMinerType.DataMinerType("blocks.json", dataminers)

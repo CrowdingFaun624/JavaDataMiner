@@ -11,7 +11,7 @@ import Utilities.Searcher as Searcher
 import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 
 Manifest.fetch_manifest(store=True)
-# import sys; sys.exit()
+
 version = Manifest.get_latest()[1] # latest snapshot
 
 Installer.install(version, True)

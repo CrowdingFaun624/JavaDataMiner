@@ -193,7 +193,6 @@ def sort_dict(input_dict:dict) -> dict:
 
 def main() -> None:
     OLD_VERSION, NEW_VERSION = Manifest.get_latest()
-    OLD_VERSION = "1.20"; NEW_VERSION = "1.20" # temporary
     files = get_files(OLD_VERSION, NEW_VERSION)
     new_files = []
     for file in files:

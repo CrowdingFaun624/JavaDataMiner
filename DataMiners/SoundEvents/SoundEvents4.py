@@ -181,6 +181,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return list(output)
 
     def add_records(self, string_list:list[str], version:str, records:list[str]) -> list[str]:
+        if records is None: return string_list
         if "records.far" in string_list: return string_list # some versions have records already in them
         output = string_list
         for record in records:
