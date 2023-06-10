@@ -173,6 +173,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return list(output)
 
     def add_sound_type_events(self, string_list:list[str], sound_types:dict[str,dict[str,int|str]]) -> list[str]:
+        if sound_types is None: return string_list
         SOUND_TYPE_KEYS = self.sound_type_keys
         output = set(string_list)
         for sound_type in list(sound_types.values()):
@@ -196,7 +197,7 @@ class SoundEvents4(DataMiner.DataMiner):
 
     def analyze(self, string_list:list[str], version:str, language:dict[str,str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], assets_index:dict[str,dict[str,dict[str|int]]], records:list[str]) -> list[str]:
         output = self.filter_duplicates(string_list)
-        output = self.replace_minecraft_colon(string_list)
+        output = self.replace_minecraft_colon(output)
         output = self.filter_illegal_characters(output)
         output = self.filter_no_periods(output)
         output = self.filter_strange_underscores(output)

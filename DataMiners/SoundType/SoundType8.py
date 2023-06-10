@@ -3,7 +3,7 @@ import os
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
-class SoundType7(DataMiner.DataMiner):
+class SoundType8(DataMiner.DataMiner):
     def search(self, version:str) -> str:
         '''Returns the path of Blocks.java (e.g. "nq.java")'''
         blocks_files = Searcher.search(version, "client", ["stone"], ["and"])
@@ -23,16 +23,17 @@ class SoundType7(DataMiner.DataMiner):
         return float(value.replace("f", ""))
 
     def analyze(self, file_contents:list[str], version:str) -> dict[str,dict[str,int|str]]:
-        SOUND_TYPE_DECLARER = "    private static "
-        sound_type_class = None
+        RECORD_START = "    static {"
+        recording = False
         output:dict[str,dict[str,int|str]] = {}
         for line in file_contents:
             line = line.rstrip()
-            if line.startswith(SOUND_TYPE_DECLARER):
-                split_line = line.replace(SOUND_TYPE_DECLARER, "").split(" ")
-                if sound_type_class is None: sound_type_class = split_line[0]
-                elif split_line[0] != sound_type_class: raise ValueError("Sound type class apparently \"%s\" for line \"%s\" when it should be \"%s\" in SoundType in %s!" % (split_line[0], line, sound_type_class, version))
-                code_name = split_line[1]
+            if line.startswith(RECORD_START):
+                if recording: raise ValueError("Start recording line encountered twice in SoundType in %s!" % version)
+                recording = True
+            if recording and "\"" in line:
+                split_line = line.lstrip().split(" ")
+                code_name = split_line[0]
                 if "(" not in line or ")" not in line: raise ValueError("Line \"%s\" in SoundType in %s is not a valid sound type line!" % (line, version))
                 parameters = line.split("(")[1].split(")")[0]
                 if parameters.count(",") != 2: raise ValueError("Line \"%s\" has an incorrect number of parameters in SoundType in %s!" % (line, version))
@@ -45,8 +46,7 @@ class SoundType7(DataMiner.DataMiner):
                     "dig": "step." + name,
                     "step": "step." + name
                 }
-            else:
-                if len(output) > 0: break
+            elif len(output) > 0: break
         else: raise ValueError("Failed to start/stop recording in SoundType in %s!" % version)
         return output
 

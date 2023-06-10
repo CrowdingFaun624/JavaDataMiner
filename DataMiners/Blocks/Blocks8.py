@@ -9,6 +9,7 @@ class Blocks8(DataMiner.DataMiner):
         self.sound_type_allowances:list[str] = []
         if "sound_type_allowances" in kwargs:
             self.sound_type_allowances = kwargs["sound_type_allowances"]
+    
     def search(self, version:str) -> str:
         '''Returns the file path of Blocks.java (e.g. gk.java)'''
         blocks_files = Searcher.search(version, "client", ["stone"], set(["and"]))

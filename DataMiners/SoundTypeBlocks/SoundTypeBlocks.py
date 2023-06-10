@@ -10,7 +10,7 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundTypeBlocksNew.SoundTypeBlocksNew("15w49b", "1.14.4-pre7", blocks_sound_type_variable="sound_type_code_name"),
     SoundTypeBlocksNew.SoundTypeBlocksNew("1.8.9", "1.8.9", blocks_sound_type_variable="sound_type"),
     SoundTypeBlocksNew.SoundTypeBlocksNew("15w43a", "15w49a", blocks_sound_type_variable="sound_type_code_name"),
-    SoundTypeBlocksNew.SoundTypeBlocksNew("-", "15w42a", blocks_sound_type_variable="sound_type"),
+    SoundTypeBlocksNew.SoundTypeBlocksNew("in-20100105", "15w42a", blocks_sound_type_variable="sound_type"),
 ]
 
 SoundTypeBlocks = DataMinerType.DataMinerType("sound_type_blocks.json", dataminers)

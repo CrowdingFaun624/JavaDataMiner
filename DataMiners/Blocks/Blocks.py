@@ -1,6 +1,7 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
 
+import DataMiners.Blocks.Blocks9 as Blocks9
 import DataMiners.Blocks.Blocks8 as Blocks8
 import DataMiners.Blocks.Blocks7 as Blocks7
 import DataMiners.Blocks.Blocks6 as Blocks6
@@ -73,7 +74,9 @@ dataminers:list[DataMiner.DataMiner] = [
     Blocks6.Blocks6("b1.2", "12w06a", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256),
     Blocks6.Blocks6("b1.0", "b1.1_02", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256, search_mode=1),
     Blocks7.Blocks7("inf-20100630-1", "a1.2.6", sound_type_allowances=SOUND_TYPE_ALLOWANCES12),
-    Blocks8.Blocks8("-", "inf-20100629", sound_type_allowances=SOUND_TYPE_ALLOWANCES13)
+    Blocks8.Blocks8("in-20100125-1", "inf-20100629", sound_type_allowances=SOUND_TYPE_ALLOWANCES13),
+    Blocks9.Blocks9("in-20100105", "in-20100105", sound_type_allowances=SOUND_TYPE_ALLOWANCES13), # very short because sound was disabled around this time # I just wrote a whole dataminer from scratch just for it to last one version; fuck # remember to check that the code you're writing is useful, I guess.
+    # I'm not writing another one; there's only like ten versions left
 ]
 
 Blocks = DataMinerType.DataMinerType("blocks.json", dataminers)

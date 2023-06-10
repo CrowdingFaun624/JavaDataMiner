@@ -6,6 +6,7 @@ import DataMiners.SoundEvents.SoundEvents1 as SoundEvents1
 import DataMiners.SoundEvents.SoundEvents2 as SoundEvents2
 import DataMiners.SoundEvents.SoundEvents3 as SoundEvents3
 import DataMiners.SoundEvents.SoundEvents4 as SoundEvents4 # MCL-2991 - sounds.json was removed in versions before 13w24a (13w23b and below), resulting in this nightmare
+import DataMiners.SoundEvents.SoundEvents5 as SoundEvents5 # modern form of sound events involving periods was introduced in indev.
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundEventsNew.SoundEventsNew("19w36a", "-"),
@@ -22,7 +23,8 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents4.SoundEvents4("13w24a", "13w48b", records="records.ogg"), # this is done at this time period due to assets "legacy.json" being inaccurate.
     SoundEvents4.SoundEvents4("12w39a", "13w23b", records="streaming.mus"), # sounds become chaotic evil instead of just neutral evil (no sounds.json at all)
     SoundEvents4.SoundEvents4("1.0", "12w38b", records="streaming.mus", sound_type_keys=["dig", "step"]),
-    SoundEvents4.SoundEvents4("-", "1.0.0-rc2-3", records="streaming.mus", sound_type_keys=["dig", "step"], grab_assets=False),
+    SoundEvents4.SoundEvents4("in-20100105", "1.0.0-rc2-3", records="streaming.mus", sound_type_keys=["dig", "step"], grab_assets=False),
+    SoundEvents5.SoundEvents5("-", "in-20091231-2")
 ]
 
 SoundEvents = DataMinerType.DataMinerType("sound_events.json", dataminers)
