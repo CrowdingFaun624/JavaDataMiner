@@ -829,6 +829,15 @@
         "complianceLevel": 0
     },
     {
+        "id": "b1.3b",
+        "type": "old_beta",
+        "url": "https://piston-meta.mojang.com/v1/packages/4bb25e224116e7e06e08f0edaea49320b5ecf591/b1.3b.json",
+        "clientUrl": "https://piston-data.mojang.com/v1/objects/e19cfb3a2043f185c44237ef05eac80e8ad2d8e7/client.jar",
+        "releaseTime": "2011-02-21T22:00:00+00:00",
+        "time": "2011-02-21T22:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
         "id": "b1.1-2",
         "type": "old_beta",
         "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-2/b1.1-2.json",
