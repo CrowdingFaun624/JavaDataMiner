@@ -7,6 +7,7 @@ import Importer.Decompiler as Decompiler
 import Importer.Manifest as Manifest
 import Utilities.AssetsStorage as AssetsStorage
 import Utilities.Installer as Installer
+import Utilities.LanguageKeyGenerator as LanguageKeyGenerator
 import Utilities.Searcher as Searcher
 import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 
@@ -33,5 +34,8 @@ for search_version in search_versions:
 if not os.path.exists("./_assets_storage/%s" % version):
     AssetsStorage.reconstruct(version)
 
-SoundsJsonTablifier.main()
-# TODO: Add zip functionality to asset archival
+SoundsJsonTablifier.main()# TODO: Add zip functionality to asset archival
+LanguageKeyGenerator.main()
+
+if not os.path.exists("./_versions/%s/data" % version):
+    print("Dataminers failed to activate.")
