@@ -62,7 +62,7 @@ def main() -> None:
     versions_properties = Manifest.fetch_manifest(store=True)["versions"]
     CONCURRENT_COUNT = 4
     # version_groups = get_version_collections(versions, CONCURRENT_COUNT)
-    versions = [version["id"] for version in versions_properties]
+    versions:list[str] = [version["id"] for version in versions_properties]
     active_threads:dict[str,threading.Thread] = {}
     exception_holder:dict[str,any] = {}
     time_holder:dict[str,any] = {}
@@ -71,6 +71,7 @@ def main() -> None:
     keyboard_interruptions = [0]
     all_short = True
     while True:
+        if index > len(versions) - 1: break
         version = versions[index] # do this so it never skips any
         if not stop_creating_threads[0] and len(active_threads) < CONCURRENT_COUNT:
             # thread creator
@@ -102,6 +103,7 @@ def main() -> None:
                         if time_holder[thread_name] > 0: all_short = False
                     break
         if stop_creating_threads[0] and len(active_threads) == 0: break
+    time.sleep(0.1) # so that it occurs after the last version
     print("Finished datamining; cleaning up...")
     Cleaner.clear_mappings()
     Cleaner.clear_mappings_tsrg()
