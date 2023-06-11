@@ -5,16 +5,17 @@ import DataMiners.DataMiner as DataMiner
 import DataMiners.DataMiners as DataMiners
 
 import Comparison.DataComparer as DataComparer
-import Comparison.DataMiners.BlocksComparer as BlocksComparer
-import Comparison.DataMiners.SoundTypeBlocksComparer as SoundTypeBlocksComparer
-import Comparison.DataMiners.SoundTypeComparer as SoundTypeComparer
+import Comparison.Blocks.Blocks as BlocksComparer
+import Comparison.SoundEvents.SoundEvents as SoundEvents
+import Comparison.SoundTypeBlocks.SoundTypeBlocks as SoundTypeBlocksComparer
+import Comparison.SoundType.SoundType as SoundTypeComparer
 import Comparison.ListComparer as ListComparer
 import Comparison.DictionaryComparer as DictionaryComparer
 
 all_comparers:dict[str,DataComparer.DataComparer] = {
     "blocks": BlocksComparer.BlocksComparer,
     "language": DictionaryComparer.DictionaryComparer,
-    "sound_events": DictionaryComparer.DictionaryComparer,
+    "sound_events": SoundEvents.SoundEvents,
     "sound_type": SoundTypeComparer.SoundTypeComparer,
     "sound_type_blocks": SoundTypeBlocksComparer.SoundTypeBlocksComparer,
     "subtitles": DictionaryComparer.DictionaryComparer
@@ -36,7 +37,9 @@ def main() -> None:
     dataminers = DataMiners.all_dataminers[data_type]
     old_data = DataMiner.get_data_file(old_version, dataminers.file_name, dataminers.dataminers)
     new_data = DataMiner.get_data_file(new_version, dataminers.file_name, dataminers.dataminers)
-    data = all_comparers[data_type]().activate(old_data, new_data)
+    comparer:DataComparer.DataComparer = all_comparers[data_type]()
+    data = comparer.activate(old_data, new_data, old_version, new_version)
+    if data is None: return
     file_name = DataComparer.get_valid_file_name(data_type)
     with open(os.path.join("./_comparisons", file_name), "wt") as f:
         f.write(data)
