@@ -3,5 +3,6 @@ _assets_storage
 _comparisons
 _search
 _versions
+JavaDataMiner.code-workspace
 *__pycache__
 *.pyc
