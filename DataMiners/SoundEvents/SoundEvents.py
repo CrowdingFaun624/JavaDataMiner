@@ -6,7 +6,6 @@ import DataMiners.SoundEvents.SoundEvents1 as SoundEvents1
 import DataMiners.SoundEvents.SoundEvents2 as SoundEvents2
 import DataMiners.SoundEvents.SoundEvents3 as SoundEvents3
 import DataMiners.SoundEvents.SoundEvents4 as SoundEvents4 # MCL-2991 - sounds.json was removed in versions before 13w24a (13w23b and below), resulting in this nightmare
-import DataMiners.SoundEvents.SoundEvents5 as SoundEvents5 # modern form of sound events involving periods was introduced in indev.
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundEventsNew.SoundEventsNew("19w36a", "-"),

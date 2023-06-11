@@ -6,6 +6,7 @@ import Importer.JarImporter as JarImporter
 import Utilities.AssetsStorage as AssetsStorage
 import Utilities.DataRedoer as DataRedoer
 import Utilities.DecompileZipper as DecompileZipper
+import Utilities.LanguageKeyGenerator as LanguageKeyGenerator
 import Utilities.MappingCondenser as MappingCondenser
 import Utilities.PlaylistAssembler as PlaylistAssembler
 import Utilities.Searcher as Searcher
@@ -21,6 +22,7 @@ if __name__ == "__main__":
         "Decompiler": Decompiler.main,
         "DecompileZipper": DecompileZipper.main,
         "JarImporter": JarImporter.main,
+        "LanguageKeyGenerator": LanguageKeyGenerator.main,
         "MappingCondenser": MappingCondenser.main,
         "PlaylistAssembler": PlaylistAssembler.main,
         "Searcher": Searcher.main,
@@ -29,6 +31,6 @@ if __name__ == "__main__":
     available = list(functions.keys())
     chosen = None
     while True:
-        chosen = input("Choose between [%s]: " % ", ".join(available))
+        chosen = input("Choose between [%s]:\n" % ", ".join(available))
         if chosen in available: break
     functions[chosen]()

@@ -7,6 +7,7 @@ import Importer.Manifest as Manifest
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.Blocks.Blocks as Blocks
 import DataMiners.Language.Language as Language
+import DataMiners.LiteralStrings.LiteralStrings as LiteralStrings
 import DataMiners.Notes.Notes as Notes
 import DataMiners.Records.Records as Records
 import DataMiners.SoundEvents.SoundEvents as SoundEvents
@@ -17,6 +18,7 @@ import DataMiners.Subtitles.Subtitles as Subtitles
 all_dataminers:dict[str,DataMinerType.DataMinerType] = {
     "blocks": Blocks.Blocks,
     "language": Language.Language,
+    "literal_strings": LiteralStrings.LiteralStrings,
     "notes": Notes.Notes,
     "records": Records.Records,
     "sound_events": SoundEvents.SoundEvents,
