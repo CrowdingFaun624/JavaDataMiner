@@ -112,7 +112,7 @@ class SoundType5(DataMiner.DataMiner):
         subclasses:list[str] = []
         for line in file_contents:
             line = line.rstrip()
-            if self.is_end_line(line, END_RECORDING, version) and has_recorded: break
+            if "\"" not in line and has_recorded: break
             elif line.startswith(SOUNDTYPE_DECLARATION) and "\"" in line and "\"air\"" not in line:
                 has_recorded = True
                 split_line = line.replace(SOUNDTYPE_DECLARATION, "").split(" ")
