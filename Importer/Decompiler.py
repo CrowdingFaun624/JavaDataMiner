@@ -34,7 +34,7 @@ def decompile(version:str, side:str):
     os.remove(os.path.join(output_path, "summary.txt"))
 
 def get_decompiled(version:str, side:str="client") -> None:
-    '''Decompiles the given version's client or unzips an archive if available'''
+    '''Decompiles the given version's client/server or unzips an archive if available, or does nothing if it already exists'''
     zip_path = os.path.join("./_versions", version, "%s_decompiled.zip" % side)
     dest_path = os.path.join("./_versions", version, "%s_decompiled" % side)
     if os.path.exists(dest_path): return
@@ -46,9 +46,11 @@ def get_decompiled(version:str, side:str="client") -> None:
         decompile(version, side)
 
 def get_decompiled_client(version:str) -> None:
+    '''Decompiles the given version's client or unzips an archive if available, or does nothing if it already exists'''
     get_decompiled(version, "client")
 
 def get_decompiled_server(version:str) -> None:
+    '''Decompiles the given version's server or unzips an archive if available, or does nothing if it already exists'''
     get_decompiled(version, "server")
 
 def decompile_client(version:str) -> None:
