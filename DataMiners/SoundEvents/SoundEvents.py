@@ -24,7 +24,6 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents4.SoundEvents4("12w39a", "13w23b", records="streaming.mus"), # sounds become chaotic evil instead of just neutral evil (no sounds.json at all)
     SoundEvents4.SoundEvents4("1.0", "12w38b", records="streaming.mus", sound_type_keys=["dig", "step"]),
     SoundEvents4.SoundEvents4("in-20100105", "1.0.0-rc2-3", records="streaming.mus", sound_type_keys=["dig", "step"], grab_assets=False),
-    SoundEvents5.SoundEvents5("-", "in-20091231-2")
 ]
 
 SoundEvents = DataMinerType.DataMinerType("sound_events.json", dataminers)
