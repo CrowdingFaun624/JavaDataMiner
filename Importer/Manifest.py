@@ -92,13 +92,14 @@ def get_id_version(id:int, manifest:dict[str,dict[str,str]|list[dict[str,str|int
     if manifest is None: manifest = get_manifest()
     return list(reversed(manifest["versions"]))[id]["id"]
 
-def get_version_list(manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=None) -> list[str]:
+def get_version_list(manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=None, reverse:bool=False) -> list[str]:
     '''Returns a list of versions, in order from newest to oldest. If `manifest` is None, then it will attempt to get the manifest from the file.'''
     if manifest is None: manifest = get_manifest()
     output = []
     for version in manifest["versions"]:
         output.append(version["id"])
-    return output
+    if reverse: return list(reversed(output))
+    else: return output
 
 manifest = get_manifest_from_file()
 
