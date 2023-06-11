@@ -4,8 +4,9 @@ import os
 import shutil
 
 try:
+    has_decompiler = True
     import Importer.Decompiler as Decompiler
-except ImportError: pass
+except ImportError: has_decompiler = False; pass
 
 def clear_search() -> None:
     '''Clears the contents of the "_search" folder'''
@@ -170,14 +171,19 @@ def get_keywords(terms:list[str]) -> tuple[list[str], list[str]]:
 
 def main() -> None:
     possible_versions = os.listdir("./_versions")
-    decompiled_versions = []
-    for version in possible_versions:
-        if os.path.exists("./_versions/%s/client_decompiled" % version):
-            decompiled_versions.append(version)
+    if has_decompiler:
+        decompiled_versions = possible_versions
+    else:
+        decompiled_versions = []
+        for version in possible_versions:
+            if os.path.exists("./_versions/%s/client_decompiled" % version):
+                decompiled_versions.append(version)
     chosen_version = None
     while True:
-        chosen_version = input("Choose from the following versions:\n%s\n" % "\n".join(decompiled_versions))
+        if has_decompiler: chosen_version = input("Choose a version: ")
+        else: chosen_version = input("Choose from the following versions:\n%s\n" % "\n".join(decompiled_versions))
         if chosen_version in decompiled_versions: break
+    if has_decompiler: Decompiler.get_decompiled_client(chosen_version)
     search_terms = input("Search terms: ").split(" ")
     search_terms, search_keywords = get_keywords(search_terms)
     paths = search(chosen_version, "client", search_terms, search_keywords, actually_copy_files=True)
