@@ -62,7 +62,7 @@ class SoundEvents(DataComparer.DataComparer):
         changes = self.sort_dict(changes)
         removals = self.sort_dict(removals)
         if len(additions) == 0 and len(changes) == 0 and len(removals) == 0: return None
-        output = f"{version2} (from {version1})\n\n)\n\nTotal: {total} (+{len(additions)}, -{len(removals)})\n\n"
+        output = f"{version2} (from {version1})\n\nTotal: {total} (+{len(additions)}, -{len(removals)})\n\n"
         if len(additions) > 0:
             output += "Additions:\n"
             for name, addition in list(additions.items()):
