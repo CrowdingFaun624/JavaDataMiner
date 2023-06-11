@@ -3,7 +3,7 @@ import os
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
-class RecordsNew(DataMiner.DataMiner):
+class Records0(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
         self.search_terms = ["mellohi"]
         if "search_terms" in kwargs:
@@ -25,7 +25,8 @@ class RecordsNew(DataMiner.DataMiner):
             line = line.rstrip()
             if "\"record\"" in line:
                 record_name = line.split("\"")[1]
-                if record_name not in ("13", "cat", "blocks", "chirp", "far", "mall", "mellohi", "stal", "strad", "ward", "11"):
+                record_name = record_name.split("record_")[-1]
+                if record_name not in ("13", "cat", "blocks", "chirp", "far", "mall", "mellohi", "stal", "strad", "ward", "11", "wait"):
                     raise ValueError("Record \"%s\" in line \"%s\" in Records in %s is not a recognized record name!" % (record_name, line, version))
                 output.append(record_name)
         if len(output) == 0: raise ValueError("Did not find any records in %s!" % version)
