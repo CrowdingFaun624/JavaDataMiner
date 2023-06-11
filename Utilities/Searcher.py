@@ -2,6 +2,8 @@
 
 import os
 import shutil
+import threading
+import time
 
 try:
     has_decompiler = True
@@ -169,6 +171,9 @@ def get_keywords(terms:list[str]) -> tuple[list[str], list[str]]:
         else: output_terms.append(term)
     return output_terms, output_keywords
 
+def decompile(version:str) -> None:
+    Decompiler.get_decompiled_client(version)
+
 def main() -> None:
     possible_versions = os.listdir("./_versions")
     if has_decompiler:
@@ -183,9 +188,13 @@ def main() -> None:
         if has_decompiler: chosen_version = input("Choose a version: ")
         else: chosen_version = input("Choose from the following versions:\n%s\n" % "\n".join(decompiled_versions))
         if chosen_version in decompiled_versions: break
-    if has_decompiler: Decompiler.get_decompiled_client(chosen_version)
+    if has_decompiler:
+        decompile_thread = threading.Thread(args=(chosen_version,), target=decompile)
+        decompile_thread.start()
     search_terms = input("Search terms: ").split(" ")
     search_terms, search_keywords = get_keywords(search_terms)
+    if has_decompiler:
+        while decompile_thread.is_alive(): time.sleep(0.025)
     paths = search(chosen_version, "client", search_terms, search_keywords, actually_copy_files=True)
     print("Found %s file(s)!" % len(paths))
 
