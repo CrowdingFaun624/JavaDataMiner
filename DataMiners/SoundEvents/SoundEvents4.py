@@ -6,6 +6,7 @@ import DataMiners.Notes.Notes as Notes
 import DataMiners.Records.Records as Records
 import DataMiners.SoundType.SoundType as SoundType
 import Importer.AssetsIndex as AssetsIndex
+import Importer.Decompiler as Decompiler
 
 class SoundEvents4(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
@@ -21,6 +22,7 @@ class SoundEvents4(DataMiner.DataMiner):
     
     def search(self, version:str, subfolder:str="") -> list[str]:
         output:list[str] = []
+        Decompiler.get_decompiled_client(version)
         file_list = os.listdir("./_versions/%s/client_decompiled%s" % (version, subfolder))
         for file in file_list:
             full_path = os.path.join("./_versions/%s/client_decompiled%s" % (version, subfolder), file)
@@ -146,7 +148,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_illegal_beginnings(self, string_list:list[str]) -> list[str]:
-        ILLEGAL_BEGINNINGS = ["generic.", "java.", "util.", "rcon.", "commands.", "net.", "query.", "com.", "os.", "sun.", "chat.", "damage.", "horse.", "stat.", "mco.", "org.", "alg.", "algorithm", "certpath", "certstore.", "cipher.", "keystore.", "mac.", "secretkeyfactory.", "x509", "javax.", "options.", "language.", "achievement.", "gui.", "potion."]
+        ILLEGAL_BEGINNINGS = ["generic.", "java.", "util.", "rcon.", "commands.", "net.", "query.", "com.", "os.", "sun.", "chat.", "damage.", "horse.", "stat.", "mco.", "org.", "alg.", "algorithm", "certpath", "certstore.", "cipher.", "keystore.", "mac.", "secretkeyfactory.", "x509", "javax.", "options.", "language.", "achievement.", "gui.", "potion.", "performance."]
         output:list[str] = []
         for item in string_list:
             is_bad = False
@@ -166,7 +168,7 @@ class SoundEvents4(DataMiner.DataMiner):
         return output
 
     def filter_illegal_items(self, string_list:list[str]) -> list[str]:
-        ILLEGAL_ITEMS = ["session.lock", "container.beacon", "item.charcoal", "item.coal", "zombie.spawnReinforcements", "potion.healthBoost", "Style.ROOT", "supported.n", "explosion.player", "death.fell.accident", "user.home", "line.separator", "selectServer.editButton", "deathScreen.leaveServer", "disconnect.spam", "file.separator", "www.minecraft.net"]
+        ILLEGAL_ITEMS = ["session.lock", "container.beacon", "item.charcoal", "item.coal", "zombie.spawnReinforcements", "potion.healthBoost", "Style.ROOT", "supported.n", "explosion.player", "death.fell.accident", "user.home", "line.separator", "selectServer.editButton", "deathScreen.leaveServer", "disconnect.spam", "file.separator", "www.minecraft.net", "menu.playdemo"]
         output:set[str] = set(string_list)
         for illegal_item in ILLEGAL_ITEMS:
             if illegal_item in output: output.remove(illegal_item)
@@ -227,4 +229,4 @@ class SoundEvents4(DataMiner.DataMiner):
         # end extra data files
         sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, assets_index, records)
         if store: self.store(version, sound_events, "sound_events.json")
-        return literal_string_list
+        return sound_events
