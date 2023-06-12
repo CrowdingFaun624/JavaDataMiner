@@ -1505,6 +1505,15 @@
         "complianceLevel": 0
     },
     {
+        "id": "in-20100111-1",
+        "type": "indev",
+        "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100111-1/in-20100111-1.json",
+        "clientUrl": "https://archive.org/download/Minecraft-JE-Indev/in-20100111-1/in-20100111-1.jar",
+        "releaseTime": "2010-01-11T15:00:00-07:00",
+        "time": "2017-09-20T00:00:00+00:00",
+        "complianceLevel": 0
+    },
+    {
         "id": "in-20100105",
         "type": "indev",
         "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100105/in-20100105.json",
