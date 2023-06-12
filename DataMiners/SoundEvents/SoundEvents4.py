@@ -2,13 +2,12 @@ import json
 import os
 
 import DataMiners.DataMiner as DataMiner
-import DataMiners.Language.Language as Language
 import DataMiners.LiteralStrings.LiteralStrings as LiteralStrings
 import DataMiners.Notes.Notes as Notes
 import DataMiners.Records.Records as Records
 import DataMiners.SoundType.SoundType as SoundType
 import Importer.AssetsIndex as AssetsIndex
-import Importer.Decompiler as Decompiler
+import Utilities.LanguageKeyGenerator as LanguageKeyGenerator
 
 class SoundEvents4(DataMiner.DataMiner):
     def init(self, **kwargs) -> None:
@@ -143,14 +142,6 @@ class SoundEvents4(DataMiner.DataMiner):
             string_list.append("note." + note)
         return string_list
 
-    def get_language_file(self, version:str) -> set[str]:
-        '''Gets all_language_keys.json from the Assets folder'''
-        file_path = "./Assets/all_language_keys.json"
-        if not os.path.exists(file_path): raise FileNotFoundError("all_language_keys.json does not exist; please activate LanguageKeyGenerator!")
-        with open(file_path, "rt") as f:
-            file = json.loads(f.read())
-        return set(file)
-
     def analyze(self, string_list:list[str], version:str, language:set[str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], assets_index:dict[str,dict[str,dict[str|int]]], records:list[str]) -> list[str]:
         output = self.filter_duplicates(string_list)
         output = self.replace_minecraft_colon(output)
@@ -174,7 +165,7 @@ class SoundEvents4(DataMiner.DataMiner):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         literal_string_list = LiteralStrings.LiteralStrings.get_data_file(version)
         # so many extra data files
-        language_data = self.get_language_file(version)
+        language_data = LanguageKeyGenerator.get_all_language_keys()
         sound_type_data = SoundType.SoundType.get_data_file(version)
         notes_data = Notes.Notes.get_data_file(version)
         records:list[str] = Records.Records.get_data_file(version)
