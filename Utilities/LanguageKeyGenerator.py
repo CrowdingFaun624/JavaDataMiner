@@ -18,7 +18,7 @@ def fetch_all_language_keys() -> set[str]:
         if lang_file is None: continue
         keys = set(lang_file.keys())
         sum_language.update(keys)
-    sum_language_list = list(sum_language_list)
+    sum_language_list = list(sum_language)
     sum_language_list.sort()
     with open("./Assets/all_language_keys.json", "wt") as f:
         f.write(json.dumps(sum_language_list, indent=2))
