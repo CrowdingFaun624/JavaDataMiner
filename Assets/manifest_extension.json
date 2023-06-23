@@ -64,6 +64,129 @@
         "complianceLevel": 1
     },
     {
+        "id": "1.16_combat-6",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-6.json",
+        "releaseTime": "2020-08-26T06:24:28+00:00",
+        "time": "2020-08-26T06:24:28+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-5",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-5.json",
+        "releaseTime": "2020-08-21T09:23:13+00:00",
+        "time": "2020-08-21T09:23:13+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-4",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-4.json",
+        "releaseTime": "2020-08-19T11:14:58+00:00",
+        "time": "2020-08-19T11:14:58+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-3",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-3.json",
+        "releaseTime": "2020-08-14T09:02:15+00:00",
+        "time": "2020-08-14T09:02:15+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-2",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-2.json",
+        "releaseTime": "2020-08-13T11:56:30+00:00",
+        "time": "2020-08-13T11:56:30+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-1",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-1.json",
+        "releaseTime": "2020-08-12T14:07:25+00:00",
+        "time": "2020-08-12T14:07:25+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.16_combat-0",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_16_combat-0.json",
+        "releaseTime": "2020-08-07T10:44:47+00:00",
+        "time": "2020-08-07T10:44:47+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.15_combat-6",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_15_combat-6.json",
+        "releaseTime": "2020-01-15T09:46:35+00:00",
+        "time": "2020-01-15T09:46:35+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.15_combat-1",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_15_combat-1.json",
+        "releaseTime": "2019-11-29T15:41:39+00:00",
+        "time": "2019-11-29T15:41:39+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.14_combat-3",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_14_combat-3.json",
+        "releaseTime": "2019-10-31T14:31:38+00:00",
+        "time": "2019-10-31T14:31:38+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.14_combat-0",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_14_combat-0.json",
+        "releaseTime": "2019-08-13T07:33:42+00:00",
+        "time": "2019-08-13T07:33:42+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "1.14_combat-212796",
+        "type": "pending",
+        "url": "./Assets/version_jsons/1_14_combat-212796.json",
+        "releaseTime": "2019-06-20T13:23:44+00:00",
+        "time": "2019-06-20T13:23:44+00:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "2point0_purple",
+        "type": "snapshot",
+        "url": "https://archive.org/download/2point-0-purple/2point0_purple.json",
+        "clientUrl": "https://archive.org/download/2point-0-purple/2point0_purple.jar",
+        "releaseTime": "2013-03-20T05:00:00-05:00",
+        "time": "2013-08-06T06:00:00-05:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "2point0_red",
+        "type": "snapshot",
+        "url": "https://archive.org/download/2point-0-red/2point0_red.json",
+        "clientUrl": "https://archive.org/download/2point-0-red/2point0_red.jar",
+        "releaseTime": "2013-03-20T05:00:00-05:00",
+        "time": "2013-08-06T06:00:00-05:00",
+        "complianceLevel": 0
+    },
+    {
+        "id": "2point0_blue",
+        "type": "snapshot",
+        "url": "https://archive.org/download/2point-0-blue/2point0_blue.json",
+        "clientUrl": "https://archive.org/download/2point-0-blue/2point0_blue.jar",
+        "releaseTime": "2013-03-20T05:00:00-05:00",
+        "time": "2013-08-06T06:00:00-05:00",
+        "complianceLevel": 0
+    },
+    {
         "id": "13w12~",
         "type": "snapshot",
         "url": "https://archive.org/download/Minecraft-JSONs/13w12~.json",
