@@ -22,7 +22,7 @@ def get_version_collections(manifest:list[dict[str,str|int]], group_size:int=8) 
     return output
 
 def terminate_version(version:str) -> None:
-    # print("Please remove version %s; it must be reevaluated." % version)
+    #TODO: make this not destroy the whole folder
     data_path = os.path.join("./_versions", version, "data")
     if os.path.exists(data_path):
         shutil.rmtree(data_path)

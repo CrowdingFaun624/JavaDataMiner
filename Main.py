@@ -14,6 +14,7 @@ import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 Manifest.fetch_manifest(store=True)
 
 version = Manifest.get_latest()[1] # latest snapshot
+Manifest.add_latest_to_version_order(version)
 
 Installer.install(version, True)
 
