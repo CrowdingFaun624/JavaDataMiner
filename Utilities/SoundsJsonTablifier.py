@@ -202,8 +202,8 @@ def main() -> None:
     elif len(new_files) == 1:
         comparison = new_files[0]
     else: raise ValueError("Invalid number of sounds.json files in SoundsJsonTablifier: %s" % len(new_files))
-    old_subtitles = DataMiner.get_dataminer(OLD_VERSION, Subtitles.dataminers).activate(OLD_VERSION)
-    new_subtitles = DataMiner.get_dataminer(NEW_VERSION, Subtitles.dataminers).activate(NEW_VERSION)
+    old_subtitles = DataMiner.get_dataminer(OLD_VERSION, Subtitles.dataminers, "subtitles").activate(OLD_VERSION)
+    new_subtitles = DataMiner.get_dataminer(NEW_VERSION, Subtitles.dataminers, "subtitles").activate(NEW_VERSION)
     subtitles_comparison = Comparer.compare(old_subtitles, new_subtitles)
     # print(Comparer.stringify_data(comparison))
     table = get_table(comparison, subtitles_comparison)
