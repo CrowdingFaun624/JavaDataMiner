@@ -8,7 +8,7 @@ import DataMiners.SoundEvents.SoundEvents as SoundEvents
 class SoundType1(DataMiner.DataMiner):
     def search(self, version:str) -> str:
         '''Returns the path of SoundType.java (e.g. "btd.java")'''
-        sound_events_name = DataMiner.get_file_name_from_path(DataMiner.get_dataminer(version, SoundEvents.dataminers).search(version)) # name of SoundEvents.java
+        sound_events_name = DataMiner.get_file_name_from_path(DataMiner.get_dataminer(version, SoundEvents.dataminers, "sound_events").search(version)) # name of SoundEvents.java
         sound_type_files = Searcher.search(version, "client", ["count(==,14):this", "count(>=,60):" + sound_events_name + ".", "not:file:" + sound_events_name], ["and"])
         if len(sound_type_files) > 1:
             raise FileExistsError("Too many SoundType files found for %s (SoundEvents.java is \"%s\"):\n%s" % (version, sound_events_name, "\n".join(sound_type_files)))

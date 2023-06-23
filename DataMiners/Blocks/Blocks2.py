@@ -180,7 +180,7 @@ class Blocks2(DataMiner.DataMiner):
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_list_file), "rt") as f:
             blocks_list_file_contents = f.readlines()
         sound_types = SoundType.SoundType.get_data_file(version)
-        sound_type_name = DataMiner.get_file_name_from_path(DataMiner.get_dataminer(version, SoundType.dataminers).search(version)) # name of SoundType.java
+        sound_type_name = DataMiner.get_file_name_from_path(DataMiner.get_dataminer(version, SoundType.dataminers, "sound_type").search(version)) # name of SoundType.java
         blocks = self.analyze(blocks_file_contents, blocks_list_file_contents, version, sound_types, sound_type_name)
         if store: self.store(version, blocks, "blocks.json")
         return blocks

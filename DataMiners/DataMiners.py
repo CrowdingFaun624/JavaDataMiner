@@ -1,6 +1,7 @@
 import os
 
 import DataMiners.DataMiner as DataMiner
+import DataMiners.NoneDataMiner as NoneDataMiner
 import Importer.Decompiler as Decompiler
 import Importer.Manifest as Manifest
 
@@ -30,20 +31,21 @@ all_dataminers:dict[str,DataMinerType.DataMinerType] = {
 def has_all_files(version:str) -> bool:
     for name, dataminer in list(all_dataminers.items()):
         if not os.path.exists(os.path.join("./_versions", version, "data", dataminer.file_name)):
-            version_dataminer = DataMiner.get_dataminer(version, dataminer.dataminers)
-            if version_dataminer is None: continue
+            version_dataminer = DataMiner.get_dataminer(version, dataminer.dataminers, name)
+            if version_dataminer is None or isinstance(version_dataminer, NoneDataMiner.NoneDataMiner): continue
             else: return False
     else: return True
 
 def run(version:str, dataminer_name:str, error_on_none:bool=False, run_if_already_existing:bool=True) -> None:
     dataminer_type = all_dataminers[dataminer_name]
     if not run_if_already_existing and os.path.exists(os.path.join("./_versions", version, "data", dataminer_type.file_name)): return
-    dataminer = DataMiner.get_dataminer(version, dataminer_type.dataminers)
-    Decompiler.get_decompiled_client(version) # unzips the decompiled client
+    dataminer = DataMiner.get_dataminer(version, dataminer_type.dataminers, dataminer_name)
     if dataminer is None:
         if error_on_none: raise KeyError("DataMiner %s for version %s does not exist!" % (dataminer_name, version))
         else: return None
     else:
+        if isinstance(dataminer, NoneDataMiner.NoneDataMiner): return
+        Decompiler.get_decompiled_client(version) # unzips the decompiled client
         return dataminer.activate(version)
 
 def run_all(version:str, error_on_none:bool=False, run_if_already_existing:bool=True) -> None:

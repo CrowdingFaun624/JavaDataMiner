@@ -1,5 +1,6 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
+import DataMiners.NoneDataMiner as NoneDataMiner
 
 import DataMiners.SoundType.SoundTypeNew as SoundTypeNew
 import DataMiners.SoundType.SoundType1 as SoundType1
@@ -13,7 +14,7 @@ import DataMiners.SoundType.SoundType8 as SoundType8
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundTypeNew.SoundTypeNew("19w36a", "-"),
-    SoundType1.SoundType1("19w34a", "19w35a"),
+    SoundType1.SoundType1("1.14_combat-0", "19w35a"),
     SoundTypeNew.SoundTypeNew("1.14.4", "1.14.4"),
     SoundType1.SoundType1("15w49b", "1.14.4-pre7"),
     SoundType2.SoundType2("1.8.9", "1.8.9", ignore_sound_events=["step.anvil"]), # sound types begin being included in Blocks.java; MC-7849
@@ -33,7 +34,9 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType6.SoundType6("inf-20100627", "inf-20100629", get_imports=False),
     SoundType6.SoundType6("in-20100212-1", "inf-20100625-2", get_imports=True), # code structure changed; now organized into folders
     SoundType7.SoundType7("in-20100125-1", "in-20100207-2"), # massive simplification to sound types, as they are now hard-coded to always be "step." + name
+    NoneDataMiner.NoneDataMiner("in-20100111-1", "in-20100111-1"),
     SoundType8.SoundType8("in-20100105", "in-20100105"),
+    NoneDataMiner.NoneDataMiner("-", "in-20091231-2")
 ]
 
 SoundType = DataMinerType.DataMinerType("sound_types.json", dataminers)

@@ -41,11 +41,11 @@ class DataMiner():
         with open("./_versions/%s/data/%s" % (version, file_name), "wt") as f:
             f.write(write_data)
 
-def get_dataminer(version:str, dataminer_list:list[DataMiner]) -> DataMiner|None:
+def get_dataminer(version:str, dataminer_list:list[DataMiner], dataminer_type:str) -> DataMiner|None:
     '''Takes a version and a list of dataminers from DataMiners.py. Returns a dataminer that will work on the version, or None'''
     for dataminer in dataminer_list:
         if dataminer.is_valid_version(version): return dataminer
-    else: return None
+    else: raise KeyError(f"Version \"{version}\" does not have a valid dataminer for {dataminer_type}!")# return None
 
 def get_file_name_from_path(file_path:str) -> str:
     return ".".join(os.path.split(file_path)[1].split(".")[:-1])
@@ -57,7 +57,7 @@ def get_data_file(version:str, file_name:str, dataminer_list:list[DataMiner], re
         with open(file_path, "rt") as f:
             return json.loads(f.read())
     else:
-        dataminer = get_dataminer(version, dataminer_list)
+        dataminer = get_dataminer(version, dataminer_list, file_name)
         if dataminer is None: return None
         if kwargs == {} or kwargs is None:
             return dataminer.activate(version)

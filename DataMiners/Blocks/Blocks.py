@@ -1,5 +1,6 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
+import DataMiners.NoneDataMiner as NoneDataMiner
 
 import DataMiners.Blocks.Blocks9 as Blocks9
 import DataMiners.Blocks.Blocks8 as Blocks8
@@ -38,7 +39,7 @@ SOUND_TYPES_CONDENSED2 = {"wood": "wood", "gravel": "gravel", "grass": "grass", 
 
 dataminers:list[DataMiner.DataMiner] = [
     BlocksNew.BlocksNew("19w36a", "-"),
-    Blocks1.Blocks1("19w34a", "19w35a"),
+    Blocks1.Blocks1("1.14_combat-0", "19w35a"),
     BlocksNew.BlocksNew("1.14.4", "1.14.4"),
     Blocks1.Blocks1("18w43a", "1.14.4-pre7"),
     Blocks2.Blocks2("17w50a", "1.13.2"      , record_start_threshold=3),
@@ -75,8 +76,10 @@ dataminers:list[DataMiner.DataMiner] = [
     Blocks6.Blocks6("b1.0", "b1.1_02", sound_type_allowances=SOUND_TYPE_ALLOWANCES11, magic_number=256, search_mode=1),
     Blocks7.Blocks7("inf-20100630-1", "a1.2.6", sound_type_allowances=SOUND_TYPE_ALLOWANCES12),
     Blocks8.Blocks8("in-20100125-1", "inf-20100629", sound_type_allowances=SOUND_TYPE_ALLOWANCES13),
+    NoneDataMiner.NoneDataMiner("in-20100111-1", "in-20100111-1"),
     Blocks9.Blocks9("in-20100105", "in-20100105", sound_type_allowances=SOUND_TYPE_ALLOWANCES13), # very short because sound was disabled around this time # I just wrote a whole dataminer from scratch just for it to last one version; fuck # remember to check that the code you're writing is useful, I guess.
     # I'm not writing another one; there's only like ten versions left
+    NoneDataMiner.NoneDataMiner("-", "in-20091231-2")
 ]
 
 Blocks = DataMinerType.DataMinerType("blocks.json", dataminers)

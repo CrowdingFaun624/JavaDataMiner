@@ -9,6 +9,7 @@ import Importer.WebRequest as WebRequest
 def fetch_assets_index(version:str, version_json:dict=None, store:bool=True, store_in_version:bool=False) -> dict[str,dict[str,dict[str|int]]]:
     '''Returns the assets index as a dict. Set `store` to True to place the fancified assets index in ./assets as <id>.json.'''
     if version_json is None: version_json = VersionJson.get_version_json(version)
+    if "assetIndex" not in version_json: raise KeyError(f"Version {version} has no assets index!")
     assets_id = version_json["assetIndex"]["id"]
     url = version_json["assetIndex"]["url"]
     assets_index = WebRequest.web_request(url, "j")

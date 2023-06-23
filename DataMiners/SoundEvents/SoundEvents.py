@@ -1,5 +1,6 @@
 import DataMiners.DataMinerType as DataMinerType
 import DataMiners.DataMiner as DataMiner
+import DataMiners.NoneDataMiner as NoneDataMiner
 
 import DataMiners.SoundEvents.SoundEventsNew as SoundEventsNew
 import DataMiners.SoundEvents.SoundEvents1 as SoundEvents1
@@ -9,7 +10,7 @@ import DataMiners.SoundEvents.SoundEvents4 as SoundEvents4 # MCL-2991 - sounds.j
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundEventsNew.SoundEventsNew("19w36a", "-"),
-    SoundEvents1.SoundEvents1("19w34a", "19w35a"),
+    SoundEvents1.SoundEvents1("1.14_combat-0", "19w35a"),
     SoundEventsNew.SoundEventsNew("1.14.4", "1.14.4"),
     SoundEvents1.SoundEvents1("18w43a", "1.14.4-pre7"),
     SoundEvents2.SoundEvents2("15w49b", "1.13.2"),
@@ -20,9 +21,12 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundEvents3.SoundEvents3("1.7.10-pre4", "1.7.10", sounds_json_name="minecraft/sounds.json"), # idk why it keeps switching
     SoundEvents3.SoundEvents3("13w49a", "1.7.10-pre3", sounds_json_name="sounds.json"),
     SoundEvents4.SoundEvents4("13w24a", "13w48b", records="records.ogg"), # this is done at this time period due to assets "legacy.json" being inaccurate.
-    SoundEvents4.SoundEvents4("12w39a", "13w23b", records="streaming.mus"), # sounds become chaotic evil instead of just neutral evil (no sounds.json at all)
+    SoundEvents4.SoundEvents4("1.5.2", "13w23b", records="streaming.mus"), # sounds become chaotic evil instead of just neutral evil (no sounds.json at all)
+    NoneDataMiner.NoneDataMiner("2point0_blue", "2point0_purple"),
+    SoundEvents4.SoundEvents4("12w39a", "1.5.1", records="streaming.mus"),
     SoundEvents4.SoundEvents4("1.0", "12w38b", records="streaming.mus", sound_type_keys=["dig", "step"]),
     SoundEvents4.SoundEvents4("in-20100105", "1.0.0-rc2-3", records="streaming.mus", sound_type_keys=["dig", "step"], grab_assets=False),
+    NoneDataMiner.NoneDataMiner("-", "in-20091231-2")
 ]
 
 SoundEvents = DataMinerType.DataMinerType("sound_events.json", dataminers)
