@@ -20,6 +20,7 @@ TITLES = {
     "ancestry": "Ancestry",
     "axolotl": "Axolotl",
     "blocks": "Blocks",
+    "BlueMin": "Frog Stroll",
     "boss": "boss", # no title
     "bromeliad": "Bromeliad",
     "calm1": "Minecraft",
@@ -94,6 +95,7 @@ AUTHORSHIP = {
     "Lena Raine": ["Aerie", "Ancestry", "Chrysopoeia", "Firebugs", "Infinite Amethyst", "Labyrinthine", "Left to Bloom", "One More Day",
                    "otherside", "Pigstep", "Rubedo", "So Below", "Stand Tall", "Wending"],
     "Markus Persson": ["Magnetic Circuit"],
+    "Paul David Everatt & Dan Lloyd": ["Frog Stroll"],
     "Samuel Åberg": ["Five"],
     "Shauny Jang": ["Earth", "Sprouting"]
 }
