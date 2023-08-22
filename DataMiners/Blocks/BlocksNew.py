@@ -267,7 +267,7 @@ class BlocksNew(DataMiner.DataMiner):
         
         for line_index, line in enumerate(file_contents):
             # FIRST PASS, collect imports and functions
-            line = line.replace("\n", "")
+            line = line.replace("\n", "").replace("(Block)", "")
             recording, skip = self.get_recording(line, recording)
             if skip: line_starts[recording] = line_index + 1; continue
             if recording == self.IMPORT_TYPE:
@@ -305,7 +305,7 @@ class BlocksNew(DataMiner.DataMiner):
         start, end = line_starts[self.BLOCKS_TYPE], line_starts[self.FUNCTION_TYPE]
         for line_index, line in enumerate(file_contents[start:end]):
             # SECOND PASS, collect all info on blocks
-            line = line.replace("\n", "")
+            line = line.replace("\n", "").replace("(Block)", "")
             if not line.startswith(self.BLOCK_LINE): continue
             code_name = line.replace(self.BLOCK_LINE, "").split(" ")[0]
             block_name = line.split("\"")[1]

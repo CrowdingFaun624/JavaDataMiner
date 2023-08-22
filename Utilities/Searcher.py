@@ -195,6 +195,7 @@ def main() -> None:
     search_terms, search_keywords = get_keywords(search_terms)
     if has_decompiler:
         while decompile_thread.is_alive(): time.sleep(0.025)
+    time.sleep(0.025)
     paths = search(chosen_version, "client", search_terms, search_keywords, actually_copy_files=True)
     print("Found %s file(s)!" % len(paths))
 

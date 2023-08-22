@@ -129,6 +129,7 @@ def add_latest_to_version_order(version:str) -> None:
     order.append(version)
     with open("./Assets/version_order.json", "wt") as f:
         f.write(json.dumps(order, indent=2))
+    print("Added \"%s\" to version order." % version)
 
 def verify_information() -> None:
     '''Looks at the version manifest, the version order, and the missing versions to look for inconsistencies.'''
