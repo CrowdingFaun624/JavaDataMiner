@@ -17,7 +17,7 @@ def fetch_manifest(store:bool=False) -> dict[str,dict[str,str]|list[dict[str,str
     if store:
         with open("./_versions/version_manifest.json", "wt") as f:
             f.write(json.dumps(manifest, indent=2))
-    verify_information()
+        verify_information()
     return manifest
 
 def get_manifest_from_file() -> dict[str,dict[str,str]|list[dict[str,str|int]]]:

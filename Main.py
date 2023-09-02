@@ -2,19 +2,22 @@
 
 import os
 
-import DataMiners.DataMiners as DataMiners
 import Importer.Decompiler as Decompiler
 import Importer.Manifest as Manifest
 import Utilities.AssetsStorage as AssetsStorage
 import Utilities.Installer as Installer
-import Utilities.LanguageKeyGenerator as LanguageKeyGenerator
 import Utilities.Searcher as Searcher
-import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 
 Manifest.fetch_manifest(store=True)
 
 version = Manifest.get_latest()[1] # latest snapshot
+print("Extracting version \"%s\"" % version)
 Manifest.add_latest_to_version_order(version)
+Manifest.fetch_manifest(store=True)
+
+import DataMiners.DataMiners as DataMiners # must be done after version fnoodling so it doesn't explode
+import Utilities.LanguageKeyGenerator as LanguageKeyGenerator
+import Utilities.SoundsJsonTablifier as SoundsJsonTablifier
 
 Installer.install(version, True)
 
