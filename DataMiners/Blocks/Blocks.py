@@ -11,6 +11,7 @@ import DataMiners.Blocks.Blocks4 as Blocks4
 import DataMiners.Blocks.Blocks3 as Blocks3
 import DataMiners.Blocks.Blocks2 as Blocks2
 import DataMiners.Blocks.Blocks1 as Blocks1
+import DataMiners.Blocks.Blocks0 as Blocks0
 import DataMiners.Blocks.BlocksNew as BlocksNew
 
 SOUND_TYPE_OVERRIDES1 = {"oak_stairs": "wood", "spruce_stairs": "wood", "birch_stairs": "wood", "jungle_stairs": "wood", "acacia_stairs": "wood", "dark_oak_stairs": "wood", "stone_stairs": "stone", "brick_stairs": "stone", "stone_brick_stairs": "stone", "nether_brick_stairs": "stone", "sandstone_stairs": "stone", "cobblestone_wall": "stone", "quartz_stairs": "stone", "red_sandstone_stairs": "stone", "purpur_stairs": "stone"}
@@ -38,9 +39,10 @@ SOUND_TYPES_CONDENSED2 = {"wood": "wood", "gravel": "gravel", "grass": "grass", 
 
 
 dataminers:list[DataMiner.DataMiner] = [
-    BlocksNew.BlocksNew("19w36a", "-"),
+    BlocksNew.BlocksNew("23w40a", "-"),
+    Blocks0.Blocks0("19w36a", "1.20.2"),
     Blocks1.Blocks1("1.14_combat-0", "19w35a"),
-    BlocksNew.BlocksNew("1.14.4", "1.14.4"),
+    Blocks0.Blocks0("1.14.4", "1.14.4"),
     Blocks1.Blocks1("18w43a", "1.14.4-pre7"),
     Blocks2.Blocks2("17w50a", "1.13.2"      , record_start_threshold=3),
     Blocks2.Blocks2("17w47a", "17w49b"      , record_start_threshold=2), # post-flattening

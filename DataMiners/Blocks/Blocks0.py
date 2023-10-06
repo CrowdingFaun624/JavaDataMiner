@@ -3,20 +3,17 @@ import os
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
 
-class BlocksNew(DataMiner.DataMiner):
+class Blocks0(DataMiner.DataMiner):
     IMPORT_START = ""
     IMPORT_END = ""
     BLOCKS_START = "public class Blocks {"
     FUNCTION_START = ""
-    BLOCK_BEHAVIOR_START = "    private static final BlockBehaviour"
-    BLOCK_BEHAVIOR_END = "    };"
 
     START_TYPE = None
     IMPORT_TYPE  = "import"
     IMPORT_END_TYPE = "import end"
     BLOCKS_TYPE = "blocks"
     FUNCTION_TYPE = "function"
-    BLOCK_BEHAVIOR_TYPE = "block_behavior"
     WOOD_WOOD_TYPE = "wood"
     HANGING_SIGN_WOOD_TYPE = "hanging_sign"
 
@@ -27,15 +24,11 @@ class BlocksNew(DataMiner.DataMiner):
     WOODTYPE_INDICATOR = "WoodType."
     BLOCKSETTYPE_INDICATOR = "BlockSetType."
     BLOCK_LINE = "    public static final Block "
-    BLOCK_REFERENCE_LINE = "    public static final ResourceKey<Block> "
-    BLOCK_REFERENCE_FILE = "net.minecraft.references.Blocks."
     
     MODULE_SOUND_TYPE_START = "    public SoundType getSoundType"
     MODULE_SOUND_TYPE_END = "    }"
 
     WOODTYPE_INDEXES = {WOOD_WOOD_TYPE: 0, HANGING_SIGN_WOOD_TYPE: 1}
-
-    FUNCTIONS_THAT_DO_NOT_COPY_ATTRIBUTES = ["flowerPot"]
 
     def search(self, version:str) -> str:
         '''Returns the file path of the desired file.'''
@@ -47,18 +40,7 @@ class BlocksNew(DataMiner.DataMiner):
             raise FileNotFoundError("No Blocks file found for %s" % version)
         else: blocks_file = blocks_files[0]
         return blocks_file
-
-    def search_references(self, version:str) -> str:
-        '''Returns the path of the references/Blocks.java file.'''
-        references_file = Searcher.search(version, "client", ["only:file:Blocks.java", "path:references"], ["and"], allow_decompile=True)
-        if len(references_file) > 1:
-            print("\n".join(references_file))
-            raise FileExistsError("Too many references/Blocks files found for %s" % version)
-        elif len(references_file) == 0:
-            raise FileNotFoundError("No references/Blocks file found for %s" % version)
-        else: blocks_file = references_file[0]
-        return blocks_file
-
+    
     def search_woodtype(self, version:str) -> str:
         '''Returns the path of the WoodType file.'''
         woodtype_files = Searcher.search(version, "client", ["only:file:WoodType.java"], suppress_clear=True, allow_decompile=True)
@@ -83,12 +65,10 @@ class BlocksNew(DataMiner.DataMiner):
 
     def get_recording(self, line:str, current:str) -> tuple[str, bool]:
         '''Returns what should be recorded based on the line'''
-        if   line == self.IMPORT_START   and current == self.START_TYPE:  return self.IMPORT_TYPE,     True
-        elif line == self.IMPORT_END     and current == self.IMPORT_TYPE: return self.IMPORT_END_TYPE, True
-        elif line == self.BLOCKS_START   and current == self.IMPORT_END_TYPE: return self.BLOCKS_TYPE, True
-        elif line == self.FUNCTION_START and current == self.BLOCKS_TYPE: return self.FUNCTION_TYPE,   True
-        elif line.startswith(self.BLOCK_BEHAVIOR_START) and current == self.BLOCKS_TYPE: return self.BLOCK_BEHAVIOR_TYPE, True
-        elif line == self.BLOCK_BEHAVIOR_END and current == self.BLOCK_BEHAVIOR_TYPE: return self.BLOCKS_TYPE, True
+        if line == self.IMPORT_START   and current == self.START_TYPE:  return self.IMPORT_TYPE,     True
+        if line == self.IMPORT_END     and current == self.IMPORT_TYPE: return self.IMPORT_END_TYPE, True
+        if line == self.BLOCKS_START   and current == self.IMPORT_END_TYPE: return self.BLOCKS_TYPE,     True
+        if line == self.FUNCTION_START and current == self.BLOCKS_TYPE: return self.FUNCTION_TYPE,   True
         return current, False
 
     def get_import(self, line:str, line_index:int, version:str) -> str:
@@ -145,11 +125,6 @@ class BlocksNew(DataMiner.DataMiner):
         LINE_START = "    public static final Block "
         if not line.startswith(LINE_START):
             raise ValueError("Block function line %s (\"%s\") does not start with \"%s\"!" % (line_index, line, LINE_START))
-        if self.BLOCK_REFERENCE_FILE in line: return (None, False)
-        if line.count("\"") < 2:
-            raise IndexError("Line %s (\"%s\") contains too few \"\"\" characters (count: %i)!" % (line_index, line, line.count("\"")))
-        if line.split("\"")[2].count(" ") < 1:
-            raise IndexError("Line %s (\"%s\") contains too few \" \" characters (count: %i)!" % (line_index, line, line.count(" ")))
         is_normal = line.split("\"")[2].split(" ")[1] == "new"
         if is_normal: return (None, False)
         block_function = line.split(", ")[1].split("(")[0]
@@ -281,27 +256,7 @@ class BlocksNew(DataMiner.DataMiner):
             return blocks[copy_block]["sound_type"], True
         else: return None, False
 
-    def analyze_references(self, file_contents:list[str], version:str) -> dict[str,str]:
-        output:dict[str,str] = {}
-        for line in file_contents:
-            if not line.startswith(self.BLOCK_REFERENCE_LINE): continue
-            stripped_line = line.replace(self.BLOCK_REFERENCE_LINE, "")
-            code_name = stripped_line.split(" ")[0]
-            game_name = stripped_line.split("\"")[1]
-            output[code_name] = game_name
-        return output
-
-    def get_block_name(self, line:str, line_index:int, block_references:dict[str,str]) -> str:
-        if "\"" in line:
-            return line.split("\"")[1]
-        elif self.BLOCK_REFERENCE_FILE in line:
-            reference_name = line.split(self.BLOCK_REFERENCE_FILE)[1].split(",")[0].split(")")[0]
-            if reference_name not in block_references:
-                raise KeyError("Could not find block reference \"%s\" in line %i (\"%s\")!" % (reference_name, line_index, line))
-            return block_references[reference_name]
-        else: raise ValueError("Invalid block line %i (\"%s\")!" % (line_index, line))
-
-    def analyze(self, file_contents:list[str], version:str, blocks_references_file_contents:list[str]) -> dict[str,dict[str,any]]:
+    def analyze(self, file_contents:list[str], version:str) -> dict[str,dict[str,any]]:
         recording = self.START_TYPE
         function_recording = False
         imports:list[str] = []
@@ -310,7 +265,7 @@ class BlocksNew(DataMiner.DataMiner):
         line_starts:dict[str,int] = {} # keeps track of when sections start
         function_sounds:dict[str,str] = {} # matches function names to sound types.
         function_module:dict[str,str] = {} # matches functions to the block module they use
-
+        
         for line_index, line in enumerate(file_contents):
             # FIRST PASS, collect imports and functions
             line = line.replace("\n", "").replace("(Block)", "")
@@ -322,8 +277,6 @@ class BlocksNew(DataMiner.DataMiner):
                 blocks_lines.append(line)
                 block_function, use = self.get_block_function(line, line_index)
                 if use: block_functions.add(block_function)
-            if recording == self.BLOCK_BEHAVIOR_TYPE:
-                continue
             if recording == self.FUNCTION_TYPE:
                 if line.startswith(self.BLOCK_FUNCTION_START):
                     if function_recording: raise ValueError("Function was nested at line %s (\"%s\")" % (line_index, line))
@@ -351,14 +304,12 @@ class BlocksNew(DataMiner.DataMiner):
         blocks:dict[str,dict[str,any]] = {}
         code_to_block:dict[str,str] = {}
         start, end = line_starts[self.BLOCKS_TYPE], line_starts[self.FUNCTION_TYPE]
-        block_references = self.analyze_references(blocks_references_file_contents, version)
-
         for line_index, line in enumerate(file_contents[start:end]):
             # SECOND PASS, collect all info on blocks
             line = line.replace("\n", "").replace("(Block)", "")
             if not line.startswith(self.BLOCK_LINE): continue
             code_name = line.replace(self.BLOCK_LINE, "").split(" ")[0]
-            block_name = self.get_block_name(line, line_index, block_references)
+            block_name = line.split("\"")[1]
             code_to_block[code_name] = block_name
 
             if self.SOUND_INDICATOR in line:
@@ -368,14 +319,10 @@ class BlocksNew(DataMiner.DataMiner):
 
             function_name, is_function = self.get_block_function(line, line_index)
             if is_function:
-                argument = line.split(function_name + "(")[1].split(")")[0]
                 if function_name in function_sounds:
-                    # print(block_name, function_name)
                     blocks[block_name] = {"sound_type": function_sounds[function_name]}
                     continue
-                elif argument in code_to_block and function_name not in self.FUNCTIONS_THAT_DO_NOT_COPY_ATTRIBUTES: # If the function has an argument, then copy the argument's block's data to the current block.
-                    blocks[block_name] = blocks[code_to_block[argument]]
-                    continue
+                else: pass
             
             if self.COPY_INDICATOR in line:
                 sound_type, has_sound_type = self.get_copy(blocks, code_to_block, line, line_index)
@@ -414,19 +361,16 @@ class BlocksNew(DataMiner.DataMiner):
             # ELSE
             blocks[block_name] = {"sound_type": "STONE"}
 
-        blocks = BlocksNew.sort_dict(blocks)
+        blocks = Blocks0.sort_dict(blocks)
         return blocks
 
     def activate(self, version:str, store:bool=True) -> dict[str,dict[str,any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)
-        blocks_references_file = self.search_references(version)
         #print(blocks_file, os.path.join("./_versions", version, "client_decompiled", blocks_file), "\"" + os.path.join("./_versions", version, "client_decompiled") + "\"")
         with open(os.path.join("./_versions", version, "client_decompiled", blocks_file), "rt") as f:
             blocks_file_contents = f.readlines()
-        with open(os.path.join("./_versions", version, "client_decompiled", blocks_references_file), "rt") as f:
-            blocks_references_file_contents = f.readlines()
-        blocks = self.analyze(blocks_file_contents, version, blocks_references_file_contents)
+        blocks = self.analyze(blocks_file_contents, version)
         if store: self.store(version, blocks, "blocks.json")
         return blocks

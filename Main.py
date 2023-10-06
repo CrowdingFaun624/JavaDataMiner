@@ -9,11 +9,17 @@ import Utilities.Installer as Installer
 import Utilities.Searcher as Searcher
 
 Manifest.fetch_manifest(store=True)
+Manifest.fetch_manifest(store=True) # >:(
+Manifest.manifest = Manifest.get_manifest_from_file()
 
 version = Manifest.get_latest()[1] # latest snapshot
 print("Extracting version \"%s\"" % version)
 Manifest.add_latest_to_version_order(version)
 Manifest.fetch_manifest(store=True)
+Manifest.fetch_manifest(store=True)
+Manifest.manifest = Manifest.get_manifest_from_file()
+assert version in Manifest.get_version_list(Manifest.manifest)
+assert version in Manifest.get_version_list()
 
 import DataMiners.DataMiners as DataMiners # must be done after version fnoodling so it doesn't explode
 import Utilities.LanguageKeyGenerator as LanguageKeyGenerator

@@ -81,19 +81,21 @@ def is_in(path:str, terms:list[str], keywords:set[str]) -> bool:
     def should_get_file_content(terms:list[tuple[str,list[str]]]) -> bool:
         '''If the terms contains "file", return False'''
         for term in terms:
-            if "file" not in term[1]: return True
+            if "file" not in term[1] and "path" not in term[1]: return True
         else: return False
     def get_content_to_search(term:str, modifiers:dict[str,list[any]], file_content:str, path:str) -> str:
         '''Returns the file name or file contents based on the modifiers'''
         if "file" in modifiers:
             output = os.path.split(path)[1]
+        elif "path" in modifiers:
+            output = path
         else:
             output = file_content
         if "nocaps" in modifiers:
             output = output.lower()
         return output
 
-    available_modifiers = ["not", "file", "only", "count", "nocaps"]
+    available_modifiers = ["not", "file", "path", "only", "count", "nocaps"]
     terms:list[tuple[str,dict[str,list[any]]]] = [get_modifiers(term) for term in terms]
     if should_get_file_content(terms):
         with open(path, "rt") as f:
@@ -136,6 +138,7 @@ def search(version:str, side:str, terms:list[str], keywords:set[str]=None, addit
     * `not`: returns the opposite of normal
     * `only`: returns if the content exactly matches the term, instead of just containing it
     * `file`: uses the file name instead of the file contents.
+    * `path`: use the full path instead of the file contents.
     * `count(<=,==,>,>=,<,<=,!=>,[int]): how many times the string shows up'''
     if allow_decompile and not os.path.exists(os.path.join("./_versions", version, "%s_decompiled" % side)): Decompiler.get_decompiled(version, side)
     if keywords is None: keywords = set()
