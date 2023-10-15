@@ -1,3 +1,4 @@
+from typing import Callable
 from functools import total_ordering
 
 ADD = "a"
@@ -21,6 +22,10 @@ class Difference():
     def is_removal(self) -> bool:
         return self.type is REMOVE
     
+    def cast(self, new_type:type|Callable) -> None:
+        if self.old is not None: self.old = new_type(self.old)
+        if self.new is not None: self.new = new_type(self.new)
+    
     def __hash__(self):
         return hash((self.type, self.old, self.new))
 
@@ -31,7 +36,7 @@ class Difference():
         if not self._is_valid_operand(other): return NotImplemented
         return (self.new, self.old) == (other.new, other.old)
 
-    def __lt__(self, other) -> bool:
+    def __lt__(self, other:"Difference") -> bool:
         if not self._is_valid_operand(other): return NotImplemented
         if self.new is not None and other.new is not None: return self.new < other.new
         elif self.old is not None and other.old is not None: return self.old < other.old

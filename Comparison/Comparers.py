@@ -10,11 +10,15 @@ import Comparison.SoundEvents.SoundEvents as SoundEvents
 import Comparison.SoundTypeBlocks.SoundTypeBlocks as SoundTypeBlocksComparer
 import Comparison.SoundType.SoundType as SoundTypeComparer
 import Comparison.ListComparer as ListComparer
+import Comparison.SetComparer as SetComparer
 import Comparison.DictionaryComparer as DictionaryComparer
 
 all_comparers:dict[str,DataComparer.DataComparer] = {
     "blocks": BlocksComparer.BlocksComparer,
     "language": DictionaryComparer.DictionaryComparer,
+    "literal_strings": SetComparer.SetComparer,
+    "notes": SetComparer.SetComparer,
+    "records": SetComparer.SetComparer,
     "sound_events": SoundEvents.SoundEvents,
     "sound_type": SoundTypeComparer.SoundTypeComparer,
     "sound_type_blocks": SoundTypeBlocksComparer.SoundTypeBlocksComparer,
@@ -37,6 +41,7 @@ def main() -> None:
     dataminers = DataMiners.all_dataminers[data_type]
     old_data = DataMiner.get_data_file(old_version, dataminers.file_name, dataminers.dataminers)
     new_data = DataMiner.get_data_file(new_version, dataminers.file_name, dataminers.dataminers)
+    if data_type not in all_comparers: raise KeyError("Data type \"%s\" does not have a comparer!" % str(data_type))
     comparer:DataComparer.DataComparer = all_comparers[data_type]()
     data = comparer.activate(old_data, new_data, old_version, new_version)
     if data is None: return

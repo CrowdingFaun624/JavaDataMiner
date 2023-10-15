@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import Comparison.Comparer as Comparer
 import Comparison.Difference as D
@@ -10,18 +11,21 @@ class DataComparer():
         self.change_message = change_message
         self.remove_message = remove_message
 
-    def activate(self, data1:any, data2:any, version1:str, version2:str) -> str:
+    def analyze(self, comparison:Any, version1:str, version2:str, total:int) -> str|None:
+        pass
+
+    def activate(self, data1:Any, data2:Any, version1:str, version2:str) -> str|None:
         '''Compares data'''
         pass
 
-    def compare(self, data1:any, data2:any) -> any:
-        return Comparer.compare(data1, data2)
+    def compare(self, data1:Any, data2:Any, type_hint:type|None=None) -> Any:
+        return Comparer.compare(data1, data2, type_hint)
     
     def get_normalizer(self, version:str) -> Normalizer.Normalizer:
         normalizer_list = self.get_normalizers()
         for normalizer in normalizer_list:
             if normalizer.is_valid_version(version): return normalizer
-        else: return None
+        else: raise KeyError("No data normalizer found for %s!" % version)
     
     def get_normalizers(self) -> list[Normalizer.Normalizer]: ...
 

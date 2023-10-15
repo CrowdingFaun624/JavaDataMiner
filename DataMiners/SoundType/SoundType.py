@@ -11,6 +11,7 @@ import DataMiners.SoundType.SoundType5 as SoundType5
 import DataMiners.SoundType.SoundType6 as SoundType6
 import DataMiners.SoundType.SoundType7 as SoundType7
 import DataMiners.SoundType.SoundType8 as SoundType8
+import DataMiners.SoundType.SoundType9 as SoundType9
 
 dataminers:list[DataMiner.DataMiner] = [
     SoundTypeNew.SoundTypeNew("19w36a", "-"),
@@ -34,9 +35,10 @@ dataminers:list[DataMiner.DataMiner] = [
     SoundType6.SoundType6("inf-20100627", "inf-20100629", get_imports=False),
     SoundType6.SoundType6("in-20100212-1", "inf-20100625-2", get_imports=True), # code structure changed; now organized into folders
     SoundType7.SoundType7("in-20100125-1", "in-20100207-2"), # massive simplification to sound types, as they are now hard-coded to always be "step." + name
-    NoneDataMiner.NoneDataMiner("in-20100111-1", "in-20100111-1"),
+    SoundType9.SoundType9("in-20100111-1", "in-20100111-1"),
     SoundType8.SoundType8("in-20100105", "in-20100105"),
-    NoneDataMiner.NoneDataMiner("-", "in-20091231-2")
+    SoundType9.SoundType9("c0.0.22a", "in-20091231-2"),
+    NoneDataMiner.NoneDataMiner("-", "c0.0.21a_01"),
 ]
 
 SoundType = DataMinerType.DataMinerType("sound_types.json", dataminers)

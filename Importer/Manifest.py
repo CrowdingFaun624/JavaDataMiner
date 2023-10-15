@@ -16,7 +16,7 @@ def fetch_manifest(store:bool=False) -> dict[str,dict[str,str]|list[dict[str,str
     manifest = {"latest": manifest_latest, "versions": manifest_list}
     if store:
         with open("./_versions/version_manifest.json", "wt") as f:
-            f.write(json.dumps(manifest, indent=2))
+            json.dump(manifest, f, indent=2)
         verify_information()
     return manifest
 
@@ -24,13 +24,13 @@ def get_manifest_from_file() -> dict[str,dict[str,str]|list[dict[str,str|int]]]:
     '''Returns the manifest, first from file, then from url if that doesn't work'''
     if os.path.exists("./_versions/version_manifest.json"):
         with open("./_versions/version_manifest.json", "rt") as f:
-            return json.loads(f.read())
+            return json.load(f)
     else: return fetch_manifest(store=True)
 
 def get_manifest_extension() -> list[dict[str,str|int]]:
     '''Returns the manifest extension of versions not in the launcher.'''
     with open("./Assets/manifest_extension.json", "rt") as f:
-        return json.loads(f.read())
+        return json.load(f)
 
 def combine_manifests(manifest1:list[dict[str,str|int]], manifest2:list[dict[str,str|int]], version_order:list[str]) -> list[dict[str,str|int]]:
     '''Takes two lists of dicts of version parameters and merges them and sorts them by the order file.'''
@@ -86,13 +86,22 @@ def get_random_version(manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=
     if manifest is None: manifest = get_manifest()
     return random.choice(manifest["versions"])
 
+def get_order_version_id(version:str) -> int:
+    '''Returns a unique id of a version using the version order, which differs from the manifest.'''
+    if version not in order: raise KeyError("version %s does not exist in the version order!" % version)
+    return order.index(version)
+
 def get_version_id(version:str, manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=None) -> int:
-    '''Returns a unique, possibly occasionally changing id of a version. If `manifest` is None, then it will attempt to get the manifest from the file. The oldest  version is 0.'''
+    '''Returns a unique, possibly occasionally changing id of a version. If `manifest` is None, then it will attempt to get the manifest from the file. The oldest version is 0.'''
     if manifest is None: manifest = get_manifest()
     for index, version_properties in enumerate(reversed(manifest["versions"])):
         if version_properties["id"] == version:
             return index
     else: raise KeyError("Version {} does not exist in the version manifest!".format(version))
+
+def get_order_id_version(id:int) -> str:
+    '''Returns the id's version name from the version order, which differs from the manifest.'''
+    return order[id]
 
 def get_id_version(id:int, manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=None) -> str:
     '''Returns the id's version name. If `manifest` is None, then it will attempt to get the manifest from the file. The oldest version is 0.'''
@@ -108,27 +117,28 @@ def get_version_list(manifest:dict[str,dict[str,str]|list[dict[str,str|int]]]=No
     if reverse: return list(reversed(output))
     else: return output
 
-def get_version_order() -> list[str]:
+def get_version_order_from_file() -> list[str]:
     '''Returns the order of all versions, including missing ones (oldest to newest).'''
     with open("./Assets/version_order.json", "rt") as f:
-        return json.loads(f.read())
+        return json.load(f)
 
 def get_missing_versions() -> list[str]:
     '''Returns the list of all unarchived versions (oldest to newest).'''
     with open("./Assets/missing_versions.json", "rt") as f:
-        return json.loads(f.read())
+        return json.load(f)
 
 def add_latest_to_version_order(version:str) -> None:
     '''Adds the latest version to version_order.json'''
     with open("./Assets/version_order.json", "rt") as f:
-        order:list[str] = json.loads(f.read())
-    if version in order: return
+        order_from_file:list[str] = json.load(f)
+    if version in order_from_file: return
     manifest = get_version_list()
-    if len(manifest) - len(order) != 1:
+    if len(manifest) - len(order_from_file) != 1:
         print("Multiple versions detected! Please configure version_order.json.")
+    order_from_file.append(version)
     order.append(version)
     with open("./Assets/version_order.json", "wt") as f:
-        f.write(json.dumps(order, indent=2))
+        json.dump(order_from_file, f, indent=2)
     print("Added \"%s\" to version order." % version)
 
 def verify_information() -> None:
@@ -157,7 +167,12 @@ def verify_information() -> None:
     if is_bad: raise KeyError("Failed to verify manifest informations!")
 
 manifest = get_manifest_from_file()
+order = get_version_order_from_file()
 
 def get_manifest() -> dict[str,dict[str,str]|list[dict[str,str|int]]]:
     '''Returns the manifest'''
     return manifest
+
+def get_version_order() -> list[str]:
+    '''Returns the version order'''
+    return order
