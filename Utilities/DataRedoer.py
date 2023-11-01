@@ -22,7 +22,7 @@ def main() -> None:
             else: input_version = input(text)
     def get_version_input(text:str) -> str:
         return get_valid_input(text, Manifest.get_version_list(), False)
-    old_version = get_version_input("Oldeet version: ")
+    old_version = get_version_input("Oldest version: ")
     new_version = get_version_input("Newest version: ")
     old_version_id = Manifest.get_version_id(old_version)
     new_version_id = Manifest.get_version_id(new_version)
