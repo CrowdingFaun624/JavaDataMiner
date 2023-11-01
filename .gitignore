@@ -7,3 +7,4 @@ JavaDataMiner.code-workspace
 all_language_keys.json
 *__pycache__
 *.pyc
+.vscode

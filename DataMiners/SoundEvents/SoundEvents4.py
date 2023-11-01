@@ -1,6 +1,3 @@
-import json
-import os
-
 import DataMiners.DataMiner as DataMiner
 import DataMiners.LiteralStrings.LiteralStrings as LiteralStrings
 import DataMiners.Notes.Notes as Notes
@@ -14,12 +11,15 @@ class SoundEvents4(DataMiner.DataMiner):
         self.records = "records.ogg"
         self.sound_type_keys = ["dig", "step", "dig2"]
         self.grab_assets = True
+        self.manual_additions:list[str] = []
         if "records" in kwargs:
             self.records = kwargs["records"]
         if "sound_type_keys" in kwargs:
             self.sound_type_keys = kwargs["sound_type_keys"]
         if "grab_assets" in kwargs:
             self.grab_assets = kwargs["grab_assets"]
+        if "manual_additions" in kwargs:
+            self.manual_additions = kwargs["manual_additions"]
 
     def ensure_no_duplicates(self, string_list:list[str], version:str) -> None:
         if len(set(string_list)) != len(string_list):
@@ -142,7 +142,12 @@ class SoundEvents4(DataMiner.DataMiner):
             string_list.append("note." + note)
         return string_list
 
-    def analyze(self, string_list:list[str], version:str, language:set[str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], assets_index:dict[str,dict[str,dict[str|int]]], records:list[str]) -> list[str]:
+    def add_manual_additions(self, string_list:list[str], manual_additions:list[str]) -> list[str]:
+        for addition in manual_additions:
+            if addition not in string_list: string_list.append(addition)
+        return string_list
+
+    def analyze(self, string_list:list[str], version:str, language:set[str], sound_type_data:dict[str,dict[str,int|str]], notes_data:list[str], records:list[str]) -> list[str]:
         output = self.filter_duplicates(string_list)
         output = self.replace_minecraft_colon(output)
         output = self.filter_illegal_characters(output)
@@ -157,6 +162,7 @@ class SoundEvents4(DataMiner.DataMiner):
         output = self.add_sound_type_events(output, sound_type_data)
         output = self.add_records(output, version, records)
         output = self.add_notes(output, notes_data)
+        output = self.add_manual_additions(output, self.manual_additions)
         self.ensure_no_duplicates(output, version)
         return sorted(output)
 
@@ -169,8 +175,7 @@ class SoundEvents4(DataMiner.DataMiner):
         sound_type_data = SoundType.SoundType.get_data_file(version)
         notes_data = Notes.Notes.get_data_file(version)
         records:list[str] = Records.Records.get_data_file(version)
-        assets_index = AssetsIndex.fetch_assets_index(version, store_in_version=True, store=False) if self.grab_assets else None
         # end extra data files
-        sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, assets_index, records)
+        sound_events = self.analyze(literal_string_list, version, language_data, sound_type_data, notes_data, records)
         if store: self.store(version, sound_events, "sound_events.json")
         return sound_events
