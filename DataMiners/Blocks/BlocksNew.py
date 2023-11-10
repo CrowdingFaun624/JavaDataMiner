@@ -23,7 +23,7 @@ class BlocksNew(DataMiner.DataMiner):
     BLOCK_FUNCTION_START = "    private static "
     BLOCK_FUNCTION_END = "    }"
     SOUND_INDICATOR = "SoundType."
-    COPY_INDICATOR = ".copy("
+    COPY_INDICATORS = [".copy(", ".ofLegacyCopy(", ".ofFullCopy("]
     WOODTYPE_INDICATOR = "WoodType."
     BLOCKSETTYPE_INDICATOR = "BlockSetType."
     BLOCK_LINE = "    public static final Block "
@@ -273,7 +273,11 @@ class BlocksNew(DataMiner.DataMiner):
         '''Returns the sound type of the copied thing'''
         def no_exist_error() -> None:
             raise KeyError("Block line %s (\"%s\") references a block (\"%s\") that does not exist!" % line_index, line, copy_block_code)
-        copy_block_code = line.split(self.COPY_INDICATOR)[1].split(")")[0]
+        for copy_indicator in self.COPY_INDICATORS:
+            if copy_indicator in line:
+                copy_block_code = line.split(copy_indicator)[1].split(")")[0]
+                break
+        else: raise ValueError("No copy indicator was found in line \"%s\" (index %i)." % (line, line_index))
         if copy_block_code not in code_to_block: no_exist_error()
         copy_block = code_to_block[copy_block_code]
         if copy_block not in blocks: no_exist_error()
@@ -300,6 +304,9 @@ class BlocksNew(DataMiner.DataMiner):
                 raise KeyError("Could not find block reference \"%s\" in line %i (\"%s\")!" % (reference_name, line_index, line))
             return block_references[reference_name]
         else: raise ValueError("Invalid block line %i (\"%s\")!" % (line_index, line))
+
+    def has_copy_indicator(self, line:str) -> bool:
+        return any(copy_indicator in line for copy_indicator in self.COPY_INDICATORS)
 
     def analyze(self, file_contents:list[str], version:str, blocks_references_file_contents:list[str]) -> dict[str,dict[str,any]]:
         recording = self.START_TYPE
@@ -377,7 +384,7 @@ class BlocksNew(DataMiner.DataMiner):
                     blocks[block_name] = blocks[code_to_block[argument]]
                     continue
             
-            if self.COPY_INDICATOR in line:
+            if self.has_copy_indicator(line):
                 sound_type, has_sound_type = self.get_copy(blocks, code_to_block, line, line_index)
                 if has_sound_type:
                     blocks[block_name] = {"sound_type": sound_type}
