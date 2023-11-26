@@ -26,6 +26,7 @@ if __name__ == "__main__":
         "MappingCondenser": MappingCondenser.main,
         "PlaylistAssembler": PlaylistAssembler.main,
         "Searcher": Searcher.main,
+        "SearcherCompare": Searcher.search_compare_user,
         "SoundsJsonTablifier": SoundsJsonTablifier.main
         }
     available = list(functions.keys())
