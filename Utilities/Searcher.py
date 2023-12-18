@@ -204,7 +204,7 @@ def main() -> None:
     print("Found %s file(s)!" % len(paths))
 
 def search_compare(version1:str, version2:str, search_terms:list[str], search_keywords:list[str]) -> None:
-    version1_thread = threading.Thread(args=(version1, "client", search_terms, search_keywords), kwargs={"actually_copy_files": True, "output_path": version1, "suppress_clear": True}, target=search)
+    version1_thread = threading.Thread(args=(version1, "client", search_terms, search_keywords), kwargs={"actually_copy_files": True, "output_path": version1, "suppress_clear": False}, target=search)
     version2_thread = threading.Thread(args=(version1, "client", search_terms, search_keywords), kwargs={"actually_copy_files": True, "output_path": version2, "suppress_clear": True}, target=search)
 
 def search_compare_user() -> None:
@@ -219,7 +219,7 @@ def search_compare_user() -> None:
 
     possible_versions = os.listdir("./_versions") # list of versions; first version selected is removed so same versions aren't used.
     version1 = user_input("First version: ", possible_versions)
-    version1_thread = threading.Thread(args=(version1, "client", search_terms, search_keywords), kwargs={"actually_copy_files": True, "output_path": version1, "suppress_clear": True}, target=search)
+    version1_thread = threading.Thread(args=(version1, "client", search_terms, search_keywords), kwargs={"actually_copy_files": True, "output_path": version1, "suppress_clear": False}, target=search)
     version1_thread.start()
     possible_versions.remove(version1)
     version2 = user_input("Second version: ", possible_versions)
