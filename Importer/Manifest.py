@@ -166,9 +166,6 @@ def verify_information() -> None:
             is_bad = True
     if is_bad: raise KeyError("Failed to verify manifest informations!")
 
-manifest = get_manifest_from_file()
-order = get_version_order_from_file()
-
 def get_manifest() -> dict[str,dict[str,str]|list[dict[str,str|int]]]:
     '''Returns the manifest'''
     return manifest
@@ -176,3 +173,6 @@ def get_manifest() -> dict[str,dict[str,str]|list[dict[str,str|int]]]:
 def get_version_order() -> list[str]:
     '''Returns the version order'''
     return order
+
+order = get_version_order_from_file()
+manifest = get_manifest_from_file()
