@@ -30,7 +30,7 @@ class BlocksNew(DataMiner.DataMiner):
     BLOCK_REFERENCE_LINE = "    public static final ResourceKey<Block> "
     BLOCK_REFERENCE_FILE = "net.minecraft.references.Blocks."
     
-    MODULE_SOUND_TYPE_START = "    public SoundType getSoundType"
+    MODULE_SOUND_TYPE_STARTS = ["    public SoundType getSoundType", "    protected SoundType getSoundType"]
     MODULE_SOUND_TYPE_END = "    }"
 
     WOODTYPE_INDEXES = {WOOD_WOOD_TYPE: 0, HANGING_SIGN_WOOD_TYPE: 1}
@@ -188,7 +188,7 @@ class BlocksNew(DataMiner.DataMiner):
         recording = False
         for line in lines:
             line = line.replace("\n", "")
-            if line.startswith(self.MODULE_SOUND_TYPE_START):
+            if any(line.startswith(starter) for starter in self.MODULE_SOUND_TYPE_STARTS):
                 recording = True
                 continue
             if line.startswith(self.MODULE_SOUND_TYPE_END) and recording:
@@ -412,7 +412,7 @@ class BlocksNew(DataMiner.DataMiner):
                 file_path = Searcher.full_path(version, "client", importer_file)
                 with open(file_path, "rt") as f:
                     file_data = f.read()
-                if self.MODULE_SOUND_TYPE_START in file_data:
+                if any(starter in file_data for starter in self.MODULE_SOUND_TYPE_STARTS):
                     sound_types = self.get_sound_type_from_module(file_data)
                     blocks[block_name] = {"sound_type": sound_types}
                     continue
