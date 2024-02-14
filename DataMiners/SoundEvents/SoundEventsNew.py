@@ -29,7 +29,7 @@ class SoundEventsNew(DataMiner.DataMiner):
         MULTI_EVENT_LENGTH = "    public static final int "
         MULTI_EVENT_DECLARER1 = "    public static final ImmutableList<Holder.Reference<SoundEvent>> "
         MULTI_EVENT_DECLARER2 = "    public static final ImmutableList<SoundEvent> " # used before about 22w45a
-        VALID_EVENT_STARTS = ["    public static final SoundEvent ", "    public static final Holder.Reference<SoundEvent> "]
+        VALID_EVENT_STARTS = ["    public static final SoundEvent ", "    public static final Holder.Reference<SoundEvent> ", "    public static final Holder<SoundEvent> "]
         VALID_ALTERNATE_STARTS = [MULTI_EVENT_LENGTH, MULTI_EVENT_DECLARER1, MULTI_EVENT_DECLARER2]
         FUNCTION_START = "    private "
 
