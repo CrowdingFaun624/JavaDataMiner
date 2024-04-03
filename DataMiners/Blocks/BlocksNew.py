@@ -97,6 +97,7 @@ class BlocksNew(DataMiner.DataMiner):
         LINE_END = ";"
         IGNORE_FILES = {
             "com.google.common.collect.ImmutableList",
+            "com.google.common.collect.ImmutableMap",
             "java.util.Map",
             "java.util.function.Consumer",
             "java.util.function.Function",
@@ -323,6 +324,8 @@ class BlocksNew(DataMiner.DataMiner):
             line = line.replace("\n", "").replace("(Block)", "")
             recording, skip = self.get_recording(line, recording)
             if skip: line_starts[recording] = line_index + 1; continue
+            if line in ("    public static final Map<DyeColor, Block> POTATO_PEELS_BLOCK_MAP;", "    public static final Block CORRUPTED_POTATO_PEELS_BLOCK;", "    public static final Block POTATO_BATTERY;"):
+                continue # This is only in 24w14potato and I don't care enough to fix it properly
             if recording == self.IMPORT_TYPE:
                 imports.append(self.get_import(line, line_index, version))
             if recording == self.BLOCKS_TYPE:
@@ -364,6 +367,8 @@ class BlocksNew(DataMiner.DataMiner):
             # SECOND PASS, collect all info on blocks
             line = line.replace("\n", "").replace("(Block)", "")
             if not line.startswith(self.BLOCK_LINE): continue
+            if line in ("    public static final Map<DyeColor, Block> POTATO_PEELS_BLOCK_MAP;", "    public static final Block CORRUPTED_POTATO_PEELS_BLOCK;", "    public static final Block POTATO_BATTERY;"):
+                continue # This is only in 24w14potato and I don't care enough to fix it properly
             code_name = line.replace(self.BLOCK_LINE, "").split(" ")[0]
             block_name = self.get_block_name(line, line_index, block_references)
             code_to_block[code_name] = block_name
