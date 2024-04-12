@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import DataMiners.DataMiner as DataMiner
 import Utilities.Searcher as Searcher
@@ -244,7 +245,7 @@ class Blocks0(DataMiner.DataMiner):
                     output[code_name] = sound_type
         return output
 
-    def get_copy(self, blocks:dict[str,dict[str,any]], code_to_block:dict[str,str], line:str, line_index:int) -> tuple[str, bool]:
+    def get_copy(self, blocks:dict[str,dict[str,Any]], code_to_block:dict[str,str], line:str, line_index:int) -> tuple[str|None, bool]:
         '''Returns the sound type of the copied thing'''
         def no_exist_error() -> None:
             raise KeyError("Block line %s (\"%s\") references a block (\"%s\") that does not exist!" % line_index, line, copy_block_code)
@@ -256,7 +257,7 @@ class Blocks0(DataMiner.DataMiner):
             return blocks[copy_block]["sound_type"], True
         else: return None, False
 
-    def analyze(self, file_contents:list[str], version:str) -> dict[str,dict[str,any]]:
+    def analyze(self, file_contents:list[str], version:str) -> dict[str,dict[str,Any]]:
         recording = self.START_TYPE
         function_recording = False
         imports:list[str] = []
@@ -301,7 +302,7 @@ class Blocks0(DataMiner.DataMiner):
             woodtype_sounds:dict[str,list[str]] = self.analyze_woodtype(version)
         if "BlockSetType" in import_modules:
             blocksettype_sounds:dict[str,str] = self.analyze_blocksettype(version)
-        blocks:dict[str,dict[str,any]] = {}
+        blocks:dict[str,dict[str,Any]] = {}
         code_to_block:dict[str,str] = {}
         start, end = line_starts[self.BLOCKS_TYPE], line_starts[self.FUNCTION_TYPE]
         for line_index, line in enumerate(file_contents[start:end]):
@@ -364,7 +365,7 @@ class Blocks0(DataMiner.DataMiner):
         blocks = Blocks0.sort_dict(blocks)
         return blocks
 
-    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,any]]:
+    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,Any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)

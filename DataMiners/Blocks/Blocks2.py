@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import DataMiners.DataMiner as DataMiner
 import DataMiners.SoundType.SoundType as SoundType
@@ -63,7 +64,7 @@ class Blocks2(DataMiner.DataMiner):
             else: break
         return int(output)
 
-    def evaluate_block(self, line:str, version:str, templates:dict[int,dict[str,any]], sound_types:dict[str,dict[str,int|str]], sound_types_name:str, stone_code_name:str) -> tuple[str, dict[str,any]]:
+    def evaluate_block(self, line:str, version:str, templates:dict[int,dict[str,Any]], sound_types:dict[str,dict[str,int|str]], sound_types_name:str, stone_code_name:str) -> tuple[str, dict[str,Any]]:
         '''Returns the block's name and its properties'''
         def defaults() -> tuple[str,str]:
             return "STONE", stone_code_name
@@ -85,7 +86,7 @@ class Blocks2(DataMiner.DataMiner):
         else: sound_type, sound_type_code_name = defaults()
         return game_name, {"sound_type": sound_type, "sound_type_code_name": sound_type_code_name}
 
-    def evaluate_template(self, line:str, version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str, stone_code_name:str) -> tuple[int, dict[str,any]]:
+    def evaluate_template(self, line:str, version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str, stone_code_name:str) -> tuple[int, dict[str,Any]]:
         '''Returns the template's id and its properties'''
         def defaults() -> tuple[str,str]:
             return "STONE", stone_code_name
@@ -123,15 +124,15 @@ class Blocks2(DataMiner.DataMiner):
         del output["air"] # air isn't in Blocks.java for some reason.
         return output
 
-    def analyze_blocks(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str) -> dict[str,dict[str,any]]:
+    def analyze_blocks(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str) -> dict[str,dict[str,Any]]:
         RECORD_START = "    public static void "
         RECORD_START_THRESHOLD = self.record_start_threshold # how many RECORD_STARTs must occur to start recording
         RECORD_END = "        for ("
         recording_threshold = 0
         recording = False
         stone_code_name = self.get_stone_name(sound_types, version)
-        output:dict[str,dict[str,any]] = {}
-        templates:dict[int,dict[str,any]] = {} # stores the \u26034 things
+        output:dict[str,dict[str,Any]] = {}
+        templates:dict[int,dict[str,Any]] = {} # stores the \u26034 things
         LINE_VALID_TABLE = {(False,False,False):False,(False,False,True):False,(False,True,False):False,(False,True,True):True,
                             (True,False,False):True,(True,False,True):False,(True,True,False):True,(True,True,True):True}
         for line in file_contents:
@@ -159,7 +160,7 @@ class Blocks2(DataMiner.DataMiner):
             raise ValueError("Recording line not encountered in Blocks in %s!" % version)
         return output
 
-    def analyze(self, blocks_file_contents:list[str], blocks_list_file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str) -> dict[str,dict[str,any]]:
+    def analyze(self, blocks_file_contents:list[str], blocks_list_file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_types_name:str) -> dict[str,dict[str,Any]]:
         blocks = self.analyze_blocks(blocks_file_contents, version, sound_types, sound_types_name)
         blocks_code_names:dict[str,str] = self.analyze_block_list(blocks_list_file_contents, version)
         blocks_set = set(list(blocks.keys())); blocks_list_set = set(list(blocks_code_names.keys()))
@@ -170,7 +171,7 @@ class Blocks2(DataMiner.DataMiner):
             blocks[block_game_name]["code_name"] = block_code_name
         return blocks
 
-    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,any]]:
+    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,Any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)

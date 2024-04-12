@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import DataMiners.DataMiner as DataMiner
 import DataMiners.SoundType.SoundType as SoundType
@@ -95,7 +96,7 @@ class Blocks5(DataMiner.DataMiner):
         if big_string not in line: return None
         else: return line.split(big_string)[1].split("\")")[0]
 
-    def get_template(self, line:str, blocks:dict[str,dict[str,any]], version:str) -> tuple[bool,dict[str,any]|None]:
+    def get_template(self, line:str, blocks:dict[str,dict[str,Any]], version:str) -> tuple[bool,dict[str,Any]|None]:
         '''Sees if it can get any properties based off of template, and returns that boolean of if it did and the template data.'''
         parameters = line.split("new ")[1].split("(")[1].split(")")[0].split(", ")
         if len(parameters) == 0: return False, None # raise ValueError("Line \"%s\" in Blocks in %s has no parameters!" % (line, version))
@@ -122,16 +123,16 @@ class Blocks5(DataMiner.DataMiner):
             raise ValueError("Got wonky sound type \"%s\", which is not a sound type in Blocks in %s!" % (default_sound_type, version))
         return default_sound_type
 
-    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], file_name:str) -> dict[int,dict[str,any]]:
+    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], file_name:str) -> dict[int,dict[str,Any]]:
         RECORD_START = "    public static final "
         MAGIC_NUMBER = str(4096)
         old_name_function, new_name_function = self.analyze_old_and_new_functions(file_contents, version, file_name)
         met_magic_number = False
         recording = False
         subclasses = self.analyze_block_subclasses_to_analyze(file_contents, version, file_name)
-        subclass_properties:dict[str,dict[str,any]] = {}
+        subclass_properties:dict[str,dict[str,Any]] = {}
         self.analyze_subclasses(subclasses, version, subclass_properties, file_name, sound_types)
-        output:dict[int,dict[str,any]] = {}
+        output:dict[int,dict[str,Any]] = {}
         default_sound_type = self.analyze_default_sound_type(file_contents, version, sound_types)
         for line in file_contents:
             line = line.rstrip()
@@ -156,12 +157,12 @@ class Blocks5(DataMiner.DataMiner):
         self.validate_sound_types(output, version, default_sound_type)
         return output
 
-    def validate_sound_types(self, blocks:dict[str,dict[str,any]], version:str, default_sound_type:str) -> None:
+    def validate_sound_types(self, blocks:dict[str,dict[str,Any]], version:str, default_sound_type:str) -> None:
         def is_in_allowances(numeric_id:int, new_name:str) -> bool:
             if numeric_id in sound_type_allowances: return True
             elif new_name in sound_type_allowances: return True
             else: return False
-        def get_best_identifier(block_properties:dict[str,any]) -> str|int:
+        def get_best_identifier(block_properties:dict[str,Any]) -> str|int:
             return block_properties["new_name"] if block_properties["new_name"] is not None else block_properties["id"]
         REQUIRED_BLOCK_PROPERTIES = set(["id", "old_name", "new_name", "sound_type"])
         sound_type_allowances = set(self.sound_type_allowances)
@@ -187,14 +188,14 @@ class Blocks5(DataMiner.DataMiner):
         with open(os.path.join("./_versions", version, "client_decompiled", file_name + ".java"), "rt") as f:
             return f.readlines()
 
-    def analyze_subclasses(self, files:list[str], version:str, properties:dict[str,dict[str,any]], default_file_name:str, sound_types:dict[str,dict[str,int|str]]) -> None:
+    def analyze_subclasses(self, files:list[str], version:str, properties:dict[str,dict[str,Any]], default_file_name:str, sound_types:dict[str,dict[str,int|str]]) -> None:
         for file_name in files:
             if file_name in properties: continue
             file_contents = self.open_file(file_name, version)
             self.analyze_subclass(file_contents, file_name, version, properties, default_file_name, sound_types)
         properties = DataMiner.DataMiner.sort_dict(properties)
 
-    def analyze_subclass(self, file_contents:list[str], file_name:str, version:str, properties:dict[str,dict[str,any]], default_file_name:str, sound_types:dict[str,dict[str,int|str]]) -> None:
+    def analyze_subclass(self, file_contents:list[str], file_name:str, version:str, properties:dict[str,dict[str,Any]], default_file_name:str, sound_types:dict[str,dict[str,int|str]]) -> None:
         # NOTE: This does not make an attempt to get names, old or new
         def should_start_recording(line:str) -> bool:
             for start_recording in START_RECORDINGS:
@@ -242,7 +243,7 @@ class Blocks5(DataMiner.DataMiner):
         else: raise ValueError("Blocks.analyze_block_subclasses_to_analyze in %s did not start/stop recording before end of file!" % version)
         return sorted(output)
 
-    def activate(self, version:str, store:bool=True) -> dict[int,dict[str,any]]:
+    def activate(self, version:str, store:bool=True) -> dict[int,dict[str,Any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)

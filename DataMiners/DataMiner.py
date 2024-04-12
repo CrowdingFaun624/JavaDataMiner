@@ -1,5 +1,6 @@
 import json
 import os
+from typing import Any
 
 import Importer.Manifest as Manifest
 
@@ -21,7 +22,7 @@ class DataMiner():
 
     def search(self, version:str) -> str: ...
 
-    def activate(self, version:str, store:bool=True, **kwargs) -> any: ...
+    def activate(self, version:str, store:bool=True, **kwargs) -> Any: ...
 
     def init(self, **kwargs) -> None: ... # for other variables declared upon the declaration of the dataminer.
 
@@ -34,7 +35,7 @@ class DataMiner():
         output = dict(output)
         return output
 
-    def store(self, version:str, data:any, file_name:str) -> None:
+    def store(self, version:str, data:Any, file_name:str) -> None:
         if not os.path.exists("./_versions/%s/data" % version): os.mkdir("./_versions/%s/data" % version)
         if isinstance(data, str): write_data = data
         else: write_data = json.dumps(data, indent=2)
@@ -50,7 +51,7 @@ def get_dataminer(version:str, dataminer_list:list[DataMiner], dataminer_type:st
 def get_file_name_from_path(file_path:str) -> str:
     return ".".join(os.path.split(file_path)[1].split(".")[:-1])
 
-def get_data_file(version:str, file_name:str, dataminer_list:list[DataMiner], redo:bool=False, kwargs:dict[str,any]|None=None) -> any:
+def get_data_file(version:str, file_name:str, dataminer_list:list[DataMiner], redo:bool=False, kwargs:dict[str,Any]|None=None) -> Any:
     '''Returns the specified data file for this version, creating it if it does not exist or `redo` is True.'''
     file_path = os.path.join("./_versions", version, "data", file_name)
     if os.path.exists(file_path) and not redo:

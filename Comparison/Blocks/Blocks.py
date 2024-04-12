@@ -141,7 +141,7 @@ class BlocksComparer(DataComparer.DataComparer):
             output += "\n"
         return output
 
-    def activate(self, data1:dict[str,dict[str,any]], data2:dict[str,dict[str,any]], version1:str, version2:str) -> str:
+    def activate(self, data1:dict[str,dict[str,Any]], data2:dict[str,dict[str,Any]], version1:str, version2:str) -> str:
         for item in data1:
             if isinstance(item, D.Difference): raise TypeError(f"Difference object is in data1 between \"{version1}\" and \"{version2}\"!")
         for item in data2:

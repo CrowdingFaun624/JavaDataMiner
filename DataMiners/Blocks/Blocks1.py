@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import DataMiners.DataMiner as DataMiner
 import DataMiners.SoundType.SoundType as SoundType
@@ -58,12 +59,12 @@ class Blocks1(DataMiner.DataMiner):
                 return sound_type_code_name
         else: raise ValueError("No sound type of STONE exists for Blocks in %s!" % version)
 
-    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_type_name:str) -> dict[str,dict[str,any]]:
+    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]], sound_type_name:str) -> dict[str,dict[str,Any]]:
         RECORDING_START = "public class "
         RECORDING_END = ""
         BLOCK_DECLARER = "public static final "
         recording = False
-        output:dict[str,dict[str,any]] = {}
+        output:dict[str,dict[str,Any]] = {}
         stone_code_name = self.get_stone_name(sound_types, version)
         for line in file_contents:
             line = line.strip()
@@ -86,7 +87,7 @@ class Blocks1(DataMiner.DataMiner):
                 output[game_name] = {"code_name": code_name, "sound_type": sound_type, "sound_type_code_name": sound_type_code_name}
         return output
 
-    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,any]]:
+    def activate(self, version:str, store:bool=True) -> dict[str,dict[str,Any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)

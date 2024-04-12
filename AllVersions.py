@@ -3,6 +3,7 @@ import shutil
 import threading
 import time
 import traceback
+from typing import Any
 
 import DataMiners.DataMiners as DataMiners
 import Importer.Manifest as Manifest
@@ -27,7 +28,7 @@ def terminate_version(version:str) -> None:
     if os.path.exists(data_path):
         shutil.rmtree(data_path)
 
-def do_version(version:str, exception_holder:dict[str,any], time_holder:dict[str,any]) -> None:
+def do_version(version:str, exception_holder:dict[str,Any], time_holder:dict[str,Any]) -> None:
     try:
         if not DataMiners.has_all_files(version):
             print("\t" + version)
@@ -64,8 +65,8 @@ def main() -> None:
     # version_groups = get_version_collections(versions, CONCURRENT_COUNT)
     versions:list[str] = [version["id"] for version in versions_properties]
     active_threads:dict[str,threading.Thread] = {}
-    exception_holder:dict[str,any] = {}
-    time_holder:dict[str,any] = {}
+    exception_holder:dict[str,Any] = {}
+    time_holder:dict[str,Any] = {}
     stop_creating_threads = [False]
     index = 0
     keyboard_interruptions = [0]

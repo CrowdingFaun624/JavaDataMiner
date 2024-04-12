@@ -1,4 +1,5 @@
 import os
+from typing import Any
 
 import DataMiners.DataMiner as DataMiner
 import DataMiners.SoundType.SoundType as SoundType
@@ -27,26 +28,26 @@ class Blocks7(DataMiner.DataMiner):
             if string_to_test in line: return sound_type
         else: return None
 
-    def get_copy(self, line:str, blocks:dict[str,dict[str,any]], block_id:int) -> str|None:
+    def get_copy(self, line:str, blocks:dict[str,dict[str,Any]], block_id:int) -> str|None:
         output = line.split(", ")[1].split(")")[0]
         if self.get_block_with_code_name(blocks, output, None, False) is not None: return output
         else: return None
 
-    def get_block_with_code_name(self, blocks:dict[int,dict[str,any]], code_name:str, version:str, error_on_none:bool=True) -> int|None:
+    def get_block_with_code_name(self, blocks:dict[int,dict[str,Any]], code_name:str, version:str, error_on_none:bool=True) -> int|None:
         for block_id, block_properties in list(blocks.items()):
             if block_properties["code_name"] == code_name: return block_id
         else:
             if error_on_none: raise KeyError("Unable to find block with code name \"%s\" in Blocks in %s!" % (code_name, version))
             else: return None
 
-    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]]) -> dict[int,dict[str,any]]:
+    def analyze(self, file_contents:list[str], version:str, sound_types:dict[str,dict[str,int|str]]) -> dict[int,dict[str,Any]]:
         BLOCK_DECLARER = "    public static final "
         NULL_DECLARER = "null;"
         MAGIC_NUMBER = str(256)
         recording = False
         has_met_magic_number = False
         default_sound_type = self.analyze_default_sound_type(file_contents, version, sound_types)
-        output:dict[int,dict[str,any]] = {}
+        output:dict[int,dict[str,Any]] = {}
         for line in file_contents:
             line = line.rstrip()
             if not recording and MAGIC_NUMBER in line:
@@ -89,7 +90,7 @@ class Blocks7(DataMiner.DataMiner):
                     return default_sound_type
         else: raise ValueError("Failed to start/stop recording in Blocks.analyze_default_sound_type in %s!" % version)
 
-    def validate_sound_types(self, blocks:dict[int,dict[str,any]], version:str, default_sound_type:str) -> None:
+    def validate_sound_types(self, blocks:dict[int,dict[str,Any]], version:str, default_sound_type:str) -> None:
         REQUIRED_BLOCK_PROPERTIES = set(["code_name", "sound_type"])
         sound_type_allowances = set(self.sound_type_allowances)
         error_list:list[str] = []
@@ -106,7 +107,7 @@ class Blocks7(DataMiner.DataMiner):
         if len(error_list) > 0:
             raise ValueError("In Blocks in %s: " % version + " ".join(error_list))
 
-    def activate(self, version:str, store:bool=True) -> dict[int,dict[str,any]]:
+    def activate(self, version:str, store:bool=True) -> dict[int,dict[str,Any]]:
         if not self.is_valid_version(version):
             raise ValueError("Version %s is not within %s and %s!" % (version, self.start_version, self.end_version))
         blocks_file = self.search(version)
