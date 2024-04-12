@@ -10,7 +10,7 @@ def remap(version:str, side:str):
     '''Remaps the jar file from the given version and side'''
     jar_path = "./_versions/%s/%s.jar" % (version, side)
     mappings_path = "./_versions/%s/%s.tsrg" % (version, side)
-    specialsource_path = "./Lib/SpecialSource-1.9.1.jar"
+    specialsource_path = "./Lib/SpecialSource.jar"
     if not os.path.exists(jar_path): JarImporter.fetch(version, side)
     if not os.path.exists(mappings_path): MappingsEncoder.create_mappings(version, side)
     if not os.path.exists(specialsource_path): raise FileNotFoundError("specialsource is missing!")
@@ -23,7 +23,7 @@ def remap(version:str, side:str):
                     '--srg-in', mappings_path.__str__(),
                     "--kill-lvt"  # kill snowmen
                     ], check=True, capture_output=True)
-
+# java -jar ./Lib/SpecialSource-1.11.4.jar --in-jar ./_versions/1.20.5-pre1/1.20.5-pre1.jar --out-jar ./_versions/1.20.5-pre1/1.20.5-pre1_remapped.jar --srg-in ./_versions/1.20.5-pre1/1.20.5-pre1.tsrg --kill-lvt
 def remap_client(version:str) -> None:
     '''Remaps the given version's client.jar'''
     remap(version, "client")
