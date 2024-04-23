@@ -122,7 +122,7 @@ class BlocksNew(DataMiner.DataMiner):
         VALID_CHARACTERS = VALID_START_CHARACTERS + "1234567890_"
         if not line.startswith(self.BLOCK_FUNCTION_START):
             raise ValueError("Function line %s (\"%s\") does not start with \"%s\"!" % (line_index, line, self.BLOCK_FUNCTION_START))
-        function_name = line.replace(self.BLOCK_FUNCTION_START, "").split(" ")[1].split("(")[0]
+        function_name = line.replace(self.BLOCK_FUNCTION_START, "").split("(")[0].split(" ")[-1]
 
         # Error messages are important
         if function_name[0] not in VALID_START_CHARACTERS:
