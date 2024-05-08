@@ -43,17 +43,20 @@ def get_files(old_version:str, new_version:str) -> list[dict]:
 def reformat(soundsjson:dict) -> dict:
     def reformat_sounds(sound_list:list[str|dict[str,int|float|bool]], sound_event_name:str="Unknown") -> dict[str,dict[str,int|float|bool]]:
         output = {}
-        index = 0
+        occurrences:dict[str,int] = {}
         for sound in sound_list:
             if isinstance(sound, str):
                 output[sound] = {}
             elif isinstance(sound, dict):
-                sound_name = sound["name"]
+                sound_name:str = sound["name"]
                 vars = sound.copy()
+                if sound_name not in occurrences:
+                    occurrences[sound_name] = 1
+                else:
+                    occurrences[sound_name] += 1
                 del vars["name"]
-                output[sound_name + "|" + str(index)] = vars
+                output[sound_name + "|" + str(occurrences[sound_name])] = vars
             else: raise KeyError("Invalid sound type (\"%s\")(not str or dict) in sound event \"%s\"!" % (type(sound), sound_event_name))
-            index += 1
         return output
     output = {}
     for sound_event_name, sound_event_content in list(soundsjson.items()):
