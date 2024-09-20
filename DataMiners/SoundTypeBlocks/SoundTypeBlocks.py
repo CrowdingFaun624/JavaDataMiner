@@ -5,7 +5,8 @@ import DataMiners.NoneDataMiner as NoneDataMiner
 import DataMiners.SoundTypeBlocks.SoundTypeBlocksNew as SoundTypeBlocksNew
 
 dataminers:list[DataMiner.DataMiner] = [
-    SoundTypeBlocksNew.SoundTypeBlocksNew("19w36a", "-", blocks_sound_type_variable="sound_type"),
+    NoneDataMiner.NoneDataMiner("24w38a", "-"),
+    SoundTypeBlocksNew.SoundTypeBlocksNew("19w36a", "24w37a", blocks_sound_type_variable="sound_type"),
     SoundTypeBlocksNew.SoundTypeBlocksNew("1.14_combat-0", "19w35a", blocks_sound_type_variable="sound_type_code_name"),
     SoundTypeBlocksNew.SoundTypeBlocksNew("1.14.4", "1.14.4", blocks_sound_type_variable="sound_type"),
     SoundTypeBlocksNew.SoundTypeBlocksNew("15w49b", "1.14.4-pre7", blocks_sound_type_variable="sound_type_code_name"),

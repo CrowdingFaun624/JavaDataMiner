@@ -39,7 +39,8 @@ SOUND_TYPES_CONDENSED2 = {"wood": "wood", "gravel": "gravel", "grass": "grass", 
 
 
 dataminers:list[DataMiner.DataMiner] = [
-    BlocksNew.BlocksNew("23w40a", "-"),
+    NoneDataMiner.NoneDataMiner("24w38a", "-"),
+    BlocksNew.BlocksNew("23w40a", "24w37a"),
     Blocks0.Blocks0("19w36a", "1.20.2"),
     Blocks1.Blocks1("1.14_combat-0", "19w35a"),
     Blocks0.Blocks0("1.14.4", "1.14.4"),
