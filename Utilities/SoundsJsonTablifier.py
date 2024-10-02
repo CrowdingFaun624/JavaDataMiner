@@ -68,7 +68,7 @@ def reformat(soundsjson:dict) -> dict:
     return output
 
 def get_table(comparison:dict, subtitles_comparison:dict[str,str|D.Difference]) -> str:
-    HEADER = "{| class=\"wikitable\" data-description=\"List of sound events\"\n! Sound Event !! Sound File Used !! Subtitle Data Value !! Subtitle Displayed\n"
+    HEADER = "Also note the special case of <code>intentionally_empty</code>, a hardcoded empty sound event not shown in sounds.json.\n{| class=\"wikitable\" data-description=\"List of sound events\"\n! Sound Event !! Sound File Used !! Subtitle Data Value !! Subtitle Displayed\n"
     FOOTER = "|}\n\n<noinclude>[[Category:Data pages]]\n[[ja:Sounds.json/Java Editionの値]]\n[[pt:Sounds.json/Valores da Edição Java]]\n[[ru:Sounds.json/Значения в Java Edition]]\n[[uk:Sounds.json/Значення в Java Edition]]\n[[zh:Sounds.json/Java版数据值]]\n</noinclude>"
     JOINER = "|-\n"
     rows:list[str] = []
