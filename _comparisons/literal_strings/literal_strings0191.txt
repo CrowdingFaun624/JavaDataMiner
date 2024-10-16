@@ -1,0 +1,21 @@
+12w30d (from 12w30c)
+
+Total: 5823 (+7, -6)
+
+Additions:
+	Added "12w30d"
+	Added "Minecraft 12w30d"
+	Added "Minecraft 12w30d ("
+	Added "Minecraft Minecraft 12w30d"
+	Added "Starting integrated minecraft server version 12w30d"
+	Added "Starting minecraft server version 12w30d"
+	Added "potionValue"
+
+Removals:
+	Removed "12w30c"
+	Removed "Minecraft 12w30c"
+	Removed "Minecraft 12w30c ("
+	Removed "Minecraft Minecraft 12w30c"
+	Removed "Starting integrated minecraft server version 12w30c"
+	Removed "Starting minecraft server version 12w30c"
+

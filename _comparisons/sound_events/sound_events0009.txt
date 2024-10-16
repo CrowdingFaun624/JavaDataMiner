@@ -1,0 +1,9 @@
+inf-20100325 (from inf-20100321)
+
+Total: 23 (+3, -0)
+
+Additions:
+	Added "fire.fire"
+	Added "liquid.lava"
+	Added "liquid.water"
+

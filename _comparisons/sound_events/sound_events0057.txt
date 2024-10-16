@@ -1,0 +1,20 @@
+16w07a (from 16w06a)
+
+Total: 436 (+8, -4)
+
+Additions:
+	Added "entity.zombie_villager.ambient"
+	Added "entity.zombie_villager.converted"
+	Added "entity.zombie_villager.cure"
+	Added "entity.zombie_villager.death"
+	Added "entity.zombie_villager.hurt"
+	Added "entity.zombie_villager.step"
+	Added "item.shield.block"
+	Added "item.shield.break"
+
+Removals:
+	Removed "entity.shield.block"
+	Removed "entity.shield.break"
+	Removed "entity.zombie.cure"
+	Removed "entity.zombie.unfect"
+

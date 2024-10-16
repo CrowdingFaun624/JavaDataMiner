@@ -1,0 +1,9 @@
+1.16.4-rc1 (from 1.16.4-pre2)
+
+Total: 4812 (+3, -0)
+
+Additions:
+	Added "disconnect.loginFailedInfo.insufficientPrivileges": "Multiplayer is disabled. Please check your Microsoft account settings."
+	Added "options.hideMatchedNames": "Hide Matched Names"
+	Added "options.hideMatchedNames.tooltip": "3rd-party Servers may send chat messages in non-standard formats.\nWith this option on: hidden players will be matched based on chat sender names."
+

@@ -1,0 +1,7 @@
+18w19b (from 18w19a)
+
+Total: 373 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.husk.converted_to_zombie": "Husk converted to Zombie"
+

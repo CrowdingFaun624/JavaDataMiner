@@ -1,0 +1,32 @@
+21w37a (from 1.18_experimental-snapshot-7)
+
+Total: 5156 (+18, -6)
+
+Additions:
+	Added "biome.minecraft.gravelly_mountains": "Gravelly Mountains"
+	Added "biome.minecraft.mountains": "Mountains"
+	Added "controls.keybinds": "Key Binds..."
+	Added "controls.keybinds.title": "Key Binds"
+	Added "death.attack.dryout": "%1$s died from dehydration"
+	Added "death.attack.dryout.player": "%1$s died from dehydration whilst trying to escape %2$s"
+	Added "options.audioDevice": "Device"
+	Added "options.audioDevice.default": "System Default"
+	Added "options.hideLightningFlashes": "Hide Lightning Flashes"
+	Added "options.hideLightningFlashes.tooltip": "Prevents lightning bolts from making the sky flash. The bolts themselves will still be visible."
+	Added "options.prioritizeChunkUpdates": "Priority updates"
+	Added "options.prioritizeChunkUpdates.byPlayer": "by player"
+	Added "options.prioritizeChunkUpdates.nearby": "nearby"
+	Added "options.prioritizeChunkUpdates.none": "none"
+	Added "selectWorld.conversion.tooltip": "This world must be opened in an older version (like 1.6.4) to be safely converted"
+	Added "subtitles.item.bundle.drop_contents": "Bundle empties"
+	Added "subtitles.item.bundle.insert": "Item packed"
+	Added "subtitles.item.bundle.remove_one": "Item unpacked"
+
+Removals:
+	Removed "biome.minecraft.extreme_hills": "Extreme Hills"
+	Removed "biome.minecraft.gravelly_hills": "Gravelly Hills"
+	Removed "commands.jfr.dumped": "JFR profiling dumped to: %s"
+	Removed "commands.jfr.notRunning": "JFR profiling hasn't started"
+	Removed "commands.scoreboard.objectives.add.longName": "Objective names cannot be longer than %s characters"
+	Removed "commands.team.add.longName": "Team names cannot be longer than %s characters"
+

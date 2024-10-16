@@ -1,0 +1,11 @@
+12w42a (from 12w41b)
+
+Total: 1018 (+5, -0)
+
+Additions:
+	Added "addServer.hideAddress": "Hide Address"
+	Added "container.repair.cost": "Enchantment Cost: %1$d"
+	Added "death.fallingBlock": "%1$s was squashed by a falling block"
+	Added "item.dyed": "Dyed"
+	Added "selectServer.hiddenAddress": "(Hidden)"
+

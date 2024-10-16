@@ -1,0 +1,7 @@
+16w21a (from 16w20a)
+
+Total: 2904 (+1, -0)
+
+Additions:
+	Added "structure_block.integrity": "Structure Integrity and Seed"
+

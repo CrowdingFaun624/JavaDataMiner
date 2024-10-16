@@ -1,0 +1,16 @@
+a1.0.16_02 (from a1.0.16_01)
+
+Total: 1551 (+4, -4)
+
+Additions:
+	Added "Minecraft Alpha v1.0.16_02"
+	Added "Minecraft Alpha v1.0.16_02 ("
+	Added "Minecraft Minecraft Alpha v1.0.16_02"
+	Added "Minecraft: Minecraft Alpha v1.0.16_02n"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.16_01"
+	Removed "Minecraft Alpha v1.0.16_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.16_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.16_01n"
+

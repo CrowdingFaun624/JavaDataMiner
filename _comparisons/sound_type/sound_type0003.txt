@@ -1,0 +1,44 @@
+12w38a (from 12w37a)
+
+Total: 11 (+4, -2)
+
+Additions:
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: random.glass
+		step: step.stone
+	Added:
+		name: sand
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.sand
+		step: step.sand
+	Added:
+		name: snow
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.snow
+		step: step.snow
+	Added:
+		name: ladder
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.wood
+		step: step.ladder
+
+Removals:
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.stone
+		step: random.glass
+	Removed:
+		name: sand
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.sand
+		step: step.gravel
+

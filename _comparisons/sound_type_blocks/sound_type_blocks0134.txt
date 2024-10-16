@@ -1,0 +1,16 @@
+21w05b (from 21w05a)
+
+Total: 72 (+4, -4)
+
+Additions:
+	Added exposed_copper to COPPER
+	Added oxidized_copper to COPPER
+	Added waxed_copper_block to COPPER
+	Added weathered_copper to COPPER
+
+Removals:
+	Removed exposed_copper_block from COPPER
+	Removed oxidized_copper_block from COPPER
+	Removed waxed_copper from COPPER
+	Removed weathered_copper_block from COPPER
+

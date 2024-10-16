@@ -1,0 +1,8 @@
+16w39a (from 16w38a)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added observer to 1.0;1.0;stone
+	Added shulker_box to 1.0;1.0;stone
+

@@ -1,0 +1,14 @@
+in-20100125-2 (from in-20100125-1)
+
+Total: 972 (+2, -4)
+
+Additions:
+	Added "flame"
+	Added "lava"
+
+Removals:
+	Removed "&i="
+	Removed "?n="
+	Removed "http://minecraft.net/"
+	Removed "http://www.minecraft.net/"
+

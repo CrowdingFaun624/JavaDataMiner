@@ -1,0 +1,28 @@
+c0.0.16a_02 (from c0.0.15a-1)
+
+Total: 157 (+15, -5)
+
+Additions:
+	Added "&e"
+	Added "0.0.16a_02"
+	Added "> "
+	Added "Client error"
+	Added "Connection lost"
+	Added "Disconnected!"
+	Added "Failed to connect"
+	Added "Minecraft 0.0.16a_02"
+	Added "Notch"
+	Added "The game broke! ["
+	Added "You failed to connect to the server. It's probably down!"
+	Added "You've lost connection to the server"
+	Added "]"
+	Added "port"
+	Added "server"
+
+Removals:
+	Removed "0.0.15a"
+	Removed "79.136.77.240"
+	Removed "Connecting to the server.."
+	Removed "Loading level.."
+	Removed "Minecraft 0.0.15a"
+

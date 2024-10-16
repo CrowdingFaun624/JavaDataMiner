@@ -1,0 +1,12 @@
+17w13a (from 17w06a)
+
+Total: 499 (+6, -0)
+
+Additions:
+	Added "entity.parrot.ambient"
+	Added "entity.parrot.death"
+	Added "entity.parrot.eat"
+	Added "entity.parrot.fly"
+	Added "entity.parrot.hurt"
+	Added "entity.parrot.step"
+

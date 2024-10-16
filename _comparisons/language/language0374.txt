@@ -1,0 +1,25 @@
+20w51a (from 20w49a)
+
+Total: 4964 (+16, -0)
+
+Additions:
+	Added "entity.minecraft.axolotl": "Axolotl"
+	Added "gamerule.playersSleepingPercentage": "Sleep percentage"
+	Added "gamerule.playersSleepingPercentage.description": "The percentage of players who must be sleeping to skip the night."
+	Added "item.minecraft.axolotl_bucket": "Bucket of Axolotl"
+	Added "item.minecraft.axolotl_spawn_egg": "Axolotl Spawn Egg"
+	Added "sleep.not_possible": "No amount of rest can pass this night"
+	Added "sleep.players_sleeping": "%s/%s players sleeping"
+	Added "sleep.skipping_night": "Sleeping through this night"
+	Added "subtitles.entity.axolotl.attack": "Axolotl attacks"
+	Added "subtitles.entity.axolotl.death": "Axolotl dies"
+	Added "subtitles.entity.axolotl.hurt": "Axolotl hurts"
+	Added "subtitles.entity.axolotl.idle_air": "Axolotl chirps"
+	Added "subtitles.entity.axolotl.idle_water": "Axolotl chirps"
+	Added "subtitles.entity.axolotl.splash": "Axolotl splashes"
+	Added "subtitles.entity.axolotl.swim": "Axolotl swims"
+	Added "subtitles.item.bucket.fill_axolotl": "Axolotl scooped"
+
+Changes:
+	Changed "item.minecraft.bundle.fullness" from "Fullness: %s / %s" to "%s/%s"
+

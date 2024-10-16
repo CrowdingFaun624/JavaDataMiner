@@ -1,0 +1,14 @@
+19w08a (from 19w07a)
+
+Total: 762 (+5, -1)
+
+Additions:
+	Added "entity.fox.screech"
+	Added "entity.mooshroom.convert"
+	Added "entity.mooshroom.eat"
+	Added "entity.mooshroom.milk"
+	Added "entity.mooshroom.suspicious_milk"
+
+Removals:
+	Removed "entity.fox.bark"
+

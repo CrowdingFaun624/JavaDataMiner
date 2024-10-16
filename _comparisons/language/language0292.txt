@@ -1,0 +1,27 @@
+19w02a (from 18w50a)
+
+Total: 4176 (+17, -0)
+
+Additions:
+	Added "block.minecraft.campfire": "Campfire"
+	Added "chat.type.team.hover": "Message Team"
+	Added "chat.type.team.sent": "-> %s <%s> %s"
+	Added "chat.type.team.text": "%s <%s> %s"
+	Added "commands.data.modify.invalid_index": "Invalid list index: %s"
+	Added "commands.teammsg.failed.noteam": "You must be on a team to message your team"
+	Added "container.cartography_table": "Cartography Table"
+	Added "container.lectern": "Lectern"
+	Added "filled_map.locked": "Locked"
+	Added "lectern.take_book": "Take book"
+	Added "stat.minecraft.interact_with_blast_furnace": "Interactions with Blast Furnace"
+	Added "stat.minecraft.interact_with_campfire": "Interactions with Campfire"
+	Added "stat.minecraft.interact_with_lectern": "Interactions with Lectern"
+	Added "stat.minecraft.interact_with_smoker": "Interactions with Smoker"
+	Added "subtitles.block.campfire.crackle": "Campfire crackles"
+	Added "subtitles.item.book.page_turn": "Page rustles"
+	Added "subtitles.item.book.put": "Book thumps"
+
+Changes:
+	Changed "menu.preparingSpawn" from "Preparing spawn area" to "Preparing spawn area: %s%%"
+	Changed "stat.minecraft.clean_shulker_box" from "Shulker Box Cleaned" to "Shulker Boxes Cleaned"
+

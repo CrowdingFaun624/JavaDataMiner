@@ -1,0 +1,26 @@
+1.7.6-pre1 (from 1.7.5)
+
+Total: 1724 (+17, -1)
+
+Additions:
+	Added "addServer.resourcePack": "Server Resource Packs"
+	Added "addServer.resourcePack.disabled": "Disabled"
+	Added "addServer.resourcePack.enabled": "Enabled"
+	Added "addServer.resourcePack.prompt": "Prompt"
+	Added "commands.ban.failed": "Could not ban player %s"
+	Added "commands.deop.failed": "Could not de-op %s"
+	Added "commands.op.failed": "Could not op %s"
+	Added "commands.unban.failed": "Could not unban player %s"
+	Added "commands.whitelist.add.failed": "Could not add %s to the whitelist"
+	Added "commands.whitelist.remove.failed": "Could not remove %s from the whitelist"
+	Added "mco.configure.world.buttons.deop": "Deop"
+	Added "mco.configure.world.buttons.op": "Op"
+	Added "mco.configure.world.invites.normal.tooltip": "Normal user"
+	Added "mco.configure.world.invites.ops.tooltip": "Operator"
+	Added "mco.configure.world.invites.remove.tooltip": "Remove"
+	Added "mco.selectServer.closeserver": "Close Server"
+	Added "mco.selectServer.openserver": "Open Server"
+
+Removals:
+	Removed "options.serverTextures": "Server Textures"
+

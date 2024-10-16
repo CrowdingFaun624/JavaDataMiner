@@ -1,0 +1,14 @@
+13w01a (from 1.4.7)
+
+Total: 12 (+8, -0)
+
+Additions:
+	Added chestTrap to 1.0;1.0;wood
+	Added comparator to 1.0;1.0;wood
+	Added hopper to 1.0;1.0;wood
+	Added weightedPlate_heavy to 1.0;1.0;wood
+	Added weightedPlate_light to 1.0;1.0;wood
+	Added blockRedstone to 1.0;1.5;stone
+	Added daylightDetector to 1;1.0;1.0;stone
+	Added netherquartz to 1;1.0;1.0;stone
+

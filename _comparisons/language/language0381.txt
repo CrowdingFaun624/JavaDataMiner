@@ -1,0 +1,20 @@
+21w10a (from 21w08b)
+
+Total: 5041 (+14, -0)
+
+Additions:
+	Added "argument.pos.outofbounds": "That position is outside the allowed boundaries."
+	Added "biome.minecraft.lush_caves": "Lush Caves"
+	Added "block.minecraft.cracked_deepslate_bricks": "Cracked Deepslate Bricks"
+	Added "block.minecraft.cracked_deepslate_tiles": "Cracked Deepslate Tiles"
+	Added "block.minecraft.deepslate_coal_ore": "Deepslate Coal Ore"
+	Added "block.minecraft.deepslate_copper_ore": "Deepslate Copper Ore"
+	Added "block.minecraft.deepslate_emerald_ore": "Deepslate Emerald Ore"
+	Added "block.minecraft.infested_deepslate": "Infested Deepslate"
+	Added "commands.give.failed.toomanyitems": "Can't give more than %s of %s"
+	Added "subtitles.entity.glow_item_frame.add_item": "Glow Item Frame fills"
+	Added "subtitles.entity.glow_item_frame.break": "Glow Item Frame breaks"
+	Added "subtitles.entity.glow_item_frame.place": "Glow Item Frame placed"
+	Added "subtitles.entity.glow_item_frame.remove_item": "Glow Item Frame empties"
+	Added "subtitles.entity.glow_item_frame.rotate_item": "Glow Item Frame clicks"
+

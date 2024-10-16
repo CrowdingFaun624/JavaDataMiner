@@ -1,0 +1,12 @@
+22w14a (from 22w13a)
+
+Total: 691 (+2, -0)
+
+Additions:
+	Added "subtitles.block.sculk_catalyst.bloom": "Sculk Catalyst blooms"
+	Added "subtitles.block.sculk_shrieker.shriek": "Sculk Shrieker shrieks"
+
+Changes:
+	Changed "subtitles.entity.warden.heartbeat" from "Warden heart beats" to "Warden's heart beats"
+	Changed "subtitles.entity.warden.tendril_clicks" from "Warden tendrils click" to "Warden's tendrils click"
+

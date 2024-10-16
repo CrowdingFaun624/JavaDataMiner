@@ -1,0 +1,17 @@
+20w09a (from 20w08a)
+
+Total: 40 (+1, -1)
+
+Additions:
+	Added "FUNGUS"
+		volume: 1.0
+		pitch: 1.0
+		break: FUNGUS_BREAK
+		step: FUNGUS_STEP
+		place: FUNGUS_PLACE
+		hit: FUNGUS_HIT
+		fall: FUNGUS_FALL
+
+Removals:
+		Removed "FUNGI"
+

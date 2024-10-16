@@ -1,0 +1,17 @@
+inf-20100321 (from inf-20100320)
+
+Total: 1009 (+5, -4)
+
+Additions:
+	Added "&k="
+	Added "&p="
+	Added "Did you log in from another computer?"
+	Added "Session conflict!"
+	Added "http://69.175.14.242:80/poll.jsp?n="
+
+Removals:
+	Removed "&i="
+	Removed "?n="
+	Removed "http://minecraft.net/"
+	Removed "http://www.minecraft.net/"
+

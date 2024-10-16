@@ -1,0 +1,34 @@
+21w20a (from 21w19a)
+
+Total: 5107 (+21, -1)
+
+Additions:
+	Added "narration.button": "Button: %s"
+	Added "narration.button.usage.focused": "Press Enter to activate"
+	Added "narration.button.usage.hovered": "Left click to activate"
+	Added "narration.checkbox": "Checkbox: %s"
+	Added "narration.checkbox.usage.focused": "Press Enter to toggle"
+	Added "narration.checkbox.usage.hovered": "Left click to toggle"
+	Added "narration.component_list.usage": "Press Tab to navigate to next element"
+	Added "narration.cycle_button.usage.focused": "Press Enter to switch to %s"
+	Added "narration.cycle_button.usage.hovered": "Left click to switch to %s"
+	Added "narration.edit_box": "Edit box: %s"
+	Added "narration.recipe": "Reciple for %s"
+	Added "narration.recipe.usage": "Left click to select"
+	Added "narration.recipe.usage.more": "Right click to show more recipes"
+	Added "narration.selection.usage": "Press up and down buttons to move to another entry"
+	Added "narration.slider.usage.focused": "Press left or right keyboard buttons to change value"
+	Added "narration.slider.usage.hovered": "Drag slider to change value"
+	Added "narrator.position.list": "Selection list element %s out of %s"
+	Added "narrator.position.object_list": "Selected list entry element %s out of %s"
+	Added "narrator.position.screen": "Screen element %s out of %s"
+	Added "narrator.screen.usage": "Use mouse cursor or Tab button to select element"
+	Added "subtitles.block.sweet_berry_bush.pick_berries": "Berries pop"
+
+Removals:
+	Removed "subtitles.item.berries.pick": "Berries pop"
+
+Changes:
+	Changed "chat.disabled.launcher" from "Chat disabled by launcher option, cannot send message" to "Chat disabled by launcher option. Cannot send message"
+	Changed "chat.disabled.profile" from "Chat not allowed by account settings, cannot send message" to "Chat not allowed by account settings. Cannot send message"
+

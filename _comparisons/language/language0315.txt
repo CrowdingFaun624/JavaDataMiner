@@ -1,0 +1,9 @@
+1.14.4-pre1 (from 1.14.3)
+
+Total: 4325 (+3, -0)
+
+Additions:
+	Added "commands.debug.reportFailed": "Failed to create debug report"
+	Added "commands.debug.reportSaved": "Created debug report in %s"
+	Added "options.fullscreen.unavailable": "Setting unavailable"
+

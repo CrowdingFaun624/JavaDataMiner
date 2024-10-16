@@ -1,0 +1,22 @@
+12w08a (from 12w07b)
+
+Total: 3678 (+10, -4)
+
+Additions:
+	Added "/follow"
+	Added "/goto"
+	Added "/mob/villager_golem.png"
+	Added ":folder:"
+	Added "Checking light "
+	Added "Minecraft 12w08a"
+	Added "Minecraft 12w08a ("
+	Added "Minecraft Minecraft 12w08a"
+	Added "Minecraft: Minecraft 12w08an"
+	Added "VillagerGolem"
+
+Removals:
+	Removed "Minecraft 12w07b"
+	Removed "Minecraft 12w07b ("
+	Removed "Minecraft Minecraft 12w07b"
+	Removed "Minecraft: Minecraft 12w07bn"
+

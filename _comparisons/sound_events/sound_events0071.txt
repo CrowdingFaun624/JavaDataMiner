@@ -1,0 +1,10 @@
+17w17a (from 17w16b)
+
+Total: 519 (+4, -0)
+
+Additions:
+	Added "entity.illusion_illager.cast_spell"
+	Added "entity.illusion_illager.mirror_move"
+	Added "entity.illusion_illager.prepare_blindness"
+	Added "entity.illusion_illager.prepare_mirror"
+

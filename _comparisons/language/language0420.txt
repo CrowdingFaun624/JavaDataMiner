@@ -1,0 +1,19 @@
+1.19-pre1 (from 22w19a)
+
+Total: 5328 (+3, -2)
+
+Additions:
+	Added "options.onlyShowSecureChat": "Only Show Secure Chat"
+	Added "options.onlyShowSecureChat.tooltip": "Only display messages from other players that can be verified to have been sent by that player, and have not been modified."
+	Added "subtitles.item.bucket.fill_tadpole": "Tadpole captured"
+
+Removals:
+	Removed "options.onlyShowSignedChat": "Only Show Signed Chat"
+	Removed "options.onlyShowSignedChat.tooltip": "When enabled, the chat will always prefer to display securely signed messages. This means any alterations by the server such as styling might not be consistently displayed."
+
+Changes:
+	Changed "advancements.husbandry.allay_deliver_cake_to_note_block.description" from "Have an Allay drop a cake at a Note Block" to "Have an Allay drop a Cake at a Note Block"
+	Changed "options.fovEffectScale.tooltip" from "Controls how much the field of view can change with speed effects." to "Controls how much the field of view can change with gameplay effects."
+	Changed "subtitles.entity.goat.horn_break" from "Goat horn breaks off" to "Goat Horn breaks off"
+	Changed "subtitles.item.goat_horn.play" from "Goat horn plays" to "Goat Horn plays"
+

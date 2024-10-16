@@ -1,0 +1,38 @@
+23w43a (from 23w42a)
+
+Total: 109 (+4, -0)
+
+Additions:
+	Added "COPPER_BULB"
+		volume: 1.0
+		pitch: 1.0
+		break: COPPER_BULB_BREAK
+		step: COPPER_BULB_STEP
+		place: COPPER_BULB_PLACE
+		hit: COPPER_BULB_HIT
+		fall: COPPER_BULB_FALL
+	Added "COPPER_GRATE"
+		volume: 1.0
+		pitch: 1.0
+		break: COPPER_GRATE_BREAK
+		step: COPPER_GRATE_STEP
+		place: COPPER_GRATE_PLACE
+		hit: COPPER_GRATE_HIT
+		fall: COPPER_GRATE_FALL
+	Added "POLISHED_TUFF"
+		volume: 1.0
+		pitch: 1.0
+		break: POLISHED_TUFF_BREAK
+		step: POLISHED_TUFF_STEP
+		place: POLISHED_TUFF_PLACE
+		hit: POLISHED_TUFF_HIT
+		fall: POLISHED_TUFF_FALL
+	Added "TUFF_BRICKS"
+		volume: 1.0
+		pitch: 1.0
+		break: TUFF_BRICKS_BREAK
+		step: TUFF_BRICKS_STEP
+		place: TUFF_BRICKS_PLACE
+		hit: TUFF_BRICKS_HIT
+		fall: TUFF_BRICKS_FALL
+

@@ -1,0 +1,17 @@
+b1.8-pre1-1 (from b1.7.3)
+
+Total: 9 (+11, -0)
+
+Additions:
+	Added vine to 1.0;1.0;grass
+	Added 97 to 1.0;1.0;stone
+	Added thinGlass to 1.0;1.0;stone;random.glass;random.glass
+	Added fenceGate to 1.0;1.0;wood
+	Added melon to 1.0;1.0;wood
+	Added mushroom to 1.0;1.0;wood
+	Added pumpkinStem to 1.0;1.0;wood
+	Added fenceIron to 1.0;1.5;stone
+	Added stairsBrick to 1;1.0;1.0;stone
+	Added stairsStoneBrickSmooth to 1;1.0;1.0;stone
+	Added stonebricksmooth to 1;1.0;1.0;stone
+

@@ -1,0 +1,7 @@
+18w08a (from 18w07c)
+
+Total: 357 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.squid.squirt": "Squid shoots ink"
+

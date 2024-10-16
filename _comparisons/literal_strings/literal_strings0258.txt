@@ -1,0 +1,44 @@
+13w24b (from 13w24a)
+
+Total: 7461 (+19, -17)
+
+Additions:
+	Added " broken aspect ratio and not an animation"
+	Added "13w24b"
+	Added "AbsorptionAmount"
+	Added "Deserializing Message"
+	Added "JSON string"
+	Added "Minecraft 13w24b"
+	Added "Minecraft 13w24b ("
+	Added "Serialized Message"
+	Added "Starting integrated minecraft server version 13w24b"
+	Added "Starting minecraft server version 13w24b"
+	Added "Tried to read NBT tag with too high complexity, depth > 512"
+	Added "Unable to load: "
+	Added "Unable to parse animation metadata from "
+	Added "Using missing texture instead of: "
+	Added "potion.absorption"
+	Added "resourcePack.folderInfo"
+	Added "resourcePack.openFolder"
+	Added "resourcePack.title"
+	Added "texts/end.txt"
+
+Removals:
+	Removed " because of broken aspect ratio and not animation"
+	Removed ", but that file does not exist. Ignoring."
+	Removed ". Ignoring."
+	Removed "/title/win.txt"
+	Removed "13w24a"
+	Removed "GoldenAppleOverflow"
+	Removed "Minecraft 13w24a"
+	Removed "Minecraft 13w24a ("
+	Removed "Starting integrated minecraft server version 13w24a"
+	Removed "Starting minecraft server version 13w24a"
+	Removed "TextureAtlas.getFrames called for file "
+	Removed "TextureAtlas.getFrames encountered an IOException when trying to read file "
+	Removed "TextureAtlas.getFrames: Skipping "
+	Removed "Unable to parse animation data from "
+	Removed "texturePack.folderInfo"
+	Removed "texturePack.openFolder"
+	Removed "texturePack.title"
+

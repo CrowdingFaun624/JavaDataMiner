@@ -1,0 +1,25 @@
+in-20100212-2 (from in-20100212-1)
+
+Total: 1161 (+11, -6)
+
+Additions:
+	Added "% ("
+	Added "% of "
+	Added "&i="
+	Added "?n="
+	Added "Allocated memory: "
+	Added "Free memory: "
+	Added "MB"
+	Added "MB)"
+	Added "http://minecraft.net/"
+	Added "http://www.minecraft.net/"
+	Added "http://www.minecraft.net/skin/"
+
+Removals:
+	Removed "/char_2.png"
+	Removed "error linking with the LibraryJavaSound plug-in"
+	Removed "http://www.minecraft.net/skin/Notch.png"
+	Removed "ogg"
+	Removed "sound_"
+	Removed "wav"
+

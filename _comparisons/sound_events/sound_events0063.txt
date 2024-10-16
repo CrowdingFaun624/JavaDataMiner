@@ -1,0 +1,18 @@
+1.10-pre1 (from 16w21b)
+
+Total: 463 (+12, -0)
+
+Additions:
+	Added "entity.husk.ambient"
+	Added "entity.husk.death"
+	Added "entity.husk.hurt"
+	Added "entity.husk.step"
+	Added "entity.stray.ambient"
+	Added "entity.stray.death"
+	Added "entity.stray.hurt"
+	Added "entity.stray.step"
+	Added "entity.wither_skeleton.ambient"
+	Added "entity.wither_skeleton.death"
+	Added "entity.wither_skeleton.hurt"
+	Added "entity.wither_skeleton.step"
+

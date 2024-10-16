@@ -1,0 +1,11 @@
+22w45a (from 22w44a)
+
+Total: 715 (+5, -0)
+
+Additions:
+	Added "subtitles.chiseled_bookshelf.insert": "Book placed"
+	Added "subtitles.chiseled_bookshelf.insert_enchanted": "Enchanted book placed"
+	Added "subtitles.chiseled_bookshelf.take": "Book taken"
+	Added "subtitles.chiseled_bookshelf.take_enchanted": "Enchanted book taken"
+	Added "subtitles.entity.enderman.scream": "Enderman screams"
+

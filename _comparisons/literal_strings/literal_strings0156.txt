@@ -1,0 +1,22 @@
+11w47a (from 1.0)
+
+Total: 3517 (+10, -4)
+
+Additions:
+	Added "F1 - F5: load levels   |   0-9: Set time of day   |   Space: return to spawn   |   Double click: zoom   |   Escape: hide this text"
+	Added "Minecraft 11w47a"
+	Added "Minecraft 11w47a ("
+	Added "Minecraft Minecraft 11w47a"
+	Added "Minecraft: Minecraft 11w47an"
+	Added "World1"
+	Added "World2"
+	Added "World3"
+	Added "World4"
+	Added "World5"
+
+Removals:
+	Removed "Minecraft 1.0.0"
+	Removed "Minecraft 1.0.0 ("
+	Removed "Minecraft Minecraft 1.0.0"
+	Removed "Minecraft: Minecraft 1.0.0n"
+

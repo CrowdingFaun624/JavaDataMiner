@@ -1,0 +1,12 @@
+21w10a (from 21w08b)
+
+Total: 76 (+6, -0)
+
+Additions:
+	Added deepslate_coal_ore to DEEPSLATE
+	Added deepslate_copper_ore to DEEPSLATE
+	Added deepslate_emerald_ore to DEEPSLATE
+	Added cracked_deepslate_bricks to DEEPSLATE_BRICKS
+	Added cracked_deepslate_tiles to DEEPSLATE_TILES
+	Added infested_deepslate to STONE
+

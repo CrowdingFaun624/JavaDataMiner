@@ -1,0 +1,30 @@
+17w18b (from 17w18a)
+
+Total: 3258 (+16, -6)
+
+Additions:
+	Added "advancements.adventure.summon_iron_golem.description": "Summon an Iron Golem to help defend a village"
+	Added "advancements.adventure.summon_iron_golem.title": "Hired Help"
+	Added "advancements.husbandry.balanced_diet.description": "Eat everything that is edible, even if it's not good for you"
+	Added "advancements.husbandry.balanced_diet.title": "A Balanced Diet"
+	Added "advancements.husbandry.break_diamond_hoe.description": "Completely use up a diamond hoe, and then reevaluate your life choices"
+	Added "advancements.husbandry.break_diamond_hoe.title": "Serious Dedication"
+	Added "advancements.husbandry.breed_all_animals.description": "Breed all the animals!"
+	Added "advancements.husbandry.breed_all_animals.title": "Two by Two"
+	Added "advancements.husbandry.breed_an_animal.description": "Breed two animals together"
+	Added "advancements.husbandry.breed_an_animal.title": "The Parrots and the Bats"
+	Added "advancements.husbandry.plant_seed.description": "Plant a seed and watch it grow"
+	Added "advancements.husbandry.plant_seed.title": "A Seedy Place"
+	Added "advancements.husbandry.root.description": "The world is full of friends and food"
+	Added "advancements.husbandry.root.title": "Husbandry"
+	Added "advancements.husbandry.tame_an_animal.description": "Tame an animal"
+	Added "advancements.husbandry.tame_an_animal.title": "Best Friends Forever"
+
+Removals:
+	Removed "advancements.adventure.breed_all_animals.description": "Breed all the animals!"
+	Removed "advancements.adventure.breed_all_animals.title": "Two by Two"
+	Removed "advancements.adventure.breed_an_animal.description": "Breed two animals together"
+	Removed "advancements.adventure.breed_an_animal.title": "The Parrots and the Bats"
+	Removed "advancements.adventure.tame_an_animal.description": "Tame an animal"
+	Removed "advancements.adventure.tame_an_animal.title": "Best Friends Forever"
+

@@ -1,0 +1,44 @@
+23w51a (from 1.20.4)
+
+Total: 6562 (+23, -1)
+
+Additions:
+	Added "attribute.name.generic.block_interaction_range": "Block Interaction Range"
+	Added "attribute.name.generic.entity_interaction_range": "Entity Interaction Range"
+	Added "attribute.name.generic.scale": "Scale"
+	Added "attribute.name.generic.step_height": "Step Height"
+	Added "entity.minecraft.armadillo": "Armadillo"
+	Added "item.minecraft.armadillo_scute": "Armadillo Scute"
+	Added "item.minecraft.armadillo_spawn_egg": "Armadillo Spawn Egg"
+	Added "item.minecraft.turtle_scute": "Turtle Scute"
+	Added "item.minecraft.wolf_armor": "Wolf Armor"
+	Added "subtitles.entity.armadillo.ambient": "Armadillo grunts"
+	Added "subtitles.entity.armadillo.brush": "Armadillo brushes"
+	Added "subtitles.entity.armadillo.death": "Armadillo dies"
+	Added "subtitles.entity.armadillo.eat": "Armadillo eats"
+	Added "subtitles.entity.armadillo.hurt": "Armadillo hurts"
+	Added "subtitles.entity.armadillo.land": "Armadillo lands"
+	Added "subtitles.entity.armadillo.roll": "Armadillo rolls up"
+	Added "subtitles.entity.armadillo.scute_drop": "Scute drops"
+	Added "subtitles.entity.armadillo.unroll": "Armadillo unrolls"
+	Added "subtitles.entity.breeze.charge": "Breeze charges"
+	Added "subtitles.entity.breeze.deflect": "Breeze deflects"
+	Added "subtitles.entity.breeze.whirl": "Breeze whirls"
+	Added "subtitles.item.armor.equip_wolf": "Wolf armor straps"
+	Added "subtitles.item.armor.unequip_wolf": "Wolf armor slips off"
+
+Removals:
+	Removed "item.minecraft.scute": "Scute"
+
+Changes:
+	Changed "subtitles.block.respawn_anchor.ambient" from "Portal whooshes" to "Respawn Anchor whooshes"
+	Changed "subtitles.block.trial_spawner.spawn_mob" from "Mob spawns" to "Trial Spawner spawns a mob"
+	Changed "subtitles.entity.glow_item_frame.break" from "Glow Item Frame breaks" to "Glow Item Frame broken"
+	Changed "subtitles.entity.item_frame.break" from "Item Frame breaks" to "Item Frame broken"
+	Changed "subtitles.entity.leash_knot.break" from "Leash Knot breaks" to "Leash Knot broken"
+	Changed "subtitles.entity.painting.break" from "Painting breaks" to "Painting broken"
+	Changed "subtitles.entity.polar_bear.ambient_baby" from "Polar Bear hums" to "Baby Polar Bear hums"
+	Changed "subtitles.entity.turtle.death_baby" from "Turtle baby dies" to "Baby Turtle dies"
+	Changed "subtitles.entity.turtle.hurt_baby" from "Turtle baby hurts" to "Baby Turtle hurts"
+	Changed "subtitles.entity.turtle.shamble_baby" from "Turtle baby shambles" to "Baby Turtle shambles"
+

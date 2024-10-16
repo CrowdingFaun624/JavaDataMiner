@@ -1,0 +1,11 @@
+inf-20100618 (from inf-20100617-3)
+
+Total: 1285 (+5, -0)
+
+Additions:
+	Added "Building terrain"
+	Added "FallingSand"
+	Added "Minecart"
+	Added "Simulating world for a bit"
+	Added "Tile"
+

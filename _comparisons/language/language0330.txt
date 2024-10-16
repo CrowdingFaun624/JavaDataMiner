@@ -1,0 +1,10 @@
+1.15-pre4 (from 1.15_combat-1)
+
+Total: 4378 (+0, -4)
+
+Removals:
+	Removed "attribute.name.generic.attackReach": "Attack Reach"
+	Removed "enchantment.minecraft.chopping": "Chopping"
+	Removed "options.shieldIndicator": "Shield Indicator"
+	Removed "options.useShieldOnCrouch": "Shield on Crouch"
+

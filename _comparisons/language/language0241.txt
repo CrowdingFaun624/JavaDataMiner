@@ -1,0 +1,11 @@
+17w49b (from 17w49a)
+
+Total: 3258 (+2, -1)
+
+Additions:
+	Added "commands.function.success.multiple": "Executed %s commands from %s functions"
+	Added "commands.function.success.single": "Executed %s commands from function '%s'"
+
+Removals:
+	Removed "commands.function.success": "Executed %s commands from function '%s'"
+

@@ -1,0 +1,12 @@
+b1.6.6 (from b1.6.5)
+
+Total: 552 (+3, -0)
+
+Additions:
+	Added "performance.balanced": "Balanced"
+	Added "performance.max": "Max FPS"
+	Added "performance.powersaver": "Power saver"
+
+Changes:
+	Changed "options.framerateLimit" from "Framerate cap" to "Performance"
+

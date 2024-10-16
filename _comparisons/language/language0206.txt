@@ -1,0 +1,7 @@
+16w38a (from 16w36a)
+
+Total: 2964 (+0, -0)
+
+Changes:
+	Changed "tipped_arrow.effect.empty" from "Tipped Arrow" to "Uncraftable Tipped Arrow"
+

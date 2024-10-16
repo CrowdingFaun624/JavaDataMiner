@@ -1,0 +1,11 @@
+21w13a (from 21w11a)
+
+Total: 76 (+2, -1)
+
+Additions:
+	Added cobbled_deepslate_slab to DEEPSLATE
+	Added light to STONE
+
+Removals:
+	Removed cobbled_deepslate_slab from STONE
+

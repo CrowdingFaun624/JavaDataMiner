@@ -1,0 +1,10 @@
+1.19.4-pre2 (from 1.19.4-pre1)
+
+Total: 6055 (+4, -0)
+
+Additions:
+	Added "datapackFailure.safeMode.failed.description": "This world contains invalid or corrupted save data."
+	Added "datapackFailure.safeMode.failed.title": "Failed to load world in Safe Mode."
+	Added "options.accessibility.high_contrast.error.tooltip": "High Contrast resource pack is not available"
+	Added "selectWorld.targetFolder": "Save folder: %s"
+

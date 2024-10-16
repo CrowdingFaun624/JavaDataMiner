@@ -1,0 +1,23 @@
+22w43a (from 22w42a)
+
+Total: 5729 (+10, -2)
+
+Additions:
+	Added "chat.disabled.missingProfileKey": "Chat disabled due to missing profile public key. Please try reconnecting."
+	Added "gui.chatReport.discard.draft": "Save as Draft"
+	Added "gui.chatReport.draft.content": "Would you like to continue editing the existing report or discard it and create a new one?"
+	Added "gui.chatReport.draft.discard": "Discard"
+	Added "gui.chatReport.draft.edit": "Continue Editing"
+	Added "gui.chatReport.draft.quittotitle.content": "Would you like to continue editing it or discard it?"
+	Added "gui.chatReport.draft.quittotitle.title": "You have a draft chat report that will be lost if you quit"
+	Added "gui.chatReport.draft.title": "Edit draft chat report?"
+	Added "gui.chatSelection.join": "%s joined the chat"
+	Added "itemGroup.natural": "Natural Blocks"
+
+Removals:
+	Removed "itemGroup.nature": "Nature Blocks"
+	Removed "multiplayer.disconnect.missing_public_key": "Missing profile public key.\nThis server requires secure profiles."
+
+Changes:
+	Changed "gui.chatSelection.fold" from "%s unrelated messages hidden" to "%s messages hidden"
+

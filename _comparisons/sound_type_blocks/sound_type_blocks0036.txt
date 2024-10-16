@@ -1,0 +1,9 @@
+12w22a (from 12w21b)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added tripWire to 1.0;1.0;stone
+	Added tripWireSource to 1.0;1.0;stone
+	Added blockEmerald to 1.0;1.5;stone
+

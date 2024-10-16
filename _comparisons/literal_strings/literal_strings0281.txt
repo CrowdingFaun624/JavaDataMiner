@@ -1,0 +1,40 @@
+13w43a (from 13w42b)
+
+Total: 9345 (+21, -11)
+
+Additions:
+	Added "13w43a"
+	Added "Minecraft 13w43a"
+	Added "Minecraft 13w43a ("
+	Added "Outdated client! Please use 13w43a"
+	Added "Outdated server! I'm still on 13w43a"
+	Added "Starting integrated minecraft server version 13w43a"
+	Added "Unable to load worlds"
+	Added "acacia"
+	Added "big_oak"
+	Added "commands.setworldspawn.success"
+	Added "commands.setworldspawn.usage"
+	Added "game.potion.smash"
+	Added "leaves2"
+	Added "leaves_acacia"
+	Added "leaves_acacia_opaque"
+	Added "leaves_big_oak"
+	Added "leaves_big_oak_opaque"
+	Added "log2"
+	Added "memory."
+	Added "roofed_oak"
+	Added "setworldspawn"
+
+Removals:
+	Removed " ["
+	Removed "13w42b"
+	Removed "Minecraft 13w42b"
+	Removed "Minecraft 13w42b ("
+	Removed "Outdated client! Please use 13w42b"
+	Removed "Outdated server! I'm still on 13w42b"
+	Removed "Starting integrated minecraft server version 13w42b"
+	Removed "Unable to load words"
+	Removed "downloading the game and playing it offline."
+	Removed "memory. If you are playing in a web browser, try"
+	Removed "random.glass"
+

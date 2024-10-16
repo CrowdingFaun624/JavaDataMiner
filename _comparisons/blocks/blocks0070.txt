@@ -1,0 +1,26 @@
+14w31a (from 14w30c)
+
+Total: 179 (+1, -0)
+
+Additions:
+	Added daylight_detector_inverted
+
+Changes:
+	Changed beacon's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed brewing_stand's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed command_block's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed dispenser's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed dropper's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed enchanting_table's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed end_portal's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed ender_chest's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed fire's "sound_type" from wood,1.0,1.0,dig.wood,step.wood,dig.wood to cloth,1.0,1.0,dig.cloth,step.cloth,dig.cloth
+	Changed flower_pot's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed furnace's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed jukebox's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed lit_furnace's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed mob_spawner's "sound_type" from stone,1.0,1.5,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed noteblock's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed piston_extension's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+	Changed skull's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+

@@ -1,0 +1,28 @@
+13w37a (from 13w36b)
+
+Total: 1480 (+19, -0)
+
+Additions:
+	Added "commands.setblock.failed": "Unable to place block"
+	Added "commands.setblock.noChange": "The block couldn't be placed"
+	Added "commands.setblock.notFound": "There is no such block with ID/name %s"
+	Added "commands.setblock.outOfWorld": "Cannot place block outside of the world"
+	Added "commands.setblock.success": "Block placed"
+	Added "commands.setblock.tagError": "Data tag parsing failed: %s"
+	Added "commands.setblock.usage": "/setblock <x> <y> <z> <TileName> [dataValue] [oldBlockHandling] [dataTag]"
+	Added "commands.tellraw.jsonException": "Invalid json: %s"
+	Added "commands.tellraw.usage": "/tellraw <player> <raw json message>"
+	Added "commands.testforblock.failed.data": "The block at %d,%d,%d had the data value of %s (expected: %s)."
+	Added "commands.testforblock.failed.nbt": "The block at %d,%d,%d did not have the required NBT keys."
+	Added "commands.testforblock.failed.tile": "The block at %d,%d,%d is %s (expected: %s)."
+	Added "commands.testforblock.failed.tileEntity": "The block at %d,%d,%d is not a tile entity and cannot support tag matching."
+	Added "commands.testforblock.outOfWorld": "Cannot test for block outside of the world"
+	Added "commands.testforblock.success": "Successfully found the block at %d,%d,%d."
+	Added "commands.testforblock.usage": "/testforblock <x> <y> <z> <TileName> [dataValue] [dataTag]"
+	Added "item.unbreakable": "Unbreakable"
+	Added "screenshot.failure": "Couldn't save screenshot: %s"
+	Added "screenshot.success": "Saved screenshot as %s"
+
+Changes:
+	Changed "commands.give.success" from "Given %s (ID %d) * %d to %s" to "Given %s * %d to %s"
+

@@ -1,0 +1,26 @@
+21w08a (from 21w07a)
+
+Total: 1164 (+20, -0)
+
+Additions:
+	Added "DEEPSLATE_BREAK": "block.deepslate.break"
+	Added "DEEPSLATE_BRICKS_BREAK": "block.deepslate_bricks.break"
+	Added "DEEPSLATE_BRICKS_FALL": "block.deepslate_bricks.fall"
+	Added "DEEPSLATE_BRICKS_HIT": "block.deepslate_bricks.hit"
+	Added "DEEPSLATE_BRICKS_PLACE": "block.deepslate_bricks.place"
+	Added "DEEPSLATE_BRICKS_STEP": "block.deepslate_bricks.step"
+	Added "DEEPSLATE_FALL": "block.deepslate.fall"
+	Added "DEEPSLATE_HIT": "block.deepslate.hit"
+	Added "DEEPSLATE_PLACE": "block.deepslate.place"
+	Added "DEEPSLATE_STEP": "block.deepslate.step"
+	Added "DEEPSLATE_TILES_BREAK": "block.deepslate_tiles.break"
+	Added "DEEPSLATE_TILES_FALL": "block.deepslate_tiles.fall"
+	Added "DEEPSLATE_TILES_HIT": "block.deepslate_tiles.hit"
+	Added "DEEPSLATE_TILES_PLACE": "block.deepslate_tiles.place"
+	Added "DEEPSLATE_TILES_STEP": "block.deepslate_tiles.step"
+	Added "POLISHED_DEEPSLATE_BREAK": "block.polished_deepslate.break"
+	Added "POLISHED_DEEPSLATE_FALL": "block.polished_deepslate.fall"
+	Added "POLISHED_DEEPSLATE_HIT": "block.polished_deepslate.hit"
+	Added "POLISHED_DEEPSLATE_PLACE": "block.polished_deepslate.place"
+	Added "POLISHED_DEEPSLATE_STEP": "block.polished_deepslate.step"
+

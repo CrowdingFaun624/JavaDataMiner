@@ -1,0 +1,18 @@
+14w29a (from 14w28b)
+
+Total: 1932 (+7, -0)
+
+Additions:
+	Added "commands.gamerule.nopermission": "Only server owners can change '%s'"
+	Added "commands.time.query": "Time is %d"
+	Added "commands.worldborder.get.success": "World border is currently %s blocks wide"
+	Added "options.reducedDebugInfo": "Reduced Debug Info"
+	Added "options.vbo": "Use VBOs"
+	Added "stat.talkedToVillager": "Talked to Villagers"
+	Added "stat.tradedWithVillager": "Traded with Villagers"
+
+Changes:
+	Changed "commands.particle.usage" from "/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [player|entity]" to "/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [force] [player|entity]"
+	Changed "commands.time.usage" from "/time <set|add> <value>" to "/time <set|add|query> <value>"
+	Changed "commands.worldborder.usage" from "/worldborder <set|center|damage|warning> ..." to "/worldborder <set|center|damage|warning|get> ..."
+

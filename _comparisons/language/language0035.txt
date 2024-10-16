@@ -1,0 +1,7 @@
+12w23a (from 12w22a)
+
+Total: 900 (+1, -0)
+
+Additions:
+	Added "tile.endPortalFrame.name": "End Portal"
+

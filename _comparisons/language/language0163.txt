@@ -1,0 +1,16 @@
+15w32a (from 15w31c)
+
+Total: 2503 (+10, -0)
+
+Additions:
+	Added "selectWorld.tooltip.fromNewerVersion1": "World was saved in a newer version,"
+	Added "selectWorld.tooltip.fromNewerVersion2": "loading this world could cause problems!"
+	Added "selectWorld.tooltip.snapshot1": "Don't forget to backup this world"
+	Added "selectWorld.tooltip.snapshot2": "before you load it in this snapshot."
+	Added "selectWorld.version": "Version:"
+	Added "selectWorld.versionJoinButton": "Use anyway"
+	Added "selectWorld.versionQuestion": "Do you really want to load this world?"
+	Added "selectWorld.versionUnknown": "unknown"
+	Added "selectWorld.versionWarning": "This world was saved in version '%s' and loading it in this version could cause corruption!"
+	Added "stat.sneakTime": "Sneak Time"
+

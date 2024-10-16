@@ -1,0 +1,22 @@
+13w18c (from 13w18b)
+
+Total: 6982 (+8, -6)
+
+Additions:
+	Added "13w18c"
+	Added "Initialization"
+	Added "Initializing game"
+	Added "Minecraft 13w18c"
+	Added "Minecraft 13w18c ("
+	Added "Starting integrated minecraft server version 13w18c"
+	Added "Starting minecraft server version 13w18c"
+	Added "Unable to parse animation data from "
+
+Removals:
+	Removed "13w18b"
+	Removed "Failed to start game"
+	Removed "Minecraft 13w18b"
+	Removed "Minecraft 13w18b ("
+	Removed "Starting integrated minecraft server version 13w18b"
+	Removed "Starting minecraft server version 13w18b"
+

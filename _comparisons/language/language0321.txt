@@ -1,0 +1,12 @@
+19w38a (from 19w37a)
+
+Total: 4351 (+6, -0)
+
+Additions:
+	Added "argument.entity.options.predicate.description": "Custom predicate"
+	Added "commands.data.storage.get": "%s in storage %s after scale factor of %s is %s"
+	Added "commands.data.storage.modified": "Modified storage %s"
+	Added "commands.data.storage.query": "Storage %s has the following contents: %s"
+	Added "commands.schedule.cleared.failure": "No schedules with id %s"
+	Added "commands.schedule.cleared.success": "Removed %s schedules with id %s"
+

@@ -1,0 +1,7 @@
+18w30b (from 18w30a)
+
+Total: 3910 (+1, -0)
+
+Additions:
+	Added "optimizeWorld.stage.structures": "Upgrading structure data..."
+

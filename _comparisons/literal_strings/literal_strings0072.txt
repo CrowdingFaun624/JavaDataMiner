@@ -1,0 +1,40 @@
+a1.0.5 (from a1.0.4)
+
+Total: 1568 (+28, -4)
+
+Additions:
+	Added " read thread"
+	Added " write thread"
+	Added "/rain.png"
+	Added "Back to title screen"
+	Added "Bad compressed data format"
+	Added "Bad packet id "
+	Added "Client"
+	Added "Connecting to the server..."
+	Added "Connection lost"
+	Added "Disconnected by server"
+	Added "End of stream"
+	Added "Failed to connect to the server"
+	Added "Got kicked"
+	Added "HANDLING A SPAWN PACKET!"
+	Added "Internal exception: "
+	Added "Logging in..."
+	Added "Minecraft Alpha v1.0.5"
+	Added "Minecraft Alpha v1.0.5 ("
+	Added "Minecraft Minecraft Alpha v1.0.5"
+	Added "Minecraft: Minecraft Alpha v1.0.5n"
+	Added "MpServer"
+	Added "Password"
+	Added "Receiving level"
+	Added "SPAWN!"
+	Added "Snowball"
+	Added "Tried to send data on a connection marked for quitting"
+	Added "Unknown host '"
+	Added "snowballpoof"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.4"
+	Removed "Minecraft Alpha v1.0.4 ("
+	Removed "Minecraft Minecraft Alpha v1.0.4"
+	Removed "Minecraft: Minecraft Alpha v1.0.4n"
+

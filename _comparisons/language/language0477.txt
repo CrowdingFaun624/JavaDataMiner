@@ -1,0 +1,10 @@
+1.20.3-pre1 (from 23w46a)
+
+Total: 6538 (+4, -0)
+
+Additions:
+	Added "block.minecraft.short_grass": "Short Grass"
+	Added "download.pack.progress.bytes": "Progress: %s (total size unknown)"
+	Added "download.pack.progress.percent": "Progress: %s%%"
+	Added "download.pack.title": "Downloading resource pack %s/%s"
+

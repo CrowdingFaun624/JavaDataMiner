@@ -1,0 +1,30 @@
+15w45a (from 15w44b)
+
+Total: 393 (+21, -1)
+
+Additions:
+	Added "block.brewing_stand.brew"
+	Added "block.chorus_flower.death"
+	Added "block.chorus_flower.grow"
+	Added "entity.player.attack.crit"
+	Added "entity.player.attack.knockback"
+	Added "entity.player.attack.parry"
+	Added "entity.player.attack.strong"
+	Added "entity.player.attack.sweep"
+	Added "entity.player.attack.weak"
+	Added "entity.shield.block"
+	Added "entity.shulker.ambient"
+	Added "entity.shulker.close"
+	Added "entity.shulker.death"
+	Added "entity.shulker.open"
+	Added "entity.shulker_bullet.hit"
+	Added "entity.shulker_bullet.hurt"
+	Added "entity.witch.ambient"
+	Added "entity.witch.death"
+	Added "entity.witch.drink"
+	Added "entity.witch.hurt"
+	Added "entity.witch.throw"
+
+Removals:
+	Removed "entity.shulker.hit"
+

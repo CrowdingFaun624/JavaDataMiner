@@ -1,0 +1,47 @@
+in-20100212-1 (from in-20100207-2)
+
+Total: 9 (+0, -18)
+
+Type Additions:
+	Added type 1.0;1.0;cloth with blocks:
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+	Added type 1.0;1.0;gravel;sand;sand with blocks:
+		12
+	Added type 1.0;1.0;random.glass;stone;stone with blocks:
+		20
+
+Removals:
+	Removed 21 from 1.0;1.0;grass
+	Removed 22 from 1.0;1.0;grass
+	Removed 23 from 1.0;1.0;grass
+	Removed 24 from 1.0;1.0;grass
+	Removed 25 from 1.0;1.0;grass
+	Removed 26 from 1.0;1.0;grass
+	Removed 27 from 1.0;1.0;grass
+	Removed 28 from 1.0;1.0;grass
+	Removed 29 from 1.0;1.0;grass
+	Removed 30 from 1.0;1.0;grass
+	Removed 31 from 1.0;1.0;grass
+	Removed 32 from 1.0;1.0;grass
+	Removed 33 from 1.0;1.0;grass
+	Removed 34 from 1.0;1.0;grass
+	Removed 35 from 1.0;1.0;grass
+	Removed 36 from 1.0;1.0;grass
+	Removed 12 from 1.0;1.0;gravel
+	Removed 20 from 1.0;1.5;stone
+

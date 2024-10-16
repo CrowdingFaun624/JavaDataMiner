@@ -1,0 +1,10 @@
+19w04a (from 19w03c)
+
+Total: 4184 (+1, -1)
+
+Additions:
+	Added "container.stonecutter": "Stonecutter"
+
+Removals:
+	Removed "optimizeWorld.stage.structures": "Upgrading structure data..."
+

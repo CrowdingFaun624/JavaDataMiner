@@ -1,0 +1,40 @@
+in-20100218 (from in-20100214-2)
+
+Total: 1208 (+30, -2)
+
+Additions:
+	Added "Age of Wonders is better!"
+	Added "Bring it on!"
+	Added "Bringing home the bacon!"
+	Added "Call your mother!"
+	Added "Ceci n'est pas une title screen!"
+	Added "Complex cellular automata!"
+	Added "Euclidian!"
+	Added "GOTY!"
+	Added "Guaranteed!"
+	Added "Herregud!"
+	Added "Hot tamale, hot hot tamale!"
+	Added "Indie!"
+	Added "Inspirational!"
+	Added "Macroscopic!"
+	Added "Monster infighting!"
+	Added "More than 5000 sold!"
+	Added "Now in 3D!"
+	Added "OpenGL 1.1!"
+	Added "Play him off, keyboard cat!"
+	Added "Played by cowboys!"
+	Added "Random splash!"
+	Added "Sensational!"
+	Added "Thousands of colors!"
+	Added "Try it!"
+	Added "Try the mushroom stew!"
+	Added "Yes, sir!"
+	Added "chain"
+	Added "diamond"
+	Added "gold"
+	Added "iron"
+
+Removals:
+	Removed "/rain.png"
+	Removed "More than 4000 sold!"
+

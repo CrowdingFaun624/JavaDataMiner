@@ -1,0 +1,8 @@
+21w38a (from 21w37a)
+
+Total: 5158 (+2, -0)
+
+Additions:
+	Added "options.simulationDistance": "Simulation Distance"
+	Added "subtitles.block.growing_plant.crop": "Plant cropped"
+

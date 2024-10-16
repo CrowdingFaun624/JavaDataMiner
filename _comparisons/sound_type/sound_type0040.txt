@@ -1,0 +1,62 @@
+23w07a (from 23w06a)
+
+Total: 100 (+7, -0)
+
+Additions:
+	Added "CHERRY_LEAVES"
+		volume: 1.0
+		pitch: 1.0
+		break: CHERRY_LEAVES_BREAK
+		step: CHERRY_LEAVES_STEP
+		place: CHERRY_LEAVES_PLACE
+		hit: CHERRY_LEAVES_HIT
+		fall: CHERRY_LEAVES_FALL
+	Added "CHERRY_SAPLING"
+		volume: 1.0
+		pitch: 1.0
+		break: CHERRY_SAPLING_BREAK
+		step: CHERRY_SAPLING_STEP
+		place: CHERRY_SAPLING_PLACE
+		hit: CHERRY_SAPLING_HIT
+		fall: CHERRY_SAPLING_FALL
+	Added "CHERRY_WOOD"
+		volume: 1.0
+		pitch: 1.0
+		break: CHERRY_WOOD_BREAK
+		step: CHERRY_WOOD_STEP
+		place: CHERRY_WOOD_PLACE
+		hit: CHERRY_WOOD_HIT
+		fall: CHERRY_WOOD_FALL
+	Added "CHERRY_WOOD_HANGING_SIGN"
+		volume: 1.0
+		pitch: 1.0
+		break: CHERRY_WOOD_HANGING_SIGN_BREAK
+		step: CHERRY_WOOD_HANGING_SIGN_STEP
+		place: CHERRY_WOOD_HANGING_SIGN_PLACE
+		hit: CHERRY_WOOD_HANGING_SIGN_HIT
+		fall: CHERRY_WOOD_HANGING_SIGN_FALL
+	Added "DECORATED_POT"
+		volume: 1.0
+		pitch: 1.0
+		break: EMPTY
+		step: DECORATED_POT_STEP
+		place: DECORATED_POT_PLACE
+		hit: DECORATED_POT_HIT
+		fall: DECORATED_POT_FALL
+	Added "PINK_PETALS"
+		volume: 1.0
+		pitch: 1.0
+		break: PINK_PETALS_BREAK
+		step: PINK_PETALS_STEP
+		place: PINK_PETALS_PLACE
+		hit: PINK_PETALS_HIT
+		fall: PINK_PETALS_FALL
+	Added "SUSPICIOUS_SAND"
+		volume: 1.0
+		pitch: 1.0
+		break: SUSPICIOUS_SAND_BREAK
+		step: SUSPICIOUS_SAND_STEP
+		place: SUSPICIOUS_SAND_PLACE
+		hit: SUSPICIOUS_SAND_HIT
+		fall: SUSPICIOUS_SAND_FALL
+

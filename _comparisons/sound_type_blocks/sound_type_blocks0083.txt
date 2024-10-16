@@ -1,0 +1,24 @@
+17w06a (from 1.11.2)
+
+Total: 12 (+18, -0)
+
+Additions:
+	Added concrete_powder to 1.0;1.0;sand
+	Added black_glazed_terracotta to 1.0;1.0;stone
+	Added blue_glazed_terracotta to 1.0;1.0;stone
+	Added brown_glazed_terracotta to 1.0;1.0;stone
+	Added concrete to 1.0;1.0;stone
+	Added cyan_glazed_terracotta to 1.0;1.0;stone
+	Added gray_glazed_terracotta to 1.0;1.0;stone
+	Added green_glazed_terracotta to 1.0;1.0;stone
+	Added light_blue_glazed_terracotta to 1.0;1.0;stone
+	Added lime_glazed_terracotta to 1.0;1.0;stone
+	Added magenta_glazed_terracotta to 1.0;1.0;stone
+	Added orange_glazed_terracotta to 1.0;1.0;stone
+	Added pink_glazed_terracotta to 1.0;1.0;stone
+	Added purple_glazed_terracotta to 1.0;1.0;stone
+	Added red_glazed_terracotta to 1.0;1.0;stone
+	Added silver_glazed_terracotta to 1.0;1.0;stone
+	Added white_glazed_terracotta to 1.0;1.0;stone
+	Added yellow_glazed_terracotta to 1.0;1.0;stone
+

@@ -1,0 +1,7 @@
+12w07a (from 12w06a)
+
+Total: 735 (+1, -0)
+
+Additions:
+	Added "tile.redstoneLight.name": "Redstone Lamp"
+

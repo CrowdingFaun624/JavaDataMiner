@@ -1,0 +1,17 @@
+inf-20100630-1 (from inf-20100629)
+
+Total: 1395 (+11, -0)
+
+Additions:
+	Added "/armor/"
+	Added "/art/kz.png"
+	Added "/item/arrows.png"
+	Added "/item/cart.png"
+	Added "/item/sign.png"
+	Added "/mob/saddle.png"
+	Added "/mob/sheep_fur.png"
+	Added "/mob/spider_eyes.png"
+	Added "Saving level"
+	Added "calm"
+	Added "humanoid"
+

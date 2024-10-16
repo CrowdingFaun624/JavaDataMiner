@@ -1,0 +1,7 @@
+1.17-pre4 (from 1.17-pre3)
+
+Total: 5138 (+0, -0)
+
+Changes:
+	Changed "block.minecraft.candle_cake" from "Candle Cake" to "Cake with Candle"
+

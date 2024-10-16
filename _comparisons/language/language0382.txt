@@ -1,0 +1,22 @@
+21w11a (from 21w10a)
+
+Total: 5048 (+9, -2)
+
+Additions:
+	Added "block.minecraft.cave_vines": "Cave Vines"
+	Added "block.minecraft.cave_vines_plant": "Cave Vines Plant"
+	Added "debug.profiling.help": "F3 + L = Start/stop profiling"
+	Added "debug.profiling.start": "Profiling started. Ends in %s seconds or when pressing F3 + L again"
+	Added "debug.profiling.stop": "Profiling ended. Saved results to %s"
+	Added "subtitles.block.amethyst_block.chime": "Amethyst chimes"
+	Added "subtitles.item.axe.scrape": "Axe scrapes"
+	Added "subtitles.item.axe.wax_off": "Wax off"
+	Added "subtitles.item.honeycomb.wax_on": "Wax on"
+
+Removals:
+	Removed "block.minecraft.cave_vines_body": "Cave Vines"
+	Removed "block.minecraft.cave_vines_head": "Cave Vines"
+
+Changes:
+	Changed "subtitles.item.axe.strip" from "Axe scrapes" to "Axe strips"
+

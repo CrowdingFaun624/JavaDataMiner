@@ -1,0 +1,12 @@
+b1.6-tb3 (from b1.5_01)
+
+Total: 549 (+6, -0)
+
+Additions:
+	Added "item.map.desc": ""
+	Added "item.map.name": "Map"
+	Added "tile.trapdoor.desc": ""
+	Added "tile.trapdoor.name": "Trapdoor"
+	Added "tile.web.desc": ""
+	Added "tile.web.name": "Cobweb"
+

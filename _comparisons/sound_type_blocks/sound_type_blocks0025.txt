@@ -1,0 +1,13 @@
+b1.6-tb3 (from b1.5_01)
+
+Total: 9 (+4, -1)
+
+Additions:
+	Added deadbush to 1.0;1.0;grass
+	Added tallgrass to 1.0;1.0;grass
+	Added web to 1.0;1.0;stone
+	Added trapdoor to 1.0;1.0;wood
+
+Removals:
+	Removed 30 from 1.0;1.0;stone
+

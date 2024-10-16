@@ -1,0 +1,13 @@
+13w02a (from 13w01b)
+
+Total: 12 (+4, -1)
+
+Additions:
+	Added daylightDetector to 1.0;1.0;wood
+	Added activatorRail to 1.0;1.5;stone
+	Added quartzBlock to 1;1.0;1.0;stone
+	Added stairsQuartz to 1;1.0;1.0;stone
+
+Removals:
+	Removed daylightDetector from 1;1.0;1.0;stone
+

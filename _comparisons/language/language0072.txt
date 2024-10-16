@@ -1,0 +1,52 @@
+1.5.2 (from 2point0_purple)
+
+Total: 1240 (+19, -20)
+
+Additions:
+	Added "chat.link.confirmTrusted": "Do you want to open this link or copy it to your clipboard?"
+	Added "chat.link.open": "Open in browser"
+	Added "commands.save.flushEnd": "Flushing completed"
+	Added "commands.save.flushStart": "Flushing all saves..."
+	Added "mco.configure.world.buttons.save": "Save"
+	Added "mco.configure.world.buttons.settings": "Settings..."
+	Added "mco.configure.world.seed": "World Seed (Optional)"
+	Added "mco.configure.world.settings.title": "Settings"
+	Added "mco.configure.world.status": "Status"
+	Added "mco.gameMode": "Game Mode"
+	Added "mco.gameMode.adventure": "Adventure"
+	Added "mco.gameMode.adventure.line1": "Same as survival mode, but blocks can't"
+	Added "mco.gameMode.adventure.line2": "be added or removed"
+	Added "mco.gameMode.creative": "Creative"
+	Added "mco.gameMode.creative.line1": "Unlimited resources, free flying and"
+	Added "mco.gameMode.creative.line2": "destroy blocks instantly"
+	Added "mco.gameMode.survival": "Survival"
+	Added "mco.gameMode.survival.line1": "Search for resources, crafting, gain"
+	Added "mco.gameMode.survival.line2": "levels, health and hunger"
+
+Removals:
+	Removed "tile.blockCoal.name": "Block of Coal"
+	Removed "tile.ethoSlab.tntLit.name": "Etho Slab (Lit??)"
+	Removed "tile.ethoSlab.tntUnlit.name": "Etho Slab"
+	Removed "tile.tintedGlass.black.name": "Black Tinted Glass"
+	Removed "tile.tintedGlass.blue.name": "Blue Tinted Glass"
+	Removed "tile.tintedGlass.brown.name": "Brown Tinted Glass"
+	Removed "tile.tintedGlass.cyan.name": "Cyan Tinted Glass"
+	Removed "tile.tintedGlass.gray.name": "Gray Tinted Glass"
+	Removed "tile.tintedGlass.green.name": "Green Tinted Glass"
+	Removed "tile.tintedGlass.lightBlue.name": "Light Blue Tinted Glass"
+	Removed "tile.tintedGlass.lime.name": "Lime Tinted Glass"
+	Removed "tile.tintedGlass.magenta.name": "Magenta Tinted Glass"
+	Removed "tile.tintedGlass.orange.name": "Orange Tinted Glass"
+	Removed "tile.tintedGlass.pink.name": "Pink Tinted Glass"
+	Removed "tile.tintedGlass.purple.name": "Purple Tinted Glass"
+	Removed "tile.tintedGlass.red.name": "Red Tinted Glass"
+	Removed "tile.tintedGlass.silver.name": "Light Gray Tinted Glass"
+	Removed "tile.tintedGlass.white.name": "White Tinted Glass"
+	Removed "tile.tintedGlass.yellow.name": "Yellow Tinted Glass"
+	Removed "tile.torchOff.name": "Torch (Burnt-out)"
+
+Changes:
+	Changed "mco.reset.world.seed" from "Seed (Optional)" to "World Seed (Optional)"
+	Changed "options.anaglyph" from "Super HD Graphics" to "3D Anaglyph"
+	Changed "tile.dropper.name" from "Flopper" to "Dropper"
+

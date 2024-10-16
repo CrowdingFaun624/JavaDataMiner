@@ -1,0 +1,11 @@
+18w46a (from 18w45a)
+
+Total: 4144 (+5, -0)
+
+Additions:
+	Added "block.minecraft.jigsaw": "Jigsaw block"
+	Added "block.minecraft.lantern": "Lantern"
+	Added "jigsaw_block.attachement_type": "Attachment type:"
+	Added "jigsaw_block.final_state": "Turns into:"
+	Added "jigsaw_block.target_pool": "Target pool:"
+

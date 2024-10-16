@@ -1,0 +1,34 @@
+b1.7 (from b1.6.6)
+
+Total: 2604 (+21, -5)
+
+Additions:
+	Added "# "
+	Added "Minecraft Beta 1.7"
+	Added "Minecraft Beta 1.7   Unlicensed Copy :("
+	Added "Minecraft Beta 1.7 ("
+	Added "Minecraft Minecraft Beta 1.7"
+	Added "Minecraft: Minecraft Beta 1.7n"
+	Added "P"
+	Added "Piston"
+	Added "S"
+	Added "TTT"
+	Added "blockData"
+	Added "blockId"
+	Added "extending"
+	Added "f: "
+	Added "facing"
+	Added "pistonBase"
+	Added "pistonStickyBase"
+	Added "progress"
+	Added "shears"
+	Added "tile.piston.in"
+	Added "tile.piston.out"
+
+Removals:
+	Removed "Minecraft Beta 1.6.6"
+	Removed "Minecraft Beta 1.6.6   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.6.6 ("
+	Removed "Minecraft Minecraft Beta 1.6.6"
+	Removed "Minecraft: Minecraft Beta 1.6.6n"
+

@@ -1,0 +1,43 @@
+14w31a (from 14w30c)
+
+Total: 12 (+18, -17)
+
+Additions:
+	Added fire to 1.0;1.0;cloth
+	Added beacon to 1.0;1.0;wood
+	Added brewing_stand to 1.0;1.0;wood
+	Added command_block to 1.0;1.0;wood
+	Added daylight_detector_inverted to 1.0;1.0;wood
+	Added dispenser to 1.0;1.0;wood
+	Added dropper to 1.0;1.0;wood
+	Added enchanting_table to 1.0;1.0;wood
+	Added end_portal to 1.0;1.0;wood
+	Added ender_chest to 1.0;1.0;wood
+	Added flower_pot to 1.0;1.0;wood
+	Added furnace to 1.0;1.0;wood
+	Added jukebox to 1.0;1.0;wood
+	Added lit_furnace to 1.0;1.0;wood
+	Added mob_spawner to 1.0;1.0;wood
+	Added noteblock to 1.0;1.0;wood
+	Added piston_extension to 1.0;1.0;wood
+	Added skull to 1.0;1.0;wood
+
+Removals:
+	Removed beacon from 1.0;1.0;stone
+	Removed brewing_stand from 1.0;1.0;stone
+	Removed command_block from 1.0;1.0;stone
+	Removed enchanting_table from 1.0;1.0;stone
+	Removed end_portal from 1.0;1.0;stone
+	Removed flower_pot from 1.0;1.0;stone
+	Removed noteblock from 1.0;1.0;stone
+	Removed piston_extension from 1.0;1.0;stone
+	Removed fire from 1.0;1.0;wood
+	Removed mob_spawner from 1.0;1.5;stone
+	Removed dispenser from 1;1.0;1.0;stone
+	Removed dropper from 1;1.0;1.0;stone
+	Removed ender_chest from 1;1.0;1.0;stone
+	Removed furnace from 1;1.0;1.0;stone
+	Removed jukebox from 1;1.0;1.0;stone
+	Removed lit_furnace from 1;1.0;1.0;stone
+	Removed skull from 1;1.0;1.0;stone
+

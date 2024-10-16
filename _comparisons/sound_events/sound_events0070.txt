@@ -1,0 +1,22 @@
+17w16a (from 17w15a)
+
+Total: 515 (+16, -0)
+
+Additions:
+	Added "block.end_portal.spawn"
+	Added "block.end_portal_frame.fill"
+	Added "block.note.bell"
+	Added "block.note.chime"
+	Added "block.note.flute"
+	Added "block.note.guitar"
+	Added "block.note.xylophone"
+	Added "entity.boat.paddle_land"
+	Added "entity.boat.paddle_water"
+	Added "entity.bobber.retrieve"
+	Added "entity.endereye.death"
+	Added "entity.illusion_illager.ambient"
+	Added "entity.illusion_illager.death"
+	Added "entity.illusion_illager.hurt"
+	Added "entity.player.hurt_drown"
+	Added "entity.player.hurt_on_fire"
+

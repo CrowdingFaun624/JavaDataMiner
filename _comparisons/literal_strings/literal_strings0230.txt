@@ -1,0 +1,24 @@
+13w06a (from 13w05b)
+
+Total: 9900 (+10, -6)
+
+Additions:
+	Added "13w06a"
+	Added "AllowFriendlyFire"
+	Added "MinecartSpawner"
+	Added "Minecraft 13w06a"
+	Added "Minecraft 13w06a ("
+	Added "Minecraft Minecraft 13w06a"
+	Added "Starting integrated minecraft server version 13w06a"
+	Added "Starting minecraft server version 13w06a"
+	Added "TileID"
+	Added "commands.clear.failure"
+
+Removals:
+	Removed "13w05b"
+	Removed "Minecraft 13w05b"
+	Removed "Minecraft 13w05b ("
+	Removed "Minecraft Minecraft 13w05b"
+	Removed "Starting integrated minecraft server version 13w05b"
+	Removed "Starting minecraft server version 13w05b"
+

@@ -1,0 +1,14 @@
+20w51a (from 20w49a)
+
+Total: 619 (+8, -0)
+
+Additions:
+	Added "subtitles.entity.axolotl.attack": "Axolotl attacks"
+	Added "subtitles.entity.axolotl.death": "Axolotl dies"
+	Added "subtitles.entity.axolotl.hurt": "Axolotl hurts"
+	Added "subtitles.entity.axolotl.idle_air": "Axolotl chirps"
+	Added "subtitles.entity.axolotl.idle_water": "Axolotl chirps"
+	Added "subtitles.entity.axolotl.splash": "Axolotl splashes"
+	Added "subtitles.entity.axolotl.swim": "Axolotl swims"
+	Added "subtitles.item.bucket.fill_axolotl": "Axolotl scooped"
+

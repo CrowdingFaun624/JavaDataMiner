@@ -1,0 +1,12 @@
+16w50a (from 1.11)
+
+Total: 3041 (+3, -0)
+
+Additions:
+	Added "death.attack.fireworks": "%1$s went off with a bang"
+	Added "enchantment.sweeping": "Sweeping Edge"
+	Added "item.ironNugget.name": "Iron Nugget"
+
+Changes:
+	Changed "commands.title.usage" from "/title <player> <title|subtitle|actionbar|clear|reset|times> ..." to "/title <player> title|subtitle|actionbar|clear|reset|times ..."
+

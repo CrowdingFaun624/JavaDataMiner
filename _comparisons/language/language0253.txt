@@ -1,0 +1,11 @@
+18w10c (from 18w10b)
+
+Total: 3432 (+0, -0)
+
+Changes:
+	Changed "block.minecraft.blue_dead_coral" from "Blue Dead Coral" to "Dead Blue Coral"
+	Changed "block.minecraft.pink_dead_coral" from "Pink Dead Coral" to "Dead Pink Coral"
+	Changed "block.minecraft.purple_dead_coral" from "Purple Dead Coral" to "Dead Purple Coral"
+	Changed "block.minecraft.red_dead_coral" from "Red Dead Coral" to "Dead Red Coral"
+	Changed "block.minecraft.yellow_dead_coral" from "Yellow Dead Coral" to "Dead Yellow Coral"
+

@@ -1,0 +1,8 @@
+14w20a (from 14w19a)
+
+Total: 1901 (+2, -0)
+
+Additions:
+	Added "commands.title.success": "Title command successfully executed"
+	Added "commands.title.usage": "/title <player> title|subtitle <raw json title> OR /title <player> clear|reset OR /title <player> times <fadeIn> <stay> <fadeOut>"
+

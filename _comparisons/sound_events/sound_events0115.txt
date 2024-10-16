@@ -1,0 +1,20 @@
+20w13a (from 20w12a)
+
+Total: 947 (+14, -0)
+
+Additions:
+	Added "LODESTONE_BREAK": "block.lodestone.break"
+	Added "LODESTONE_COMPASS_LOCK": "item.lodestone_compass.lock"
+	Added "LODESTONE_FALL": "block.lodestone.fall"
+	Added "LODESTONE_HIT": "block.lodestone.hit"
+	Added "LODESTONE_PLACE": "block.lodestone.place"
+	Added "LODESTONE_STEP": "block.lodestone.step"
+	Added "STRIDER_AMBIENT": "entity.strider.ambient"
+	Added "STRIDER_DEATH": "entity.strider.death"
+	Added "STRIDER_EAT": "entity.strider.eat"
+	Added "STRIDER_HAPPY": "entity.strider.happy"
+	Added "STRIDER_HURT": "entity.strider.hurt"
+	Added "STRIDER_RETREAT": "entity.strider.retreat"
+	Added "STRIDER_STEP": "entity.strider.step"
+	Added "STRIDER_STEP_LAVA": "entity.strider.step_lava"
+

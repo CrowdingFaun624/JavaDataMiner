@@ -1,0 +1,12 @@
+1.4.4 (from 1.4.3)
+
+Total: 1025 (+6, -0)
+
+Additions:
+	Added "commands.enchant.cantCombine": "%1$s can't be combined with %2$s"
+	Added "commands.enchant.cantEnchant": "The selected enchantment can't be added to the target item"
+	Added "commands.enchant.noItem": "The target doesn't hold an item "
+	Added "commands.enchant.notFound": "There is no such enchantment with ID %d"
+	Added "commands.enchant.success": "Enchanting succeeded"
+	Added "commands.enchant.usage": "/enchant <player> <enchantment ID> [level]"
+

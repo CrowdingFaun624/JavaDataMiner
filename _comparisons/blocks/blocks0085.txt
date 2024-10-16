@@ -1,0 +1,25 @@
+16w39b (from 16w39a)
+
+Total: 236 (+16, -1)
+
+Additions:
+	Added black_shulker_box
+	Added blue_shulker_box
+	Added brown_shulker_box
+	Added cyan_shulker_box
+	Added gray_shulker_box
+	Added green_shulker_box
+	Added light_blue_shulker_box
+	Added lime_shulker_box
+	Added magenta_shulker_box
+	Added orange_shulker_box
+	Added pink_shulker_box
+	Added purple_shulker_box
+	Added red_shulker_box
+	Added silver_shulker_box
+	Added white_shulker_box
+	Added yellow_shulker_box
+
+Removals:
+	Removed shulker_box
+

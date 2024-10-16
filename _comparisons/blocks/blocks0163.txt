@@ -1,0 +1,9 @@
+23w16a (from 23w14a)
+
+Total: 1003 (+0, -0)
+
+Changes:
+	Changed bubble_column's "sound_type" from STONE to EMPTY
+	Changed lava's "sound_type" from STONE to EMPTY
+	Changed water's "sound_type" from STONE to EMPTY
+

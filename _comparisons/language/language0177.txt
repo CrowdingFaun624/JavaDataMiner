@@ -1,0 +1,7 @@
+15w43a (from 15w42a)
+
+Total: 2579 (+0, -0)
+
+Changes:
+	Changed "gameMode.changed" from "Your game mode has been updated" to "Your game mode has been updated to %s"
+

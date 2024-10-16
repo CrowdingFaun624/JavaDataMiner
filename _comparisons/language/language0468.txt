@@ -1,0 +1,18 @@
+1.20.2-pre2 (from 1.20.2-pre1)
+
+Total: 6340 (+8, -0)
+
+Additions:
+	Added "narration.suggestion.usage.cycle.fixed": "Press Tab to cycle to the next suggestion"
+	Added "narration.suggestion.usage.cycle.hidable": "Press Tab to cycle to the next suggestion, or Escape to leave suggestions"
+	Added "narration.suggestion.usage.fill.fixed": "Press Tab to use suggestion"
+	Added "narration.suggestion.usage.fill.hidable": "Press Tab to use suggestion, or Escape to leave suggestions"
+	Added "options.accessibility": "Accessibility Settings..."
+	Added "options.chat": "Chat Settings..."
+	Added "options.fullscreen.entry": "%sx%s@%s (%sbit)"
+	Added "options.language.title": "Language"
+
+Changes:
+	Changed "options.accessibility.title" from "Accessibility Settings..." to "Accessibility Settings"
+	Changed "options.chat.title" from "Chat Settings..." to "Chat Settings"
+

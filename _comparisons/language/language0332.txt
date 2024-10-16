@@ -1,0 +1,18 @@
+1.15.2-pre1 (from 1.15.1)
+
+Total: 4387 (+8, -0)
+
+Additions:
+	Added "menu.modded": " (Modded)"
+	Added "multiplayerWarning.check": "Do not show this screen again"
+	Added "multiplayerWarning.header": "Online play is not rated"
+	Added "multiplayerWarning.message": "During online play you may be exposed to chat messages or other types of user generated content that has not been rated, and may not be suitable for all ages."
+	Added "title.multiplayer.lan": "Multiplayer (LAN)"
+	Added "title.multiplayer.other": "Multiplayer (3rd-party)"
+	Added "title.multiplayer.realms": "Multiplayer (Realms)"
+	Added "title.singleplayer": "Singleplayer"
+
+Changes:
+	Changed "chat.link.open" from "Open in browser" to "Open in Browser"
+	Changed "options.rawMouseInput" from "Raw input" to "Raw Input"
+

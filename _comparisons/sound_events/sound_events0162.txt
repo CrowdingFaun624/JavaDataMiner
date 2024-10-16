@@ -1,0 +1,33 @@
+23w43a (from 23w42a)
+
+Total: 1517 (+27, -0)
+
+Additions:
+	Added "COPPER_BULB_BREAK": "block.copper_bulb.break"
+	Added "COPPER_BULB_FALL": "block.copper_bulb.fall"
+	Added "COPPER_BULB_HIT": "block.copper_bulb.hit"
+	Added "COPPER_BULB_PLACE": "block.copper_bulb.place"
+	Added "COPPER_BULB_STEP": "block.copper_bulb.step"
+	Added "COPPER_BULB_TURN_OFF": "block.copper_bulb.turn_off"
+	Added "COPPER_BULB_TURN_ON": "block.copper_bulb.turn_on"
+	Added "COPPER_DOOR_CLOSE": "block.copper_door.close"
+	Added "COPPER_DOOR_OPEN": "block.copper_door.open"
+	Added "COPPER_GRATE_BREAK": "block.copper_grate.break"
+	Added "COPPER_GRATE_FALL": "block.copper_grate.fall"
+	Added "COPPER_GRATE_HIT": "block.copper_grate.hit"
+	Added "COPPER_GRATE_PLACE": "block.copper_grate.place"
+	Added "COPPER_GRATE_STEP": "block.copper_grate.step"
+	Added "COPPER_TRAPDOOR_CLOSE": "block.copper_trapdoor.close"
+	Added "COPPER_TRAPDOOR_OPEN": "block.copper_trapdoor.open"
+	Added "PLAYER_TELEPORT": "entity.player.teleport"
+	Added "POLISHED_TUFF_BREAK": "block.polished_tuff.break"
+	Added "POLISHED_TUFF_FALL": "block.polished_tuff.fall"
+	Added "POLISHED_TUFF_HIT": "block.polished_tuff.hit"
+	Added "POLISHED_TUFF_PLACE": "block.polished_tuff.place"
+	Added "POLISHED_TUFF_STEP": "block.polished_tuff.step"
+	Added "TUFF_BRICKS_BREAK": "block.tuff_bricks.break"
+	Added "TUFF_BRICKS_FALL": "block.tuff_bricks.fall"
+	Added "TUFF_BRICKS_HIT": "block.tuff_bricks.hit"
+	Added "TUFF_BRICKS_PLACE": "block.tuff_bricks.place"
+	Added "TUFF_BRICKS_STEP": "block.tuff_bricks.step"
+

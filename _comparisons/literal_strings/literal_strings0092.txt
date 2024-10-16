@@ -1,0 +1,17 @@
+a1.0.17_03 (from a1.0.17_02)
+
+Total: 1554 (+5, -4)
+
+Additions:
+	Added "Minecraft Alpha v1.0.17_03"
+	Added "Minecraft Alpha v1.0.17_03 ("
+	Added "Minecraft Minecraft Alpha v1.0.17_03"
+	Added "Minecraft: Minecraft Alpha v1.0.17_03n"
+	Added "REINSERTING PLAYER!"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.17_02"
+	Removed "Minecraft Alpha v1.0.17_02 ("
+	Removed "Minecraft Minecraft Alpha v1.0.17_02"
+	Removed "Minecraft: Minecraft Alpha v1.0.17_02n"
+

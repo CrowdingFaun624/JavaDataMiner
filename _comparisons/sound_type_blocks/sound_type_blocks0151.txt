@@ -1,0 +1,29 @@
+22w45a (from 22w44a)
+
+Total: 93 (+2, -7)
+
+Type Additions:
+	Added type BAMBOO_WOOD_HANGING_SIGN with blocks:
+		bamboo_hanging_sign
+		bamboo_wall_hanging_sign
+	Added type CHISELED_BOOKSHELF with blocks:
+		chiseled_bookshelf
+	Added type NETHER_WOOD_HANGING_SIGN with blocks:
+		crimson_hanging_sign
+		crimson_wall_hanging_sign
+		warped_hanging_sign
+		warped_wall_hanging_sign
+
+Additions:
+	Added bamboo_block to BAMBOO_WOOD
+	Added stripped_bamboo_block to BAMBOO_WOOD
+
+Removals:
+	Removed bamboo_hanging_sign from HANGING_SIGN
+	Removed bamboo_wall_hanging_sign from HANGING_SIGN
+	Removed crimson_hanging_sign from HANGING_SIGN
+	Removed crimson_wall_hanging_sign from HANGING_SIGN
+	Removed warped_hanging_sign from HANGING_SIGN
+	Removed warped_wall_hanging_sign from HANGING_SIGN
+	Removed chiseled_bookshelf from WOOD
+

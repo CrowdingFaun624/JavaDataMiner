@@ -1,0 +1,17 @@
+a1.0.2_01 (from a1.0.1_01)
+
+Total: 1437 (+5, -4)
+
+Additions:
+	Added "Minecraft Alpha v1.0.2_01"
+	Added "Minecraft Alpha v1.0.2_01 ("
+	Added "Minecraft Minecraft Alpha v1.0.2_01"
+	Added "Minecraft: Minecraft Alpha v1.0.2_01n"
+	Added "reddust"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.1_01"
+	Removed "Minecraft Alpha v1.0.1_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.1_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.1_01n"
+

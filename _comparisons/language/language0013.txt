@@ -1,0 +1,15 @@
+b1.8-pre2 (from b1.8-pre1-2)
+
+Total: 689 (+5, -0)
+
+Additions:
+	Added "key.pickItem": "Pick Block"
+	Added "tile.deadbush.desc": ""
+	Added "tile.deadbush.name": "Dead Bush"
+	Added "tile.tallgrass.desc": ""
+	Added "tile.tallgrass.name": "Grass"
+
+Changes:
+	Changed "key.playerlist" from "List players" to "List Players"
+	Changed "tile.grass.name" from "Grass" to "Grass Block"
+

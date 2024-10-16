@@ -1,0 +1,13 @@
+22w03a (from 1.19_deep_dark_experimental_snapshot-1)
+
+Total: 76 (+0, -1)
+
+Type Removals:
+	Removed type SCULK
+	Removed type SCULK_CATALYST
+	Removed type SCULK_SHRIEKER
+	Removed type SCULK_VEIN
+
+Removals:
+	Removed reinforced_deepslate from DEEPSLATE
+

@@ -1,0 +1,9 @@
+19w44a (from 19w42a)
+
+Total: 811 (+0, -3)
+
+Removals:
+	Removed "PARROT_IMITATE_POLAR_BEAR": "entity.parrot.imitate.polar_bear"
+	Removed "PARROT_IMITATE_WOLF": "entity.parrot.imitate.wolf"
+	Removed "PARROT_IMITATE_ZOMBIE_PIGMAN": "entity.parrot.imitate.zombie_pigman"
+

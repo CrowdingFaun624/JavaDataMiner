@@ -1,0 +1,9 @@
+19w02a (from 18w50a)
+
+Total: 436 (+3, -0)
+
+Additions:
+	Added "subtitles.block.campfire.crackle": "Campfire crackles"
+	Added "subtitles.item.book.page_turn": "Page rustles"
+	Added "subtitles.item.book.put": "Book thumps"
+

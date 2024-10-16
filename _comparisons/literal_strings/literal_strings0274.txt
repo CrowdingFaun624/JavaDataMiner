@@ -1,0 +1,19 @@
+13w38c (from 13w38b)
+
+Total: 9252 (+6, -5)
+
+Additions:
+	Added "13w38c"
+	Added "Biome ID is out of bounds: "
+	Added "Minecraft 13w38c"
+	Added "Minecraft 13w38c ("
+	Added "Starting integrated minecraft server version 13w38c"
+	Added "Starting minecraft server version 13w38c"
+
+Removals:
+	Removed "13w38b"
+	Removed "Minecraft 13w38b"
+	Removed "Minecraft 13w38b ("
+	Removed "Starting integrated minecraft server version 13w38b"
+	Removed "Starting minecraft server version 13w38b"
+

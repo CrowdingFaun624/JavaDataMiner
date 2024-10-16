@@ -1,0 +1,48 @@
+17w16a (from 17w15a)
+
+Total: 3090 (+20, -0)
+
+Additions:
+	Added "entity.IllusionIllager.name": "Illusioner"
+	Added "key.categories.creative": "Creative Mode"
+	Added "key.loadToolbarActivator": "Load Toolbar Activator"
+	Added "key.mouse.left": "Left Click"
+	Added "key.mouse.middle": "Middle Click"
+	Added "key.mouse.right": "Right Click"
+	Added "key.saveToolbarActivator": "Save Toolbar Activator"
+	Added "options.narrator.notavailable": "Not available"
+	Added "tutorial.craft_planks.description": "The recipe book can help"
+	Added "tutorial.craft_planks.title": "Craft wooden planks"
+	Added "tutorial.find_tree.description": "Punch it to collect wood"
+	Added "tutorial.find_tree.title": "Find a tree"
+	Added "tutorial.look.description": "Use your mouse to turn"
+	Added "tutorial.look.title": "Look around"
+	Added "tutorial.move.description": "Jump with %s"
+	Added "tutorial.move.title": "Move with %s, %s, %s and %s"
+	Added "tutorial.open_inventory.description": "Press %s"
+	Added "tutorial.open_inventory.title": "Open your inventory"
+	Added "tutorial.punch_tree.description": "Hold down %s"
+	Added "tutorial.punch_tree.title": "Destroy the tree"
+
+Changes:
+	Changed "inventory.hotbarInfo" from "Save toolbar with Ctrl+%1$s" to "Save toolbar with %1$s+%2$s"
+	Changed "inventory.hotbarSaved" from "Item toolbar saved (restore with Shift+%1$s)" to "Item toolbar saved (restore with %1$s+%2$s)"
+	Changed "tile.clayHardened.name" from "Hardened Clay" to "Terracotta"
+	Changed "tile.clayHardenedStained.black.name" from "Black Hardened Clay" to "Black Terracotta"
+	Changed "tile.clayHardenedStained.blue.name" from "Blue Hardened Clay" to "Blue Terracotta"
+	Changed "tile.clayHardenedStained.brown.name" from "Brown Hardened Clay" to "Brown Terracotta"
+	Changed "tile.clayHardenedStained.cyan.name" from "Cyan Hardened Clay" to "Cyan Terracotta"
+	Changed "tile.clayHardenedStained.gray.name" from "Gray Hardened Clay" to "Gray Terracotta"
+	Changed "tile.clayHardenedStained.green.name" from "Green Hardened Clay" to "Green Terracotta"
+	Changed "tile.clayHardenedStained.lightBlue.name" from "Light Blue Hardened Clay" to "Light Blue Terracotta"
+	Changed "tile.clayHardenedStained.lime.name" from "Lime Hardened Clay" to "Lime Terracotta"
+	Changed "tile.clayHardenedStained.magenta.name" from "Magenta Hardened Clay" to "Magenta Terracotta"
+	Changed "tile.clayHardenedStained.name" from "Stained Hardened Clay" to "Stained Terracotta"
+	Changed "tile.clayHardenedStained.orange.name" from "Orange Hardened Clay" to "Orange Terracotta"
+	Changed "tile.clayHardenedStained.pink.name" from "Pink Hardened Clay" to "Pink Terracotta"
+	Changed "tile.clayHardenedStained.purple.name" from "Purple Hardened Clay" to "Purple Terracotta"
+	Changed "tile.clayHardenedStained.red.name" from "Red Hardened Clay" to "Red Terracotta"
+	Changed "tile.clayHardenedStained.silver.name" from "Light Gray Hardened Clay" to "Light Gray Terracotta"
+	Changed "tile.clayHardenedStained.white.name" from "White Hardened Clay" to "White Terracotta"
+	Changed "tile.clayHardenedStained.yellow.name" from "Yellow Hardened Clay" to "Yellow Terracotta"
+

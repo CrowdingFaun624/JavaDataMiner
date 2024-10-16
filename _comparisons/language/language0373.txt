@@ -1,0 +1,15 @@
+20w49a (from 20w48a)
+
+Total: 4948 (+6, -0)
+
+Additions:
+	Added "biome.minecraft.dripstone_caves": "Dripstone caves"
+	Added "block.minecraft.sculk_sensor": "Sculk Sensor"
+	Added "death.attack.fallingStalactite": "%1$s was skewered by a falling stalactite"
+	Added "death.attack.fallingStalactite.player": "%1$s was skewered by a falling stalactite whilst fighting %2$s"
+	Added "subtitles.block.sculk_sensor.clicking": "Sculk Sensor starts clicking"
+	Added "subtitles.block.sculk_sensor.clicking_stop": "Sculk Sensor stops clicking"
+
+Changes:
+	Changed "subtitles.block.pointed_dripstone.land" from "Pointed Dripstone crashes down" to "Stalactite crashes down"
+

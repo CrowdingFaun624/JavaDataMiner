@@ -1,0 +1,11 @@
+b1.2 (from b1.1_02)
+
+Total: 66 (+5, -0)
+
+Additions:
+	Added "note.bassattack"
+	Added "note.bd"
+	Added "note.harp"
+	Added "note.hat"
+	Added "note.snare"
+

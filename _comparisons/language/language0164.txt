@@ -1,0 +1,21 @@
+15w32b (from 15w32a)
+
+Total: 2510 (+10, -3)
+
+Additions:
+	Added "commands.scoreboard.players.tag.list": "Tags on entity %s are:"
+	Added "commands.scoreboard.players.tag.success.add": "Tag %s added"
+	Added "commands.scoreboard.players.tag.success.remove": "Tag %s removed"
+	Added "commands.scoreboard.players.tag.tagMismatch": "The dataTag does not match for %s"
+	Added "commands.scoreboard.players.tag.usage": "/scoreboard players tag <player> <add|remove|list> <tagName> [dataTag]"
+	Added "selectWorld.edit": "Edit"
+	Added "selectWorld.edit.openFolder": "Open Folder"
+	Added "selectWorld.edit.resetIcon": "Reset Icon"
+	Added "selectWorld.edit.save": "Save World"
+	Added "selectWorld.edit.title": "Edit World"
+
+Removals:
+	Removed "selectWorld.rename": "Rename"
+	Removed "selectWorld.renameButton": "Rename"
+	Removed "selectWorld.renameTitle": "Rename World"
+

@@ -1,0 +1,102 @@
+18w43a (from 1.13.2)
+
+Total: 658 (+63, -2)
+
+Additions:
+	Added acacia_sign
+	Added acacia_wall_sign
+	Added air
+	Added andesite_slab
+	Added andesite_stairs
+	Added andesite_wall
+	Added bamboo
+	Added bamboo_sapling
+	Added birch_sign
+	Added birch_wall_sign
+	Added brick_wall
+	Added cornflower
+	Added dark_oak_sign
+	Added dark_oak_wall_sign
+	Added diorite_slab
+	Added diorite_stairs
+	Added diorite_wall
+	Added end_stone_brick_slab
+	Added end_stone_brick_stairs
+	Added end_stone_brick_wall
+	Added granite_slab
+	Added granite_stairs
+	Added granite_wall
+	Added jungle_sign
+	Added jungle_wall_sign
+	Added lily_of_the_valley
+	Added loom
+	Added mossy_cobblestone_slab
+	Added mossy_cobblestone_stairs
+	Added mossy_stone_brick_slab
+	Added mossy_stone_brick_stairs
+	Added mossy_stone_brick_wall
+	Added nether_brick_wall
+	Added oak_sign
+	Added oak_wall_sign
+	Added polished_andesite_slab
+	Added polished_andesite_stairs
+	Added polished_diorite_slab
+	Added polished_diorite_stairs
+	Added polished_granite_slab
+	Added polished_granite_stairs
+	Added potted_bamboo
+	Added potted_cornflower
+	Added potted_lily_of_the_valley
+	Added potted_wither_rose
+	Added prismarine_wall
+	Added red_nether_brick_slab
+	Added red_nether_brick_stairs
+	Added red_nether_brick_wall
+	Added red_sandstone_wall
+	Added sandstone_wall
+	Added smooth_quartz_slab
+	Added smooth_quartz_stairs
+	Added smooth_red_sandstone_slab
+	Added smooth_red_sandstone_stairs
+	Added smooth_sandstone_slab
+	Added smooth_sandstone_stairs
+	Added smooth_stone_slab
+	Added spruce_sign
+	Added spruce_wall_sign
+	Added stone_brick_wall
+	Added stone_stairs
+	Added wither_rose
+
+Removals:
+	Removed sign
+	Removed wall_sign
+
+Changes:
+	Changed acacia_stairs's "sound_type" from WOOD to STONE
+	Changed birch_stairs's "sound_type" from WOOD to STONE
+	Changed dark_oak_stairs's "sound_type" from WOOD to STONE
+	Changed jungle_stairs's "sound_type" from WOOD to STONE
+	Changed oak_stairs's "sound_type" from WOOD to STONE
+	Changed potted_acacia_sapling's "sound_type" from GRASS to STONE
+	Changed potted_allium's "sound_type" from GRASS to STONE
+	Changed potted_azure_bluet's "sound_type" from GRASS to STONE
+	Changed potted_birch_sapling's "sound_type" from GRASS to STONE
+	Changed potted_blue_orchid's "sound_type" from GRASS to STONE
+	Changed potted_brown_mushroom's "sound_type" from GRASS to STONE
+	Changed potted_cactus's "sound_type" from WOOL to STONE
+	Changed potted_dandelion's "sound_type" from GRASS to STONE
+	Changed potted_dark_oak_sapling's "sound_type" from GRASS to STONE
+	Changed potted_dead_bush's "sound_type" from GRASS to STONE
+	Changed potted_fern's "sound_type" from GRASS to STONE
+	Changed potted_jungle_sapling's "sound_type" from GRASS to STONE
+	Changed potted_oak_sapling's "sound_type" from GRASS to STONE
+	Changed potted_orange_tulip's "sound_type" from GRASS to STONE
+	Changed potted_oxeye_daisy's "sound_type" from GRASS to STONE
+	Changed potted_pink_tulip's "sound_type" from GRASS to STONE
+	Changed potted_poppy's "sound_type" from GRASS to STONE
+	Changed potted_red_mushroom's "sound_type" from GRASS to STONE
+	Changed potted_red_tulip's "sound_type" from GRASS to STONE
+	Changed potted_spruce_sapling's "sound_type" from GRASS to STONE
+	Changed potted_white_tulip's "sound_type" from GRASS to STONE
+	Changed spruce_stairs's "sound_type" from WOOD to STONE
+

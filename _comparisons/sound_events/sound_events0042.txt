@@ -1,0 +1,39 @@
+13w22a (from 13w21b)
+
+Total: 205 (+28, -3)
+
+Additions:
+	Added "mob.horse.angry"
+	Added "mob.horse.armor"
+	Added "mob.horse.breathe"
+	Added "mob.horse.death"
+	Added "mob.horse.donkey.angry"
+	Added "mob.horse.donkey.death"
+	Added "mob.horse.donkey.hit"
+	Added "mob.horse.donkey.idle"
+	Added "mob.horse.gallop"
+	Added "mob.horse.hit"
+	Added "mob.horse.idle"
+	Added "mob.horse.jump"
+	Added "mob.horse.land"
+	Added "mob.horse.leather"
+	Added "mob.horse.skeleton.death"
+	Added "mob.horse.skeleton.hit"
+	Added "mob.horse.skeleton.idle"
+	Added "mob.horse.soft"
+	Added "mob.horse.wood"
+	Added "mob.horse.zombie.death"
+	Added "mob.horse.zombie.hit"
+	Added "mob.horse.zombie.idle"
+	Added "mob.villager.death"
+	Added "mob.villager.haggle"
+	Added "mob.villager.hit"
+	Added "mob.villager.idle"
+	Added "mob.villager.no"
+	Added "mob.villager.yes"
+
+Removals:
+	Removed "mob.villager.default"
+	Removed "mob.villager.defaultdeath"
+	Removed "mob.villager.defaulthurt"
+

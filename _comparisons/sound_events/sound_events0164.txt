@@ -1,0 +1,21 @@
+23w51a (from 1.20.4)
+
+Total: 1554 (+15, -0)
+
+Additions:
+	Added "ARMADILLO_AMBIENT": "entity.armadillo.ambient"
+	Added "ARMADILLO_BRUSH": "entity.armadillo.brush"
+	Added "ARMADILLO_DEATH": "entity.armadillo.death"
+	Added "ARMADILLO_EAT": "entity.armadillo.eat"
+	Added "ARMADILLO_HURT": "entity.armadillo.hurt"
+	Added "ARMADILLO_LAND": "entity.armadillo.land"
+	Added "ARMADILLO_ROLL": "entity.armadillo.roll"
+	Added "ARMADILLO_SCUTE_DROP": "entity.armadillo.scute_drop"
+	Added "ARMADILLO_STEP": "entity.armadillo.step"
+	Added "ARMADILLO_UNROLL": "entity.armadillo.unroll"
+	Added "ARMOR_EQUIP_WOLF": "item.armor.equip_wolf"
+	Added "ARMOR_UNEQUIP_WOLF": "item.armor.unequip_wolf"
+	Added "BREEZE_CHARGE": "entity.breeze.charge"
+	Added "BREEZE_DEFLECT": "entity.breeze.deflect"
+	Added "BREEZE_WHIRL": "entity.breeze.whirl"
+

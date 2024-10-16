@@ -1,0 +1,22 @@
+1.0 (from 1.0.0-rc2-3)
+
+Total: 3493 (+4, -10)
+
+Additions:
+	Added "Minecraft 1.0.0"
+	Added "Minecraft 1.0.0 ("
+	Added "Minecraft Minecraft 1.0.0"
+	Added "Minecraft: Minecraft 1.0.0n"
+
+Removals:
+	Removed "F1 - F5: load levels   |   0-9: Set time of day   |   Space: return to spawn   |   Double click: zoom   |   Escape: hide this text"
+	Removed "Minecraft Minecraft RC2"
+	Removed "Minecraft RC2"
+	Removed "Minecraft RC2 ("
+	Removed "Minecraft: Minecraft RC2n"
+	Removed "World1"
+	Removed "World2"
+	Removed "World3"
+	Removed "World4"
+	Removed "World5"
+

@@ -1,0 +1,7 @@
+b1.4-1 (from b1.3_01)
+
+Total: 86 (+1, -0)
+
+Additions:
+	Added 95:lockedchest
+

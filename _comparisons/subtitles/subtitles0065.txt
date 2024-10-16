@@ -1,0 +1,19 @@
+21w03a (from 20w51a)
+
+Total: 626 (+7, -0)
+
+Additions:
+	Added "subtitles.entity.glow_squid.ambient": "Glow Squid swims"
+	Added "subtitles.entity.glow_squid.death": "Glow Squid dies"
+	Added "subtitles.entity.glow_squid.hurt": "Glow Squid hurts"
+	Added "subtitles.entity.glow_squid.squirt": "Glow Squid shoots ink"
+	Added "subtitles.item.dye.use": "Dye stains"
+	Added "subtitles.item.glow_ink_sac.use": "Glow Ink Sac splotches"
+	Added "subtitles.item.ink_sac.use": "Ink Sac splotches"
+
+Changes:
+	Changed "subtitles.block.pointed_dripstone.drip_lava_into_cauldron" from "Lava drips into cauldron" to "Lava drips into Cauldron"
+	Changed "subtitles.block.pointed_dripstone.drip_water_into_cauldron" from "Water drips into cauldron" to "Water drips into Cauldron"
+	Changed "subtitles.entity.shulker_bullet.hit" from "Shulker bullet explodes" to "Shulker Bullet explodes"
+	Changed "subtitles.entity.shulker_bullet.hurt" from "Shulker bullet breaks" to "Shulker Bullet breaks"
+

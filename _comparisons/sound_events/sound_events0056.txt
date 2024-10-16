@@ -1,0 +1,14 @@
+16w04a (from 16w03a)
+
+Total: 432 (+4, -2)
+
+Additions:
+	Added "block.iron_trapdoor.close"
+	Added "block.iron_trapdoor.open"
+	Added "block.wooden_trapdoor.close"
+	Added "block.wooden_trapdoor.open"
+
+Removals:
+	Removed "block.trapdoor.close"
+	Removed "block.trapdoor.open"
+

@@ -1,0 +1,11 @@
+20w22a (from 20w21a)
+
+Total: 4724 (+5, -0)
+
+Additions:
+	Added "commands.reload.failure": "Reload failed, keeping old data"
+	Added "datapackFailure.safeMode": "Safe mode"
+	Added "datapackFailure.title": "Errors in currently selected datapacks prevented world from loading.\nYou can either try to load only with vanilla datapack (\"safe mode\") or go back to title screen and fix it manually."
+	Added "death.attack.witherSkull": "%1$s was shot by a %2$s's skull"
+	Added "jigsaw_block.keep_jigsaws": "Keep Jigsaws: "
+

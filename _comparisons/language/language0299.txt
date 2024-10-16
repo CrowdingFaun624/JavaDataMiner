@@ -1,0 +1,49 @@
+19w11a (from 19w09a)
+
+Total: 4249 (+35, -2)
+
+Additions:
+	Added "block.minecraft.bed.obstructed": "This bed is obstructed"
+	Added "entity.minecraft.villager.none": "Villager"
+	Added "item.minecraft.crossbow.projectile": "Projectile:"
+	Added "item.minecraft.globe_banner_pattern": "Globe Pattern"
+	Added "item.minecraft.globe_banner_pattern.desc": "Globe"
+	Added "merchant.current_level": "Trader's current level"
+	Added "merchant.level.1": "Novice"
+	Added "merchant.level.2": "Apprentice"
+	Added "merchant.level.3": "Journeyman"
+	Added "merchant.level.4": "Expert"
+	Added "merchant.level.5": "Master"
+	Added "merchant.next_level": "Trader's next level"
+	Added "options.accessibility.text_background": "Text Background"
+	Added "options.accessibility.text_background.chat": "Chat"
+	Added "options.accessibility.text_background.everywhere": "Everywhere"
+	Added "options.accessibility.text_background_opacity": "Text Background Opacity"
+	Added "options.accessibility.title": "Accessibility Settings..."
+	Added "selectWorld.edit.backupFailed": "Backup failed"
+	Added "subtitles.entity.parrot.imitate.guardian": "Parrot moans"
+	Added "subtitles.entity.parrot.imitate.panda": "Parrot pants"
+	Added "subtitles.entity.parrot.imitate.pillager": "Parrot murmurs"
+	Added "subtitles.entity.parrot.imitate.ravager": "Parrot grunts"
+	Added "subtitles.entity.villager.work_armorer": "Armorer works"
+	Added "subtitles.entity.villager.work_butcher": "Butcher works"
+	Added "subtitles.entity.villager.work_cartographer": "Cartographer works"
+	Added "subtitles.entity.villager.work_cleric": "Cleric works"
+	Added "subtitles.entity.villager.work_farmer": "Farmer works"
+	Added "subtitles.entity.villager.work_fisherman": "Fisherman works"
+	Added "subtitles.entity.villager.work_fletcher": "Fletcher works"
+	Added "subtitles.entity.villager.work_leatherworker": "Leatherworker works"
+	Added "subtitles.entity.villager.work_librarian": "Librarian works"
+	Added "subtitles.entity.villager.work_mason": "Mason works"
+	Added "subtitles.entity.villager.work_shepherd": "Shepherd works"
+	Added "subtitles.entity.villager.work_toolsmith": "Toolsmith works"
+	Added "subtitles.entity.villager.work_weaponsmith": "Weaponsmith works"
+
+Removals:
+	Removed "createWorld.customize.flat.addLayer": "Add Layer"
+	Removed "createWorld.customize.flat.editLayer": "Edit Layer"
+
+Changes:
+	Changed "merchant.deprecated" from "Trade something else to unlock!" to "Villagers restock up to two times per day."
+	Changed "options.chat.opacity" from "Opacity" to "Chat Opacity"
+

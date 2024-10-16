@@ -1,0 +1,21 @@
+14w25a (from 14w21b)
+
+Total: 1910 (+11, -2)
+
+Additions:
+	Added "enchantment.waterWalker": "Depth Strider"
+	Added "entity.Guardian.name": "Guardian"
+	Added "item.prismarineCrystals.name": "Prismarine Crystals"
+	Added "item.prismarineShard.name": "Prismarine Shard"
+	Added "tile.dirt.coarse.name": "Coarse Dirt"
+	Added "tile.prismarine.bricks.name": "Prismarine Bricks"
+	Added "tile.prismarine.dark.name": "Dark Prismarine"
+	Added "tile.prismarine.rough.name": "Prismarine"
+	Added "tile.seaLantern.name": "Sea Lantern"
+	Added "tile.sponge.dry.name": "Sponge"
+	Added "tile.sponge.wet.name": "Wet Sponge"
+
+Removals:
+	Removed "options.anisotropicFiltering": "Anisotropic Filtering"
+	Removed "tile.sponge.name": "Sponge"
+

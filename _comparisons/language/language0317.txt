@@ -1,0 +1,7 @@
+1.14_combat-0 (from 1.14.4)
+
+Total: 4327 (+1, -0)
+
+Additions:
+	Added "attribute.name.generic.attackReach": "Attack Reach"
+

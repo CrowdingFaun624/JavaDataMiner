@@ -1,0 +1,26 @@
+24w06a (from 24w05a)
+
+Total: 6613 (+17, -1)
+
+Additions:
+	Added "attribute.name.generic.fall_damage_multiplier": "Fall Damage Multiplier"
+	Added "attribute.name.generic.gravity": "Gravity"
+	Added "attribute.name.generic.jump_strength": "Jump Strength"
+	Added "attribute.name.generic.safe_fall_distance": "Safe Fall Distance"
+	Added "attribute.name.player.block_break_speed": "Block Break Speed"
+	Added "entity.minecraft.breeze_wind_charge": "Wind Charge"
+	Added "item.minecraft.wind_charge": "Wind Charge"
+	Added "options.font": "Font Settings..."
+	Added "options.font.title": "Font Settings"
+	Added "options.japaneseGlyphVariants": "Japanese Glyph Variants"
+	Added "options.japaneseGlyphVariants.tooltip": "Uses Japanse variants of CJK characters in the default font"
+	Added "subtitles.entity.armadillo.peek": "Armadillo peeks"
+	Added "subtitles.entity.armadillo.unroll_finish": "Armadillo unrolls"
+	Added "subtitles.entity.armadillo.unroll_start": "Armadillo peeks"
+	Added "subtitles.entity.breeze.wind_burst": "Wind Charge bursts"
+	Added "subtitles.entity.wind_charge.throw": "Wind Charge flies"
+	Added "subtitles.entity.wind_charge.wind_burst": "Wind Charge bursts"
+
+Removals:
+	Removed "subtitles.entity.armadillo.unroll": "Armadillo unrolls"
+

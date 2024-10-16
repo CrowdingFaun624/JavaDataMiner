@@ -1,0 +1,13 @@
+b1.6-tb3 (from b1.5_01)
+
+Total: 92 (+4, -1)
+
+Additions:
+	Added 30:web
+	Added 31:tallgrass
+	Added 32:deadbush
+	Added 96:trapdoor
+
+Removals:
+	Removed 30
+

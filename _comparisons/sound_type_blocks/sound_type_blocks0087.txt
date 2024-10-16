@@ -1,0 +1,8 @@
+18w06a (from 18w05a)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added cave_air to 1.0;1.0;stone
+	Added void_air to 1.0;1.0;stone
+

@@ -1,0 +1,8 @@
+a1.1.0 (from a1.1.0-2)
+
+Total: 1560 (+0, -2)
+
+Removals:
+	Removed "FORCING RELOAD!"
+	Removed "Failed to add "
+

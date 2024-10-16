@@ -1,0 +1,67 @@
+21w05a (from 21w03a)
+
+Total: 72 (+16, -16)
+
+Type Additions:
+	Added type AZALEA with blocks:
+		azalea
+	Added type AZALEA_LEAVES with blocks:
+		azalea_leaves
+		azalea_leaves_flowers
+	Added type BIG_DRIPLEAF with blocks:
+		big_dripleaf
+		big_dripleaf_stem
+	Added type CAVE_VINES with blocks:
+		cave_vines_body
+		cave_vines_head
+	Added type FLOWERING_AZALEA with blocks:
+		flowering_azalea
+	Added type HANGING_ROOTS with blocks:
+		hanging_roots
+	Added type MOSS with blocks:
+		moss_block
+	Added type MOSS_CARPET with blocks:
+		moss_carpet
+	Added type ROOTED_DIRT with blocks:
+		rooted_dirt
+	Added type SMALL_DRIPLEAF with blocks:
+		small_dripleaf
+	Added type SPORE_BLOSSOM with blocks:
+		spore_blossom
+
+Additions:
+	Added exposed_copper_block to COPPER
+	Added exposed_cut_copper to COPPER
+	Added exposed_cut_copper_slab to COPPER
+	Added exposed_cut_copper_stairs to COPPER
+	Added oxidized_copper_block to COPPER
+	Added oxidized_cut_copper to COPPER
+	Added oxidized_cut_copper_slab to COPPER
+	Added oxidized_cut_copper_stairs to COPPER
+	Added waxed_exposed_copper to COPPER
+	Added waxed_exposed_cut_copper to COPPER
+	Added waxed_exposed_cut_copper_slab to COPPER
+	Added waxed_exposed_cut_copper_stairs to COPPER
+	Added waxed_weathered_copper to COPPER
+	Added waxed_weathered_cut_copper to COPPER
+	Added waxed_weathered_cut_copper_slab to COPPER
+	Added waxed_weathered_cut_copper_stairs to COPPER
+
+Removals:
+	Removed lightly_weathered_copper_block from COPPER
+	Removed lightly_weathered_cut_copper from COPPER
+	Removed lightly_weathered_cut_copper_slab from COPPER
+	Removed lightly_weathered_cut_copper_stairs from COPPER
+	Removed semi_weathered_copper_block from COPPER
+	Removed semi_weathered_cut_copper from COPPER
+	Removed semi_weathered_cut_copper_slab from COPPER
+	Removed semi_weathered_cut_copper_stairs from COPPER
+	Removed waxed_lightly_weathered_copper from COPPER
+	Removed waxed_lightly_weathered_cut_copper from COPPER
+	Removed waxed_lightly_weathered_cut_copper_slab from COPPER
+	Removed waxed_lightly_weathered_cut_copper_stairs from COPPER
+	Removed waxed_semi_weathered_copper from COPPER
+	Removed waxed_semi_weathered_cut_copper from COPPER
+	Removed waxed_semi_weathered_cut_copper_slab from COPPER
+	Removed waxed_semi_weathered_cut_copper_stairs from COPPER
+

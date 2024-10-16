@@ -1,0 +1,13 @@
+inf-20100316 (from inf-20100313)
+
+Total: 1002 (+7, -0)
+
+Additions:
+	Added "/mob/creeper.png"
+	Added "/mob/pig.png"
+	Added "/mob/sheep.png"
+	Added "/mob/skeleton.png"
+	Added "/mob/spider.png"
+	Added "/mob/zombie.png"
+	Added "random.pop"
+

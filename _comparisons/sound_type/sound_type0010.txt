@@ -1,0 +1,22 @@
+1.13-pre6 (from 1.13-pre5)
+
+Total: 14 (+2, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wet_grass.break
+		step: block.wet_grass.step
+		place: block.wet_grass.place
+		hit: block.wet_grass.hit
+		fall: block.wet_grass.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.coral_block.break
+		step: block.coral_block.step
+		place: block.coral_block.place
+		hit: block.coral_block.hit
+		fall: block.coral_block.fall
+

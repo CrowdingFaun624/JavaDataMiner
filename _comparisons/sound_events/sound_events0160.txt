@@ -1,0 +1,9 @@
+23w41a (from 23w40a)
+
+Total: 1488 (+3, -0)
+
+Additions:
+	Added "DECORATED_POT_INSERT": "block.decorated_pot.insert"
+	Added "DECORATED_POT_INSERT_FAIL": "block.decorated_pot.insert_fail"
+	Added "WAXED_HANGING_SIGN_INTERACT_FAIL": "block.hanging_sign.waxed_interact_fail"
+

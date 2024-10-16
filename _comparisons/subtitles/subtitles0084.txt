@@ -1,0 +1,18 @@
+22w42a (from 1.19.2)
+
+Total: 710 (+12, -0)
+
+Additions:
+	Added "subtitles.entity.camel.ambient": "Camel grunts"
+	Added "subtitles.entity.camel.dash": "Camel yeets"
+	Added "subtitles.entity.camel.dash_ready": "Camel recovers"
+	Added "subtitles.entity.camel.death": "Camel dies"
+	Added "subtitles.entity.camel.eat": "Camel eats"
+	Added "subtitles.entity.camel.hurt": "Camel hurts"
+	Added "subtitles.entity.camel.saddle": "Saddle equips"
+	Added "subtitles.entity.camel.sit": "Camel sits down"
+	Added "subtitles.entity.camel.stand": "Camel stands up"
+	Added "subtitles.entity.camel.step": "Camel steps"
+	Added "subtitles.entity.camel.step_sand": "Camel sands"
+	Added "subtitles.entity.tadpole.grow_up": "Tadpole grows up"
+

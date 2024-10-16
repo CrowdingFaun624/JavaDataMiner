@@ -1,0 +1,8 @@
+18w46a (from 18w45a)
+
+Total: 17 (+2, -0)
+
+Additions:
+	Added jigsaw to 1.0;1.0;stone
+	Added lantern to 1.0;1.5;metal
+

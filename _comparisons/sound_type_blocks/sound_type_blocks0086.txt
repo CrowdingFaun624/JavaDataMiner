@@ -1,0 +1,60 @@
+18w02a (from 18w01a)
+
+Total: 12 (+26, -26)
+
+Additions:
+	Added potted_cactus to 1.0;1.0;cloth
+	Added beetroots to 1.0;1.0;grass
+	Added carrots to 1.0;1.0;grass
+	Added potatoes to 1.0;1.0;grass
+	Added potted_acacia_sapling to 1.0;1.0;grass
+	Added potted_allium to 1.0;1.0;grass
+	Added potted_azure_bluet to 1.0;1.0;grass
+	Added potted_birch_sapling to 1.0;1.0;grass
+	Added potted_blue_orchid to 1.0;1.0;grass
+	Added potted_brown_mushroom to 1.0;1.0;grass
+	Added potted_dandelion to 1.0;1.0;grass
+	Added potted_dark_oak_sapling to 1.0;1.0;grass
+	Added potted_dead_bush to 1.0;1.0;grass
+	Added potted_fern to 1.0;1.0;grass
+	Added potted_jungle_sapling to 1.0;1.0;grass
+	Added potted_oak_sapling to 1.0;1.0;grass
+	Added potted_orange_tulip to 1.0;1.0;grass
+	Added potted_oxeye_daisy to 1.0;1.0;grass
+	Added potted_pink_tulip to 1.0;1.0;grass
+	Added potted_poppy to 1.0;1.0;grass
+	Added potted_red_mushroom to 1.0;1.0;grass
+	Added potted_red_tulip to 1.0;1.0;grass
+	Added potted_spruce_sapling to 1.0;1.0;grass
+	Added potted_white_tulip to 1.0;1.0;grass
+	Added wheat to 1.0;1.0;grass
+	Added daylight_detector to 1.0;1.0;wood
+
+Removals:
+	Removed beetroots from 1.0;1.0;stone
+	Removed carrots from 1.0;1.0;stone
+	Removed daylight_detector from 1.0;1.0;stone
+	Removed potatoes from 1.0;1.0;stone
+	Removed potted_acacia_sapling from 1.0;1.0;stone
+	Removed potted_allium from 1.0;1.0;stone
+	Removed potted_azure_bluet from 1.0;1.0;stone
+	Removed potted_birch_sapling from 1.0;1.0;stone
+	Removed potted_blue_orchid from 1.0;1.0;stone
+	Removed potted_brown_mushroom from 1.0;1.0;stone
+	Removed potted_cactus from 1.0;1.0;stone
+	Removed potted_dandelion from 1.0;1.0;stone
+	Removed potted_dark_oak_sapling from 1.0;1.0;stone
+	Removed potted_dead_bush from 1.0;1.0;stone
+	Removed potted_fern from 1.0;1.0;stone
+	Removed potted_jungle_sapling from 1.0;1.0;stone
+	Removed potted_oak_sapling from 1.0;1.0;stone
+	Removed potted_orange_tulip from 1.0;1.0;stone
+	Removed potted_oxeye_daisy from 1.0;1.0;stone
+	Removed potted_pink_tulip from 1.0;1.0;stone
+	Removed potted_poppy from 1.0;1.0;stone
+	Removed potted_red_mushroom from 1.0;1.0;stone
+	Removed potted_red_tulip from 1.0;1.0;stone
+	Removed potted_spruce_sapling from 1.0;1.0;stone
+	Removed potted_white_tulip from 1.0;1.0;stone
+	Removed wheat from 1.0;1.0;stone
+

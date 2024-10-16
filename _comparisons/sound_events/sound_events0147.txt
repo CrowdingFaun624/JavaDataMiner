@@ -1,0 +1,17 @@
+22w17a (from 22w16b)
+
+Total: 1321 (+11, -0)
+
+Additions:
+	Added "GOAT_HORN_BREAK": "entity.goat.horn_break"
+	Added "GOAT_HORN_PLAY": "item.goat_horn.play"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(0)": "item.goat_horn.sound.0"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(1)": "item.goat_horn.sound.1"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(2)": "item.goat_horn.sound.2"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(3)": "item.goat_horn.sound.3"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(4)": "item.goat_horn.sound.4"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(5)": "item.goat_horn.sound.5"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(6)": "item.goat_horn.sound.6"
+	Added "GOAT_HORN_SOUND_VARIANTS.get(7)": "item.goat_horn.sound.7"
+	Added "GOAT_SCREAMING_HORN_BREAK": "entity.goat.screaming.horn_break"
+

@@ -1,0 +1,14 @@
+17w48a (from 17w47b)
+
+Total: 3258 (+2, -1)
+
+Additions:
+	Added "death.attack.netherBed.link": "Intentional Game Design"
+	Added "death.attack.netherBed.message": "%1$s was killed by %2$s"
+
+Removals:
+	Removed "item.minecraft.sugar_cane": "Sugar Canes"
+
+Changes:
+	Changed "block.minecraft.redstone_wire" from "Redstone Wire" to "Redstone Dust"
+

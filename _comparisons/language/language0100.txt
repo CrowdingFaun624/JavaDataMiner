@@ -1,0 +1,41 @@
+13w41a (from 13w39b)
+
+Total: 1557 (+32, -0)
+
+Additions:
+	Added "tile.stainedGlass.black.name": "Black Stained Glass"
+	Added "tile.stainedGlass.blue.name": "Blue Stained Glass"
+	Added "tile.stainedGlass.brown.name": "Brown Stained Glass"
+	Added "tile.stainedGlass.cyan.name": "Cyan Stained Glass"
+	Added "tile.stainedGlass.gray.name": "Gray Stained Glass"
+	Added "tile.stainedGlass.green.name": "Green Stained Glass"
+	Added "tile.stainedGlass.lightBlue.name": "Light Blue Stained Glass"
+	Added "tile.stainedGlass.lime.name": "Lime Stained Glass"
+	Added "tile.stainedGlass.magenta.name": "Magenta Stained Glass"
+	Added "tile.stainedGlass.orange.name": "Orange Stained Glass"
+	Added "tile.stainedGlass.pink.name": "Pink Stained Glass"
+	Added "tile.stainedGlass.purple.name": "Purple Stained Glass"
+	Added "tile.stainedGlass.red.name": "Red Stained Glass"
+	Added "tile.stainedGlass.silver.name": "Light Gray Stained Glass"
+	Added "tile.stainedGlass.white.name": "White Stained Glass"
+	Added "tile.stainedGlass.yellow.name": "Yellow Stained Glass"
+	Added "tile.thinStainedGlass.black.name": "Black Stained Glass Pane"
+	Added "tile.thinStainedGlass.blue.name": "Blue Stained Glass Pane"
+	Added "tile.thinStainedGlass.brown.name": "Brown Stained Glass Pane"
+	Added "tile.thinStainedGlass.cyan.name": "Cyan Stained Glass Pane"
+	Added "tile.thinStainedGlass.gray.name": "Gray Stained Glass Pane"
+	Added "tile.thinStainedGlass.green.name": "Green Stained Glass Pane"
+	Added "tile.thinStainedGlass.lightBlue.name": "Light Blue Stained Glass Pane"
+	Added "tile.thinStainedGlass.lime.name": "Lime Stained Glass Pane"
+	Added "tile.thinStainedGlass.magenta.name": "Magenta Stained Glass Pane"
+	Added "tile.thinStainedGlass.orange.name": "Orange Stained Glass Pane"
+	Added "tile.thinStainedGlass.pink.name": "Pink Stained Glass Pane"
+	Added "tile.thinStainedGlass.purple.name": "Purple Stained Glass Pane"
+	Added "tile.thinStainedGlass.red.name": "Red Stained Glass Pane"
+	Added "tile.thinStainedGlass.silver.name": "Light Gray Stained Glass Pane"
+	Added "tile.thinStainedGlass.white.name": "White Stained Glass Pane Pane"
+	Added "tile.thinStainedGlass.yellow.name": "Yellow Stained Glass Pane"
+
+Changes:
+	Changed "selectWorld.gameMode" from "Game Mode:" to "Game Mode"
+

@@ -1,0 +1,11 @@
+18w47a (from 18w46a)
+
+Total: 4149 (+5, -0)
+
+Additions:
+	Added "effect.minecraft.bad_omen": "Bad Omen"
+	Added "event.minecraft.raid": "Raid"
+	Added "event.minecraft.raid.mobs_remaining": "Mobs remaining: %s"
+	Added "subtitles.event.raid.horn_distant": "Ominous horn echos far away"
+	Added "subtitles.event.raid.horn_local": "Ominous horn blares"
+

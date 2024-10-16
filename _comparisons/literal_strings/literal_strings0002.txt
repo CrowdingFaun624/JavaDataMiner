@@ -1,0 +1,31 @@
+c0.0.12a_03 (from c0.0.11a)
+
+Total: 59 (+18, -5)
+
+Additions:
+	Added " ms"
+	Added " tiles in "
+	Added "/dirt.png"
+	Added "/rock.png"
+	Added "/water.png"
+	Added "0.0.12a_03"
+	Added "Carving.."
+	Added "Flood filled "
+	Added "Generating level"
+	Added "IT HAPPENED!"
+	Added "LavaCount: "
+	Added "Loading level"
+	Added "Melting.."
+	Added "Minecraft 0.0.12a_03"
+	Added "Raising.."
+	Added "Reading.."
+	Added "Watering.."
+	Added "hoooly fuck"
+
+Removals:
+	Removed " -> "
+	Removed " connected"
+	Removed "0.0.11a"
+	Removed "Minecraft 0.0.11a"
+	Removed "SocketServer"
+

@@ -1,0 +1,9 @@
+b1.3-1 (from b1.2_02)
+
+Total: 85 (+3, -0)
+
+Additions:
+	Added 26:bed
+	Added 93:diode
+	Added 94:diode
+

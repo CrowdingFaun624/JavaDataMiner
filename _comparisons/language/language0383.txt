@@ -1,0 +1,15 @@
+21w13a (from 21w11a)
+
+Total: 5053 (+5, -0)
+
+Additions:
+	Added "block.minecraft.light": "Light"
+	Added "entity.minecraft.goat": "Goat"
+	Added "item.minecraft.goat_spawn_egg": "Goat Spawn Egg"
+	Added "options.darkMojangStudiosBackgroundColor": "Monochrome Logo"
+	Added "options.darkMojangStudiosBackgroundColor.tooltip": "Changes the Mojang Studios loading screen background color to black."
+
+Changes:
+	Changed "advancements.story.shiny_gear.title" from "Cover Me With Diamonds" to "Cover Me with Diamonds"
+	Changed "build.tooHigh" from "Height limit for building is %s blocks" to "Height limit for building is %s"
+

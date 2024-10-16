@@ -1,0 +1,67 @@
+22w42a (from 1.19.2)
+
+Total: 968 (+35, -0)
+
+Additions:
+	Added acacia_hanging_sign
+	Added acacia_wall_hanging_sign
+	Added bamboo_button
+	Added bamboo_door
+	Added bamboo_fence
+	Added bamboo_fence_gate
+	Added bamboo_hanging_sign
+	Added bamboo_mosaic
+	Added bamboo_mosaic_slab
+	Added bamboo_mosaic_stairs
+	Added bamboo_planks
+	Added bamboo_pressure_plate
+	Added bamboo_sign
+	Added bamboo_slab
+	Added bamboo_stairs
+	Added bamboo_trapdoor
+	Added bamboo_wall_hanging_sign
+	Added bamboo_wall_sign
+	Added birch_hanging_sign
+	Added birch_wall_hanging_sign
+	Added chiseled_bookshelf
+	Added crimson_hanging_sign
+	Added crimson_wall_hanging_sign
+	Added dark_oak_hanging_sign
+	Added dark_oak_wall_hanging_sign
+	Added jungle_hanging_sign
+	Added jungle_wall_hanging_sign
+	Added mangrove_hanging_sign
+	Added mangrove_wall_hanging_sign
+	Added oak_hanging_sign
+	Added oak_wall_hanging_sign
+	Added spruce_hanging_sign
+	Added spruce_wall_hanging_sign
+	Added warped_hanging_sign
+	Added warped_wall_hanging_sign
+
+Changes:
+	Changed crimson_button's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_door's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_fence's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_fence_gate's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_planks's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_pressure_plate's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_sign's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_slab's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_stairs's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_trapdoor's "sound_type" from WOOD to NETHER_WOOD
+	Changed crimson_wall_sign's "sound_type" from WOOD to NETHER_WOOD
+	Changed heavy_weighted_pressure_plate's "sound_type" from WOOD to METAL
+	Changed light_weighted_pressure_plate's "sound_type" from WOOD to METAL
+	Changed warped_button's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_door's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_fence's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_fence_gate's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_planks's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_pressure_plate's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_sign's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_slab's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_stairs's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_trapdoor's "sound_type" from WOOD to NETHER_WOOD
+	Changed warped_wall_sign's "sound_type" from WOOD to NETHER_WOOD
+

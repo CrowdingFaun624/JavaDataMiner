@@ -1,0 +1,20 @@
+inf-20100627 (from inf-20100625-2)
+
+Total: 1369 (+11, -1)
+
+Additions:
+	Added "########## GL ERROR ##########"
+	Added "@ "
+	Added "Duplicate id: "
+	Added "MB) of "
+	Added "MobSpawner"
+	Added "Post render"
+	Added "Post startup"
+	Added "Pre render"
+	Added "Pre startup"
+	Added "Startup"
+	Added "Used memory: "
+
+Removals:
+	Removed "liquid.lava"
+

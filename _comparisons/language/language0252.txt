@@ -1,0 +1,27 @@
+18w10b (from 18w10a)
+
+Total: 3432 (+11, -1)
+
+Additions:
+	Added "block.minecraft.blue_coral_plant": "Blue Coral Plant"
+	Added "block.minecraft.blue_dead_coral": "Blue Dead Coral"
+	Added "block.minecraft.pink_coral_plant": "Pink Coral Plant"
+	Added "block.minecraft.pink_dead_coral": "Pink Dead Coral"
+	Added "block.minecraft.purple_coral_plant": "Purple Coral Plant"
+	Added "block.minecraft.purple_dead_coral": "Purple Dead Coral"
+	Added "block.minecraft.red_coral_plant": "Red Coral Plant"
+	Added "block.minecraft.red_dead_coral": "Red Dead Coral"
+	Added "block.minecraft.shulker_box": "Shulker Box"
+	Added "block.minecraft.yellow_coral_plant": "Yellow Coral Plant"
+	Added "block.minecraft.yellow_dead_coral": "Yellow Dead Coral"
+
+Removals:
+	Removed "block.minecraft.dead_coral": "Dead coral"
+
+Changes:
+	Changed "block.minecraft.blue_coral" from "Blue coral" to "Blue Coral"
+	Changed "block.minecraft.pink_coral" from "Pink coral" to "Pink Coral"
+	Changed "block.minecraft.purple_coral" from "Purple coral" to "Purple Coral"
+	Changed "block.minecraft.red_coral" from "Red coral" to "Red Coral"
+	Changed "block.minecraft.yellow_coral" from "Yellow coral" to "Yellow Coral"
+

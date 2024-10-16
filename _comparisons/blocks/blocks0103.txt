@@ -1,0 +1,76 @@
+1.13-pre5 (from 1.13-pre4)
+
+Total: 577 (+14, -14)
+
+Additions:
+	Added acacia_wood
+	Added birch_wood
+	Added dark_oak_wood
+	Added jungle_wood
+	Added nether_portal
+	Added oak_wood
+	Added spawner
+	Added spruce_wood
+	Added stripped_acacia_wood
+	Added stripped_birch_wood
+	Added stripped_dark_oak_wood
+	Added stripped_jungle_wood
+	Added stripped_oak_wood
+	Added stripped_spruce_wood
+
+Removals:
+	Removed acacia_bark
+	Removed birch_bark
+	Removed dark_oak_bark
+	Removed jungle_bark
+	Removed mob_spawner
+	Removed oak_bark
+	Removed portal
+	Removed spruce_bark
+	Removed stripped_acacia_bark
+	Removed stripped_birch_bark
+	Removed stripped_dark_oak_bark
+	Removed stripped_jungle_bark
+	Removed stripped_oak_bark
+	Removed stripped_spruce_bark
+
+Changes:
+	Changed black_carpet's "sound_type" from CLOTH to WOOL
+	Changed black_wool's "sound_type" from CLOTH to WOOL
+	Changed blue_carpet's "sound_type" from CLOTH to WOOL
+	Changed blue_wool's "sound_type" from CLOTH to WOOL
+	Changed brown_carpet's "sound_type" from CLOTH to WOOL
+	Changed brown_wool's "sound_type" from CLOTH to WOOL
+	Changed cactus's "sound_type" from CLOTH to WOOL
+	Changed cake's "sound_type" from CLOTH to WOOL
+	Changed cyan_carpet's "sound_type" from CLOTH to WOOL
+	Changed cyan_wool's "sound_type" from CLOTH to WOOL
+	Changed fire's "sound_type" from CLOTH to WOOL
+	Changed gray_carpet's "sound_type" from CLOTH to WOOL
+	Changed gray_wool's "sound_type" from CLOTH to WOOL
+	Changed green_carpet's "sound_type" from CLOTH to WOOL
+	Changed green_wool's "sound_type" from CLOTH to WOOL
+	Changed light_blue_carpet's "sound_type" from CLOTH to WOOL
+	Changed light_blue_wool's "sound_type" from CLOTH to WOOL
+	Changed light_gray_carpet's "sound_type" from CLOTH to WOOL
+	Changed light_gray_wool's "sound_type" from CLOTH to WOOL
+	Changed lime_carpet's "sound_type" from CLOTH to WOOL
+	Changed lime_wool's "sound_type" from CLOTH to WOOL
+	Changed magenta_carpet's "sound_type" from CLOTH to WOOL
+	Changed magenta_wool's "sound_type" from CLOTH to WOOL
+	Changed orange_carpet's "sound_type" from CLOTH to WOOL
+	Changed orange_wool's "sound_type" from CLOTH to WOOL
+	Changed pink_carpet's "sound_type" from CLOTH to WOOL
+	Changed pink_wool's "sound_type" from CLOTH to WOOL
+	Changed potted_cactus's "sound_type" from CLOTH to WOOL
+	Changed purple_carpet's "sound_type" from CLOTH to WOOL
+	Changed purple_wool's "sound_type" from CLOTH to WOOL
+	Changed red_carpet's "sound_type" from CLOTH to WOOL
+	Changed red_wool's "sound_type" from CLOTH to WOOL
+	Changed sea_pickle's "sound_type" from SLIME to SLIME_BLOCK
+	Changed slime_block's "sound_type" from SLIME to SLIME_BLOCK
+	Changed white_carpet's "sound_type" from CLOTH to WOOL
+	Changed white_wool's "sound_type" from CLOTH to WOOL
+	Changed yellow_carpet's "sound_type" from CLOTH to WOOL
+	Changed yellow_wool's "sound_type" from CLOTH to WOOL
+

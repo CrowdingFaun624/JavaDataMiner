@@ -1,0 +1,11 @@
+16w20a (from 1.9.4)
+
+Total: 12 (+5, -0)
+
+Additions:
+	Added bone_block to 1.0;1.0;stone
+	Added magma to 1.0;1.0;stone
+	Added red_nether_brick to 1.0;1.0;stone
+	Added structure_void to 1.0;1.0;stone
+	Added nether_wart_block to 1.0;1.0;wood
+

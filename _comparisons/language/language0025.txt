@@ -1,0 +1,8 @@
+12w08a (from 12w07b)
+
+Total: 737 (+2, -0)
+
+Additions:
+	Added "entity.SnowMan.name": "Snow Golem"
+	Added "entity.VillagerGolem.name": "Iron Golem"
+

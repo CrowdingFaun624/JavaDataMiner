@@ -1,0 +1,14 @@
+1.19.1-rc3 (from 1.19.1-rc2)
+
+Total: 5432 (+3, -0)
+
+Additions:
+	Added "chat.filtered_full": "The server has hidden your message for some players."
+	Added "chat.tag.filtered": "This message has been filtered by the server."
+	Added "gui.socialInteractions.tooltip.report.not_reportable": "This player can't be reported, because their chat messages can't be verified on this server"
+
+Changes:
+	Changed "chatPreview.warning.toast" from "This server uses Chat Preview and can see your messages as you type them, even before they're sent. You can turn this off in Chat Settings." to "This server uses Chat Preview and can see your messages before they are sent to other players. You can turn this off in Chat Settings."
+	Changed "gui.socialInteractions.tooltip.report.disabled" from "Cannot create report: reporting service unavailable" to "The reporting service is unavailable"
+	Changed "gui.socialInteractions.tooltip.report.no_messages" from "Cannot create report: no recent messages from player %s" to "No reportable messages from player %s"
+

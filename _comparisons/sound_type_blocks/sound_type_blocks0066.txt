@@ -1,0 +1,8 @@
+14w30a (from 14w29b)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added standing_banner to 1.0;1.0;wood
+	Added wall_banner to 1.0;1.0;wood
+

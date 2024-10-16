@@ -1,0 +1,7 @@
+19w45a (from 19w44a)
+
+Total: 810 (+0, -1)
+
+Removals:
+	Removed "PARROT_IMITATE_ENDERMAN": "entity.parrot.imitate.enderman"
+

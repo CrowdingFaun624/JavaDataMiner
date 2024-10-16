@@ -1,0 +1,7 @@
+19w45a (from 19w44a)
+
+Total: 498 (+0, -1)
+
+Removals:
+	Removed "subtitles.entity.parrot.imitate.enderman": "Parrot vwoops"
+

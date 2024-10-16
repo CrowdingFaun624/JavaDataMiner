@@ -1,0 +1,7 @@
+1.18-pre2 (from 1.18-pre1)
+
+Total: 5155 (+1, -0)
+
+Additions:
+	Added "commands.worldborder.set.failed.far": "World border cannot be further out than %s blocks"
+

@@ -1,0 +1,26 @@
+21w07a (from 21w06a)
+
+Total: 5020 (+20, -0)
+
+Additions:
+	Added "block.minecraft.chiseled_grimstone": "Chiseled Grimstone"
+	Added "block.minecraft.grimstone": "Grimstone"
+	Added "block.minecraft.grimstone_brick_slab": "Grimstone Brick Slab"
+	Added "block.minecraft.grimstone_brick_stairs": "Grimstone Brick Stairs"
+	Added "block.minecraft.grimstone_brick_wall": "Grimstone Brick Wall"
+	Added "block.minecraft.grimstone_bricks": "Grimstone Bricks"
+	Added "block.minecraft.grimstone_slab": "Grimstone Slab"
+	Added "block.minecraft.grimstone_stairs": "Grimstone Stairs"
+	Added "block.minecraft.grimstone_tile_slab": "Grimstone Tile Slab"
+	Added "block.minecraft.grimstone_tile_stairs": "Grimstone Tile Stairs"
+	Added "block.minecraft.grimstone_tile_wall": "Grimstone Tile Wall"
+	Added "block.minecraft.grimstone_tiles": "Grimstone Tiles"
+	Added "block.minecraft.grimstone_wall": "Grimstone Wall"
+	Added "block.minecraft.polished_grimstone": "Polished Grimstone"
+	Added "block.minecraft.polished_grimstone_slab": "Polished Grimstone Slab"
+	Added "block.minecraft.polished_grimstone_stairs": "Polished Grimstone Stairs"
+	Added "block.minecraft.polished_grimstone_wall": "Polished Grimstone Wall"
+	Added "chat.disabled.launcher": "Chat disabled by launcher option, cannot send message"
+	Added "chat.disabled.options": "Chat disabled in client options"
+	Added "chat.disabled.profile": "Chat not allowed by account settings, cannot send message"
+

@@ -1,0 +1,15 @@
+b1.9-pre5 (from b1.9-pre4)
+
+Total: 860 (+9, -0)
+
+Additions:
+	Added "options.farWarning1": "A 64 bit Java installation is recommended"
+	Added "options.farWarning2": "for 'Far' render distance (you have 32 bit)"
+	Added "options.renderClouds": "Clouds"
+	Added "tile.mycel.desc": ""
+	Added "tile.mycel.name": "Mycelium"
+	Added "tile.waterlily.desc": ""
+	Added "tile.waterlily.name": "Lily Pad"
+	Added "tile.whiteStone.desc": ""
+	Added "tile.whiteStone.name": "End Stone"
+

@@ -1,0 +1,37 @@
+1.7.2 (from 1.7.1)
+
+Total: 9394 (+23, -6)
+
+Additions:
+	Added "1.7.2"
+	Added "Any Numeric Tag"
+	Added "Minecraft 1.7.2"
+	Added "Minecraft 1.7.2 ("
+	Added "NBT tag {} was of wrong type; expected {}, found {}"
+	Added "Outdated client! Please use 1.7.2"
+	Added "Outdated server! I'm still on 1.7.2"
+	Added "SOUNDS"
+	Added "Sound engine started"
+	Added "Starting integrated minecraft server version 1.7.2"
+	Added "TAG_Byte"
+	Added "TAG_Byte_Array"
+	Added "TAG_Compound"
+	Added "TAG_Double"
+	Added "TAG_End"
+	Added "TAG_Float"
+	Added "TAG_Int"
+	Added "TAG_Int_Array"
+	Added "TAG_List"
+	Added "TAG_Long"
+	Added "TAG_Short"
+	Added "TAG_String"
+	Added "UNKNOWN"
+
+Removals:
+	Removed "1.7.1"
+	Removed "Minecraft 1.7.1"
+	Removed "Minecraft 1.7.1 ("
+	Removed "Outdated client! Please use 1.7.1"
+	Removed "Outdated server! I'm still on 1.7.1"
+	Removed "Starting integrated minecraft server version 1.7.1"
+

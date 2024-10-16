@@ -1,0 +1,8 @@
+12w38b (from 12w38a)
+
+Total: 144 (+2, -0)
+
+Additions:
+	Added "minecart.base"
+	Added "minecart.inside"
+

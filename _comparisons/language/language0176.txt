@@ -1,0 +1,10 @@
+15w42a (from 15w41b)
+
+Total: 2579 (+4, -0)
+
+Additions:
+	Added "death.attack.flyIntoWall": "%1$s experienced kinetic energy"
+	Added "enchantment.frostWalker": "Frost Walker"
+	Added "enchantment.mending": "Mending"
+	Added "tile.frostedIce.name": "Frosted Ice"
+

@@ -1,0 +1,40 @@
+13w42b (from 13w42a)
+
+Total: 9315 (+19, -13)
+
+Additions:
+	Added ", defaulting to 0 (Ocean)"
+	Added "13w42b"
+	Added "FORCE_UNICODE_FONT"
+	Added "Minecraft 13w42b"
+	Added "Minecraft 13w42b ("
+	Added "Outdated client! Please use 13w42b"
+	Added "Outdated server! I'm still on 13w42b"
+	Added "Starting integrated minecraft server version 13w42b"
+	Added "forceUnicodeFont"
+	Added "forceUnicodeFont:"
+	Added "minecraft:music.game"
+	Added "minecraft:music.game.creative"
+	Added "minecraft:music.game.end"
+	Added "minecraft:music.game.end.credits"
+	Added "minecraft:music.game.end.dragon"
+	Added "minecraft:music.game.nether"
+	Added "minecraft:music.menu"
+	Added "options.forceUnicodeFont"
+	Added "u00c0u00c1u00c2u00c8u00cau00cbu00cdu00d3u00d4u00d5u00dau00dfu00e3u00f5u011fu0130u0131u0152u0153u015eu015fu0174u0175u017eu0207u0000u0000u0000u0000u0000u0000u0000 !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~u0000u00c7u00fcu00e9u00e2u00e4u00e0u00e5u00e7u00eau00ebu00e8u00efu00eeu00ecu00c4u00c5u00c9u00e6u00c6u00f4u00f6u00f2u00fbu00f9u00ffu00d6u00dcu00f8u00a3u00d8u00d7u0192u00e1u00edu00f3u00fau00f1u00d1u00aau00bau00bfu00aeu00acu00bdu00bcu00a1u00abu00bbu2591u2592u2593u2502u2524u2561u2562u2556u2555u2563u2551u2557u255du255cu255bu2510u2514u2534u252cu251cu2500u253cu255eu255fu255au2554u2569u2566u2560u2550u256cu2567u2568u2564u2565u2559u2558u2552u2553u256bu256au2518u250cu2588u2584u258cu2590u2580u03b1u03b2u0393u03c0u03a3u03c3u03bcu03c4u03a6u0398u03a9u03b4u221eu2205u2208u2229u2261u00b1u2265u2264u2320u2321u00f7u2248u00b0u2219u00b7u221au207fu00b2u25a0u0000"
+
+Removals:
+	Removed "13w42a"
+	Removed "Minecraft 13w42a"
+	Removed "Minecraft 13w42a ("
+	Removed "Outdated client! Please use 13w42a"
+	Removed "Outdated server! I'm still on 13w42a"
+	Removed "Starting integrated minecraft server version 13w42a"
+	Removed "options.renderDistance.far"
+	Removed "options.renderDistance.normal"
+	Removed "options.renderDistance.short"
+	Removed "options.renderDistance.tiny"
+	Removed "performance.balanced"
+	Removed "performance.max"
+	Removed "performance.powersaver"
+

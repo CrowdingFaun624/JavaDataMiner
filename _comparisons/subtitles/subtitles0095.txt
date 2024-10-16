@@ -1,0 +1,10 @@
+23w44a (from 23w43b)
+
+Total: 751 (+4, -0)
+
+Additions:
+	Added "subtitles.block.copper_bulb.turn_off": "Copper Bulb turns off"
+	Added "subtitles.block.copper_bulb.turn_on": "Copper Bulb turns on"
+	Added "subtitles.block.copper_trapdoor.close": "Trapdoor closes"
+	Added "subtitles.block.copper_trapdoor.open": "Trapdoor opens"
+

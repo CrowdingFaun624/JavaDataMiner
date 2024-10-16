@@ -1,0 +1,16 @@
+19w07a (from 19w06a)
+
+Total: 459 (+10, -0)
+
+Additions:
+	Added "subtitles.entity.fox.aggro": "Fox angers"
+	Added "subtitles.entity.fox.ambient": "Fox squeaks"
+	Added "subtitles.entity.fox.bark": "Fox barks"
+	Added "subtitles.entity.fox.bite": "Fox bites"
+	Added "subtitles.entity.fox.death": "Fox dies"
+	Added "subtitles.entity.fox.eat": "Fox eats"
+	Added "subtitles.entity.fox.hurt": "Fox hurts"
+	Added "subtitles.entity.fox.sleep": "Fox snores"
+	Added "subtitles.entity.fox.sniff": "Fox sniffs"
+	Added "subtitles.entity.fox.spit": "Fox spits"
+

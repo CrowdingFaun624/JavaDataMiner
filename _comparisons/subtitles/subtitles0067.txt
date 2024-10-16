@@ -1,0 +1,11 @@
+21w10a (from 21w08b)
+
+Total: 634 (+5, -0)
+
+Additions:
+	Added "subtitles.entity.glow_item_frame.add_item": "Glow Item Frame fills"
+	Added "subtitles.entity.glow_item_frame.break": "Glow Item Frame breaks"
+	Added "subtitles.entity.glow_item_frame.place": "Glow Item Frame placed"
+	Added "subtitles.entity.glow_item_frame.remove_item": "Glow Item Frame empties"
+	Added "subtitles.entity.glow_item_frame.rotate_item": "Glow Item Frame clicks"
+

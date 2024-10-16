@@ -1,0 +1,11 @@
+13w41a (from 13w39b)
+
+Total: 167 (+2, -1)
+
+Additions:
+	Added stained_glass
+	Added stained_glass_pane
+
+Removals:
+	Removed chest_locked_aprilfools_super_old_legacy_we_should_not_even_have_this
+

@@ -1,0 +1,17 @@
+18w31a (from 18w30b)
+
+Total: 3918 (+8, -0)
+
+Additions:
+	Added "argument.dimension.invalid": "Unknown dimension '%s'"
+	Added "commands.chunk.forced": "Marked chunk (%s, %s) as force loaded"
+	Added "commands.chunk.not.forced": "Could not mark chunk (%s, %s) as force loaded, already so"
+	Added "commands.chunk.not.unforced": "Could not mark chunk (%s, %s) as not force loaded, already so"
+	Added "commands.chunk.unforced": "Marked chunk (%s, %s) as not force loaded"
+	Added "death.attack.even_more_magic": "%1$s was killed by even more magic"
+	Added "death.attack.message_too_long": "Actually, message was too long to deliver fully. Sorry! Here's stripped version: %s"
+	Added "menu.loadingForcedChunks": "Loading forced chunks for dimension %s"
+
+Changes:
+	Changed "multiplayer.message_not_delivered" from "Can't deliver chat message, check server logs" to "Can't deliver chat message starting with %s, check server logs"
+

@@ -1,0 +1,8 @@
+16w39a (from 16w38a)
+
+Total: 221 (+2, -0)
+
+Additions:
+	Added observer
+	Added shulker_box
+

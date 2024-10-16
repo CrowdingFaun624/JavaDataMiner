@@ -1,0 +1,11 @@
+21w44a (from 21w43a)
+
+Total: 5153 (+5, -0)
+
+Additions:
+	Added "options.allowServerListing": "Allow Server Listings"
+	Added "options.allowServerListing.tooltip": "Servers may list online players as part of their public status.\nWith this option off your name will not show up in such lists."
+	Added "options.difficulty.online": "Server Difficulty"
+	Added "options.online": "Online..."
+	Added "options.online.title": "Online Options"
+

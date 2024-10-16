@@ -1,0 +1,21 @@
+1.14_combat-0 (from 1.14.4)
+
+Total: 676 (+0, -0)
+
+Changes:
+	Changed acacia_stairs's "sound_type" from WOOD to STONE
+	Changed bamboo_sapling's "sound_type" from BAMBOO_SAPLING to BAMBOO_SAPLING BAMBOO BAMBOO_SAPLING BAMBOO_SAPLING BAMBOO
+	Changed beetroots's "sound_type" from CROP to CROP GRASS CROP GRASS GRASS
+	Changed birch_stairs's "sound_type" from WOOD to STONE
+	Changed carrots's "sound_type" from CROP to CROP GRASS CROP GRASS GRASS
+	Changed dark_oak_stairs's "sound_type" from WOOD to STONE
+	Changed jungle_stairs's "sound_type" from WOOD to STONE
+	Changed melon_stem's "sound_type" from HARD_CROP to WOOD WOOD CROP WOOD WOOD
+	Changed nether_wart's "sound_type" from NETHER_WART to NETHER_WART STONE NETHER_WART STONE STONE
+	Changed oak_stairs's "sound_type" from WOOD to STONE
+	Changed potatoes's "sound_type" from CROP to CROP GRASS CROP GRASS GRASS
+	Changed pumpkin_stem's "sound_type" from HARD_CROP to WOOD WOOD CROP WOOD WOOD
+	Changed spruce_stairs's "sound_type" from WOOD to STONE
+	Changed sweet_berry_bush's "sound_type" from SWEET_BERRY_BUSH to SWEET_BERRY_BUSH GRASS SWEET_BERRY_BUSH GRASS GRASS
+	Changed wheat's "sound_type" from CROP to CROP GRASS CROP GRASS GRASS
+

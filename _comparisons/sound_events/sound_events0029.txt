@@ -1,0 +1,10 @@
+1.2 (from 12w08a)
+
+Total: 124 (+4, -0)
+
+Additions:
+	Added "mob.irongolem.death"
+	Added "mob.irongolem.hit"
+	Added "mob.irongolem.throw"
+	Added "mob.irongolem.walk"
+

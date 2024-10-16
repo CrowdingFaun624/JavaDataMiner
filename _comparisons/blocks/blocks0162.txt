@@ -1,0 +1,14 @@
+23w14a (from 23w13a_or_b)
+
+Total: 1003 (+0, -8)
+
+Removals:
+	Removed cheese
+	Removed copper_sink
+	Removed copper_spleaves
+	Removed filled_copper_sink
+	Removed other_portal
+	Removed packed_air
+	Removed pickaxe_block
+	Removed place_block
+

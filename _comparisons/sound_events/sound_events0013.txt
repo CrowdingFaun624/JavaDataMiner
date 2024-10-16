@@ -1,0 +1,8 @@
+a1.0.8_01 (from a1.0.7)
+
+Total: 36 (+2, -0)
+
+Additions:
+	Added "mob.cow"
+	Added "mob.cowhurt"
+

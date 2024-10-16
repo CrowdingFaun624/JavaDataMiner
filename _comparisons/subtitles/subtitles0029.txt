@@ -1,0 +1,31 @@
+18w43a (from 1.13.2)
+
+Total: 430 (+25, -0)
+
+Additions:
+	Added "subtitles.entity.illager_beast.ambient": "Illager Beast grunts"
+	Added "subtitles.entity.illager_beast.attack": "Illager Beast bites"
+	Added "subtitles.entity.illager_beast.death": "Illager Beast dies"
+	Added "subtitles.entity.illager_beast.hurt": "Illager Beast hurts"
+	Added "subtitles.entity.illager_beast.roar": "Illager Beast roars"
+	Added "subtitles.entity.illager_beast.step": "Illager Beast steps"
+	Added "subtitles.entity.illager_beast.stunned": "Illager Beast stunned"
+	Added "subtitles.entity.panda.aggressive_ambient": "Panda huffs"
+	Added "subtitles.entity.panda.ambient": "Panda pants"
+	Added "subtitles.entity.panda.bite": "Panda bites"
+	Added "subtitles.entity.panda.cant_breed": "Panda bleats"
+	Added "subtitles.entity.panda.death": "Panda dies"
+	Added "subtitles.entity.panda.eat": "Panda eats"
+	Added "subtitles.entity.panda.hurt": "Panda hurts"
+	Added "subtitles.entity.panda.pre_sneeze": "Panda's nose tickles"
+	Added "subtitles.entity.panda.sneeze": "Panda sneezes"
+	Added "subtitles.entity.panda.step": "Panda steps"
+	Added "subtitles.entity.panda.worried_ambient": "Panda whimpers"
+	Added "subtitles.entity.pillager.ambient": "Pillager murmurs"
+	Added "subtitles.entity.pillager.death": "Pillager dies"
+	Added "subtitles.entity.pillager.hurt": "Pillager hurts"
+	Added "subtitles.item.crossbow.charge": "Crossbow charges up"
+	Added "subtitles.item.crossbow.hit": "Arrow hits"
+	Added "subtitles.item.crossbow.load": "Crossbow loads"
+	Added "subtitles.item.crossbow.shoot": "Crossbow fires"
+

@@ -1,0 +1,9 @@
+1.2 (from 12w08a)
+
+Total: 737 (+0, -0)
+
+Changes:
+	Changed "entity.PigZombie.name" from "Pig Zombie" to "Zombie Pigman"
+	Changed "item.bootsGold.name" from "Golden boots" to "Golden Boots"
+	Changed "item.bucketLava.name" from "Lava bucket" to "Lava Bucket"
+

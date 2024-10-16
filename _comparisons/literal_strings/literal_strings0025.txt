@@ -1,0 +1,31 @@
+in-20100111-1 (from in-20100105)
+
+Total: 786 (+21, -2)
+
+Additions:
+	Added "/grass.png"
+	Added "0000"
+	Added "Calculating light.."
+	Added "Create"
+	Added "Deep"
+	Added "Flat"
+	Added "Floating"
+	Added "Hell"
+	Added "Inland"
+	Added "Island"
+	Added "Long"
+	Added "Post-processing.."
+	Added "Shape:"
+	Added "Shape: "
+	Added "Size: "
+	Added "Square"
+	Added "Theme: "
+	Added "Type: "
+	Added "mc_map_"
+	Added "newsound"
+	Added "random.fizz"
+
+Removals:
+	Removed "/rock.png"
+	Removed "minecraft_map.png"
+

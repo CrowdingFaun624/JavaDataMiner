@@ -1,0 +1,19 @@
+1.10-pre2 (from 1.10-pre1)
+
+Total: 2905 (+5, -6)
+
+Additions:
+	Added "entity.donkey.name": "Donkey"
+	Added "entity.horse.name": "Horse"
+	Added "entity.mule.name": "Mule"
+	Added "entity.skeletonhorse.name": "Skeleton Horse"
+	Added "entity.zombiehorse.name": "Zombie Horse"
+
+Removals:
+	Removed "entity.Donkey.name": "Donkey"
+	Removed "entity.ElderGuardian.name": "Elder Guardian"
+	Removed "entity.Horse.name": "Horse"
+	Removed "entity.Mule.name": "Mule"
+	Removed "entity.SkeletonHorse.name": "Skeleton Horse"
+	Removed "entity.ZombieHorse.name": "Zombie Horse"
+

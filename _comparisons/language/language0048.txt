@@ -1,0 +1,14 @@
+12w41a (from 12w40b)
+
+Total: 1012 (+8, -0)
+
+Additions:
+	Added "container.repair": "Repair & Name"
+	Added "death.anvil": "%1$s was squashed by a falling anvil"
+	Added "options.multiplayer.title": "Multiplayer Settings..."
+	Added "options.showCape": "Show Cape"
+	Added "tile.anvil.intact.name": "Anvil"
+	Added "tile.anvil.name": "Anvil"
+	Added "tile.anvil.slightlyDamaged.name": "Slightly Damaged Anvil"
+	Added "tile.anvil.veryDamaged.name": "Very Damaged Anvil"
+

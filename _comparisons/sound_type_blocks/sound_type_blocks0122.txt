@@ -1,0 +1,12 @@
+20w14infinite (from 20w13b)
+
+Total: 43 (+6, -0)
+
+Additions:
+	Added neither_portal to GLASS
+	Added netherite_stairs to NETHERITE_BLOCK
+	Added cursor to STONE
+	Added zone to STONE
+	Added ant to WET_GRASS
+	Added book_box to WOOD
+

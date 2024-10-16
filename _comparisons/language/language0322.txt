@@ -1,0 +1,21 @@
+19w41a (from 19w40a)
+
+Total: 4362 (+12, -1)
+
+Additions:
+	Added "block.minecraft.beehive": "Beehive"
+	Added "block.minecraft.honey_block": "Honey Block"
+	Added "block.minecraft.honeycomb_block": "Honeycomb Block"
+	Added "commands.spectate.not_spectator": "%s is not in spectator mode"
+	Added "commands.spectate.self": "Cannot spectate yourself"
+	Added "commands.spectate.success.started": "Now spectating %s"
+	Added "commands.spectate.success.stopped": "No longer spectating an entity"
+	Added "options.key.hold": "Hold"
+	Added "options.key.toggle": "Toggle"
+	Added "subtitles.block.honey_block.slide": "Sliding down a honey block"
+	Added "subtitles.entity.iron_golem.damage": "Iron Golem breaks"
+	Added "subtitles.entity.iron_golem.repair": "Iron Golem repaired"
+
+Removals:
+	Removed "block.minecraft.bee_hive": "Bee hive"
+

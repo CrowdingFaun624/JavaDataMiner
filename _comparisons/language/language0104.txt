@@ -1,0 +1,18 @@
+13w43a (from 13w42b)
+
+Total: 1575 (+8, -0)
+
+Additions:
+	Added "commands.setworldspawn.success": "Set the world spawn point to (%d, %d, %d)"
+	Added "commands.setworldspawn.usage": "/setworldspawn OR /setworldspawn <x> <y> <z>"
+	Added "tile.leaves.acacia.name": "Acacia Leaves"
+	Added "tile.leaves.big_oak.name": "Oak Roof Leaves"
+	Added "tile.log.acacia.name": "Acacia Wood"
+	Added "tile.log.big_oak.name": "Oak Roof Wood"
+	Added "tile.sapling.acacia.name": "Acacia Sapling"
+	Added "tile.sapling.roofed_oak.name": "Roofed Oak Sapling"
+
+Changes:
+	Changed "commands.scoreboard.objectives.add.wrongType" from "Invalid objective criteria type. Valid types are: %s" to "Invalid objective criteria type '%s'"
+	Changed "options.languageWarning" from "Language translations may not be 100% accurate" to "Language translations may not be 100%% accurate"
+

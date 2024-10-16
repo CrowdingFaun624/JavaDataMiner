@@ -1,0 +1,19 @@
+20w17a (from 20w16a)
+
+Total: 763 (+3, -3)
+
+Additions:
+	Added soul_lantern
+	Added soul_torch
+	Added soul_wall_torch
+
+Removals:
+	Removed soul_fire_lantern
+	Removed soul_fire_torch
+	Removed soul_fire_wall_torch
+
+Changes:
+	Changed chain's "sound_type" from METAL to CHAIN
+	Changed gilded_blackstone's "sound_type" from STONE to GILDED_BLACKSTONE
+	Changed nether_gold_ore's "sound_type" from STONE to NETHER_GOLD_ORE
+

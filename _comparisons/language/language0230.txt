@@ -1,0 +1,15 @@
+1.12-pre3 (from 1.12-pre2)
+
+Total: 3274 (+3, -0)
+
+Additions:
+	Added "chat.type.text.narrate": "%s says %s"
+	Added "container.enchant.level.requirement": "Level requirement: %s"
+	Added "key.advancements": "Advancements"
+
+Changes:
+	Changed "advMode.self" from "Use \"@s\" to target yourself" to "Use \"@s\" to target a player in /execute"
+	Changed "commands.function.success" from "Executed %2$s commands from function '%1$s'" to "Executed %2$s command(s) from function '%1$s'"
+	Changed "commands.reload.success" from "Successfully reloaded loot tables and advancements" to "Successfully reloaded loot tables, advancements and functions"
+	Changed "stat.playOneMinute" from "Minutes Played" to "Time Played"
+

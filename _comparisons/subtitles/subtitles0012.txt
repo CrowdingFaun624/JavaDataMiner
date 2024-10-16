@@ -1,0 +1,30 @@
+16w39a (from 16w38a)
+
+Total: 299 (+24, -0)
+
+Additions:
+	Added "subtitles.entity.evocation_fangs.attack": "Fangs snap"
+	Added "subtitles.entity.evocation_illager.ambient": "Evoker murmurs"
+	Added "subtitles.entity.evocation_illager.cast_spell": "Evoker casts spell"
+	Added "subtitles.entity.evocation_illager.death": "Evoker dies"
+	Added "subtitles.entity.evocation_illager.hurt": "Evoker hurts"
+	Added "subtitles.entity.evocation_illager.prepare_attack": "Evoker prepares attack"
+	Added "subtitles.entity.evocation_illager.prepare_summon": "Evoker prepares summoning"
+	Added "subtitles.entity.evocation_illager.prepare_wololo": "Evoker prepares charming"
+	Added "subtitles.entity.llama.ambient": "LLama bleats"
+	Added "subtitles.entity.llama.angry": "Llama bleats angry"
+	Added "subtitles.entity.llama.death": "Llama dies"
+	Added "subtitles.entity.llama.eat": "Llama eats"
+	Added "subtitles.entity.llama.hurt": "Llama hurts"
+	Added "subtitles.entity.llama.spit": "Llama spits"
+	Added "subtitles.entity.llama.step": "Llama steps"
+	Added "subtitles.entity.llama.swag": "Llama is decorated"
+	Added "subtitles.entity.vex.ambient": "Vex vexes"
+	Added "subtitles.entity.vex.charge": "Vex shrieks"
+	Added "subtitles.entity.vex.death": "Vex dies"
+	Added "subtitles.entity.vex.hurt": "Vex hurts"
+	Added "subtitles.entity.vindication_illager.ambient": "Vindicator mutters"
+	Added "subtitles.entity.vindication_illager.death": "Vindicator dies"
+	Added "subtitles.entity.vindication_illager.hurt": "Vindicator hurts"
+	Added "subtitles.item.totem.use": "Totem activates"
+

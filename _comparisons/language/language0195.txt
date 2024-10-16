@@ -1,0 +1,11 @@
+1.9.3-pre2 (from 1.9.3-pre1)
+
+Total: 2860 (+5, -0)
+
+Additions:
+	Added "commands.stopsound.success.all": "Stopped all sounds for %s"
+	Added "commands.stopsound.success.individualSound": "Stopped sound '%s' with source '%s' for %s"
+	Added "commands.stopsound.success.soundSource": "Stopped source '%s' for %s"
+	Added "commands.stopsound.unknownSoundSource": "Source %s is unknown"
+	Added "commands.stopsound.usage": "/stopsound <player> [source] [sound]"
+

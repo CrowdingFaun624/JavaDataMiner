@@ -1,0 +1,195 @@
+15w43a (from 15w42a)
+
+Total: 12 (+12, -13)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wood.break
+		step: block.wood.step
+		place: block.wood.place
+		hit: block.wood.hit
+		fall: block.wood.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.gravel.break
+		step: block.gravel.step
+		place: block.gravel.place
+		hit: block.gravel.hit
+		fall: block.gravel.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.grass.break
+		step: block.grass.step
+		place: block.grass.place
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.stone.break
+		step: block.stone.step
+		place: block.stone.place
+		hit: block.stone.hit
+		fall: block.stone.fall
+	Added:
+		volume: 1.0
+		pitch: 1.5
+		break: block.metal.break
+		step: block.metal.step
+		place: block.metal.place
+		hit: block.metal.hit
+		fall: block.metal.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.glass.break
+		step: block.glass.step
+		place: block.glass.place
+		hit: block.glass.hit
+		fall: block.glass.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.cloth.break
+		step: block.cloth.step
+		place: block.cloth.place
+		hit: block.cloth.hit
+		fall: block.cloth.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.sand.break
+		step: block.sand.step
+		place: block.sand.place
+		hit: block.sand.hit
+		fall: block.sand.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.snow.break
+		step: block.snow.step
+		place: block.snow.place
+		hit: block.snow.hit
+		fall: block.snow.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.ladder.break
+		step: block.ladder.step
+		place: block.ladder.place
+		hit: block.ladder.hit
+		fall: block.ladder.fall
+	Added:
+		volume: 0.3
+		pitch: 1.0
+		break: block.anvil.break
+		step: block.anvil.step
+		place: block.anvil.place
+		hit: block.anvil.hit
+		fall: block.anvil.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.slime.break
+		step: block.slime.step
+		place: block.slime.place
+		hit: block.slime.hit
+		fall: block.slime.fall
+
+Removals:
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.stone
+		step: step.stone
+		dig2: dig.stone
+	Removed:
+		name: wood
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.wood
+		step: step.wood
+		dig2: dig.wood
+	Removed:
+		name: gravel
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.gravel
+		step: step.gravel
+		dig2: dig.gravel
+	Removed:
+		name: grass
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.grass
+		step: step.grass
+		dig2: dig.grass
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.stone
+		step: step.stone
+		dig2: dig.stone
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.5
+		dig: dig.stone
+		step: step.stone
+		dig2: dig.stone
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.glass
+		step: step.stone
+		dig2: step.stone
+	Removed:
+		name: cloth
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.cloth
+		step: step.cloth
+		dig2: dig.cloth
+	Removed:
+		name: sand
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.sand
+		step: step.sand
+		dig2: dig.sand
+	Removed:
+		name: snow
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.snow
+		step: step.snow
+		dig2: dig.snow
+	Removed:
+		name: ladder
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.wood
+		step: step.ladder
+		dig2: dig.wood
+	Removed:
+		name: anvil
+		volume: 0.3
+		pitch: 1.0
+		dig: dig.stone
+		step: step.anvil
+		dig2: random.anvil_land
+	Removed:
+		name: slime
+		volume: 1.0
+		pitch: 1.0
+		dig: mob.slime.big
+		step: mob.slime.small
+		dig2: mob.slime.big
+

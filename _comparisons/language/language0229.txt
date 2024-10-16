@@ -1,0 +1,8 @@
+1.12-pre2 (from 1.12-pre1)
+
+Total: 3271 (+2, -0)
+
+Additions:
+	Added "advancements.nether.all_effects.description": "Have every effect applied at the same time"
+	Added "advancements.nether.all_effects.title": "How Did We Get Here?"
+

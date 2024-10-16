@@ -1,0 +1,16 @@
+18w11a (from 18w10d)
+
+Total: 623 (+10, -0)
+
+Additions:
+	Added "entity.drowned.ambient"
+	Added "entity.drowned.ambient_water"
+	Added "entity.drowned.death"
+	Added "entity.drowned.death_water"
+	Added "entity.drowned.hurt"
+	Added "entity.drowned.hurt_water"
+	Added "entity.drowned.shoot"
+	Added "entity.drowned.step"
+	Added "entity.drowned.swim"
+	Added "entity.zombie.converted_to_drowned"
+

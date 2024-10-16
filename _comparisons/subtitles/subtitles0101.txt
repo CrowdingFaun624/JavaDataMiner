@@ -1,0 +1,14 @@
+24w05a (from 24w04a)
+
+Total: 791 (+8, -0)
+
+Additions:
+	Added "subtitles.block.vault.activate": "Vault ignites"
+	Added "subtitles.block.vault.ambient": "Vault crackles"
+	Added "subtitles.block.vault.close_shutter": "Vault closes"
+	Added "subtitles.block.vault.deactivate": "Vault extinguishes"
+	Added "subtitles.block.vault.eject_item": "Vault ejects item"
+	Added "subtitles.block.vault.insert_item": "Vault unlocks"
+	Added "subtitles.block.vault.insert_item_fail": "Vault fails unlocking"
+	Added "subtitles.block.vault.open_shutter": "Vault opens"
+

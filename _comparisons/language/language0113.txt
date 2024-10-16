@@ -1,0 +1,8 @@
+13w49a (from 13w48b)
+
+Total: 1683 (+2, -0)
+
+Additions:
+	Added "title.oldgl1": "\"Old graphics card detected; this may prevent you from\""
+	Added "title.oldgl2": "\"playing in the far future as OpenGL 2.0 will be required.\""
+

@@ -1,0 +1,15 @@
+22w13oneblockatatime (from 1.18.2)
+
+Total: 79 (+1, -0)
+
+Type Additions:
+	Added type SCULK with blocks:
+		sculk
+	Added type SCULK_CATALYST with blocks:
+		sculk_catalyst
+	Added type SCULK_VEIN with blocks:
+		sculk_vein
+
+Additions:
+	Added generic_item_block to STONE
+

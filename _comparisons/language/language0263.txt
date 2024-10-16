@@ -1,0 +1,7 @@
+18w21a (from 18w20c)
+
+Total: 3608 (+0, -0)
+
+Changes:
+	Changed "demo.day.6" from "You have passed your fifth day, use {} to save a screenshot of your creation" to "You have passed your fifth day, use %s to save a screenshot of your creation"
+

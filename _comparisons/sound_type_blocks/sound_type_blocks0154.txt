@@ -1,0 +1,16 @@
+23w12a (from 1.19.4)
+
+Total: 102 (+4, -0)
+
+Type Additions:
+	Added type DECORATED_POT_CRACKED with blocks:
+		decorated_pot
+	Added type SUSPICIOUS_GRAVEL with blocks:
+		suspicious_gravel
+
+Additions:
+	Added pitcher_crop to CROP
+	Added pitcher_plant to CROP
+	Added sniffer_egg to METAL
+	Added calibrated_sculk_sensor to SCULK_SENSOR
+

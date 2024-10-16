@@ -1,0 +1,7 @@
+23w13a (from 23w12a)
+
+Total: 6097 (+0, -0)
+
+Changes:
+	Changed "item.minecraft.smithing_template.netherite_upgrade.base_slot_description" from "Add diamond armor, weapon or tool" to "Add diamond armor, weapon, or tool"
+

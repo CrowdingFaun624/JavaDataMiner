@@ -1,0 +1,11 @@
+24w07a (from 24w06a)
+
+Total: 1577 (+5, -0)
+
+Additions:
+	Added "BOGGED_AMBIENT": "entity.bogged.ambient"
+	Added "BOGGED_DEATH": "entity.bogged.death"
+	Added "BOGGED_HURT": "entity.bogged.hurt"
+	Added "BOGGED_STEP": "entity.bogged.step"
+	Added "PARROT_IMITATE_BOGGED": "entity.parrot.imitate.bogged"
+

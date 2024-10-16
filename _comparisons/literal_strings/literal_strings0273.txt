@@ -1,0 +1,34 @@
+13w38b (from 13w38a)
+
+Total: 9252 (+10, -16)
+
+Additions:
+	Added "13w38b"
+	Added "Minecraft 13w38b"
+	Added "Minecraft 13w38b ("
+	Added "Old graphics card detected; this may prevent you from"
+	Added "Starting integrated minecraft server version 13w38b"
+	Added "Starting minecraft server version 13w38b"
+	Added "https://help.mojang.com/customer/portal/articles/325948?ref=game"
+	Added "map/"
+	Added "playing in the far future as OpenGL 2.1 will be required."
+	Added "shaders/post/bumpy.json"
+
+Removals:
+	Removed " Java 1.5 compatibility will be dropped in Minecraft 1.6"
+	Removed " PowerPC compatibility will be dropped in Minecraft 1.6"
+	Removed "1.5"
+	Removed "13w38a"
+	Removed "Minecraft 13w38a"
+	Removed "Minecraft 13w38a ("
+	Removed "Notice!"
+	Removed "POSTPROCESS_ENABLE"
+	Removed "Starting integrated minecraft server version 13w38a"
+	Removed "Starting minecraft server version 13w38a"
+	Removed "http://tinyurl.com/javappc"
+	Removed "minecraft:air"
+	Removed "options.postProcessEnable"
+	Removed "postProcessEnable"
+	Removed "postProcessEnable:"
+	Removed "ppc"
+

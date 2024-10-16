@@ -1,0 +1,10 @@
+2point0_purple (from 2point0_red)
+
+Total: 12 (+4, -0)
+
+Additions:
+	Added ethoSlab to 1.0;1.0;grass
+	Added tintedGlass to 1.0;1.0;random.glass;stone;stone;stone
+	Added torchOff to 1.0;1.0;wood
+	Added blockCoal to 1;1.0;1.0;stone
+

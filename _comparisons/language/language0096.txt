@@ -1,0 +1,54 @@
+13w38a (from 13w37b)
+
+Total: 1518 (+39, -3)
+
+Additions:
+	Added "achievement.diamondsToYou": "Diamonds to you!"
+	Added "achievement.diamondsToYou.desc": "Throw diamonds at another player."
+	Added "chat.type.achievement": "%s has just earned the achievement %s"
+	Added "options.advancedButton": "Advanced Video Settings..."
+	Added "options.advancedOpenglDesc0": "Enables occlusion queries. On AMD and Intel"
+	Added "options.advancedOpenglDesc1": "hardware, this may decrease performance."
+	Added "options.advancedVideoTitle": "Advanced Video Settings"
+	Added "options.anisotropicFiltering": "Anisotropic Filtering"
+	Added "options.aoDesc0": "Enable faux ambient occlusion on blocks."
+	Added "options.aoDesc1": ""
+	Added "options.fboEnable": "Enable FBOs"
+	Added "options.fboEnableDesc0": "Enables the use of Framebuffer Objects."
+	Added "options.fboEnableDesc1": "Necessary for certain Minecraft features."
+	Added "options.framerateLimit.max": "Unlimited"
+	Added "options.framerateLimitDesc0": "Selects the maximum frame rate:"
+	Added "options.framerateLimitDesc1": "35fps, 120fps, or 200+fps."
+	Added "options.graphicsDesc0": "'Fancy': Enables extra transparency."
+	Added "options.graphicsDesc1": "'Fast': Suggested for lower-end hardware."
+	Added "options.mipmapLevels": "Mipmap Levels"
+	Added "options.particlesDesc0": "Selects the overall amount of particles."
+	Added "options.particlesDesc1": "On lower-end hardware, less is better."
+	Added "options.performanceButton": "Video Performance Settings..."
+	Added "options.performanceVideoTitle": "Video Performance Settings"
+	Added "options.postButton": "Post-Processing Settings..."
+	Added "options.postProcessEnable": "Enable Post-Processing"
+	Added "options.postProcessEnableDesc0": "Enables post-processing. Disabling will"
+	Added "options.postProcessEnableDesc1": "result in reduction in Awesome Levels."
+	Added "options.postVideoTitle": "Post-Processing Settings"
+	Added "options.qualityButton": "Video Quality Settings..."
+	Added "options.qualityVideoTitle": "Video Quality Settings"
+	Added "options.renderCloudsDesc0": "Enables the rendering of clouds."
+	Added "options.renderCloudsDesc1": ""
+	Added "options.renderDistanceDesc0": "Maximum render distance. Smaller values"
+	Added "options.renderDistanceDesc1": "run better on lower-end hardware."
+	Added "options.saturation": "Saturation"
+	Added "options.viewBobbingDesc0": "Enables view-bob when moving."
+	Added "options.viewBobbingDesc1": ""
+	Added "stats.tooltip.type.achievement": "Achievement"
+	Added "stats.tooltip.type.statistic": "Statistic"
+
+Removals:
+	Removed "performance.balanced": "Balanced"
+	Removed "performance.max": "Max FPS"
+	Removed "performance.powersaver": "Power saver"
+
+Changes:
+	Changed "commands.achievement.give.success.one" from "Successfully given %s the stat '%s'" to "Successfully given %s the stat %s"
+	Changed "options.framerateLimit" from "Performance" to "Max Framerate"
+

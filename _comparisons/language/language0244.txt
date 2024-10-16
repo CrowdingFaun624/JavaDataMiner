@@ -1,0 +1,31 @@
+18w05a (from 18w03b)
+
+Total: 3313 (+22, -0)
+
+Additions:
+	Added "commands.bossbar.create.success": "Created custom bossbar %s"
+	Added "commands.bossbar.get.max": "Custom bossbar %s has a maximum of %s"
+	Added "commands.bossbar.get.players.none": "Custom bossbar %s has no players currently online"
+	Added "commands.bossbar.get.players.some": "Custom bossbar %s has %s players currently online: %s"
+	Added "commands.bossbar.get.value": "Custom bossbar %s has a value of %s"
+	Added "commands.bossbar.get.visible.hidden": "Custom bossbar %s is currently hidden"
+	Added "commands.bossbar.get.visible.visible": "Custom bossbar %s is currently shown"
+	Added "commands.bossbar.list.bars.none": "There are no custom bossbars active"
+	Added "commands.bossbar.list.bars.some": "There are %s custom bossbars active: %s"
+	Added "commands.bossbar.remove.success": "Removed custom bossbar %s"
+	Added "commands.bossbar.set.color.success": "Custom bossbar %s has changed color"
+	Added "commands.bossbar.set.max.success": "Custom bossbar %s has changed maximum to %s"
+	Added "commands.bossbar.set.name.success": "Custom bossbar %s has been renamed"
+	Added "commands.bossbar.set.players.success.none": "Custom bossbar %s no longer has any players"
+	Added "commands.bossbar.set.players.success.some": "Custom bossbar %s now has %s players: %s"
+	Added "commands.bossbar.set.style.success": "Custom bossbar %s has changed style"
+	Added "commands.bossbar.set.value.success": "Custom bossbar %s has changed value to %s"
+	Added "commands.bossbar.set.visible.success.hidden": "Custom bossbar %s is now hidden"
+	Added "commands.bossbar.set.visible.success.visible": "Custom bossbar %s is now visible"
+	Added "commands.trigger.add.success": "Triggered %s (added %s to value)"
+	Added "commands.trigger.set.success": "Triggered %s (set value to %s)"
+	Added "commands.trigger.simple.success": "Triggered %s"
+
+Changes:
+	Changed "commands.setidletimeout.success" from "The player idle timeout is now %s seconds" to "The player idle timeout is now %s minutes"
+

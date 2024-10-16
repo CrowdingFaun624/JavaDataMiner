@@ -1,0 +1,10 @@
+12w27a (from 12w26a)
+
+Total: 921 (+4, -0)
+
+Additions:
+	Added "commands.debug.notStarted": "Can't stop profiling when we haven't started yet!"
+	Added "commands.debug.start": "Started debug profiling"
+	Added "commands.debug.stop": "Stopped debug profiling after %.2f seconds (%d ticks)"
+	Added "commands.debug.usage": "/debug <start|stop>"
+

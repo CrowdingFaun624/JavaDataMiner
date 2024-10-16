@@ -1,0 +1,13 @@
+23w33a (from 23w32a)
+
+Total: 1003 (+0, -0)
+
+Changes:
+	Changed comparator's "sound_type" from WOOD to STONE
+	Changed jukebox's "sound_type" from STONE to WOOD
+	Changed lever's "sound_type" from WOOD to STONE
+	Changed repeater's "sound_type" from WOOD to STONE
+	Changed sponge's "sound_type" from GRASS to SPONGE
+	Changed tripwire_hook's "sound_type" from STONE to WOOD
+	Changed wet_sponge's "sound_type" from GRASS to WET_SPONGE
+

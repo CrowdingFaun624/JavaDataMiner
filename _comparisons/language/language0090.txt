@@ -1,0 +1,12 @@
+1.6.2 (from 1.6.1)
+
+Total: 1360 (+6, -0)
+
+Additions:
+	Added "mco.selectServer.closed": "Closed Server"
+	Added "mco.selectServer.expired": "Expired Server"
+	Added "mco.selectServer.expires.day": "Expires in a day"
+	Added "mco.selectServer.expires.days": "Expires in %s days"
+	Added "mco.selectServer.expires.soon": "Expires soon"
+	Added "mco.selectServer.open": "Open Server"
+

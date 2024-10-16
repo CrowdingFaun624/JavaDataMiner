@@ -1,0 +1,42 @@
+12w50a (from 12w49a)
+
+Total: 7110 (+28, -6)
+
+Additions:
+	Added " has no item?!"
+	Added "/item/largexmaschest.png"
+	Added "/item/xmaschest.png"
+	Added "1.5"
+	Added "12w50a"
+	Added "FireworksItem"
+	Added "Immitating block ID"
+	Added "Immitating block data"
+	Added "Item entity "
+	Added "Life"
+	Added "LifeTime"
+	Added "Minecraft 12w50a"
+	Added "Minecraft 12w50a ("
+	Added "Minecraft Minecraft 12w50a"
+	Added "Please click u00a7nhereu00a7r for more information."
+	Added "Starting integrated minecraft server version 12w50a"
+	Added "Starting minecraft server version 12w50a"
+	Added "damage.thorns"
+	Added "heldItemTooltips"
+	Added "heldItemTooltips:"
+	Added "http://tinyurl.com/javappc"
+	Added "ppc"
+	Added "thorns"
+	Added "toolHighlight"
+	Added "twinkle"
+	Added "twinkle_far"
+	Added "u00a7lNotice!u00a7r Java 1.5 compatibility will be dropped in Minecraft 1.6"
+	Added "u00a7lNotice!u00a7r PowerPC compatibility will be dropped in Minecraft 1.6"
+
+Removals:
+	Removed "12w49a"
+	Removed "Minecraft 12w49a"
+	Removed "Minecraft 12w49a ("
+	Removed "Minecraft Minecraft 12w49a"
+	Removed "Starting integrated minecraft server version 12w49a"
+	Removed "Starting minecraft server version 12w49a"
+

@@ -1,0 +1,16 @@
+1.2.2 (from 1.2.1)
+
+Total: 3736 (+4, -4)
+
+Additions:
+	Added "Minecraft 1.2.2"
+	Added "Minecraft 1.2.2 ("
+	Added "Minecraft Minecraft 1.2.2"
+	Added "Minecraft: Minecraft 1.2.2n"
+
+Removals:
+	Removed "Minecraft 1.2.1"
+	Removed "Minecraft 1.2.1 ("
+	Removed "Minecraft Minecraft 1.2.1"
+	Removed "Minecraft: Minecraft 1.2.1n"
+

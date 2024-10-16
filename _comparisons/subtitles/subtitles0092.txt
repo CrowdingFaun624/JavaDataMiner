@@ -1,0 +1,9 @@
+23w41a (from 23w40a)
+
+Total: 744 (+3, -0)
+
+Additions:
+	Added "subtitles.block.decorated_pot.insert": "Decorated Pot fills"
+	Added "subtitles.block.decorated_pot.insert_fail": "Decorated Pot wobbles"
+	Added "subtitles.block.hanging_sign.waxed_interact_fail": "Sign wobbles"
+

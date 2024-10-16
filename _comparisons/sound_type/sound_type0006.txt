@@ -1,0 +1,22 @@
+13w42a (from 13w41b)
+
+Total: 12 (+1, -1)
+
+Additions:
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: dig.glass
+		step: step.stone
+		dig2: step.stone
+
+Removals:
+	Removed:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: random.glass
+		step: step.stone
+		dig2: step.stone
+

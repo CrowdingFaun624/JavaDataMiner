@@ -1,0 +1,24 @@
+13w05b (from 13w05a)
+
+Total: 9892 (+7, -9)
+
+Additions:
+	Added "13w05b"
+	Added "Minecraft 13w05b"
+	Added "Minecraft 13w05b ("
+	Added "Minecraft Minecraft 13w05b"
+	Added "Starting integrated minecraft server version 13w05b"
+	Added "Starting minecraft server version 13w05b"
+	Added "selectServer.deleteButton"
+
+Removals:
+	Removed "13w05a"
+	Removed "Minecraft 13w05a"
+	Removed "Minecraft 13w05a ("
+	Removed "Minecraft Minecraft 13w05a"
+	Removed "Player is on another team; cannot assign a new one without first removing from old one!"
+	Removed "Starting integrated minecraft server version 13w05a"
+	Removed "Starting minecraft server version 13w05a"
+	Removed "commands.scoreboard.teams.join.failure"
+	Removed "selectServer.editButton"
+

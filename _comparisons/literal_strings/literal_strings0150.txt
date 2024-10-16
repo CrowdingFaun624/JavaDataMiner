@@ -1,0 +1,48 @@
+b1.9-pre5 (from b1.9-pre4)
+
+Total: 3455 (+34, -6)
+
+Additions:
+	Added "/follow"
+	Added "/goto"
+	Added "/mob/enderdragon/ender_eyes.png"
+	Added "/mob/enderdragon/shuffle.png"
+	Added "64"
+	Added "Deleting "
+	Added "Minecraft Beta 1.9 Prerelease 5"
+	Added "Minecraft Beta 1.9 Prerelease 5 ("
+	Added "Minecraft Minecraft Beta 1.9 Prerelease 5"
+	Added "Minecraft: Minecraft Beta 1.9 Prerelease 5n"
+	Added "abilities"
+	Added "bookcase"
+	Added "camera"
+	Added "clear"
+	Added "clouds:"
+	Added "com.ibm.vm.bitmode"
+	Added "diamonds"
+	Added "display"
+	Added "enchantments"
+	Added "flying"
+	Added "frustrum"
+	Added "ghast"
+	Added "instabuild"
+	Added "invulnerable"
+	Added "mayfly"
+	Added "options.farWarning1"
+	Added "options.farWarning2"
+	Added "options.renderClouds"
+	Added "overkill"
+	Added "prepare"
+	Added "sun.arch.data.model"
+	Added "theEnd"
+	Added "theEnd2"
+	Added "tileentities"
+
+Removals:
+	Removed "Minecraft Beta 1.9 Prerelease 4"
+	Removed "Minecraft Beta 1.9 Prerelease 4 ("
+	Removed "Minecraft Minecraft Beta 1.9 Prerelease 4"
+	Removed "Minecraft: Minecraft Beta 1.9 Prerelease 4n"
+	Removed "Placing spikes at "
+	Removed "setup"
+

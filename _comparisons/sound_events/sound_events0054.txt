@@ -1,0 +1,42 @@
+15w49a (from 15w47c)
+
+Total: 429 (+33, -1)
+
+Additions:
+	Added "block.furnace.fire_crackle"
+	Added "block.waterlily.place"
+	Added "entity.arrow.hit_player"
+	Added "entity.cow.milk"
+	Added "entity.itemframe.add_item"
+	Added "entity.itemframe.break"
+	Added "entity.itemframe.place"
+	Added "entity.itemframe.remove_item"
+	Added "entity.itemframe.rotate_item"
+	Added "entity.leashknot.place"
+	Added "entity.painting.break"
+	Added "entity.painting.place"
+	Added "entity.snowman.ambient"
+	Added "entity.snowman.death"
+	Added "entity.snowman.hurt"
+	Added "entity.squid.ambient"
+	Added "entity.squid.death"
+	Added "entity.squid.hurt"
+	Added "item.armor.equip_chain"
+	Added "item.armor.equip_diamond"
+	Added "item.armor.equip_generic"
+	Added "item.armor.equip_gold"
+	Added "item.armor.equip_iron"
+	Added "item.armor.equip_leather"
+	Added "item.bottle.fill"
+	Added "item.bottle.fill_dragonbreath"
+	Added "item.bucket.empty"
+	Added "item.bucket.empty_lava"
+	Added "item.bucket.fill"
+	Added "item.bucket.fill_lava"
+	Added "item.chorus_fruit.teleport"
+	Added "item.hoe.till"
+	Added "item.shovel.flatten"
+
+Removals:
+	Removed "entity.arrow.successful_hit"
+

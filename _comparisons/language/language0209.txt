@@ -1,0 +1,7 @@
+16w39c (from 16w39b)
+
+Total: 3025 (+0, -0)
+
+Changes:
+	Changed "tile.shulkerBoxSilver.name" from "Silver Shulker Box" to "Light Grey Shulker Box"
+

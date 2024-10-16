@@ -1,0 +1,22 @@
+22w16a (from 22w15a)
+
+Total: 5288 (+7, -1)
+
+Additions:
+	Added "gamerule.doWardenSpawning": "Spawn Wardens"
+	Added "item.minecraft.disc_fragment_5": "Disc Fragment"
+	Added "item.minecraft.disc_fragment_5.desc": "Music Disc - 5"
+	Added "item.minecraft.music_disc_5": "Music Disc"
+	Added "item.minecraft.music_disc_5.desc": "Samuel \u00c5berg - 5"
+	Added "selectWorld.loading_list": "Loading world list"
+	Added "subtitles.entity.allay.item_thrown": "Allay tosses"
+
+Removals:
+	Removed "subtitles.entity.allay.throw": "Allay tosses"
+
+Changes:
+	Changed "gamerule.doTraderSpawning" from "Spawn wandering traders" to "Spawn Wandering Traders"
+	Changed "subtitles.entity.parrot.imitate.elder_guardian" from "Parrot flaps" to "Parrot moans"
+	Changed "subtitles.entity.parrot.imitate.piglin_brute" from "Parrot snorts mightily" to "Parrot snorts"
+	Changed "subtitles.entity.parrot.imitate.warden" from "Parrot roars" to "Parrot whines"
+

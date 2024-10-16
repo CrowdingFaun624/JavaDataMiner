@@ -1,0 +1,40 @@
+1.6.1 (from 1.6)
+
+Total: 1354 (+15, -1)
+
+Additions:
+	Added "commands.playsound.playerTooFar": "Player %s is too far away to hear the sound"
+	Added "commands.playsound.success": "Played sound '%s' to %s"
+	Added "commands.playsound.usage": "/playsound <sound> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]"
+	Added "mco.client.outdated.msg": "Your client is outdated, please consider updating it to use Realms"
+	Added "mco.client.outdated.title": "Client Outdated!"
+	Added "mco.configure.world.leave.question.line1": "If you leave this realm you won't see it unless invited again"
+	Added "mco.configure.world.leave.question.line2": "Are you sure you want to do that?"
+	Added "mco.configure.world.reset.question.line1": "Your realm will be regenerated and your current realm will be lost"
+	Added "mco.configure.world.reset.question.line2": "Are you sure you want to do that?"
+	Added "mco.configure.world.restore.question.line1": "Your realm will be restored to a previous version"
+	Added "mco.configure.world.restore.question.line2": "Are you sure you want to do that?"
+	Added "mco.selectServer.leave": "Leave Realm"
+	Added "mco.selectServer.play": "Play"
+	Added "potion.saturation": "Saturation"
+	Added "potion.saturation.postfix": "Potion of Saturation"
+
+Removals:
+	Removed "mco.selectServer.select": "Join Server"
+
+Changes:
+	Changed "mco.backup.restoring" from "Restoring your world" to "Restoring your realm"
+	Changed "mco.configure.world.buttons.backup" from "Backup" to "Backups"
+	Changed "mco.configure.world.buttons.close" from "Close World" to "Close Realm"
+	Changed "mco.configure.world.buttons.open" from "Open World" to "Open Realm"
+	Changed "mco.configure.world.buttons.reset" from "Reset World" to "Reset Realm"
+	Changed "mco.configure.world.close.question.line1" from "Your world will become unavailable." to "Your realm will become unavailable."
+	Changed "mco.configure.world.edit.title" from "Edit World" to "Edit Realm"
+	Changed "mco.configure.world.title" from "Configure World" to "Configure Realm"
+	Changed "mco.create.world.wait" from "Creating the world..." to "Creating the realm..."
+	Changed "mco.reset.world.resetting.screen.title" from "Resetting World..." to "Resetting Realm..."
+	Changed "mco.reset.world.title" from "Reset World" to "Reset Realm"
+	Changed "mco.reset.world.warning" from "This will permanently delete your world!" to "This will permanently delete your realm!"
+	Changed "mco.selectServer.create" from "Create World" to "Create Realm"
+	Changed "mco.template.title" from "World Templates" to "Realm Templates"
+

@@ -1,0 +1,12 @@
+18w08b (from 18w08a)
+
+Total: 3412 (+6, -0)
+
+Additions:
+	Added "item.minecraft.cod_bucket": "Cod Bucket"
+	Added "item.minecraft.cod_mob_spawn_egg": "Spawn Cod"
+	Added "item.minecraft.puffer_fish_spawn_egg": "Spawn Puffer Fish"
+	Added "item.minecraft.pufferfish_bucket": "Puffer Fish Bucket"
+	Added "item.minecraft.salmon_bucket": "Salmon Bucket"
+	Added "item.minecraft.salmon_mob_spawn_egg": "Spawn Salmon"
+

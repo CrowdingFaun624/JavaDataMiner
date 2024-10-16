@@ -1,0 +1,22 @@
+13w39b (from 13w39a)
+
+Total: 9365 (+8, -6)
+
+Additions:
+	Added "13w39b"
+	Added "Minecraft 13w39b"
+	Added "Minecraft 13w39b ("
+	Added "Starting integrated minecraft server version 13w39b"
+	Added "Starting minecraft server version 13w39b"
+	Added "category"
+	Added "command_block_minecart"
+	Added "commands.generic.deprecatedId"
+
+Removals:
+	Removed "13w39a"
+	Removed "Minecraft 13w39a"
+	Removed "Minecraft 13w39a ("
+	Removed "Starting integrated minecraft server version 13w39a"
+	Removed "Starting minecraft server version 13w39a"
+	Removed "hopper_command_block"
+

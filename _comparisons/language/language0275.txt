@@ -1,0 +1,12 @@
+1.13 (from 1.13-pre10)
+
+Total: 3907 (+6, -0)
+
+Additions:
+	Added "optimizeWorld.info.converted": "Upgraded chunks: %s"
+	Added "optimizeWorld.info.skipped": "Skipped chunks: %s"
+	Added "optimizeWorld.info.total": "Total chunks: %s"
+	Added "optimizeWorld.stage.counting": "Counting chunks..."
+	Added "optimizeWorld.stage.failed": "Failed! :("
+	Added "optimizeWorld.stage.finished": "Finishing up..."
+

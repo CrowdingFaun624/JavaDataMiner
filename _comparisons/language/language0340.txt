@@ -1,0 +1,24 @@
+20w12a (from 20w11a)
+
+Total: 4484 (+8, -3)
+
+Additions:
+	Added "block.minecraft.polished_basalt": "Polished Basalt"
+	Added "block.minecraft.respawn_anchor": "Respawn Anchor"
+	Added "block.minecraft.set_spawn": "Respawn point set"
+	Added "block.minecraft.spawn.not_valid": "Your have no home bed or respawn anchor, or it was obstructed"
+	Added "subtitles.block.respawn_anchor.ambient": "Portal whooshes"
+	Added "subtitles.block.respawn_anchor.charge": "Respawn anchor is charged"
+	Added "subtitles.block.respawn_anchor.deplete": "Respawn anchor depletes"
+	Added "subtitles.block.respawn_anchor.set_spawn": "Respawn anchor sets spawn"
+
+Removals:
+	Removed "block.minecraft.bed.not_valid": "Your home bed was missing or obstructed"
+	Removed "block.minecraft.bed.set_spawn": "Respawn point set"
+	Removed "death.fell.accident.water": "%1$s fell out of the water"
+
+Changes:
+	Changed "advancements.adventure.sleep_in_bed.description" from "Change your respawn point" to "Sleep in a bed to change your respawn point"
+	Changed "commands.spawnpoint.success.multiple" from "Set spawn point to %s, %s, %s for %s players" to "Set spawn point to %s, %s, %s in %s for %s players"
+	Changed "commands.spawnpoint.success.single" from "Set spawn point to %s, %s, %s for %s" to "Set spawn point to %s, %s, %s in %s for %s"
+

@@ -1,0 +1,39 @@
+1.13-pre8 (from 1.13-pre7)
+
+Total: 371 (+19, -12)
+
+Additions:
+	Added "subtitles.entity.parrot.imitate.phantom": "Parrot screeches"
+	Added "subtitles.entity.phantom.ambient": "Phantom screeches"
+	Added "subtitles.entity.phantom.bite": "Phantom bites"
+	Added "subtitles.entity.phantom.death": "Phantom dies"
+	Added "subtitles.entity.phantom.flap": "Phantom flaps"
+	Added "subtitles.entity.phantom.hurt": "Phantom hurts"
+	Added "subtitles.entity.phantom.swoop": "Phantom swoops"
+	Added "subtitles.entity.turtle.ambient_land": "Turtle chirps"
+	Added "subtitles.entity.turtle.death": "Turtle dies"
+	Added "subtitles.entity.turtle.death_baby": "Turtle baby dies"
+	Added "subtitles.entity.turtle.egg_break": "Turtle egg breaks"
+	Added "subtitles.entity.turtle.egg_crack": "Turtle egg cracks"
+	Added "subtitles.entity.turtle.egg_hatch": "Turtle egg hatches"
+	Added "subtitles.entity.turtle.hurt": "Turtle hurts"
+	Added "subtitles.entity.turtle.hurt_baby": "Turtle baby hurts"
+	Added "subtitles.entity.turtle.lay_egg": "Turtle lays egg"
+	Added "subtitles.entity.turtle.shamble": "Turtle shambles"
+	Added "subtitles.entity.turtle.shamble_baby": "Turtle baby shambles"
+	Added "subtitles.entity.turtle.swim": "Turtle swims"
+
+Removals:
+	Removed "subtitles.turtle.ambient_land": "Turtle chirps"
+	Removed "subtitles.turtle.death": "Turtle dies"
+	Removed "subtitles.turtle.death_baby": "Turtle baby dies"
+	Removed "subtitles.turtle.egg_break": "Turtle egg breaks"
+	Removed "subtitles.turtle.egg_crack": "Turtle egg cracks"
+	Removed "subtitles.turtle.egg_hatch": "Turtle egg hatches"
+	Removed "subtitles.turtle.hurt": "Turtle hurts"
+	Removed "subtitles.turtle.hurt_baby": "Turtle baby hurts"
+	Removed "subtitles.turtle.lay_egg": "Turtle lays egg"
+	Removed "subtitles.turtle.shamble": "Turtle shambles"
+	Removed "subtitles.turtle.shamble_baby": "Turtle baby shambles"
+	Removed "subtitles.turtle.swim": "Turtle swims"
+

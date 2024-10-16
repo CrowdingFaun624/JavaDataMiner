@@ -1,0 +1,11 @@
+13w43a (from 13w42b)
+
+Total: 169 (+2, -0)
+
+Additions:
+	Added leaves2
+	Added log2
+
+Changes:
+	Changed hay_block's "sound_type" from grass,1.0,1.0,dig.grass,step.grass,dig.grass to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+

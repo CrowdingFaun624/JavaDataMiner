@@ -1,0 +1,12 @@
+12w30a (from 12w27a)
+
+Total: 927 (+6, -0)
+
+Additions:
+	Added "options.fullscreen": "Fullscreen"
+	Added "options.snooper": "Allow Snooper"
+	Added "options.snooper.desc": "We want to collect information about your machine to help improve Minecraft by knowing what we can support and where the biggest problems are. All of this information is completely anonymous and viewable below. We promise we won't do anything bad with this data, but if you want to opt out then feel free to toggle it off!"
+	Added "options.snooper.title": "Machine Specs Collection"
+	Added "options.snooper.view": "Snooper Settings..."
+	Added "options.vsync": "Use VSync"
+

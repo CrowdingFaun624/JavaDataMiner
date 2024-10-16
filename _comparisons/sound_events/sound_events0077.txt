@@ -1,0 +1,24 @@
+18w08b (from 18w08a)
+
+Total: 602 (+18, -0)
+
+Additions:
+	Added "entity.cod.ambient"
+	Added "entity.cod.death"
+	Added "entity.cod.flop"
+	Added "entity.cod.hurt"
+	Added "entity.fish.swim"
+	Added "entity.puffer_fish.ambient"
+	Added "entity.puffer_fish.blow_out"
+	Added "entity.puffer_fish.blow_up"
+	Added "entity.puffer_fish.death"
+	Added "entity.puffer_fish.flop"
+	Added "entity.puffer_fish.hurt"
+	Added "entity.puffer_fish.sting"
+	Added "entity.salmon.ambient"
+	Added "entity.salmon.death"
+	Added "entity.salmon.flop"
+	Added "entity.salmon.hurt"
+	Added "item.bucket.empty_fish"
+	Added "item.bucket.fill_fish"
+

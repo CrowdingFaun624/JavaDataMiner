@@ -1,0 +1,39 @@
+12w21b (from 12w21a)
+
+Total: 5510 (+18, -13)
+
+Additions:
+	Added "12w21b"
+	Added "Minecraft 12w21b"
+	Added "Minecraft 12w21b ("
+	Added "Minecraft Minecraft 12w21b"
+	Added "Starting integrated minecraft server version 12w21b"
+	Added "Starting minecraft server version 12w21b"
+	Added "brewing"
+	Added "buildingBlocks"
+	Added "combat"
+	Added "decorations"
+	Added "food"
+	Added "inventory"
+	Added "itemGroup."
+	Added "materials"
+	Added "misc"
+	Added "search"
+	Added "tools"
+	Added "transportation"
+
+Removals:
+	Removed "12w21a"
+	Removed "Go download the server, and extract it to:"
+	Removed "Minecraft 12w21a"
+	Removed "Minecraft 12w21a ("
+	Removed "Minecraft Minecraft 12w21a"
+	Removed "No thanks :("
+	Removed "Okay! :D"
+	Removed "Starting integrated minecraft server version 12w21a"
+	Removed "Starting minecraft server version 12w21a"
+	Removed "Unfortunately we can't automagically download the server for this snapshot."
+	Removed "When you're done, hit okay to try again!"
+	Removed "container.creative"
+	Removed "u00a7nu00a7lIt's worse than that; He's dead, Jim!"
+

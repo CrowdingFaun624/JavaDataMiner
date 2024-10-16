@@ -1,0 +1,17 @@
+18w32a (from 18w31a)
+
+Total: 3929 (+11, -0)
+
+Additions:
+	Added "block.minecraft.dead_brain_coral": "Dead Brain Coral"
+	Added "block.minecraft.dead_bubble_coral": "Dead Bubble Coral"
+	Added "block.minecraft.dead_fire_coral": "Dead Fire Coral"
+	Added "block.minecraft.dead_horn_coral": "Dead Horn Coral"
+	Added "block.minecraft.dead_tube_coral": "Dead Tube Coral"
+	Added "stat.minecraft.clean_shulker_box": "Shulker Box Cleaned"
+	Added "stat.minecraft.damage_absorbed": "Damage Absorbed"
+	Added "stat.minecraft.damage_blocked_by_shield": "Damage Blocked By Shield"
+	Added "stat.minecraft.damage_dealt_absorbed": "Damage Dealt (Absorbed)"
+	Added "stat.minecraft.damage_dealt_resisted": "Damage Dealt (Resisted)"
+	Added "stat.minecraft.damage_resisted": "Damage Resisted"
+

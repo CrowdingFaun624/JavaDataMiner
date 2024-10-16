@@ -1,0 +1,8 @@
+19w35a (from 19w34a)
+
+Total: 4345 (+0, -2)
+
+Removals:
+	Removed "deathScreen.deleteWorld": "Delete world"
+	Removed "deathScreen.leaveServer": "Leave server"
+

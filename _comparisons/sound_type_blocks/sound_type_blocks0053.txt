@@ -1,0 +1,7 @@
+13w17a (from 13w16b)
+
+Total: 12 (+1, -0)
+
+Additions:
+	Added clayHardened to 1;1.0;1.0;stone
+

@@ -1,0 +1,7 @@
+inf-20100320 (from inf-20100316)
+
+Total: 1007 (+1, -0)
+
+Additions:
+	Added "random.explode"
+

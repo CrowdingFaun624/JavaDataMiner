@@ -1,0 +1,11 @@
+20w49a (from 20w48a)
+
+Total: 611 (+2, -0)
+
+Additions:
+	Added "subtitles.block.sculk_sensor.clicking": "Sculk Sensor starts clicking"
+	Added "subtitles.block.sculk_sensor.clicking_stop": "Sculk Sensor stops clicking"
+
+Changes:
+	Changed "subtitles.block.pointed_dripstone.land" from "Pointed Dripstone crashes down" to "Stalactite crashes down"
+

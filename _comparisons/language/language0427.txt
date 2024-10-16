@@ -1,0 +1,19 @@
+1.19.1-pre3 (from 1.19.1-pre2)
+
+Total: 5418 (+4, -0)
+
+Additions:
+	Added "gui.socialInteractions.narration.hide": "Hide messages from %s"
+	Added "gui.socialInteractions.narration.report": "Report player %s"
+	Added "gui.socialInteractions.narration.show": "Show messages from %s"
+	Added "gui.socialInteractions.tooltip.report.no_messages": "Cannot create report: no recent messages from player %s"
+
+Changes:
+	Changed "chat.tag.not_secure" from "This message is not secure" to "This message is not secure, which means that it might have been modified by the server"
+	Changed "gui.abuseReport.reason.harassment_or_bullying.description" from "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent." to "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent (\"doxing\")."
+	Changed "gui.abuseReport.reason.imminent_harm.description" from "Someone is threatening to harm you or someone else in real life." to "Someone is threatening to harm themselves in real life or talking about harming themselves in real life."
+	Changed "gui.abuseReport.reason.terrorism_or_violent_extremism.description" from "Someone is talking about, promoting, or threatening to commit acts of terrorism or violent extremism for political, religious, ideological, or other reasons." to "Someone is talking about, promoting, or threatening with acts of terrorism or violent extremism for political, religious, ideological, or other reasons."
+	Changed "gui.socialInteractions.tooltip.hide" from "Hide messages from %s in chat" to "Hide messages"
+	Changed "gui.socialInteractions.tooltip.report" from "Create report for %s" to "Report player"
+	Changed "gui.socialInteractions.tooltip.show" from "Show messages from %s in chat" to "Show messages"
+

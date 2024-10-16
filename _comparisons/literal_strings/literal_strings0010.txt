@@ -1,0 +1,19 @@
+c0.0.19a_06-2 (from c0.0.18a_02)
+
+Total: 162 (+4, -7)
+
+Additions:
+	Added "/gui.png"
+	Added "0.0.19a_06"
+	Added "Minecraft 0.0.19a_06"
+	Added "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:-_'*!\\\"#%/()=+?[]{}<>@|$;"
+
+Removals:
+	Removed "0.0.18a_02"
+	Removed "GUI: Draw crosshair"
+	Removed "GUI: Draw selected"
+	Removed "GUI: Draw text"
+	Removed "GUI: Init"
+	Removed "Minecraft 0.0.18a_02"
+	Removed "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:-_'*!\\\"#%/()=+?[]{}<>@|$"
+

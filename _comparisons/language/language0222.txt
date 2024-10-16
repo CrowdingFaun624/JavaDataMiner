@@ -1,0 +1,36 @@
+17w15a (from 17w14a)
+
+Total: 3070 (+24, -4)
+
+Additions:
+	Added "item.bed.black.name": "Black Bed"
+	Added "item.bed.blue.name": "Blue Bed"
+	Added "item.bed.brown.name": "Brown Bed"
+	Added "item.bed.cyan.name": "Cyan Bed"
+	Added "item.bed.gray.name": "Gray Bed"
+	Added "item.bed.green.name": "Green Bed"
+	Added "item.bed.lightBlue.name": "Light Blue Bed"
+	Added "item.bed.lime.name": "Lime Bed"
+	Added "item.bed.magenta.name": "Magenta Bed"
+	Added "item.bed.orange.name": "Orange Bed"
+	Added "item.bed.pink.name": "Pink Bed"
+	Added "item.bed.purple.name": "Purple Bed"
+	Added "item.bed.red.name": "Red Bed"
+	Added "item.bed.silver.name": "Light Gray Bed"
+	Added "item.bed.white.name": "White Bed"
+	Added "item.bed.yellow.name": "Yellow Bed"
+	Added "narrator.toast.disabled": "Narrator Disabled"
+	Added "narrator.toast.enabled": "Narrator Enabled"
+	Added "options.narrator": "Narrator"
+	Added "options.narrator.all": "Narrates all"
+	Added "options.narrator.chat": "Narrates chat"
+	Added "options.narrator.off": "Off"
+	Added "options.narrator.system": "Narrates system"
+	Added "subtitles.entity.imitates": "%s imitates %s"
+
+Removals:
+	Removed "item.bed.name": "Bed"
+	Removed "options.narrator.active": "Narrator active"
+	Removed "options.narrator.inactive": "Narrator inactive"
+	Removed "tile.bed.name": "Bed"
+

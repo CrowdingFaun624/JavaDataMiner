@@ -1,0 +1,31 @@
+1.2.4 (from 1.2.3)
+
+Total: 3782 (+16, -7)
+
+Additions:
+	Added "0123456789abcdefklmnor"
+	Added "Couldn't create URI from chat"
+	Added "Minecraft 1.2.4"
+	Added "Minecraft 1.2.4 ("
+	Added "Minecraft Minecraft 1.2.4"
+	Added "Minecraft: Minecraft 1.2.4n"
+	Added "Please restart the game if you see this message again."
+	Added "We've tried to free up enough memory to let you go back to"
+	Added "[\\./\"]|COM"
+	Added "^(?:(https?)://)?([\\w-_\\.]{2,}\\.[a-z]{2,3})(/\\S+)?$"
+	Added "chat.copy"
+	Added "chat.link.confirm"
+	Added "chat.link.warning"
+	Added "gui.no"
+	Added "gui.yes"
+	Added "the main menu and back to playing, but this may not have worked."
+
+Removals:
+	Removed "0123456789abcdefk"
+	Removed "Checking light "
+	Removed "Minecraft 1.2.3"
+	Removed "Minecraft 1.2.3 ("
+	Removed "Minecraft Minecraft 1.2.3"
+	Removed "Minecraft: Minecraft 1.2.3n"
+	Removed "Please restart the game."
+

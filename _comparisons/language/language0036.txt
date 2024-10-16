@@ -1,0 +1,9 @@
+12w24a (from 12w23b)
+
+Total: 903 (+3, -0)
+
+Additions:
+	Added "commands.publish.failed": "Unable to host local game"
+	Added "commands.publish.started": "Local game hosted on %s"
+	Added "container.chestDouble": "Large Chest"
+

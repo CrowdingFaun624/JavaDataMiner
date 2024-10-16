@@ -1,0 +1,14 @@
+19w05a (from 19w04b)
+
+Total: 21 (+1, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.lantern.break
+		step: block.lantern.step
+		place: block.lantern.place
+		hit: block.lantern.hit
+		fall: block.lantern.fall
+

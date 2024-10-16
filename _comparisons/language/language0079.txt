@@ -1,0 +1,8 @@
+13w21b (from 13w21a)
+
+Total: 1305 (+0, -0)
+
+Changes:
+	Changed "death.fell.finish" from "%1$s was fell too far and was finished by %2$s" to "%1$s fell too far and was finished by %2$s"
+	Changed "death.fell.finish.item" from "%1$s was fell too far and was finished by %2$s using %3$s" to "%1$s fell too far and was finished by %2$s using %3$s"
+

@@ -1,0 +1,9 @@
+12w21a (from 12w19a)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added enderChest to 1;1.0;1.0;stone
+	Added oreEmerald to 1;1.0;1.0;stone
+	Added stairsSandStone to 1;1.0;1.0;stone
+

@@ -1,0 +1,11 @@
+18w19a (from 18w16a)
+
+Total: 372 (+5, -0)
+
+Additions:
+	Added "subtitles.entity.parrot.imitate.drowned": "Parrot gurgles"
+	Added "subtitles.entity.skeleton_horse.swim": "Skeleton Horse swims"
+	Added "subtitles.entity.skeleton_horse.water_ambient": "Skeleton Horse cries"
+	Added "subtitles.entity.skeleton_horse.water_gallop": "Skeleton Horse gallops"
+	Added "subtitles.entity.skeleton_horse.water_jump": "Skeleton Horse jumps"
+

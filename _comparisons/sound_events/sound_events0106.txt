@@ -1,0 +1,17 @@
+19w41a (from 19w40a)
+
+Total: 814 (+8, -1)
+
+Additions:
+	Added "HONEY_BLOCK_BREAK": "block.honey_block.break"
+	Added "HONEY_BLOCK_FALL": "block.honey_block.fall"
+	Added "HONEY_BLOCK_HIT": "block.honey_block.hit"
+	Added "HONEY_BLOCK_PLACE": "block.honey_block.place"
+	Added "HONEY_BLOCK_SLIDE": "block.honey_block.slide"
+	Added "HONEY_BLOCK_STEP": "block.honey_block.step"
+	Added "IRON_GOLEM_DAMAGE": "entity.iron_golem.damage"
+	Added "IRON_GOLEM_REPAIR": "entity.iron_golem.repair"
+
+Removals:
+	Removed "PARROT_IMITATE_PANDA": "entity.parrot.imitate.panda"
+

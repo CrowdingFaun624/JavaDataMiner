@@ -1,0 +1,19 @@
+16w41a (from 16w40a)
+
+Total: 3032 (+7, -0)
+
+Additions:
+	Added "commands.generic.player.unspecified": "You must specify which player you wish to perform this action on."
+	Added "commands.generic.selector.notFound": "Selector '%s' found nothing"
+	Added "commands.generic.selector_argument": "Invalid selector argument: %s"
+	Added "commands.spreadplayers.noop": "No players found to spread"
+	Added "subtitles.entity.llama.chest": "Llama Chest equips"
+	Added "subtitles.entity.mule.chest": "Mule Chest equips"
+	Added "subtitles.item.armor.equip_elytra": "Elytra rustles"
+
+Changes:
+	Changed "commands.generic.entity.invalidUuid" from "The entity UUID provided is in an invalid format" to "The entity UUID '%s' is in an invalid format"
+	Changed "commands.generic.entity.notFound" from "That entity cannot be found" to "Entity '%s' cannot be found"
+	Changed "commands.generic.player.notFound" from "That player cannot be found" to "Player '%s' cannot be found"
+	Changed "commands.summon.usage" from "/summon <EntityName> [x] [y] [z] [dataTag]" to "/summon <entityname> [x] [y] [z] [dataTag]"
+

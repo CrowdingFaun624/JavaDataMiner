@@ -1,0 +1,8 @@
+18w15a (from 18w14b)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added blue_ice to 1.0;1.0;glass
+	Added conduit to 1.0;1.0;stone
+

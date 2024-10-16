@@ -1,0 +1,7 @@
+3D Shareware v1.34 (from 19w13b)
+
+Total: 796 (+1, -0)
+
+Additions:
+	Added "awesome_intro"
+

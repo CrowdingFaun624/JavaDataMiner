@@ -1,0 +1,22 @@
+19w13a (from 19w12b)
+
+Total: 4268 (+16, -0)
+
+Additions:
+	Added "effect.minecraft.hero_of_the_village": "Hero of the Village"
+	Added "event.minecraft.raid.defeat": "Defeat"
+	Added "event.minecraft.raid.victory": "Victory"
+	Added "narrator.button.accessibility": "Accessibility"
+	Added "narrator.button.difficulty_lock": "Difficulity lock"
+	Added "narrator.button.difficulty_lock.locked": "Locked"
+	Added "narrator.button.difficulty_lock.unlocked": "Unlocked"
+	Added "narrator.button.language": "Language"
+	Added "narrator.joining": "Joining"
+	Added "narrator.loading": "Loading"
+	Added "subtitles.entity.evoker.celebrate": "Evoker cheers"
+	Added "subtitles.entity.pillager.celebrate": "Pillager cheers"
+	Added "subtitles.entity.ravager.celebrate": "Ravager cheers"
+	Added "subtitles.entity.villager.celebrate": "Villager cheers"
+	Added "subtitles.entity.vindicator.celebrate": "Vindicator cheers"
+	Added "subtitles.entity.witch.celebrate": "Witch cheers"
+

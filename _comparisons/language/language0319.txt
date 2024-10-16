@@ -1,0 +1,33 @@
+19w34a (from 1.14_combat-3)
+
+Total: 4347 (+21, -4)
+
+Additions:
+	Added "death.attack.sting": "%1$s was stung to death"
+	Added "death.attack.sting.player": "%1$s was stung to death by %2$s"
+	Added "entity.minecraft.bee": "Bee"
+	Added "item.minecraft.bee_spawn_egg": "Bee Spawn Egg"
+	Added "subtitles.entity.bee.ambient": "Bee buzzes"
+	Added "subtitles.entity.bee.loop": "Bee buzzes"
+	Added "subtitles.entity.bee.loop_aggressive": "Bee buzzes angrily"
+	Added "subtitles.entity.bee.pollinate": "Bee buzzes happily"
+	Added "subtitles.entity.bee.death": "Bee dies"
+	Added "subtitles.block.beehive.enter": "Bee enters hive"
+	Added "block.minecraft.bee_hive": "Bee hive"
+	Added "subtitles.entity.bee.hurt": "Bee hurts"
+	Added "subtitles.block.beehive.exit": "Bee leaves hive"
+	Added "block.minecraft.bee_nest": "Bee nest"
+	Added "subtitles.entity.bee.sting": "Bee stings"
+	Added "subtitles.block.beehive.work": "Bees work"
+	Added "item.minecraft.honey_bottle": "Honey Bottle"
+	Added "subtitles.block.beehive.drip": "Honey drips"
+	Added "subtitles.item.honey_bottle.drink": "Honey gulping"
+	Added "item.minecraft.honeycomb": "Honeycomb"
+	Added "subtitles.block.beehive.shear": "Shears scrape"
+
+Removals:
+	Removed "attribute.name.generic.attackReach": "Attack Reach"
+	Removed "enchantment.minecraft.chopping": "Chopping"
+	Removed "options.shieldAnimation": "Shield Animation"
+	Removed "options.shieldIndicator": "Shield Indicator"
+

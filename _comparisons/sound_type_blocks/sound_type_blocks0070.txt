@@ -1,0 +1,11 @@
+14w32c (from 14w32b)
+
+Total: 13 (+0, -1)
+
+Type Additions:
+	Added type 1.0;1.0;mob.slime.big;mob.slime.small;mob.slime.big;mob.slime.small with blocks:
+		slime
+
+Removals:
+	Removed slime from 1.0;1.0;stone
+

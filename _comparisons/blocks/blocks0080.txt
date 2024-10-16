@@ -1,0 +1,7 @@
+15w47a (from 15w46a)
+
+Total: 214 (+0, -0)
+
+Changes:
+	Changed noteblock's "sound_type" from STONE to WOOD
+

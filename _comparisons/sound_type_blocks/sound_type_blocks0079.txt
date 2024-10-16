@@ -1,0 +1,7 @@
+16w14a (from 1.RV-Pre1)
+
+Total: 12 (+0, -1)
+
+Removals:
+	Removed usb_charger from 1.0;1.5;metal
+

@@ -1,0 +1,44 @@
+14w28a (from 14w27b)
+
+Total: 1922 (+13, -20)
+
+Additions:
+	Added "commands.stats.block.clear.usage": "/stats block [x] [y] [z] clear <stat>"
+	Added "commands.stats.block.set.usage": "/stats block [x] [y] [z] set <stat> <selector> <objective>"
+	Added "commands.stats.block.usage": "/stats block [x] [y] [z] <mode>"
+	Added "commands.stats.cleared": "Cleared %s stats"
+	Added "commands.stats.entity.clear.usage": "/stats entity <selector> clear <stat>"
+	Added "commands.stats.entity.set.usage": "/stats entity <selector> set <stat> <selector> <objective>"
+	Added "commands.stats.entity.usage": "/stats entity <selector> <mode>"
+	Added "commands.stats.failed": "Invalid parameters"
+	Added "commands.stats.noCompatibleBlock": "Block at %d, %d, %d can not track stats"
+	Added "commands.stats.success": "Storing %s stats in %s on %s"
+	Added "commands.stats.usage": "/stats <entity|block> ..."
+	Added "entity.KillerBunny.name": "The Killer Bunny"
+	Added "options.blockAlternatives": "Alternate Blocks"
+
+Removals:
+	Removed "options.advancedOpenglDesc0": "Enables occlusion queries. On AMD and Intel"
+	Removed "options.advancedOpenglDesc1": "hardware, this may decrease performance."
+	Removed "options.aoDesc0": "Enable faux ambient occlusion on blocks."
+	Removed "options.aoDesc1": ""
+	Removed "options.fboEnableDesc0": "Enables the use of Framebuffer Objects."
+	Removed "options.fboEnableDesc1": "Necessary for certain Minecraft features."
+	Removed "options.framerateLimitDesc0": "Selects the maximum frame rate:"
+	Removed "options.framerateLimitDesc1": "35fps, 120fps, or 200+fps."
+	Removed "options.graphicsDesc0": "'Fancy': Enables extra transparency."
+	Removed "options.graphicsDesc1": "'Fast': Suggested for lower-end hardware."
+	Removed "options.particlesDesc0": "Selects the overall amount of particles."
+	Removed "options.particlesDesc1": "On lower-end hardware, less is better."
+	Removed "options.postProcessEnableDesc0": "Enables post-processing. Disabling will"
+	Removed "options.postProcessEnableDesc1": "result in reduction in Awesome Levels."
+	Removed "options.renderCloudsDesc0": "Enables the rendering of clouds."
+	Removed "options.renderCloudsDesc1": ""
+	Removed "options.renderDistanceDesc0": "Maximum render distance. Smaller values"
+	Removed "options.renderDistanceDesc1": "run better on lower-end hardware."
+	Removed "options.viewBobbingDesc0": "Enables view-bob when moving."
+	Removed "options.viewBobbingDesc1": ""
+
+Changes:
+	Changed "commands.tp.success.coordinates" from "Teleported %s to %.2f,%.2f,%.2f" to "Teleported %s to %s, %s, %s"
+

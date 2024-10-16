@@ -1,0 +1,62 @@
+in-20100105 (from in-20091231-2)
+
+Total: 6 (+0, -0)
+
+Type Additions:
+	Added type 1.0;1.0;grass with blocks:
+		2
+		6
+		18
+		19
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+		46
+	Added type 1.0;1.0;gravel with blocks:
+		3
+		12
+		13
+	Added type 1.0;1.0;stone with blocks:
+		8
+		9
+		10
+		11
+	Added type 1.0;1.0;wood with blocks:
+		5
+		17
+		47
+		50
+	Added type 1.0;1.5;stone with blocks:
+		20
+		41
+		42
+	Added type 1;1.0;1.0;stone with blocks:
+		1
+		4
+		7
+		14
+		15
+		16
+		43
+		44
+		45
+		48
+		49
+

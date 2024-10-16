@@ -1,0 +1,26 @@
+1.16-pre3 (from 1.16-pre2)
+
+Total: 4746 (+3, -1)
+
+Additions:
+	Added "createWorld.preparing": "Preparing for world creation..."
+	Added "key.swapOffhand": "Swap Item With Offhand"
+	Added "selectWorld.data_read": "Reading world data..."
+
+Removals:
+	Removed "key.swapHands": "Swap Item In Hands"
+
+Changes:
+	Changed "chat.copy.click" from "Click to copy to Clipboard" to "Click to Copy to Clipboard"
+	Changed "dataPack.validation.back" from "Go back" to "Go Back"
+	Changed "dataPack.validation.reset" from "Reset to default" to "Reset to Default"
+	Changed "datapackFailure.safeMode" from "Safe mode" to "Safe Mode"
+	Changed "debug.creative_spectator.help" from "F3 + N = Cycle creative <-> spectator" to "F3 + N = Cycle previous gamemode <-> spectator"
+	Changed "editGamerule.title" from "Edit game rules" to "Edit Game Rules"
+	Changed "generator.single_biome_floating_islands" from "Floating islands" to "Floating Islands"
+	Changed "options.graphics.fabulous.tooltip" from "\"Fabulous\" graphics enables screen shaders to draw translucent objects per-pixel.\nThis may severely impact performance for portable devices and 4k displays." to "\"Fabulous\" graphics uses screen shaders for drawing weather, clouds and particles behind translucent blocks and water.\nThis may severely impact performance for portable devices and 4K displays."
+	Changed "options.graphics.fancy.tooltip" from "\"Fancy\" graphics balances performance and quality for the majority of machines." to "\"Fancy\" graphics balances performance and quality for the majority of machines.\nWeather, clouds and particles may not appear behind translucent blocks or water."
+	Changed "selectWorld.backupJoinConfirmButton" from "Create backup and load" to "Create Backup and Load"
+	Changed "selectWorld.import_worldgen_settings" from "Import settings" to "Import Settings"
+	Changed "sign.edit" from "Edit sign message" to "Edit Sign Message"
+

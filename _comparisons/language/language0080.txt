@@ -1,0 +1,10 @@
+13w22a (from 13w21b)
+
+Total: 1309 (+4, -0)
+
+Additions:
+	Added "mco.backup.button.restore": "Restore"
+	Added "mco.backup.restoring": "Restoring your world"
+	Added "mco.backup.title": "Backups"
+	Added "mco.configure.world.buttons.backup": "Backup"
+

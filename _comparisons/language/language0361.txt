@@ -1,0 +1,12 @@
+1.16.2-pre1 (from 20w30a)
+
+Total: 4782 (+6, -0)
+
+Additions:
+	Added "options.fovEffectScale": "FOV Effects"
+	Added "options.fovEffectScale.off": "Off"
+	Added "options.fovEffectScale.tooltip": "Controls how much the field of view can change with speed effects."
+	Added "options.screenEffectScale": "Distortion Effects"
+	Added "options.screenEffectScale.off": "Off"
+	Added "options.screenEffectScale.tooltip": "Strength of nausea and Nether portal screen distortion effects.\nAt lower values, the nausea effect is replaced with a green overlay."
+

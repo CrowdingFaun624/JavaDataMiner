@@ -1,0 +1,10 @@
+15w47a (from 15w46a)
+
+Total: 397 (+4, -0)
+
+Additions:
+	Added "entity.armorstand.break"
+	Added "entity.armorstand.fall"
+	Added "entity.armorstand.hit"
+	Added "entity.armorstand.place"
+

@@ -1,0 +1,21 @@
+1.13-pre8 (from 1.13-pre7)
+
+Total: 14 (+15, -0)
+
+Additions:
+	Added dead_brain_coral_fan to 1.0;1.0;stone
+	Added dead_brain_coral_wall_fan to 1.0;1.0;stone
+	Added dead_bubble_coral_fan to 1.0;1.0;stone
+	Added dead_bubble_coral_wall_fan to 1.0;1.0;stone
+	Added dead_fire_coral_fan to 1.0;1.0;stone
+	Added dead_fire_coral_wall_fan to 1.0;1.0;stone
+	Added dead_horn_coral_fan to 1.0;1.0;stone
+	Added dead_horn_coral_wall_fan to 1.0;1.0;stone
+	Added dead_tube_coral_fan to 1.0;1.0;stone
+	Added dead_tube_coral_wall_fan to 1.0;1.0;stone
+	Added brain_coral_wall_fan to 1.0;1.0;wet_grass
+	Added bubble_coral_wall_fan to 1.0;1.0;wet_grass
+	Added fire_coral_wall_fan to 1.0;1.0;wet_grass
+	Added horn_coral_wall_fan to 1.0;1.0;wet_grass
+	Added tube_coral_wall_fan to 1.0;1.0;wet_grass
+

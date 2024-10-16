@@ -1,0 +1,8 @@
+14w25a (from 14w21b)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added sea_lantern to 1.0;1.0;glass;stone;stone;stone
+	Added prismarine to 1;1.0;1.0;stone
+

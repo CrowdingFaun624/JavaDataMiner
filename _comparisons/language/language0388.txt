@@ -1,0 +1,25 @@
+21w19a (from 21w18a)
+
+Total: 5087 (+1, -0)
+
+Additions:
+	Added "disconnect.unknownHost": "Unknown host"
+
+Changes:
+	Changed "block.minecraft.black_candle_cake" from "Black Candle Cake" to "Cake with Black Candle"
+	Changed "block.minecraft.blue_candle_cake" from "Blue Candle Cake" to "Cake with Blue Candle"
+	Changed "block.minecraft.brown_candle_cake" from "Brown Candle Cake" to "Cake with Brown Candle"
+	Changed "block.minecraft.cyan_candle_cake" from "Cyan Candle Cake" to "Cake with Cyan Candle"
+	Changed "block.minecraft.gray_candle_cake" from "Gray Candle Cake" to "Cake with Gray Candle"
+	Changed "block.minecraft.green_candle_cake" from "Green Candle Cake" to "Cake with Green Candle"
+	Changed "block.minecraft.light_blue_candle_cake" from "Light Blue Candle Cake" to "Cake with Light Blue Candle"
+	Changed "block.minecraft.light_gray_candle_cake" from "Light Gray Candle Cake" to "Cake with Light Gray Candle"
+	Changed "block.minecraft.lime_candle_cake" from "Lime Candle Cake" to "Cake with Lime Candle"
+	Changed "block.minecraft.magenta_candle_cake" from "Magenta Candle Cake" to "Cake with Magenta Candle"
+	Changed "block.minecraft.orange_candle_cake" from "Orange Candle Cake" to "Cake with Orange Candle"
+	Changed "block.minecraft.pink_candle_cake" from "Pink Candle Cake" to "Cake with Pink Candle"
+	Changed "block.minecraft.purple_candle_cake" from "Purple Candle Cake" to "Cake with Purple Candle"
+	Changed "block.minecraft.red_candle_cake" from "Red Candle Cake" to "Cake with Red Candle"
+	Changed "block.minecraft.white_candle_cake" from "White Candle Cake" to "Cake with White Candle"
+	Changed "block.minecraft.yellow_candle_cake" from "Yellow Candle Cake" to "Cake with Yellow Candle"
+

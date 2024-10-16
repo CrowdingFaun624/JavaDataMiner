@@ -1,0 +1,11 @@
+18w32a (from 18w31a)
+
+Total: 14 (+5, -0)
+
+Additions:
+	Added dead_brain_coral to 1.0;1.0;stone
+	Added dead_bubble_coral to 1.0;1.0;stone
+	Added dead_fire_coral to 1.0;1.0;stone
+	Added dead_horn_coral to 1.0;1.0;stone
+	Added dead_tube_coral to 1.0;1.0;stone
+

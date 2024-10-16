@@ -1,0 +1,7 @@
+1.8.9 (from 1.8.8)
+
+Total: 2553 (+1, -0)
+
+Additions:
+	Added "options.realmsNotifications": "Realms Notifications"
+

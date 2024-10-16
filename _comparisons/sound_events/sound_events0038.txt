@@ -1,0 +1,13 @@
+12w49a (from 1.4.5)
+
+Total: 175 (+7, -0)
+
+Additions:
+	Added "fireworks.blast"
+	Added "fireworks.blast_far"
+	Added "fireworks.largeBlast"
+	Added "fireworks.largeBlast_far"
+	Added "fireworks.launch"
+	Added "mob.slime.big"
+	Added "mob.slime.small"
+

@@ -1,0 +1,16 @@
+19w07a (from 19w06a)
+
+Total: 758 (+10, -0)
+
+Additions:
+	Added "entity.fox.aggro"
+	Added "entity.fox.ambient"
+	Added "entity.fox.bark"
+	Added "entity.fox.bite"
+	Added "entity.fox.death"
+	Added "entity.fox.eat"
+	Added "entity.fox.hurt"
+	Added "entity.fox.sleep"
+	Added "entity.fox.sniff"
+	Added "entity.fox.spit"
+

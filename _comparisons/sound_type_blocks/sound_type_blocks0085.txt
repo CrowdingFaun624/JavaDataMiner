@@ -1,0 +1,10 @@
+17w47b (from 17w47a)
+
+Total: 12 (+1, -1)
+
+Additions:
+	Added terracotta to 1.0;1.0;stone
+
+Removals:
+	Removed hardened_clay from 1.0;1.0;stone
+

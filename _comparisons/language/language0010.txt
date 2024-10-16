@@ -1,0 +1,16 @@
+b1.7 (from b1.6.6)
+
+Total: 562 (+10, -0)
+
+Additions:
+	Added "item.leaves.desc": ""
+	Added "item.leaves.name": "Leaves"
+	Added "item.shears.desc": ""
+	Added "item.shears.name": "Shears"
+	Added "tile.pistonBase.desc": ""
+	Added "tile.pistonBase.name": "Piston"
+	Added "tile.pistonStickyBase.desc": ""
+	Added "tile.pistonStickyBase.name": "Sticky Piston"
+	Added "tile.stonebricksmooth.desc": ""
+	Added "tile.stonebricksmooth.name": "Stone Bricks"
+

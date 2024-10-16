@@ -1,0 +1,11 @@
+1.19-pre1 (from 22w19a)
+
+Total: 696 (+1, -0)
+
+Additions:
+	Added "subtitles.item.bucket.fill_tadpole": "Tadpole captured"
+
+Changes:
+	Changed "subtitles.entity.goat.horn_break" from "Goat horn breaks off" to "Goat Horn breaks off"
+	Changed "subtitles.item.goat_horn.play" from "Goat horn plays" to "Goat Horn plays"
+

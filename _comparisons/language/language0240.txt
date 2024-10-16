@@ -1,0 +1,11 @@
+17w49a (from 17w48a)
+
+Total: 3257 (+1, -2)
+
+Additions:
+	Added "block.minecraft.player_head.named": "%s's Head"
+
+Removals:
+	Removed "item.minecraft.player_head": "Head"
+	Removed "item.minecraft.player_head.named": "%s's Head"
+

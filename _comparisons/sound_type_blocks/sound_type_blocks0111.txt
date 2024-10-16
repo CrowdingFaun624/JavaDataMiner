@@ -1,0 +1,11 @@
+19w05a (from 19w04b)
+
+Total: 21 (+0, -1)
+
+Type Additions:
+	Added type 1.0;1.0;lantern with blocks:
+		lantern
+
+Removals:
+	Removed lantern from 1.0;1.5;metal
+

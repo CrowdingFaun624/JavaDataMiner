@@ -1,0 +1,11 @@
+21w10a (from 21w08b)
+
+Total: 1169 (+5, -0)
+
+Additions:
+	Added "GLOW_ITEM_FRAME_ADD_ITEM": "entity.glow_item_frame.add_item"
+	Added "GLOW_ITEM_FRAME_BREAK": "entity.glow_item_frame.break"
+	Added "GLOW_ITEM_FRAME_PLACE": "entity.glow_item_frame.place"
+	Added "GLOW_ITEM_FRAME_REMOVE_ITEM": "entity.glow_item_frame.remove_item"
+	Added "GLOW_ITEM_FRAME_ROTATE_ITEM": "entity.glow_item_frame.rotate_item"
+

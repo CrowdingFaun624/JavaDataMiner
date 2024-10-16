@@ -1,0 +1,10 @@
+20w12a (from 20w11a)
+
+Total: 524 (+4, -0)
+
+Additions:
+	Added "subtitles.block.respawn_anchor.ambient": "Portal whooshes"
+	Added "subtitles.block.respawn_anchor.charge": "Respawn anchor is charged"
+	Added "subtitles.block.respawn_anchor.deplete": "Respawn anchor depletes"
+	Added "subtitles.block.respawn_anchor.set_spawn": "Respawn anchor sets spawn"
+

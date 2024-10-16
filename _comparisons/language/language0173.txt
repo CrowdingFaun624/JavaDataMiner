@@ -1,0 +1,11 @@
+15w37a (from 15w36d)
+
+Total: 2568 (+2, -1)
+
+Additions:
+	Added "deathScreen.spectate": "Spectate world"
+	Added "item.shield.name": "Shield"
+
+Removals:
+	Removed "deathScreen.hardcoreInfo": "You cannot respawn in hardcore mode!"
+

@@ -1,0 +1,7 @@
+16w04a (from 16w03a)
+
+Total: 2785 (+0, -0)
+
+Changes:
+	Changed "container.spectatorCantOpen" from "Unable to open. Loot not generated yet. " to "Unable to open. Loot not generated yet."
+

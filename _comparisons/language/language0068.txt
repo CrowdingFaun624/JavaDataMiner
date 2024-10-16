@@ -1,0 +1,7 @@
+13w11a (from 1.5)
+
+Total: 1221 (+1, -0)
+
+Additions:
+	Added "mco.configure.world.owner": "Owner"
+

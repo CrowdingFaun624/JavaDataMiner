@@ -1,0 +1,10 @@
+21w13a (from 21w11a)
+
+Total: 889 (+1, -0)
+
+Additions:
+	Added light
+
+Changes:
+	Changed cobbled_deepslate_slab's "sound_type" from STONE to DEEPSLATE
+

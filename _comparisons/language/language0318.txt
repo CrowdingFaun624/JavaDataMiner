@@ -1,0 +1,9 @@
+1.14_combat-3 (from 1.14_combat-0)
+
+Total: 4330 (+3, -0)
+
+Additions:
+	Added "enchantment.minecraft.chopping": "Chopping"
+	Added "options.shieldAnimation": "Shield Animation"
+	Added "options.shieldIndicator": "Shield Indicator"
+

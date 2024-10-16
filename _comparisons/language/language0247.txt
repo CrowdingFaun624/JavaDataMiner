@@ -1,0 +1,13 @@
+18w07b (from 18w07a)
+
+Total: 3403 (+1, -1)
+
+Additions:
+	Added "item.minecraft.scute": "Scute"
+
+Removals:
+	Removed "item.minecraft.turtle_shell_piece": "Turtle Shell Piece"
+
+Changes:
+	Changed "item.minecraft.lingering_potion.effect.turtle_master" from "Potion of the Turtle Master" to "Lingering Potion of the Turtle Master"
+

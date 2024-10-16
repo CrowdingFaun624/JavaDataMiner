@@ -1,0 +1,25 @@
+23w45a (from 23w44a)
+
+Total: 1058 (+1, -0)
+
+Additions:
+	Added trial_spawner
+
+Changes:
+	Changed copper_door's "sound_type" from METAL to COPPER
+	Changed copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed exposed_copper_door's "sound_type" from METAL to COPPER
+	Changed exposed_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed oxidized_copper_door's "sound_type" from METAL to COPPER
+	Changed oxidized_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed waxed_copper_door's "sound_type" from METAL to COPPER
+	Changed waxed_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed waxed_exposed_copper_door's "sound_type" from METAL to COPPER
+	Changed waxed_exposed_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed waxed_oxidized_copper_door's "sound_type" from METAL to COPPER
+	Changed waxed_oxidized_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed waxed_weathered_copper_door's "sound_type" from METAL to COPPER
+	Changed waxed_weathered_copper_trapdoor's "sound_type" from METAL to COPPER
+	Changed weathered_copper_door's "sound_type" from METAL to COPPER
+	Changed weathered_copper_trapdoor's "sound_type" from METAL to COPPER
+

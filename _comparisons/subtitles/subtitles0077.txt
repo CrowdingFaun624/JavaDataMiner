@@ -1,0 +1,13 @@
+22w13a (from 22w12a)
+
+Total: 689 (+7, -0)
+
+Additions:
+	Added "subtitles.entity.allay.ambient_with_item": "Allay seeks"
+	Added "subtitles.entity.allay.ambient_without_item": "Allay yearns"
+	Added "subtitles.entity.allay.death": "Allay dies"
+	Added "subtitles.entity.allay.hurt": "Allay hurts"
+	Added "subtitles.entity.allay.item_given": "Allay chortles"
+	Added "subtitles.entity.allay.item_taken": "Allay allays"
+	Added "subtitles.entity.allay.throw": "Allay tosses"
+

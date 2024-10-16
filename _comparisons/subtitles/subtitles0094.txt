@@ -1,0 +1,11 @@
+23w43a (from 23w42a)
+
+Total: 747 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.player.teleport": "Player teleports"
+
+Changes:
+	Changed "subtitles.block.crafter.craft" from "Crafter crafted" to "Crafter crafts"
+	Changed "subtitles.block.crafter.fail" from "Crafter failed" to "Crafter fails crafting"
+

@@ -1,0 +1,16 @@
+20w14a (from 20w14infinite)
+
+Total: 954 (+7, -1)
+
+Additions:
+	Added "HOGLIN_CONVERTED_TO_ZOMBIFIED": "entity.hoglin.converted_to_zombified"
+	Added "ZOGLIN_AMBIENT": "entity.zoglin.ambient"
+	Added "ZOGLIN_ANGRY": "entity.zoglin.angry"
+	Added "ZOGLIN_ATTACK": "entity.zoglin.attack"
+	Added "ZOGLIN_DEATH": "entity.zoglin.death"
+	Added "ZOGLIN_HURT": "entity.zoglin.hurt"
+	Added "ZOGLIN_STEP": "entity.zoglin.step"
+
+Removals:
+	Removed "AWESOME_INTRO": "nothingtoseeheremovealong:awesome_intro"
+

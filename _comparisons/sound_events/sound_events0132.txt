@@ -1,0 +1,9 @@
+21w11a (from 21w10a)
+
+Total: 1172 (+3, -0)
+
+Additions:
+	Added "AXE_SCRAPE": "item.axe.scrape"
+	Added "AXE_WAX_OFF": "item.axe.wax_off"
+	Added "HONEYCOMB_WAX_ON": "item.honeycomb.wax_on"
+

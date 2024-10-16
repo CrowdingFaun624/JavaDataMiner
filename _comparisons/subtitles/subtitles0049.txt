@@ -1,0 +1,7 @@
+20w11a (from 20w10a)
+
+Total: 520 (+1, -0)
+
+Additions:
+	Added "subtitles.particle.soul_escape": "Soul escapes"
+

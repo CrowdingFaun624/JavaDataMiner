@@ -1,0 +1,8 @@
+1.7 (from 13w43a)
+
+Total: 12 (+2, -0)
+
+Additions:
+	Added acacia_stairs to 1.0;1.0;wood
+	Added dark_oak_stairs to 1.0;1.0;wood
+

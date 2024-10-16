@@ -1,0 +1,11 @@
+16w39b (from 16w39a)
+
+Total: 301 (+2, -0)
+
+Additions:
+	Added "subtitles.block.shulker_box.close": "Shulker closes"
+	Added "subtitles.block.shulker_box.open": "Shulker opens"
+
+Changes:
+	Changed "subtitles.entity.llama.ambient" from "LLama bleats" to "Llama bleats"
+

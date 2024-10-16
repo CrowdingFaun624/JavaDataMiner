@@ -1,0 +1,12 @@
+18w09a (from 18w08b)
+
+Total: 12 (+6, -0)
+
+Additions:
+	Added blue_coral to 1.0;1.0;stone
+	Added dead_coral to 1.0;1.0;stone
+	Added pink_coral to 1.0;1.0;stone
+	Added purple_coral to 1.0;1.0;stone
+	Added red_coral to 1.0;1.0;stone
+	Added yellow_coral to 1.0;1.0;stone
+

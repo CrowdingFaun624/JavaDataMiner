@@ -1,0 +1,31 @@
+12w26a (from 12w25a)
+
+Total: 5667 (+16, -7)
+
+Additions:
+	Added "12w26a"
+	Added "Definitely; '"
+	Added "Is Modded"
+	Added "META-INF/CODESIGN.RSA"
+	Added "MaxSpawnDelay"
+	Added "MinSpawnDelay"
+	Added "Minecraft 12w26a"
+	Added "Minecraft 12w26a ("
+	Added "Minecraft Minecraft 12w26a"
+	Added "Probably not"
+	Added "SpawnCount"
+	Added "SpawnData"
+	Added "Starting integrated minecraft server version 12w26a"
+	Added "Starting minecraft server version 12w26a"
+	Added "Unknown (can't tell)"
+	Added "Very likely"
+
+Removals:
+	Removed "12w25a"
+	Removed "Minecraft 12w25a"
+	Removed "Minecraft 12w25a ("
+	Removed "Minecraft Minecraft 12w25a"
+	Removed "Pushing player, and singleplayer..."
+	Removed "Starting integrated minecraft server version 12w25a"
+	Removed "Starting minecraft server version 12w25a"
+

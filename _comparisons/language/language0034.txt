@@ -1,0 +1,18 @@
+12w22a (from 12w21b)
+
+Total: 899 (+9, -0)
+
+Additions:
+	Added "commands.defaultgamemode.success": "The world's default game mode is now %s"
+	Added "commands.defaultgamemode.usage": "/defaultgamemode <mode>"
+	Added "deathScreen.leaveServer": "Leave server"
+	Added "disconnect.spam": "Kicked for spamming"
+	Added "gameMode.adventure": "Adventure Mode"
+	Added "inventory.binSlot": "Destroy Item"
+	Added "tile.blockEmerald.name": "Block of Emerald"
+	Added "tile.tripWire.name": "Tripwire"
+	Added "tile.tripWireSource.name": "Tripwire Hook"
+
+Changes:
+	Changed "commands.xp.usage" from "/xp [amount] <player>" to "/xp <amount> [player]"
+

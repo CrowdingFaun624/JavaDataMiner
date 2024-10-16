@@ -1,0 +1,23 @@
+19w11a (from 19w09a)
+
+Total: 788 (+17, -0)
+
+Additions:
+	Added "entity.parrot.imitate.guardian"
+	Added "entity.parrot.imitate.panda"
+	Added "entity.parrot.imitate.pillager"
+	Added "entity.parrot.imitate.ravager"
+	Added "entity.villager.work_armorer"
+	Added "entity.villager.work_butcher"
+	Added "entity.villager.work_cartographer"
+	Added "entity.villager.work_cleric"
+	Added "entity.villager.work_farmer"
+	Added "entity.villager.work_fisherman"
+	Added "entity.villager.work_fletcher"
+	Added "entity.villager.work_leatherworker"
+	Added "entity.villager.work_librarian"
+	Added "entity.villager.work_mason"
+	Added "entity.villager.work_shepherd"
+	Added "entity.villager.work_toolsmith"
+	Added "entity.villager.work_weaponsmith"
+

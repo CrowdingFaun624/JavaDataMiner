@@ -1,0 +1,23 @@
+12w41b (from 12w41a)
+
+Total: 6599 (+9, -6)
+
+Additions:
+	Added "12w41b"
+	Added "Minecraft 12w41b"
+	Added "Minecraft 12w41b ("
+	Added "Minecraft Minecraft 12w41b"
+	Added "PersistenceRequired"
+	Added "SpawnRange"
+	Added "Starting integrated minecraft server version 12w41b"
+	Added "Starting minecraft server version 12w41b"
+	Added "container.repair.expensive"
+
+Removals:
+	Removed "12w41a"
+	Removed "Minecraft 12w41a"
+	Removed "Minecraft 12w41a ("
+	Removed "Minecraft Minecraft 12w41a"
+	Removed "Starting integrated minecraft server version 12w41a"
+	Removed "Starting minecraft server version 12w41a"
+

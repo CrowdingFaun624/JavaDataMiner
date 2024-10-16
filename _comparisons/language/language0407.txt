@@ -1,0 +1,46 @@
+22w03a (from 1.19_deep_dark_experimental_snapshot-1)
+
+Total: 5160 (+4, -31)
+
+Additions:
+	Added "commands.locate.invalid": "There is no structure with type \"%s\""
+	Added "commands.placefeature.failed": "Failed to place feature"
+	Added "commands.placefeature.invalid": "There is no feature with type \"%s\""
+	Added "commands.placefeature.success": "Placed \"%s\" at %s, %s, %s"
+
+Removals:
+	Removed "biome.minecraft.deep_dark": "Deep Dark"
+	Removed "block.minecraft.reinforced_deepslate": "Reinforced Deepslate"
+	Removed "block.minecraft.sculk": "Sculk"
+	Removed "block.minecraft.sculk_catalyst": "Sculk Catalyst"
+	Removed "block.minecraft.sculk_shrieker": "Sculk Shrieker"
+	Removed "block.minecraft.sculk_vein": "Sculk Vein"
+	Removed "effect.minecraft.darkness": "Darkness"
+	Removed "enchantment.minecraft.swift_sneak": "Swift Sneak"
+	Removed "entity.minecraft.warden": "Warden"
+	Removed "item.minecraft.warden_spawn_egg": "Warden Spawn Egg"
+	Removed "options.darknessEffectScale": "Darkness Effect"
+	Removed "options.darknessEffectScale.tooltip": "Controls how dark the Darkness effect gets when a Warden or Sculk Shrieker gives it to you, but will not affect the fog distance."
+	Removed "subtitles.entity.parrot.imitate.warden": "Parrot roars"
+	Removed "subtitles.entity.warden.agitated": "Warden groans angrily"
+	Removed "subtitles.entity.warden.ambient": "Warden whines"
+	Removed "subtitles.entity.warden.angry": "Warden rages"
+	Removed "subtitles.entity.warden.attack_impact": "Warden lands hit"
+	Removed "subtitles.entity.warden.death": "Warden dies"
+	Removed "subtitles.entity.warden.dig": "Warden digs"
+	Removed "subtitles.entity.warden.emerge": "Warden emerges"
+	Removed "subtitles.entity.warden.heartbeat": "Warden heart beats"
+	Removed "subtitles.entity.warden.hurt": "Warden hurts"
+	Removed "subtitles.entity.warden.listening": "Warden takes notice"
+	Removed "subtitles.entity.warden.listening_angry": "Warden takes notice angrily"
+	Removed "subtitles.entity.warden.nearby_close": "Warden approaches"
+	Removed "subtitles.entity.warden.nearby_closer": "Warden advances"
+	Removed "subtitles.entity.warden.nearby_closest": "Warden draws close"
+	Removed "subtitles.entity.warden.roar": "Warden roars"
+	Removed "subtitles.entity.warden.sniff": "Warden sniffs"
+	Removed "subtitles.entity.warden.step": "Warden steps"
+	Removed "subtitles.entity.warden.tendril_clicks": "Warden tendrils click"
+
+Changes:
+	Changed "commands.locate.failed" from "Could not find that structure nearby" to "Could not find a structure of type \"%s\" nearby"
+

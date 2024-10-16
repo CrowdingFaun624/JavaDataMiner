@@ -1,0 +1,25 @@
+22w45a (from 22w44a)
+
+Total: 1386 (+19, -0)
+
+Additions:
+	Added "BAMBOO_WOOD_HANGING_SIGN_BREAK": "block.bamboo_wood_hanging_sign.break"
+	Added "BAMBOO_WOOD_HANGING_SIGN_FALL": "block.bamboo_wood_hanging_sign.fall"
+	Added "BAMBOO_WOOD_HANGING_SIGN_HIT": "block.bamboo_wood_hanging_sign.hit"
+	Added "BAMBOO_WOOD_HANGING_SIGN_PLACE": "block.bamboo_wood_hanging_sign.place"
+	Added "BAMBOO_WOOD_HANGING_SIGN_STEP": "block.bamboo_wood_hanging_sign.step"
+	Added "CHISELED_BOOKSHELF_BREAK": "block.chiseled_bookshelf.break"
+	Added "CHISELED_BOOKSHELF_FALL": "block.chiseled_bookshelf.fall"
+	Added "CHISELED_BOOKSHELF_HIT": "block.chiseled_bookshelf.hit"
+	Added "CHISELED_BOOKSHELF_INSERT": "block.chiseled_bookshelf.insert"
+	Added "CHISELED_BOOKSHELF_INSERT_ENCHANTED": "block.chiseled_bookshelf.insert.enchanted"
+	Added "CHISELED_BOOKSHELF_PICKUP": "block.chiseled_bookshelf.pickup"
+	Added "CHISELED_BOOKSHELF_PICKUP_ENCHANTED": "block.chiseled_bookshelf.pickup.enchanted"
+	Added "CHISELED_BOOKSHELF_PLACE": "block.chiseled_bookshelf.place"
+	Added "CHISELED_BOOKSHELF_STEP": "block.chiseled_bookshelf.step"
+	Added "NETHER_WOOD_HANGING_SIGN_BREAK": "block.nether_wood_hanging_sign.break"
+	Added "NETHER_WOOD_HANGING_SIGN_FALL": "block.nether_wood_hanging_sign.fall"
+	Added "NETHER_WOOD_HANGING_SIGN_HIT": "block.nether_wood_hanging_sign.hit"
+	Added "NETHER_WOOD_HANGING_SIGN_PLACE": "block.nether_wood_hanging_sign.place"
+	Added "NETHER_WOOD_HANGING_SIGN_STEP": "block.nether_wood_hanging_sign.step"
+

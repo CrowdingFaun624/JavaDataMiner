@@ -1,0 +1,9 @@
+12w50a (from 12w49a)
+
+Total: 178 (+3, -0)
+
+Additions:
+	Added "damage.thorns"
+	Added "fireworks.twinkle"
+	Added "fireworks.twinkle_far"
+

@@ -1,0 +1,37 @@
+12w01a (from 11w50a)
+
+Total: 717 (+3, -5)
+
+Additions:
+	Added "generator.default": "Default"
+	Added "generator.flat": "Superflat"
+	Added "options.languageWarning": "Language translations may not be 100% accurate"
+
+Removals:
+	Removed "#menu.mods": "\u30c6\u30af\u30b9\u30c1\u30e3\u30d1\u30c3\u30af"
+	Removed "#menu.multiplayer": "\u30de\u30eb\u30c1\u30d7\u30ec\u30a4\u30e4\u30fc"
+	Removed "#menu.options": "\u30aa\u30d7\u30b7\u30e7\u30f3..."
+	Removed "#menu.quit": "\u7d42\u4e86"
+	Removed "#menu.singleplayer": "\u30b7\u30f3\u30b0\u30eb\u30d7\u30ec\u30fc\u30e4\u30fc"
+
+Changes:
+	Changed "potion.blindness.postfix" from "of Blindness" to "Potion of Blindness"
+	Changed "potion.confusion.postfix" from "of Nausea" to "Potion of Nausea"
+	Changed "potion.damageBoost.postfix" from "of Strength" to "Potion of Strength"
+	Changed "potion.digSlowDown.postfix" from "of Dullness" to "Potion of Dullness"
+	Changed "potion.digSpeed.postfix" from "of Haste" to "Potion of Haste"
+	Changed "potion.fireResistance.postfix" from "of Fire Resistance" to "Potion of Fire Resistance"
+	Changed "potion.harm.postfix" from "of Harming" to "Potion of Harming"
+	Changed "potion.heal.postfix" from "of Healing" to "Potion of Healing"
+	Changed "potion.hunger.postfix" from "of Hunger" to "Potion of Hunger"
+	Changed "potion.invisibility.postfix" from "of Invisibility" to "Potion of Invisibility"
+	Changed "potion.jump.postfix" from "of Leaping" to "Potion of Leaping"
+	Changed "potion.moveSlowdown.postfix" from "of Slowness" to "Potion of Slowness"
+	Changed "potion.moveSpeed.postfix" from "of Swiftness" to "Potion of Swiftness"
+	Changed "potion.nightVision.postfix" from "of Night Vision" to "Potion of Night Vision"
+	Changed "potion.poison.postfix" from "of Poison" to "Potion of Poison"
+	Changed "potion.regeneration.postfix" from "of Regeneration" to "Potion of Regeneration"
+	Changed "potion.resistance.postfix" from "of Resistance" to "Potion of Resistance"
+	Changed "potion.waterBreathing.postfix" from "of Water Breathing" to "Potion of Water Breathing"
+	Changed "potion.weakness.postfix" from "of Weakness" to "Potion of Weakness"
+

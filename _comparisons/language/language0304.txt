@@ -1,0 +1,31 @@
+19w13b (from 19w13a)
+
+Total: 4286 (+19, -1)
+
+Additions:
+	Added "block.minecraft.banner.globe.black": "Black Globe"
+	Added "block.minecraft.banner.globe.blue": "Blue Globe"
+	Added "block.minecraft.banner.globe.brown": "Brown Globe"
+	Added "block.minecraft.banner.globe.cyan": "Cyan Globe"
+	Added "block.minecraft.banner.globe.gray": "Gray Globe"
+	Added "block.minecraft.banner.globe.green": "Green Globe"
+	Added "block.minecraft.banner.globe.light_blue": "Light Blue Globe"
+	Added "block.minecraft.banner.globe.light_gray": "Light Gray Globe"
+	Added "block.minecraft.banner.globe.lime": "Lime Globe"
+	Added "block.minecraft.banner.globe.magenta": "Magenta Globe"
+	Added "block.minecraft.banner.globe.orange": "Orange Globe"
+	Added "block.minecraft.banner.globe.pink": "Pink Globe"
+	Added "block.minecraft.banner.globe.purple": "Purple Globe"
+	Added "block.minecraft.banner.globe.red": "Red Globe"
+	Added "block.minecraft.banner.globe.white": "White Globe"
+	Added "block.minecraft.banner.globe.yellow": "Yellow Globe"
+	Added "event.minecraft.raid.raiders_remaining": "Raiders remaining: %s"
+	Added "merchant.trades": "Trades"
+	Added "subtitles.block.bell.resonate": "Bell resonates"
+
+Removals:
+	Removed "event.minecraft.raid.mobs_remaining": "Mobs remaining: %s"
+
+Changes:
+	Changed "item.minecraft.globe_banner_pattern" from "Globe Pattern" to "Banner Pattern"
+

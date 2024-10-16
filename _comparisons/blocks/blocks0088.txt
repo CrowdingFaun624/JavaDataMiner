@@ -1,0 +1,10 @@
+17w47b (from 17w47a)
+
+Total: 528 (+1, -1)
+
+Additions:
+	Added terracotta
+
+Removals:
+	Removed hardened_clay
+

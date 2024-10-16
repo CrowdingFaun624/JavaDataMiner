@@ -1,0 +1,22 @@
+18w43a (from 1.13.2)
+
+Total: 16 (+2, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.bamboo.break
+		step: block.bamboo.step
+		place: block.bamboo.place
+		hit: block.bamboo.hit
+		fall: block.bamboo.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.bamboo_sapling.break
+		step: block.bamboo.step
+		place: block.bamboo_sapling.place
+		hit: block.bamboo_sapling.hit
+		fall: block.bamboo.fall
+

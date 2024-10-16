@@ -1,0 +1,18 @@
+1.13-pre7 (from 1.13-pre6)
+
+Total: 3830 (+7, -3)
+
+Additions:
+	Added "commands.scoreboard.objectives.modify.displayname": "Changed objective %s display name to %s"
+	Added "debug.inspect.client.block": "Copied client-side block data to clipboard"
+	Added "debug.inspect.client.entity": "Copied client-side entity data to clipboard"
+	Added "debug.inspect.server.block": "Copied server-side block data to clipboard"
+	Added "debug.inspect.server.entity": "Copied server-side entity data to clipboard"
+	Added "stat.minecraft.walk_on_water_one_cm": "Distance Walked on Water"
+	Added "stat.minecraft.walk_under_water_one_cm": "Distance Walked under Water"
+
+Removals:
+	Removed "debug.inspect.block": "Copied block data to clipboard"
+	Removed "debug.inspect.entity": "Copied entity data to clipboard"
+	Removed "stat.minecraft.dive_one_cm": "Distance Dove"
+

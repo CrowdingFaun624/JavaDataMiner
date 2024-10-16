@@ -1,0 +1,21 @@
+a1.0.17_02 (from a1.0.16_02)
+
+Total: 1553 (+6, -7)
+
+Additions:
+	Added "Dropping?"
+	Added "Minecraft Alpha v1.0.17_02"
+	Added "Minecraft Alpha v1.0.17_02 ("
+	Added "Minecraft Minecraft Alpha v1.0.17_02"
+	Added "Minecraft: Minecraft Alpha v1.0.17_02n"
+	Added "mob.chickenplop"
+
+Removals:
+	Removed "/rain.png"
+	Removed "Happy birthday! I love you! Alex x"
+	Removed "Minecraft Alpha v1.0.16_02"
+	Removed "Minecraft Alpha v1.0.16_02 ("
+	Removed "Minecraft Minecraft Alpha v1.0.16_02"
+	Removed "Minecraft: Minecraft Alpha v1.0.16_02n"
+	Removed "athna"
+

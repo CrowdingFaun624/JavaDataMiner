@@ -1,0 +1,13 @@
+21w11a (from 21w10a)
+
+Total: 638 (+4, -0)
+
+Additions:
+	Added "subtitles.block.amethyst_block.chime": "Amethyst chimes"
+	Added "subtitles.item.axe.scrape": "Axe scrapes"
+	Added "subtitles.item.axe.wax_off": "Wax off"
+	Added "subtitles.item.honeycomb.wax_on": "Wax on"
+
+Changes:
+	Changed "subtitles.item.axe.strip" from "Axe scrapes" to "Axe strips"
+

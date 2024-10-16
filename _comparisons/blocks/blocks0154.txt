@@ -1,0 +1,7 @@
+22w12a (from 22w11a)
+
+Total: 932 (+0, -0)
+
+Changes:
+	Changed mud_brick_slab's "sound_type" from STONE to MUD_BRICKS
+

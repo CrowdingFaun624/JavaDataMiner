@@ -1,0 +1,18 @@
+20w11a (from 20w10a)
+
+Total: 42 (+3, -1)
+
+Type Additions:
+	Added type TWISTING_VINES with blocks:
+
+	Added type VINE with blocks:
+		vine
+
+Additions:
+	Added nether_gold_ore to STONE
+	Added twisting_vines to WEEPING_VINES
+	Added twisting_vines_plant to WEEPING_VINES
+
+Removals:
+	Removed vine from GRASS
+

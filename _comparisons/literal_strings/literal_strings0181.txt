@@ -1,0 +1,39 @@
+12w22a (from 12w21b)
+
+Total: 5544 (+25, -6)
+
+Additions:
+	Added "/gui/creative_inv/"
+	Added "12w22a"
+	Added "English (US)"
+	Added "I"
+	Added "Minecraft 12w22a"
+	Added "Minecraft 12w22a ("
+	Added "Minecraft Minecraft 12w22a"
+	Added "Saving and pausing game..."
+	Added "Starting integrated minecraft server version 12w22a"
+	Added "Starting minecraft server version 12w22a"
+	Added "a"
+	Added "adventure"
+	Added "blockEmerald"
+	Added "buyB"
+	Added "commands.defaultgamemode.success"
+	Added "commands.defaultgamemode.usage"
+	Added "defaultgamemode"
+	Added "gameMode.adventure"
+	Added "inventory.binSlot"
+	Added "list_items.png"
+	Added "mayBuild"
+	Added "search.png"
+	Added "survival_inv.png"
+	Added "tripWire"
+	Added "tripWireSource"
+
+Removals:
+	Removed "12w21b"
+	Removed "Minecraft 12w21b"
+	Removed "Minecraft 12w21b ("
+	Removed "Minecraft Minecraft 12w21b"
+	Removed "Starting integrated minecraft server version 12w21b"
+	Removed "Starting minecraft server version 12w21b"
+

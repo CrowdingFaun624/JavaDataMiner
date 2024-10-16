@@ -1,0 +1,65 @@
+23w43a (from 23w42a)
+
+Total: 109 (+28, -0)
+
+Type Additions:
+	Added type COPPER_BULB with blocks:
+		copper_bulb
+		exposed_copper_bulb
+		oxidized_copper_bulb
+		waxed_copper_bulb
+		waxed_exposed_copper_bulb
+		waxed_oxidized_copper_bulb
+		waxed_weathered_copper_bulb
+		weathered_copper_bulb
+	Added type COPPER_GRATE with blocks:
+		copper_grate
+		exposed_copper_grate
+		oxidized_copper_grate
+		waxed_copper_grate
+		waxed_exposed_copper_grate
+		waxed_oxidized_copper_grate
+		waxed_weathered_copper_grate
+		weathered_copper_grate
+	Added type POLISHED_TUFF with blocks:
+		polished_tuff
+		polished_tuff_slab
+		polished_tuff_stairs
+		polished_tuff_wall
+	Added type TUFF_BRICKS with blocks:
+		chiseled_tuff_bricks
+		tuff_brick_slab
+		tuff_brick_stairs
+		tuff_brick_wall
+		tuff_bricks
+
+Additions:
+	Added chiseled_copper to COPPER
+	Added exposed_chiseled_copper to COPPER
+	Added oxidized_chiseled_copper to COPPER
+	Added waxed_chiseled_copper to COPPER
+	Added waxed_exposed_chiseled_copper to COPPER
+	Added waxed_oxidized_chiseled_copper to COPPER
+	Added waxed_weathered_chiseled_copper to COPPER
+	Added weathered_chiseled_copper to COPPER
+	Added copper_door to METAL
+	Added copper_trapdoor to METAL
+	Added exposed_copper_door to METAL
+	Added exposed_copper_trapdoor to METAL
+	Added oxidized_copper_door to METAL
+	Added oxidized_copper_trapdoor to METAL
+	Added waxed_copper_door to METAL
+	Added waxed_copper_trapdoor to METAL
+	Added waxed_exposed_copper_door to METAL
+	Added waxed_exposed_copper_trapdoor to METAL
+	Added waxed_oxidized_copper_door to METAL
+	Added waxed_oxidized_copper_trapdoor to METAL
+	Added waxed_weathered_copper_door to METAL
+	Added waxed_weathered_copper_trapdoor to METAL
+	Added weathered_copper_door to METAL
+	Added weathered_copper_trapdoor to METAL
+	Added chiseled_tuff to TUFF
+	Added tuff_slab to TUFF
+	Added tuff_stairs to TUFF
+	Added tuff_wall to TUFF
+

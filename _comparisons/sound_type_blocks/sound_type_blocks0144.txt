@@ -1,0 +1,17 @@
+1.19_deep_dark_experimental_snapshot-1 (from 1.18.1)
+
+Total: 80 (+1, -0)
+
+Type Additions:
+	Added type SCULK with blocks:
+		sculk
+	Added type SCULK_CATALYST with blocks:
+		sculk_catalyst
+	Added type SCULK_SHRIEKER with blocks:
+		sculk_shrieker
+	Added type SCULK_VEIN with blocks:
+		sculk_vein
+
+Additions:
+	Added reinforced_deepslate to DEEPSLATE
+

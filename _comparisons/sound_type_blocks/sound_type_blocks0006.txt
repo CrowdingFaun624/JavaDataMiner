@@ -1,0 +1,8 @@
+in-20100219 (from in-20100218)
+
+Total: 9 (+2, -0)
+
+Additions:
+	Added 61 to 1;1.0;1.0;stone
+	Added 62 to 1;1.0;1.0;stone
+

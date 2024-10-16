@@ -1,0 +1,22 @@
+15w31a (from 1.8.9)
+
+Total: 211 (+13, -0)
+
+Additions:
+	Added beetroots
+	Added chorus_flower
+	Added chorus_plant
+	Added end_bricks
+	Added end_gateway
+	Added end_rod
+	Added grass_path
+	Added purpur_block
+	Added purpur_double_slab
+	Added purpur_pillar
+	Added purpur_slab
+	Added purpur_stairs
+	Added structure_block
+
+Changes:
+	Changed wooden_button's "sound_type" from wood,1.0,1.0,dig.wood,step.wood,dig.wood to stone,1.0,1.0,dig.stone,step.stone,dig.stone
+

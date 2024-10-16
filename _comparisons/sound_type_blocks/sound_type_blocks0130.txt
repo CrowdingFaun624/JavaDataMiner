@@ -1,0 +1,10 @@
+20w48a (from 20w46a)
+
+Total: 59 (+0, -0)
+
+Type Additions:
+	Added type DRIPSTONE_BLOCK with blocks:
+		dripstone_block
+	Added type POINTED_DRIPSTONE with blocks:
+		pointed_dripstone
+

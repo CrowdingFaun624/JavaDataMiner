@@ -1,0 +1,30 @@
+20w17a (from 20w16a)
+
+Total: 46 (+3, -0)
+
+Additions:
+	Added "CHAIN"
+		volume: 1.0
+		pitch: 1.0
+		break: CHAIN_BREAK
+		step: CHAIN_STEP
+		place: CHAIN_PLACE
+		hit: CHAIN_HIT
+		fall: CHAIN_FALL
+	Added "GILDED_BLACKSTONE"
+		volume: 1.0
+		pitch: 1.0
+		break: GILDED_BLACKSTONE_BREAK
+		step: GILDED_BLACKSTONE_STEP
+		place: GILDED_BLACKSTONE_PLACE
+		hit: GILDED_BLACKSTONE_HIT
+		fall: GILDED_BLACKSTONE_FALL
+	Added "NETHER_GOLD_ORE"
+		volume: 1.0
+		pitch: 1.0
+		break: NETHER_GOLD_ORE_BREAK
+		step: NETHER_GOLD_ORE_STEP
+		place: NETHER_GOLD_ORE_PLACE
+		hit: NETHER_GOLD_ORE_HIT
+		fall: NETHER_GOLD_ORE_FALL
+

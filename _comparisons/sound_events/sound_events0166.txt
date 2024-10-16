@@ -1,0 +1,19 @@
+24w05a (from 24w04a)
+
+Total: 1568 (+13, -0)
+
+Additions:
+	Added "VAULT_ACTIVATE": "block.vault.activate"
+	Added "VAULT_AMBIENT": "block.vault.ambient"
+	Added "VAULT_BREAK": "block.vault.break"
+	Added "VAULT_CLOSE_SHUTTER": "block.vault.close_shutter"
+	Added "VAULT_DEACTIVATE": "block.vault.deactivate"
+	Added "VAULT_EJECT_ITEM": "block.vault.eject_item"
+	Added "VAULT_FALL": "block.vault.fall"
+	Added "VAULT_HIT": "block.vault.hit"
+	Added "VAULT_INSERT_ITEM": "block.vault.insert_item"
+	Added "VAULT_INSERT_ITEM_FAIL": "block.vault.insert_item_fail"
+	Added "VAULT_OPEN_SHUTTER": "block.vault.open_shutter"
+	Added "VAULT_PLACE": "block.vault.place"
+	Added "VAULT_STEP": "block.vault.step"
+

@@ -1,0 +1,40 @@
+1.3.2 (from 1.3.1)
+
+Total: 5859 (+23, -9)
+
+Additions:
+	Added "(Hidden)"
+	Added "1.3.2"
+	Added "C "
+	Added "Minecraft 1.3.2"
+	Added "Minecraft 1.3.2 ("
+	Added "Minecraft Minecraft 1.3.2"
+	Added "Nether"
+	Added "Overworld"
+	Added "S "
+	Added "Starting integrated minecraft server version 1.3.2"
+	Added "Starting minecraft server version 1.3.2"
+	Added "The End"
+	Added "commands.message.display.incoming"
+	Added "commands.message.display.outgoing"
+	Added "commands.message.sameTarget"
+	Added "commands.message.usage"
+	Added "hideServerAddress"
+	Added "hideServerAddress:"
+	Added "msg"
+	Added "snooper_partner"
+	Added "tell"
+	Added "u00a77u00a7o"
+	Added "w"
+
+Removals:
+	Removed " issued server command: "
+	Removed "/seed"
+	Removed "1.3.1"
+	Removed "META-INF/MOJANG_C.DSA"
+	Removed "Minecraft 1.3.1"
+	Removed "Minecraft 1.3.1 ("
+	Removed "Minecraft Minecraft 1.3.1"
+	Removed "Starting integrated minecraft server version 1.3.1"
+	Removed "Starting minecraft server version 1.3.1"
+

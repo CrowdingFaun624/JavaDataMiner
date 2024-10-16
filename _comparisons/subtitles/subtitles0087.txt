@@ -1,0 +1,18 @@
+23w12a (from 1.19.4)
+
+Total: 736 (+8, -2)
+
+Additions:
+	Added "subtitles.block.amethyst_block.resonate": "Amethyst resonates"
+	Added "subtitles.entity.sniffer.egg_crack": "Sniffer Egg cracks"
+	Added "subtitles.entity.sniffer.egg_hatch": "Sniffer Egg hatches"
+	Added "subtitles.item.brush.brushing.generic": "Brushing"
+	Added "subtitles.item.brush.brushing.gravel": "Brushing Gravel"
+	Added "subtitles.item.brush.brushing.gravel.complete": "Brushing Gravel completed"
+	Added "subtitles.item.brush.brushing.sand": "Brushing Sand"
+	Added "subtitles.item.brush.brushing.sand.complete": "Brushing Sand completed"
+
+Removals:
+	Removed "subtitles.item.brush.brush_sand_completed": "Brushing sand completed"
+	Removed "subtitles.item.brush.brushing": "Brushing"
+

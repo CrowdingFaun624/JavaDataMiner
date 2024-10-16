@@ -1,0 +1,25 @@
+18w07a (from 18w06a)
+
+Total: 12 (+19, -0)
+
+Additions:
+	Added dried_kelp_block to 1.0;1.0;grass
+	Added kelp to 1.0;1.0;grass
+	Added kelp_top to 1.0;1.0;grass
+	Added sea_grass to 1.0;1.0;grass
+	Added tall_sea_grass to 1.0;1.0;grass
+	Added bubble_column to 1.0;1.0;stone
+	Added dark_prismarine_slab to 1.0;1.0;stone
+	Added dark_prismarine_stairs to 1.0;1.0;stone
+	Added prismarine_bricks_slab to 1.0;1.0;stone
+	Added prismarine_bricks_stairs to 1.0;1.0;stone
+	Added prismarine_slab to 1.0;1.0;stone
+	Added prismarine_stairs to 1.0;1.0;stone
+	Added stripped_acacia_log to 1.0;1.0;wood
+	Added stripped_birch_log to 1.0;1.0;wood
+	Added stripped_dark_oak_log to 1.0;1.0;wood
+	Added stripped_jungle_log to 1.0;1.0;wood
+	Added stripped_oak_log to 1.0;1.0;wood
+	Added stripped_spruce_log to 1.0;1.0;wood
+	Added turtle_egg to 1.0;1.5;metal
+

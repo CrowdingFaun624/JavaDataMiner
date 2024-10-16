@@ -1,0 +1,20 @@
+12w50b (from 12w50a)
+
+Total: 7109 (+6, -6)
+
+Additions:
+	Added "12w50b"
+	Added "Minecraft 12w50b"
+	Added "Minecraft 12w50b ("
+	Added "Minecraft Minecraft 12w50b"
+	Added "Starting integrated minecraft server version 12w50b"
+	Added "Starting minecraft server version 12w50b"
+
+Removals:
+	Removed "12w50a"
+	Removed "Minecraft 12w50a"
+	Removed "Minecraft 12w50a ("
+	Removed "Minecraft Minecraft 12w50a"
+	Removed "Starting integrated minecraft server version 12w50a"
+	Removed "Starting minecraft server version 12w50a"
+

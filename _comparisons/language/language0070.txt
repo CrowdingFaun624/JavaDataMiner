@@ -1,0 +1,30 @@
+2point0_red (from 2point0_blue)
+
+Total: 1221 (+0, -20)
+
+Removals:
+	Removed "tile.blockCoal.name": "Block of Coal"
+	Removed "tile.ethoSlab.tntLit.name": "Etho Slab (Lit??)"
+	Removed "tile.ethoSlab.tntUnlit.name": "Etho Slab"
+	Removed "tile.tintedGlass.black.name": "Black Tinted Glass"
+	Removed "tile.tintedGlass.blue.name": "Blue Tinted Glass"
+	Removed "tile.tintedGlass.brown.name": "Brown Tinted Glass"
+	Removed "tile.tintedGlass.cyan.name": "Cyan Tinted Glass"
+	Removed "tile.tintedGlass.gray.name": "Gray Tinted Glass"
+	Removed "tile.tintedGlass.green.name": "Green Tinted Glass"
+	Removed "tile.tintedGlass.lightBlue.name": "Light Blue Tinted Glass"
+	Removed "tile.tintedGlass.lime.name": "Lime Tinted Glass"
+	Removed "tile.tintedGlass.magenta.name": "Magenta Tinted Glass"
+	Removed "tile.tintedGlass.orange.name": "Orange Tinted Glass"
+	Removed "tile.tintedGlass.pink.name": "Pink Tinted Glass"
+	Removed "tile.tintedGlass.purple.name": "Purple Tinted Glass"
+	Removed "tile.tintedGlass.red.name": "Red Tinted Glass"
+	Removed "tile.tintedGlass.silver.name": "Light Gray Tinted Glass"
+	Removed "tile.tintedGlass.white.name": "White Tinted Glass"
+	Removed "tile.tintedGlass.yellow.name": "Yellow Tinted Glass"
+	Removed "tile.torchOff.name": "Torch (Burnt-out)"
+
+Changes:
+	Changed "options.anaglyph" from "Super HD Graphics" to "3D Anaglyph"
+	Changed "tile.dropper.name" from "Flopper" to "Dropper"
+

@@ -1,0 +1,29 @@
+24w03a (from 23w51a)
+
+Total: 6574 (+12, -0)
+
+Additions:
+	Added "attribute.name.player.block_interaction_range": "Block Interaction Range"
+	Added "attribute.name.player.entity_interaction_range": "Entity Interaction Range"
+	Added "commands.setworldspawn.failure.not_overworld": "Can only set the world spawn for overworld"
+	Added "connect.failed.transfer": "Connection failed while transferring to the server"
+	Added "connect.transferring": "Transferring to new server..."
+	Added "disconnect.transfer": "Transferred to another server"
+	Added "enchantment.minecraft.sweeping_edge": "Sweeping Edge"
+	Added "gamerule.spawnChunkRadius": "Spawn chunk radius"
+	Added "gamerule.spawnChunkRadius.description": "Amount of chunks that stay loaded around the overworld spawn position."
+	Added "gamerule.spawnRadius.description": "Controls the size of the area around the spawn point that players can spawn in."
+	Added "item.minecraft.scute": "Scute"
+	Added "multiplayer.disconnect.transfers_disabled": "Server does not accept transfers"
+
+Changes:
+	Changed "argument.time.invalid_tick_count" from "Tick count must be non-negative" to "The tick count must be non-negative"
+	Changed "argument.time.tick_count_too_low" from "Tick count must not be less than %s, found %s" to "The tick count must not be less than %s, found %s"
+	Changed "commands.tick.sprint.stop.success" from "A tick sprint interrupted" to "Interrupted the current tick sprint"
+	Changed "commands.tick.status.running" from "The game runs normally" to "The game is running normally"
+	Changed "commands.tick.step.stop.success" from "A tick step interrupted" to "Interrupted the current tick step"
+	Changed "subtitles.entity.armadillo.brush" from "Armadillo brushes" to "Scute is brushed off"
+	Changed "subtitles.entity.armadillo.scute_drop" from "Scute drops" to "Armadillo sheds scute"
+	Changed "subtitles.item.armor.equip_wolf" from "Wolf armor straps" to "Wolf Armor is fastened"
+	Changed "subtitles.item.armor.unequip_wolf" from "Wolf armor slips off" to "Wolf Armor snips away"
+

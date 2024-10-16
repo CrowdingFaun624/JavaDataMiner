@@ -1,0 +1,23 @@
+a1.0.6 (from a1.0.5_01)
+
+Total: 1584 (+10, -5)
+
+Additions:
+	Added "/item/boat.png"
+	Added "Boat"
+	Added "Minecraft"
+	Added "Minecraft Alpha v1.0.6"
+	Added "Minecraft Alpha v1.0.6 ("
+	Added "Minecraft Minecraft Alpha v1.0.6"
+	Added "Minecraft: Minecraft Alpha v1.0.6n"
+	Added "Reinserting player "
+	Added "Timed out"
+	Added "www.minecraft.net"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.5_01"
+	Removed "Minecraft Alpha v1.0.5_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.5_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.5_01n"
+	Removed "Tried to send data on a connection marked for quitting"
+

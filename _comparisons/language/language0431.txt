@@ -1,0 +1,40 @@
+1.19.1-rc2 (from 1.19.1-rc1)
+
+Total: 5429 (+21, -2)
+
+Additions:
+	Added "chat.previewInput": "Press [%s] to preview"
+	Added "chat.tag.modified": "This message has been modified by the server."
+	Added "chat.tag.modified.original": "Original text: %s"
+	Added "chat.tag.not_secure": "This message is not secure, which means that it might have been modified by the server"
+	Added "gui.abuseReport.reason.false_reporting": "False Reporting"
+	Added "gui.chatReport.send.comments_too_long": "Please shorten the comment"
+	Added "gui.chatReport.send.too_many_messages": "Trying to include too many messages in the report"
+	Added "gui.socialInteractions.narration.hide": "Hide messages from %s"
+	Added "gui.socialInteractions.narration.report": "Report player %s"
+	Added "gui.socialInteractions.narration.show": "Show messages from %s"
+	Added "gui.socialInteractions.tooltip.report.no_messages": "Cannot create report: no recent messages from player %s"
+	Added "multiplayer.disconnect.chat_validation_failed": "Chat message validation failure"
+	Added "multiplayer.disconnect.too_many_pending_chats": "Too many unacknowledged chat messages"
+	Added "multiplayer.disconnect.unsigned_chat": "Received chat packet with missing or invalid signature."
+	Added "multiplayer.unsecureserver.toast": "Messages sent on this server may be modified and might not reflect the original message"
+	Added "multiplayer.unsecureserver.toast.title": "Chat messages can't be verified"
+	Added "options.chatPreview.confirm": "When Sending"
+	Added "options.chatPreview.live": "While Typing"
+	Added "options.chatPreview.tooltip.confirm": "If a server uses Chat Previews: A chat preview is only generated when attempting to send a message that does not have a preview or is waiting for a preview.\nSending the message requires confirmation."
+	Added "options.chatPreview.tooltip.live": "If a server uses Chat Previews: Any modifications applied to your chat messages by a server will be dynamically sent for previewing as the chat message is typed."
+	Added "options.chatPreview.tooltip.off": "Any modifications applied to your chat messages by a server will not be previewed and will be treated as insecure."
+
+Removals:
+	Removed "chat.preview": "Type to preview"
+	Removed "options.chatPreview.tooltip": "Chat Preview allows servers to see your messages as you type, which allows them to style your message. You can still chat if you turn this off."
+
+Changes:
+	Changed "chatPreview.warning.content" from "Chat Preview allows the server to see your messages in real time as you type them, even before they\u2019re sent. This is often used to preview your message with styling applied.\n\nChat Preview is on by default, but can be turned off in Chat Settings." to "Chat Preview allows the server to see your messages before they are sent to other players. This allows a server to send you a preview of your chat messages with custom modifications and styling applied.\n\nThe Chat Preview behavior can be changed in your Chat Settings. Current setting is: [%s]"
+	Changed "gui.abuseReport.reason.harassment_or_bullying.description" from "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent." to "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent (\"doxing\")."
+	Changed "gui.abuseReport.reason.self_harm_or_suicide.description" from "Someone is threatening to harm themselves in real life, or talking about harming yourself in real life." to "Someone is threatening to harm themselves in real life or talking about harming themselves in real life."
+	Changed "gui.chatReport.title" from "Report Chat" to "Report Player"
+	Changed "gui.socialInteractions.tooltip.hide" from "Hide messages from %s in chat" to "Hide messages"
+	Changed "gui.socialInteractions.tooltip.report" from "Create report for %s" to "Report player"
+	Changed "gui.socialInteractions.tooltip.show" from "Show messages from %s in chat" to "Show messages"
+

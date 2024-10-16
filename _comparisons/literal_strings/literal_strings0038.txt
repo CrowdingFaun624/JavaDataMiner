@@ -1,0 +1,38 @@
+in-20100212-1 (from in-20100207-2)
+
+Total: 1153 (+23, -7)
+
+Additions:
+	Added "%%"
+	Added "%%/shadow.png"
+	Added ". L: "
+	Added "/char_2.png"
+	Added "/terrain/moon.png"
+	Added "/terrain/sun.png"
+	Added "Failed to set next phase!"
+	Added "Minecraft main thread"
+	Added "Sheared"
+	Added "Spawning.."
+	Added "TimeOfDay"
+	Added "Timer hack thread"
+	Added "Wrong number of phases! Wanted "
+	Added "X X"
+	Added "cloth"
+	Added "http://www.minecraft.net/skin/Notch.png"
+	Added "largesmoke"
+	Added "mob.pig"
+	Added "mob.pigdeath"
+	Added "mob.sheep"
+	Added "random.glass"
+	Added "sand"
+	Added "step.gravel"
+
+Removals:
+	Removed "&i="
+	Removed "/shadow.png"
+	Removed "?n="
+	Removed "Post-processing.."
+	Removed "http://minecraft.net/"
+	Removed "http://www.minecraft.net/"
+	Removed "http://www.minecraft.net/skin/"
+

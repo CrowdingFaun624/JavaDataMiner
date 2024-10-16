@@ -1,0 +1,30 @@
+13w09b (from 13w09a)
+
+Total: 8197 (+15, -7)
+
+Additions:
+	Added "13w09b"
+	Added ":["
+	Added "Minecraft 13w09b"
+	Added "Minecraft 13w09b ("
+	Added "Minecraft Minecraft 13w09b"
+	Added "Starting integrated minecraft server version 13w09b"
+	Added "Starting minecraft server version 13w09b"
+	Added "Unable to load words"
+	Added "Unable to read or access folder where game worlds are saved!"
+	Added "commands.effect.notFound"
+	Added "commands.effect.success"
+	Added "commands.effect.usage"
+	Added "effect"
+	Added "gui/items.png"
+	Added "terrain.png"
+
+Removals:
+	Removed " entries"
+	Removed "13w09a"
+	Removed "Minecraft 13w09a"
+	Removed "Minecraft 13w09a ("
+	Removed "Minecraft Minecraft 13w09a"
+	Removed "Starting integrated minecraft server version 13w09a"
+	Removed "Starting minecraft server version 13w09a"
+

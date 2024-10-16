@@ -1,0 +1,37 @@
+22w19a (from 22w18a)
+
+Total: 5327 (+23, -6)
+
+Additions:
+	Added "argument.enum.invalid": "Invalid value \"%s\""
+	Added "chat.preview": "Type to preview"
+	Added "chatPreview.warning.check": "Do not notify again for this server"
+	Added "chatPreview.warning.content": "Chat Preview allows the server to see your messages in real time as you type them, even before they\u2019re sent. This is often used to preview your message with styling applied.\n\nChat Preview is on by default, but can be turned off in Chat Settings."
+	Added "chatPreview.warning.title": "This server uses Chat Preview"
+	Added "chatPreview.warning.toast": "This server uses Chat Preview and can see your messages as you type them, even before they're sent. You can turn this off in Chat Settings."
+	Added "chatPreview.warning.toast.title": "Chat Preview is enabled"
+	Added "commands.locate.biome.invalid": "There is no biome with type \"%s\""
+	Added "commands.locate.biome.not_found": "Could not find a biome of type \"%s\" within reasonable distance"
+	Added "commands.locate.biome.success": "The nearest %s is at %s (%s blocks away)"
+	Added "commands.locate.poi.invalid": "There is no point of interest with type \"%s\""
+	Added "commands.locate.poi.not_found": "Could not find a point of interest of type \"%s\" within reasonable distance"
+	Added "commands.locate.poi.success": "The nearest %s is at %s (%s blocks away)"
+	Added "commands.locate.structure.invalid": "There is no structure with type \"%s\""
+	Added "commands.locate.structure.not_found": "Could not find a structure of type \"%s\" nearby"
+	Added "commands.locate.structure.success": "The nearest %s is at %s (%s blocks away)"
+	Added "commands.place.template.failed": "Failed to place template"
+	Added "commands.place.template.invalid": "There is no template with id \"%s\""
+	Added "commands.place.template.success": "Loaded template \"%s\" at %s, %s, %s"
+	Added "options.chatPreview": "Chat Preview"
+	Added "options.chatPreview.tooltip": "Chat Preview allows servers to see your messages as you type, which allows them to style your message. You can still chat if you turn this off."
+	Added "options.onlyShowSignedChat": "Only Show Signed Chat"
+	Added "options.onlyShowSignedChat.tooltip": "When enabled, the chat will always prefer to display securely signed messages. This means any alterations by the server such as styling might not be consistently displayed."
+
+Removals:
+	Removed "commands.locate.failed": "Could not find a structure of type \"%s\" nearby"
+	Removed "commands.locate.invalid": "There is no structure with type \"%s\""
+	Removed "commands.locate.success": "The nearest %s is at %s (%s blocks away)"
+	Removed "commands.locatebiome.invalid": "There is no biome with type \"%s\""
+	Removed "commands.locatebiome.notFound": "Could not find a biome of type \"%s\" within reasonable distance"
+	Removed "commands.locatebiome.success": "The nearest %s is at %s (%s blocks away)"
+

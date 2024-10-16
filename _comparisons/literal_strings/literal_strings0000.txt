@@ -1,0 +1,8 @@
+rd-132328 (from rd-132211)
+
+Total: 8 (+2, -0)
+
+Additions:
+	Added " -> "
+	Added "/char.png"
+

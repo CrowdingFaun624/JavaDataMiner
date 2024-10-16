@@ -1,0 +1,11 @@
+23w14a (from 23w13a_or_b)
+
+Total: 1466 (+0, -1)
+
+Removals:
+	Removed "THE_JOKE": "nothingtoseeheremovealong:the_joke"
+
+Changes:
+	Changed "SNIFFER_EGG_CRACK" from "entity.sniffer.egg_crack" to "block.sniffer.egg_crack"
+	Changed "SNIFFER_EGG_HATCH" from "entity.sniffer.egg_hatch" to "block.sniffer.egg_hatch"
+

@@ -1,0 +1,22 @@
+13w23a (from 13w22a)
+
+Total: 1325 (+16, -0)
+
+Additions:
+	Added "commands.generic.boolean.invalid": "'%s' is not true or false"
+	Added "commands.spreadplayers.failure.players": "Could not spread %s players around %s,%s (too many players for space - try using spread of at most %s)"
+	Added "commands.spreadplayers.failure.teams": "Could not spread %s teams around %s,%s (too many players for space - try using spread of at most %s)"
+	Added "commands.spreadplayers.info.players": "(Average distance between players is %s blocks apart after %s iterations)"
+	Added "commands.spreadplayers.info.teams": "(Average distance between teams is %s blocks apart after %s iterations)"
+	Added "commands.spreadplayers.spreading.players": "Spreading %s players %s blocks around %s,%s (min %s blocks apart)"
+	Added "commands.spreadplayers.spreading.teams": "Spreading %s teams %s blocks around %s,%s (min %s blocks apart)"
+	Added "commands.spreadplayers.success.players": "Successfully spread %s players around %s,%s"
+	Added "commands.spreadplayers.success.teams": "Successfully spread %s teams around %s,%s"
+	Added "commands.spreadplayers.usage": "/spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>"
+	Added "mco.configure.world.status": "Status"
+	Added "mco.create.world.seed": "Seed (Optional)"
+	Added "mco.template.button.select": "Select"
+	Added "mco.template.default.name": "Select Template (Optional)"
+	Added "mco.template.name": "Template"
+	Added "mco.template.title": "World Templates"
+

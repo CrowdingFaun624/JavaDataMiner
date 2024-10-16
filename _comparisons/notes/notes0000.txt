@@ -1,0 +1,11 @@
+b1.2 (from b1.1_02)
+
+Total: 5 (+5, -0)
+
+Additions:
+	Added "bassattack"
+	Added "bd"
+	Added "harp"
+	Added "hat"
+	Added "snare"
+

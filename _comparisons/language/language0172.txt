@@ -1,0 +1,7 @@
+15w36d (from 15w36c)
+
+Total: 2567 (+1, -0)
+
+Additions:
+	Added "attribute.name.generic.armor": "Armor"
+

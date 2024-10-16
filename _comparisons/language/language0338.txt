@@ -1,0 +1,16 @@
+20w10a (from 20w09a)
+
+Total: 4472 (+6, -0)
+
+Additions:
+	Added "block.minecraft.crimson_hyphae": "Crimson Hyphae"
+	Added "block.minecraft.stripped_crimson_hyphae": "Stripped Crimson Hyphae"
+	Added "block.minecraft.stripped_warped_hyphae": "Stripped Warped Hyphae"
+	Added "block.minecraft.warped_hyphae": "Warped Hyphae"
+	Added "container.upgrade": "Upgrade"
+	Added "stat.minecraft.interact_with_smithing_table": "Interactions with Smithing Table"
+
+Changes:
+	Changed "selectWorld.backupJoinConfirmButton" from "Backup and load" to "Create backup and load"
+	Changed "selectWorld.tooltip.snapshot1" from "Don't forget to backup this world" to "Don't forget to back up this world"
+

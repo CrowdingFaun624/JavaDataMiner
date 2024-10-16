@@ -1,0 +1,8 @@
+13w38b (from 13w38a)
+
+Total: 1520 (+2, -0)
+
+Additions:
+	Added "chat.link.confirmTrusted": "Do you want to open this link or copy it to your clipboard?"
+	Added "chat.link.open": "Open in browser"
+

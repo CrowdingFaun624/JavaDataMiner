@@ -1,0 +1,13 @@
+21w14a (from 21w13a)
+
+Total: 5060 (+7, -0)
+
+Additions:
+	Added "block.minecraft.waxed_oxidized_copper": "Waxed Oxidized Copper"
+	Added "block.minecraft.waxed_oxidized_cut_copper": "Waxed Oxidized Cut Copper"
+	Added "block.minecraft.waxed_oxidized_cut_copper_slab": "Waxed Oxidized Cut Copper Slab"
+	Added "block.minecraft.waxed_oxidized_cut_copper_stairs": "Waxed Oxidized Cut Copper Stairs"
+	Added "item.minecraft.raw_copper": "Raw Copper"
+	Added "item.minecraft.raw_gold": "Raw Gold"
+	Added "item.minecraft.raw_iron": "Raw Iron"
+

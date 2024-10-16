@@ -1,0 +1,8 @@
+22w15a (from 22w14a)
+
+Total: 1308 (+2, -0)
+
+Additions:
+	Added "WARDEN_SONIC_BOOM": "entity.warden.sonic_boom"
+	Added "WARDEN_SONIC_CHARGE": "entity.warden.sonic_charge"
+

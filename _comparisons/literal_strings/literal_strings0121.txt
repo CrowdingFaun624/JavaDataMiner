@@ -1,0 +1,20 @@
+b1.2_01 (from b1.2)
+
+Total: 2011 (+5, -7)
+
+Additions:
+	Added "BurningSkull"
+	Added "Minecraft Beta 1.2_01"
+	Added "Minecraft Beta 1.2_01 ("
+	Added "Minecraft Minecraft Beta 1.2_01"
+	Added "Minecraft: Minecraft Beta 1.2_01n"
+
+Removals:
+	Removed "Finally beta!"
+	Removed "Minecraft Beta 1.2"
+	Removed "Minecraft Beta 1.2 ("
+	Removed "Minecraft Minecraft Beta 1.2"
+	Removed "Minecraft: Minecraft Beta 1.2n"
+	Removed "Why IS this chunk in the list of dirty chunks?"
+	Removed "Why isn't this chunk in the list of dirty chunks?"
+

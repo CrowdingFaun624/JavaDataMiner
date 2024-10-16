@@ -1,0 +1,36 @@
+b1.9-pre3-1 (from b1.9-pre2)
+
+Total: 818 (+27, -0)
+
+Additions:
+	Added "item.brewingStand.desc": ""
+	Added "item.brewingStand.name": "Brewing Stand"
+	Added "item.cauldron.desc": ""
+	Added "item.cauldron.name": "Cauldron"
+	Added "item.emptyPotion.desc": ""
+	Added "item.emptyPotion.name": "Water Bottle"
+	Added "item.eyeOfEnder..desc": ""
+	Added "item.eyeOfEnder.name": "Eye of Ender"
+	Added "potion.blindness.postfix": "of Blindness"
+	Added "potion.confusion.postfix": "of Nausea"
+	Added "potion.damageBoost.postfix": "of Strength"
+	Added "potion.digSlowDown.postfix": "of Dullness"
+	Added "potion.digSpeed.postfix": "of Haste"
+	Added "potion.fireResistance.postfix": "of Fire Resistance"
+	Added "potion.harm.postfix": "of Harming"
+	Added "potion.heal.postfix": "of Healing"
+	Added "potion.hunger.postfix": "of Hunger"
+	Added "potion.invisibility.postfix": "of Invisibility"
+	Added "potion.jump.postfix": "of Leaping"
+	Added "potion.moveSlowdown.postfix": "of Slowness"
+	Added "potion.moveSpeed.postfix": "of Swiftness"
+	Added "potion.nightVision.postfix": "of Night Vision"
+	Added "potion.poison.postfix": "of Poison"
+	Added "potion.regeneration.postfix": "of Regeneration"
+	Added "potion.resistance.postfix": "of Resistance"
+	Added "potion.waterBreathing.postfix": "of Water Breathing"
+	Added "potion.weakness.postfix": "of Weakness"
+
+Changes:
+	Changed "entity.Arrow.name" from "Arrow" to "arrow"
+

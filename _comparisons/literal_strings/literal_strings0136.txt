@@ -1,0 +1,24 @@
+b1.6.6 (from b1.6.5)
+
+Total: 2578 (+8, -8)
+
+Additions:
+	Added "Minecraft Beta 1.6.6"
+	Added "Minecraft Beta 1.6.6   Unlicensed Copy :("
+	Added "Minecraft Beta 1.6.6 ("
+	Added "Minecraft Minecraft Beta 1.6.6"
+	Added "Minecraft: Minecraft Beta 1.6.6n"
+	Added "performance.balanced"
+	Added "performance.max"
+	Added "performance.powersaver"
+
+Removals:
+	Removed "200 fps"
+	Removed "40 fps"
+	Removed "90 fps"
+	Removed "Minecraft Beta 1.6.5"
+	Removed "Minecraft Beta 1.6.5   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.6.5 ("
+	Removed "Minecraft Minecraft Beta 1.6.5"
+	Removed "Minecraft: Minecraft Beta 1.6.5n"
+

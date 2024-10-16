@@ -1,0 +1,23 @@
+18w19a (from 18w16a)
+
+Total: 650 (+17, -0)
+
+Additions:
+	Added "block.beacon.activate"
+	Added "block.beacon.ambient"
+	Added "block.beacon.deactivate"
+	Added "block.beacon.power_select"
+	Added "block.conduit.activate"
+	Added "block.conduit.ambient"
+	Added "block.conduit.ambient.short"
+	Added "block.conduit.attack.target"
+	Added "block.conduit.deactivate"
+	Added "entity.parrot.imitate.drowned"
+	Added "entity.parrot.imitate.phantom"
+	Added "entity.phantom.flap"
+	Added "entity.skeleton_horse.swim"
+	Added "entity.skeleton_horse.water_ambient"
+	Added "entity.skeleton_horse.water_gallop"
+	Added "entity.skeleton_horse.water_jump"
+	Added "entity.skeleton_horse.water_step"
+

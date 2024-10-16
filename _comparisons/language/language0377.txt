@@ -1,0 +1,21 @@
+21w05b (from 21w05a)
+
+Total: 4999 (+4, -6)
+
+Additions:
+	Added "block.minecraft.exposed_copper": "Exposed Copper"
+	Added "block.minecraft.oxidized_copper": "Oxidized Copper"
+	Added "block.minecraft.waxed_copper_block": "Waxed Block of Copper"
+	Added "block.minecraft.weathered_copper": "Weathered Copper"
+
+Removals:
+	Removed "block.minecraft.exposed_copper_block": "Exposed Copper Block"
+	Removed "block.minecraft.oxidized_copper_block": "Oxidized Copper Block"
+	Removed "block.minecraft.waxed_copper": "Waxed Copper"
+	Removed "block.minecraft.waxed_exposed_copper_block": "Waxed Exposed Copper Block"
+	Removed "block.minecraft.waxed_weathered_copper_block": "Waxed Weathered Copper Block"
+	Removed "block.minecraft.weathered_copper_block": "Weathered Copper Block"
+
+Changes:
+	Changed "block.minecraft.copper_block" from "Copper Block" to "Block of Copper"
+

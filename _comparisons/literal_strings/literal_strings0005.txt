@@ -1,0 +1,22 @@
+c0.0.14a_08 (from c0.0.13a_03)
+
+Total: 131 (+12, -2)
+
+Additions:
+	Added "/clouds.png"
+	Added "0.0.14a_08"
+	Added "Generate new level..."
+	Added "Growing.."
+	Added "Huge"
+	Added "Minecraft 0.0.14a_08"
+	Added "New improvednoise!"
+	Added "Normal"
+	Added "Planting.."
+	Added "Small"
+	Added "The level is corrupt!"
+	Added "Version is 1!"
+
+Removals:
+	Removed "0.0.13a_03"
+	Removed "Minecraft 0.0.13a_03"
+

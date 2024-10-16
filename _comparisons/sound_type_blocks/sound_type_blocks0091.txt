@@ -1,0 +1,15 @@
+18w10b (from 18w10a)
+
+Total: 12 (+6, -1)
+
+Additions:
+	Added blue_dead_coral to 1.0;1.0;stone
+	Added pink_dead_coral to 1.0;1.0;stone
+	Added purple_dead_coral to 1.0;1.0;stone
+	Added red_dead_coral to 1.0;1.0;stone
+	Added shulker_box to 1.0;1.0;stone
+	Added yellow_dead_coral to 1.0;1.0;stone
+
+Removals:
+	Removed dead_coral from 1.0;1.0;stone
+

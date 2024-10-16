@@ -1,0 +1,17 @@
+21w15a (from 21w14a)
+
+Total: 649 (+11, -0)
+
+Additions:
+	Added "subtitles.entity.goat.ambient": "Goat bleats"
+	Added "subtitles.entity.goat.death": "Goat dies"
+	Added "subtitles.entity.goat.eat": "Goat eats"
+	Added "subtitles.entity.goat.hurt": "Goat hurts"
+	Added "subtitles.entity.goat.long_jump": "Goat leaps"
+	Added "subtitles.entity.goat.milk": "Goat gets milked"
+	Added "subtitles.entity.goat.prepare_ram": "Goat stomps"
+	Added "subtitles.entity.goat.ram_impact": "Goat rams"
+	Added "subtitles.entity.goat.screaming.ambient": "Goat bellows"
+	Added "subtitles.entity.goat.step": "Goat steps"
+	Added "subtitles.item.bone_meal.use": "Bone Meal crinkles"
+

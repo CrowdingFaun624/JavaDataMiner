@@ -1,0 +1,11 @@
+23w42a (from 23w41a)
+
+Total: 746 (+2, -0)
+
+Additions:
+	Added "subtitles.block.crafter.craft": "Crafter crafted"
+	Added "subtitles.block.crafter.fail": "Crafter failed"
+
+Changes:
+	Changed "subtitles.block.decorated_pot.shatter" from "Pot shatters" to "Decorated Pot shatters"
+

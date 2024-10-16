@@ -1,0 +1,12 @@
+in-20100212-1 (from in-20100207-2)
+
+Total: 23 (+6, -0)
+
+Additions:
+	Added "mob.pig"
+	Added "mob.pigdeath"
+	Added "mob.sheep"
+	Added "random.glass"
+	Added "step.cloth"
+	Added "step.sand"
+

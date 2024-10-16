@@ -1,0 +1,38 @@
+a1.0.10 (from a1.0.9)
+
+Total: 1637 (+20, -10)
+
+Additions:
+	Added "################"
+	Added "0123456789ABCDEF"
+	Added "2E411B61822594868E923036250D06BD939447A5E3759F60D4F99C751EA01B79"
+	Added "Connect"
+	Added "Downloading terrain"
+	Added "Duplicate packet class:"
+	Added "Duplicate packet id:"
+	Added "If you've received an invite code, enter the code below:"
+	Added "Minecraft Alpha v1.0.10"
+	Added "Minecraft Alpha v1.0.10 ("
+	Added "Minecraft Minecraft Alpha v1.0.10"
+	Added "Minecraft Multiplayer is currently not finished, but there"
+	Added "Minecraft: Minecraft Alpha v1.0.10n"
+	Added "Multiplayer"
+	Added "OK"
+	Added "PBEWithMD5AndDES"
+	Added "Play Multiplayer"
+	Added "Public (and buggy) testing is coming in a few weeks or so."
+	Added "Singleplayer"
+	Added "is some invite-only testing going on."
+
+Removals:
+	Removed "Load location"
+	Removed "Minecraft Alpha v1.0.9"
+	Removed "Minecraft Alpha v1.0.9 ("
+	Removed "Minecraft Minecraft Alpha v1.0.9"
+	Removed "Minecraft: Minecraft Alpha v1.0.9n"
+	Removed "Multi player"
+	Removed "Receiving level"
+	Removed "Save location"
+	Removed "Single player"
+	Removed "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:-_'*!\"#%/()=+?[]{}<>"
+

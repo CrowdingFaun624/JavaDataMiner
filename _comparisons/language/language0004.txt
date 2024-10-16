@@ -1,0 +1,28 @@
+b1.4-1 (from b1.3_01)
+
+Total: 538 (+22, -0)
+
+Additions:
+	Added "demo.day.1": "This demo will last five game days, do your best!"
+	Added "demo.day.2": "Day Two"
+	Added "demo.day.3": "Day Three"
+	Added "demo.day.4": "Day Four"
+	Added "demo.day.5": "This is your last day!"
+	Added "demo.day.6": "You have passed your fifth day, use F2 to save a screenshot of your creation"
+	Added "demo.day.warning": "Your time is almost up!"
+	Added "demo.help.inventory": "Use %1$s to open your inventory"
+	Added "demo.help.jump": "Jump by pressing %1$s"
+	Added "demo.help.movement": "Use %1$s, %2$s, %3$s, %4$s and the mouse to move around"
+	Added "demo.reminder": "The demo time has expired, buy the game to continue or start a new world!"
+	Added "item.cookie.desc": ""
+	Added "item.cookie.name": "Cookie"
+	Added "options.guiScale": "GUI Scale"
+	Added "options.guiScale.auto": "Auto"
+	Added "options.guiScale.large": "Large"
+	Added "options.guiScale.normal": "Normal"
+	Added "options.guiScale.small": "Small"
+	Added "selectWorld.createDemo": "Play New Demo World"
+	Added "tile.bed.notValid": "Your home bed was missing or obstructed"
+	Added "tile.lockedchest.desc": ""
+	Added "tile.lockedchest.name": "Locked chest"
+

@@ -1,0 +1,9 @@
+1.12-pre7 (from 1.12-pre6)
+
+Total: 549 (+3, -0)
+
+Additions:
+	Added "ui.toast.challenge_complete"
+	Added "ui.toast.in"
+	Added "ui.toast.out"
+

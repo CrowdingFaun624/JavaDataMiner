@@ -1,0 +1,13 @@
+b1.4-1 (from b1.3_01)
+
+Total: 73 (+7, -0)
+
+Additions:
+	Added "mob.wolf.bark"
+	Added "mob.wolf.death"
+	Added "mob.wolf.growl"
+	Added "mob.wolf.hurt"
+	Added "mob.wolf.panting"
+	Added "mob.wolf.shake"
+	Added "mob.wolf.whine"
+

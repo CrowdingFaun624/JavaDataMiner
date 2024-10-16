@@ -1,0 +1,360 @@
+1.14.4 (from 1.14.4-pre7)
+
+Total: 22 (+22, -22)
+
+Additions:
+	Added:
+		volume: 0.3
+		pitch: 1.0
+		break: ANVIL_BREAK
+		step: ANVIL_STEP
+		place: ANVIL_PLACE
+		hit: ANVIL_HIT
+		fall: ANVIL_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: BAMBOO_BREAK
+		step: BAMBOO_STEP
+		place: BAMBOO_PLACE
+		hit: BAMBOO_HIT
+		fall: BAMBOO_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: BAMBOO_SAPLING_BREAK
+		step: BAMBOO_STEP
+		place: BAMBOO_SAPLING_PLACE
+		hit: BAMBOO_SAPLING_HIT
+		fall: BAMBOO_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: CORAL_BLOCK_BREAK
+		step: CORAL_BLOCK_STEP
+		place: CORAL_BLOCK_PLACE
+		hit: CORAL_BLOCK_HIT
+		fall: CORAL_BLOCK_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: CROP_BREAK
+		step: GRASS_STEP
+		place: CROP_PLANTED
+		hit: GRASS_HIT
+		fall: GRASS_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: GLASS_BREAK
+		step: GLASS_STEP
+		place: GLASS_PLACE
+		hit: GLASS_HIT
+		fall: GLASS_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: GRASS_BREAK
+		step: GRASS_STEP
+		place: GRASS_PLACE
+		hit: GRASS_HIT
+		fall: GRASS_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: GRAVEL_BREAK
+		step: GRAVEL_STEP
+		place: GRAVEL_PLACE
+		hit: GRAVEL_HIT
+		fall: GRAVEL_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: WOOD_BREAK
+		step: WOOD_STEP
+		place: CROP_PLANTED
+		hit: WOOD_HIT
+		fall: WOOD_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: LADDER_BREAK
+		step: LADDER_STEP
+		place: LADDER_PLACE
+		hit: LADDER_HIT
+		fall: LADDER_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: LANTERN_BREAK
+		step: LANTERN_STEP
+		place: LANTERN_PLACE
+		hit: LANTERN_HIT
+		fall: LANTERN_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.5
+		break: METAL_BREAK
+		step: METAL_STEP
+		place: METAL_PLACE
+		hit: METAL_HIT
+		fall: METAL_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: NETHER_WART_BREAK
+		step: STONE_STEP
+		place: NETHER_WART_PLANTED
+		hit: STONE_HIT
+		fall: STONE_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: SAND_BREAK
+		step: SAND_STEP
+		place: SAND_PLACE
+		hit: SAND_HIT
+		fall: SAND_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: SCAFFOLDING_BREAK
+		step: SCAFFOLDING_STEP
+		place: SCAFFOLDING_PLACE
+		hit: SCAFFOLDING_HIT
+		fall: SCAFFOLDING_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: SLIME_BLOCK_BREAK
+		step: SLIME_BLOCK_STEP
+		place: SLIME_BLOCK_PLACE
+		hit: SLIME_BLOCK_HIT
+		fall: SLIME_BLOCK_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: SNOW_BREAK
+		step: SNOW_STEP
+		place: SNOW_PLACE
+		hit: SNOW_HIT
+		fall: SNOW_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: STONE_BREAK
+		step: STONE_STEP
+		place: STONE_PLACE
+		hit: STONE_HIT
+		fall: STONE_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: SWEET_BERRY_BUSH_BREAK
+		step: GRASS_STEP
+		place: SWEET_BERRY_BUSH_PLACE
+		hit: GRASS_HIT
+		fall: GRASS_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: WET_GRASS_BREAK
+		step: WET_GRASS_STEP
+		place: WET_GRASS_PLACE
+		hit: WET_GRASS_HIT
+		fall: WET_GRASS_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: WOOD_BREAK
+		step: WOOD_STEP
+		place: WOOD_PLACE
+		hit: WOOD_HIT
+		fall: WOOD_FALL
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: WOOL_BREAK
+		step: WOOL_STEP
+		place: WOOL_PLACE
+		hit: WOOL_HIT
+		fall: WOOL_FALL
+
+Removals:
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wood.break
+		step: block.wood.step
+		place: block.wood.place
+		hit: block.wood.hit
+		fall: block.wood.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.gravel.break
+		step: block.gravel.step
+		place: block.gravel.place
+		hit: block.gravel.hit
+		fall: block.gravel.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.grass.break
+		step: block.grass.step
+		place: block.grass.place
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.stone.break
+		step: block.stone.step
+		place: block.stone.place
+		hit: block.stone.hit
+		fall: block.stone.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.5
+		break: block.metal.break
+		step: block.metal.step
+		place: block.metal.place
+		hit: block.metal.hit
+		fall: block.metal.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.glass.break
+		step: block.glass.step
+		place: block.glass.place
+		hit: block.glass.hit
+		fall: block.glass.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wool.break
+		step: block.wool.step
+		place: block.wool.place
+		hit: block.wool.hit
+		fall: block.wool.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.sand.break
+		step: block.sand.step
+		place: block.sand.place
+		hit: block.sand.hit
+		fall: block.sand.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.snow.break
+		step: block.snow.step
+		place: block.snow.place
+		hit: block.snow.hit
+		fall: block.snow.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.ladder.break
+		step: block.ladder.step
+		place: block.ladder.place
+		hit: block.ladder.hit
+		fall: block.ladder.fall
+	Removed:
+		volume: 0.3
+		pitch: 1.0
+		break: block.anvil.break
+		step: block.anvil.step
+		place: block.anvil.place
+		hit: block.anvil.hit
+		fall: block.anvil.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.slime_block.break
+		step: block.slime_block.step
+		place: block.slime_block.place
+		hit: block.slime_block.hit
+		fall: block.slime_block.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wet_grass.break
+		step: block.wet_grass.step
+		place: block.wet_grass.place
+		hit: block.wet_grass.hit
+		fall: block.wet_grass.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.coral_block.break
+		step: block.coral_block.step
+		place: block.coral_block.place
+		hit: block.coral_block.hit
+		fall: block.coral_block.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.bamboo.break
+		step: block.bamboo.step
+		place: block.bamboo.place
+		hit: block.bamboo.hit
+		fall: block.bamboo.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.bamboo_sapling.break
+		step: block.bamboo.step
+		place: block.bamboo_sapling.place
+		hit: block.bamboo_sapling.hit
+		fall: block.bamboo.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.scaffolding.break
+		step: block.scaffolding.step
+		place: block.scaffolding.place
+		hit: block.scaffolding.hit
+		fall: block.scaffolding.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.sweet_berry_bush.break
+		step: block.grass.step
+		place: block.sweet_berry_bush.place
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.crop.break
+		step: block.grass.step
+		place: item.crop.plant
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wood.break
+		step: block.wood.step
+		place: item.crop.plant
+		hit: block.wood.hit
+		fall: block.wood.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.nether_wart.break
+		step: block.stone.step
+		place: item.nether_wart.plant
+		hit: block.stone.hit
+		fall: block.stone.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.lantern.break
+		step: block.lantern.step
+		place: block.lantern.place
+		hit: block.lantern.hit
+		fall: block.lantern.fall
+

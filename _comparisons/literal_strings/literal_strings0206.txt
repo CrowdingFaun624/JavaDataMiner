@@ -1,0 +1,27 @@
+12w40b (from 12w40a)
+
+Total: 6538 (+12, -7)
+
+Additions:
+	Added "12w40b"
+	Added "Minecraft 12w40b"
+	Added "Minecraft 12w40b ("
+	Added "Minecraft Minecraft 12w40b"
+	Added "PlayerCreated"
+	Added "Starting integrated minecraft server version 12w40b"
+	Added "Starting minecraft server version 12w40b"
+	Added "commands.generic.double.invalid"
+	Added "commands.generic.double.tooBig"
+	Added "commands.generic.double.tooSmall"
+	Added "commands.tp.success.coordinates"
+	Added "~"
+
+Removals:
+	Removed "12w40a"
+	Removed "Minecraft 12w40a"
+	Removed "Minecraft 12w40a ("
+	Removed "Minecraft Minecraft 12w40a"
+	Removed "Starting integrated minecraft server version 12w40a"
+	Removed "Starting minecraft server version 12w40a"
+	Removed "commands.tp.coordinates"
+

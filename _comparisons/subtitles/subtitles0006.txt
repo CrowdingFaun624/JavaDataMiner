@@ -1,0 +1,37 @@
+1.9 (from 1.9-pre4)
+
+Total: 251 (+22, -0)
+
+Additions:
+	Added "subtitles.ambient.cave": "Eerie noise"
+	Added "subtitles.block.chest.locked": "Chest locked"
+	Added "subtitles.block.tripwire.attach": "Tripwire attaches"
+	Added "subtitles.block.tripwire.detach": "Tripwire detaches"
+	Added "subtitles.entity.bat.takeoff": "Bat takes off"
+	Added "subtitles.entity.blaze.burn": "Blaze crackles"
+	Added "subtitles.entity.bobber.throw": "Bobber thrown"
+	Added "subtitles.entity.donkey.angry": "Donkey neighs"
+	Added "subtitles.entity.donkey.chest": "Donkey Chest equips"
+	Added "subtitles.entity.endereye.launch": "Endereye shoots"
+	Added "subtitles.entity.generic.extinguish_fire": "Fire extinguishes"
+	Added "subtitles.entity.horse.angry": "Horse neighs"
+	Added "subtitles.entity.horse.armor": "Horse armor equips"
+	Added "subtitles.entity.horse.breathe": "Horse breathes"
+	Added "subtitles.entity.horse.saddle": "Saddle equips"
+	Added "subtitles.entity.pig.saddle": "Saddle equips"
+	Added "subtitles.entity.player.levelup": "Player dings"
+	Added "subtitles.entity.villager.no": "Villager disagrees"
+	Added "subtitles.entity.villager.trading": "Villager trades"
+	Added "subtitles.entity.villager.yes": "Villager agrees"
+	Added "subtitles.entity.wolf.shake": "Wolf shakes"
+	Added "subtitles.entity.zombie.infect": "Zombie infects"
+
+Changes:
+	Changed "subtitles.entity.bat.ambient" from "Bat squeeks" to "Bat screeches"
+	Changed "subtitles.entity.skeleton.ambient" from "Skeleton clanks" to "Skeleton rattles"
+	Changed "subtitles.item.armor.equip_chain" from "Chain armor equips" to "Chain armor jingles"
+	Changed "subtitles.item.armor.equip_diamond" from "Diamond armor equips" to "Diamond armor clangs"
+	Changed "subtitles.item.armor.equip_gold" from "Gold armor equips" to "Gold armor clinks"
+	Changed "subtitles.item.armor.equip_iron" from "Iron armor equips" to "Iron armor clanks"
+	Changed "subtitles.item.armor.equip_leather" from "Leather armor equips" to "Leather armor rustles"
+

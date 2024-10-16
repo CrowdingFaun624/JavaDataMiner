@@ -1,0 +1,11 @@
+b1.9-pre3-1 (from b1.9-pre2)
+
+Total: 9 (+5, -0)
+
+Additions:
+	Added 119 to 1.0;1.0;stone
+	Added brewingStand to 1.0;1.0;stone
+	Added cauldron to 1.0;1.0;stone
+	Added enchantmentTable to 1.0;1.0;stone
+	Added airPortalFrame to 1.0;1.0;stone;random.glass;random.glass
+

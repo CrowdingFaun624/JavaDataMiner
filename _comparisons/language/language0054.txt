@@ -1,0 +1,11 @@
+12w50a (from 12w49a)
+
+Total: 1058 (+2, -0)
+
+Additions:
+	Added "death.thorns": "%1$s was killed trying to hurt %2$s"
+	Added "enchantment.thorns": "Thorns"
+
+Changes:
+	Changed "tile.stoneSlab.netherBrick.name" from "Nether Bricks Slab" to "Nether Brick Slab"
+

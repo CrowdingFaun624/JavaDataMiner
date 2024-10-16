@@ -1,0 +1,21 @@
+in-20100130 (from in-20100129)
+
+Total: 1025 (+7, -6)
+
+Additions:
+	Added " #X"
+	Added "# #"
+	Added "# X"
+	Added "###"
+	Added "#X#"
+	Added "X#X"
+	Added "Y"
+
+Removals:
+	Removed "ATK: 100"
+	Removed "DEF: 100"
+	Removed "PLAYER NAME"
+	Removed "SPD: 100"
+	Removed "Setting items["
+	Removed "] to "
+

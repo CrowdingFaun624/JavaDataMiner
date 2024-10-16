@@ -1,0 +1,25 @@
+13w19a (from 13w18c)
+
+Total: 1267 (+16, -0)
+
+Additions:
+	Added "tile.clayHardenedStained.black.name": "Black Stained Clay"
+	Added "tile.clayHardenedStained.blue.name": "Blue Stained Clay"
+	Added "tile.clayHardenedStained.brown.name": "Brown Stained Clay"
+	Added "tile.clayHardenedStained.cyan.name": "Cyan Stained Clay"
+	Added "tile.clayHardenedStained.gray.name": "Gray Stained Clay"
+	Added "tile.clayHardenedStained.green.name": "Green Stained Clay"
+	Added "tile.clayHardenedStained.lightBlue.name": "Light Blue Stained Clay"
+	Added "tile.clayHardenedStained.lime.name": "Lime Stained Clay"
+	Added "tile.clayHardenedStained.magenta.name": "Magenta Stained Clay"
+	Added "tile.clayHardenedStained.orange.name": "Orange Stained Clay"
+	Added "tile.clayHardenedStained.pink.name": "Pink Stained Clay"
+	Added "tile.clayHardenedStained.purple.name": "Purple Stained Clay"
+	Added "tile.clayHardenedStained.red.name": "Red Stained Clay"
+	Added "tile.clayHardenedStained.silver.name": "Light Gray Stained Clay"
+	Added "tile.clayHardenedStained.white.name": "White Stained Clay"
+	Added "tile.clayHardenedStained.yellow.name": "Yellow Stained Clay"
+
+Changes:
+	Changed "commands.enchant.noItem" from "The target doesn't hold an item " to "The target doesn't hold an item"
+

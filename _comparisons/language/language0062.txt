@@ -1,0 +1,10 @@
+13w06a (from 13w05b)
+
+Total: 1206 (+1, -0)
+
+Additions:
+	Added "commands.clear.failure": "Could not clear the inventory of %s, no items to remove"
+
+Changes:
+	Changed "lanServer.scanning" from "Scanning for LAN Worlds" to "Scanning for games on your local network"
+

@@ -1,0 +1,29 @@
+12w18a (from 12w17a)
+
+Total: 869 (+23, -0)
+
+Additions:
+	Added "multiplayer.texturePrompt.line1": "This server recommends the use of a custom texture pack."
+	Added "multiplayer.texturePrompt.line2": "Would you like to download and install it automagically?"
+	Added "options.serverTextures": "Server Textures"
+	Added "selectWorld.cheats": "Cheats"
+	Added "tile.leaves.birch.name": "Birch Leaves"
+	Added "tile.leaves.jungle.name": "Jungle Leaves"
+	Added "tile.leaves.oak.name": "Oak Leaves"
+	Added "tile.leaves.spruce.name": "Spruce Leaves"
+	Added "tile.log.birch.name": "Birch Wood"
+	Added "tile.log.jungle.name": "Jungle Wood"
+	Added "tile.log.oak.name": "Oak Wood"
+	Added "tile.log.spruce.name": "Spruce Wood"
+	Added "tile.sandStone.default.name": "Sandstone"
+	Added "tile.sandStone.heiroglyphic.name": "Heiroglyphic Sandstone"
+	Added "tile.sandStone.smooth.name": "Smooth Sandstone"
+	Added "tile.stonebricksmooth.cracked.name": "Cracked Stone Bricks"
+	Added "tile.stonebricksmooth.default.name": "Stone Bricks"
+	Added "tile.stonebricksmooth.detail.name": "Detailed Stone Bricks"
+	Added "tile.stonebricksmooth.mossy.name": "Mossy Stone Bricks"
+	Added "tile.wood.birch.name": "Birch Wood Planks"
+	Added "tile.wood.jungle.name": "Jungle Wood Planks"
+	Added "tile.wood.oak.name": "Oak Wood Planks"
+	Added "tile.wood.spruce.name": "Spruce Wood Planks"
+

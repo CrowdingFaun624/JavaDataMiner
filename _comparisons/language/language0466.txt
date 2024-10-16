@@ -1,0 +1,21 @@
+23w35a (from 23w33a)
+
+Total: 6304 (+2, -0)
+
+Additions:
+	Added "connect.reconfiguring": "Reconfiguring..."
+	Added "mco.selectServer.create.subtitle": "Select what world to put on your new realm"
+
+Changes:
+	Changed "commands.random.error.range_too_large" from "Range of random value must be at most 2147483646" to "The range of the random value must be at most 2147483646"
+	Changed "commands.random.error.range_too_small" from "Range of random value must be at least 2" to "The range of the random value must be at least 2"
+	Changed "gui.abuseReport.type.chat" from "Chat messages" to "Chat Messages"
+	Changed "gui.abuseReport.type.name" from "Player name" to "Player Name"
+	Changed "gui.abuseReport.type.skin" from "Player skin" to "Player Skin"
+	Changed "mco.selectServer.loading" from "Loading Realm list" to "Loading Realms List"
+	Changed "options.accessibility.narrator_hotkey.tooltip" from "Allows the narrator to be toggled on and off with 'Ctrl+B'" to "Allows the Narrator to be toggled on and off with 'Ctrl+B'"
+	Changed "pack.dropRejected.message" from "Following entries were not valid packs and were not copied:\n %s" to "The following entries were not valid packs and were not copied:\n %s"
+	Changed "selectWorld.loading_list" from "Loading world list" to "Loading World List"
+	Changed "symlink_warning.title.pack" from "Added pack(s) contain symbolic links" to "Added pack(s) contain(s) symbolic links"
+	Changed "symlink_warning.title.world" from "World folder contains symbolic links" to "The world folder contains symbolic links"
+

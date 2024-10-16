@@ -1,0 +1,39 @@
+1.19.1-pre2 (from 1.19.1-pre1)
+
+Total: 5414 (+11, -10)
+
+Additions:
+	Added "chat.tag.modified": "This message has been modified by the server."
+	Added "chat.tag.modified.original": "Original text: %s"
+	Added "chat.tag.not_secure": "This message is not secure"
+	Added "gui.abuseReport.error.title": "Problem sending your report"
+	Added "gui.abuseReport.sent.title": "Report sent"
+	Added "gui.banned.description.reason_id": "Code: %s"
+	Added "gui.banned.description.reason_id_message": "Code: %s - %s"
+	Added "gui.chatReport.read_info": "Learn About Reporting"
+	Added "multiplayer.disconnect.unsigned_chat": "Received chat packet with missing or invalid signature."
+	Added "title.multiplayer.disabled.banned.permanent": "Your account is permanently suspended from online play"
+	Added "title.multiplayer.disabled.banned.temporary": "Your account is temporarily suspended from online play"
+
+Removals:
+	Removed "gui.abuseReport.reason.extreme_violence_or_gore": "Extreme violence or gore"
+	Removed "gui.abuseReport.reason.extreme_violence_or_gore.description": "Someone is talking about, sharing, or otherwise promoting extreme violence, weapons, or bloody gore."
+	Removed "gui.abuseReport.reason.nudity_or_pornography": "Nudity or pornography"
+	Removed "gui.abuseReport.reason.nudity_or_pornography.description": "Someone is talking about, sharing, or otherwise promoting nudity or pornography."
+	Removed "gui.abuseReport.reason.profanity": "Profanity"
+	Removed "gui.abuseReport.reason.profanity.description": "Someone is using or otherwise promoting bad language."
+	Removed "gui.abuseReport.under_construction": "Chat Reporting is still under development, so any reports you send will not be reviewed yet.\n\nWe\u2019re actively collecting feedback, and the feature will be available soon."
+	Removed "gui.abuseReport.under_construction.title": "Chat Reporting is Coming Soon"
+	Removed "gui.chatReport.standards": "Please report breaches of our %s"
+	Removed "gui.chatReport.standards_name": "Community Standards"
+
+Changes:
+	Changed "gui.abuseReport.reason.alcohol_tobacco_drugs.description" from "Someone is talking about or otherwise promoting drugs or alcohol." to "Someone is encouraging others to partake in illegal drug related activities or encouraging underage drinking."
+	Changed "gui.abuseReport.reason.defamation_impersonation_false_information.description" from "Someone is damaging someone else's reputation, pretending to be someone they're not, or sharing false information." to "Someone is damaging someone else's reputation, pretending to be someone they're not, or sharing false information with the aim to exploit or mislead others."
+	Changed "gui.abuseReport.reason.harassment_or_bullying.description" from "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent." to "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent."
+	Changed "gui.abuseReport.reason.terrorism_or_violent_extremism.description" from "Someone is talking about, promoting, or threatening with acts of terrorism or violent extremism for political, religious, ideological, or other reasons." to "Someone is talking about, promoting, or threatening to commit acts of terrorism or violent extremism for political, religious, ideological, or other reasons."
+	Changed "gui.abuseReport.send.error_message" from "An error was returned while sending your report: '%s'" to "An error was returned while sending your report:\n'%s'"
+	Changed "gui.abuseReport.sending.title" from "Sending your report" to "Sending your report..."
+	Changed "gui.banned.description" from "%s\n\n%s\n\nLearn more about your case at the following link.\n\n%s" to "%s\n\n%s\n\nLearn more at the following link: %s"
+	Changed "gui.chatReport.report_sent_msg" from "Thank you for reporting inappropriate behavior.\nWe have received your report, although we are currently still testing out and working on the Abuse Reporting feature.\nThis unfortunately means there may be no action taken on this report." to "We\u2019ve successfully received your report. Thank you!\n\nOur team will review it as soon as possible."
+

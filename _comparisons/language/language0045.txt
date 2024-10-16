@@ -1,0 +1,11 @@
+12w38a (from 12w37a)
+
+Total: 999 (+2, -0)
+
+Additions:
+	Added "entity.Bat.name": "Bat"
+	Added "entity.Witch.name": "Witch"
+
+Changes:
+	Changed "commands.clear.usage" from "/clear <player>" to "/clear <player> [item] [data]"
+

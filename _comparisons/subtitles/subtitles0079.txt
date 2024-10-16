@@ -1,0 +1,8 @@
+22w15a (from 22w14a)
+
+Total: 693 (+2, -0)
+
+Additions:
+	Added "subtitles.entity.warden.sonic_boom": "Warden booms"
+	Added "subtitles.entity.warden.sonic_charge": "Warden charges"
+

@@ -1,0 +1,13 @@
+20w27a (from 1.16.1)
+
+Total: 599 (+7, -0)
+
+Additions:
+	Added "subtitles.entity.parrot.imitate.piglin_brute": "Parrot snorts mightily"
+	Added "subtitles.entity.piglin_brute.ambient": "Piglin Brute snorts"
+	Added "subtitles.entity.piglin_brute.angry": "Piglin Brute snorts angrily"
+	Added "subtitles.entity.piglin_brute.converted_to_zombified": "Piglin Brute converts to Zombified Piglin"
+	Added "subtitles.entity.piglin_brute.death": "Piglin Brute dies"
+	Added "subtitles.entity.piglin_brute.hurt": "Piglin Brute hurts"
+	Added "subtitles.entity.piglin_brute.step": "Piglin Brute steps"
+

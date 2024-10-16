@@ -1,0 +1,11 @@
+14w08a (from 14w07a)
+
+Total: 1800 (+2, -0)
+
+Additions:
+	Added "commands.execute.allInvocationsFailed": "All invocations failed: '%s'"
+	Added "tile.ironTrapdoor.name": "Iron Trapdoor"
+
+Changes:
+	Changed "tile.trapdoor.name" from "Trapdoor" to "Wooden Trapdoor"
+

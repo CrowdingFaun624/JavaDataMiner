@@ -1,0 +1,36 @@
+20w21a (from 20w20b)
+
+Total: 592 (+15, -1)
+
+Additions:
+	Added "subtitles.block.portal.travel": "Portal noise fades"
+	Added "subtitles.block.portal.trigger": "Portal noise intensifies"
+	Added "subtitles.entity.cat.purr": "Cat purrs"
+	Added "subtitles.entity.donkey.eat": "Donkey eats"
+	Added "subtitles.entity.fox.teleport": "Fox teleports"
+	Added "subtitles.entity.mule.angry": "Mule neighs"
+	Added "subtitles.entity.mule.eat": "Mule eats"
+	Added "subtitles.entity.parrot.imitate.hoglin": "Parrot growls"
+	Added "subtitles.entity.parrot.imitate.piglin": "Parrot snorts"
+	Added "subtitles.entity.parrot.imitate.zoglin": "Parrot growls"
+	Added "subtitles.entity.zombie.attack_wooden_door": "Door shakes"
+	Added "subtitles.entity.zombie.break_wooden_door": "Door breaks"
+	Added "subtitles.ui.cartography_table.take_result": "Map drawn"
+	Added "subtitles.ui.loom.take_result": "Loom used"
+	Added "subtitles.ui.stonecutter.take_result": "Stonecutter used"
+
+Removals:
+	Removed "subtitles.entity.horse.land": "Horse lands"
+
+Changes:
+	Changed "subtitles.block.blastfurnace.fire_crackle" from "Blast furnace crackles" to "Blast Furnace crackles"
+	Changed "subtitles.block.enchantment_table.use" from "Enchanting table used" to "Enchanting Table used"
+	Changed "subtitles.block.respawn_anchor.charge" from "Respawn anchor is charged" to "Respawn Anchor is charged"
+	Changed "subtitles.block.respawn_anchor.deplete" from "Respawn anchor depletes" to "Respawn Anchor depletes"
+	Changed "subtitles.block.respawn_anchor.set_spawn" from "Respawn anchor sets spawn" to "Respawn Anchor sets spawn"
+	Changed "subtitles.entity.turtle.egg_break" from "Turtle egg breaks" to "Turtle Egg breaks"
+	Changed "subtitles.entity.turtle.egg_crack" from "Turtle egg cracks" to "Turtle Egg cracks"
+	Changed "subtitles.entity.turtle.egg_hatch" from "Turtle egg hatches" to "Turtle Egg hatches"
+	Changed "subtitles.entity.zombie_villager.converted" from "Zombie vociferates" to "Zombie Villager vociferates"
+	Changed "subtitles.entity.zombie_villager.cure" from "Zombie snuffles" to "Zombie Villager snuffles"
+

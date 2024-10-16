@@ -1,0 +1,37 @@
+1.RV-Pre1 (from 1.9.2)
+
+Total: 2886 (+31, -0)
+
+Additions:
+	Added "item.ankleMonitor.name": "Ankle Monitor"
+	Added "item.ankleMonitor.warning": "CURFEW WARNING! You are violating your house arrest! Get back by %d meters!"
+	Added "item.ankleMonitor.warning10": "CURFEW WARNING! ..."
+	Added "item.ankleMonitor.warning11": "CURFEW WARNING! So... where are you?"
+	Added "item.ankleMonitor.warning12": "CURFEW WARNING! Having a good day?"
+	Added "item.ankleMonitor.warning13": "CURFEW WARNING! Did you see that monster over there?"
+	Added "item.ankleMonitor.warning14": "CURFEW WARNING! Give it a whack, if you'd be so kind."
+	Added "item.ankleMonitor.warning15": "CURFEW WARNING! Teheee..."
+	Added "item.ankleMonitor.warning16": "CURFEW WARNING! Ok, enough of this!"
+	Added "item.ankleMonitor.warning17": "CURFEW WARNING! Last straw!"
+	Added "item.ankleMonitor.warning18": "CURFEW WARNING! Now you die."
+	Added "item.ankleMonitor.warning19": "CURFEW WARNING! Boom!"
+	Added "item.ankleMonitor.warning2": "CURFEW WARNING! You are violating your house arrest! Uuuh... where are you anyway?"
+	Added "item.ankleMonitor.warning20": "CURFEW WARNING! Hehe, fun right?"
+	Added "item.ankleMonitor.warning21": "CURFEW WARNING! Ok, you will not hear anything more from me now!"
+	Added "item.ankleMonitor.warning22": "CURFEW WARNING! You'll be as lonely as I am."
+	Added "item.ankleMonitor.warning23": "CURFEW WARNING! How does that feel?"
+	Added "item.ankleMonitor.warning24": "CURFEW WARNING! I know, I'll wipe my memory. That way, I can start over!"
+	Added "item.ankleMonitor.warning25": "CURFEW WARNING! *bzzzzttt*"
+	Added "item.ankleMonitor.warning3": "CURFEW WARNING! Hello, are you there?"
+	Added "item.ankleMonitor.warning4": "CURFEW WARNING! I'm sure you have important things to do, but you need to go back!"
+	Added "item.ankleMonitor.warning5": "CURFEW WARNING! We're lonely back home!"
+	Added "item.ankleMonitor.warning6": "CURFEW WARNING! By \"we\" I mean I. I'm lonely."
+	Added "item.ankleMonitor.warning7": "CURFEW WARNING! Ok enough games... GET BACK RIGHT NOW!"
+	Added "item.ankleMonitor.warning8": "CURFEW WARNING! LAST WARNING!"
+	Added "item.ankleMonitor.warning9": "CURFEW WARNING! LASTEST WARNING (really now)"
+	Added "item.realityVision.name": "Reality Vision"
+	Added "item.smarterWatch.damage": "Notice! You recently took %d half hearts of damage!"
+	Added "item.smarterWatch.name": "Smarter Watch"
+	Added "item.smarterWatch.update": "Notice! %s is now %d!"
+	Added "tile.usbCharger.name": "USB Charger Block"
+

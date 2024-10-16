@@ -1,0 +1,13 @@
+1.19.3-pre1 (from 22w46a)
+
+Total: 5818 (+3, -0)
+
+Additions:
+	Added "commands.fillbiome.success.count": "%s biome entries set between %s, %s, %s and %s, %s, %s"
+	Added "lanServer.port.invalid.new": "Not a valid port.\nLeave the edit box empty or enter a number between %s and %s."
+	Added "lanServer.port.unavailable.new": "Port not available.\nLeave the edit box empty or enter a different number between %s and %s."
+
+Changes:
+	Changed "lanServer.port" from "Port number" to "Port Number"
+	Changed "telemetry.event.world_loaded.description" from "Knowing how players play Minecraft (such as Game Mode, client or server modded, and game version) allows us to focus game updates to improve the areas that players care about most.\nThe World Loaded event is pair with the World Unloaded event to calculate how long the play session has lasted." to "Knowing how players play Minecraft (such as Game Mode, client or server modded, and game version) allows us to focus game updates to improve the areas that players care about most.\nThe World Loaded event is paired with the World Unloaded event to calculate how long the play session has lasted."
+

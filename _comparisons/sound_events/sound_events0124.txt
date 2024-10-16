@@ -1,0 +1,14 @@
+20w46a (from 20w45a)
+
+Total: 1043 (+8, -0)
+
+Additions:
+	Added "BUCKET_EMPTY_POWDER_SNOW": "item.bucket.empty_powder_snow"
+	Added "BUCKET_FILL_POWDER_SNOW": "item.bucket.fill_powder_snow"
+	Added "PLAYER_HURT_FREEZE": "entity.player.hurt_freeze"
+	Added "POWDER_SNOW_BREAK": "block.powder_snow.break"
+	Added "POWDER_SNOW_FALL": "block.powder_snow.fall"
+	Added "POWDER_SNOW_HIT": "block.powder_snow.hit"
+	Added "POWDER_SNOW_PLACE": "block.powder_snow.place"
+	Added "POWDER_SNOW_STEP": "block.powder_snow.step"
+

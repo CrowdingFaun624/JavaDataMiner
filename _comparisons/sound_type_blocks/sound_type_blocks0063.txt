@@ -1,0 +1,7 @@
+14w05a (from 14w04b)
+
+Total: 12 (+1, -0)
+
+Additions:
+	Added barrier to 1.0;1.0;stone
+

@@ -1,0 +1,12 @@
+13w25c (from 13w25b)
+
+Total: 1335 (+3, -0)
+
+Additions:
+	Added "mco.invites.button.accept": "Accept"
+	Added "mco.invites.button.reject": "Reject"
+	Added "mco.invites.title": "Pending Invitations"
+
+Changes:
+	Changed "stat.createWorld" from "Worlds played" to "Worlds created"
+

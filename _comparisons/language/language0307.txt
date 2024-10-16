@@ -1,0 +1,7 @@
+1.14 Pre-Release 1 (from 19w14b)
+
+Total: 4292 (+1, -0)
+
+Additions:
+	Added "selectWorld.backupEraseCache": "Erase cached data"
+

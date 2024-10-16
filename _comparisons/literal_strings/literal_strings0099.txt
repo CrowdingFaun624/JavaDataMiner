@@ -1,0 +1,20 @@
+a1.1.2_01 (from a1.1.2)
+
+Total: 1575 (+7, -5)
+
+Additions:
+	Added "Contents"
+	Added "Key"
+	Added "Minecraft Alpha v1.1.2_01"
+	Added "Minecraft Alpha v1.1.2_01 ("
+	Added "Minecraft Minecraft Alpha v1.1.2_01"
+	Added "Minecraft: Minecraft Alpha v1.1.2_01n"
+	Added "http://s3.amazonaws.com/MinecraftResources/"
+
+Removals:
+	Removed "Minecraft Alpha v1.1.2"
+	Removed "Minecraft Alpha v1.1.2 ("
+	Removed "Minecraft Minecraft Alpha v1.1.2"
+	Removed "Minecraft: Minecraft Alpha v1.1.2n"
+	Removed "http://www.minecraft.net/resources/"
+

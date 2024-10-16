@@ -1,0 +1,7 @@
+21w06a (from 21w05b)
+
+Total: 5000 (+1, -0)
+
+Additions:
+	Added "selectWorld.pre_worldheight": "Loading of old worlds is temporarily disabled."
+

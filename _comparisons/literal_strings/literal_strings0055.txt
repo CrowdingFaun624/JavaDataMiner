@@ -1,0 +1,7 @@
+inf-20100420 (from inf-20100415)
+
+Total: 1205 (+0, -1)
+
+Removals:
+	Removed "/ Counted: "
+

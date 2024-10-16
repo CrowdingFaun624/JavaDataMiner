@@ -1,0 +1,10 @@
+20w45a (from 1.16.5)
+
+Total: 603 (+4, -0)
+
+Additions:
+	Added "subtitles.block.cake.add_candle": "Cake squishes"
+	Added "subtitles.block.candle.crackle": "Candle crackles"
+	Added "subtitles.item.spyglass.stop_using": "Spyglass retracts"
+	Added "subtitles.item.spyglass.use": "Spyglass expands"
+

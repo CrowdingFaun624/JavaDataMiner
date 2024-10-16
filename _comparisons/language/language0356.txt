@@ -1,0 +1,10 @@
+1.16-pre6 (from 1.16-pre5)
+
+Total: 4754 (+1, -0)
+
+Additions:
+	Added "gui.recipebook.search_hint": "Search..."
+
+Changes:
+	Changed "subtitles.entity.zombified_piglin.angry" from "Zombified Piglin angers" to "Zombified Piglin grunts angrily"
+

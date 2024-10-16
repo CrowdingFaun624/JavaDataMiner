@@ -1,0 +1,14 @@
+23w14a (from 23w13a_or_b)
+
+Total: 102 (+0, -8)
+
+Removals:
+	Removed copper_sink from COPPER
+	Removed copper_spleaves from COPPER
+	Removed filled_copper_sink from COPPER
+	Removed cheese from FUNGUS
+	Removed other_portal from GLASS
+	Removed packed_air from MOSS_CARPET
+	Removed pickaxe_block from STONE
+	Removed place_block from STONE
+

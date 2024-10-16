@@ -1,0 +1,31 @@
+a1.0.6_01 (from a1.0.6)
+
+Total: 1595 (+17, -6)
+
+Additions:
+	Added "Consummate V's!"
+	Added "Cow Tools!"
+	Added "Double buffered!"
+	Added "Fan fiction!"
+	Added "Happy birthday! I love you! Alex x"
+	Added "Happy birthday, Notch!"
+	Added "Happy birthday, ez!"
+	Added "Happy new year!"
+	Added "Matt Damon!"
+	Added "Merry X-mas!"
+	Added "Minecraft Alpha v1.0.6_01"
+	Added "Minecraft Alpha v1.0.6_01 ("
+	Added "Minecraft Minecraft Alpha v1.0.6_01"
+	Added "Minecraft: Minecraft Alpha v1.0.6_01n"
+	Added "Notch <3 ez!"
+	Added "Superfragilisticexpialidocious!"
+	Added "athna"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.6"
+	Removed "Minecraft Alpha v1.0.6 ("
+	Removed "Minecraft Minecraft Alpha v1.0.6"
+	Removed "Minecraft: Minecraft Alpha v1.0.6n"
+	Removed "Notch <3 Ez!"
+	Removed "Reinserting player "
+

@@ -1,0 +1,12 @@
+13w02a (from 13w01b)
+
+Total: 157 (+3, -0)
+
+Additions:
+	Added 155:quartzBlock
+	Added 156:stairsQuartz
+	Added 157:activatorRail
+
+Changes:
+	Changed 151:daylightDetector's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+

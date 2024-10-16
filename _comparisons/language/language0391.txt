@@ -1,0 +1,13 @@
+1.17-pre2 (from 1.17-pre1)
+
+Total: 5138 (+1, -1)
+
+Additions:
+	Added "block.minecraft.flowering_azalea_leaves": "Flowering Azalea Leaves"
+
+Removals:
+	Removed "block.minecraft.azalea_leaves_flowers": "Flowering Azalea Leaves"
+
+Changes:
+	Changed "commands.debug.started" from "Started 10 second tick profiling (use '/debug stop' to stop early)" to "Started tick profiling"
+

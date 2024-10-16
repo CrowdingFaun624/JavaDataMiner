@@ -1,0 +1,10 @@
+15w47a (from 15w46a)
+
+Total: 12 (+1, -1)
+
+Additions:
+	Added noteblock to 1.0;1.0;wood
+
+Removals:
+	Removed noteblock from 1.0;1.0;stone
+

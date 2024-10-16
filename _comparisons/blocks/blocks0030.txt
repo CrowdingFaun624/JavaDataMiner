@@ -1,0 +1,11 @@
+b1.9-pre3-1 (from b1.9-pre2)
+
+Total: 120 (+5, -0)
+
+Additions:
+	Added 116:enchantmentTable
+	Added 117:brewingStand
+	Added 118:cauldron
+	Added 119
+	Added 120:airPortalFrame
+

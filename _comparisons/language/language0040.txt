@@ -1,0 +1,10 @@
+1.3.2 (from 1.3.1)
+
+Total: 931 (+4, -0)
+
+Additions:
+	Added "commands.message.display.incoming": "%s whispers to you: %s"
+	Added "commands.message.display.outgoing": "You whisper to %s: %s"
+	Added "commands.message.sameTarget": "You can't send a private message to yourself!"
+	Added "commands.message.usage": "/tell <player> <private message ...>"
+

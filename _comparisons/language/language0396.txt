@@ -1,0 +1,12 @@
+1.18_experimental-snapshot-2 (from 1.18_experimental-snapshot-1)
+
+Total: 5144 (+2, -2)
+
+Additions:
+	Added "biome.minecraft.extreme_hills": "Extreme Hills"
+	Added "biome.minecraft.gravelly_hills": "Gravelly Hills"
+
+Removals:
+	Removed "biome.minecraft.gravelly_mountains": "Gravelly Mountains"
+	Removed "biome.minecraft.mountains": "Mountains"
+

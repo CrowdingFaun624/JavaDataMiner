@@ -1,0 +1,31 @@
+20w14a (from 20w14infinite)
+
+Total: 578 (+21, -0)
+
+Additions:
+	Added "subtitles.entity.fishing_bobber.retrieve": "Bobber retrieved"
+	Added "subtitles.entity.hoglin.converted_to_zombified": "Hoglin converts to Zoglin"
+	Added "subtitles.entity.player.attack.crit": "Critical attack"
+	Added "subtitles.entity.player.attack.knockback": "Knockback attack"
+	Added "subtitles.entity.player.attack.strong": "Strong attack"
+	Added "subtitles.entity.player.attack.sweep": "Sweeping attack"
+	Added "subtitles.entity.player.attack.weak": "Weak attack"
+	Added "subtitles.entity.player.hurt_drown": "Player drowning"
+	Added "subtitles.entity.player.hurt_on_fire": "Player burns"
+	Added "subtitles.entity.strider.death": "Strider dies"
+	Added "subtitles.entity.strider.eat": "Strider eats"
+	Added "subtitles.entity.strider.happy": "Strider warbles"
+	Added "subtitles.entity.strider.hurt": "Strider hurts"
+	Added "subtitles.entity.strider.idle": "Strider chirps"
+	Added "subtitles.entity.strider.retreat": "Strider retreats"
+	Added "subtitles.entity.zoglin.ambient": "Zoglin growls"
+	Added "subtitles.entity.zoglin.angry": "Zoglin growls angrily"
+	Added "subtitles.entity.zoglin.attack": "Zoglin attacks"
+	Added "subtitles.entity.zoglin.death": "Zoglin dies"
+	Added "subtitles.entity.zoglin.hurt": "Zoglin hurts"
+	Added "subtitles.entity.zoglin.step": "Zoglin steps"
+
+Changes:
+	Changed "subtitles.block.iron_trapdoor.close" from "Trapdoor opens" to "Trapdoor closes"
+	Changed "subtitles.block.iron_trapdoor.open" from "Trapdoor closes" to "Trapdoor opens"
+

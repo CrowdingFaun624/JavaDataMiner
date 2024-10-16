@@ -1,0 +1,26 @@
+22w13oneblockatatime (from 1.18.2)
+
+Total: 1223 (+20, -0)
+
+Additions:
+	Added "AWESOME_INTRO": "nothingtoseeheremovealong:awesome_intro"
+	Added "OOOF": "nothingtoseeheremovealong:ooof"
+	Added "SCULK_BLOCK_BREAK": "block.sculk.break"
+	Added "SCULK_BLOCK_CHARGE": "block.sculk.charge"
+	Added "SCULK_BLOCK_FALL": "block.sculk.fall"
+	Added "SCULK_BLOCK_HIT": "block.sculk.hit"
+	Added "SCULK_BLOCK_PLACE": "block.sculk.place"
+	Added "SCULK_BLOCK_SPREAD": "block.sculk.spread"
+	Added "SCULK_BLOCK_STEP": "block.sculk.step"
+	Added "SCULK_CATALYST_BLOOM": "block.sculk_catalyst.bloom"
+	Added "SCULK_CATALYST_BREAK": "block.sculk_catalyst.break"
+	Added "SCULK_CATALYST_FALL": "block.sculk_catalyst.fall"
+	Added "SCULK_CATALYST_HIT": "block.sculk_catalyst.hit"
+	Added "SCULK_CATALYST_PLACE": "block.sculk_catalyst.place"
+	Added "SCULK_CATALYST_STEP": "block.sculk_catalyst.step"
+	Added "SCULK_VEIN_BREAK": "block.sculk_vein.break"
+	Added "SCULK_VEIN_FALL": "block.sculk_vein.fall"
+	Added "SCULK_VEIN_HIT": "block.sculk_vein.hit"
+	Added "SCULK_VEIN_PLACE": "block.sculk_vein.place"
+	Added "SCULK_VEIN_STEP": "block.sculk_vein.step"
+

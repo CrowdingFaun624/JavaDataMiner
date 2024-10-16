@@ -1,0 +1,7 @@
+inf-20100611 (from inf-20100608)
+
+Total: 1233 (+1, -0)
+
+Additions:
+	Added "/fluff.png"
+

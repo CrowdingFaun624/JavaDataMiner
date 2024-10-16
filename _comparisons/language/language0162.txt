@@ -1,0 +1,8 @@
+15w31c (from 15w31b)
+
+Total: 2493 (+2, -0)
+
+Additions:
+	Added "death.attack.dragonBreath": "%1$s was roasted in dragon breath"
+	Added "tipped_arrow.effect.water": "Arrow of Splashing"
+

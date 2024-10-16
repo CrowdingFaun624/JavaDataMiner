@@ -1,0 +1,24 @@
+in-20100212-1 (from in-20100207-2)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: random.glass
+		step: step.stone
+	Added:
+		name: cloth
+		volume: 1.0
+		pitch: 1.0
+		dig: step.cloth
+		step: step.cloth
+	Added:
+		name: sand
+		volume: 1.0
+		pitch: 1.0
+		dig: step.gravel
+		step: step.sand
+

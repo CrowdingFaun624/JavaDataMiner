@@ -1,0 +1,35 @@
+22w44a (from 22w43a)
+
+Total: 5750 (+21, -0)
+
+Additions:
+	Added "block.minecraft.spawner.desc1": "Interact with Spawn Egg:"
+	Added "block.minecraft.spawner.desc2": "Sets Mob Type"
+	Added "gamerule.blockExplosionDropDecay": "Drops from explosions caused by blocks decay"
+	Added "gamerule.blockExplosionDropDecay.description": "Some of the drops from blocks destroyed by explosions caused by block interactions are lost in the explosion."
+	Added "gamerule.globalSoundEvents": "Global sound events"
+	Added "gamerule.globalSoundEvents.description": "When certain game events happen, like a boss spawning, the sound is heard everywhere."
+	Added "gamerule.lavaSourceConversion": "Lave converts to source"
+	Added "gamerule.lavaSourceConversion.description": "When flowing lava is surrounded on two sides by lava sources it converts into a source."
+	Added "gamerule.mobExplosionDropDecay": "Drops from explosions caused by mobs decay"
+	Added "gamerule.mobExplosionDropDecay.description": "Some of the drops from blocks destroyed by explosions caused by mobs are lost in the explosion."
+	Added "gamerule.snowAccumulationHeight": "Snow accumulation height"
+	Added "gamerule.snowAccumulationHeight.description": "When it snows, layers of snow form on the ground up to at most this number of layers."
+	Added "gamerule.tntExplosionDropDecay": "Drops from explosions caused by TNT decay"
+	Added "gamerule.tntExplosionDropDecay.description": "Some of the drops from blocks destroyed by explosions caused by TNT are lost in the explosion."
+	Added "gamerule.waterSourceConversion": "Water converts to source"
+	Added "gamerule.waterSourceConversion.description": "When flowing water is surrounded on two sides by water sources it converts into a source."
+	Added "item.minecraft.ender_dragon_spawn_egg": "Ender Dragon Spawn Egg"
+	Added "item.minecraft.iron_golem_spawn_egg": "Iron Golem Spawn Egg"
+	Added "item.minecraft.snow_golem_spawn_egg": "Snow Golem Spawn Egg"
+	Added "item.minecraft.wither_spawn_egg": "Wither Spawn Egg"
+	Added "mco.selectServer.configureRealm": "Configure realm"
+
+Changes:
+	Changed "block.minecraft.spawner" from "Spawner" to "Monster Spawner"
+	Changed "entity.minecraft.spawner_minecart" from "Minecart with Spawner" to "Minecart with Monster Spawner"
+	Changed "mco.selectServer.configure" from "Configure realm" to "Configure"
+	Changed "selectWorld.backupEraseCache" from "Erase cached data" to "Erase Cached Data"
+	Changed "structure_block.mode_info.data" from "Data mode - Game Logic Marker" to "Data Mode - Game Logic Marker"
+	Changed "structure_block.mode_info.load" from "Load mode - Load from File" to "Load Mode - Load from File"
+

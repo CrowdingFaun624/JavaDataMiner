@@ -1,0 +1,19 @@
+12w04a (from 12w03a)
+
+Total: 734 (+13, -0)
+
+Additions:
+	Added "container.brewing": "Brewing Stand"
+	Added "container.chest": "Chest"
+	Added "container.crafting": "Crafting"
+	Added "container.creative": "Item Selection"
+	Added "container.dispenser": "Dispenser"
+	Added "container.enchant": "Enchant"
+	Added "container.furnace": "Furnace"
+	Added "container.inventory": "Inventory"
+	Added "container.minecart": "Minecart"
+	Added "entity.Cat.name": "Cat"
+	Added "entity.Ozelot.name": "Ocelot"
+	Added "item.expBottle.name": "Bottle o' Enchanting"
+	Added "item.fireball.name": "Fire Charge"
+

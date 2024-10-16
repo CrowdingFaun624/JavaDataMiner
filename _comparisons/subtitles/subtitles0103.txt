@@ -1,0 +1,10 @@
+24w07a (from 24w06a)
+
+Total: 800 (+4, -0)
+
+Additions:
+	Added "subtitles.entity.bogged.ambient": "Bogged rattles"
+	Added "subtitles.entity.bogged.death": "Bogged dies"
+	Added "subtitles.entity.bogged.hurt": "Bogged hurts"
+	Added "subtitles.entity.parrot.imitate.bogged": "Parrot rattles"
+

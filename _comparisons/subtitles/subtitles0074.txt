@@ -1,0 +1,25 @@
+22w03a (from 1.19_deep_dark_experimental_snapshot-1)
+
+Total: 653 (+0, -19)
+
+Removals:
+	Removed "subtitles.entity.parrot.imitate.warden": "Parrot roars"
+	Removed "subtitles.entity.warden.agitated": "Warden groans angrily"
+	Removed "subtitles.entity.warden.ambient": "Warden whines"
+	Removed "subtitles.entity.warden.angry": "Warden rages"
+	Removed "subtitles.entity.warden.attack_impact": "Warden lands hit"
+	Removed "subtitles.entity.warden.death": "Warden dies"
+	Removed "subtitles.entity.warden.dig": "Warden digs"
+	Removed "subtitles.entity.warden.emerge": "Warden emerges"
+	Removed "subtitles.entity.warden.heartbeat": "Warden heart beats"
+	Removed "subtitles.entity.warden.hurt": "Warden hurts"
+	Removed "subtitles.entity.warden.listening": "Warden takes notice"
+	Removed "subtitles.entity.warden.listening_angry": "Warden takes notice angrily"
+	Removed "subtitles.entity.warden.nearby_close": "Warden approaches"
+	Removed "subtitles.entity.warden.nearby_closer": "Warden advances"
+	Removed "subtitles.entity.warden.nearby_closest": "Warden draws close"
+	Removed "subtitles.entity.warden.roar": "Warden roars"
+	Removed "subtitles.entity.warden.sniff": "Warden sniffs"
+	Removed "subtitles.entity.warden.step": "Warden steps"
+	Removed "subtitles.entity.warden.tendril_clicks": "Warden tendrils click"
+

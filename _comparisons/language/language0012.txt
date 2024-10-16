@@ -1,0 +1,7 @@
+b1.8-pre1-2 (from b1.8-pre1-1)
+
+Total: 684 (+1, -0)
+
+Additions:
+	Added "entity.Silverfish.name": "Silverfish"
+

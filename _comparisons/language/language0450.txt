@@ -1,0 +1,7 @@
+1.19.4 (from 1.19.4-rc3)
+
+Total: 6063 (+1, -0)
+
+Additions:
+	Added "mco.configure.world.subscription.recurring.info": "Changes made to your Realms subscription such as stacking time or turning off recurring billing will not be reflected until your next bill date."
+

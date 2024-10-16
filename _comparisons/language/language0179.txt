@@ -1,0 +1,7 @@
+15w44a (from 15w43c)
+
+Total: 2760 (+1, -0)
+
+Additions:
+	Added "item.end_crystal.name": "End Crystal"
+

@@ -1,0 +1,7 @@
+1.8.1-pre3 (from 1.8.1-pre2)
+
+Total: 2523 (+0, -0)
+
+Changes:
+	Changed "commands.worldborder.usage" from "/worldborder <set|center|damage|warning|get> ..." to "/worldborder <set|center|damage|warning|get|add> ..."
+

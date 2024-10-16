@@ -1,0 +1,17 @@
+inf-20100629 (from inf-20100627)
+
+Total: 1378 (+7, -2)
+
+Additions:
+	Added "#  "
+	Added "## "
+	Added "Loading..."
+	Added "Saving level.."
+	Added "level.dat_new"
+	Added "level.dat_old"
+	Added "tmp_chunk.dat"
+
+Removals:
+	Removed "NOOOOOO!"
+	Removed "UTF-8"
+

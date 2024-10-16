@@ -1,0 +1,11 @@
+14w32d (from 14w32c)
+
+Total: 2018 (+5, -0)
+
+Additions:
+	Added "item.doorAcacia.name": "Acacia Door"
+	Added "item.doorBirch.name": "Birch Door"
+	Added "item.doorDarkOak.name": "Dark Oak Door"
+	Added "item.doorJungle.name": "Jungle Door"
+	Added "item.doorSpruce.name": "Spruce Door"
+

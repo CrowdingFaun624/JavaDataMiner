@@ -1,0 +1,19 @@
+c0.25_05_st (from c0.24_st_03)
+
+Total: 353 (+9, -2)
+
+Additions:
+	Added "0.25_05   SURVIVAL TEST"
+	Added "Arrows: "
+	Added "Minecraft 0.25_05   SURVIVAL TEST"
+	Added "creeper"
+	Added "humanoid"
+	Added "humanoid.armor"
+	Added "pig"
+	Added "skeleton"
+	Added "zombie"
+
+Removals:
+	Removed "0.24_SURVIVAL_TEST_03"
+	Removed "Minecraft 0.24_SURVIVAL_TEST_03"
+

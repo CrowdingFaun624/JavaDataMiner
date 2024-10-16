@@ -1,0 +1,9 @@
+b1.5 (from b1.4_01)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added 30 to 1.0;1.0;stone
+	Added detectorRail to 1.0;1.5;stone
+	Added goldenRail to 1.0;1.5;stone
+

@@ -1,0 +1,20 @@
+15w44b (from 15w44a)
+
+Total: 2774 (+14, -0)
+
+Additions:
+	Added "attribute.name.generic.luck": "Luck"
+	Added "effect.luck": "Luck"
+	Added "effect.unluck": "Bad Luck"
+	Added "lingering_potion.effect.empty": "Lingering Uncraftable Potion"
+	Added "lingering_potion.effect.luck": "Lingering Potion of Luck"
+	Added "potion.effect.empty": "Uncraftable Potion"
+	Added "potion.effect.luck": "Potion of Luck"
+	Added "splash_potion.effect.empty": "Splash Uncraftable Potion"
+	Added "splash_potion.effect.luck": "Splash Potion of Luck"
+	Added "tipped_arrow.effect.awkward": "Tipped Arrow"
+	Added "tipped_arrow.effect.empty": "Tipped Arrow"
+	Added "tipped_arrow.effect.luck": "Arrow of Luck"
+	Added "tipped_arrow.effect.mundane": "Tipped Arrow"
+	Added "tipped_arrow.effect.thick": "Tipped Arrow"
+

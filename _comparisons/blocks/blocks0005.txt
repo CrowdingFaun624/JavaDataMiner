@@ -1,0 +1,24 @@
+in-20100212-1 (from in-20100207-2)
+
+Total: 60 (+0, -0)
+
+Changes:
+	Changed 12's "sound_type" from gravel,1.0,1.0,step.gravel,step.gravel to sand,1.0,1.0,step.gravel,step.sand
+	Changed 20's "sound_type" from stone,1.0,1.5,step.stone,step.stone to stone,1.0,1.0,random.glass,step.stone
+	Changed 21's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 22's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 23's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 24's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 25's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 26's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 27's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 28's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 29's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 30's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 31's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 32's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 33's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 34's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 35's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+	Changed 36's "sound_type" from grass,1.0,1.0,step.grass,step.grass to cloth,1.0,1.0,step.cloth,step.cloth
+

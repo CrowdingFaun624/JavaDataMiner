@@ -1,0 +1,34 @@
+13w25a (from 13w24b)
+
+Total: 7473 (+14, -12)
+
+Additions:
+	Added "13w25a"
+	Added "Dinnerbone"
+	Added "Grumm"
+	Added "Minecraft 13w25a"
+	Added "Minecraft 13w25a ("
+	Added "Reloading ResourceManager: "
+	Added "Starting integrated minecraft server version 13w25a"
+	Added "Starting minecraft server version 13w25a"
+	Added "Unable to parse animation metadata from %s: %s"
+	Added "Using missing texture, unable to load: "
+	Added "broken aspect ratio and not an animation"
+	Added "commands.save-off.alreadyOff"
+	Added "commands.save-on.alreadyOn"
+	Added "invalid frameindex "
+
+Removals:
+	Removed " broken aspect ratio and not an animation"
+	Removed ".ogg"
+	Removed "13w24b"
+	Removed ": unexpected "
+	Removed "FORCING RELOAD!"
+	Removed "Minecraft 13w24b"
+	Removed "Minecraft 13w24b ("
+	Removed "Starting integrated minecraft server version 13w24b"
+	Removed "Starting minecraft server version 13w24b"
+	Removed "Unable to load: "
+	Removed "Unable to parse animation metadata from "
+	Removed "Using missing texture instead of: "
+

@@ -1,0 +1,21 @@
+20w48a (from 20w46a)
+
+Total: 1058 (+15, -0)
+
+Additions:
+	Added "DRIPSTONE_BLOCK_BREAK": "block.dripstone_block.break"
+	Added "DRIPSTONE_BLOCK_FALL": "block.dripstone_block.fall"
+	Added "DRIPSTONE_BLOCK_HIT": "block.dripstone_block.hit"
+	Added "DRIPSTONE_BLOCK_PLACE": "block.dripstone_block.place"
+	Added "DRIPSTONE_BLOCK_STEP": "block.dripstone_block.step"
+	Added "POINTED_DRIPSTONE_BREAK": "block.pointed_dripstone.break"
+	Added "POINTED_DRIPSTONE_DRIP_LAVA": "block.pointed_dripstone.drip_lava"
+	Added "POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON": "block.pointed_dripstone.drip_lava_into_cauldron"
+	Added "POINTED_DRIPSTONE_DRIP_WATER": "block.pointed_dripstone.drip_water"
+	Added "POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON": "block.pointed_dripstone.drip_water_into_cauldron"
+	Added "POINTED_DRIPSTONE_FALL": "block.pointed_dripstone.fall"
+	Added "POINTED_DRIPSTONE_HIT": "block.pointed_dripstone.hit"
+	Added "POINTED_DRIPSTONE_LAND": "block.pointed_dripstone.land"
+	Added "POINTED_DRIPSTONE_PLACE": "block.pointed_dripstone.place"
+	Added "POINTED_DRIPSTONE_STEP": "block.pointed_dripstone.step"
+

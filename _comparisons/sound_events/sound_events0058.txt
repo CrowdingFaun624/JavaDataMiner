@@ -1,0 +1,13 @@
+1.9-pre3 (from 1.9-pre2)
+
+Total: 443 (+7, -0)
+
+Additions:
+	Added "block.note.pling"
+	Added "entity.bat.loop"
+	Added "entity.cat.hiss"
+	Added "entity.ghast.scream"
+	Added "entity.player.breath"
+	Added "entity.small_slime.jump"
+	Added "entity.wolf.howl"
+

@@ -1,0 +1,14 @@
+18w45a (from 18w44a)
+
+Total: 17 (+1, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.scaffolding.break
+		step: block.scaffolding.step
+		place: block.scaffolding.place
+		hit: block.scaffolding.hit
+		fall: block.scaffolding.fall
+

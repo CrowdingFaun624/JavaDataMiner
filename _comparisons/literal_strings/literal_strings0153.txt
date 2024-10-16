@@ -1,0 +1,9 @@
+1.0.0-rc2-1 (from 1.0.0-rc1)
+
+Total: 3518 (+0, -3)
+
+Removals:
+	Removed "/follow"
+	Removed "/goto"
+	Removed "New max size: "
+

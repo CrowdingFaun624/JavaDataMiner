@@ -1,0 +1,25 @@
+13w49a (from 13w48b)
+
+Total: 229 (+9, -8)
+
+Additions:
+	Added "mob.bat.loop"
+	Added "mob.cat.hiss"
+	Added "mob.magmacube.jump"
+	Added "mob.slime.attack"
+	Added "mob.wolf.howl"
+	Added "note.bass"
+	Added "note.pling"
+	Added "portal.travel"
+	Added "random.wood_click"
+
+Removals:
+	Removed "damage.thorns"
+	Removed "mob.attack"
+	Removed "mob.chickenplop"
+	Removed "mob.villager"
+	Removed "mob.witch.death"
+	Removed "mob.witch.hurt"
+	Removed "mob.witch.idle"
+	Removed "step.anvil"
+

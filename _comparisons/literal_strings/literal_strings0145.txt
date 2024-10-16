@@ -1,0 +1,16 @@
+b1.8.1 (from b1.8)
+
+Total: 2894 (+4, -4)
+
+Additions:
+	Added "Minecraft Beta 1.8.1"
+	Added "Minecraft Beta 1.8.1 ("
+	Added "Minecraft Minecraft Beta 1.8.1"
+	Added "Minecraft: Minecraft Beta 1.8.1n"
+
+Removals:
+	Removed "Minecraft Beta 1.8"
+	Removed "Minecraft Beta 1.8 ("
+	Removed "Minecraft Minecraft Beta 1.8"
+	Removed "Minecraft: Minecraft Beta 1.8n"
+

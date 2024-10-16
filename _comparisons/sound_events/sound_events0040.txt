@@ -1,0 +1,7 @@
+1.4.6 (from 12w50b)
+
+Total: 179 (+1, -0)
+
+Additions:
+	Added "random.successful_hit"
+

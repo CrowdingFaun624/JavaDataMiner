@@ -1,0 +1,7 @@
+13w23b (from 13w23a)
+
+Total: 1326 (+1, -0)
+
+Additions:
+	Added "potion.healthBoost": "Health Boost"
+

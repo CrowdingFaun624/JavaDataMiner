@@ -1,0 +1,7 @@
+inf-20100617-3 (from inf-20100617-2)
+
+Total: 1270 (+1, -0)
+
+Additions:
+	Added "TickNextTick list out of synch"
+

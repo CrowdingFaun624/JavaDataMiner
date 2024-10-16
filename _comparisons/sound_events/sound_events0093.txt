@@ -1,0 +1,10 @@
+19w02a (from 18w50a)
+
+Total: 719 (+4, -0)
+
+Additions:
+	Added "block.campfire.crackle"
+	Added "item.book.page_turn"
+	Added "item.book.put"
+	Added "ui.cartography_table.take_result"
+

@@ -1,0 +1,7 @@
+1.16_combat-6 (from 1.16_combat-5)
+
+Total: 4787 (+1, -0)
+
+Additions:
+	Added "attribute.name.generic.shield_strength": "Shield Strength"
+

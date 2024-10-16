@@ -1,0 +1,12 @@
+a1.2.0 (from a1.1.2_01)
+
+Total: 9 (+6, -0)
+
+Additions:
+	Added 88 to 1.0;1.0;gravel;sand;sand
+	Added 89 to 1.0;1.0;random.glass;stone;stone
+	Added 90 to 1.0;1.0;random.glass;stone;stone
+	Added 86 to 1.0;1.0;wood
+	Added 91 to 1.0;1.0;wood
+	Added 87 to 1;1.0;1.0;stone
+

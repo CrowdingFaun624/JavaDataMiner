@@ -1,0 +1,11 @@
+17w47b (from 17w47a)
+
+Total: 3257 (+1, -2)
+
+Additions:
+	Added "block.minecraft.terracotta": "Terracotta"
+
+Removals:
+	Removed "block.minecraft.hardened_clay": "Terracotta"
+	Removed "item.minecraft.": ""
+

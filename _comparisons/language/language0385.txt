@@ -1,0 +1,32 @@
+21w15a (from 21w14a)
+
+Total: 5082 (+22, -0)
+
+Additions:
+	Added "block.minecraft.raw_copper_block": "Block of Raw Copper"
+	Added "block.minecraft.raw_gold_block": "Block of Raw Gold"
+	Added "block.minecraft.raw_iron_block": "Block of Raw Iron"
+	Added "commands.debug.function.noRecursion": "Can't trace from inside of function"
+	Added "commands.debug.function.success.multiple": "Traced %s commands from %s functions to output file %s"
+	Added "commands.debug.function.success.single": "Traced %s commands from function '%s' to output file %s"
+	Added "commands.debug.function.traceFailed": "Failed to trace function"
+	Added "entity.minecraft.marker": "Marker"
+	Added "multiplayer.texturePrompt.failure.line1": "Server resource pack couldn't be applied"
+	Added "multiplayer.texturePrompt.failure.line2": "Any functionality that requires custom resources might not work as expected"
+	Added "multiplayer.texturePrompt.serverPrompt": "%s\n\nMessage from server:\n%s"
+	Added "subtitles.entity.goat.ambient": "Goat bleats"
+	Added "subtitles.entity.goat.death": "Goat dies"
+	Added "subtitles.entity.goat.eat": "Goat eats"
+	Added "subtitles.entity.goat.hurt": "Goat hurts"
+	Added "subtitles.entity.goat.long_jump": "Goat leaps"
+	Added "subtitles.entity.goat.milk": "Goat gets milked"
+	Added "subtitles.entity.goat.prepare_ram": "Goat stomps"
+	Added "subtitles.entity.goat.ram_impact": "Goat rams"
+	Added "subtitles.entity.goat.screaming.ambient": "Goat bellows"
+	Added "subtitles.entity.goat.step": "Goat steps"
+	Added "subtitles.item.bone_meal.use": "Bone Meal crinkles"
+
+Changes:
+	Changed "multiplayer.requiredTexturePrompt.line2" from "Rejecting a custom resource pack will disconnect you from this server." to "Rejecting this custom resource pack will disconnect you from this server."
+	Changed "selectWorld.pre_worldheight" from "Loading of old worlds is temporarily disabled." to "Loading of worlds with extended height is disabled."
+

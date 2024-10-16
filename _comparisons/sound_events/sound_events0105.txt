@@ -1,0 +1,18 @@
+19w34a (from 1.14_combat-3)
+
+Total: 807 (+12, -0)
+
+Additions:
+	Added "block.beehive.drip"
+	Added "block.beehive.enter"
+	Added "block.beehive.exit"
+	Added "block.beehive.shear"
+	Added "block.beehive.work"
+	Added "entity.bee.death"
+	Added "entity.bee.hurt"
+	Added "entity.bee.loop"
+	Added "entity.bee.loop_aggressive"
+	Added "entity.bee.pollinate"
+	Added "entity.bee.sting"
+	Added "item.honey_bottle.drink"
+

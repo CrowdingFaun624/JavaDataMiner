@@ -1,0 +1,30 @@
+12w37a (from 12w36a)
+
+Total: 997 (+21, -0)
+
+Additions:
+	Added "commands.clear.success": "Cleared the inventory of %s, removing %d items"
+	Added "commands.clear.usage": "/clear <player>"
+	Added "createWorld.customize.flat.addLayer": "Add Layer"
+	Added "createWorld.customize.flat.editLayer": "Edit Layer"
+	Added "createWorld.customize.flat.height": "Height"
+	Added "createWorld.customize.flat.layer": "%d"
+	Added "createWorld.customize.flat.layer.bottom": "Bottom - %d"
+	Added "createWorld.customize.flat.layer.top": "Top - %d"
+	Added "createWorld.customize.flat.removeLayer": "Remove Layer"
+	Added "createWorld.customize.flat.tile": "Layer Material"
+	Added "createWorld.customize.flat.title": "Superflat Customization"
+	Added "createWorld.customize.presets": "Presets"
+	Added "createWorld.customize.presets.list": "Alternatively, here's some we made earlier!"
+	Added "createWorld.customize.presets.select": "Use Preset"
+	Added "createWorld.customize.presets.share": "Want to share your preset with someone? Use the below box!"
+	Added "createWorld.customize.presets.title": "Select a Preset"
+	Added "item.pumpkinPie.name": "Pumpkin Pie"
+	Added "item.skull.player.name": "%s's Head"
+	Added "selectWorld.customizeType": "Customize"
+	Added "selectWorld.newWorld.copyOf": "Copy of %s"
+	Added "selectWorld.recreate": "Re-Create"
+
+Changes:
+	Changed "item.carrots.name" from "Carrots" to "Carrot"
+

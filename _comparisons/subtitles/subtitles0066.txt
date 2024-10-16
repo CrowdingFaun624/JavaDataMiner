@@ -1,0 +1,9 @@
+21w05a (from 21w03a)
+
+Total: 629 (+3, -0)
+
+Additions:
+	Added "subtitles.block.big_dripleaf.tilt_down": "Dripleaf tilts down"
+	Added "subtitles.block.big_dripleaf.tilt_up": "Dripleaf tilts up"
+	Added "subtitles.entity.skeleton.converted_to_stray": "Skeleton converts to Stray"
+

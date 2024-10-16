@@ -1,0 +1,10 @@
+14w32a (from 14w31a)
+
+Total: 12 (+4, -0)
+
+Additions:
+	Added double_stone_slab2 to 1;1.0;1.0;stone
+	Added red_sandstone to 1;1.0;1.0;stone
+	Added red_sandstone_stairs to 1;1.0;1.0;stone
+	Added stone_slab2 to 1;1.0;1.0;stone
+

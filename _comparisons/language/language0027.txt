@@ -1,0 +1,9 @@
+1.2.4 (from 1.2.3)
+
+Total: 740 (+3, -0)
+
+Additions:
+	Added "chat.copy": "Copy to Clipboard"
+	Added "chat.link.confirm": "Are you sure you want to open the following website?"
+	Added "chat.link.warning": "Never open links from people that you don't trust!"
+

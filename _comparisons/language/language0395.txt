@@ -1,0 +1,21 @@
+1.18_experimental-snapshot-1 (from 1.17.1)
+
+Total: 5144 (+7, -3)
+
+Additions:
+	Added "commands.jfr.dump.failed": "Failed to dump JFR recording: %s"
+	Added "commands.jfr.dumped": "JFR profiling dumped to: %s"
+	Added "commands.jfr.notRunning": "JFR profiling hasn't started"
+	Added "commands.jfr.start.failed": "Failed to start JFR profiling"
+	Added "commands.jfr.started": "JFR profiling started"
+	Added "commands.jfr.stopped": "JFR profiling stopped and dumped to %s"
+	Added "selectWorld.incompatible_series": "Created by an incompatible version"
+
+Removals:
+	Removed "death.attack.dryout": "%1$s died from dehydration"
+	Removed "death.attack.dryout.player": "%1$s died from dehydration whilst trying to escape %2$s"
+	Removed "generator.amplified.info": "Notice: Just for fun! Requires a beefy computer."
+
+Changes:
+	Changed "selectWorld.pre_worldheight" from "Loading of worlds with extended height is disabled." to "Incompatible world height"
+

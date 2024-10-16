@@ -1,0 +1,17 @@
+22w45a (from 22w44a)
+
+Total: 970 (+2, -0)
+
+Additions:
+	Added bamboo_block
+	Added stripped_bamboo_block
+
+Changes:
+	Changed bamboo_hanging_sign's "sound_type" from HANGING_SIGN to BAMBOO_WOOD_HANGING_SIGN
+	Changed bamboo_wall_hanging_sign's "sound_type" from HANGING_SIGN to BAMBOO_WOOD_HANGING_SIGN
+	Changed chiseled_bookshelf's "sound_type" from WOOD to CHISELED_BOOKSHELF
+	Changed crimson_hanging_sign's "sound_type" from HANGING_SIGN to NETHER_WOOD_HANGING_SIGN
+	Changed crimson_wall_hanging_sign's "sound_type" from HANGING_SIGN to NETHER_WOOD_HANGING_SIGN
+	Changed warped_hanging_sign's "sound_type" from HANGING_SIGN to NETHER_WOOD_HANGING_SIGN
+	Changed warped_wall_hanging_sign's "sound_type" from HANGING_SIGN to NETHER_WOOD_HANGING_SIGN
+

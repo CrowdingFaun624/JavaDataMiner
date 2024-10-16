@@ -1,0 +1,41 @@
+c0.0.11a (from rd-161348)
+
+Total: 42 (+32, -1)
+
+Additions:
+	Added ""
+	Added " chunk updates"
+	Added " connected"
+	Added "########## GL ERROR ##########"
+	Added "/default.gif"
+	Added "0.0.11a"
+	Added "0123456789abcdef"
+	Added ": "
+	Added "@ "
+	Added "Center"
+	Added "Failed to start Minecraft"
+	Added "GUI: Draw crosshair"
+	Added "GUI: Draw selected"
+	Added "GUI: Draw text"
+	Added "GUI: Init"
+	Added "Minecraft 0.0.11a"
+	Added "Picked"
+	Added "Post render"
+	Added "Post startup"
+	Added "Pre render"
+	Added "Pre startup"
+	Added "Rendered entities"
+	Added "Rendered gui"
+	Added "Rendered hit"
+	Added "Rendered level"
+	Added "Rendered particles"
+	Added "Rendered rest"
+	Added "Set up camera"
+	Added "Set viewport"
+	Added "SocketServer"
+	Added "Startup"
+	Added "Update chunks"
+
+Removals:
+	Removed "Failed to start RubyDung"
+

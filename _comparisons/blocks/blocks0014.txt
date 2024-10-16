@@ -1,0 +1,8 @@
+a1.0.4 (from a1.0.3)
+
+Total: 63 (+2, -0)
+
+Additions:
+	Added 78
+	Added 79
+

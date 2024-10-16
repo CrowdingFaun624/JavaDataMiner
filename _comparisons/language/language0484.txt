@@ -1,0 +1,15 @@
+24w07a (from 24w06a)
+
+Total: 6619 (+6, -0)
+
+Additions:
+	Added "entity.minecraft.bogged": "Bogged"
+	Added "item.minecraft.bogged_spawn_egg": "Bogged Spawn Egg"
+	Added "subtitles.entity.bogged.ambient": "Bogged rattles"
+	Added "subtitles.entity.bogged.death": "Bogged dies"
+	Added "subtitles.entity.bogged.hurt": "Bogged hurts"
+	Added "subtitles.entity.parrot.imitate.bogged": "Parrot rattles"
+
+Changes:
+	Changed "options.japaneseGlyphVariants.tooltip" from "Uses Japanse variants of CJK characters in the default font" to "Uses Japanese variants of CJK characters in the default font"
+

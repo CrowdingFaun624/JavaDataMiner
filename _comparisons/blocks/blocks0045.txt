@@ -1,0 +1,7 @@
+1.4 (from 12w42b)
+
+Total: 145 (+0, -0)
+
+Changes:
+	Changed 145:anvil's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to anvil,0.3,1.0,dig.stone,step.anvil,random.anvil_land
+

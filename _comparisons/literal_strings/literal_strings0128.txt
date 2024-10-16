@@ -1,0 +1,23 @@
+b1.5_01 (from b1.5)
+
+Total: 2492 (+10, -5)
+
+Additions:
+	Added ".old"
+	Added ".tmp"
+	Added "Minecraft Beta 1.5_01"
+	Added "Minecraft Beta 1.5_01 ("
+	Added "Minecraft Minecraft Beta 1.5_01"
+	Added "Minecraft: Minecraft Beta 1.5_01n"
+	Added "Relocating "
+	Added "_unsent.old"
+	Added "_unsent.tmp"
+	Added "stats"
+
+Removals:
+	Removed "Minecraft Beta 1.5"
+	Removed "Minecraft Beta 1.5 ("
+	Removed "Minecraft Minecraft Beta 1.5"
+	Removed "Minecraft: Minecraft Beta 1.5n"
+	Removed "Stats: "
+

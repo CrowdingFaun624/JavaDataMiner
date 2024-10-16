@@ -1,0 +1,20 @@
+1.10 (from 1.10-pre2)
+
+Total: 265 (+14, -0)
+
+Additions:
+	Added "subtitles.entity.husk.ambient": "Husk groans"
+	Added "subtitles.entity.husk.death": "Husk dies"
+	Added "subtitles.entity.husk.hurt": "Husk hurts"
+	Added "subtitles.entity.polar_bear.ambient": "Polar Bear groans"
+	Added "subtitles.entity.polar_bear.baby_ambient": "Polar Bear hums"
+	Added "subtitles.entity.polar_bear.death": "Polar Bear dies"
+	Added "subtitles.entity.polar_bear.hurt": "Polar Bear hurts"
+	Added "subtitles.entity.polar_bear.warning": "Polar Bear roars"
+	Added "subtitles.entity.stray.ambient": "Stray rattles"
+	Added "subtitles.entity.stray.death": "Stray dies"
+	Added "subtitles.entity.stray.hurt": "Stray hurts"
+	Added "subtitles.entity.wither_skeleton.ambient": "Wither Skeleton rattles"
+	Added "subtitles.entity.wither_skeleton.death": "Wither Skeleton dies"
+	Added "subtitles.entity.wither_skeleton.hurt": "Wither Skeleton hurts"
+

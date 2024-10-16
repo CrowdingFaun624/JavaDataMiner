@@ -1,0 +1,18 @@
+21w39a (from 21w38a)
+
+Total: 5166 (+9, -1)
+
+Additions:
+	Added "advancements.adventure.fall_from_world_height.description": "Free fall from the top of the world (build limit) to the bottom of the world and survive"
+	Added "advancements.adventure.fall_from_world_height.title": "Caves & Cliffs"
+	Added "advancements.adventure.trade_at_world_height.description": "Trade with a villager at the build height limit"
+	Added "advancements.adventure.trade_at_world_height.title": "Star Trader"
+	Added "advancements.husbandry.play_jukebox_in_meadows.description": "Make the Meadows come alive with the sound of music from a jukebox"
+	Added "advancements.husbandry.play_jukebox_in_meadows.title": "Sound of Music"
+	Added "advancements.nether.ride_strider_in_overworld_lava.description": "Take a Strider for a loooong ride on a lava lake in the Overworld"
+	Added "advancements.nether.ride_strider_in_overworld_lava.title": "Feels like home"
+	Added "options.gamma.default": "Default"
+
+Removals:
+	Removed "selectWorld.pre_worldheight": "Incompatible world height"
+

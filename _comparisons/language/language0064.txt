@@ -1,0 +1,9 @@
+13w09a (from 13w07a)
+
+Total: 1215 (+3, -0)
+
+Additions:
+	Added "options.ao.max": "Maximum"
+	Added "options.ao.min": "Minimum"
+	Added "options.ao.off": "Off"
+

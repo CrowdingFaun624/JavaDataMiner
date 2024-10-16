@@ -1,0 +1,10 @@
+13w18a (from 13w17a)
+
+Total: 1251 (+1, -1)
+
+Additions:
+	Added "tile.blockCoal.name": "Block of Coal"
+
+Removals:
+	Removed "item.horsesaddle.name": "Horse Saddle"
+

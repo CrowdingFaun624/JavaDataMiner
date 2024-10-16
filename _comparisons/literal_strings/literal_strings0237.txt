@@ -1,0 +1,26 @@
+1.5 (from 13w10b)
+
+Total: 8227 (+9, -9)
+
+Additions:
+	Added "Closed World"
+	Added "Expired World"
+	Added "Minecraft 1.5"
+	Added "Minecraft 1.5 ("
+	Added "Minecraft Minecraft 1.5"
+	Added "Open World"
+	Added "Starting integrated minecraft server version 1.5"
+	Added "Starting minecraft server version 1.5"
+	Added "sid"
+
+Removals:
+	Removed "%s%s%s"
+	Removed "13w10b"
+	Removed "Minecraft 13w10b"
+	Removed "Minecraft 13w10b ("
+	Removed "Minecraft Minecraft 13w10b"
+	Removed "Starting integrated minecraft server version 13w10b"
+	Removed "Starting minecraft server version 13w10b"
+	Removed "sid="
+	Removed "texpack_resolution"
+

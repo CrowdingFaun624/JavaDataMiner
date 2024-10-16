@@ -1,0 +1,25 @@
+16w39b (from 16w39a)
+
+Total: 12 (+16, -1)
+
+Additions:
+	Added black_shulker_box to 1.0;1.0;stone
+	Added blue_shulker_box to 1.0;1.0;stone
+	Added brown_shulker_box to 1.0;1.0;stone
+	Added cyan_shulker_box to 1.0;1.0;stone
+	Added gray_shulker_box to 1.0;1.0;stone
+	Added green_shulker_box to 1.0;1.0;stone
+	Added light_blue_shulker_box to 1.0;1.0;stone
+	Added lime_shulker_box to 1.0;1.0;stone
+	Added magenta_shulker_box to 1.0;1.0;stone
+	Added orange_shulker_box to 1.0;1.0;stone
+	Added pink_shulker_box to 1.0;1.0;stone
+	Added purple_shulker_box to 1.0;1.0;stone
+	Added red_shulker_box to 1.0;1.0;stone
+	Added silver_shulker_box to 1.0;1.0;stone
+	Added white_shulker_box to 1.0;1.0;stone
+	Added yellow_shulker_box to 1.0;1.0;stone
+
+Removals:
+	Removed shulker_box from 1.0;1.0;stone
+

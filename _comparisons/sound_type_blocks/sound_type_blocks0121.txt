@@ -1,0 +1,8 @@
+20w13a (from 20w12a)
+
+Total: 43 (+0, -0)
+
+Type Additions:
+	Added type LODESTONE with blocks:
+		lodestone
+

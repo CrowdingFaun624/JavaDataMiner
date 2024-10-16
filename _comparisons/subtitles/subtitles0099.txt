@@ -1,0 +1,10 @@
+24w03a (from 23w51a)
+
+Total: 782 (+0, -0)
+
+Changes:
+	Changed "subtitles.entity.armadillo.brush" from "Armadillo brushes" to "Scute is brushed off"
+	Changed "subtitles.entity.armadillo.scute_drop" from "Scute drops" to "Armadillo sheds scute"
+	Changed "subtitles.item.armor.equip_wolf" from "Wolf armor straps" to "Wolf Armor is fastened"
+	Changed "subtitles.item.armor.unequip_wolf" from "Wolf armor slips off" to "Wolf Armor snips away"
+

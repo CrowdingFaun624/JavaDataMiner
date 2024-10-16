@@ -1,0 +1,13 @@
+17w17a (from 17w16b)
+
+Total: 316 (+7, -0)
+
+Additions:
+	Added "subtitles.entity.illusion_illager.ambient": "Illusioner murmurs"
+	Added "subtitles.entity.illusion_illager.cast_spell": "Illusioner casts spell"
+	Added "subtitles.entity.illusion_illager.death": "Illusioner dies"
+	Added "subtitles.entity.illusion_illager.hurt": "Illusioner hurts"
+	Added "subtitles.entity.illusion_illager.mirror_move": "Illusioner displaces"
+	Added "subtitles.entity.illusion_illager.prepare_blindness": "Illusioner prepares blindness"
+	Added "subtitles.entity.illusion_illager.prepare_mirror": "Illusioner prepares mirror image"
+

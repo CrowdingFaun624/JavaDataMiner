@@ -1,0 +1,7 @@
+13w41b (from 13w41a)
+
+Total: 1557 (+0, -0)
+
+Changes:
+	Changed "tile.thinStainedGlass.white.name" from "White Stained Glass Pane Pane" to "White Stained Glass Pane"
+

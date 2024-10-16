@@ -1,0 +1,42 @@
+a1.0.14-1 (from a1.0.13_01-2)
+
+Total: 1566 (+25, -9)
+
+Additions:
+	Added " *     * *   * *** *** * * * * *    * "
+	Added " *   * * *   * *** *** *** *** *** ***"
+	Added " *   * * *  ** *   *   * * * * *    * "
+	Added " * * * * * * * **  *   **  *** **   * "
+	Added " ** ** * **  * *   *   * * * * *    * "
+	Added "/mob/chicken.png"
+	Added "13"
+	Added "A"
+	Added "Added "
+	Added "B"
+	Added "C418 - "
+	Added "Chicken"
+	Added "Fuel"
+	Added "Minecraft Alpha v1.0.14"
+	Added "Minecraft Alpha v1.0.14 ("
+	Added "Minecraft Minecraft Alpha v1.0.14"
+	Added "Minecraft: Minecraft Alpha v1.0.14n"
+	Added "Now playing: "
+	Added "PushX"
+	Added "PushZ"
+	Added "Type"
+	Added "cat"
+	Added "mob.chicken"
+	Added "mob.chickenhurt"
+	Added "streaming"
+
+Removals:
+	Removed "  *  *  *   *** *   *   **** *  * *   "
+	Removed "  *  * *     *  *  **   *       * *  *"
+	Removed "  *  **      *  * * *   **** **** *** "
+	Removed " **  * *     *  **  *      * *  * *   "
+	Removed " *** *  *   *** *   *   ****    * *  *"
+	Removed "Minecraft Alpha v1.0.13_01"
+	Removed "Minecraft Alpha v1.0.13_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.13_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.13_01n"
+

@@ -1,0 +1,20 @@
+12w39a (from 12w38b)
+
+Total: 11 (+0, -0)
+
+Type Additions:
+	Added type 1.0;1.0;random.glass;stone;stone;stone with blocks:
+		endPortalFrame
+		glass
+		ice
+		lightgem
+		portal
+		redstoneLight
+		thinGlass
+	Added type 1.0;1.0;wood;ladder;wood;ladder with blocks:
+		ladder
+
+Type Removals:
+	Removed type 1.0;1.0;random.glass;stone;stone
+	Removed type 1.0;1.0;wood;ladder;ladder
+

@@ -1,0 +1,8 @@
+18w10c (from 18w10b)
+
+Total: 12 (+0, -2)
+
+Removals:
+	Removed flowing_lava from 1.0;1.0;stone
+	Removed flowing_water from 1.0;1.0;stone
+

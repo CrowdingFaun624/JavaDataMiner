@@ -1,0 +1,13 @@
+1.4 (from 12w42b)
+
+Total: 12 (+1, -0)
+
+Additions:
+	Added:
+		name: anvil
+		volume: 0.3
+		pitch: 1.0
+		dig: dig.stone
+		step: step.anvil
+		dig2: random.anvil_land
+

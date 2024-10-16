@@ -1,0 +1,32 @@
+13w25b (from 13w25a)
+
+Total: 7468 (+11, -13)
+
+Additions:
+	Added "/$WORLD_ID/invite/$USER_NAME"
+	Added "13w25b"
+	Added "Invalid pack.mcmeta (or missing 'pack' section)"
+	Added "Minecraft 13w25b"
+	Added "Minecraft 13w25b ("
+	Added "Starting integrated minecraft server version 13w25b"
+	Added "Starting minecraft server version 13w25b"
+	Added "https://mcoapi-stage.minecraft.net/"
+	Added "invites"
+	Added "resourcePackDir"
+	Added "resourcepacks/"
+
+Removals:
+	Removed " achievements"
+	Removed " is not a valid stat, creating place-holder"
+	Removed " recipes"
+	Removed "/$WORLD_ID/invites/$USER_NAME"
+	Removed "13w25a"
+	Removed "Minecraft 13w25a"
+	Removed "Minecraft 13w25a ("
+	Removed "None has no value"
+	Removed "Set-Cookie"
+	Removed "Starting integrated minecraft server version 13w25a"
+	Removed "Starting minecraft server version 13w25a"
+	Removed "https://mcoapi.minecraft.net/"
+	Removed "resourcepacks"
+

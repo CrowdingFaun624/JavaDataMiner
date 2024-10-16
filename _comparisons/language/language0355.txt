@@ -1,0 +1,20 @@
+1.16-pre5 (from 1.16-pre4)
+
+Total: 4753 (+7, -0)
+
+Additions:
+	Added "options.graphics.warning.accept": "Continue without support"
+	Added "options.graphics.warning.cancel": "Take me back"
+	Added "options.graphics.warning.message": "Your graphics device is detected as unsupported for the %s graphics option.\n\nYou may ignore this and continue, however support will not be provided for your device if you choose to use %s graphics."
+	Added "options.graphics.warning.renderer": "Renderer detected: [%s]"
+	Added "options.graphics.warning.title": "Graphics Device Unsupported"
+	Added "options.graphics.warning.vendor": "Vendor detected: [%s]"
+	Added "options.graphics.warning.version": "OpenGL Version detected: [%s]"
+
+Changes:
+	Changed "gamerule.doMobLoot.description" from "Controls resource drops, including experience orbs" to "Controls resource drops from mobs, including experience orbs"
+	Changed "gamerule.doTileDrops.description" from "Controls resource drops, including experience orbs" to "Controls resource drops from blocks, including experience orbs"
+	Changed "options.graphics.fabulous.tooltip" from "\"Fabulous\" graphics uses screen shaders for drawing weather, clouds and particles behind translucent blocks and water.\nThis may severely impact performance for portable devices and 4K displays." to "%s graphics uses screen shaders for drawing weather, clouds and particles behind translucent blocks and water.\nThis may severely impact performance for portable devices and 4K displays."
+	Changed "options.graphics.fancy.tooltip" from "\"Fancy\" graphics balances performance and quality for the majority of machines.\nWeather, clouds and particles may not appear behind translucent blocks or water." to "Fancy graphics balances performance and quality for the majority of machines.\nWeather, clouds and particles may not appear behind translucent blocks or water."
+	Changed "options.graphics.fast.tooltip" from "\"Fast\" graphics reduces the amount of visible rain and snow.\nTransparency effects are disabled for various blocks such as tree-leaves." to "Fast graphics reduces the amount of visible rain and snow.\nTransparency effects are disabled for various blocks such as tree-leaves."
+

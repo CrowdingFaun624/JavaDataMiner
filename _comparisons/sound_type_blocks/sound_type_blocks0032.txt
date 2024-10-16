@@ -1,0 +1,7 @@
+12w07a (from 12w06a)
+
+Total: 9 (+1, -0)
+
+Additions:
+	Added redstoneLight to 1.0;1.0;stone;random.glass;random.glass
+

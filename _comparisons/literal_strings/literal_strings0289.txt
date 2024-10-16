@@ -1,0 +1,25 @@
+13w47e (from 13w47d)
+
+Total: 9707 (+10, -7)
+
+Additions:
+	Added "13w47e"
+	Added "Can't load AMD 64-bit .dll on a IA 32-bit platform"
+	Added "Couldn't initialize twitch stream"
+	Added "Minecraft 13w47e"
+	Added "Minecraft 13w47e ("
+	Added "Outdated client! Please use 13w47e"
+	Added "Outdated server! I'm still on 13w47e"
+	Added "Starting integrated minecraft server version 13w47e"
+	Added "https://help.mojang.com/customer/portal/articles/1374877-configuring-soundflower-for-streaming-on-apple-computers"
+	Added "stream.unavailable.archMismatch"
+
+Removals:
+	Removed "13w47d"
+	Removed "Minecraft 13w47d"
+	Removed "Minecraft 13w47d ("
+	Removed "Outdated client! Please use 13w47d"
+	Removed "Outdated server! I'm still on 13w47d"
+	Removed "Starting integrated minecraft server version 13w47d"
+	Removed "https://code.google.com/p/soundflower/downloads/list"
+

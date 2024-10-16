@@ -1,0 +1,28 @@
+1.16.4-pre2 (from 1.16.4-pre1)
+
+Total: 4809 (+14, -1)
+
+Additions:
+	Added "gui.socialInteractions.blocking_hint": "Manage with Microsoft account"
+	Added "gui.socialInteractions.empty_blocked": "No blocked players in chat"
+	Added "gui.socialInteractions.search_empty": "Couldn't find any players with that name"
+	Added "gui.socialInteractions.server_label.multiple": "%s - %s players"
+	Added "gui.socialInteractions.server_label.single": "%s - %s player"
+	Added "gui.socialInteractions.status_blocked": "Blocked"
+	Added "gui.socialInteractions.status_blocked_offline": "Blocked - Offline"
+	Added "gui.socialInteractions.status_hidden": "Hidden"
+	Added "gui.socialInteractions.status_hidden_offline": "Hidden - Offline"
+	Added "gui.socialInteractions.status_offline": "Offline"
+	Added "gui.socialInteractions.tab_blocked": "Blocked"
+	Added "multiplayer.disconnect.outdated_client": "Incompatible client! Please use %s"
+	Added "multiplayer.disconnect.outdated_server": "Incompatible client! Please use %s"
+	Added "options.accessibility.link": "Accessibility Guide"
+
+Removals:
+	Removed "gui.socialInteractions.server_label": "%s - %s players"
+
+Changes:
+	Changed "gui.socialInteractions.hide" from "%s, Hide in Chat" to "Hide in Chat"
+	Changed "gui.socialInteractions.show" from "%s, Show in Chat" to "Show in Chat"
+	Changed "title.multiplayer.disabled" from "Multiplayer is disabled. Please check your launcher settings." to "Multiplayer is disabled. Please check your Microsoft account settings."
+

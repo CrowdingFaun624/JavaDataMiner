@@ -1,0 +1,8 @@
+1.7 (from 13w43a)
+
+Total: 171 (+2, -0)
+
+Additions:
+	Added acacia_stairs
+	Added dark_oak_stairs
+

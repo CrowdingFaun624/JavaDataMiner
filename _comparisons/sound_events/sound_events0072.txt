@@ -1,0 +1,33 @@
+17w18a (from 17w17b)
+
+Total: 546 (+27, -0)
+
+Additions:
+	Added "entity.parrot.imitate.blaze"
+	Added "entity.parrot.imitate.creeper"
+	Added "entity.parrot.imitate.elder_guardian"
+	Added "entity.parrot.imitate.enderdragon"
+	Added "entity.parrot.imitate.enderman"
+	Added "entity.parrot.imitate.endermite"
+	Added "entity.parrot.imitate.evocation_illager"
+	Added "entity.parrot.imitate.ghast"
+	Added "entity.parrot.imitate.husk"
+	Added "entity.parrot.imitate.illusion_illager"
+	Added "entity.parrot.imitate.magmacube"
+	Added "entity.parrot.imitate.polar_bear"
+	Added "entity.parrot.imitate.shulker"
+	Added "entity.parrot.imitate.silverfish"
+	Added "entity.parrot.imitate.skeleton"
+	Added "entity.parrot.imitate.slime"
+	Added "entity.parrot.imitate.spider"
+	Added "entity.parrot.imitate.stray"
+	Added "entity.parrot.imitate.vex"
+	Added "entity.parrot.imitate.vindication_illager"
+	Added "entity.parrot.imitate.witch"
+	Added "entity.parrot.imitate.wither"
+	Added "entity.parrot.imitate.wither_skeleton"
+	Added "entity.parrot.imitate.wolf"
+	Added "entity.parrot.imitate.zombie"
+	Added "entity.parrot.imitate.zombie_pigman"
+	Added "entity.parrot.imitate.zombie_villager"
+

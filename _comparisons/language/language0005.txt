@@ -1,0 +1,11 @@
+b1.5 (from b1.4_01)
+
+Total: 543 (+5, -0)
+
+Additions:
+	Added "options.advancedOpengl": "Advanced OpenGL"
+	Added "tile.detectorRail.desc": ""
+	Added "tile.detectorRail.name": "Detector Rail"
+	Added "tile.goldenRail.desc": ""
+	Added "tile.goldenRail.name": "Powered Rail"
+

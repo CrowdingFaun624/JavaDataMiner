@@ -1,0 +1,11 @@
+b1.8-pre1-2 (from b1.8-pre1-1)
+
+Total: 2889 (+1, -2)
+
+Additions:
+	Added "new silverfish model"
+
+Removals:
+	Removed "/follow"
+	Removed "findPieceBox"
+

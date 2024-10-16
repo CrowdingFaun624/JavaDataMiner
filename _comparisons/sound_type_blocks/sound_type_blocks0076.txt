@@ -1,0 +1,178 @@
+15w43a (from 15w42a)
+
+Total: 12 (+88, -37)
+
+Type Additions:
+	Added type 0.3;1.0;anvil with blocks:
+		anvil
+	Added type 1.0;1.0;glass with blocks:
+		end_portal_frame
+		frosted_ice
+		glass
+		glass_pane
+		glowstone
+		ice
+		lit_redstone_lamp
+		packed_ice
+		portal
+		redstone_lamp
+		sea_lantern
+		stained_glass
+		stained_glass_pane
+	Added type 1.0;1.0;ladder with blocks:
+		ladder
+	Added type 1.0;1.0;slime with blocks:
+		slime
+	Added type 1.0;1.5;metal with blocks:
+		activator_rail
+		detector_rail
+		diamond_block
+		emerald_block
+		gold_block
+		golden_rail
+		hopper
+		iron_bars
+		iron_block
+		iron_door
+		iron_trapdoor
+		mob_spawner
+		rail
+		redstone_block
+
+Type Removals:
+	Removed type 0.3;1.0;stone;anvil;random.anvil_land;anvil
+	Removed type 1.0;1.0;glass;stone;stone;stone
+	Removed type 1.0;1.0;mob.slime.big;mob.slime.small;mob.slime.big;mob.slime.small
+	Removed type 1.0;1.0;wood;ladder;wood;ladder
+	Removed type 1.0;1.5;stone
+	Removed type 1;1.0;1.0;stone
+
+Additions:
+	Added hay_block to 1.0;1.0;grass
+	Added beacon to 1.0;1.0;stone
+	Added bedrock to 1.0;1.0;stone
+	Added beetroots to 1.0;1.0;stone
+	Added brewing_stand to 1.0;1.0;stone
+	Added brick_block to 1.0;1.0;stone
+	Added brick_stairs to 1.0;1.0;stone
+	Added carrots to 1.0;1.0;stone
+	Added chain_command_block to 1.0;1.0;stone
+	Added coal_block to 1.0;1.0;stone
+	Added coal_ore to 1.0;1.0;stone
+	Added cobblestone to 1.0;1.0;stone
+	Added cobblestone_wall to 1.0;1.0;stone
+	Added command_block to 1.0;1.0;stone
+	Added daylight_detector to 1.0;1.0;stone
+	Added daylight_detector_inverted to 1.0;1.0;stone
+	Added diamond_ore to 1.0;1.0;stone
+	Added dispenser to 1.0;1.0;stone
+	Added double_plant to 1.0;1.0;stone
+	Added double_stone_slab to 1.0;1.0;stone
+	Added double_stone_slab2 to 1.0;1.0;stone
+	Added dragon_egg to 1.0;1.0;stone
+	Added dropper to 1.0;1.0;stone
+	Added emerald_ore to 1.0;1.0;stone
+	Added enchanting_table to 1.0;1.0;stone
+	Added end_bricks to 1.0;1.0;stone
+	Added end_gateway to 1.0;1.0;stone
+	Added end_portal to 1.0;1.0;stone
+	Added end_stone to 1.0;1.0;stone
+	Added ender_chest to 1.0;1.0;stone
+	Added flower_pot to 1.0;1.0;stone
+	Added furnace to 1.0;1.0;stone
+	Added gold_ore to 1.0;1.0;stone
+	Added hardened_clay to 1.0;1.0;stone
+	Added iron_ore to 1.0;1.0;stone
+	Added jukebox to 1.0;1.0;stone
+	Added lapis_block to 1.0;1.0;stone
+	Added lapis_ore to 1.0;1.0;stone
+	Added leaves to 1.0;1.0;stone
+	Added leaves2 to 1.0;1.0;stone
+	Added lit_furnace to 1.0;1.0;stone
+	Added lit_redstone_ore to 1.0;1.0;stone
+	Added log to 1.0;1.0;stone
+	Added log2 to 1.0;1.0;stone
+	Added mossy_cobblestone to 1.0;1.0;stone
+	Added nether_brick to 1.0;1.0;stone
+	Added nether_brick_fence to 1.0;1.0;stone
+	Added nether_brick_stairs to 1.0;1.0;stone
+	Added nether_wart to 1.0;1.0;stone
+	Added netherrack to 1.0;1.0;stone
+	Added noteblock to 1.0;1.0;stone
+	Added obsidian to 1.0;1.0;stone
+	Added piston to 1.0;1.0;stone
+	Added piston_extension to 1.0;1.0;stone
+	Added piston_head to 1.0;1.0;stone
+	Added potatoes to 1.0;1.0;stone
+	Added prismarine to 1.0;1.0;stone
+	Added purpur_block to 1.0;1.0;stone
+	Added purpur_double_slab to 1.0;1.0;stone
+	Added purpur_pillar to 1.0;1.0;stone
+	Added purpur_slab to 1.0;1.0;stone
+	Added purpur_stairs to 1.0;1.0;stone
+	Added quartz_block to 1.0;1.0;stone
+	Added quartz_ore to 1.0;1.0;stone
+	Added quartz_stairs to 1.0;1.0;stone
+	Added red_sandstone to 1.0;1.0;stone
+	Added red_sandstone_stairs to 1.0;1.0;stone
+	Added redstone_ore to 1.0;1.0;stone
+	Added repeating_command_block to 1.0;1.0;stone
+	Added sandstone to 1.0;1.0;stone
+	Added sandstone_stairs to 1.0;1.0;stone
+	Added skull to 1.0;1.0;stone
+	Added stained_hardened_clay to 1.0;1.0;stone
+	Added sticky_piston to 1.0;1.0;stone
+	Added stone to 1.0;1.0;stone
+	Added stone_brick_stairs to 1.0;1.0;stone
+	Added stone_button to 1.0;1.0;stone
+	Added stone_pressure_plate to 1.0;1.0;stone
+	Added stone_slab to 1.0;1.0;stone
+	Added stone_slab2 to 1.0;1.0;stone
+	Added stone_stairs to 1.0;1.0;stone
+	Added stonebrick to 1.0;1.0;stone
+	Added structure_block to 1.0;1.0;stone
+	Added wheat to 1.0;1.0;stone
+	Added end_rod to 1.0;1.0;wood
+	Added melon_stem to 1.0;1.0;wood
+	Added pumpkin_stem to 1.0;1.0;wood
+	Added wooden_button to 1.0;1.0;wood
+
+Removals:
+	Removed beetroots from 1.0;1.0;grass
+	Removed carrots from 1.0;1.0;grass
+	Removed double_plant from 1.0;1.0;grass
+	Removed leaves from 1.0;1.0;grass
+	Removed leaves2 from 1.0;1.0;grass
+	Removed melon_stem from 1.0;1.0;grass
+	Removed nether_wart from 1.0;1.0;grass
+	Removed potatoes from 1.0;1.0;grass
+	Removed pumpkin_stem from 1.0;1.0;grass
+	Removed wheat from 1.0;1.0;grass
+	Removed beacon from 1.0;1.0;wood
+	Removed brewing_stand from 1.0;1.0;wood
+	Removed chain_command_block from 1.0;1.0;wood
+	Removed command_block from 1.0;1.0;wood
+	Removed daylight_detector from 1.0;1.0;wood
+	Removed daylight_detector_inverted from 1.0;1.0;wood
+	Removed dispenser from 1.0;1.0;wood
+	Removed dropper from 1.0;1.0;wood
+	Removed enchanting_table from 1.0;1.0;wood
+	Removed end_gateway from 1.0;1.0;wood
+	Removed end_portal from 1.0;1.0;wood
+	Removed ender_chest from 1.0;1.0;wood
+	Removed flower_pot from 1.0;1.0;wood
+	Removed furnace from 1.0;1.0;wood
+	Removed hay_block from 1.0;1.0;wood
+	Removed hopper from 1.0;1.0;wood
+	Removed jukebox from 1.0;1.0;wood
+	Removed lit_furnace from 1.0;1.0;wood
+	Removed log from 1.0;1.0;wood
+	Removed log2 from 1.0;1.0;wood
+	Removed mob_spawner from 1.0;1.0;wood
+	Removed noteblock from 1.0;1.0;wood
+	Removed piston_extension from 1.0;1.0;wood
+	Removed purpur_pillar from 1.0;1.0;wood
+	Removed repeating_command_block from 1.0;1.0;wood
+	Removed skull from 1.0;1.0;wood
+	Removed structure_block from 1.0;1.0;wood
+

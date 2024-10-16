@@ -1,0 +1,12 @@
+19w06a (from 19w05a)
+
+Total: 4194 (+6, -0)
+
+Additions:
+	Added "subtitles.entity.wandering_trader.ambient": "Wandering Trader mumbles"
+	Added "subtitles.entity.wandering_trader.death": "Wandering Trader dies"
+	Added "subtitles.entity.wandering_trader.hurt": "Wandering Trader hurts"
+	Added "subtitles.entity.wandering_trader.no": "Wandering Trader disagrees"
+	Added "subtitles.entity.wandering_trader.trade": "Wandering Trader trades"
+	Added "subtitles.entity.wandering_trader.yes": "Wandering Trader agrees"
+

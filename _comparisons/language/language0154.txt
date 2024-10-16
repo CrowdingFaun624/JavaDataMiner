@@ -1,0 +1,7 @@
+1.8.1-pre4 (from 1.8.1-pre3)
+
+Total: 2524 (+1, -0)
+
+Additions:
+	Added "options.entityShadows": "Entity Shadows"
+

@@ -1,0 +1,8 @@
+18w46a (from 18w45a)
+
+Total: 671 (+2, -0)
+
+Additions:
+	Added jigsaw
+	Added lantern
+

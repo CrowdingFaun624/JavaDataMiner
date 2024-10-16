@@ -1,0 +1,24 @@
+17w06a (from 1.11.2)
+
+Total: 254 (+18, -0)
+
+Additions:
+	Added black_glazed_terracotta
+	Added blue_glazed_terracotta
+	Added brown_glazed_terracotta
+	Added concrete
+	Added concrete_powder
+	Added cyan_glazed_terracotta
+	Added gray_glazed_terracotta
+	Added green_glazed_terracotta
+	Added light_blue_glazed_terracotta
+	Added lime_glazed_terracotta
+	Added magenta_glazed_terracotta
+	Added orange_glazed_terracotta
+	Added pink_glazed_terracotta
+	Added purple_glazed_terracotta
+	Added red_glazed_terracotta
+	Added silver_glazed_terracotta
+	Added white_glazed_terracotta
+	Added yellow_glazed_terracotta
+

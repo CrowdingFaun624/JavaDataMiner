@@ -1,0 +1,8 @@
+12w32a (from 1.3.2)
+
+Total: 9 (+2, -0)
+
+Additions:
+	Added beacon to 1.0;1.0;stone
+	Added commandBlock to 1.0;1.0;stone
+

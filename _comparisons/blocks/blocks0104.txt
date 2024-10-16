@@ -1,0 +1,25 @@
+1.13-pre6 (from 1.13-pre5)
+
+Total: 577 (+0, -0)
+
+Changes:
+	Changed brain_coral's "sound_type" from GRASS to WET_GRASS
+	Changed brain_coral_block's "sound_type" from STONE to CORAL_BLOCK
+	Changed brain_coral_fan's "sound_type" from GRASS to WET_GRASS
+	Changed bubble_coral's "sound_type" from GRASS to WET_GRASS
+	Changed bubble_coral_block's "sound_type" from STONE to CORAL_BLOCK
+	Changed bubble_coral_fan's "sound_type" from GRASS to WET_GRASS
+	Changed fire_coral's "sound_type" from GRASS to WET_GRASS
+	Changed fire_coral_block's "sound_type" from STONE to CORAL_BLOCK
+	Changed fire_coral_fan's "sound_type" from GRASS to WET_GRASS
+	Changed horn_coral's "sound_type" from GRASS to WET_GRASS
+	Changed horn_coral_block's "sound_type" from STONE to CORAL_BLOCK
+	Changed horn_coral_fan's "sound_type" from GRASS to WET_GRASS
+	Changed kelp's "sound_type" from GRASS to WET_GRASS
+	Changed kelp_plant's "sound_type" from GRASS to WET_GRASS
+	Changed seagrass's "sound_type" from GRASS to WET_GRASS
+	Changed tall_seagrass's "sound_type" from GRASS to WET_GRASS
+	Changed tube_coral's "sound_type" from GRASS to WET_GRASS
+	Changed tube_coral_block's "sound_type" from STONE to CORAL_BLOCK
+	Changed tube_coral_fan's "sound_type" from GRASS to WET_GRASS
+

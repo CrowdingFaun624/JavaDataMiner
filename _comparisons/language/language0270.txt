@@ -1,0 +1,24 @@
+1.13-pre6 (from 1.13-pre5)
+
+Total: 3826 (+12, -1)
+
+Additions:
+	Added "commands.replaceitem.entity.failed": "Could not put %s in slot %s"
+	Added "connect.aborted": "Aborted"
+	Added "debug.inspect.block": "Copied block data to clipboard"
+	Added "debug.inspect.entity": "Copied entity data to clipboard"
+	Added "debug.inspect.help": "F3 + I = Copy entity or block data to clipboard"
+	Added "menu.preparingSpawn": "Preparing spawn area"
+	Added "menu.savingChunks": "Saving chunks"
+	Added "menu.working": "Working..."
+	Added "multiplayer.message_not_delivered": "Can't deliver chat message, check server logs"
+	Added "multiplayer.status.finished": "Finished"
+	Added "multiplayer.status.quitting": "Quitting"
+	Added "multiplayer.status.request_handled": "Status requst has been handled"
+
+Removals:
+	Removed "options.forceUnicodeFont": "Force Unicode Font"
+
+Changes:
+	Changed "commands.replaceitem.slot.inapplicable" from "The target does not have the specified slot" to "The target does not have slot %s"
+

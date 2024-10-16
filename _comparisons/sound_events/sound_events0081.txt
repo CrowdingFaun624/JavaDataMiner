@@ -1,0 +1,16 @@
+18w15a (from 18w14b)
+
+Total: 633 (+10, -0)
+
+Additions:
+	Added "entity.dolphin.ambient"
+	Added "entity.dolphin.ambient_water"
+	Added "entity.dolphin.attack"
+	Added "entity.dolphin.death"
+	Added "entity.dolphin.eat"
+	Added "entity.dolphin.hurt"
+	Added "entity.dolphin.jump"
+	Added "entity.dolphin.play"
+	Added "entity.dolphin.splash"
+	Added "entity.dolphin.swim"
+

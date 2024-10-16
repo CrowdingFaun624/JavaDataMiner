@@ -1,0 +1,7 @@
+16w39c (from 16w39b)
+
+Total: 489 (+0, -1)
+
+Removals:
+	Removed "entity.experience_orb.touch"
+

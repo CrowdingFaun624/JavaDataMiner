@@ -1,0 +1,32 @@
+16w39b (from 16w39a)
+
+Total: 3025 (+19, -1)
+
+Additions:
+	Added "stat.shulkerBoxOpened": "Shulker Boxes Opened"
+	Added "subtitles.block.shulker_box.close": "Shulker closes"
+	Added "subtitles.block.shulker_box.open": "Shulker opens"
+	Added "tile.shulkerBoxBlack.name": "Black Shulker Box"
+	Added "tile.shulkerBoxBlue.name": "Blue Shulker Box"
+	Added "tile.shulkerBoxBrown.name": "Brown Shulker Box"
+	Added "tile.shulkerBoxCyan.name": "Cyan Shulker Box"
+	Added "tile.shulkerBoxGray.name": "Gray Shulker Box"
+	Added "tile.shulkerBoxGreen.name": "Green Shulker Box"
+	Added "tile.shulkerBoxLightBlue.name": "Light Blue Shulker Box"
+	Added "tile.shulkerBoxLime.name": "Lime Shulker Box"
+	Added "tile.shulkerBoxMagenta.name": "Magenta Shulker Box"
+	Added "tile.shulkerBoxOrange.name": "Orange Shulker Box"
+	Added "tile.shulkerBoxPink.name": "Pink Shulker Box"
+	Added "tile.shulkerBoxPurple.name": "Purple Shulker Box"
+	Added "tile.shulkerBoxRed.name": "Red Shulker Box"
+	Added "tile.shulkerBoxSilver.name": "Silver Shulker Box"
+	Added "tile.shulkerBoxWhite.name": "White Shulker Box"
+	Added "tile.shulkerBoxYellow.name": "Yellow Shulker Box"
+
+Removals:
+	Removed "tile.shulkerBox.name": "Shulker Box"
+
+Changes:
+	Changed "commands.save.usage" from "/save-all" to "/save-all [flush]"
+	Changed "subtitles.entity.llama.ambient" from "LLama bleats" to "Llama bleats"
+

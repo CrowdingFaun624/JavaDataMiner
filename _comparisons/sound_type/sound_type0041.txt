@@ -1,0 +1,26 @@
+23w12a (from 1.19.4)
+
+Total: 102 (+2, -0)
+
+Additions:
+	Added "DECORATED_POT_CRACKED"
+		volume: 1.0
+		pitch: 1.0
+		break: DECORATED_POT_SHATTER
+		step: DECORATED_POT_STEP
+		place: DECORATED_POT_PLACE
+		hit: DECORATED_POT_HIT
+		fall: DECORATED_POT_FALL
+	Added "SUSPICIOUS_GRAVEL"
+		volume: 1.0
+		pitch: 1.0
+		break: SUSPICIOUS_GRAVEL_BREAK
+		step: SUSPICIOUS_GRAVEL_STEP
+		place: SUSPICIOUS_GRAVEL_PLACE
+		hit: SUSPICIOUS_GRAVEL_HIT
+		fall: SUSPICIOUS_GRAVEL_FALL
+
+Changes:
+	DECORATED_POT:
+		Changed break from EMPTY to DECORATED_POT_BREAK
+

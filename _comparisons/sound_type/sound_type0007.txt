@@ -1,0 +1,13 @@
+14w32c (from 14w32b)
+
+Total: 13 (+1, -0)
+
+Additions:
+	Added:
+		name: slime
+		volume: 1.0
+		pitch: 1.0
+		dig: mob.slime.big
+		step: mob.slime.small
+		dig2: mob.slime.big
+

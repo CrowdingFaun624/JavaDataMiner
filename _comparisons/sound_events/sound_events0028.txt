@@ -1,0 +1,13 @@
+12w06a (from 12w05b)
+
+Total: 120 (+7, -0)
+
+Additions:
+	Added "mob.cat.hitt"
+	Added "mob.cat.meow"
+	Added "mob.cat.purr"
+	Added "mob.cat.purreow"
+	Added "mob.zombie.metal"
+	Added "mob.zombie.wood"
+	Added "mob.zombie.woodbreak"
+

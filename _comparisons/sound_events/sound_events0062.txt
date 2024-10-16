@@ -1,0 +1,13 @@
+16w20a (from 1.9.4)
+
+Total: 451 (+7, -0)
+
+Additions:
+	Added "block.enchantment_table.use"
+	Added "entity.polar_bear.ambient"
+	Added "entity.polar_bear.baby_ambient"
+	Added "entity.polar_bear.death"
+	Added "entity.polar_bear.hurt"
+	Added "entity.polar_bear.step"
+	Added "entity.polar_bear.warning"
+

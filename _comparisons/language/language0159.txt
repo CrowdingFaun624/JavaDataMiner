@@ -1,0 +1,12 @@
+1.8.8 (from 1.8.7)
+
+Total: 2552 (+6, -0)
+
+Additions:
+	Added "resourcePack.incompatible": "Incompatible"
+	Added "resourcePack.incompatible.confirm.new": "This resource pack was made for a newer version of Minecraft and may no longer work correctly."
+	Added "resourcePack.incompatible.confirm.old": "This resource pack was made for an older version of Minecraft and may no longer work correctly."
+	Added "resourcePack.incompatible.confirm.title": "Are you sure you want to load this resource pack?"
+	Added "resourcePack.incompatible.new": "(Made for a newer version of Minecraft)"
+	Added "resourcePack.incompatible.old": "(Made for an older version of Minecraft)"
+

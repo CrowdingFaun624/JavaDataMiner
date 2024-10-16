@@ -1,0 +1,22 @@
+c0.30-1 (from c0.29_02)
+
+Total: 379 (+12, -2)
+
+Additions:
+	Added ".mine"
+	Added "0.30"
+	Added "Minecraft 0.30"
+	Added "Minecraft levels"
+	Added "Premium only!"
+	Added "Purchase the game to be able"
+	Added "Selecting file.."
+	Added "haspaid"
+	Added "mine"
+	Added "minecraft.net"
+	Added "to save your levels online."
+	Added "www.minecraft.net"
+
+Removals:
+	Removed "0.29_02"
+	Removed "Minecraft 0.29_02"
+

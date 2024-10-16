@@ -1,0 +1,7 @@
+13w39b (from 13w39a)
+
+Total: 1525 (+1, -0)
+
+Additions:
+	Added "commands.generic.deprecatedId": "Warning: Using numeric IDs will not be supported in the future. Please use names, such as '%s'"
+

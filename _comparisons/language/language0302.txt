@@ -1,0 +1,8 @@
+19w12b (from 19w12a)
+
+Total: 4252 (+2, -0)
+
+Additions:
+	Added "narrator.screen.title": "Title Screen"
+	Added "narrator.select": "Selected: %s"
+

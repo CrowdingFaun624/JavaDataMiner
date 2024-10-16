@@ -1,0 +1,11 @@
+18w20b (from 18w20a)
+
+Total: 373 (+0, -0)
+
+Changes:
+	Changed "subtitles.entity.generic.small_fall" from "Something tripped" to "Something trips"
+	Changed "subtitles.entity.llama.angry" from "Llama bleats angry" to "Llama bleats angrily"
+	Changed "subtitles.item.armor.equip" from "Gear equipped" to "Gear equips"
+	Changed "subtitles.item.armor.equip_elytra" from "Elytra rustles" to "Elytra rustle"
+	Changed "subtitles.turtle.ambient_land" from "Turtle chirp" to "Turtle chirps"
+

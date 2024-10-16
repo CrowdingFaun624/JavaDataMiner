@@ -1,0 +1,7 @@
+a1.0.6 (from a1.0.5_01)
+
+Total: 9 (+1, -0)
+
+Additions:
+	Added 81 to 1.0;1.0;cloth
+

@@ -1,0 +1,45 @@
+b1.9-pre6 (from b1.9-pre5)
+
+Total: 3507 (+29, -8)
+
+Additions:
+	Added "%blur%/gui/background.png"
+	Added "/mob/enderdragon/beam.png"
+	Added "/mob/enderdragon/crystal.png"
+	Added "/title/credits.txt"
+	Added "/title/win.txt"
+	Added "Boss health"
+	Added "EnderCrystal"
+	Added "Minecraft Beta 1.9 Prerelease 6"
+	Added "Minecraft Beta 1.9 Prerelease 6 ("
+	Added "Minecraft Minecraft Beta 1.9 Prerelease 6"
+	Added "Minecraft: Minecraft Beta 1.9 Prerelease 6n"
+	Added "PLAYERNAME"
+	Added "TileTicks"
+	Added "XXXXXXXX"
+	Added "[C]"
+	Added "base"
+	Added "cube"
+	Added "dragonEgg"
+	Added "fern"
+	Added "i"
+	Added "options.particles"
+	Added "options.particles.all"
+	Added "options.particles.decreased"
+	Added "options.particles.minimal"
+	Added "particles:"
+	Added "shrub"
+	Added "tile.bed.notSafe"
+	Added "u00a7fu00a7k"
+	Added "u00a7fu00a7ku00a7au00a7b"
+
+Removals:
+	Removed " MB)"
+	Removed "/follow"
+	Removed "/goto"
+	Removed "Animating hurt"
+	Removed "Minecraft Beta 1.9 Prerelease 5"
+	Removed "Minecraft Beta 1.9 Prerelease 5 ("
+	Removed "Minecraft Minecraft Beta 1.9 Prerelease 5"
+	Removed "Minecraft: Minecraft Beta 1.9 Prerelease 5n"
+

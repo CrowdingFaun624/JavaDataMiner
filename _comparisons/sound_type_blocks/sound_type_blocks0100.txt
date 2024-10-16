@@ -1,0 +1,82 @@
+1.13-pre5 (from 1.13-pre4)
+
+Total: 12 (+14, -14)
+
+Type Additions:
+	Added type 1.0;1.0;slime_block with blocks:
+		sea_pickle
+		slime_block
+	Added type 1.0;1.0;wool with blocks:
+		black_carpet
+		black_wool
+		blue_carpet
+		blue_wool
+		brown_carpet
+		brown_wool
+		cactus
+		cake
+		cyan_carpet
+		cyan_wool
+		fire
+		gray_carpet
+		gray_wool
+		green_carpet
+		green_wool
+		light_blue_carpet
+		light_blue_wool
+		light_gray_carpet
+		light_gray_wool
+		lime_carpet
+		lime_wool
+		magenta_carpet
+		magenta_wool
+		orange_carpet
+		orange_wool
+		pink_carpet
+		pink_wool
+		potted_cactus
+		purple_carpet
+		purple_wool
+		red_carpet
+		red_wool
+		white_carpet
+		white_wool
+		yellow_carpet
+		yellow_wool
+
+Type Removals:
+	Removed type 1.0;1.0;cloth
+	Removed type 1.0;1.0;slime
+
+Additions:
+	Added nether_portal to 1.0;1.0;glass
+	Added acacia_wood to 1.0;1.0;wood
+	Added birch_wood to 1.0;1.0;wood
+	Added dark_oak_wood to 1.0;1.0;wood
+	Added jungle_wood to 1.0;1.0;wood
+	Added oak_wood to 1.0;1.0;wood
+	Added spruce_wood to 1.0;1.0;wood
+	Added stripped_acacia_wood to 1.0;1.0;wood
+	Added stripped_birch_wood to 1.0;1.0;wood
+	Added stripped_dark_oak_wood to 1.0;1.0;wood
+	Added stripped_jungle_wood to 1.0;1.0;wood
+	Added stripped_oak_wood to 1.0;1.0;wood
+	Added stripped_spruce_wood to 1.0;1.0;wood
+	Added spawner to 1.0;1.5;metal
+
+Removals:
+	Removed portal from 1.0;1.0;glass
+	Removed acacia_bark from 1.0;1.0;wood
+	Removed birch_bark from 1.0;1.0;wood
+	Removed dark_oak_bark from 1.0;1.0;wood
+	Removed jungle_bark from 1.0;1.0;wood
+	Removed oak_bark from 1.0;1.0;wood
+	Removed spruce_bark from 1.0;1.0;wood
+	Removed stripped_acacia_bark from 1.0;1.0;wood
+	Removed stripped_birch_bark from 1.0;1.0;wood
+	Removed stripped_dark_oak_bark from 1.0;1.0;wood
+	Removed stripped_jungle_bark from 1.0;1.0;wood
+	Removed stripped_oak_bark from 1.0;1.0;wood
+	Removed stripped_spruce_bark from 1.0;1.0;wood
+	Removed mob_spawner from 1.0;1.5;metal
+

@@ -1,0 +1,19 @@
+b1.8-pre1-1 (from b1.7.3)
+
+Total: 109 (+13, -0)
+
+Additions:
+	Added 100:mushroom
+	Added 101:fenceIron
+	Added 102:thinGlass
+	Added 103:melon
+	Added 104:pumpkinStem
+	Added 105:pumpkinStem
+	Added 106:vine
+	Added 107:fenceGate
+	Added 108:stairsBrick
+	Added 109:stairsStoneBrickSmooth
+	Added 97
+	Added 98:stonebricksmooth
+	Added 99:mushroom
+

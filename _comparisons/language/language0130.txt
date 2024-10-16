@@ -1,0 +1,30 @@
+14w07a (from 14w06b)
+
+Total: 1798 (+19, -0)
+
+Additions:
+	Added "advMode.allEntities": "Use \"@e\" to target all entities"
+	Added "commands.compare.failed": "Source and destination are not identical"
+	Added "commands.compare.outOfWorld": "Cannot access blocks outside of the world"
+	Added "commands.compare.success": "%d blocks compared"
+	Added "commands.compare.tooManyBlocks": "Too many blocks in the specified area (%d > %d)"
+	Added "commands.compare.usage": "/testforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]"
+	Added "commands.execute.failed": "Failed to execute '%s' as %s"
+	Added "commands.execute.usage": "/execute <entity> <x> <y> <z> <command>"
+	Added "commands.scoreboard.allMatchesFailed": "All matches failed"
+	Added "commands.scoreboard.noMultiWildcard": "Only one user wildcard allowed"
+	Added "commands.scoreboard.players.operation.invalidOperation": "Invalid operation %s"
+	Added "commands.scoreboard.players.operation.notFound": "No %s score for %s found"
+	Added "commands.scoreboard.players.operation.success": "Operation applied successfully"
+	Added "commands.scoreboard.players.operation.usage": "/scoreboard players operation <targetName> <targetObjective> <operation> <selector> <objective>"
+	Added "commands.scoreboard.players.test.failed": "Score %d is NOT in range %d to %d"
+	Added "commands.scoreboard.players.test.notFound": "No %s score for %s found"
+	Added "commands.scoreboard.players.test.success": "Score %d is in range %d to %d"
+	Added "commands.scoreboard.players.test.usage": "/scoreboard players test <player> <objective> <min> <max>"
+	Added "container.beacon": "Beacon"
+
+Changes:
+	Changed "commands.blockdata.failed" from "The data tag did not change" to "The data tag did not change: %s"
+	Changed "commands.scoreboard.players.usage" from "/scoreboard players <set|add|remove|reset|list|enable>" to "/scoreboard players <set|add|remove|reset|list|enable|test|operation>"
+	Changed "commands.scoreboard.teams.option.usage" from "/scoreboard teams option <team> <friendlyfire|color|seeFriendlyInvisibles> <value>" to "/scoreboard teams option <team> <friendlyfire|color|seeFriendlyInvisibles|nametagVisibility> <value>"
+

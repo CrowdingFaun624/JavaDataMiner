@@ -1,0 +1,26 @@
+c0.0.13a (from c0.0.12a_03)
+
+Total: 72 (+14, -4)
+
+Additions:
+	Added "--"
+	Added "-fullscreen"
+	Added "0.0.13a"
+	Added "A Nice World"
+	Added "Back to game"
+	Added "Bad level file format"
+	Added "Eroding.."
+	Added "Failed to load level: "
+	Added "Generate new level"
+	Added "Load level.."
+	Added "Minecraft 0.0.13a"
+	Added "Save level.."
+	Added "noname"
+	Added "unknown"
+
+Removals:
+	Removed "0.0.12a_03"
+	Removed "Minecraft 0.0.12a_03"
+	Removed "Rendered hit"
+	Removed "Rendered rest"
+

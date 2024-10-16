@@ -1,0 +1,16 @@
+14w32b (from 14w32a)
+
+Total: 12 (+10, -0)
+
+Additions:
+	Added acacia_fence to 1.0;1.0;wood
+	Added acacia_fence_gate to 1.0;1.0;wood
+	Added birch_fence to 1.0;1.0;wood
+	Added birch_fence_gate to 1.0;1.0;wood
+	Added dark_oak_fence to 1.0;1.0;wood
+	Added dark_oak_fence_gate to 1.0;1.0;wood
+	Added jungle_fence to 1.0;1.0;wood
+	Added jungle_fence_gate to 1.0;1.0;wood
+	Added spruce_fence to 1.0;1.0;wood
+	Added spruce_fence_gate to 1.0;1.0;wood
+

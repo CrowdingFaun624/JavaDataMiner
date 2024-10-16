@@ -1,0 +1,13 @@
+21w15a (from 21w14a)
+
+Total: 76 (+4, -1)
+
+Additions:
+	Added infested_deepslate to DEEPSLATE
+	Added raw_copper_block to STONE
+	Added raw_gold_block to STONE
+	Added raw_iron_block to STONE
+
+Removals:
+	Removed infested_deepslate from STONE
+

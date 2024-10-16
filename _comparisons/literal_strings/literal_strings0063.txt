@@ -1,0 +1,28 @@
+inf-20100625-2 (from inf-20100625-1)
+
+Total: 1360 (+4, -16)
+
+Additions:
+	Added "Delay"
+	Added "EntityId"
+	Added "OnGround"
+	Added "Saddle"
+
+Removals:
+	Removed " bytes, got "
+	Removed "), replacing.."
+	Removed ", expected "
+	Removed "Bad magic number: "
+	Removed "Bad version number: "
+	Removed "Broken entity file: "
+	Removed "Broken zone file: "
+	Removed "Closing zone "
+	Removed "Expected "
+	Removed "New largest: "
+	Removed "Wrong slot! Got "
+	Removed "_TYPE"
+	Removed "data"
+	Removed "entities_"
+	Removed "rw"
+	Removed "zone_"
+

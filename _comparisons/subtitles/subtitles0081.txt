@@ -1,0 +1,8 @@
+22w17a (from 22w16b)
+
+Total: 695 (+2, -0)
+
+Additions:
+	Added "subtitles.entity.goat.horn_break": "Goat horn breaks off"
+	Added "subtitles.item.goat_horn.play": "Goat horn plays"
+

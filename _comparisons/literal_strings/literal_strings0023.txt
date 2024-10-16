@@ -1,0 +1,26 @@
+in-20091231-2 (from in-20091223-2)
+
+Total: 265 (+13, -5)
+
+Additions:
+	Added "/gui/inventory.png"
+	Added "/gui/items.png"
+	Added "ATK: 100"
+	Added "DEF: 100"
+	Added "Drop"
+	Added "Grabbing large screenshot"
+	Added "Inventory"
+	Added "PLAYER NAME"
+	Added "Rendering"
+	Added "SPD: 100"
+	Added "Saving as "
+	Added "minecraft_map.png"
+	Added "png"
+
+Removals:
+	Removed " ms for "
+	Removed " tiles"
+	Removed "/char.png"
+	Removed "Build"
+	Removed "Select block"
+

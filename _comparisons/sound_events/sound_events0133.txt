@@ -1,0 +1,17 @@
+21w13a (from 21w11a)
+
+Total: 1183 (+11, -0)
+
+Additions:
+	Added "GOAT_AMBIENT": "entity.goat.ambient"
+	Added "GOAT_DEATH": "entity.goat.death"
+	Added "GOAT_HURT": "entity.goat.hurt"
+	Added "GOAT_MILK": "entity.goat.milk"
+	Added "GOAT_PREPARE_RAM": "entity.goat.prepare_ram"
+	Added "GOAT_SCREAMING_AMBIENT": "entity.goat.screaming.ambient"
+	Added "GOAT_SCREAMING_DEATH": "entity.goat.screaming.death"
+	Added "GOAT_SCREAMING_HURT": "entity.goat.screaming.hurt"
+	Added "GOAT_SCREAMING_MILK": "entity.goat.screaming.milk"
+	Added "GOAT_SCREAMING_RAM": "entity.goat.screaming.ram"
+	Added "GOAT_STEP": "entity.goat.step"
+

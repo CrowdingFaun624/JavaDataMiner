@@ -1,0 +1,16 @@
+18w11a (from 18w10d)
+
+Total: 367 (+10, -0)
+
+Additions:
+	Added "subtitles.entity.drowned.ambient": "Drowned gurgles"
+	Added "subtitles.entity.drowned.ambient_water": "Drowned gurgles"
+	Added "subtitles.entity.drowned.death": "Drowned dies"
+	Added "subtitles.entity.drowned.death_water": "Drowned dies"
+	Added "subtitles.entity.drowned.hurt": "Drowned hurts"
+	Added "subtitles.entity.drowned.hurt_water": "Drowned hurts"
+	Added "subtitles.entity.drowned.shoot": "Drowned throws Trident"
+	Added "subtitles.entity.drowned.step": "Drowned steps"
+	Added "subtitles.entity.drowned.swim": "Drowned swims"
+	Added "subtitles.entity.zombie.converted_to_drowned": "Zombie converted to Drowned"
+

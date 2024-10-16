@@ -1,0 +1,7 @@
+15w42a (from 15w41b)
+
+Total: 13 (+1, -0)
+
+Additions:
+	Added frosted_ice to 1.0;1.0;glass;stone;stone;stone
+

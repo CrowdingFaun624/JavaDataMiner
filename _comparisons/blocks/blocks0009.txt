@@ -1,0 +1,23 @@
+inf-20100624 (from inf-20100618)
+
+Total: 49 (+0, -17)
+
+Removals:
+	Removed 21
+	Removed 22
+	Removed 23
+	Removed 24
+	Removed 25
+	Removed 26
+	Removed 27
+	Removed 28
+	Removed 29
+	Removed 30
+	Removed 31
+	Removed 32
+	Removed 33
+	Removed 34
+	Removed 36
+	Removed 52
+	Removed 53
+

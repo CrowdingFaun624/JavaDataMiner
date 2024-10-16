@@ -1,0 +1,21 @@
+13w24b (from 13w24a)
+
+Total: 1330 (+5, -4)
+
+Additions:
+	Added "potion.absorption": "Absorption"
+	Added "potion.healthBoost": "Health Boost"
+	Added "resourcePack.folderInfo": "(Place resource pack files here)"
+	Added "resourcePack.openFolder": "Open resource pack folder"
+	Added "resourcePack.title": "Select Resource Pack"
+
+Removals:
+	Removed "texturePack.folderInfo": "(Place texture pack files here)"
+	Removed "texturePack.incompatible": "Incompatible"
+	Removed "texturePack.openFolder": "Open texture pack folder"
+	Removed "texturePack.title": "Select Texture Pack"
+
+Changes:
+	Changed "multiplayer.texturePrompt.line1" from "This server recommends the use of a custom texture pack." to "This server recommends the use of a custom resource pack."
+	Changed "options.texture.pack" from "Texture Packs" to "Resource Packs"
+

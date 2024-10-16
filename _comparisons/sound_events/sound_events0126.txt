@@ -1,0 +1,13 @@
+20w49a (from 20w48a)
+
+Total: 1065 (+7, -0)
+
+Additions:
+	Added "SCULK_CLICKING": "block.sculk_sensor.clicking"
+	Added "SCULK_CLICKING_STOP": "block.sculk_sensor.clicking_stop"
+	Added "SCULK_SENSOR_BREAK": "block.sculk_sensor.break"
+	Added "SCULK_SENSOR_FALL": "block.sculk_sensor.fall"
+	Added "SCULK_SENSOR_HIT": "block.sculk_sensor.hit"
+	Added "SCULK_SENSOR_PLACE": "block.sculk_sensor.place"
+	Added "SCULK_SENSOR_STEP": "block.sculk_sensor.step"
+

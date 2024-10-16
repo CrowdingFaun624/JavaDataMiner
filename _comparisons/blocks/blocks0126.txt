@@ -1,0 +1,8 @@
+20w12a (from 20w11a)
+
+Total: 740 (+2, -0)
+
+Additions:
+	Added polished_basalt
+	Added respawn_anchor
+

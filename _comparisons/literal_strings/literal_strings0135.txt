@@ -1,0 +1,23 @@
+b1.6.5 (from b1.6.4)
+
+Total: 2580 (+9, -6)
+
+Additions:
+	Added "200 fps"
+	Added "40 fps"
+	Added "90 fps"
+	Added "Minecraft Beta 1.6.5"
+	Added "Minecraft Beta 1.6.5   Unlicensed Copy :("
+	Added "Minecraft Beta 1.6.5 ("
+	Added "Minecraft Minecraft Beta 1.6.5"
+	Added "Minecraft: Minecraft Beta 1.6.5n"
+	Added "options.framerateLimit"
+
+Removals:
+	Removed "Minecraft Beta 1.6.4"
+	Removed "Minecraft Beta 1.6.4   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.6.4 ("
+	Removed "Minecraft Minecraft Beta 1.6.4"
+	Removed "Minecraft: Minecraft Beta 1.6.4n"
+	Removed "options.limitFramerate"
+

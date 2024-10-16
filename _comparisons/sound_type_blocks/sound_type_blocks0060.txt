@@ -1,0 +1,12 @@
+13w43a (from 13w42b)
+
+Total: 12 (+3, -1)
+
+Additions:
+	Added leaves2 to 1.0;1.0;grass
+	Added hay_block to 1.0;1.0;wood
+	Added log2 to 1.0;1.0;wood
+
+Removals:
+	Removed hay_block from 1.0;1.0;grass
+

@@ -1,0 +1,11 @@
+14w32d (from 14w32c)
+
+Total: 198 (+5, -0)
+
+Additions:
+	Added acacia_door
+	Added birch_door
+	Added dark_oak_door
+	Added jungle_door
+	Added spruce_door
+

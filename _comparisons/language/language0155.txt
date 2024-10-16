@@ -1,0 +1,29 @@
+1.8.2-pre1 (from 1.8.1)
+
+Total: 2544 (+20, -0)
+
+Additions:
+	Added "stat.armorCleaned": "Armor Pieces Cleaned"
+	Added "stat.bannerCleaned": "Banners Cleaned"
+	Added "stat.beaconInteraction": "Interactions with Beacon"
+	Added "stat.brewingstandInteraction": "Interactions with Brewing Stand"
+	Added "stat.cakeSlicesEaten": "Cake Slices Eaten"
+	Added "stat.cauldronFilled": "Cauldrons Filled"
+	Added "stat.cauldronUsed": "Water Taken from Cauldron"
+	Added "stat.chestOpened": "Chests Opened"
+	Added "stat.dispenserInspected": "Dispensers Searched"
+	Added "stat.dropperInspected": "Droppers Searched"
+	Added "stat.enderchestOpened": "Ender Chests Opened"
+	Added "stat.flowerPotted": "Plants potted"
+	Added "stat.furnaceInteraction": "Interactions with Furnace"
+	Added "stat.hopperInspected": "Hoppers Searched"
+	Added "stat.itemEnchanted": "Items Enchanted"
+	Added "stat.noteblockPlayed": "Noteblocks played"
+	Added "stat.noteblockTuned": "Noteblocks tuned"
+	Added "stat.recordPlayed": "Records Played"
+	Added "stat.trappedChestTriggered": "Trapped Chests Triggered"
+	Added "stat.workbenchInteraction": "Interactions with Crafting Table"
+
+Changes:
+	Changed "entity.Arrow.name" from "arrow" to "Arrow"
+

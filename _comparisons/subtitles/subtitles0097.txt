@@ -1,0 +1,7 @@
+23w46a (from 23w45a)
+
+Total: 768 (+0, -0)
+
+Changes:
+	Changed "subtitles.entity.generic.wind_burst" from "Wind charge bursts" to "Wind Charge bursts"
+

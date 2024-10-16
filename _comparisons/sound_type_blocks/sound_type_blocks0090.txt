@@ -1,0 +1,11 @@
+18w10a (from 18w09a)
+
+Total: 12 (+5, -0)
+
+Additions:
+	Added blue_coral_plant to 1.0;1.0;grass
+	Added pink_coral_plant to 1.0;1.0;grass
+	Added purple_coral_plant to 1.0;1.0;grass
+	Added red_coral_plant to 1.0;1.0;grass
+	Added yellow_coral_plant to 1.0;1.0;grass
+

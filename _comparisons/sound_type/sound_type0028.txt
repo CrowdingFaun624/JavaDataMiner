@@ -1,0 +1,22 @@
+20w48a (from 20w46a)
+
+Total: 59 (+2, -0)
+
+Additions:
+	Added "DRIPSTONE_BLOCK"
+		volume: 1.0
+		pitch: 1.0
+		break: DRIPSTONE_BLOCK_BREAK
+		step: DRIPSTONE_BLOCK_STEP
+		place: DRIPSTONE_BLOCK_PLACE
+		hit: DRIPSTONE_BLOCK_HIT
+		fall: DRIPSTONE_BLOCK_FALL
+	Added "POINTED_DRIPSTONE"
+		volume: 1.0
+		pitch: 1.0
+		break: POINTED_DRIPSTONE_BREAK
+		step: POINTED_DRIPSTONE_STEP
+		place: POINTED_DRIPSTONE_PLACE
+		hit: POINTED_DRIPSTONE_HIT
+		fall: POINTED_DRIPSTONE_FALL
+

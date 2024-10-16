@@ -1,0 +1,43 @@
+b1.9-pre4 (from b1.9-pre3)
+
+Total: 851 (+34, -1)
+
+Additions:
+	Added "death.indirectMagic": "%1$s was killed by %2$s"
+	Added "enchantment.damage.all": "Sharpness"
+	Added "enchantment.damage.arthropods": "Bane of Arthropods"
+	Added "enchantment.damage.undead": "Smite"
+	Added "enchantment.digging": "Efficiency"
+	Added "enchantment.durability": "Unbreaking"
+	Added "enchantment.fire": "Fire Aspect"
+	Added "enchantment.knockback": "Knockback"
+	Added "enchantment.level.1": "I"
+	Added "enchantment.level.10": "X"
+	Added "enchantment.level.2": "II"
+	Added "enchantment.level.3": "III"
+	Added "enchantment.level.4": "IV"
+	Added "enchantment.level.5": "V"
+	Added "enchantment.level.6": "VI"
+	Added "enchantment.level.7": "VII"
+	Added "enchantment.level.8": "VIII"
+	Added "enchantment.level.9": "IX"
+	Added "enchantment.lootBonus": "Looting"
+	Added "enchantment.lootBonusDigger": "Fortune"
+	Added "enchantment.oxygen": "Respiration"
+	Added "enchantment.protect.all": "Protection"
+	Added "enchantment.protect.explosion": "Blast Protection"
+	Added "enchantment.protect.fall": "Feather Falling"
+	Added "enchantment.protect.fire": "Fire Protection"
+	Added "enchantment.protect.projectile": "Projectile Protection"
+	Added "enchantment.untouching": "Silk Touch"
+	Added "enchantment.waterWorker": "Aqua Affinity"
+	Added "item.eyeOfEnder.desc": ""
+	Added "item.speckledMelon.desc": ""
+	Added "item.speckledMelon.name": "Glistering Melon"
+	Added "potion.prefix.grenade": "Splash"
+	Added "tile.enchantmentTable.desc": ""
+	Added "tile.enchantmentTable.name": "Enchantment Table"
+
+Removals:
+	Removed "item.eyeOfEnder..desc": ""
+

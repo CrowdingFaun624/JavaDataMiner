@@ -1,0 +1,9 @@
+20w18a (from 20w17a)
+
+Total: 578 (+0, -0)
+
+Changes:
+	Changed "subtitles.block.end_portal.spawn" from "End Portal opens!" to "End Portal opens"
+	Changed "subtitles.entity.husk.converted_to_zombie" from "Husk converted to Zombie" to "Husk converts to Zombie"
+	Changed "subtitles.entity.zombie.converted_to_drowned" from "Zombie converted to Drowned" to "Zombie converts to Drowned"
+

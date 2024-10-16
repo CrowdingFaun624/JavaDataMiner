@@ -1,0 +1,10 @@
+2point0_red (from 2point0_blue)
+
+Total: 12 (+0, -4)
+
+Removals:
+	Removed ethoSlab from 1.0;1.0;grass
+	Removed tintedGlass from 1.0;1.0;random.glass;stone;stone;stone
+	Removed torchOff from 1.0;1.0;wood
+	Removed blockCoal from 1;1.0;1.0;stone
+

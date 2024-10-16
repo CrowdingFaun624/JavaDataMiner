@@ -1,0 +1,16 @@
+22w16a (from 22w15a)
+
+Total: 1310 (+5, -3)
+
+Additions:
+	Added "ALLAY_THROW": "entity.allay.item_thrown"
+	Added "MUSIC_BIOME_JUNGLE_AND_FOREST": "music.overworld.jungle_and_forest"
+	Added "MUSIC_BIOME_OLD_GROWTH_TAIGA": "music.overworld.old_growth_taiga"
+	Added "MUSIC_BIOME_SWAMP": "music.overworld.swamp"
+	Added "MUSIC_DISC_5": "music_disc.5"
+
+Removals:
+	Removed "ALLAY_FLAP": "entity.allay.flap"
+	Removed "TADPOLE_EAT": "entity.tadpole.eat"
+	Removed "TADPOLE_STEP": "entity.tadpole.step"
+

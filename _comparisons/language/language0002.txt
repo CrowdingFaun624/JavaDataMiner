@@ -1,0 +1,8 @@
+b1.2_02 (from b1.2_01)
+
+Total: 480 (+0, -0)
+
+Changes:
+	Changed "item.dyePowder.black.name" from "Ink Sack" to "Ink Sac"
+	Changed "item.dyePowder.brown.name" from "Coco Beans" to "Cocoa Beans"
+

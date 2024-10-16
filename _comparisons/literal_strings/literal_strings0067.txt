@@ -1,0 +1,25 @@
+a1.0.1_01 (from inf-20100630-2)
+
+Total: 1429 (+9, -8)
+
+Additions:
+	Added " is in the wrong location; relocating. (Expected "
+	Added " is missing block data, skipping"
+	Added " is missing level data, skipping"
+	Added ", got "
+	Added "Chunk file at "
+	Added "Minecraft Alpha v1.0.1_01"
+	Added "Minecraft Alpha v1.0.1_01 ("
+	Added "Minecraft Minecraft Alpha v1.0.1_01"
+	Added "Minecraft: Minecraft Alpha v1.0.1_01n"
+
+Removals:
+	Removed ", xo: "
+	Removed "/misc/gear.png"
+	Removed "/misc/gearmiddle.png"
+	Removed "Minecraft Infdev"
+	Removed "Minecraft Infdev ("
+	Removed "Minecraft Minecraft Infdev"
+	Removed "Minecraft: Minecraft Infdevn"
+	Removed "xxo: "
+

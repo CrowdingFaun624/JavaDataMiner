@@ -1,0 +1,7 @@
+1.4.6 (from 12w50b)
+
+Total: 1059 (+1, -0)
+
+Additions:
+	Added "options.touchscreen": "Touchscreen Mode"
+

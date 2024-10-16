@@ -1,0 +1,8 @@
+24w05a (from 24w04a)
+
+Total: 111 (+0, -0)
+
+Type Additions:
+	Added type VAULT with blocks:
+		vault
+

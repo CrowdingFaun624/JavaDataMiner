@@ -1,0 +1,8 @@
+16w40a (from 16w39c)
+
+Total: 3025 (+0, -0)
+
+Changes:
+	Changed "commands.locate.usage" from "/locate [feature]" to "/locate <feature>"
+	Changed "tile.shulkerBoxSilver.name" from "Light Grey Shulker Box" to "Light Gray Shulker Box"
+

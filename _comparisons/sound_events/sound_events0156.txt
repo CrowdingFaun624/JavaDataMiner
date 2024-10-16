@@ -1,0 +1,11 @@
+23w16a (from 23w14a)
+
+Total: 1467 (+1, -0)
+
+Additions:
+	Added "SNIFFER_EGG_PLOP": "block.sniffer_egg.plop"
+
+Changes:
+	Changed "SNIFFER_EGG_CRACK" from "block.sniffer.egg_crack" to "block.sniffer_egg.crack"
+	Changed "SNIFFER_EGG_HATCH" from "block.sniffer.egg_hatch" to "block.sniffer_egg.hatch"
+

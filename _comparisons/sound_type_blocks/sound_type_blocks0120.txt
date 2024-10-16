@@ -1,0 +1,8 @@
+20w12a (from 20w11a)
+
+Total: 42 (+2, -0)
+
+Additions:
+	Added polished_basalt to BASALT
+	Added respawn_anchor to STONE
+

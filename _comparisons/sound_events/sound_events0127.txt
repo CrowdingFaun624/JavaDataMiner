@@ -1,0 +1,15 @@
+20w51a (from 20w49a)
+
+Total: 1074 (+9, -0)
+
+Additions:
+	Added "AXOLOTL_ATTACK": "entity.axolotl.attack"
+	Added "AXOLOTL_DEATH": "entity.axolotl.death"
+	Added "AXOLOTL_HURT": "entity.axolotl.hurt"
+	Added "AXOLOTL_IDLE_AIR": "entity.axolotl.idle_air"
+	Added "AXOLOTL_IDLE_WATER": "entity.axolotl.idle_water"
+	Added "AXOLOTL_SPLASH": "entity.axolotl.splash"
+	Added "AXOLOTL_SWIM": "entity.axolotl.swim"
+	Added "BUCKET_EMPTY_AXOLOTL": "item.bucket.empty_axolotl"
+	Added "BUCKET_FILL_AXOLOTL": "item.bucket.fill_axolotl"
+

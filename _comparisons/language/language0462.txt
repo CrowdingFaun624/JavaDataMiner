@@ -1,0 +1,10 @@
+1.20-pre7 (from 1.20-pre6)
+
+Total: 6217 (+4, -0)
+
+Additions:
+	Added "gui.copy_link_to_clipboard": "Copy Link to Clipboard"
+	Added "narrator.select.world_info": "Selected %s, last played: %s, %s"
+	Added "symlink_warning.message": "Loading worlds from folders with symbolic links can be unsafe if you don't know exactly what you are doing. Please visit %s to learn more."
+	Added "symlink_warning.title": "World folder contains symbolic links"
+

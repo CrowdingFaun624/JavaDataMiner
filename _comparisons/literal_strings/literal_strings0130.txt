@@ -1,0 +1,21 @@
+b1.6 (from b1.6-tb3)
+
+Total: 2579 (+6, -7)
+
+Additions:
+	Added "Minecraft Beta 1.6"
+	Added "Minecraft Beta 1.6   Unlicensed Copy :("
+	Added "Minecraft Beta 1.6 ("
+	Added "Minecraft Minecraft Beta 1.6"
+	Added "Minecraft: Minecraft Beta 1.6n"
+	Added "https://login.minecraft.net/session?name="
+
+Removals:
+	Removed "##.00"
+	Removed "Minecraft Beta 1.6 Test Build 3"
+	Removed "Minecraft Beta 1.6 Test Build 3   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.6 Test Build 3 ("
+	Removed "Minecraft Minecraft Beta 1.6 Test Build 3"
+	Removed "Minecraft: Minecraft Beta 1.6 Test Build 3n"
+	Removed "http://login.minecraft.net/session?name="
+

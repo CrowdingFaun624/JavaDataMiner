@@ -1,0 +1,36 @@
+13w42a (from 13w41b)
+
+Total: 221 (+22, -6)
+
+Additions:
+	Added "creeper.primed"
+	Added "dig.glass"
+	Added "game.hostile.die"
+	Added "game.hostile.hurt"
+	Added "game.hostile.hurt.fall.big"
+	Added "game.hostile.hurt.fall.small"
+	Added "game.hostile.swim"
+	Added "game.hostile.swim.splash"
+	Added "game.neutral.die"
+	Added "game.neutral.hurt"
+	Added "game.neutral.hurt.fall.big"
+	Added "game.neutral.hurt.fall.small"
+	Added "game.neutral.swim"
+	Added "game.neutral.swim.splash"
+	Added "game.player.die"
+	Added "game.player.hurt"
+	Added "game.player.hurt.fall.big"
+	Added "game.player.hurt.fall.small"
+	Added "game.player.swim"
+	Added "game.player.swim.splash"
+	Added "game.tnt.primed"
+	Added "gui.button.press"
+
+Removals:
+	Removed "damage.fallbig"
+	Removed "damage.fallsmall"
+	Removed "damage.hit"
+	Removed "liquid.splash"
+	Removed "liquid.swim"
+	Removed "random.fuse"
+

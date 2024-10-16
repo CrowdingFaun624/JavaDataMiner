@@ -1,0 +1,10 @@
+1.12-pre4 (from 1.12-pre3)
+
+Total: 3275 (+1, -0)
+
+Additions:
+	Added "commands.function.skipped": "Skipped execution of function '%1$s'"
+
+Changes:
+	Changed "commands.function.usage" from "/function <name>" to "/function <name> [if <selector>|unless <selector>]"
+

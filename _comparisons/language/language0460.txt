@@ -1,0 +1,17 @@
+1.20-pre3 (from 1.20-pre2)
+
+Total: 6212 (+0, -0)
+
+Changes:
+	Changed "commands.banlist.list" from "There is/are %s ban(s):" to "There are %s ban(s):"
+	Changed "commands.bossbar.list.bars.some" from "There is/are %s custom bossbar(s) active: %s" to "There are %s custom bossbar(s) active: %s"
+	Changed "commands.datapack.list.available.success" from "There is/are %s data pack(s) available: %s" to "There are %s data pack(s) available: %s"
+	Changed "commands.datapack.list.enabled.success" from "There is/are %s data pack(s) enabled: %s" to "There are %s data pack(s) enabled: %s"
+	Changed "commands.scoreboard.objectives.list.success" from "There is/are %s objective(s): %s" to "There are %s objective(s): %s"
+	Changed "commands.scoreboard.players.list.success" from "There is/are %s tracked entity/entities: %s" to "There are %s tracked entity/entities: %s"
+	Changed "commands.team.list.teams.success" from "There is/are %s team(s): %s" to "There are %s team(s): %s"
+	Changed "commands.whitelist.list" from "There is/are %s whitelisted player(s): %s" to "There are %s whitelisted player(s): %s"
+	Changed "key.keyboard.unknown" from "Not bound" to "Not Bound"
+	Changed "mco.errorMessage.generic" from "An error occured: " to "An error occurred: "
+	Changed "mco.errorMessage.realmsService" from "An error occured (%s):" to "An error occurred (%s):"
+

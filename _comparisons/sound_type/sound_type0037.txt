@@ -1,0 +1,30 @@
+22w42a (from 1.19.2)
+
+Total: 90 (+3, -0)
+
+Additions:
+	Added "BAMBOO_WOOD"
+		volume: 1.0
+		pitch: 1.0
+		break: BAMBOO_WOOD_BREAK
+		step: BAMBOO_WOOD_STEP
+		place: BAMBOO_WOOD_PLACE
+		hit: BAMBOO_WOOD_HIT
+		fall: BAMBOO_WOOD_FALL
+	Added "HANGING_SIGN"
+		volume: 1.0
+		pitch: 1.0
+		break: HANGING_SIGN_BREAK
+		step: HANGING_SIGN_STEP
+		place: HANGING_SIGN_PLACE
+		hit: HANGING_SIGN_HIT
+		fall: HANGING_SIGN_FALL
+	Added "NETHER_WOOD"
+		volume: 1.0
+		pitch: 1.0
+		break: NETHER_WOOD_BREAK
+		step: NETHER_WOOD_STEP
+		place: NETHER_WOOD_PLACE
+		hit: NETHER_WOOD_HIT
+		fall: NETHER_WOOD_FALL
+

@@ -1,0 +1,33 @@
+in-20100201-1 (from in-20100130)
+
+Total: 1024 (+10, -15)
+
+Additions:
+	Added " recipes"
+	Added ", xo: "
+	Added "/char.png"
+	Added "/gui/logo.png"
+	Added "Copyright Mojang Specifications. Do not distribute."
+	Added "Damage"
+	Added "Play tutorial level"
+	Added "Pre-beta!"
+	Added "saves"
+	Added "xxo: "
+
+Removals:
+	Removed " (current location: "
+	Removed " frames"
+	Removed "/mcexport01.MD3"
+	Removed "Animation frames: "
+	Removed "IDP3"
+	Removed "Minecraft levels"
+	Removed "Name: "
+	Removed "Not a valid MD3 file (bad magic number)"
+	Removed "Not a valid MD3 file (bad surface magic number)"
+	Removed "OFS_SHADERS: "
+	Removed "OFS_ST: "
+	Removed "OFS_TRIANGLES: "
+	Removed "OFS_XYZ_NORMAL: "
+	Removed "Triangles: "
+	Removed "mclevel"
+

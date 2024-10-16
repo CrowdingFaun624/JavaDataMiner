@@ -1,0 +1,9 @@
+22w06a (from 22w05a)
+
+Total: 5163 (+3, -0)
+
+Additions:
+	Added "compliance.playtime.greaterThan24Hours": "You've been playing for greater than 24 hours"
+	Added "compliance.playtime.hours": "You've been playing for %s hour(s)"
+	Added "compliance.playtime.message": "Excessive gaming may interfere with normal daily life"
+

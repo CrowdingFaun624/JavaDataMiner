@@ -1,0 +1,7 @@
+b1.8-pre1-1 (from b1.7.3)
+
+Total: 78 (+1, -0)
+
+Additions:
+	Added "mob.eat"
+

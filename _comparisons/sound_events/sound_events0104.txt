@@ -1,0 +1,7 @@
+19w14a (from 3D Shareware v1.34)
+
+Total: 795 (+0, -1)
+
+Removals:
+	Removed "awesome_intro"
+

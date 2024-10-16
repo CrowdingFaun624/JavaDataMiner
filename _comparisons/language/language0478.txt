@@ -1,0 +1,11 @@
+1.20.3-pre3 (from 1.20.3-pre2)
+
+Total: 6540 (+2, -0)
+
+Additions:
+	Added "commands.tick.status.lagging": "The game is running, but can't keep up with the target tick rate"
+	Added "download.pack.failed": "%s out of %s packs failed to download"
+
+Changes:
+	Changed "commands.tick.query.rate.sprinting" from "Target tick rate: %s per second (ingored, reference only).\nAverage time per tick: %sms" to "Target tick rate: %s per second (ignored, reference only).\nAverage time per tick: %sms"
+

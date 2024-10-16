@@ -1,0 +1,7 @@
+15w36a (from 15w35e)
+
+Total: 2566 (+0, -0)
+
+Changes:
+	Changed "commands.scoreboard.teams.option.usage" from "/scoreboard teams option <team> <friendlyfire|color|seeFriendlyInvisibles|nametagVisibility|deathMessageVisibility> <value>" to "/scoreboard teams option <team> <friendlyfire|color|seeFriendlyInvisibles|nametagVisibility|deathMessageVisibility|collisionRule> <value>"
+

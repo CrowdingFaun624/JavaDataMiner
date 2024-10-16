@@ -1,0 +1,7 @@
+1.20-pre5 (from 1.20-pre4)
+
+Total: 6213 (+1, -0)
+
+Additions:
+	Added "mco.configure.world.players.inviting": "Inviting player..."
+

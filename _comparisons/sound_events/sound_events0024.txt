@@ -1,0 +1,19 @@
+b1.9-pre1 (from b1.8.1)
+
+Total: 91 (+13, -0)
+
+Additions:
+	Added "mob.blaze"
+	Added "mob.blazehurt"
+	Added "mob.enderman"
+	Added "mob.endermandeath"
+	Added "mob.endermanhurt"
+	Added "mob.lavaslime"
+	Added "mob.lavaslimedeath"
+	Added "mob.lavaslimehurt"
+	Added "mob.villager.default"
+	Added "mob.villager.defaultdeath"
+	Added "mob.villager.defaulthurt"
+	Added "random.chest_close"
+	Added "random.chest_open"
+

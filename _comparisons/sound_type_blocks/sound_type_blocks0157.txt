@@ -1,0 +1,15 @@
+23w16a (from 23w14a)
+
+Total: 103 (+0, -3)
+
+Type Additions:
+	Added type EMPTY with blocks:
+		bubble_column
+		lava
+		water
+
+Removals:
+	Removed bubble_column from STONE
+	Removed lava from STONE
+	Removed water from STONE
+

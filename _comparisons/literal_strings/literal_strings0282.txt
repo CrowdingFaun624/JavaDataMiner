@@ -1,0 +1,31 @@
+1.7 (from 13w43a)
+
+Total: 9368 (+15, -8)
+
+Additions:
+	Added " IN: [{}:{}] {}[{}]"
+	Added "1.7"
+	Added "Minecraft 1.7"
+	Added "Minecraft 1.7 ("
+	Added "OUT: [{}:{}] {}[{}]"
+	Added "Outdated client! Please use 1.7"
+	Added "Outdated server! I'm still on 1.7"
+	Added "Playing sound {} for event {} as channel {}"
+	Added "Removed channel {} because it's not playing anymore"
+	Added "Starting integrated minecraft server version 1.7"
+	Added "aboveClouds"
+	Added "acacia_stairs"
+	Added "dark_oak_stairs"
+	Added "stairsWoodAcacia"
+	Added "stairsWoodDarkOak"
+
+Removals:
+	Removed " IN: {}[{}]"
+	Removed "13w43a"
+	Removed "Minecraft 13w43a"
+	Removed "Minecraft 13w43a ("
+	Removed "OUT: {}[{}]"
+	Removed "Outdated client! Please use 13w43a"
+	Removed "Outdated server! I'm still on 13w43a"
+	Removed "Starting integrated minecraft server version 13w43a"
+

@@ -1,0 +1,7 @@
+1.RV-Pre1 (from 1.9.2)
+
+Total: 215 (+1, -0)
+
+Additions:
+	Added usb_charger
+

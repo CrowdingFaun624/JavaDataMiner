@@ -1,0 +1,41 @@
+20w18a (from 20w17a)
+
+Total: 4668 (+17, -0)
+
+Additions:
+	Added "block.minecraft.banner.piglin.black": "Black Snout"
+	Added "block.minecraft.banner.piglin.blue": "Blue Snout"
+	Added "block.minecraft.banner.piglin.brown": "Brown Snout"
+	Added "block.minecraft.banner.piglin.cyan": "Cyan Snout"
+	Added "block.minecraft.banner.piglin.gray": "Gray Snout"
+	Added "block.minecraft.banner.piglin.green": "Green Snout"
+	Added "block.minecraft.banner.piglin.light_blue": "Light Blue Snout"
+	Added "block.minecraft.banner.piglin.light_gray": "Light Gray Snout"
+	Added "block.minecraft.banner.piglin.lime": "Lime Snout"
+	Added "block.minecraft.banner.piglin.magenta": "Magenta Snout"
+	Added "block.minecraft.banner.piglin.orange": "Orange Snout"
+	Added "block.minecraft.banner.piglin.pink": "Pink Snout"
+	Added "block.minecraft.banner.piglin.purple": "Purple Snout"
+	Added "block.minecraft.banner.piglin.red": "Red Snout"
+	Added "block.minecraft.banner.piglin.white": "White Snout"
+	Added "block.minecraft.banner.piglin.yellow": "Yellow Snout"
+	Added "death.attack.fireworks.item": "%1$s went off with a bang due to a firework fired from %3$s by %2$s"
+
+Changes:
+	Changed "block.minecraft.crimson_wall_sign" from "Crimson Sign" to "Crimson Wall Sign"
+	Changed "block.minecraft.spawn.not_valid" from "You have no home bed or respawn anchor, or it was obstructed" to "You have no home bed or charged respawn anchor, or it was obstructed"
+	Changed "block.minecraft.warped_wall_sign" from "Warped Sign" to "Warped Wall Sign"
+	Changed "commands.locatebiome.notFound" from "Could not find a %s within reasonable distance" to "Could not find a biome of type %s within reasonable distance"
+	Changed "container.upgrade" from "Upgrade gear" to "Upgrade Gear"
+	Changed "death.fell.accident.scaffolding" from "%1$s fell off a scaffolding" to "%1$s fell off scaffolding"
+	Changed "gamerule.disableElytraMovementCheck" from "Disable Elytra movement check" to "Disable elytra movement check"
+	Changed "item.minecraft.piglin_banner_pattern.desc" from "Piglin" to "Snout"
+	Changed "multiplayerWarning.header" from "Online play is not rated" to "Caution: Third-Party Online Play"
+	Changed "multiplayerWarning.message" from "During online play you may be exposed to chat messages or other types of user generated content that has not been rated, and may not be suitable for all ages." to "Caution: Online play is offered by third-party servers that are not owned, operated, or supervised by Mojang or Microsoft. During online play, you may be exposed to unmoderated chat messages or other types of user-generated content that may not be suitable for everyone."
+	Changed "selectWorld.access_failure" from "Failed to access level" to "Failed to access world"
+	Changed "selectWorld.delete_failure" from "Failed to delete level" to "Failed to delete world"
+	Changed "selectWorld.gameRules" from "Game rules" to "Game Rules"
+	Changed "subtitles.block.end_portal.spawn" from "End Portal opens!" to "End Portal opens"
+	Changed "subtitles.entity.husk.converted_to_zombie" from "Husk converted to Zombie" to "Husk converts to Zombie"
+	Changed "subtitles.entity.zombie.converted_to_drowned" from "Zombie converted to Drowned" to "Zombie converts to Drowned"
+

@@ -1,0 +1,10 @@
+15w51a (from 15w50a)
+
+Total: 2780 (+1, -0)
+
+Additions:
+	Added "container.spectatorCantOpen": "Unable to open. Loot not generated yet. "
+
+Changes:
+	Changed "commands.gamerule.success" from "Game rule has been updated" to "Game rule %s has been updated to %s"
+

@@ -1,0 +1,16 @@
+22w11a (from 22w13oneblockatatime)
+
+Total: 663 (+10, -0)
+
+Additions:
+	Added "subtitles.block.frogspawn.hatch": "Frog hatches"
+	Added "subtitles.entity.frog.ambient": "Frog croaks"
+	Added "subtitles.entity.frog.death": "Frog dies"
+	Added "subtitles.entity.frog.eat": "Frog eats"
+	Added "subtitles.entity.frog.hurt": "Frog hurts"
+	Added "subtitles.entity.frog.lay_spawn": "Frog lays spawn"
+	Added "subtitles.entity.frog.long_jump": "Frog jumps"
+	Added "subtitles.entity.tadpole.death": "Tadpole dies"
+	Added "subtitles.entity.tadpole.flop": "Tadpole flops"
+	Added "subtitles.entity.tadpole.hurt": "Tadpole hurts"
+

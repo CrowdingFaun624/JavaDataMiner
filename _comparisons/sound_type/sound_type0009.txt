@@ -1,0 +1,40 @@
+1.13-pre5 (from 1.13-pre4)
+
+Total: 12 (+2, -2)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wool.break
+		step: block.wool.step
+		place: block.wool.place
+		hit: block.wool.hit
+		fall: block.wool.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.slime_block.break
+		step: block.slime_block.step
+		place: block.slime_block.place
+		hit: block.slime_block.hit
+		fall: block.slime_block.fall
+
+Removals:
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.cloth.break
+		step: block.cloth.step
+		place: block.cloth.place
+		hit: block.cloth.hit
+		fall: block.cloth.fall
+	Removed:
+		volume: 1.0
+		pitch: 1.0
+		break: block.slime.break
+		step: block.slime.step
+		place: block.slime.place
+		hit: block.slime.hit
+		fall: block.slime.fall
+

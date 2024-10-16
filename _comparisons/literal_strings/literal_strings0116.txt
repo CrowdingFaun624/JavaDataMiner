@@ -1,0 +1,19 @@
+b1.1-1 (from b1.0.2)
+
+Total: 1910 (+6, -5)
+
+Additions:
+	Added "Minecraft Beta 1.1"
+	Added "Minecraft Beta 1.1 ("
+	Added "Minecraft Minecraft Beta 1.1"
+	Added "Minecraft: Minecraft Beta 1.1n"
+	Added "UTF-8"
+	Added "font.txt"
+
+Removals:
+	Removed " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_'abcdefghijklmnopqrstuvwxyz{|}~u00e2u0152u201au00c3u2021u00c3u00bcu00c3u00a9u00c3u00a2u00c3u00a4u00c3u00a0u00c3u00a5u00c3u00a7u00c3u00aau00c3u00abu00c3u00a8u00c3u00afu00c3u00aeu00c3u00acu00c3u201eu00c3u2026u00c3u2030u00c3u00a6u00c3u2020u00c3u00b4u00c3u00b6u00c3u00b2u00c3u00bbu00c3u00b9u00c3u00bfu00c3u2013u00c3u0153u00c3u00b8u00c2u00a3u00c3u02dcu00c3u2014u00c6u2019u00c3u00a1u00c3u00adu00c3u00b3u00c3u00bau00c3u00b1u00c3u2018u00c2u00aau00c2u00bau00c2u00bfu00c2u00aeu00c2u00acu00c2u00bdu00c2u00bcu00c2u00a1u00c2u00abu00c2u00bb"
+	Removed "Minecraft Beta 1.0.2"
+	Removed "Minecraft Beta 1.0.2 ("
+	Removed "Minecraft Minecraft Beta 1.0.2"
+	Removed "Minecraft: Minecraft Beta 1.0.2n"
+

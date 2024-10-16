@@ -1,0 +1,15 @@
+1.9-pre3 (from 1.9-pre2)
+
+Total: 229 (+1, -2)
+
+Additions:
+	Added "subtitles.entity.magmacube.squish": "Magma Cube squishes"
+
+Removals:
+	Removed "subtitles.entity.magmacube.jump": "Magma Cube jumps"
+	Removed "subtitles.entity.slime.jump": "Slime jumps"
+
+Changes:
+	Changed "subtitles.entity.slime.squish" from "Slime squashes" to "Slime squishes"
+	Changed "subtitles.item.armor.equip" from "Gear equiped" to "Gear equipped"
+

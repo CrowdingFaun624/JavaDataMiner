@@ -1,0 +1,12 @@
+1.13-pre2 (from 1.13-pre1)
+
+Total: 577 (+6, -0)
+
+Additions:
+	Added stripped_acacia_bark
+	Added stripped_birch_bark
+	Added stripped_dark_oak_bark
+	Added stripped_jungle_bark
+	Added stripped_oak_bark
+	Added stripped_spruce_bark
+

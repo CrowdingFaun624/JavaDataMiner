@@ -1,0 +1,8 @@
+19w34a (from 1.14_combat-3)
+
+Total: 22 (+2, -0)
+
+Additions:
+	Added bee_hive to 1.0;1.0;wood
+	Added bee_nest to 1.0;1.0;wood
+

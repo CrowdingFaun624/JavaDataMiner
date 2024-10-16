@@ -1,0 +1,12 @@
+1.19.3-pre3 (from 1.19.3-pre2)
+
+Total: 1392 (+6, -0)
+
+Additions:
+	Added "NOTE_BLOCK_IMITATE_CREEPER": "block.note_block.imitate.creeper"
+	Added "NOTE_BLOCK_IMITATE_ENDER_DRAGON": "block.note_block.imitate.ender_dragon"
+	Added "NOTE_BLOCK_IMITATE_PIGLIN": "block.note_block.imitate.piglin"
+	Added "NOTE_BLOCK_IMITATE_SKELETON": "block.note_block.imitate.skeleton"
+	Added "NOTE_BLOCK_IMITATE_WITHER_SKELETON": "block.note_block.imitate.wither_skeleton"
+	Added "NOTE_BLOCK_IMITATE_ZOMBIE": "block.note_block.imitate.zombie"
+

@@ -1,0 +1,8 @@
+b1.5 (from b1.4_01)
+
+Total: 75 (+2, -0)
+
+Additions:
+	Added "ambient.weather.rain"
+	Added "ambient.weather.thunder"
+

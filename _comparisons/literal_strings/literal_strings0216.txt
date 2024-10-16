@@ -1,0 +1,20 @@
+1.4.5 (from 1.4.4)
+
+Total: 6963 (+6, -6)
+
+Additions:
+	Added "1.4.5"
+	Added "Minecraft 1.4.5"
+	Added "Minecraft 1.4.5 ("
+	Added "Minecraft Minecraft 1.4.5"
+	Added "Starting integrated minecraft server version 1.4.5"
+	Added "Starting minecraft server version 1.4.5"
+
+Removals:
+	Removed "1.4.4"
+	Removed "Minecraft 1.4.4"
+	Removed "Minecraft 1.4.4 ("
+	Removed "Minecraft Minecraft 1.4.4"
+	Removed "Starting integrated minecraft server version 1.4.4"
+	Removed "Starting minecraft server version 1.4.4"
+

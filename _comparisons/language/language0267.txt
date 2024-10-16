@@ -1,0 +1,13 @@
+1.13-pre3 (from 1.13-pre2)
+
+Total: 3820 (+4, -0)
+
+Additions:
+	Added "connect.encrypting": "Encrypting..."
+	Added "connect.joining": "Joining world..."
+	Added "connect.negotiating": "Negotiating..."
+	Added "multiplayer.disconnect.unexpected_query_response": "Unexpected custom data from client"
+
+Changes:
+	Changed "multiplayer.downloadingTerrain" from "Loading terrain" to "Loading terrain..."
+

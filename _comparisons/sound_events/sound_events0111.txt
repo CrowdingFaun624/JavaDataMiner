@@ -1,0 +1,38 @@
+20w09a (from 20w08a)
+
+Total: 914 (+9, -9)
+
+Additions:
+	Added "FUNGUS_BREAK": "block.fungus.break"
+	Added "FUNGUS_FALL": "block.fungus.fall"
+	Added "FUNGUS_HIT": "block.fungus.hit"
+	Added "FUNGUS_PLACE": "block.fungus.place"
+	Added "FUNGUS_STEP": "block.fungus.step"
+	Added "ZOMBIFIED_PIGLIN_AMBIENT": "entity.zombified_piglin.ambient"
+	Added "ZOMBIFIED_PIGLIN_ANGRY": "entity.zombified_piglin.angry"
+	Added "ZOMBIFIED_PIGLIN_DEATH": "entity.zombified_piglin.death"
+	Added "ZOMBIFIED_PIGLIN_HURT": "entity.zombified_piglin.hurt"
+
+Removals:
+	Removed "FUNGI_BREAK": "block.fungi.break"
+	Removed "FUNGI_FALL": "block.fungi.fall"
+	Removed "FUNGI_HIT": "block.fungi.hit"
+	Removed "FUNGI_PLACE": "block.fungi.place"
+	Removed "FUNGI_STEP": "block.fungi.step"
+	Removed "ZOMBIE_PIGMAN_AMBIENT": "entity.zombie_pigman.ambient"
+	Removed "ZOMBIE_PIGMAN_ANGRY": "entity.zombie_pigman.angry"
+	Removed "ZOMBIE_PIGMAN_DEATH": "entity.zombie_pigman.death"
+	Removed "ZOMBIE_PIGMAN_HURT": "entity.zombie_pigman.hurt"
+
+Changes:
+	Changed "SOUL_SAND_BREAK" from "block.soul_sand_break" to "block.soul_sand.break"
+	Changed "SOUL_SAND_FALL" from "block.soul_sand_fall" to "block.soul_sand.fall"
+	Changed "SOUL_SAND_HIT" from "block.soul_sand_hit" to "block.soul_sand.hit"
+	Changed "SOUL_SAND_PLACE" from "block.soul_sand_place" to "block.soul_sand.place"
+	Changed "SOUL_SAND_STEP" from "block.soul_sand_step" to "block.soul_sand.step"
+	Changed "SOUL_SOIL_BREAK" from "block.soul_soil_break" to "block.soul_soil.break"
+	Changed "SOUL_SOIL_FALL" from "block.soul_soil_fall" to "block.soul_soil.fall"
+	Changed "SOUL_SOIL_HIT" from "block.soul_soil_hit" to "block.soul_soil.hit"
+	Changed "SOUL_SOIL_PLACE" from "block.soul_soil_place" to "block.soul_soil.place"
+	Changed "SOUL_SOIL_STEP" from "block.soul_soil_step" to "block.soul_soil.step"
+

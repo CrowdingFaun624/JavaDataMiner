@@ -1,0 +1,13 @@
+20w06a (from 1.15.2)
+
+Total: 502 (+4, -0)
+
+Additions:
+	Added "subtitles.block.composter.empty": "Composter emptied"
+	Added "subtitles.block.composter.fill": "Composter filled"
+	Added "subtitles.block.composter.ready": "Composter composts"
+	Added "subtitles.item.armor.equip_netherite": "Netherite armor clanks"
+
+Changes:
+	Changed "subtitles.item.honey_bottle.drink" from "Honey gulping" to "Gulping"
+

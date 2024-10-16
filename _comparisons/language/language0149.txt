@@ -1,0 +1,17 @@
+14w33a (from 14w32d)
+
+Total: 2019 (+3, -2)
+
+Additions:
+	Added "item.doorOak.name": "Oak Door"
+	Added "tile.pressurePlateStone.name": "Stone Pressure Plate"
+	Added "tile.pressurePlateWood.name": "Wooden Pressure Plate"
+
+Removals:
+	Removed "item.doorWood.name": "Wooden Door"
+	Removed "tile.pressurePlate.name": "Pressure Plate"
+
+Changes:
+	Changed "item.banner.triangle_bottom" from "%s Chevron " to "%s Chevron"
+	Changed "tile.stoneSlab.sand.name" from "Red Sandstone Slab" to "Sandstone Slab"
+

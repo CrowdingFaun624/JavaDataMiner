@@ -1,0 +1,25 @@
+14w32b (from 14w32a)
+
+Total: 2013 (+15, -0)
+
+Additions:
+	Added "commands.entitydata.failed": "The data tag did not change: %s"
+	Added "commands.entitydata.noPlayers": "%s is a player and cannot be changed"
+	Added "commands.entitydata.success": "Entity data updated to: %s"
+	Added "commands.entitydata.tagError": "Data tag parsing failed: %s"
+	Added "commands.entitydata.usage": "/entitydata <entity> <dataTag>"
+	Added "tile.acaciaFence.name": "Acacia Fence"
+	Added "tile.acaciaFenceGate.name": "Acacia Fence Gate"
+	Added "tile.birchFence.name": "Birch Fence"
+	Added "tile.birchFenceGate.name": "Birch Fence Gate"
+	Added "tile.darkOakFence.name": "Dark Oak Fence"
+	Added "tile.darkOakFenceGate.name": "Dark Oak Fence Gate"
+	Added "tile.jungleFence.name": "Jungle Fence"
+	Added "tile.jungleFenceGate.name": "Jungle Fence Gate"
+	Added "tile.spruceFence.name": "Spruce Fence"
+	Added "tile.spruceFenceGate.name": "Spruce Fence Gate"
+
+Changes:
+	Changed "tile.fence.name" from "Fence" to "Oak Fence"
+	Changed "tile.fenceGate.name" from "Fence Gate" to "Oak Fence Gate"
+

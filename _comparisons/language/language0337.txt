@@ -1,0 +1,35 @@
+20w09a (from 20w08a)
+
+Total: 4466 (+19, -8)
+
+Additions:
+	Added "advancements.adventure.bullseye.description": "Hit the bullseye of a Target block with an arrow"
+	Added "advancements.adventure.bullseye.title": "Bullseye"
+	Added "block.minecraft.crimson_fungus": "Crimson Fungus"
+	Added "block.minecraft.crying_obsidian": "Crying Obsidian"
+	Added "block.minecraft.potted_crimson_fungus": "Potted Crimson Fungus"
+	Added "block.minecraft.potted_crimson_roots": "Potted Crimson Roots"
+	Added "block.minecraft.potted_warped_fungus": "Potted Warped Fungus"
+	Added "block.minecraft.potted_warped_roots": "Potted Warped Roots"
+	Added "block.minecraft.target": "Target"
+	Added "block.minecraft.warped_fungus": "Warped Fungus"
+	Added "death.fell.accident.other_climbable": "%1$s fell while climbing"
+	Added "death.fell.accident.weeping_vines": "%1$s fell off some weeping vines"
+	Added "entity.minecraft.zombified_piglin": "Zombified Piglin"
+	Added "item.minecraft.zombified_piglin_spawn_egg": "Zombified Piglin Spawn Egg"
+	Added "stat.minecraft.target_hit": "Targets Hit"
+	Added "subtitles.entity.zombified_piglin.ambient": "Zombified Piglin grunts"
+	Added "subtitles.entity.zombified_piglin.angry": "Zombified Piglin angers"
+	Added "subtitles.entity.zombified_piglin.death": "Zombified Piglin dies"
+	Added "subtitles.entity.zombified_piglin.hurt": "Zombified Piglin hurts"
+
+Removals:
+	Removed "block.minecraft.crimson_fungi": "Crimson Fungi"
+	Removed "block.minecraft.warped_fungi": "Warped Fungi"
+	Removed "entity.minecraft.zombie_pigman": "Zombie Pigman"
+	Removed "item.minecraft.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg"
+	Removed "subtitles.entity.zombie_pigman.ambient": "Zombie Pigman grunts"
+	Removed "subtitles.entity.zombie_pigman.angry": "Zombie Pigman angers"
+	Removed "subtitles.entity.zombie_pigman.death": "Zombie Pigman dies"
+	Removed "subtitles.entity.zombie_pigman.hurt": "Zombie Pigman hurts"
+

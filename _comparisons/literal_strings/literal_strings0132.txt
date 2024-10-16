@@ -1,0 +1,18 @@
+b1.6.2 (from b1.6.1)
+
+Total: 2579 (+5, -5)
+
+Additions:
+	Added "Minecraft Beta 1.6.2"
+	Added "Minecraft Beta 1.6.2   Unlicensed Copy :("
+	Added "Minecraft Beta 1.6.2 ("
+	Added "Minecraft Minecraft Beta 1.6.2"
+	Added "Minecraft: Minecraft Beta 1.6.2n"
+
+Removals:
+	Removed "Minecraft Beta 1.6.1"
+	Removed "Minecraft Beta 1.6.1   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.6.1 ("
+	Removed "Minecraft Minecraft Beta 1.6.1"
+	Removed "Minecraft: Minecraft Beta 1.6.1n"
+

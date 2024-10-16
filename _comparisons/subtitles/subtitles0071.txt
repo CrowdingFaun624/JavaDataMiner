@@ -1,0 +1,9 @@
+21w37a (from 1.18_experimental-snapshot-7)
+
+Total: 652 (+3, -0)
+
+Additions:
+	Added "subtitles.item.bundle.drop_contents": "Bundle empties"
+	Added "subtitles.item.bundle.insert": "Item packed"
+	Added "subtitles.item.bundle.remove_one": "Item unpacked"
+

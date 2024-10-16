@@ -1,0 +1,22 @@
+a1.2.3 (from a1.2.2b)
+
+Total: 1710 (+10, -4)
+
+Additions:
+	Added "Igniting "
+	Added "MOving to "
+	Added "Minecraft Alpha v1.2.3"
+	Added "Minecraft Alpha v1.2.3 ("
+	Added "Minecraft Minecraft Alpha v1.2.3"
+	Added "Minecraft: Minecraft Alpha v1.2.3n"
+	Added "Snuffing "
+	Added "x: "
+	Added "y: "
+	Added "z: "
+
+Removals:
+	Removed "Minecraft Alpha v1.2.2"
+	Removed "Minecraft Alpha v1.2.2 ("
+	Removed "Minecraft Minecraft Alpha v1.2.2"
+	Removed "Minecraft: Minecraft Alpha v1.2.2n"
+

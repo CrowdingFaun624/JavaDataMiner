@@ -1,0 +1,8 @@
+23w42a (from 23w41a)
+
+Total: 1490 (+2, -0)
+
+Additions:
+	Added "CRAFTER_CRAFT": "block.crafter.craft"
+	Added "CRAFTER_FAIL": "block.crafter.fail"
+

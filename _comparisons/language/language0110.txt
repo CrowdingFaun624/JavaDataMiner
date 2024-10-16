@@ -1,0 +1,16 @@
+13w47d (from 13w47c)
+
+Total: 1671 (+5, -0)
+
+Additions:
+	Added "key.streamToggleMic": "Push To Talk/Mute"
+	Added "options.stream.micToggleBehavior": "Push To"
+	Added "options.stream.mic_toggle.mute": "Mute"
+	Added "options.stream.mic_toggle.talk": "Talk"
+	Added "stream.unavailable.noFbo.extra": "You are currently using: %s"
+
+Changes:
+	Changed "stream.unavailable.noFbo" from "Your video card does not support Framebuffer Objects (FBOs)." to "Your videocard needs to support at least OpenGL version 1.5 to use the integrated Twitch broadcasting."
+	Changed "stream.unavailable.notSupported.mac" from "Unfortunately the integrated Twitch broadcasting on Mac requires a version of OSX newer than the one you are on. You must use 10.7 (Mac OS X Lion) or newer to be able to use this service. Would you like to visit apple.com to learn about upgrading?" to "Unfortunately the integrated Twitch broadcasting on Mac requires a version of OSX newer than the one you are on. You must use 10.8 (Mac OS X Mountain Lion) or newer to be able to use this service. Would you like to visit apple.com to learn about upgrading?"
+	Changed "stream.unavailable.notSupported.other" from "Unfortunately the integrated Twitch broadcasting service requires Windows (XP or newer) or Mac OS X (10.7/Lion or newer)" to "Unfortunately the integrated Twitch broadcasting service requires Windows (Vista or newer) or Mac OS X (10.8/Mountain Lion or newer)"
+

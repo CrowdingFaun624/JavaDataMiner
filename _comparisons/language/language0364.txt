@@ -1,0 +1,10 @@
+1.16_combat-1 (from 1.16.2)
+
+Total: 4786 (+4, -0)
+
+Additions:
+	Added "attribute.name.generic.attack_reach": "Attack Reach"
+	Added "enchantment.minecraft.cleaving": "Cleaving"
+	Added "options.shieldIndicator": "Shield Indicator"
+	Added "options.useShieldOnCrouch": "Shield on Crouch"
+

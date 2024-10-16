@@ -1,0 +1,8 @@
+14w30a (from 14w29b)
+
+Total: 178 (+2, -0)
+
+Additions:
+	Added standing_banner
+	Added wall_banner
+

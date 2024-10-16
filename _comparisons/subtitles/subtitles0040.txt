@@ -1,0 +1,12 @@
+19w13a (from 19w12b)
+
+Total: 486 (+6, -0)
+
+Additions:
+	Added "subtitles.entity.evoker.celebrate": "Evoker cheers"
+	Added "subtitles.entity.pillager.celebrate": "Pillager cheers"
+	Added "subtitles.entity.ravager.celebrate": "Ravager cheers"
+	Added "subtitles.entity.villager.celebrate": "Villager cheers"
+	Added "subtitles.entity.vindicator.celebrate": "Vindicator cheers"
+	Added "subtitles.entity.witch.celebrate": "Witch cheers"
+

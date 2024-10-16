@@ -1,0 +1,7 @@
+21w20a (from 21w19a)
+
+Total: 1190 (+0, -0)
+
+Changes:
+	Changed "SWEET_BERRY_BUSH_PICK_BERRIES" from "item.sweet_berries.pick_from_bush" to "block.sweet_berry_bush.pick_berries"
+

@@ -1,0 +1,8 @@
+18w47a (from 18w46a)
+
+Total: 432 (+2, -0)
+
+Additions:
+	Added "subtitles.event.raid.horn_distant": "Ominous horn echos far away"
+	Added "subtitles.event.raid.horn_local": "Ominous horn blares"
+

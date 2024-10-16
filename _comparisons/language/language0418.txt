@@ -1,0 +1,40 @@
+22w18a (from 22w17a)
+
+Total: 5310 (+17, -11)
+
+Additions:
+	Added "commands.place.feature.failed": "Failed to place feature"
+	Added "commands.place.feature.invalid": "There is no feature with type \"%s\""
+	Added "commands.place.feature.success": "Placed \"%s\" at %s, %s, %s"
+	Added "commands.place.jigsaw.failed": "Failed to generate jigsaw"
+	Added "commands.place.jigsaw.invalid": "There is no template pool with type \"%s\""
+	Added "commands.place.jigsaw.success": "Generated jigsaw at %s, %s, %s"
+	Added "commands.place.structure.failed": "Failed to place structure"
+	Added "commands.place.structure.invalid": "There is no structure with type \"%s\""
+	Added "commands.place.structure.success": "Generated structure \"%s\" at %s, %s, %s"
+	Added "instrument.minecraft.admire_goat_horn": "Admire"
+	Added "instrument.minecraft.call_goat_horn": "Call"
+	Added "instrument.minecraft.dream_goat_horn": "Dream"
+	Added "instrument.minecraft.feel_goat_horn": "Feel"
+	Added "instrument.minecraft.ponder_goat_horn": "Ponder"
+	Added "instrument.minecraft.seek_goat_horn": "Seek"
+	Added "instrument.minecraft.sing_goat_horn": "Sing"
+	Added "instrument.minecraft.yearn_goat_horn": "Yearn"
+
+Removals:
+	Removed "commands.placefeature.failed": "Failed to place feature"
+	Removed "commands.placefeature.invalid": "There is no feature with type \"%s\""
+	Removed "commands.placefeature.success": "Placed \"%s\" at %s, %s, %s"
+	Removed "item.minecraft.goat_horn.sound.0": "Ponder"
+	Removed "item.minecraft.goat_horn.sound.1": "Sing"
+	Removed "item.minecraft.goat_horn.sound.2": "Seek"
+	Removed "item.minecraft.goat_horn.sound.3": "Feel"
+	Removed "item.minecraft.goat_horn.sound.4": "Admire"
+	Removed "item.minecraft.goat_horn.sound.5": "Call"
+	Removed "item.minecraft.goat_horn.sound.6": "Yearn"
+	Removed "item.minecraft.goat_horn.sound.7": "Dream"
+
+Changes:
+	Changed "advancements.adventure.avoid_vibration.description" from "Sneak near a Sculk Sensor, Sculk Shrieker or Warden to prevent it from hearing you" to "Sneak near a Sculk Sensor or Warden to prevent it from detecting you"
+	Changed "multiplayer.disconnect.invalid_public_key_signature" from "Invalid signature for profile public key." to "Invalid signature for profile public key.\nTry restarting your game."
+

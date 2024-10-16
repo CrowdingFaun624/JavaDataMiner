@@ -1,0 +1,19 @@
+19w34a (from 1.14_combat-3)
+
+Total: 500 (+13, -0)
+
+Additions:
+	Added "subtitles.entity.bee.ambient": "Bee buzzes"
+	Added "subtitles.entity.bee.loop": "Bee buzzes"
+	Added "subtitles.entity.bee.loop_aggressive": "Bee buzzes angrily"
+	Added "subtitles.entity.bee.pollinate": "Bee buzzes happily"
+	Added "subtitles.entity.bee.death": "Bee dies"
+	Added "subtitles.block.beehive.enter": "Bee enters hive"
+	Added "subtitles.entity.bee.hurt": "Bee hurts"
+	Added "subtitles.block.beehive.exit": "Bee leaves hive"
+	Added "subtitles.entity.bee.sting": "Bee stings"
+	Added "subtitles.block.beehive.work": "Bees work"
+	Added "subtitles.block.beehive.drip": "Honey drips"
+	Added "subtitles.item.honey_bottle.drink": "Honey gulping"
+	Added "subtitles.block.beehive.shear": "Shears scrape"
+

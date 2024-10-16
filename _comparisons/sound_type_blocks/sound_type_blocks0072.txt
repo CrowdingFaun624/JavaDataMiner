@@ -1,0 +1,10 @@
+14w33a (from 14w32d)
+
+Total: 13 (+1, -1)
+
+Additions:
+	Added bed to 1.0;1.0;wood
+
+Removals:
+	Removed bed from 1.0;1.0;stone
+

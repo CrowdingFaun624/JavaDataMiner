@@ -1,0 +1,10 @@
+1.15_combat-1 (from 1.15-pre3)
+
+Total: 4382 (+4, -0)
+
+Additions:
+	Added "attribute.name.generic.attackReach": "Attack Reach"
+	Added "enchantment.minecraft.chopping": "Chopping"
+	Added "options.shieldIndicator": "Shield Indicator"
+	Added "options.useShieldOnCrouch": "Shield on Crouch"
+

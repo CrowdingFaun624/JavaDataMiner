@@ -1,0 +1,8 @@
+13w05b (from 13w05a)
+
+Total: 1205 (+0, -0)
+
+Changes:
+	Changed "commands.scoreboard.teams.usage" from "/scoreboard teams <list|add|remove|empty|join|leave>" to "/scoreboard teams <list|add|remove|empty|join|leave|option>"
+	Changed "commands.scoreboard.usage" from "/scoreboard <objectives|players>" to "/scoreboard <objectives|players|teams>"
+

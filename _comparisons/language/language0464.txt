@@ -1,0 +1,8 @@
+23w32a (from 23w31a)
+
+Total: 6264 (+2, -0)
+
+Additions:
+	Added "chat.tag.error": "Server sent invalid message."
+	Added "chat.validation_error": "Chat validation error"
+

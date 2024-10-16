@@ -1,0 +1,14 @@
+24w05a (from 24w04a)
+
+Total: 111 (+1, -0)
+
+Additions:
+	Added "VAULT"
+		volume: 1.0
+		pitch: 1.0
+		break: VAULT_BREAK
+		step: VAULT_STEP
+		place: VAULT_PLACE
+		hit: VAULT_HIT
+		fall: VAULT_FALL
+

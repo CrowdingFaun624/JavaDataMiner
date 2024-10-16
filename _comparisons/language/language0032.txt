@@ -1,0 +1,23 @@
+12w21a (from 12w19a)
+
+Total: 878 (+7, -0)
+
+Additions:
+	Added "container.enderchest": "Ender Chest"
+	Added "item.diamond.name": "Diamond"
+	Added "item.ruby.name": "Ruby"
+	Added "tile.enderChest.name": "Ender Chest"
+	Added "tile.oreEmerald.name": "Emerald Ore"
+	Added "tile.oreRuby.name": "Ruby Ore"
+	Added "tile.stairsSandStone.name": "Sandstone Stairs"
+
+Changes:
+	Changed "commands.ban.usage" from "/ban <name>" to "/ban <name> [reason ...]"
+	Changed "commands.banip.usage" from "/ban-ip <address|name>" to "/ban-ip <address|name> [reason ...]"
+	Changed "commands.help.usage" from "/help [page]" to "/help [page|command name]"
+	Changed "item.emerald.name" from "Diamond" to "Emerald"
+	Changed "tile.woodSlab.birch.name" from "Birch-Wood Slab" to "Birch Wood Slab"
+	Changed "tile.woodSlab.jungle.name" from "Jungle-Wood Slab" to "Jungle Wood Slab"
+	Changed "tile.woodSlab.oak.name" from "Oak-Wood Slab" to "Oak Wood Slab"
+	Changed "tile.woodSlab.spruce.name" from "Spruce-Wood Slab" to "Spruce Wood Slab"
+

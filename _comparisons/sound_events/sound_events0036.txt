@@ -1,0 +1,19 @@
+1.4 (from 12w42b)
+
+Total: 167 (+10, -1)
+
+Additions:
+	Added "mob.bat.takeoff"
+	Added "mob.enderdragon.end"
+	Added "mob.enderdragon.growl"
+	Added "mob.enderdragon.hit"
+	Added "mob.enderdragon.wings"
+	Added "mob.wither.shoot"
+	Added "mob.zombie.infect"
+	Added "mob.zombie.remedy"
+	Added "mob.zombie.unfect"
+	Added "step.anvil"
+
+Removals:
+	Removed "mob.zombie.convert"
+

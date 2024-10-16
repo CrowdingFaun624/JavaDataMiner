@@ -1,0 +1,17 @@
+1.7 (from 13w43a)
+
+Total: 1581 (+6, -0)
+
+Additions:
+	Added "tile.stairsWoodAcacia.name": "Acacia Wood Stairs"
+	Added "tile.stairsWoodDarkOak.name": "Dark Oak Wood Stairs"
+	Added "tile.wood.acacia.name": "Acacia Wood Planks"
+	Added "tile.wood.big_oak.name": "Dark Oak Wood Planks"
+	Added "tile.woodSlab.acacia.name": "Acacia Wood Slab"
+	Added "tile.woodSlab.big_oak.name": "Dark Oak Wood Slab"
+
+Changes:
+	Changed "tile.leaves.big_oak.name" from "Oak Roof Leaves" to "Dark Oak Leaves"
+	Changed "tile.log.big_oak.name" from "Oak Roof Wood" to "Dark Oak Wood"
+	Changed "tile.sapling.roofed_oak.name" from "Roofed Oak Sapling" to "Dark Oak Sapling"
+

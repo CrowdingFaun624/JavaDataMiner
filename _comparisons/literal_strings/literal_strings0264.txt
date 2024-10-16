@@ -1,0 +1,39 @@
+1.6.1 (from 1.6)
+
+Total: 7569 (+24, -7)
+
+Additions:
+	Added "/client/outdated"
+	Added "1.6.1"
+	Added "Info!"
+	Added "MC|PingHost"
+	Added "Minecraft 1.6.1"
+	Added "Minecraft 1.6.1 ("
+	Added "No response (null)"
+	Added "Starting integrated minecraft server version 1.6.1"
+	Added "Starting minecraft server version 1.6.1"
+	Added "commands.playsound.playerTooFar"
+	Added "commands.playsound.success"
+	Added "commands.playsound.usage"
+	Added "mco.client.outdated.msg"
+	Added "mco.client.outdated.title"
+	Added "mco.configure.world.leave.question.line1"
+	Added "mco.configure.world.leave.question.line2"
+	Added "mco.configure.world.reset.question.line1"
+	Added "mco.configure.world.reset.question.line2"
+	Added "mco.configure.world.restore.question.line1"
+	Added "mco.configure.world.restore.question.line2"
+	Added "mco.selectServer.leave"
+	Added "mco.selectServer.play"
+	Added "playsound"
+	Added "potion.saturation"
+
+Removals:
+	Removed "1.6"
+	Removed "Minecraft 1.6"
+	Removed "Minecraft 1.6 ("
+	Removed "Starting integrated minecraft server version 1.6"
+	Removed "Starting minecraft server version 1.6"
+	Removed "input stream cannot be null"
+	Removed "mco.selectServer.select"
+

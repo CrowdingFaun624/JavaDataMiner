@@ -1,0 +1,18 @@
+in-20100129 (from in-20100128-2304)
+
+Total: 1011 (+9, -1)
+
+Additions:
+	Added " #"
+	Added " # "
+	Added "#"
+	Added "/mcexport01.MD3"
+	Added "Animation frames: "
+	Added "X"
+	Added "X#"
+	Added "XX"
+	Added "XXX"
+
+Removals:
+	Removed "/test2.md3"
+

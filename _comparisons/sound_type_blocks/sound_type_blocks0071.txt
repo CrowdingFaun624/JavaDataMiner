@@ -1,0 +1,11 @@
+14w32d (from 14w32c)
+
+Total: 13 (+5, -0)
+
+Additions:
+	Added acacia_door to 1.0;1.0;wood
+	Added birch_door to 1.0;1.0;wood
+	Added dark_oak_door to 1.0;1.0;wood
+	Added jungle_door to 1.0;1.0;wood
+	Added spruce_door to 1.0;1.0;wood
+

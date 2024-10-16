@@ -1,0 +1,9 @@
+12w25a (from 12w24a)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added stairsWoodBirch to 1.0;1.0;wood
+	Added stairsWoodJungle to 1.0;1.0;wood
+	Added stairsWoodSpruce to 1.0;1.0;wood
+

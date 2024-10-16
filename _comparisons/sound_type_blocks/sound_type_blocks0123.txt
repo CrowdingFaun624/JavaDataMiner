@@ -1,0 +1,12 @@
+20w14a (from 20w14infinite)
+
+Total: 43 (+0, -6)
+
+Removals:
+	Removed neither_portal from GLASS
+	Removed netherite_stairs from NETHERITE_BLOCK
+	Removed cursor from STONE
+	Removed zone from STONE
+	Removed ant from WET_GRASS
+	Removed book_box from WOOD
+

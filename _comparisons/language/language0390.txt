@@ -1,0 +1,52 @@
+1.17-pre1 (from 21w20a)
+
+Total: 5138 (+33, -2)
+
+Additions:
+	Added "advancements.adventure.lightning_rod_with_villager_no_fire.description": "Protect a villager from an undesired shock without starting a fire"
+	Added "advancements.adventure.lightning_rod_with_villager_no_fire.title": "Surge Protector"
+	Added "advancements.adventure.spyglass_at_dragon.description": "Look at the Ender Dragon through a spyglass"
+	Added "advancements.adventure.spyglass_at_dragon.title": "Is It a Plane?"
+	Added "advancements.adventure.spyglass_at_ghast.description": "Look at a ghast through a spyglass"
+	Added "advancements.adventure.spyglass_at_ghast.title": "Is It a Balloon?"
+	Added "advancements.adventure.spyglass_at_parrot.description": "Look at a parrot through a spyglass"
+	Added "advancements.adventure.spyglass_at_parrot.title": "Is It a Bird?"
+	Added "advancements.adventure.walk_on_powder_snow_with_leather_boots.description": "Walk on powder snow...without sinking in it"
+	Added "advancements.adventure.walk_on_powder_snow_with_leather_boots.title": "Light as a Rabbit"
+	Added "advancements.husbandry.axolotl_in_a_bucket.description": "Catch an axolotl in a bucket"
+	Added "advancements.husbandry.axolotl_in_a_bucket.title": "The Cutest Predator"
+	Added "advancements.husbandry.kill_axolotl_target.description": "Team up with an axolotl and win a fight"
+	Added "advancements.husbandry.kill_axolotl_target.title": "The Healing Power of Friendship!"
+	Added "advancements.husbandry.make_a_sign_glow.description": "Make the text of a sign glow"
+	Added "advancements.husbandry.make_a_sign_glow.title": "Glow and Behold!"
+	Added "advancements.husbandry.ride_a_boat_with_a_goat.description": "Get in a Boat and float with a Goat"
+	Added "advancements.husbandry.ride_a_boat_with_a_goat.title": "Whatever Floats Your Goat!"
+	Added "advancements.husbandry.wax_off.description": "Scrape Wax off of a Copper block!"
+	Added "advancements.husbandry.wax_off.title": "Wax Off"
+	Added "advancements.husbandry.wax_on.description": "Apply Wax to a Copper block!"
+	Added "advancements.husbandry.wax_on.title": "Wax On"
+	Added "block.minecraft.potted_azalea_bush": "Potted Azalea"
+	Added "block.minecraft.potted_flowering_azalea_bush": "Potted Flowering Azalea"
+	Added "chat_screen.message": "Message to send: %s"
+	Added "chat_screen.title": "Chat screen"
+	Added "chat_screen.usage": "Input message and press Enter to send"
+	Added "commands.perf.alreadyRunning": "The performance profiler is already started"
+	Added "commands.perf.notRunning": "The performance profiler hasn't started"
+	Added "commands.perf.reportFailed": "Failed to create debug report"
+	Added "commands.perf.reportSaved": "Created debug report in %s"
+	Added "commands.perf.started": "Started 10 second performance profiling run (use '/perf stop' to stop early)"
+	Added "commands.perf.stopped": "Stopped performance profiling after %s seconds and %s ticks (%s ticks per second)"
+
+Removals:
+	Removed "commands.debug.reportFailed": "Failed to create debug report"
+	Removed "commands.debug.reportSaved": "Created debug report in %s"
+
+Changes:
+	Changed "commands.debug.alreadyRunning" from "The debug profiler is already started" to "The tick profiler is already started"
+	Changed "commands.debug.notRunning" from "The debug profiler hasn't started" to "The tick profiler hasn't started"
+	Changed "commands.debug.started" from "Started debug profiling" to "Started 10 second tick profiling (use '/debug stop' to stop early)"
+	Changed "commands.debug.stopped" from "Stopped debug profiling after %s seconds and %s ticks (%s ticks per second)" to "Stopped tick profiling after %s seconds and %s ticks (%s ticks per second)"
+	Changed "debug.profiling.start" from "Profiling started. Ends in %s seconds or when pressing F3 + L again" to "Profiling started for %s seconds. Use F3 + L to stop early"
+	Changed "narrator.position.list" from "Selection list element %s out of %s" to "Selected list row %s out of %s"
+	Changed "narrator.position.object_list" from "Selected list entry element %s out of %s" to "Selected row element %s out of %s"
+

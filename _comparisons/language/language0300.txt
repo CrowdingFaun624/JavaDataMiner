@@ -1,0 +1,7 @@
+19w11b (from 19w11a)
+
+Total: 4249 (+0, -0)
+
+Changes:
+	Changed "options.chat.opacity" from "Chat Opacity" to "Chat Text Opacity"
+

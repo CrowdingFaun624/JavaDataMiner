@@ -1,0 +1,7 @@
+inf-20100313 (from inf-20100227)
+
+Total: 994 (+0, -1)
+
+Removals:
+	Removed "0000"
+

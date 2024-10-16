@@ -1,0 +1,41 @@
+13w25c (from 13w25b)
+
+Total: 7509 (+25, -8)
+
+Additions:
+	Added " )"
+	Added "$INVITATION_ID"
+	Added "/accept/$INVITATION_ID"
+	Added "/count/pending"
+	Added "/pending"
+	Added "/reject/$INVITATION_ID"
+	Added "13w25c"
+	Added "Error-Code"
+	Added "Minecraft 13w25c"
+	Added "Minecraft 13w25c ("
+	Added "Pending invitations"
+	Added "Realms ( ErrorCode: "
+	Added "Realms: "
+	Added "Realms: could not parse response"
+	Added "Realms: could not parse response from server"
+	Added "Starting integrated minecraft server version 13w25c"
+	Added "Starting minecraft server version 13w25c"
+	Added "error starting SoundSystem turning off sounds & music"
+	Added "invitationId"
+	Added "mco.invites.button.accept"
+	Added "mco.invites.button.reject"
+	Added "mco.invites.title"
+	Added "texts/credits.txt"
+	Added "worldName"
+	Added "worldOwnerName"
+
+Removals:
+	Removed "/title/credits.txt"
+	Removed "13w25b"
+	Removed "Could not uninvite the selected user"
+	Removed "Failed"
+	Removed "Minecraft 13w25b"
+	Removed "Minecraft 13w25b ("
+	Removed "Starting integrated minecraft server version 13w25b"
+	Removed "Starting minecraft server version 13w25b"
+

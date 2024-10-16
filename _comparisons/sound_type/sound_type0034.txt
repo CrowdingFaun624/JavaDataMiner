@@ -1,0 +1,10 @@
+22w03a (from 1.19_deep_dark_experimental_snapshot-1)
+
+Total: 76 (+0, -4)
+
+Removals:
+		Removed "SCULK"
+		Removed "SCULK_CATALYST"
+		Removed "SCULK_SHRIEKER"
+		Removed "SCULK_VEIN"
+

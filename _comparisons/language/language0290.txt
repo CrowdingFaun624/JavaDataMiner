@@ -1,0 +1,10 @@
+18w49a (from 18w48b)
+
+Total: 4155 (+4, -0)
+
+Additions:
+	Added "block.minecraft.sweet_berry_bush": "Sweet Berry Bush"
+	Added "death.attack.sweetBerryBush": "%1$s was poked to death by a sweet berry bush"
+	Added "death.attack.sweetBerryBush.player": "%1$s was poked to death by a sweet berry bush whilst trying to escape %2$s"
+	Added "item.minecraft.sweet_berries": "Sweet Berries"
+

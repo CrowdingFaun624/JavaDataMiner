@@ -1,0 +1,7 @@
+14w33a (from 14w32d)
+
+Total: 198 (+0, -0)
+
+Changes:
+	Changed bed's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to wood,1.0,1.0,dig.wood,step.wood,dig.wood
+

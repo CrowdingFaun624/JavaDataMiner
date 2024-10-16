@@ -1,0 +1,27 @@
+15w33a (from 15w32c)
+
+Total: 2533 (+21, -0)
+
+Additions:
+	Added "item.dragon_breath.name": "Dragon's Breath"
+	Added "lingering_potion.effect.awkward": "Awkward Lingering Potion"
+	Added "lingering_potion.effect.fire_resistance": "Lingering Potion of Fire Resistance"
+	Added "lingering_potion.effect.harming": "Lingering Potion of Harming"
+	Added "lingering_potion.effect.healing": "Lingering Potion of Healing"
+	Added "lingering_potion.effect.invisibility": "Lingering Potion of Invisibility"
+	Added "lingering_potion.effect.leaping": "Lingering Potion of Leaping"
+	Added "lingering_potion.effect.levitation": "Lingering Potion of Levitation"
+	Added "lingering_potion.effect.mundane": "Mundane Lingering Potion"
+	Added "lingering_potion.effect.night_vision": "Lingering Potion of Night Vision"
+	Added "lingering_potion.effect.poison": "Lingering Potion of Poison"
+	Added "lingering_potion.effect.regeneration": "Lingering Potion of Regeneration"
+	Added "lingering_potion.effect.slowness": "Lingering Potion of Slowness"
+	Added "lingering_potion.effect.strength": "Lingering Potion of Strength"
+	Added "lingering_potion.effect.swiftness": "Lingering Potion of Swiftness"
+	Added "lingering_potion.effect.thick": "Thick Lingering Potion"
+	Added "lingering_potion.effect.water": "Lingering Water Bottle"
+	Added "lingering_potion.effect.water_breathing": "Lingering Potion of Water Breathing"
+	Added "lingering_potion.effect.weakness": "Lingering Potion of Weakness"
+	Added "stat.dropped": "Dropped"
+	Added "stat.pickup": "Picked Up"
+

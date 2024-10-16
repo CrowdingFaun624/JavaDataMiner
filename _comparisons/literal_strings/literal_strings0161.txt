@@ -1,0 +1,25 @@
+12w03a (from 1.1)
+
+Total: 3580 (+13, -4)
+
+Additions:
+	Added "Jungle"
+	Added "JungleHills"
+	Added "Minecraft 12w03a"
+	Added "Minecraft 12w03a ("
+	Added "Minecraft Minecraft 12w03a"
+	Added "Minecraft: Minecraft 12w03an"
+	Added "Running: "
+	Added "Starting: "
+	Added "default_1_1"
+	Added "generatorVersion"
+	Added "goalSelector"
+	Added "navigation"
+	Added "targetSelector"
+
+Removals:
+	Removed "Minecraft 1.1"
+	Removed "Minecraft 1.1 ("
+	Removed "Minecraft Minecraft 1.1"
+	Removed "Minecraft: Minecraft 1.1n"
+

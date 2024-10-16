@@ -1,0 +1,12 @@
+1.19-pre5 (from 1.19-pre4)
+
+Total: 5336 (+3, -0)
+
+Additions:
+	Added "chat.disabled.profile.moreInfo": "Chat not allowed by account settings. Cannot send or view messages."
+	Added "subtitles.block.sculk.charge": "Sculk bubbles"
+	Added "subtitles.block.sculk.spread": "Sculk spreads"
+
+Changes:
+	Changed "chat.disabled.profile" from "Chat not allowed by account settings. Cannot send message" to "Chat not allowed by account settings. Press '%s' again for more information"
+

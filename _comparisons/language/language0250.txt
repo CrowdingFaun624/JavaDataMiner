@@ -1,0 +1,13 @@
+18w09a (from 18w08b)
+
+Total: 3419 (+7, -0)
+
+Additions:
+	Added "block.minecraft.blue_coral": "Blue coral"
+	Added "block.minecraft.dead_coral": "Dead coral"
+	Added "block.minecraft.pink_coral": "Pink coral"
+	Added "block.minecraft.purple_coral": "Purple coral"
+	Added "block.minecraft.red_coral": "Red coral"
+	Added "block.minecraft.yellow_coral": "Yellow coral"
+	Added "createWorld.customize.custom.useOceanRuins": "Ocean Ruins"
+

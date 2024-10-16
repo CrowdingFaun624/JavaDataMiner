@@ -1,0 +1,21 @@
+12w21b (from 12w21a)
+
+Total: 890 (+12, -0)
+
+Additions:
+	Added "itemGroup.brewing": "Brewing"
+	Added "itemGroup.buildingBlocks": "Building Blocks"
+	Added "itemGroup.combat": "Combat"
+	Added "itemGroup.decorations": "Decoration Blocks"
+	Added "itemGroup.food": "Foodstuffs"
+	Added "itemGroup.inventory": "Survival Inventory"
+	Added "itemGroup.materials": "Materials"
+	Added "itemGroup.misc": "Miscellaneous"
+	Added "itemGroup.redstone": "Redstone"
+	Added "itemGroup.search": "Search Items"
+	Added "itemGroup.tools": "Tools"
+	Added "itemGroup.transportation": "Transportation"
+
+Changes:
+	Changed "options.chat.title" from "Chat Settings" to "Chat Settings..."
+

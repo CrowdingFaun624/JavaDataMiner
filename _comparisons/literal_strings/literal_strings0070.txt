@@ -1,0 +1,31 @@
+a1.0.3 (from a1.0.2_02)
+
+Total: 1455 (+17, -6)
+
+Additions:
+	Added " because the chunk wasn't loaded"
+	Added "Minecraft Alpha v1.0.3"
+	Added "Minecraft Alpha v1.0.3 ("
+	Added "Minecraft Minecraft Alpha v1.0.3"
+	Added "Minecraft: Minecraft Alpha v1.0.3n"
+	Added "Player count: "
+	Added "ambient.cave.cave"
+	Added "mob.creeper"
+	Added "mob.creeperdeath"
+	Added "mob.skeleton"
+	Added "mob.skeletonhurt"
+	Added "mob.spider"
+	Added "mob.spiderdeath"
+	Added "mob.zombie"
+	Added "mob.zombiedeath"
+	Added "mob.zombiehurt"
+	Added "newmusic"
+
+Removals:
+	Removed "DOHASDOSHIH!"
+	Removed "Minecraft Alpha v1.0.2_02"
+	Removed "Minecraft Alpha v1.0.2_02 ("
+	Removed "Minecraft Minecraft Alpha v1.0.2_02"
+	Removed "Minecraft: Minecraft Alpha v1.0.2_02n"
+	Removed "calm"
+

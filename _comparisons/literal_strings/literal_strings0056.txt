@@ -1,0 +1,19 @@
+inf-20100607 (from inf-20100420)
+
+Total: 1231 (+13, -0)
+
+Additions:
+	Added " X "
+	Added " is missing a mapping! This is a bug!"
+	Added "Edit sign message:"
+	Added "Empty string not allowed"
+	Added "Sign"
+	Added "Text"
+	Added "Text1"
+	Added "Text2"
+	Added "Text3"
+	Added "Text4"
+	Added "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:-_'*!\"#%/()=+?[]{}<>"
+	Added "random.door_close"
+	Added "random.door_open"
+

@@ -1,0 +1,25 @@
+1.1 (from 12w01a)
+
+Total: 3568 (+12, -5)
+
+Additions:
+	Added "Error: "
+	Added "Minecraft 1.1"
+	Added "Minecraft 1.1 ("
+	Added "Minecraft Minecraft 1.1"
+	Added "Minecraft: Minecraft 1.1n"
+	Added "ar_SA"
+	Added "arrowDamage"
+	Added "arrowFire"
+	Added "arrowInfinite"
+	Added "arrowKnockback"
+	Added "damage"
+	Added "he_IL"
+
+Removals:
+	Removed "Minecraft 12w01a"
+	Removed "Minecraft 12w01a ("
+	Removed "Minecraft Minecraft 12w01a"
+	Removed "Minecraft: Minecraft 12w01an"
+	Removed "new silverfish model"
+

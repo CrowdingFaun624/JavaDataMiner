@@ -1,0 +1,13 @@
+19w11b (from 19w11a)
+
+Total: 22 (+0, -2)
+
+Type Additions:
+	Added type 1.0;1.0;wood;wood;wood;item.crop.plant;wood;wood with blocks:
+		melon_stem
+		pumpkin_stem
+
+Removals:
+	Removed melon_stem from 1.0;1.0;wood
+	Removed pumpkin_stem from 1.0;1.0;wood
+

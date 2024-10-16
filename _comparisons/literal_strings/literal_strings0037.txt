@@ -1,0 +1,19 @@
+in-20100207-2 (from in-20100207-1)
+
+Total: 1125 (+13, -0)
+
+Additions:
+	Added "ARB_compatibility: "
+	Added "COMPATIBILITY PROFILE: "
+	Added "CORE PROFILE: "
+	Added "GL RENDERER: "
+	Added "GL VENDOR: "
+	Added "GL VERSION: "
+	Added "LWJGL version: "
+	Added "OpenGL 3.0: "
+	Added "OpenGL 3.1: "
+	Added "OpenGL 3.2: "
+	Added "PROFILE MASK: "
+	Added "liquid.lava"
+	Added "liquid.water"
+

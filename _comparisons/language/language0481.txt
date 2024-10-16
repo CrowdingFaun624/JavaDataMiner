@@ -1,0 +1,23 @@
+24w04a (from 24w03b)
+
+Total: 6585 (+13, -2)
+
+Additions:
+	Added "commands.transfer.error.no_players": "Must specify at least one player to transfer"
+	Added "commands.transfer.success.multiple": "Transferring %s players to %s:%s"
+	Added "commands.transfer.success.single": "Transferring %s to %s:%s"
+	Added "mco.upload.entry.commands": "%1$s, %2$s"
+	Added "optimizeWorld.stage.finished.chunks": "Finishing up upgrading chunks..."
+	Added "optimizeWorld.stage.finished.entities": "Finishing up upgrading entities..."
+	Added "optimizeWorld.stage.finished.poi": "Finishing up upgrading points of interest..."
+	Added "optimizeWorld.stage.upgrading.chunks": "Upgrading all chunks..."
+	Added "optimizeWorld.stage.upgrading.entities": "Upgrading all entities..."
+	Added "optimizeWorld.stage.upgrading.poi": "Upgrading all points of interest..."
+	Added "selectWorld.allowCommands.new": "Allow Commands"
+	Added "selectWorld.commands": "Commands"
+	Added "subtitles.entity.armadillo.hurt_reduced": "Armadillo shields itself"
+
+Removals:
+	Removed "optimizeWorld.stage.finished": "Finishing up..."
+	Removed "optimizeWorld.stage.upgrading": "Upgrading all chunks..."
+

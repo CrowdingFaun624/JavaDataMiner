@@ -1,0 +1,42 @@
+13w26a (from 13w25c)
+
+Total: 7521 (+19, -15)
+
+Additions:
+	Added "' defined"
+	Added "'->name: empty value"
+	Added "'->region: empty value"
+	Added "': expected object, was "
+	Added "/assets/minecraft/lang/en_US.lang"
+	Added "13w26a"
+	Added "Duplicate language->'"
+	Added "Invalid language->'"
+	Added "Minecraft 13w26a"
+	Added "Minecraft 13w26a ("
+	Added "Resource Pack"
+	Added "Starting integrated minecraft server version 13w26a"
+	Added "Starting minecraft server version 13w26a"
+	Added "Unable to parse metadata section of resourcepack: "
+	Added "bidirectional"
+	Added "https://mcoapi.minecraft.net/"
+	Added "lang/%s.lang"
+	Added "language"
+	Added "options.resourcepack"
+
+Removals:
+	Removed ".lang"
+	Removed "/lang/"
+	Removed "/lang/languages.txt"
+	Removed "13w25c"
+	Removed "English (US)"
+	Removed "Minecraft 13w25c"
+	Removed "Minecraft 13w25c ("
+	Removed "Starting integrated minecraft server version 13w25c"
+	Removed "Starting minecraft server version 13w25c"
+	Removed "Texture Pack"
+	Removed "ar_SA"
+	Removed "he_IL"
+	Removed "https://mcoapi-stage.minecraft.net/"
+	Removed "language.name"
+	Removed "options.texture.pack"
+

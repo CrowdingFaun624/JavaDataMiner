@@ -1,0 +1,34 @@
+a1.1.1 (from a1.1.0)
+
+Total: 1574 (+19, -7)
+
+Additions:
+	Added "  #"
+	Added "%"
+	Added "Creebet"
+	Added "DonkeyKong"
+	Added "FORCING RELOAD!"
+	Added "Failed to add "
+	Added "Graham"
+	Added "Minecraft Alpha v1.1.1"
+	Added "Minecraft Alpha v1.1.1 ("
+	Added "Minecraft Minecraft Alpha v1.1.1"
+	Added "Minecraft: Minecraft Alpha v1.1.1n"
+	Added "Pigscene"
+	Added "Sensitivity: "
+	Added "Sensitivity: *yawn*"
+	Added "Sensitivity: HYPERSPEED!!!"
+	Added "Sneak"
+	Added "false"
+	Added "mouseSensitivity"
+	Added "mouseSensitivity:"
+
+Removals:
+	Removed "Minecraft Alpha v1.1.0"
+	Removed "Minecraft Alpha v1.1.0 ("
+	Removed "Minecraft Minecraft Alpha v1.1.0"
+	Removed "Minecraft: Minecraft Alpha v1.1.0n"
+	Removed "Show FPS: "
+	Removed "showFrameRate"
+	Removed "showFrameRate:"
+

@@ -1,0 +1,48 @@
+a1.2.2a (from a1.2.1_01)
+
+Total: 1701 (+27, -13)
+
+Additions:
+	Added "%clamp%/misc/shadow.png"
+	Added "(Place texture pack files here)"
+	Added ".zip"
+	Added "/environment/clouds.png"
+	Added "/font/default.png"
+	Added "/gui/background.png"
+	Added "/gui/unknown_pack.png"
+	Added "/misc/water.png"
+	Added "/mob/char.png"
+	Added "/pack.png"
+	Added "Anger"
+	Added "Default"
+	Added "Minecraft Alpha v1.2.2"
+	Added "Minecraft Alpha v1.2.2 ("
+	Added "Minecraft Minecraft Alpha v1.2.2"
+	Added "Minecraft: Minecraft Alpha v1.2.2n"
+	Added "Mods and Texture Packs"
+	Added "Open texture pack folder"
+	Added "Select Texture Pack"
+	Added "The default look of Minecraft"
+	Added "clientEntityId: "
+	Added "file://"
+	Added "pack.png"
+	Added "pack.txt"
+	Added "skin"
+	Added "skin:"
+	Added "texturepacks"
+
+Removals:
+	Removed "%clamp%/shadow.png"
+	Removed "/char.png"
+	Removed "/clouds.png"
+	Removed "/default.png"
+	Removed "/dirt.png"
+	Removed "/water.png"
+	Removed "Angry"
+	Removed "Dropping?"
+	Removed "Minecraft Alpha v1.2.1_01"
+	Removed "Minecraft Alpha v1.2.1_01 ("
+	Removed "Minecraft Minecraft Alpha v1.2.1_01"
+	Removed "Minecraft: Minecraft Alpha v1.2.1_01n"
+	Removed "Play tutorial level"
+

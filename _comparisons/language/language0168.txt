@@ -1,0 +1,15 @@
+15w34a (from 15w33c)
+
+Total: 2558 (+9, -0)
+
+Additions:
+	Added "advMode.mode.auto": "Repeat"
+	Added "advMode.mode.redstone": "Impulse"
+	Added "advMode.mode.sequence": "Chain"
+	Added "entity.DragonFireball.name": "Dragon Fireball"
+	Added "options.attack.crosshair": "Crosshair"
+	Added "options.attack.hotbar": "Hotbar"
+	Added "options.attackIndicator": "Attack Indicator"
+	Added "tile.chainCommandBlock.name": "Chain Command Block"
+	Added "tile.repeatingCommandBlock.name": "Repeating Command Block"
+

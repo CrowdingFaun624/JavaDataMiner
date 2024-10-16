@@ -1,0 +1,7 @@
+19w02a (from 18w50a)
+
+Total: 17 (+1, -0)
+
+Additions:
+	Added campfire to 1.0;1.0;wood
+

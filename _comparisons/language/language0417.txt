@@ -1,0 +1,22 @@
+22w17a (from 22w16b)
+
+Total: 5304 (+16, -0)
+
+Additions:
+	Added "death.attack.sonic_boom": "%1$s was obliterated by a sonically-charged shriek"
+	Added "death.attack.sonic_boom.player": "%1$s was obliterated by a sonically-charged shriek whilst trying to escape %2$s"
+	Added "item.minecraft.goat_horn": "Goat Horn"
+	Added "item.minecraft.goat_horn.sound.0": "Ponder"
+	Added "item.minecraft.goat_horn.sound.1": "Sing"
+	Added "item.minecraft.goat_horn.sound.2": "Seek"
+	Added "item.minecraft.goat_horn.sound.3": "Feel"
+	Added "item.minecraft.goat_horn.sound.4": "Admire"
+	Added "item.minecraft.goat_horn.sound.5": "Call"
+	Added "item.minecraft.goat_horn.sound.6": "Yearn"
+	Added "item.minecraft.goat_horn.sound.7": "Dream"
+	Added "multiplayer.disconnect.invalid_public_key": "Unable to parse profile public key."
+	Added "multiplayer.disconnect.invalid_public_key_signature": "Invalid signature for profile public key."
+	Added "multiplayer.disconnect.missing_public_key": "Missing profile public key.\nThis server requires secure profiles."
+	Added "subtitles.entity.goat.horn_break": "Goat horn breaks off"
+	Added "subtitles.item.goat_horn.play": "Goat horn plays"
+

@@ -1,0 +1,7 @@
+inf-20100627 (from inf-20100625-2)
+
+Total: 24 (+0, -1)
+
+Removals:
+	Removed "liquid.lava"
+

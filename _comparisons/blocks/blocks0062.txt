@@ -1,0 +1,17 @@
+13w42a (from 13w41b)
+
+Total: 167 (+0, -0)
+
+Changes:
+	Changed end_portal_frame's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed glass's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed glass_pane's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed glowstone's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed ice's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed lit_redstone_lamp's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed packed_ice's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed portal's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed redstone_lamp's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed stained_glass's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+	Changed stained_glass_pane's "sound_type" from stone,1.0,1.0,random.glass,step.stone,step.stone to stone,1.0,1.0,dig.glass,step.stone,step.stone
+

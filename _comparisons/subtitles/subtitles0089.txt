@@ -1,0 +1,13 @@
+23w16a (from 23w14a)
+
+Total: 738 (+3, -2)
+
+Additions:
+	Added "subtitles.block.sniffer_egg.crack": "Sniffer Egg cracks"
+	Added "subtitles.block.sniffer_egg.hatch": "Sniffer Egg hatches"
+	Added "subtitles.block.sniffer_egg.plop": "Sniffer plops"
+
+Removals:
+	Removed "subtitles.block.sniffer.egg_crack": "Sniffer Egg cracks"
+	Removed "subtitles.block.sniffer.egg_hatch": "Sniffer Egg hatches"
+

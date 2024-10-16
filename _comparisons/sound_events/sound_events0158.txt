@@ -1,0 +1,7 @@
+23w31a (from 1.20.1)
+
+Total: 1475 (+1, -0)
+
+Additions:
+	Added "SPONGE_ABSORB": "block.sponge.absorb"
+

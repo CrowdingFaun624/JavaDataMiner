@@ -1,0 +1,11 @@
+18w45a (from 18w44a)
+
+Total: 712 (+5, -0)
+
+Additions:
+	Added "block.scaffolding.break"
+	Added "block.scaffolding.fall"
+	Added "block.scaffolding.hit"
+	Added "block.scaffolding.place"
+	Added "block.scaffolding.step"
+

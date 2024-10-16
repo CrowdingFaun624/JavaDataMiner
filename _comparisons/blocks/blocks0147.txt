@@ -1,0 +1,12 @@
+21w15a (from 21w14a)
+
+Total: 896 (+3, -0)
+
+Additions:
+	Added raw_copper_block
+	Added raw_gold_block
+	Added raw_iron_block
+
+Changes:
+	Changed infested_deepslate's "sound_type" from STONE to DEEPSLATE
+

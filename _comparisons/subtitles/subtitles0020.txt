@@ -1,0 +1,19 @@
+18w07a (from 18w06a)
+
+Total: 356 (+13, -0)
+
+Additions:
+	Added "subtitles.item.axe.strip": "Debarking log"
+	Added "subtitles.turtle.ambient_land": "Turtle chirp"
+	Added "subtitles.turtle.death": "Turtle dies"
+	Added "subtitles.turtle.death_baby": "Turtle baby dies"
+	Added "subtitles.turtle.egg_break": "Turtle egg breaks"
+	Added "subtitles.turtle.egg_crack": "Turtle egg cracks"
+	Added "subtitles.turtle.egg_hatch": "Turtle egg hatches"
+	Added "subtitles.turtle.hurt": "Turtle hurts"
+	Added "subtitles.turtle.hurt_baby": "Turtle baby hurts"
+	Added "subtitles.turtle.lay_egg": "Turtle lays egg"
+	Added "subtitles.turtle.shamble": "Turtle shambles"
+	Added "subtitles.turtle.shamble_baby": "Turtle baby shambles"
+	Added "subtitles.turtle.swim": "Turtle swims"
+

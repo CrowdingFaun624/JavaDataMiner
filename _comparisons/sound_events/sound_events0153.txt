@@ -1,0 +1,24 @@
+23w12a (from 1.19.4)
+
+Total: 1466 (+14, -2)
+
+Additions:
+	Added "AMETHYST_BLOCK_RESONATE": "block.amethyst_block.resonate"
+	Added "BRUSH_GENERIC": "item.brush.brushing.generic"
+	Added "BRUSH_GRAVEL": "item.brush.brushing.gravel"
+	Added "BRUSH_GRAVEL_COMPLETED": "item.brush.brushing.gravel.complete"
+	Added "BRUSH_SAND": "item.brush.brushing.sand"
+	Added "BRUSH_SAND_COMPLETED": "item.brush.brushing.sand.complete"
+	Added "SNIFFER_EGG_CRACK": "entity.sniffer.egg_crack"
+	Added "SNIFFER_EGG_HATCH": "entity.sniffer.egg_hatch"
+	Added "SUSPICIOUS_GRAVEL_BREAK": "block.suspicious_gravel.break"
+	Added "SUSPICIOUS_GRAVEL_FALL": "block.suspicious_gravel.fall"
+	Added "SUSPICIOUS_GRAVEL_HIT": "block.suspicious_gravel.hit"
+	Added "SUSPICIOUS_GRAVEL_PLACE": "block.suspicious_gravel.place"
+	Added "SUSPICIOUS_GRAVEL_STEP": "block.suspicious_gravel.step"
+	Added "WAXED_SIGN_INTERACT_FAIL": "block.sign.waxed_interact_fail"
+
+Removals:
+	Removed "BRUSH_BRUSHING": "item.brush.brushing"
+	Removed "BRUSH_BRUSH_SAND_COMPLETED": "item.brush.brush_sand_completed"
+

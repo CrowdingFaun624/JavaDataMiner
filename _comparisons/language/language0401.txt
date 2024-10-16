@@ -1,0 +1,9 @@
+21w42a (from 21w41a)
+
+Total: 5150 (+3, -0)
+
+Additions:
+	Added "item.minecraft.music_disc_otherside": "Music Disc"
+	Added "item.minecraft.music_disc_otherside.desc": "Lena Raine - otherside"
+	Added "options.autosaveIndicator": "Autosave Indicator"
+

@@ -1,0 +1,21 @@
+13w42a (from 13w41b)
+
+Total: 12 (+0, -0)
+
+Type Additions:
+	Added type 1.0;1.0;glass;stone;stone;stone with blocks:
+		end_portal_frame
+		glass
+		glass_pane
+		glowstone
+		ice
+		lit_redstone_lamp
+		packed_ice
+		portal
+		redstone_lamp
+		stained_glass
+		stained_glass_pane
+
+Type Removals:
+	Removed type 1.0;1.0;random.glass;stone;stone;stone
+

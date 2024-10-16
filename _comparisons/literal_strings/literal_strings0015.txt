@@ -1,0 +1,44 @@
+c0.24_st_03 (from c0.0.23a_01)
+
+Total: 331 (+29, -7)
+
+Additions:
+	Added " mobs"
+	Added " mushrooms"
+	Added "##"
+	Added "/armor/plate.png"
+	Added "/gui/gui.png"
+	Added "/gui/icons.png"
+	Added "/item/arrows.png"
+	Added "/item/sign.png"
+	Added "/mob/creeper.png"
+	Added "/mob/pig.png"
+	Added "/mob/skeleton.png"
+	Added "/mob/zombie.png"
+	Added "0.24_SURVIVAL_TEST_03"
+	Added "3d anaglyph: "
+	Added "Added "
+	Added "Each line can"
+	Added "Game over!"
+	Added "Minecraft 0.24_SURVIVAL_TEST_03"
+	Added "Score: &e"
+	Added "Spawning.."
+	Added "This is a test"
+	Added "View bobbing: "
+	Added "anaglyph3d"
+	Added "anaglyph3d:"
+	Added "be 15 chars!"
+	Added "bobView"
+	Added "bobView:"
+	Added "minecraft.net"
+	Added "of the signs."
+
+Removals:
+	Removed "--"
+	Removed "/gui.png"
+	Removed "0.0.23a_01"
+	Removed "Minecraft 0.0.23a_01"
+	Removed "Releasing texture for "
+	Removed "Select block"
+	Removed "unknown"
+

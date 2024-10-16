@@ -1,0 +1,7 @@
+13w47b (from 13w47a)
+
+Total: 1666 (+1, -0)
+
+Additions:
+	Added "stream.unavailable.noFbo": "Your video card does not support Framebuffer Objects (FBOs)."
+

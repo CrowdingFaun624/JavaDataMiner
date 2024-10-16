@@ -1,0 +1,21 @@
+1.4.6 (from 12w50b)
+
+Total: 7110 (+7, -6)
+
+Additions:
+	Added "1.4.6"
+	Added "Minecraft 1.4.6"
+	Added "Minecraft 1.4.6 ("
+	Added "Minecraft Minecraft 1.4.6"
+	Added "Starting integrated minecraft server version 1.4.6"
+	Added "Starting minecraft server version 1.4.6"
+	Added "random.successful_hit"
+
+Removals:
+	Removed "12w50b"
+	Removed "Minecraft 12w50b"
+	Removed "Minecraft 12w50b ("
+	Removed "Minecraft Minecraft 12w50b"
+	Removed "Starting integrated minecraft server version 12w50b"
+	Removed "Starting minecraft server version 12w50b"
+

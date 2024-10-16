@@ -1,0 +1,29 @@
+1.19.1-pre1 (from 22w24a)
+
+Total: 5413 (+18, -0)
+
+Additions:
+	Added "disconnect.loginFailedInfo.userBanned": "You are banned from playing online"
+	Added "gui.acknowledge": "Acknowledge"
+	Added "gui.banned.description": "%s\n\n%s\n\nLearn more about your case at the following link.\n\n%s"
+	Added "gui.banned.description.permanent": "Your account is permanently banned, which means you can\u2019t play online or join Realms."
+	Added "gui.banned.description.reason": "We recently received a report for bad behavior by your account. Our moderators have now reviewed your case and identified it as %s, which goes against the Minecraft Community Standards."
+	Added "gui.banned.description.temporary": "%s Until then, you can\u2019t play online or join Realms."
+	Added "gui.banned.description.temporary.duration": "Your account is temporarily suspended and will be reactivated in %s."
+	Added "gui.banned.description.unknownreason": "We recently received a report for bad behavior by your account. Our moderators have now reviewed your case and identified that it goes against the Minecraft Community Standards."
+	Added "gui.banned.title.permanent": "Account permanently banned"
+	Added "gui.banned.title.temporary": "Account temporarily suspended"
+	Added "gui.chatReport.standards": "Please report breaches of our %s"
+	Added "gui.chatReport.standards_name": "Community Standards"
+	Added "gui.chatSelection.context": "Messages surrounding this selection will be included to provide additional context"
+	Added "gui.days": "%s day(s)"
+	Added "gui.hours": "%s hour(s)"
+	Added "gui.minutes": "%s minute(s)"
+	Added "gui.multiLineEditBox.character_limit": "%s/%s"
+	Added "gui.socialInteractions.tooltip.report.disabled": "Cannot create report: reporting service unavailable"
+
+Changes:
+	Changed "gui.abuseReport.reason.non_consensual_intimate_imagery" from "Non-consentual intimate imagery" to "Non-consensual intimate imagery"
+	Changed "gui.chatReport.selected_chat" from "%s Chat Messages Selected to Report" to "%s Chat Message(s) Selected to Report"
+	Changed "gui.chatSelection.fold" from "%s Unrelated messages hidden" to "%s unrelated messages hidden"
+

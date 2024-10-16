@@ -1,0 +1,9 @@
+1.15-pre2 (from 1.15-pre1)
+
+Total: 4378 (+3, -0)
+
+Additions:
+	Added "block.minecraft.bed.set_spawn": "Respawn point set"
+	Added "stat.minecraft.interact_with_anvil": "Interactions with Anvil"
+	Added "stat.minecraft.interact_with_grindstone": "Interactions with Grindstone"
+

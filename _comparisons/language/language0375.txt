@@ -1,0 +1,37 @@
+21w03a (from 20w51a)
+
+Total: 4981 (+19, -2)
+
+Additions:
+	Added "block.minecraft.glow_lichen": "Glow Lichen"
+	Added "death.attack.stalagmite": "%1$s was impaled on a stalagmite"
+	Added "death.attack.stalagmite.player": "%1$s was impaled on a stalagmite whilst fighting %2$s"
+	Added "entity.minecraft.glow_item_frame": "Glow Item Frame"
+	Added "entity.minecraft.glow_squid": "Glow Squid"
+	Added "item.minecraft.glow_ink_sac": "Glow Ink Sac"
+	Added "item.minecraft.glow_item_frame": "Glow Item Frame"
+	Added "item.minecraft.glow_squid_spawn_egg": "Glow Squid Spawn Egg"
+	Added "selectWorld.backupQuestion.downgrade": "Downgrading a world is not supported"
+	Added "selectWorld.backupQuestion.snapshot": "Do you really want to load this world?"
+	Added "selectWorld.backupWarning.downgrade": "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work. If you still want to continue, please make a backup!"
+	Added "selectWorld.backupWarning.snapshot": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!"
+	Added "subtitles.entity.glow_squid.ambient": "Glow Squid swims"
+	Added "subtitles.entity.glow_squid.death": "Glow Squid dies"
+	Added "subtitles.entity.glow_squid.hurt": "Glow Squid hurts"
+	Added "subtitles.entity.glow_squid.squirt": "Glow Squid shoots ink"
+	Added "subtitles.item.dye.use": "Dye stains"
+	Added "subtitles.item.glow_ink_sac.use": "Glow Ink Sac splotches"
+	Added "subtitles.item.ink_sac.use": "Ink Sac splotches"
+
+Removals:
+	Removed "selectWorld.backupQuestion": "Do you really want to load this world?"
+	Removed "selectWorld.backupWarning": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!"
+
+Changes:
+	Changed "biome.minecraft.dripstone_caves" from "Dripstone caves" to "Dripstone Caves"
+	Changed "disconnect.loginFailedInfo.serversUnavailable" from "The authentication servers are currently down for maintenance." to "The authentication servers are currently not reachable. Please try again."
+	Changed "subtitles.block.pointed_dripstone.drip_lava_into_cauldron" from "Lava drips into cauldron" to "Lava drips into Cauldron"
+	Changed "subtitles.block.pointed_dripstone.drip_water_into_cauldron" from "Water drips into cauldron" to "Water drips into Cauldron"
+	Changed "subtitles.entity.shulker_bullet.hit" from "Shulker bullet explodes" to "Shulker Bullet explodes"
+	Changed "subtitles.entity.shulker_bullet.hurt" from "Shulker bullet breaks" to "Shulker Bullet breaks"
+

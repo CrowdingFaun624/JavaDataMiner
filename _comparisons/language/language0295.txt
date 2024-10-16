@@ -1,0 +1,30 @@
+19w05a (from 19w04b)
+
+Total: 4188 (+13, -9)
+
+Additions:
+	Added "entity.minecraft.ravager": "Ravager"
+	Added "entity.minecraft.trader_llama": "Trader Llama"
+	Added "entity.minecraft.wandering_trader": "Wandering Trader"
+	Added "item.minecraft.ravager_spawn_egg": "Ravager Spawn Egg"
+	Added "item.minecraft.trader_llama_spawn_egg": "Trader Llama Spawn Egg"
+	Added "item.minecraft.wandering_trader_spawn_egg": "Wandering Trader Spawn Egg"
+	Added "subtitles.entity.ravager.ambient": "Ravager grunts"
+	Added "subtitles.entity.ravager.attack": "Ravager bites"
+	Added "subtitles.entity.ravager.death": "Ravager dies"
+	Added "subtitles.entity.ravager.hurt": "Ravager hurts"
+	Added "subtitles.entity.ravager.roar": "Ravager roars"
+	Added "subtitles.entity.ravager.step": "Ravager steps"
+	Added "subtitles.entity.ravager.stunned": "Ravager stunned"
+
+Removals:
+	Removed "entity.minecraft.illager_beast": "Illager Beast"
+	Removed "item.minecraft.illager_beast_spawn_egg": "Illager Beast Spawn Egg"
+	Removed "subtitles.entity.illager_beast.ambient": "Illager Beast grunts"
+	Removed "subtitles.entity.illager_beast.attack": "Illager Beast bites"
+	Removed "subtitles.entity.illager_beast.death": "Illager Beast dies"
+	Removed "subtitles.entity.illager_beast.hurt": "Illager Beast hurts"
+	Removed "subtitles.entity.illager_beast.roar": "Illager Beast roars"
+	Removed "subtitles.entity.illager_beast.step": "Illager Beast steps"
+	Removed "subtitles.entity.illager_beast.stunned": "Illager Beast stunned"
+

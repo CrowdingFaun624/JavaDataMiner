@@ -1,0 +1,8 @@
+22w46a (from 22w45a)
+
+Total: 972 (+2, -0)
+
+Additions:
+	Added piglin_head
+	Added piglin_wall_head
+

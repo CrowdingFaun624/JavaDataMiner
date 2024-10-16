@@ -1,0 +1,12 @@
+12w17a (from 12w16a)
+
+Total: 126 (+3, -1)
+
+Additions:
+	Added 125:woodSlab
+	Added 126:woodSlab
+	Added 97:monsterStoneEgg
+
+Removals:
+	Removed 97
+

@@ -1,0 +1,8 @@
+1.11 (from 1.11-pre1)
+
+Total: 3038 (+0, -0)
+
+Changes:
+	Changed "commands.locate.success" from "Located %s at %d (y?) %d" to "Located %s at %s (y?) %s"
+	Changed "container.shulkerBox.more" from "and %d more..." to "and %s more..."
+

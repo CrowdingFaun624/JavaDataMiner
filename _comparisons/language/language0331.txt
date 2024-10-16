@@ -1,0 +1,7 @@
+1.15-pre5 (from 1.15-pre4)
+
+Total: 4379 (+1, -0)
+
+Additions:
+	Added "resourcePack.load_fail": "Resource reload failed"
+

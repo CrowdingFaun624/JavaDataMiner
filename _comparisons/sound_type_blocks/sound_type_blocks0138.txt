@@ -1,0 +1,12 @@
+21w11a (from 21w10a)
+
+Total: 76 (+2, -2)
+
+Additions:
+	Added cave_vines to CAVE_VINES
+	Added cave_vines_plant to CAVE_VINES
+
+Removals:
+	Removed cave_vines_body from CAVE_VINES
+	Removed cave_vines_head from CAVE_VINES
+

@@ -1,0 +1,12 @@
+12w40b (from 12w40a)
+
+Total: 1004 (+3, -1)
+
+Additions:
+	Added "commands.generic.double.tooBig": "The number you have entered (%.2f) is too big, it must be at most %.2f"
+	Added "commands.generic.double.tooSmall": "The number you have entered (%.2f) is too small, it must be at least %.2f"
+	Added "commands.tp.success.coordinates": "Teleported %s to %.2f,%.2f,%.2f"
+
+Removals:
+	Removed "commands.tp.coordinates": "Teleported %s to %d,%d,%d"
+

@@ -1,0 +1,7 @@
+1.5 (from 13w10b)
+
+Total: 1220 (+0, -0)
+
+Changes:
+	Changed "mco.selectServer.select" from "Join Server" to "Join World"
+

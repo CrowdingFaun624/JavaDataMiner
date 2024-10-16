@@ -1,0 +1,10 @@
+19w44a (from 19w42a)
+
+Total: 499 (+0, -4)
+
+Removals:
+	Removed "subtitles.entity.parrot.imitate.panda": "Parrot pants"
+	Removed "subtitles.entity.parrot.imitate.polar_bear": "Parrot groans"
+	Removed "subtitles.entity.parrot.imitate.wolf": "Parrot pants"
+	Removed "subtitles.entity.parrot.imitate.zombie_pigman": "Parrot grunts"
+

@@ -1,0 +1,7 @@
+18w48a (from 18w47b)
+
+Total: 715 (+1, -0)
+
+Additions:
+	Added "block.grindstone.use"
+

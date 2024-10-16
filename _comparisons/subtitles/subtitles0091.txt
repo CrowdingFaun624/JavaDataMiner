@@ -1,0 +1,7 @@
+23w31a (from 1.20.1)
+
+Total: 741 (+1, -0)
+
+Additions:
+	Added "subtitles.block.sponge.absorb": "Sponge sucks"
+

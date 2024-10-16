@@ -1,0 +1,23 @@
+20w07a (from 20w06a)
+
+Total: 519 (+17, -0)
+
+Additions:
+	Added "subtitles.entity.hoglin.ambient": "Hoglin growls"
+	Added "subtitles.entity.hoglin.angry": "Hoglin growls angrily"
+	Added "subtitles.entity.hoglin.attack": "Hoglin attacks"
+	Added "subtitles.entity.hoglin.death": "Hoglin dies"
+	Added "subtitles.entity.hoglin.hurt": "Hoglin hurts"
+	Added "subtitles.entity.hoglin.retreat": "Hoglin retreats"
+	Added "subtitles.entity.hoglin.step": "Hoglin steps"
+	Added "subtitles.entity.piglin.admiring_item": "Piglin admires item"
+	Added "subtitles.entity.piglin.ambient": "Piglin snorts"
+	Added "subtitles.entity.piglin.angry": "Piglin snorts angrily"
+	Added "subtitles.entity.piglin.celebrate": "Piglin celebrates"
+	Added "subtitles.entity.piglin.converted_to_zombified": "Piglin converts to Zombified Piglin"
+	Added "subtitles.entity.piglin.death": "Piglin dies"
+	Added "subtitles.entity.piglin.hurt": "Piglin hurts"
+	Added "subtitles.entity.piglin.jealous": "Piglin snorts enviously"
+	Added "subtitles.entity.piglin.retreat": "Piglin retreats"
+	Added "subtitles.entity.piglin.step": "Piglin steps"
+

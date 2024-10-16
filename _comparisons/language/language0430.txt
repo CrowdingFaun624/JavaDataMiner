@@ -1,0 +1,36 @@
+1.19.1-rc1 (from 1.19.1-pre6)
+
+Total: 5410 (+2, -17)
+
+Additions:
+	Added "chat.preview": "Type to preview"
+	Added "options.chatPreview.tooltip": "Chat Preview allows servers to see your messages as you type, which allows them to style your message. You can still chat if you turn this off."
+
+Removals:
+	Removed "chat.previewInput": "Press [%s] to preview"
+	Removed "chat.tag.modified": "This message has been modified by the server."
+	Removed "chat.tag.modified.original": "Original text: %s"
+	Removed "chat.tag.not_secure": "This message is not secure, which means that it might have been modified by the server"
+	Removed "gui.abuseReport.reason.false_reporting": "False Reporting"
+	Removed "gui.socialInteractions.narration.hide": "Hide messages from %s"
+	Removed "gui.socialInteractions.narration.report": "Report player %s"
+	Removed "gui.socialInteractions.narration.show": "Show messages from %s"
+	Removed "gui.socialInteractions.tooltip.report.no_messages": "Cannot create report: no recent messages from player %s"
+	Removed "multiplayer.disconnect.chat_validation_failed": "Chat message validation failure"
+	Removed "multiplayer.disconnect.too_many_pending_chats": "Too many unacknowledged chat messages"
+	Removed "multiplayer.disconnect.unsigned_chat": "Received chat packet with missing or invalid signature."
+	Removed "options.chatPreview.confirm": "On Send"
+	Removed "options.chatPreview.live": "On Modified"
+	Removed "options.chatPreview.tooltip.confirm": "If a server uses Chat Previews: A chat preview is only generated when attempting to send a message that does not have a preview or is waiting for a preview.\nSending the message requires confirmation."
+	Removed "options.chatPreview.tooltip.live": "If a server uses Chat Previews: Any modifications applied to your chat messages by a server will be dynamically sent for previewing as the chat message is typed."
+	Removed "options.chatPreview.tooltip.off": "Any modifications applied to your chat messages by a server will not be previewed and will be treated as insecure."
+
+Changes:
+	Changed "chatPreview.warning.content" from "Chat Preview allows the server to see your messages before they are sent to other players. This allows a server to send you a preview of your chat messages with custom modifications and styling applied.\n\nThe Chat Preview behavior can be changed in your Chat Settings. Current setting is: [%s]" to "Chat Preview allows the server to see your messages in real time as you type them, even before they\u2019re sent. This is often used to preview your message with styling applied.\n\nChat Preview is on by default, but can be turned off in Chat Settings."
+	Changed "gui.abuseReport.reason.harassment_or_bullying.description" from "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent (\"doxing\")." to "Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent."
+	Changed "gui.abuseReport.reason.self_harm_or_suicide.description" from "Someone is threatening to harm themselves in real life or talking about harming themselves in real life." to "Someone is threatening to harm themselves in real life, or talking about harming yourself in real life."
+	Changed "gui.chatReport.title" from "Report Player" to "Report Chat"
+	Changed "gui.socialInteractions.tooltip.hide" from "Hide messages" to "Hide messages from %s in chat"
+	Changed "gui.socialInteractions.tooltip.report" from "Report player" to "Create report for %s"
+	Changed "gui.socialInteractions.tooltip.show" from "Show messages" to "Show messages from %s in chat"
+

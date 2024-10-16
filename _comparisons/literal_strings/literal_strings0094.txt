@@ -1,0 +1,16 @@
+a1.1.0-1 (from a1.0.17_04)
+
+Total: 1560 (+4, -4)
+
+Additions:
+	Added "Minecraft Alpha v1.1.0"
+	Added "Minecraft Alpha v1.1.0 ("
+	Added "Minecraft Minecraft Alpha v1.1.0"
+	Added "Minecraft: Minecraft Alpha v1.1.0n"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.17_04"
+	Removed "Minecraft Alpha v1.0.17_04 ("
+	Removed "Minecraft Minecraft Alpha v1.0.17_04"
+	Removed "Minecraft: Minecraft Alpha v1.0.17_04n"
+

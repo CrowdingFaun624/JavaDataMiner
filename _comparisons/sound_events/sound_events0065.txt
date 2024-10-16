@@ -1,0 +1,32 @@
+16w39a (from 16w38a)
+
+Total: 490 (+26, -0)
+
+Additions:
+	Added "entity.evocation_fangs.attack"
+	Added "entity.evocation_illager.ambient"
+	Added "entity.evocation_illager.cast_spell"
+	Added "entity.evocation_illager.death"
+	Added "entity.evocation_illager.hurt"
+	Added "entity.evocation_illager.prepare_attack"
+	Added "entity.evocation_illager.prepare_summon"
+	Added "entity.evocation_illager.prepare_wololo"
+	Added "entity.llama.ambient"
+	Added "entity.llama.angry"
+	Added "entity.llama.death"
+	Added "entity.llama.eat"
+	Added "entity.llama.hurt"
+	Added "entity.llama.spit"
+	Added "entity.llama.step"
+	Added "entity.llama.swag"
+	Added "entity.shulker_box.close"
+	Added "entity.shulker_box.open"
+	Added "entity.vex.ambient"
+	Added "entity.vex.charge"
+	Added "entity.vex.death"
+	Added "entity.vex.hurt"
+	Added "entity.vindication_illager.ambient"
+	Added "entity.vindication_illager.death"
+	Added "entity.vindication_illager.hurt"
+	Added "item.totem.use"
+

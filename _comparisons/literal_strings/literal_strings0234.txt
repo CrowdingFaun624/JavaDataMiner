@@ -1,0 +1,29 @@
+13w09c (from 13w09b)
+
+Total: 8215 (+15, -6)
+
+Additions:
+	Added "),"
+	Added "13w09c"
+	Added "Minecraft 13w09c"
+	Added "Minecraft 13w09c ("
+	Added "Minecraft Minecraft 13w09c"
+	Added "Packet ID"
+	Added "Packet being sent"
+	Added "Packet class"
+	Added "Sending packet"
+	Added "Starting integrated minecraft server version 13w09c"
+	Added "Starting minecraft server version 13w09c"
+	Added "TE("
+	Added "TransferCooldown"
+	Added "commands.effect.failure.notActive"
+	Added "commands.effect.success.removed"
+
+Removals:
+	Removed "13w09b"
+	Removed "Minecraft 13w09b"
+	Removed "Minecraft 13w09b ("
+	Removed "Minecraft Minecraft 13w09b"
+	Removed "Starting integrated minecraft server version 13w09b"
+	Removed "Starting minecraft server version 13w09b"
+

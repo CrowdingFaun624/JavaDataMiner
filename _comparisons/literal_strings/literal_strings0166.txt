@@ -1,0 +1,43 @@
+12w07a (from 12w06a)
+
+Total: 3661 (+26, -9)
+
+Additions:
+	Added " R "
+	Added ".mca"
+	Added "Add"
+	Added "Anvil"
+	Added "Biomes"
+	Added "Failed to fetch input stream"
+	Added "Minecraft 12w07a"
+	Added "Minecraft 12w07a ("
+	Added "Minecraft Minecraft 12w07a"
+	Added "Minecraft: Minecraft 12w07an"
+	Added "Old Chunk Storage is no longer supported."
+	Added "RGR"
+	Added "Sections"
+	Added "TAG_Int_Array"
+	Added "Warning: Unable to create level.dat_mcr backup"
+	Added "checkDespawn"
+	Added "controls"
+	Added "getBrightness"
+	Added "level.dat_mcr"
+	Added "mob tick"
+	Added "newAi"
+	Added "oldAi"
+	Added "recheckGaps"
+	Added "redstoneLight"
+	Added "sensing"
+	Added "tcp < tcc"
+
+Removals:
+	Removed "Minecraft 12w06a"
+	Removed "Minecraft 12w06a ("
+	Removed "Minecraft Minecraft 12w06a"
+	Removed "Minecraft: Minecraft 12w06an"
+	Removed "Scaevolus' McRegion"
+	Removed "[0-9a-z]|([0-9a-z][0-9a-z])"
+	Removed "c."
+	Removed "c\\.(-?[0-9a-z]+)\\.(-?[0-9a-z]+)\\.dat"
+	Removed "tmp_chunk.dat"
+

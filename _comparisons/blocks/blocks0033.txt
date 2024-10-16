@@ -1,0 +1,8 @@
+12w07a (from 12w06a)
+
+Total: 124 (+2, -0)
+
+Additions:
+	Added 123:redstoneLight
+	Added 124:redstoneLight
+

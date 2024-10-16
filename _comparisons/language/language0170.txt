@@ -1,0 +1,8 @@
+15w35a (from 15w34d)
+
+Total: 2566 (+2, -0)
+
+Additions:
+	Added "advMode.mode.autoexec.bat": "Always Active"
+	Added "advMode.mode.redstoneTriggered": "Needs Redstone"
+

@@ -1,0 +1,51 @@
+17w18a (from 17w17b)
+
+Total: 3248 (+39, -1)
+
+Additions:
+	Added "advancements.adventure.breed_all_animals.description": "Breed all the animals!"
+	Added "advancements.adventure.breed_all_animals.title": "Two by Two"
+	Added "advancements.adventure.breed_an_animal.description": "Breed two animals together"
+	Added "advancements.adventure.breed_an_animal.title": "The Parrots and the Bats"
+	Added "advancements.adventure.tame_an_animal.description": "Tame an animal"
+	Added "advancements.adventure.tame_an_animal.title": "Best Friends Forever"
+	Added "chat.type.advancement.challenge": "%s has completed the challenge %s"
+	Added "chat.type.advancement.goal": "%s has reached the goal %s"
+	Added "chat.type.advancement.task": "%s has made the advancement %s"
+	Added "commands.reload.success": "Successfully reloaded loot tables and advancements"
+	Added "commands.reload.usage": "/reload"
+	Added "subtitles.entity.parrot.imitate.blaze": "Parrot breathes"
+	Added "subtitles.entity.parrot.imitate.cave_spider": "Parrot hisses"
+	Added "subtitles.entity.parrot.imitate.creeper": "Parrot hisses"
+	Added "subtitles.entity.parrot.imitate.elder_guardian": "Parrot flaps"
+	Added "subtitles.entity.parrot.imitate.enderdragon": "Parrot roars"
+	Added "subtitles.entity.parrot.imitate.enderman": "Parrot vwoops"
+	Added "subtitles.entity.parrot.imitate.endermite": "Parrot scuttles"
+	Added "subtitles.entity.parrot.imitate.evocation_illager": "Parrot murmurs"
+	Added "subtitles.entity.parrot.imitate.ghast": "Parrot cries"
+	Added "subtitles.entity.parrot.imitate.husk": "Parrot groans"
+	Added "subtitles.entity.parrot.imitate.illusion_illager": "Parrot murmurs"
+	Added "subtitles.entity.parrot.imitate.magmacube": "Parrot squishes"
+	Added "subtitles.entity.parrot.imitate.polar_bear": "Parrot groans"
+	Added "subtitles.entity.parrot.imitate.shulker": "Parrot lurks"
+	Added "subtitles.entity.parrot.imitate.silverfish": "Parrot hisses"
+	Added "subtitles.entity.parrot.imitate.skeleton": "Parrot rattles"
+	Added "subtitles.entity.parrot.imitate.slime": "Parrot squishes"
+	Added "subtitles.entity.parrot.imitate.spider": "Parrot hisses"
+	Added "subtitles.entity.parrot.imitate.stray": "Parrot rattles"
+	Added "subtitles.entity.parrot.imitate.vex": "Parrot vexes"
+	Added "subtitles.entity.parrot.imitate.vindication_illager": "Parrot mutters"
+	Added "subtitles.entity.parrot.imitate.witch": "Parrot giggles"
+	Added "subtitles.entity.parrot.imitate.wither": "Parrot angers"
+	Added "subtitles.entity.parrot.imitate.wither_skeleton": "Parrot rattles"
+	Added "subtitles.entity.parrot.imitate.wolf": "Parrot pants"
+	Added "subtitles.entity.parrot.imitate.zombie": "Parrot groans"
+	Added "subtitles.entity.parrot.imitate.zombie_pigman": "Parrot grunts"
+	Added "subtitles.entity.parrot.imitate.zombie_villager": "Parrot groans"
+
+Removals:
+	Removed "subtitles.entity.imitates": "%s imitates %s"
+
+Changes:
+	Changed "advancements.end.levitate.description" from "Levitate for at least 30 seconds" to "Levitate up 50 blocks from the attacks of a Shulker"
+

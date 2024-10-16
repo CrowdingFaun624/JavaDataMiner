@@ -1,0 +1,23 @@
+inf-20100624 (from inf-20100618)
+
+Total: 9 (+0, -17)
+
+Removals:
+	Removed 21 from 1.0;1.0;cloth
+	Removed 22 from 1.0;1.0;cloth
+	Removed 23 from 1.0;1.0;cloth
+	Removed 24 from 1.0;1.0;cloth
+	Removed 25 from 1.0;1.0;cloth
+	Removed 26 from 1.0;1.0;cloth
+	Removed 27 from 1.0;1.0;cloth
+	Removed 28 from 1.0;1.0;cloth
+	Removed 29 from 1.0;1.0;cloth
+	Removed 30 from 1.0;1.0;cloth
+	Removed 31 from 1.0;1.0;cloth
+	Removed 32 from 1.0;1.0;cloth
+	Removed 33 from 1.0;1.0;cloth
+	Removed 34 from 1.0;1.0;cloth
+	Removed 36 from 1.0;1.0;cloth
+	Removed 52 from 1.0;1.0;wood
+	Removed 53 from 1.0;1.0;wood
+

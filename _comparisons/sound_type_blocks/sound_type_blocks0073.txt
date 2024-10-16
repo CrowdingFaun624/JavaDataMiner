@@ -1,0 +1,23 @@
+15w31a (from 1.8.9)
+
+Total: 13 (+14, -1)
+
+Additions:
+	Added beetroots to 1.0;1.0;grass
+	Added grass_path to 1.0;1.0;grass
+	Added chorus_flower to 1.0;1.0;wood
+	Added chorus_plant to 1.0;1.0;wood
+	Added end_gateway to 1.0;1.0;wood
+	Added purpur_pillar to 1.0;1.0;wood
+	Added structure_block to 1.0;1.0;wood
+	Added end_bricks to 1;1.0;1.0;stone
+	Added end_rod to 1;1.0;1.0;stone
+	Added purpur_block to 1;1.0;1.0;stone
+	Added purpur_double_slab to 1;1.0;1.0;stone
+	Added purpur_slab to 1;1.0;1.0;stone
+	Added purpur_stairs to 1;1.0;1.0;stone
+	Added wooden_button to 1;1.0;1.0;stone
+
+Removals:
+	Removed wooden_button from 1.0;1.0;wood
+

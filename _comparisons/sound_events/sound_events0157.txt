@@ -1,0 +1,17 @@
+23w17a (from 23w16a)
+
+Total: 1474 (+8, -1)
+
+Additions:
+	Added "MUSIC_BIOME_BADLANDS": "music.overworld.badlands"
+	Added "MUSIC_BIOME_BAMBOO_JUNGLE": "music.overworld.bamboo_jungle"
+	Added "MUSIC_BIOME_DESERT": "music.overworld.desert"
+	Added "MUSIC_BIOME_FLOWER_FOREST": "music.overworld.flower_forest"
+	Added "MUSIC_BIOME_FOREST": "music.overworld.forest"
+	Added "MUSIC_BIOME_JUNGLE": "music.overworld.jungle"
+	Added "MUSIC_BIOME_SPARSE_JUNGLE": "music.overworld.sparse_jungle"
+	Added "MUSIC_DISC_RELIC": "music_disc.relic"
+
+Removals:
+	Removed "MUSIC_BIOME_JUNGLE_AND_FOREST": "music.overworld.jungle_and_forest"
+

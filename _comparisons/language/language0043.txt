@@ -1,0 +1,17 @@
+12w36a (from 12w34b)
+
+Total: 976 (+8, -0)
+
+Additions:
+	Added "entity.WitherBoss.name": "Wither"
+	Added "item.carrotOnAStick.name": "Carrot on a Stick"
+	Added "item.netherStar.name": "Nether Star"
+	Added "item.skull.char.name": "Head"
+	Added "item.skull.creeper.name": "Creeper Head"
+	Added "item.skull.skeleton.name": "Skeleton Skull"
+	Added "item.skull.wither.name": "Wither Skeleton Skull"
+	Added "item.skull.zombie.name": "Zombie Head"
+
+Changes:
+	Changed "tile.beacon.name" from "Work in Progress" to "Beacon"
+

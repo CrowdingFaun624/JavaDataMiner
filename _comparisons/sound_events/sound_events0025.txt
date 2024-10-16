@@ -1,0 +1,24 @@
+b1.9-pre2 (from b1.9-pre1)
+
+Total: 101 (+13, -3)
+
+Additions:
+	Added "mob.magma.big"
+	Added "mob.magma.death"
+	Added "mob.magma.hit"
+	Added "mob.magma.small"
+	Added "records.11"
+	Added "records.blocks"
+	Added "records.chirp"
+	Added "records.far"
+	Added "records.mall"
+	Added "records.mellohi"
+	Added "records.stal"
+	Added "records.strad"
+	Added "records.ward"
+
+Removals:
+	Removed "mob.lavaslime"
+	Removed "mob.lavaslimedeath"
+	Removed "mob.lavaslimehurt"
+

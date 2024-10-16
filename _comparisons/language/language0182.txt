@@ -1,0 +1,27 @@
+15w49a (from 15w47c)
+
+Total: 2779 (+6, -2)
+
+Additions:
+	Added "commands.particle.invalidParam": "Invalid param given (%s)"
+	Added "item.modifiers.chest": "When on body:"
+	Added "stat.aviateOneCm": "Distance by Elytra"
+	Added "subtitles.block.generic.hit": "Block breaking"
+	Added "subtitles.entity.arrow.hit_player": "Player hit"
+	Added "subtitles.item.chorus_fruit.teleport": "Player teleports"
+
+Removals:
+	Removed "item.modifiers.torso": "When on body:"
+	Removed "subtitles.entity.arrow.successful_hit": "Player hit"
+
+Changes:
+	Changed "commands.particle.usage" from "/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [mode]" to "/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [mode] [player] [params]"
+	Changed "subtitles.block.dispenser.dispense" from "Dispensed items" to "Dispensed item"
+	Changed "subtitles.block.water.ambient" from "Water splashes" to "Water flows"
+	Changed "subtitles.entity.bat.hurt" from "Bat hurt" to "Bat hurts"
+	Changed "subtitles.entity.blaze.ambient" from "Blaze crackles" to "Blaze breathes"
+	Changed "subtitles.entity.shulker.hurt" from "Shulker awaits" to "Shulker hurts"
+	Changed "subtitles.entity.tnt.primed" from "TNT fizzes " to "TNT fizzes"
+	Changed "subtitles.entity.wither.spawn" from "Wither prepares" to "Wither released"
+	Changed "subtitles.item.flintandsteel.use" from "Fire whooshes" to "Flint and steel click"
+

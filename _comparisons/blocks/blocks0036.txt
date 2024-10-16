@@ -1,0 +1,9 @@
+12w21a (from 12w19a)
+
+Total: 130 (+3, -0)
+
+Additions:
+	Added 128:stairsSandStone
+	Added 129:oreEmerald
+	Added 130:enderChest
+

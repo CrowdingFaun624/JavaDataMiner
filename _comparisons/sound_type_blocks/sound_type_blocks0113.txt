@@ -1,0 +1,8 @@
+19w12a (from 19w11b)
+
+Total: 22 (+2, -0)
+
+Additions:
+	Added cut_red_sandstone_slab to 1.0;1.0;stone
+	Added cut_sandstone_slab to 1.0;1.0;stone
+

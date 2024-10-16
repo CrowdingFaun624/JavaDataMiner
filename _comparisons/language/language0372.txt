@@ -1,0 +1,15 @@
+20w48a (from 20w46a)
+
+Total: 4942 (+9, -0)
+
+Additions:
+	Added "block.minecraft.dripstone_block": "Dripstone Block"
+	Added "block.minecraft.pointed_dripstone": "Pointed Dripstone"
+	Added "gamerule.freezeDamage": "Deal freeze damage"
+	Added "item.minecraft.bundle.fullness": "Fullness: %s / %s"
+	Added "subtitles.block.pointed_dripstone.drip_lava": "Lava drips"
+	Added "subtitles.block.pointed_dripstone.drip_lava_into_cauldron": "Lava drips into cauldron"
+	Added "subtitles.block.pointed_dripstone.drip_water": "Water drips"
+	Added "subtitles.block.pointed_dripstone.drip_water_into_cauldron": "Water drips into cauldron"
+	Added "subtitles.block.pointed_dripstone.land": "Pointed Dripstone crashes down"
+

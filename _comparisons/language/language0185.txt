@@ -1,0 +1,8 @@
+16w03a (from 16w02a)
+
+Total: 2785 (+2, -0)
+
+Additions:
+	Added "container.minecart.chest": "Chest minecart"
+	Added "container.minecart.hopper": "Hopper minecart"
+

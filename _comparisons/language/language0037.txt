@@ -1,0 +1,27 @@
+12w25a (from 12w24a)
+
+Total: 917 (+14, -0)
+
+Additions:
+	Added "commands.save.failed": "Saving failed: %s"
+	Added "commands.tp.coordinates": "Teleported %s to %d,%d,%d"
+	Added "lanServer.otherPlayers": "Settings for Other Players"
+	Added "lanServer.scanning": "Scanning for LAN Worlds"
+	Added "lanServer.start": "Start LAN World"
+	Added "lanServer.title": "LAN World"
+	Added "menu.convertingLevel": "Converting world"
+	Added "menu.shareToLan": "Open to LAN"
+	Added "selectWorld.gameMode.adventure": "Adventure"
+	Added "selectWorld.gameMode.adventure.line1": "Same as survival mode, but blocks can't "
+	Added "selectWorld.gameMode.adventure.line2": "be added or removed"
+	Added "tile.stairsWoodBirch.name": "Birch Wood Stairs"
+	Added "tile.stairsWoodJungle.name": "Jungle Wood Stairs"
+	Added "tile.stairsWoodSpruce.name": "Spruce Wood Stairs"
+
+Changes:
+	Changed "commands.tp.usage" from "/tp [target player] <destination player>" to "/tp [target player] <destination player> OR /tp [target player] <x> <y> <z>"
+	Changed "menu.generatingLevel" from "Generating level" to "Generating world"
+	Changed "menu.loadingLevel" from "Loading level" to "Loading world"
+	Changed "menu.switchingLevel" from "Switching level" to "Switching worlds"
+	Changed "tile.stairsWood.name" from "Wooden Stairs" to "Oak Wood Stairs"
+

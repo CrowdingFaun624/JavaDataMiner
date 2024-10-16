@@ -1,0 +1,26 @@
+22w12a (from 22w11a)
+
+Total: 1299 (+20, -0)
+
+Additions:
+	Added "PARROT_IMITATE_WARDEN": "entity.parrot.imitate.warden"
+	Added "SCULK_SHRIEKER_SHRIEK": "block.sculk_shrieker.shriek"
+	Added "WARDEN_AGITATED": "entity.warden.agitated"
+	Added "WARDEN_AMBIENT": "entity.warden.ambient"
+	Added "WARDEN_ANGRY": "entity.warden.angry"
+	Added "WARDEN_ATTACK_IMPACT": "entity.warden.attack_impact"
+	Added "WARDEN_DEATH": "entity.warden.death"
+	Added "WARDEN_DIG": "entity.warden.dig"
+	Added "WARDEN_EMERGE": "entity.warden.emerge"
+	Added "WARDEN_HEARTBEAT": "entity.warden.heartbeat"
+	Added "WARDEN_HURT": "entity.warden.hurt"
+	Added "WARDEN_LISTENING": "entity.warden.listening"
+	Added "WARDEN_LISTENING_ANGRY": "entity.warden.listening_angry"
+	Added "WARDEN_NEARBY_CLOSE": "entity.warden.nearby_close"
+	Added "WARDEN_NEARBY_CLOSER": "entity.warden.nearby_closer"
+	Added "WARDEN_NEARBY_CLOSEST": "entity.warden.nearby_closest"
+	Added "WARDEN_ROAR": "entity.warden.roar"
+	Added "WARDEN_SNIFF": "entity.warden.sniff"
+	Added "WARDEN_STEP": "entity.warden.step"
+	Added "WARDEN_TENDRIL_CLICKS": "entity.warden.tendril_clicks"
+

@@ -1,0 +1,16 @@
+13w24a (from 13w23b)
+
+Total: 1329 (+4, -1)
+
+Additions:
+	Added "translation.test.complex": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!"
+	Added "translation.test.escape": "%%s %%%s %%%%s %%%%%s"
+	Added "translation.test.invalid": "hi %"
+	Added "translation.test.invalid2": "hi %  s"
+
+Removals:
+	Removed "potion.healthBoost": "Health Boost"
+
+Changes:
+	Changed "tile.hayBlock.name" from "Hay Block" to "Hay Bale"
+

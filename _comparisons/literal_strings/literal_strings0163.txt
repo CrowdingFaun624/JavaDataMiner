@@ -1,0 +1,20 @@
+12w05a (from 12w04a)
+
+Total: 3609 (+7, -5)
+
+Additions:
+	Added "Minecraft 12w05a"
+	Added "Minecraft 12w05a ("
+	Added "Minecraft Minecraft 12w05a"
+	Added "Minecraft: Minecraft 12w05an"
+	Added "liquid.lava"
+	Added "liquid.lavapop"
+	Added "village"
+
+Removals:
+	Removed "Minecraft 12w04a"
+	Removed "Minecraft 12w04a ("
+	Removed "Minecraft Minecraft 12w04a"
+	Removed "Minecraft: Minecraft 12w04an"
+	Removed "spawned ozelot "
+

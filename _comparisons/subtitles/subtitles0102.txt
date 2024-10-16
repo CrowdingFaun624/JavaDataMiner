@@ -1,0 +1,15 @@
+24w06a (from 24w05a)
+
+Total: 796 (+6, -1)
+
+Additions:
+	Added "subtitles.entity.armadillo.peek": "Armadillo peeks"
+	Added "subtitles.entity.armadillo.unroll_finish": "Armadillo unrolls"
+	Added "subtitles.entity.armadillo.unroll_start": "Armadillo peeks"
+	Added "subtitles.entity.breeze.wind_burst": "Wind Charge bursts"
+	Added "subtitles.entity.wind_charge.throw": "Wind Charge flies"
+	Added "subtitles.entity.wind_charge.wind_burst": "Wind Charge bursts"
+
+Removals:
+	Removed "subtitles.entity.armadillo.unroll": "Armadillo unrolls"
+

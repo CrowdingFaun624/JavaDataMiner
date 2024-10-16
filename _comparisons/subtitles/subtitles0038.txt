@@ -1,0 +1,14 @@
+19w08a (from 19w07a)
+
+Total: 463 (+5, -1)
+
+Additions:
+	Added "subtitles.entity.fox.screech": "Fox screeches"
+	Added "subtitles.entity.mooshroom.convert": "Mooshroom transforms"
+	Added "subtitles.entity.mooshroom.eat": "Mooshroom eats"
+	Added "subtitles.entity.mooshroom.milk": "Mooshroom gets milked"
+	Added "subtitles.entity.mooshroom.suspicious_milk": "Mooshroom gets milked suspiciously"
+
+Removals:
+	Removed "subtitles.entity.fox.bark": "Fox barks"
+

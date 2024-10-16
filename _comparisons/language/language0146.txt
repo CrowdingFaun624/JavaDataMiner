@@ -1,0 +1,21 @@
+14w32a (from 14w31a)
+
+Total: 1998 (+9, -0)
+
+Additions:
+	Added "death.attack.lightningBolt": "%1$s was struck by lightning"
+	Added "entity.ArmorStand.name": "Armor Stand"
+	Added "item.armorStand.name": "Armor Stand"
+	Added "tile.redSandStone.chiseled.name": "Chiseled Red Sandstone"
+	Added "tile.redSandStone.default.name": "Red Sandstone"
+	Added "tile.redSandStone.name": "Red Sandstone"
+	Added "tile.redSandStone.smooth.name": "Smooth Red Sandstone"
+	Added "tile.stairsRedSandStone.name": "Red Sandstone Stairs"
+	Added "tile.stoneSlab2.red_sandstone.name": "Red Sandstone Slab"
+
+Changes:
+	Changed "achievement.overkill.desc" from "Deal eight hearts of damage in a single hit" to "Deal nine hearts of damage in a single hit"
+	Changed "selectWorld.gameMode.spectator.line1" from "You can look but don't" to "You can look but don't touch"
+	Changed "selectWorld.gameMode.spectator.line2" from "touch" to ""
+	Changed "tile.stoneSlab.sand.name" from "Sandstone Slab" to "Red Sandstone Slab"
+

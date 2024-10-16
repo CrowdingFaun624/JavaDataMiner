@@ -1,0 +1,21 @@
+13w47c (from 13w47b)
+
+Total: 9689 (+7, -6)
+
+Additions:
+	Added "13w47c"
+	Added "Minecraft 13w47c"
+	Added "Minecraft 13w47c ("
+	Added "Not ready to start streaming yet!"
+	Added "Outdated client! Please use 13w47c"
+	Added "Outdated server! I'm still on 13w47c"
+	Added "Starting integrated minecraft server version 13w47c"
+
+Removals:
+	Removed "13w47b"
+	Removed "Minecraft 13w47b"
+	Removed "Minecraft 13w47b ("
+	Removed "Outdated client! Please use 13w47b"
+	Removed "Outdated server! I'm still on 13w47b"
+	Removed "Starting integrated minecraft server version 13w47b"
+

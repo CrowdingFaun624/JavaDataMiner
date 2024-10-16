@@ -1,0 +1,10 @@
+1.8.2-pre7 (from 1.8.2-pre6)
+
+Total: 2545 (+1, -0)
+
+Additions:
+	Added "gui.toTitle": "Back to title screen"
+
+Changes:
+	Changed "gui.toMenu" from "Back to title screen" to "Back to server list"
+

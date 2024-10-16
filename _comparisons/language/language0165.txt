@@ -1,0 +1,8 @@
+15w32c (from 15w32b)
+
+Total: 2512 (+2, -0)
+
+Additions:
+	Added "commands.scoreboard.players.tag.notFound": "Entity didn't have the %s tag"
+	Added "commands.scoreboard.players.tag.tooMany": "Can't add more than %d tags to an entity"
+

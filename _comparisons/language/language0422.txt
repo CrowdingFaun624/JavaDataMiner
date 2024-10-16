@@ -1,0 +1,7 @@
+1.19-pre4 (from 1.19-pre3)
+
+Total: 5333 (+1, -0)
+
+Additions:
+	Added "multiplayer.disconnect.out_of_order_chat": "Out-of-order chat packet received. Did your system time change?"
+

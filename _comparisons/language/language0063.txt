@@ -1,0 +1,15 @@
+13w07a (from 13w06a)
+
+Total: 1212 (+6, -0)
+
+Additions:
+	Added "gui.back": "Back"
+	Added "mco.configure.world.buttons.subscription": "Subscription"
+	Added "mco.configure.world.subscription.daysleft": "Days Left"
+	Added "mco.configure.world.subscription.extend": "Extend"
+	Added "mco.configure.world.subscription.start": "Start Date"
+	Added "mco.configure.world.subscription.title": "Subscription Info"
+
+Changes:
+	Changed "menu.online" from "Minecraft Online" to "Minecraft Realms"
+

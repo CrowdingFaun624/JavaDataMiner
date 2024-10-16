@@ -1,0 +1,14 @@
+in-20100201-2 (from in-20100201-1)
+
+Total: 1027 (+2, -4)
+
+Additions:
+	Added "openAlFail"
+	Added "openAlFail:"
+
+Removals:
+	Removed "&i="
+	Removed "?n="
+	Removed "http://minecraft.net/"
+	Removed "http://www.minecraft.net/"
+

@@ -1,0 +1,44 @@
+23w45a (from 23w44a)
+
+Total: 110 (+16, -16)
+
+Type Additions:
+	Added type TRIAL_SPAWNER with blocks:
+		trial_spawner
+
+Additions:
+	Added copper_door to COPPER
+	Added copper_trapdoor to COPPER
+	Added exposed_copper_door to COPPER
+	Added exposed_copper_trapdoor to COPPER
+	Added oxidized_copper_door to COPPER
+	Added oxidized_copper_trapdoor to COPPER
+	Added waxed_copper_door to COPPER
+	Added waxed_copper_trapdoor to COPPER
+	Added waxed_exposed_copper_door to COPPER
+	Added waxed_exposed_copper_trapdoor to COPPER
+	Added waxed_oxidized_copper_door to COPPER
+	Added waxed_oxidized_copper_trapdoor to COPPER
+	Added waxed_weathered_copper_door to COPPER
+	Added waxed_weathered_copper_trapdoor to COPPER
+	Added weathered_copper_door to COPPER
+	Added weathered_copper_trapdoor to COPPER
+
+Removals:
+	Removed copper_door from METAL
+	Removed copper_trapdoor from METAL
+	Removed exposed_copper_door from METAL
+	Removed exposed_copper_trapdoor from METAL
+	Removed oxidized_copper_door from METAL
+	Removed oxidized_copper_trapdoor from METAL
+	Removed waxed_copper_door from METAL
+	Removed waxed_copper_trapdoor from METAL
+	Removed waxed_exposed_copper_door from METAL
+	Removed waxed_exposed_copper_trapdoor from METAL
+	Removed waxed_oxidized_copper_door from METAL
+	Removed waxed_oxidized_copper_trapdoor from METAL
+	Removed waxed_weathered_copper_door from METAL
+	Removed waxed_weathered_copper_trapdoor from METAL
+	Removed weathered_copper_door from METAL
+	Removed weathered_copper_trapdoor from METAL
+

@@ -1,0 +1,8 @@
+1.11-pre1 (from 16w44a)
+
+Total: 3038 (+2, -0)
+
+Additions:
+	Added "title.oldjava1": "Old java detected; this will prevent you from playing"
+	Added "title.oldjava2": "in the future as Java 8 will be required."
+

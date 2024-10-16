@@ -1,0 +1,7 @@
+20w22a (from 20w21a)
+
+Total: 763 (+0, -0)
+
+Changes:
+	Changed lily_pad's "sound_type" from GRASS to LILY_PAD
+

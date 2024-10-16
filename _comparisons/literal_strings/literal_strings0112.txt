@@ -1,0 +1,17 @@
+a1.2.6 (from a1.2.5)
+
+Total: 1711 (+5, -4)
+
+Additions:
+	Added "Animating hurt"
+	Added "Minecraft Alpha v1.2.6"
+	Added "Minecraft Alpha v1.2.6 ("
+	Added "Minecraft Minecraft Alpha v1.2.6"
+	Added "Minecraft: Minecraft Alpha v1.2.6n"
+
+Removals:
+	Removed "Minecraft Alpha v1.2.5"
+	Removed "Minecraft Alpha v1.2.5 ("
+	Removed "Minecraft Minecraft Alpha v1.2.5"
+	Removed "Minecraft: Minecraft Alpha v1.2.5n"
+

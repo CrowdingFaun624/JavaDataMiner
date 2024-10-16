@@ -1,0 +1,26 @@
+12w23a (from 12w22a)
+
+Total: 5547 (+10, -8)
+
+Additions:
+	Added " moved too quickly! "
+	Added "12w23a"
+	Added "Minecraft 12w23a"
+	Added "Minecraft 12w23a ("
+	Added "Minecraft Minecraft 12w23a"
+	Added "Pushing player, and singleplayer..."
+	Added "Snooper Timer"
+	Added "Starting integrated minecraft server version 12w23a"
+	Added "Starting minecraft server version 12w23a"
+	Added "destroyProgress"
+
+Removals:
+	Removed " moved too quickly!"
+	Removed "12w22a"
+	Removed "Minecraft 12w22a"
+	Removed "Minecraft 12w22a ("
+	Removed "Minecraft Minecraft 12w22a"
+	Removed "Starting integrated minecraft server version 12w22a"
+	Removed "Starting minecraft server version 12w22a"
+	Removed "You moved too quickly :( (Hacking?)"
+

@@ -1,0 +1,21 @@
+20w17a (from 20w16a)
+
+Total: 978 (+15, -0)
+
+Additions:
+	Added "CHAIN_BREAK": "block.chain.break"
+	Added "CHAIN_FALL": "block.chain.fall"
+	Added "CHAIN_HIT": "block.chain.hit"
+	Added "CHAIN_PLACE": "block.chain.place"
+	Added "CHAIN_STEP": "block.chain.step"
+	Added "GILDED_BLACKSTONE_BREAK": "block.gilded_blackstone.break"
+	Added "GILDED_BLACKSTONE_FALL": "block.gilded_blackstone.fall"
+	Added "GILDED_BLACKSTONE_HIT": "block.gilded_blackstone.hit"
+	Added "GILDED_BLACKSTONE_PLACE": "block.gilded_blackstone.place"
+	Added "GILDED_BLACKSTONE_STEP": "block.gilded_blackstone.step"
+	Added "NETHER_GOLD_ORE_BREAK": "block.nether_gold_ore.break"
+	Added "NETHER_GOLD_ORE_FALL": "block.nether_gold_ore.fall"
+	Added "NETHER_GOLD_ORE_HIT": "block.nether_gold_ore.hit"
+	Added "NETHER_GOLD_ORE_PLACE": "block.nether_gold_ore.place"
+	Added "NETHER_GOLD_ORE_STEP": "block.nether_gold_ore.step"
+

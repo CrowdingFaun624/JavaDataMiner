@@ -1,0 +1,100 @@
+20w06a (from 1.15.2)
+
+Total: 40 (+26, -14)
+
+Type Additions:
+	Added type ANCIENT_DEBRIS with blocks:
+		ancient_debris
+	Added type BASALT with blocks:
+		basalt
+	Added type BONE_BLOCK with blocks:
+		bone_block
+	Added type FUNGI with blocks:
+		crimson_fungi
+		warped_fungi
+	Added type NETHERITE_BLOCK with blocks:
+		netherite_block
+	Added type NETHERRACK with blocks:
+		netherrack
+	Added type NETHER_BRICKS with blocks:
+		nether_brick_fence
+		nether_brick_slab
+		nether_brick_stairs
+		nether_brick_wall
+		nether_bricks
+		red_nether_brick_slab
+		red_nether_brick_stairs
+		red_nether_brick_wall
+		red_nether_bricks
+	Added type NETHER_ORE with blocks:
+		nether_quartz_ore
+	Added type NETHER_SPROUTS with blocks:
+		nether_sprouts
+	Added type NYLIUM with blocks:
+		crimson_nylium
+		warped_nylium
+	Added type ROOTS with blocks:
+		crimson_roots
+		warped_roots
+	Added type SHROOMLIGHT with blocks:
+		shroomlight
+	Added type SOUL_SAND with blocks:
+		soul_sand
+	Added type SOUL_SOIL with blocks:
+		soul_soil
+	Added type STEM with blocks:
+		crimson_stem
+		stripped_crimson_stem
+		stripped_warped_stem
+		warped_stem
+	Added type WART_BLOCK with blocks:
+		nether_wart_block
+		warped_wart_block
+	Added type WEEPING_VINES with blocks:
+		weeping_vines
+		weeping_vines_plant
+
+Additions:
+	Added soul_fire_lantern to LANTERN
+	Added crimson_button to WOOD
+	Added crimson_door to WOOD
+	Added crimson_fence to WOOD
+	Added crimson_fence_gate to WOOD
+	Added crimson_planks to WOOD
+	Added crimson_pressure_plate to WOOD
+	Added crimson_sign to WOOD
+	Added crimson_slab to WOOD
+	Added crimson_stairs to WOOD
+	Added crimson_trapdoor to WOOD
+	Added crimson_wall_sign to WOOD
+	Added soul_fire_torch to WOOD
+	Added soul_fire_wall_torch to WOOD
+	Added warped_button to WOOD
+	Added warped_door to WOOD
+	Added warped_fence to WOOD
+	Added warped_fence_gate to WOOD
+	Added warped_planks to WOOD
+	Added warped_pressure_plate to WOOD
+	Added warped_sign to WOOD
+	Added warped_slab to WOOD
+	Added warped_stairs to WOOD
+	Added warped_trapdoor to WOOD
+	Added warped_wall_sign to WOOD
+	Added soul_fire to WOOL
+
+Removals:
+	Removed soul_sand from SAND
+	Removed bone_block from STONE
+	Removed nether_brick_fence from STONE
+	Removed nether_brick_slab from STONE
+	Removed nether_brick_stairs from STONE
+	Removed nether_brick_wall from STONE
+	Removed nether_bricks from STONE
+	Removed nether_quartz_ore from STONE
+	Removed netherrack from STONE
+	Removed red_nether_brick_slab from STONE
+	Removed red_nether_brick_stairs from STONE
+	Removed red_nether_brick_wall from STONE
+	Removed red_nether_bricks from STONE
+	Removed nether_wart_block from WOOD
+

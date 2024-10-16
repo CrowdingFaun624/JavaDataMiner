@@ -1,0 +1,7 @@
+15w38a (from 15w37a)
+
+Total: 2569 (+1, -0)
+
+Additions:
+	Added "stat.sleepInBed": "Times Slept in a Bed"
+

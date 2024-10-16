@@ -1,0 +1,8 @@
+13w09c (from 13w09b)
+
+Total: 1220 (+2, -0)
+
+Additions:
+	Added "commands.effect.failure.notActive": "Couldn't take %1$s from %2$s as they do not have the effect"
+	Added "commands.effect.success.removed": "Took %1$s from %2$s"
+

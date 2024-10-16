@@ -1,0 +1,53 @@
+18w14b (from 18w14a)
+
+Total: 3471 (+21, -20)
+
+Additions:
+	Added "block.minecraft.brain_coral": "Brain Coral"
+	Added "block.minecraft.brain_coral_block": "Brain Coral Block"
+	Added "block.minecraft.brain_coral_fan": "Brain Coral Fan"
+	Added "block.minecraft.bubble_coral": "Bubble Coral"
+	Added "block.minecraft.bubble_coral_block": "Bubble Coral Block"
+	Added "block.minecraft.bubble_coral_fan": "Bubble Coral Fan"
+	Added "block.minecraft.dead_brain_coral_block": "Dead Brain Coral Block"
+	Added "block.minecraft.dead_bubble_coral_block": "Dead Bubble Coral Block"
+	Added "block.minecraft.dead_fire_coral_block": "Dead Fire Coral Block"
+	Added "block.minecraft.dead_horn_coral_block": "Dead Horn Coral Block"
+	Added "block.minecraft.dead_tube_coral_block": "Dead Tube Coral Block"
+	Added "block.minecraft.fire_coral": "Fire Coral"
+	Added "block.minecraft.fire_coral_block": "Fire Coral Block"
+	Added "block.minecraft.fire_coral_fan": "Fire Coral Fan"
+	Added "block.minecraft.horn_coral": "Horn Coral"
+	Added "block.minecraft.horn_coral_block": "Horn Coral Block"
+	Added "block.minecraft.horn_coral_fan": "Horn Coral Fan"
+	Added "block.minecraft.sea_pickle": "Sea Pickle"
+	Added "block.minecraft.tube_coral": "Tube Coral"
+	Added "block.minecraft.tube_coral_block": "Tube Coral Block"
+	Added "block.minecraft.tube_coral_fan": "Tube Coral Fan"
+
+Removals:
+	Removed "block.minecraft.blue_coral": "Blue Coral"
+	Removed "block.minecraft.blue_coral_fan": "Blue Coral Fan"
+	Removed "block.minecraft.blue_coral_plant": "Blue Coral Plant"
+	Removed "block.minecraft.blue_dead_coral": "Dead Blue Coral"
+	Removed "block.minecraft.pink_coral": "Pink Coral"
+	Removed "block.minecraft.pink_coral_fan": "Pink Coral Fan"
+	Removed "block.minecraft.pink_coral_plant": "Pink Coral Plant"
+	Removed "block.minecraft.pink_dead_coral": "Dead Pink Coral"
+	Removed "block.minecraft.purple_coral": "Purple Coral"
+	Removed "block.minecraft.purple_coral_fan": "Purple Coral Fan"
+	Removed "block.minecraft.purple_coral_plant": "Purple Coral Plant"
+	Removed "block.minecraft.purple_dead_coral": "Dead Purple Coral"
+	Removed "block.minecraft.red_coral": "Red Coral"
+	Removed "block.minecraft.red_coral_fan": "Red Coral Fan"
+	Removed "block.minecraft.red_coral_plant": "Red Coral Plant"
+	Removed "block.minecraft.red_dead_coral": "Dead Red Coral"
+	Removed "block.minecraft.yellow_coral": "Yellow Coral"
+	Removed "block.minecraft.yellow_coral_fan": "Yellow Coral Fan"
+	Removed "block.minecraft.yellow_coral_plant": "Yellow Coral Plant"
+	Removed "block.minecraft.yellow_dead_coral": "Dead Yellow Coral"
+
+Changes:
+	Changed "advancements.adventure.throw_trident.description" from "Throw a trident at something.\nNote: throwing away your only weapon is not a good idea." to "Throw a trident at something.\nNote: Throwing away your only weapon is not a good idea."
+	Changed "selectWorld.allowCommands.info" from "Commands like /gamemode, /xp" to "Commands like /gamemode, /experience"
+

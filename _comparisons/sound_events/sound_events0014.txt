@@ -1,0 +1,8 @@
+a1.0.12 (from a1.0.11)
+
+Total: 38 (+2, -0)
+
+Additions:
+	Added "mob.slime"
+	Added "mob.slimeattack"
+

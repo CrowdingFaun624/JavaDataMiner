@@ -1,0 +1,25 @@
+1.14 Pre-Release 2 (from 1.14 Pre-Release 1)
+
+Total: 4307 (+16, -1)
+
+Additions:
+	Added "advancements.adventure.hero_of_the_village.description": "Successfully defend a village from a raid"
+	Added "advancements.adventure.hero_of_the_village.title": "Hero of the Village"
+	Added "advancements.adventure.voluntary_exile.description": "Kill a raid captain.\nMaybe consider staying away from villages for the time being..."
+	Added "advancements.adventure.voluntary_exile.title": "Voluntary Exile"
+	Added "block.minecraft.ominous_banner": "Ominous Banner"
+	Added "options.discrete_mouse_scroll": "Discrete Scrolling"
+	Added "options.mouseWheelSensitivity": "Scroll Sensitivity"
+	Added "options.mouse_settings": "Mouse Settings..."
+	Added "options.mouse_settings.title": "Mouse Settings"
+	Added "stat.minecraft.bell_ring": "Bells Rung"
+	Added "stat.minecraft.interact_with_cartography_table": "Interactions with Cartography Table"
+	Added "stat.minecraft.interact_with_loom": "Interactions with Loom"
+	Added "stat.minecraft.interact_with_stonecutter": "Interactions with Stonecutter"
+	Added "stat.minecraft.raid_trigger": "Raids Triggered"
+	Added "stat.minecraft.raid_win": "Raids Won"
+	Added "stat.minecraft.ring_bell": "Bells Rung"
+
+Removals:
+	Removed "block.minecraft.illager_banner": "Illager Banner"
+

@@ -1,0 +1,23 @@
+18w50a (from 18w49a)
+
+Total: 4159 (+8, -4)
+
+Additions:
+	Added "entity.minecraft.villager.mason": "Mason"
+	Added "entity.minecraft.villager.toolsmith": "Toolsmith"
+	Added "entity.minecraft.villager.weaponsmith": "Weaponsmith"
+	Added "gui.recipebook.toggleRecipes.blastable": "Showing blastable"
+	Added "gui.recipebook.toggleRecipes.smokable": "Showing smokable"
+	Added "stat.minecraft.open_barrel": "Barrels Opened"
+	Added "subtitles.block.bell.use": "Bell rings"
+	Added "subtitles.event.raid.horn": "Ominous horn blares"
+
+Removals:
+	Removed "entity.minecraft.villager.tool_smith": "Tool Smith"
+	Removed "entity.minecraft.villager.weapon_smith": "Weapon Smith"
+	Removed "subtitles.event.raid.horn_distant": "Ominous horn echos far away"
+	Removed "subtitles.event.raid.horn_local": "Ominous horn blares"
+
+Changes:
+	Changed "container.blast_furnace" from "blast_furnace" to "Blast Furnace"
+

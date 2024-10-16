@@ -1,0 +1,22 @@
+18w44a (from 18w43c)
+
+Total: 4137 (+16, -0)
+
+Additions:
+	Added "advancements.husbandry.complete_catalogue.description": "Tame all cat variants!"
+	Added "advancements.husbandry.complete_catalogue.title": "A Complete Catalogue"
+	Added "block.minecraft.barrel": "Barrel"
+	Added "block.minecraft.bell": "Bell"
+	Added "block.minecraft.blast_furnace": "Blast Furnace"
+	Added "block.minecraft.cartography_table": "Cartography Table"
+	Added "block.minecraft.fletching_table": "Fletching Table"
+	Added "block.minecraft.grindstone": "Grindstone"
+	Added "block.minecraft.lectern": "Lectern"
+	Added "block.minecraft.smithing_table": "Smithing Table"
+	Added "block.minecraft.smoker": "Smoker"
+	Added "block.minecraft.stonecutter": "Stonecutter"
+	Added "container.barrel": "Barrel"
+	Added "container.blast_furnace": "blast_furnace"
+	Added "container.smoker": "Smoker"
+	Added "item.minecraft.cat_spawn_egg": "Cat Spawn Egg"
+

@@ -1,0 +1,21 @@
+23w07a (from 23w06a)
+
+Total: 730 (+15, -0)
+
+Additions:
+	Added "subtitles.block.decorated_pot.shatter": "Pot shatters"
+	Added "subtitles.entity.sniffer.death": "Sniffer dies"
+	Added "subtitles.entity.sniffer.digging": "Sniffer digs"
+	Added "subtitles.entity.sniffer.digging_stop": "Sniffer stands up"
+	Added "subtitles.entity.sniffer.drop_seed": "Sniffer drops seed"
+	Added "subtitles.entity.sniffer.eat": "Sniffer eats"
+	Added "subtitles.entity.sniffer.happy": "Sniffer delights"
+	Added "subtitles.entity.sniffer.hurt": "Sniffer hurts"
+	Added "subtitles.entity.sniffer.idle": "Sniffer grunts"
+	Added "subtitles.entity.sniffer.scenting": "Sniffer scents"
+	Added "subtitles.entity.sniffer.searching": "Sniffer searches"
+	Added "subtitles.entity.sniffer.sniffing": "Sniffer sniffs"
+	Added "subtitles.entity.sniffer.step": "Sniffer steps"
+	Added "subtitles.item.brush.brush_sand_completed": "Brushing sand completed"
+	Added "subtitles.item.brush.brushing": "Brushing"
+

@@ -1,0 +1,19 @@
+c0.0.15a-1 (from c0.0.14a_08)
+
+Total: 139 (+8, -3)
+
+Additions:
+	Added "0.0.15a"
+	Added "79.136.77.240"
+	Added "Bad command: "
+	Added "Connecting to the server.."
+	Added "Loading level.."
+	Added "Minecraft 0.0.15a"
+	Added "UTF-8"
+	Added "guest"
+
+Removals:
+	Removed "0.0.14a_08"
+	Removed "Minecraft 0.0.14a_08"
+	Removed "New improvednoise!"
+

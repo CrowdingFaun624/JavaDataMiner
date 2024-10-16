@@ -1,0 +1,18 @@
+a1.2.3_05 (from a1.2.3_04)
+
+Total: 1707 (+6, -4)
+
+Additions:
+	Added "Minecraft Alpha v1.2.3_05"
+	Added "Minecraft Alpha v1.2.3_05 ("
+	Added "Minecraft Minecraft Alpha v1.2.3_05"
+	Added "Minecraft: Minecraft Alpha v1.2.3_05n"
+	Added "lastServer"
+	Added "lastServer:"
+
+Removals:
+	Removed "Minecraft Alpha v1.2.3_04"
+	Removed "Minecraft Alpha v1.2.3_04 ("
+	Removed "Minecraft Minecraft Alpha v1.2.3_04"
+	Removed "Minecraft: Minecraft Alpha v1.2.3_04n"
+

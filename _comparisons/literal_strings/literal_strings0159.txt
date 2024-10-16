@@ -1,0 +1,34 @@
+12w01a (from 11w50a)
+
+Total: 3559 (+18, -8)
+
+Additions:
+	Added " II"
+	Added " III"
+	Added " IV"
+	Added "Beach"
+	Added "DesertHills"
+	Added "Extreme Hills Edge"
+	Added "FlatLevelSource"
+	Added "ForestHills"
+	Added "Minecraft 12w01a"
+	Added "Minecraft 12w01a ("
+	Added "Minecraft Minecraft 12w01a"
+	Added "Minecraft: Minecraft 12w01an"
+	Added "TaigaHills"
+	Added "default"
+	Added "flat"
+	Added "generator."
+	Added "generatorName"
+	Added "options.languageWarning"
+
+Removals:
+	Removed "Cannot add tag data to a stackable item"
+	Removed "Max stack size must be 1 for items with crafting results"
+	Removed "Minecraft 11w49a"
+	Removed "Minecraft 11w49a ("
+	Removed "Minecraft Minecraft 11w49a"
+	Removed "Minecraft: Minecraft 11w49an"
+	Removed "language.enforceUnicode"
+	Removed "selectWorld.mapType.normal"
+

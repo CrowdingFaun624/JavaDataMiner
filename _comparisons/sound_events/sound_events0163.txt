@@ -1,0 +1,28 @@
+23w45a (from 23w44a)
+
+Total: 1539 (+22, -0)
+
+Additions:
+	Added "BREEZE_DEATH": "entity.breeze.death"
+	Added "BREEZE_HURT": "entity.breeze.hurt"
+	Added "BREEZE_IDLE_AIR": "entity.breeze.idle_air"
+	Added "BREEZE_IDLE_GROUND": "entity.breeze.idle_ground"
+	Added "BREEZE_INHALE": "entity.breeze.inhale"
+	Added "BREEZE_JUMP": "entity.breeze.jump"
+	Added "BREEZE_LAND": "entity.breeze.land"
+	Added "BREEZE_SHOOT": "entity.breeze.shoot"
+	Added "BREEZE_SLIDE": "entity.breeze.slide"
+	Added "PARROT_IMITATE_BREEZE": "entity.parrot.imitate.breeze"
+	Added "TRIAL_SPAWNER_AMBIENT": "block.trial_spawner.ambient"
+	Added "TRIAL_SPAWNER_BREAK": "block.trial_spawner.break"
+	Added "TRIAL_SPAWNER_CLOSE_SHUTTER": "block.trial_spawner.close_shutter"
+	Added "TRIAL_SPAWNER_DETECT_PLAYER": "block.trial_spawner.detect_player"
+	Added "TRIAL_SPAWNER_EJECT_ITEM": "block.trial_spawner.eject_item"
+	Added "TRIAL_SPAWNER_FALL": "block.trial_spawner.fall"
+	Added "TRIAL_SPAWNER_HIT": "block.trial_spawner.hit"
+	Added "TRIAL_SPAWNER_OPEN_SHUTTER": "block.trial_spawner.open_shutter"
+	Added "TRIAL_SPAWNER_PLACE": "block.trial_spawner.place"
+	Added "TRIAL_SPAWNER_SPAWN_MOB": "block.trial_spawner.spawn_mob"
+	Added "TRIAL_SPAWNER_STEP": "block.trial_spawner.step"
+	Added "WIND_BURST": "entity.generic.wind_burst"
+

@@ -1,0 +1,17 @@
+a1.0.2_02 (from a1.0.2_01)
+
+Total: 1440 (+5, -4)
+
+Additions:
+	Added "Loading texture "
+	Added "Minecraft Alpha v1.0.2_02"
+	Added "Minecraft Alpha v1.0.2_02 ("
+	Added "Minecraft Minecraft Alpha v1.0.2_02"
+	Added "Minecraft: Minecraft Alpha v1.0.2_02n"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.2_01"
+	Removed "Minecraft Alpha v1.0.2_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.2_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.2_01n"
+

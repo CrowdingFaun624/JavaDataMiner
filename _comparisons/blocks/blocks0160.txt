@@ -1,0 +1,14 @@
+23w12a (from 1.19.4)
+
+Total: 1003 (+5, -0)
+
+Additions:
+	Added calibrated_sculk_sensor
+	Added pitcher_crop
+	Added pitcher_plant
+	Added sniffer_egg
+	Added suspicious_gravel
+
+Changes:
+	Changed decorated_pot's "sound_type" from DECORATED_POT to ['DECORATED_POT_CRACKED', 'DECORATED_POT']
+

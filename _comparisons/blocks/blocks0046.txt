@@ -1,0 +1,15 @@
+13w01a (from 1.4.7)
+
+Total: 154 (+9, -0)
+
+Additions:
+	Added 146:chestTrap
+	Added 147:weightedPlate_light
+	Added 148:weightedPlate_heavy
+	Added 149:comparator
+	Added 150:comparator
+	Added 151:daylightDetector
+	Added 152:blockRedstone
+	Added 153:netherquartz
+	Added 154:hopper
+

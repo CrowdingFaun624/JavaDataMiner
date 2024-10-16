@@ -1,0 +1,12 @@
+15w47b (from 15w47a)
+
+Total: 397 (+2, -2)
+
+Additions:
+	Added "entity.player.attack.nodamage"
+	Added "entity.shulker.hurt_closed"
+
+Removals:
+	Removed "entity.guardian.thorns"
+	Removed "entity.player.attack.parry"
+

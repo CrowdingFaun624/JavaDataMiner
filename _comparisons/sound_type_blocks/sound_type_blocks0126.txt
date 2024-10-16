@@ -1,0 +1,25 @@
+20w17a (from 20w16a)
+
+Total: 46 (+3, -6)
+
+Type Additions:
+	Added type CHAIN with blocks:
+		chain
+	Added type GILDED_BLACKSTONE with blocks:
+		gilded_blackstone
+	Added type NETHER_GOLD_ORE with blocks:
+		nether_gold_ore
+
+Additions:
+	Added soul_lantern to LANTERN
+	Added soul_torch to WOOD
+	Added soul_wall_torch to WOOD
+
+Removals:
+	Removed soul_fire_lantern from LANTERN
+	Removed chain from METAL
+	Removed gilded_blackstone from STONE
+	Removed nether_gold_ore from STONE
+	Removed soul_fire_torch from WOOD
+	Removed soul_fire_wall_torch from WOOD
+

@@ -1,0 +1,42 @@
+19w14a (from 3D Shareware v1.34)
+
+Total: 4291 (+5, -22)
+
+Additions:
+	Added "narrator.controls.bound": "%s is bound to %s"
+	Added "narrator.controls.reset": "Reset %s button"
+	Added "narrator.controls.unbound": "%s is not bound"
+	Added "narrator.loading.done": "Done"
+	Added "narrator.select.world": "Selected %s, last played: %s, %s, %s, version: %s"
+
+Removals:
+	Removed "death.attack.nightmare": "%1$s was too soft for this world"
+	Removed "death.attack.nightmare.player": "%1$s was too soft for this world (%2$s helped)"
+	Removed "demo.help.nag1": "Please consider registering this game"
+	Removed "demo.help.nag2": "to gain access to full episodes and"
+	Removed "demo.help.nag3": "all weapons!"
+	Removed "feedback.line1": "Ideas? Bugs? Praises? Send us a postcard!"
+	Removed "feedback.line2": "Our address: Mojang AB, S\u00f6der M\u00e4larstrand 43, 118 25 Stockholm, Sweden"
+	Removed "item.key.tooltip": "Opens %s doors"
+	Removed "item.minecraft.3d": "3D"
+	Removed "item.minecraft.blue_key": "Blue Key"
+	Removed "item.minecraft.red_key": "Red Key"
+	Removed "item.minecraft.yellow_key": "Yellow Key"
+	Removed "key.boss_mode": "Boss Mode"
+	Removed "key.decrease_view": "Decrease screen size"
+	Removed "key.increase_view": "Increase screen size"
+	Removed "menu.modem_play": "ModemPlay(TM)"
+	Removed "menu.modem_played1": "Blip blop"
+	Removed "menu.modem_played2": "Nej!"
+	Removed "menu.select_episode": "Select episode"
+	Removed "ui.next_disk.contents": "Insert disc %s into drive A and press ENTER"
+	Removed "ui.next_disk.title": "Next disc required"
+	Removed "ui.next_disk.wrong_contents": "I said ENTER!"
+
+Changes:
+	Changed "block.minecraft.jigsaw" from "Jigsaw block" to "Jigsaw Block"
+	Changed "demo.help.buy" from "Open registration form" to "Purchase Now!"
+	Changed "demo.help.title" from "MineCraft Shareware" to "Minecraft Demo Mode"
+	Changed "narrator.button.difficulty_lock" from "Difficulity lock" to "Difficulty lock"
+	Changed "narrator.loading" from "Loading" to "Loading: %s"
+

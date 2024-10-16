@@ -1,0 +1,12 @@
+18w50a (from 18w49a)
+
+Total: 433 (+2, -2)
+
+Additions:
+	Added "subtitles.block.bell.use": "Bell rings"
+	Added "subtitles.event.raid.horn": "Ominous horn blares"
+
+Removals:
+	Removed "subtitles.event.raid.horn_distant": "Ominous horn echos far away"
+	Removed "subtitles.event.raid.horn_local": "Ominous horn blares"
+

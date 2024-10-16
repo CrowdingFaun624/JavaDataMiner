@@ -1,0 +1,17 @@
+c0.0.17a (from c0.0.16a_02)
+
+Total: 159 (+5, -4)
+
+Additions:
+	Added "/default.png"
+	Added "0.0.17a"
+	Added "Connected players:"
+	Added "Minecraft 0.0.17a"
+	Added "mppass"
+
+Removals:
+	Removed "/default.gif"
+	Removed "0.0.16a_02"
+	Removed "Minecraft 0.0.16a_02"
+	Removed "guest"
+

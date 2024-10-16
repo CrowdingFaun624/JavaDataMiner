@@ -1,0 +1,11 @@
+1.6.3 (from 1.6.2)
+
+Total: 1362 (+2, -0)
+
+Additions:
+	Added "commands.setidletimeout.success": "Successfully set the idle timeout to %d minutes."
+	Added "commands.setidletimeout.usage": "/setidletimeout <Minutes until kick>"
+
+Changes:
+	Changed "selectWorld.gameMode" from "Game Mode:" to "Game Mode"
+

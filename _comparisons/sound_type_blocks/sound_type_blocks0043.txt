@@ -1,0 +1,7 @@
+12w41a (from 12w40b)
+
+Total: 11 (+1, -0)
+
+Additions:
+	Added anvil to 1.0;1.0;stone
+

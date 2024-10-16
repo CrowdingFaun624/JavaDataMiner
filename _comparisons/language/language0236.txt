@@ -1,0 +1,12 @@
+17w46a (from 17w45b)
+
+Total: 3167 (+6, -0)
+
+Additions:
+	Added "commands.datapack.disable.success": "Disabled data pack %s"
+	Added "commands.datapack.enable.success": "Enabled data pack %s"
+	Added "commands.datapack.list.available.none": "There are no more data packs available"
+	Added "commands.datapack.list.available.success": "There are %s data packs available: %s"
+	Added "commands.datapack.list.enabled.none": "There are no data packs enabled"
+	Added "commands.datapack.list.enabled.success": "There are %s data packs enabled: %s"
+

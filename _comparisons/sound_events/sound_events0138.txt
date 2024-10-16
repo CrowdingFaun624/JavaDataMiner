@@ -1,0 +1,15 @@
+21w42a (from 21w41a)
+
+Total: 1203 (+9, -0)
+
+Additions:
+	Added "MUSIC_BIOME_DRIPSTONE_CAVES": "music.overworld.dripstone_caves"
+	Added "MUSIC_BIOME_FROZEN_PEAKS": "music.overworld.frozen_peaks"
+	Added "MUSIC_BIOME_GROVE": "music.overworld.grove"
+	Added "MUSIC_BIOME_JAGGED_PEAKS": "music.overworld.jagged_peaks"
+	Added "MUSIC_BIOME_LUSH_CAVES": "music.overworld.lush_caves"
+	Added "MUSIC_BIOME_MEADOW": "music.overworld.meadow"
+	Added "MUSIC_BIOME_SNOWY_SLOPES": "music.overworld.snowy_slopes"
+	Added "MUSIC_BIOME_STONY_PEAKS": "music.overworld.stony_peaks"
+	Added "MUSIC_DISC_OTHERSIDE": "music_disc.otherside"
+

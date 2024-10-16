@@ -1,0 +1,16 @@
+24w06a (from 24w05a)
+
+Total: 1572 (+6, -2)
+
+Additions:
+	Added "ARMADILLO_PEEK": "entity.armadillo.peek"
+	Added "ARMADILLO_UNROLL_FINISH": "entity.armadillo.unroll_finish"
+	Added "ARMADILLO_UNROLL_START": "entity.armadillo.unroll_start"
+	Added "BREEZE_WIND_CHARGE_BURST": "entity.breeze.wind_burst"
+	Added "WIND_CHARGE_BURST": "entity.wind_charge.wind_burst"
+	Added "WIND_CHARGE_THROW": "entity.wind_charge.throw"
+
+Removals:
+	Removed "ARMADILLO_UNROLL": "entity.armadillo.unroll"
+	Removed "WIND_BURST": "entity.generic.wind_burst"
+

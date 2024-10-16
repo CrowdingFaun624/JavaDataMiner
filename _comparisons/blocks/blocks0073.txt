@@ -1,0 +1,7 @@
+14w32c (from 14w32b)
+
+Total: 193 (+0, -0)
+
+Changes:
+	Changed slime's "sound_type" from stone,1.0,1.0,dig.stone,step.stone,dig.stone to slime,1.0,1.0,mob.slime.big,mob.slime.small,mob.slime.big
+

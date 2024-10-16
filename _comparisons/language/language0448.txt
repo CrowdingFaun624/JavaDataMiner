@@ -1,0 +1,11 @@
+1.19.4-pre3 (from 1.19.4-pre2)
+
+Total: 6057 (+2, -0)
+
+Additions:
+	Added "debug.dump_dynamic_textures": "Saved dynamic textures to %s"
+	Added "debug.dump_dynamic_textures.help": "F3 + S = Dump dynamic textures"
+
+Changes:
+	Changed "createWorld.tab.more.title" from "More..." to "More"
+

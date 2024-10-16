@@ -1,0 +1,13 @@
+13w26a (from 13w25c)
+
+Total: 1335 (+1, -1)
+
+Additions:
+	Added "options.resourcepack": "Resource Packs"
+
+Removals:
+	Removed "options.texture.pack": "Resource Packs"
+
+Changes:
+	Changed "tile.litpumpkin.name" from "Jack 'o' Lantern" to "Jack o'Lantern"
+

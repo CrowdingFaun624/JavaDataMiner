@@ -1,0 +1,11 @@
+22w03a (from 1.19_deep_dark_experimental_snapshot-1)
+
+Total: 898 (+0, -5)
+
+Removals:
+	Removed reinforced_deepslate
+	Removed sculk
+	Removed sculk_catalyst
+	Removed sculk_shrieker
+	Removed sculk_vein
+

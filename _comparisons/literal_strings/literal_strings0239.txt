@@ -1,0 +1,33 @@
+13w12~ (from 13w11a)
+
+Total: 8250 (+18, -7)
+
+Additions:
+	Added "13w12~"
+	Added "Average tesselate NS: "
+	Added "Effect Amplifier"
+	Added "Effect Duration"
+	Added "Effect ID"
+	Added "Effect Name"
+	Added "Effect is Ambient"
+	Added "Effect is Splash"
+	Added "Empty chunk percentage: "
+	Added "Entity That Is Already Tracked"
+	Added "Minecraft 13w12~"
+	Added "Minecraft 13w12~ ("
+	Added "Minecraft Minecraft 13w12~"
+	Added "Mob effect being ticked"
+	Added "Starting integrated minecraft server version 13w12~"
+	Added "Starting minecraft server version 13w12~"
+	Added "Ticking mob effect instance"
+	Added "http://realms.minecraft.net/"
+
+Removals:
+	Removed "13w11a"
+	Removed "Minecraft 13w11a"
+	Removed "Minecraft 13w11a ("
+	Removed "Minecraft Minecraft 13w11a"
+	Removed "Starting integrated minecraft server version 13w11a"
+	Removed "Starting minecraft server version 13w11a"
+	Removed "http://minecraft.net"
+

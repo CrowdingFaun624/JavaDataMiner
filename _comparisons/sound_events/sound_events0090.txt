@@ -1,0 +1,8 @@
+18w47a (from 18w46a)
+
+Total: 714 (+2, -0)
+
+Additions:
+	Added "event.raid.horn_distant"
+	Added "event.raid.horn_local"
+

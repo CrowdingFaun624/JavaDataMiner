@@ -1,0 +1,14 @@
+13w39a (from 13w38c)
+
+Total: 1524 (+5, -1)
+
+Additions:
+	Added "disconnect.loginFailedInfo.invalidSession": "Invalid session (Try restarting your game)"
+	Added "disconnect.loginFailedInfo.serversUnavailable": "The authentication are currently down for maintenance."
+	Added "item.minecartCommandBlock.name": "Minecart with Command Block"
+	Added "tile.sand.default.name": "Sand"
+	Added "tile.sand.red.name": "Red Sand"
+
+Removals:
+	Removed "tile.sand.name": "Sand"
+

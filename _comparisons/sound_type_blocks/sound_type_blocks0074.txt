@@ -1,0 +1,8 @@
+15w34a (from 15w33c)
+
+Total: 13 (+2, -0)
+
+Additions:
+	Added chain_command_block to 1.0;1.0;wood
+	Added repeating_command_block to 1.0;1.0;wood
+

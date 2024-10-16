@@ -1,0 +1,15 @@
+22w16a (from 22w15a)
+
+Total: 693 (+1, -1)
+
+Additions:
+	Added "subtitles.entity.allay.item_thrown": "Allay tosses"
+
+Removals:
+	Removed "subtitles.entity.allay.throw": "Allay tosses"
+
+Changes:
+	Changed "subtitles.entity.parrot.imitate.elder_guardian" from "Parrot flaps" to "Parrot moans"
+	Changed "subtitles.entity.parrot.imitate.piglin_brute" from "Parrot snorts mightily" to "Parrot snorts"
+	Changed "subtitles.entity.parrot.imitate.warden" from "Parrot roars" to "Parrot whines"
+

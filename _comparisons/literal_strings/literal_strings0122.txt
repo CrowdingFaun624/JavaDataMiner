@@ -1,0 +1,23 @@
+b1.2_02 (from b1.2_01)
+
+Total: 2020 (+9, -6)
+
+Additions:
+	Added ".tga"
+	Added "Failed to save image: "
+	Added "Minecraft Beta 1.2_02"
+	Added "Minecraft Beta 1.2_02 ("
+	Added "Minecraft Minecraft Beta 1.2_02"
+	Added "Minecraft: Minecraft Beta 1.2_02n"
+	Added "http://s3.amazonaws.com/MinecraftCloaks/"
+	Added "http://s3.amazonaws.com/MinecraftSkins/"
+	Added "huge_"
+
+Removals:
+	Removed "Minecraft Beta 1.2_01"
+	Removed "Minecraft Beta 1.2_01 ("
+	Removed "Minecraft Minecraft Beta 1.2_01"
+	Removed "Minecraft: Minecraft Beta 1.2_01n"
+	Removed "http://www.minecraft.net/cloak/get.jsp?user="
+	Removed "http://www.minecraft.net/skin/"
+

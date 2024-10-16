@@ -1,0 +1,11 @@
+inf-20100615 (from inf-20100611)
+
+Total: 1240 (+5, -0)
+
+Additions:
+	Added "FANCY"
+	Added "FAST"
+	Added "Graphics: "
+	Added "fancyGraphics"
+	Added "fancyGraphics:"
+

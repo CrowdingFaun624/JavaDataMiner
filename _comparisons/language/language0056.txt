@@ -1,0 +1,18 @@
+13w01a (from 1.4.7)
+
+Total: 1071 (+12, -0)
+
+Additions:
+	Added "container.hopper": "Item Hopper"
+	Added "death.fancyItem": "%1$s was slain by %2s using %3$s"
+	Added "item.comparator.name": "Redstone Comparator"
+	Added "item.netherbrick.name": "Nether Brick"
+	Added "item.netherquartz.name": "Nether Quartz"
+	Added "tile.blockRedstone.name": "Block of Redstone"
+	Added "tile.chestTrap.name": "Trapped Chest"
+	Added "tile.daylightDetector.name": "Daylight Sensor"
+	Added "tile.hopper.name": "Hopper"
+	Added "tile.netherquartz.name": "Nether Quartz Ore"
+	Added "tile.weightedPlate_heavy.name": "Weighted Pressure Plate (Heavy)"
+	Added "tile.weightedPlate_light.name": "Weighted Pressure Plate (Light)"
+

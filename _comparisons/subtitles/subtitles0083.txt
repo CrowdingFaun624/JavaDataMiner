@@ -1,0 +1,8 @@
+1.19-pre5 (from 1.19-pre4)
+
+Total: 698 (+2, -0)
+
+Additions:
+	Added "subtitles.block.sculk.charge": "Sculk bubbles"
+	Added "subtitles.block.sculk.spread": "Sculk spreads"
+

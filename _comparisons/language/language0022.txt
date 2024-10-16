@@ -1,0 +1,10 @@
+1.1 (from 12w01a)
+
+Total: 721 (+4, -0)
+
+Additions:
+	Added "enchantment.arrowDamage": "Power"
+	Added "enchantment.arrowFire": "Flame"
+	Added "enchantment.arrowInfinite": "Infinity"
+	Added "enchantment.arrowKnockback": "Punch"
+

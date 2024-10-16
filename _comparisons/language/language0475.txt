@@ -1,0 +1,29 @@
+23w45a (from 23w44a)
+
+Total: 6519 (+23, -0)
+
+Additions:
+	Added "accessibility.onboarding.accessibility.button": "Accessibility Settings..."
+	Added "block.minecraft.trial_spawner": "Trial Spawner"
+	Added "entity.minecraft.breeze": "Breeze"
+	Added "entity.minecraft.wind_charge": "Wind Charge"
+	Added "item.minecraft.breeze_spawn_egg": "Breeze Spawn Egg"
+	Added "item.minecraft.trial_key": "Trial Key"
+	Added "subtitles.block.trial_spawner.ambient": "Trial Spawner crackles"
+	Added "subtitles.block.trial_spawner.close_shutter": "Trial Spawner closes"
+	Added "subtitles.block.trial_spawner.detect_player": "Trial Spawner charges up"
+	Added "subtitles.block.trial_spawner.eject_item": "Trial Spawner ejects items"
+	Added "subtitles.block.trial_spawner.open_shutter": "Trial Spawner opens"
+	Added "subtitles.block.trial_spawner.spawn_mob": "Mob spawns"
+	Added "subtitles.entity.breeze.death": "Breeze dies"
+	Added "subtitles.entity.breeze.hurt": "Breeze hurts"
+	Added "subtitles.entity.breeze.idle_air": "Breeze flies"
+	Added "subtitles.entity.breeze.idle_ground": "Breeze whirs"
+	Added "subtitles.entity.breeze.inhale": "Breeze inhales"
+	Added "subtitles.entity.breeze.jump": "Breeze jumps"
+	Added "subtitles.entity.breeze.land": "Breeze lands"
+	Added "subtitles.entity.breeze.shoot": "Breeze shoots"
+	Added "subtitles.entity.breeze.slide": "Breeze slides"
+	Added "subtitles.entity.generic.wind_burst": "Wind charge bursts"
+	Added "subtitles.entity.parrot.imitate.breeze": "Parrot whirs"
+

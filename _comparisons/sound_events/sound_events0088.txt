@@ -1,0 +1,12 @@
+18w44a (from 18w43c)
+
+Total: 707 (+6, -0)
+
+Additions:
+	Added "entity.cat.beg_for_food"
+	Added "entity.cat.eat"
+	Added "entity.cat.stray_ambient"
+	Added "entity.ocelot.ambient"
+	Added "entity.ocelot.death"
+	Added "entity.ocelot.hurt"
+

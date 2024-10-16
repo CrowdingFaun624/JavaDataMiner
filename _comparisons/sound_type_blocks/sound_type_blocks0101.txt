@@ -1,0 +1,48 @@
+1.13-pre6 (from 1.13-pre5)
+
+Total: 14 (+0, -19)
+
+Type Additions:
+	Added type 1.0;1.0;coral_block with blocks:
+		brain_coral_block
+		bubble_coral_block
+		fire_coral_block
+		horn_coral_block
+		tube_coral_block
+	Added type 1.0;1.0;wet_grass with blocks:
+		brain_coral
+		brain_coral_fan
+		bubble_coral
+		bubble_coral_fan
+		fire_coral
+		fire_coral_fan
+		horn_coral
+		horn_coral_fan
+		kelp
+		kelp_plant
+		seagrass
+		tall_seagrass
+		tube_coral
+		tube_coral_fan
+
+Removals:
+	Removed brain_coral from 1.0;1.0;grass
+	Removed brain_coral_fan from 1.0;1.0;grass
+	Removed bubble_coral from 1.0;1.0;grass
+	Removed bubble_coral_fan from 1.0;1.0;grass
+	Removed fire_coral from 1.0;1.0;grass
+	Removed fire_coral_fan from 1.0;1.0;grass
+	Removed horn_coral from 1.0;1.0;grass
+	Removed horn_coral_fan from 1.0;1.0;grass
+	Removed kelp from 1.0;1.0;grass
+	Removed kelp_plant from 1.0;1.0;grass
+	Removed seagrass from 1.0;1.0;grass
+	Removed tall_seagrass from 1.0;1.0;grass
+	Removed tube_coral from 1.0;1.0;grass
+	Removed tube_coral_fan from 1.0;1.0;grass
+	Removed brain_coral_block from 1.0;1.0;stone
+	Removed bubble_coral_block from 1.0;1.0;stone
+	Removed fire_coral_block from 1.0;1.0;stone
+	Removed horn_coral_block from 1.0;1.0;stone
+	Removed tube_coral_block from 1.0;1.0;stone
+

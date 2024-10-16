@@ -1,0 +1,10 @@
+21w20a (from 21w19a)
+
+Total: 649 (+1, -1)
+
+Additions:
+	Added "subtitles.block.sweet_berry_bush.pick_berries": "Berries pop"
+
+Removals:
+	Removed "subtitles.item.berries.pick": "Berries pop"
+

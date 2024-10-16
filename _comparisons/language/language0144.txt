@@ -1,0 +1,10 @@
+14w30c (from 14w30b)
+
+Total: 1983 (+4, -0)
+
+Additions:
+	Added "item.banner.border": "%s Border"
+	Added "item.banner.curly_border": "%s Curly Border"
+	Added "item.banner.mojang": "%s Thing"
+	Added "item.banner.straight_cross": "%s Cross"
+

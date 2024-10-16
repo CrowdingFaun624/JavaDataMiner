@@ -1,0 +1,101 @@
+21w05a (from 21w03a)
+
+Total: 72 (+11, -0)
+
+Additions:
+	Added "AZALEA"
+		volume: 1.0
+		pitch: 1.0
+		break: AZALEA_BREAK
+		step: AZALEA_STEP
+		place: AZALEA_PLACE
+		hit: AZALEA_HIT
+		fall: AZALEA_FALL
+	Added "AZALEA_LEAVES"
+		volume: 1.0
+		pitch: 1.0
+		break: AZALEA_LEAVES_BREAK
+		step: AZALEA_LEAVES_STEP
+		place: AZALEA_LEAVES_PLACE
+		hit: AZALEA_LEAVES_HIT
+		fall: AZALEA_LEAVES_FALL
+	Added "BIG_DRIPLEAF"
+		volume: 1.0
+		pitch: 1.0
+		break: BIG_DRIPLEAF_BREAK
+		step: BIG_DRIPLEAF_STEP
+		place: BIG_DRIPLEAF_PLACE
+		hit: BIG_DRIPLEAF_HIT
+		fall: BIG_DRIPLEAF_FALL
+	Added "CAVE_VINES"
+		volume: 1.0
+		pitch: 1.0
+		break: CAVE_VINES_BREAK
+		step: CAVE_VINES_STEP
+		place: CAVE_VINES_PLACE
+		hit: CAVE_VINES_HIT
+		fall: CAVE_VINES_FALL
+	Added "FLOWERING_AZALEA"
+		volume: 1.0
+		pitch: 1.0
+		break: FLOWERING_AZALEA_BREAK
+		step: FLOWERING_AZALEA_STEP
+		place: FLOWERING_AZALEA_PLACE
+		hit: FLOWERING_AZALEA_HIT
+		fall: FLOWERING_AZALEA_FALL
+	Added "HANGING_ROOTS"
+		volume: 1.0
+		pitch: 1.0
+		break: HANGING_ROOTS_BREAK
+		step: HANGING_ROOTS_STEP
+		place: HANGING_ROOTS_PLACE
+		hit: HANGING_ROOTS_HIT
+		fall: HANGING_ROOTS_FALL
+	Added "MOSS"
+		volume: 1.0
+		pitch: 1.0
+		break: MOSS_BREAK
+		step: MOSS_STEP
+		place: MOSS_PLACE
+		hit: MOSS_HIT
+		fall: MOSS_FALL
+	Added "MOSS_CARPET"
+		volume: 1.0
+		pitch: 1.0
+		break: MOSS_CARPET_BREAK
+		step: MOSS_CARPET_STEP
+		place: MOSS_CARPET_PLACE
+		hit: MOSS_CARPET_HIT
+		fall: MOSS_CARPET_FALL
+	Added "ROOTED_DIRT"
+		volume: 1.0
+		pitch: 1.0
+		break: ROOTED_DIRT_BREAK
+		step: ROOTED_DIRT_STEP
+		place: ROOTED_DIRT_PLACE
+		hit: ROOTED_DIRT_HIT
+		fall: ROOTED_DIRT_FALL
+	Added "SMALL_DRIPLEAF"
+		volume: 1.0
+		pitch: 1.0
+		break: SMALL_DRIPLEAF_BREAK
+		step: SMALL_DRIPLEAF_STEP
+		place: SMALL_DRIPLEAF_PLACE
+		hit: SMALL_DRIPLEAF_HIT
+		fall: SMALL_DRIPLEAF_FALL
+	Added "SPORE_BLOSSOM"
+		volume: 1.0
+		pitch: 1.0
+		break: SPORE_BLOSSOM_BREAK
+		step: SPORE_BLOSSOM_STEP
+		place: SPORE_BLOSSOM_PLACE
+		hit: SPORE_BLOSSOM_HIT
+		fall: SPORE_BLOSSOM_FALL
+
+Changes:
+	VINE:
+		Changed break from GRASS_BREAK to VINE_BREAK
+		Changed fall from GRASS_FALL to VINE_FALL
+		Changed hit from GRASS_HIT to VINE_HIT
+		Changed place from GRASS_PLACE to VINE_PLACE
+

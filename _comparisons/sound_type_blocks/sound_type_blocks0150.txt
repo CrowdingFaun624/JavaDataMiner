@@ -1,0 +1,96 @@
+22w42a (from 1.19.2)
+
+Total: 90 (+3, -24)
+
+Type Additions:
+	Added type BAMBOO_WOOD with blocks:
+		bamboo_button
+		bamboo_door
+		bamboo_fence
+		bamboo_fence_gate
+		bamboo_mosaic
+		bamboo_mosaic_slab
+		bamboo_mosaic_stairs
+		bamboo_planks
+		bamboo_pressure_plate
+		bamboo_sign
+		bamboo_slab
+		bamboo_stairs
+		bamboo_trapdoor
+		bamboo_wall_sign
+	Added type HANGING_SIGN with blocks:
+		acacia_hanging_sign
+		acacia_wall_hanging_sign
+		bamboo_hanging_sign
+		bamboo_wall_hanging_sign
+		birch_hanging_sign
+		birch_wall_hanging_sign
+		crimson_hanging_sign
+		crimson_wall_hanging_sign
+		dark_oak_hanging_sign
+		dark_oak_wall_hanging_sign
+		jungle_hanging_sign
+		jungle_wall_hanging_sign
+		mangrove_hanging_sign
+		mangrove_wall_hanging_sign
+		oak_hanging_sign
+		oak_wall_hanging_sign
+		spruce_hanging_sign
+		spruce_wall_hanging_sign
+		warped_hanging_sign
+		warped_wall_hanging_sign
+	Added type NETHER_WOOD with blocks:
+		crimson_button
+		crimson_door
+		crimson_fence
+		crimson_fence_gate
+		crimson_planks
+		crimson_pressure_plate
+		crimson_sign
+		crimson_slab
+		crimson_stairs
+		crimson_trapdoor
+		crimson_wall_sign
+		warped_button
+		warped_door
+		warped_fence
+		warped_fence_gate
+		warped_planks
+		warped_pressure_plate
+		warped_sign
+		warped_slab
+		warped_stairs
+		warped_trapdoor
+		warped_wall_sign
+
+Additions:
+	Added heavy_weighted_pressure_plate to METAL
+	Added light_weighted_pressure_plate to METAL
+	Added chiseled_bookshelf to WOOD
+
+Removals:
+	Removed crimson_button from WOOD
+	Removed crimson_door from WOOD
+	Removed crimson_fence from WOOD
+	Removed crimson_fence_gate from WOOD
+	Removed crimson_planks from WOOD
+	Removed crimson_pressure_plate from WOOD
+	Removed crimson_sign from WOOD
+	Removed crimson_slab from WOOD
+	Removed crimson_stairs from WOOD
+	Removed crimson_trapdoor from WOOD
+	Removed crimson_wall_sign from WOOD
+	Removed heavy_weighted_pressure_plate from WOOD
+	Removed light_weighted_pressure_plate from WOOD
+	Removed warped_button from WOOD
+	Removed warped_door from WOOD
+	Removed warped_fence from WOOD
+	Removed warped_fence_gate from WOOD
+	Removed warped_planks from WOOD
+	Removed warped_pressure_plate from WOOD
+	Removed warped_sign from WOOD
+	Removed warped_slab from WOOD
+	Removed warped_stairs from WOOD
+	Removed warped_trapdoor from WOOD
+	Removed warped_wall_sign from WOOD
+

@@ -1,0 +1,25 @@
+18w11a (from 18w10d)
+
+Total: 3451 (+19, -0)
+
+Additions:
+	Added "block.minecraft.blue_coral_fan": "Blue Coral Fan"
+	Added "block.minecraft.pink_coral_fan": "Pink Coral Fan"
+	Added "block.minecraft.purple_coral_fan": "Purple Coral Fan"
+	Added "block.minecraft.red_coral_fan": "Red Coral Fan"
+	Added "block.minecraft.yellow_coral_fan": "Yellow Coral Fan"
+	Added "debug.copy_location.help": "F3 + C = Copy location as /tp command"
+	Added "debug.copy_location.message": "Copied location to clipboard"
+	Added "entity.minecraft.drowned": "Drowned"
+	Added "item.minecraft.drowned_spawn_egg": "Spawn Drowned"
+	Added "subtitles.entity.drowned.ambient": "Drowned gurgles"
+	Added "subtitles.entity.drowned.ambient_water": "Drowned gurgles"
+	Added "subtitles.entity.drowned.death": "Drowned dies"
+	Added "subtitles.entity.drowned.death_water": "Drowned dies"
+	Added "subtitles.entity.drowned.hurt": "Drowned hurts"
+	Added "subtitles.entity.drowned.hurt_water": "Drowned hurts"
+	Added "subtitles.entity.drowned.shoot": "Drowned throws Trident"
+	Added "subtitles.entity.drowned.step": "Drowned steps"
+	Added "subtitles.entity.drowned.swim": "Drowned swims"
+	Added "subtitles.entity.zombie.converted_to_drowned": "Zombie converted to Drowned"
+

@@ -1,0 +1,18 @@
+18w22a (from 18w21b)
+
+Total: 3611 (+5, -2)
+
+Additions:
+	Added "commands.gamemode.success.other": "Set %s's game mode to %s"
+	Added "commands.gamemode.success.self": "Set own game mode to %s"
+	Added "entity.minecraft.cod": "Cod"
+	Added "entity.minecraft.salmon": "Salmon"
+	Added "structure_block.invalid_structure_name": "Invalid structure name '%s'"
+
+Removals:
+	Removed "entity.minecraft.cod_mob": "Cod"
+	Removed "entity.minecraft.salmon_mob": "Salmon"
+
+Changes:
+	Changed "advancements.adventure.sniper_duel.description" from "Kill a Skeleton with an arrow from more than 50 meters" to "Kill a Skeleton from more than 50 meters away"
+

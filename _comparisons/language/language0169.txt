@@ -1,0 +1,12 @@
+15w34b (from 15w34a)
+
+Total: 2564 (+6, -0)
+
+Additions:
+	Added "advMode.mode.conditional": "Conditional"
+	Added "advMode.mode.unconditional": "Unconditional"
+	Added "attribute.modifier.equals.0": "%d %s"
+	Added "attribute.modifier.equals.1": "%d%% %s"
+	Added "attribute.modifier.equals.2": "%d%% %s"
+	Added "attribute.name.generic.attackSpeed": "Attack Speed"
+

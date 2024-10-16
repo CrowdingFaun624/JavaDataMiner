@@ -1,0 +1,49 @@
+18w14b (from 18w14a)
+
+Total: 12 (+21, -20)
+
+Additions:
+	Added brain_coral to 1.0;1.0;grass
+	Added brain_coral_fan to 1.0;1.0;grass
+	Added bubble_coral to 1.0;1.0;grass
+	Added bubble_coral_fan to 1.0;1.0;grass
+	Added fire_coral to 1.0;1.0;grass
+	Added fire_coral_fan to 1.0;1.0;grass
+	Added horn_coral to 1.0;1.0;grass
+	Added horn_coral_fan to 1.0;1.0;grass
+	Added tube_coral to 1.0;1.0;grass
+	Added tube_coral_fan to 1.0;1.0;grass
+	Added sea_pickle to 1.0;1.0;slime
+	Added brain_coral_block to 1.0;1.0;stone
+	Added bubble_coral_block to 1.0;1.0;stone
+	Added dead_brain_coral_block to 1.0;1.0;stone
+	Added dead_bubble_coral_block to 1.0;1.0;stone
+	Added dead_fire_coral_block to 1.0;1.0;stone
+	Added dead_horn_coral_block to 1.0;1.0;stone
+	Added dead_tube_coral_block to 1.0;1.0;stone
+	Added fire_coral_block to 1.0;1.0;stone
+	Added horn_coral_block to 1.0;1.0;stone
+	Added tube_coral_block to 1.0;1.0;stone
+
+Removals:
+	Removed blue_coral_fan from 1.0;1.0;grass
+	Removed blue_coral_plant from 1.0;1.0;grass
+	Removed pink_coral_fan from 1.0;1.0;grass
+	Removed pink_coral_plant from 1.0;1.0;grass
+	Removed purple_coral_fan from 1.0;1.0;grass
+	Removed purple_coral_plant from 1.0;1.0;grass
+	Removed red_coral_fan from 1.0;1.0;grass
+	Removed red_coral_plant from 1.0;1.0;grass
+	Removed yellow_coral_fan from 1.0;1.0;grass
+	Removed yellow_coral_plant from 1.0;1.0;grass
+	Removed blue_coral from 1.0;1.0;stone
+	Removed blue_dead_coral from 1.0;1.0;stone
+	Removed pink_coral from 1.0;1.0;stone
+	Removed pink_dead_coral from 1.0;1.0;stone
+	Removed purple_coral from 1.0;1.0;stone
+	Removed purple_dead_coral from 1.0;1.0;stone
+	Removed red_coral from 1.0;1.0;stone
+	Removed red_dead_coral from 1.0;1.0;stone
+	Removed yellow_coral from 1.0;1.0;stone
+	Removed yellow_dead_coral from 1.0;1.0;stone
+

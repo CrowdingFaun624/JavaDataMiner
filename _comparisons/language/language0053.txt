@@ -1,0 +1,37 @@
+12w49a (from 1.4.5)
+
+Total: 1056 (+31, -0)
+
+Additions:
+	Added "item.enchantedBook.name": "Enchanted Book"
+	Added "item.fireworks.flight": "Flight Duration:"
+	Added "item.fireworks.name": "Firework Rocket"
+	Added "item.fireworksCharge.black": "Black"
+	Added "item.fireworksCharge.blue": "Blue"
+	Added "item.fireworksCharge.brown": "Brown"
+	Added "item.fireworksCharge.customColor": "Custom"
+	Added "item.fireworksCharge.cyan": "Cyan"
+	Added "item.fireworksCharge.fadeTo": "Fade to"
+	Added "item.fireworksCharge.flicker": "Twinkle"
+	Added "item.fireworksCharge.gray": "Gray"
+	Added "item.fireworksCharge.green": "Green"
+	Added "item.fireworksCharge.lightBlue": "Light Blue"
+	Added "item.fireworksCharge.lime": "Lime"
+	Added "item.fireworksCharge.magenta": "Magenta"
+	Added "item.fireworksCharge.name": "Firework Star"
+	Added "item.fireworksCharge.orange": "Orange"
+	Added "item.fireworksCharge.pink": "Pink"
+	Added "item.fireworksCharge.purple": "Purple"
+	Added "item.fireworksCharge.red": "Red"
+	Added "item.fireworksCharge.silver": "Light Gray"
+	Added "item.fireworksCharge.trail": "Trail"
+	Added "item.fireworksCharge.type": "Unknown Shape"
+	Added "item.fireworksCharge.type.0": "Small Ball"
+	Added "item.fireworksCharge.type.1": "Large Ball"
+	Added "item.fireworksCharge.type.2": "Star-shaped"
+	Added "item.fireworksCharge.type.3": "Creeper-shaped"
+	Added "item.fireworksCharge.type.4": "Burst"
+	Added "item.fireworksCharge.white": "White"
+	Added "item.fireworksCharge.yellow": "Yellow"
+	Added "tile.stoneSlab.netherBrick.name": "Nether Bricks Slab"
+

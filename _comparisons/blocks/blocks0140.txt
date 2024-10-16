@@ -1,0 +1,16 @@
+21w05b (from 21w05a)
+
+Total: 858 (+4, -4)
+
+Additions:
+	Added exposed_copper
+	Added oxidized_copper
+	Added waxed_copper_block
+	Added weathered_copper
+
+Removals:
+	Removed exposed_copper_block
+	Removed oxidized_copper_block
+	Removed waxed_copper
+	Removed weathered_copper_block
+

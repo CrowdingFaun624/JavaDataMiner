@@ -1,0 +1,8 @@
+inf-20100607 (from inf-20100420)
+
+Total: 25 (+2, -0)
+
+Additions:
+	Added "random.door_close"
+	Added "random.door_open"
+

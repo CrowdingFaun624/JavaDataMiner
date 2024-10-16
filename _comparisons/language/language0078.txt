@@ -1,0 +1,47 @@
+13w21a (from 13w19a)
+
+Total: 1305 (+38, -0)
+
+Additions:
+	Added "advMode.setCommand.success": "Command set: %s"
+	Added "attribute.modifier.plus.0": "+%d %s"
+	Added "attribute.modifier.plus.1": "+%d%% %s"
+	Added "attribute.modifier.plus.2": "+%d%% %s"
+	Added "attribute.modifier.take.0": "-%d %s"
+	Added "attribute.modifier.take.1": "-%d%% %s"
+	Added "attribute.modifier.take.2": "-%d%% %s"
+	Added "attribute.name.generic.attackDamage": "Attack Damage"
+	Added "attribute.name.generic.followRange": "Mob Follow Range"
+	Added "attribute.name.generic.knockbackResistance": "Knockback Resistance"
+	Added "attribute.name.generic.maxHealth": "Max Health"
+	Added "attribute.name.generic.movementSpeed": "Speed"
+	Added "attribute.name.horse.jumpStrength": "Horse Jump Strength"
+	Added "attribute.name.zombie.spawnReinforcements": "Zombie Reinforcements"
+	Added "build.tooHigh": "Height limit for building is %s blocks"
+	Added "chat.cannotSend": "Cannot send chat message"
+	Added "chat.type.admin": "[%s: %s]"
+	Added "chat.type.announcement": "[%s] %s"
+	Added "chat.type.emote": "* %s %s"
+	Added "chat.type.text": "<%s> %s"
+	Added "commands.downfall.usage": "/toggledownfall"
+	Added "commands.generic.permission": "You do not have permission to use this command"
+	Added "commands.kill.success": "Ouch! That looked like it hurt"
+	Added "commands.kill.usage": "/kill"
+	Added "commands.players.usage": "/list"
+	Added "commands.publish.usage": "/publish"
+	Added "commands.save-off.usage": "/save-off"
+	Added "commands.save-on.usage": "/save-on"
+	Added "commands.save.usage": "/save-all"
+	Added "commands.seed.success": "Seed: %s"
+	Added "commands.seed.usage": "/seed"
+	Added "commands.stop.usage": "/stop"
+	Added "multiplayer.player.joined": "%s joined the game"
+	Added "multiplayer.player.left": "%s left the game"
+	Added "potion.effects.whenDrank": "When Applied:"
+	Added "translation.test.args": "%s %s"
+	Added "translation.test.none": "Hello, world!"
+	Added "translation.test.world": "world"
+
+Changes:
+	Changed "commands.generic.notFound" from "Unknown command. Try /help for a list of commands." to "Unknown command. Try /help for a list of commands"
+

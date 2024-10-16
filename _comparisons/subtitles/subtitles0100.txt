@@ -1,0 +1,7 @@
+24w04a (from 24w03b)
+
+Total: 783 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.armadillo.hurt_reduced": "Armadillo shields itself"
+

@@ -1,0 +1,16 @@
+inf-20100325 (from inf-20100321)
+
+Total: 1035 (+3, -5)
+
+Additions:
+	Added "fire.fire"
+	Added "liquid.lava"
+	Added "liquid.water"
+
+Removals:
+	Removed "&k="
+	Removed "&p="
+	Removed "Did you log in from another computer?"
+	Removed "Session conflict!"
+	Removed "http://69.175.14.242:80/poll.jsp?n="
+

@@ -1,0 +1,19 @@
+a1.0.11 (from a1.0.10)
+
+Total: 1652 (+7, -4)
+
+Additions:
+	Added "/mob/slime.png"
+	Added "Minecraft Alpha v1.0.11"
+	Added "Minecraft Alpha v1.0.11 ("
+	Added "Minecraft Minecraft Alpha v1.0.11"
+	Added "Minecraft: Minecraft Alpha v1.0.11n"
+	Added "Size"
+	Added "Slime"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.10"
+	Removed "Minecraft Alpha v1.0.10 ("
+	Removed "Minecraft Minecraft Alpha v1.0.10"
+	Removed "Minecraft: Minecraft Alpha v1.0.10n"
+

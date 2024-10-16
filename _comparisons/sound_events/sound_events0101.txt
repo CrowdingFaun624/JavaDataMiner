@@ -1,0 +1,12 @@
+19w13a (from 19w12b)
+
+Total: 794 (+6, -0)
+
+Additions:
+	Added "entity.evoker.celebrate"
+	Added "entity.pillager.celebrate"
+	Added "entity.ravager.celebrate"
+	Added "entity.villager.celebrate"
+	Added "entity.vindicator.celebrate"
+	Added "entity.witch.celebrate"
+

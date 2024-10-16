@@ -1,0 +1,26 @@
+1.10-pre1 (from 16w21b)
+
+Total: 2906 (+7, -5)
+
+Additions:
+	Added "commands.teleport.success.coordinates": "Teleported %s to %s, %s, %s"
+	Added "commands.teleport.usage": "/teleport <entity> <x> <y> <z> [<y-rot> <x-rot>]"
+	Added "entity.Donkey.name": "Donkey"
+	Added "entity.Horse.name": "Horse"
+	Added "entity.Mule.name": "Mule"
+	Added "entity.SkeletonHorse.name": "Skeleton Horse"
+	Added "entity.ZombieHorse.name": "Zombie Horse"
+
+Removals:
+	Removed "entity.donkey.name": "Donkey"
+	Removed "entity.horse.name": "Horse"
+	Removed "entity.mule.name": "Mule"
+	Removed "entity.skeletonhorse.name": "Skeleton Horse"
+	Removed "entity.zombiehorse.name": "Zombie Horse"
+
+Changes:
+	Changed "structure_block.load_prepare" from "Structure position prepared " to "Structure '%s' position prepared"
+	Changed "structure_block.load_success" from "Structure loaded" to "Structure loaded from '%s'"
+	Changed "structure_block.save_failure" from "Unable to save structure" to "Unable to save structure '%s'"
+	Changed "structure_block.size_success" from "Size successfully detected" to "Size successfully detected for '%s'"
+

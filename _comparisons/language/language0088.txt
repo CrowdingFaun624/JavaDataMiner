@@ -1,0 +1,11 @@
+1.6 (from 13w26a)
+
+Total: 1340 (+5, -0)
+
+Additions:
+	Added "commands.effect.failure.notActive.all": "Couldn't take any effects from %s as they do not have any"
+	Added "commands.effect.success.removed.all": "Took all effects from %s"
+	Added "mco.invites.pending": "New invitations!"
+	Added "potion.absorption.postfix": "Potion of Absorption"
+	Added "potion.healthBoost.postfix": "Potion of Health Boost"
+

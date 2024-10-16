@@ -1,0 +1,10 @@
+1.16.2-rc1 (from 1.16_combat-0)
+
+Total: 4782 (+0, -4)
+
+Removals:
+	Removed "attribute.name.generic.attack_reach": "Attack Reach"
+	Removed "enchantment.minecraft.cleaving": "Cleaving"
+	Removed "options.shieldIndicator": "Shield Indicator"
+	Removed "options.useShieldOnCrouch": "Shield on Crouch"
+

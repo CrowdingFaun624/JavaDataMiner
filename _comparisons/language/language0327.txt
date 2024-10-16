@@ -1,0 +1,8 @@
+19w46b (from 19w46a)
+
+Total: 4375 (+2, -0)
+
+Additions:
+	Added "narration.suggestion": "Selected suggestion %d out of %d: %s"
+	Added "narration.suggestion.tooltip": "Selected suggestion %d out of %d: %s (%s)"
+

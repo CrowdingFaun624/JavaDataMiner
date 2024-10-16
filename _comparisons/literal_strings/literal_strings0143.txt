@@ -1,0 +1,19 @@
+b1.8-pre2 (from b1.8-pre1-2)
+
+Total: 2895 (+7, -4)
+
+Additions:
+	Added "Minecraft Beta 1.8 Pre-release 2 ;)"
+	Added "Minecraft Beta 1.8 Pre-release 2 ;) ("
+	Added "Minecraft Minecraft Beta 1.8 Pre-release 2 ;)"
+	Added "Minecraft: Minecraft Beta 1.8 Pre-release 2 ;)n"
+	Added "Value"
+	Added "key.fog"
+	Added "key.pickItem"
+
+Removals:
+	Removed "Minecraft Beta 1.8 Pre-release"
+	Removed "Minecraft Beta 1.8 Pre-release ("
+	Removed "Minecraft Minecraft Beta 1.8 Pre-release"
+	Removed "Minecraft: Minecraft Beta 1.8 Pre-releasen"
+

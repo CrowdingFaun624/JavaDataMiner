@@ -1,0 +1,14 @@
+19w11b (from 19w11a)
+
+Total: 22 (+1, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.wood.break
+		step: block.wood.step
+		place: item.crop.plant
+		hit: block.wood.hit
+		fall: block.wood.fall
+

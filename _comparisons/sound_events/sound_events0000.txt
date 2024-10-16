@@ -1,0 +1,16 @@
+in-20100105 (from in-20091231-2)
+
+Total: 10 (+10, -0)
+
+Additions:
+	Added "random.click"
+	Added "random.explode"
+	Added "random.fuse"
+	Added "random.hurt"
+	Added "random.pop"
+	Added "random.splash"
+	Added "step.grass"
+	Added "step.gravel"
+	Added "step.stone"
+	Added "step.wood"
+

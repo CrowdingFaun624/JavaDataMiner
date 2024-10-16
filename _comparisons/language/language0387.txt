@@ -1,0 +1,14 @@
+21w17a (from 21w16a)
+
+Total: 5086 (+4, -2)
+
+Additions:
+	Added "commands.worldborder.set.failed.big": "World border cannot be bigger than %s blocks wide"
+	Added "commands.worldborder.set.failed.small": "World border cannot be smaller than 1 block wide"
+	Added "multiplayer.disconnect.invalid_packet": "Server sent an invalid packet"
+	Added "multiplayer.disconnect.invalid_player_data": "Invalid player data"
+
+Removals:
+	Removed "commands.worldborder.set.failed.big.": "World border cannot be bigger than 60,000,000 blocks wide"
+	Removed "commands.worldborder.set.failed.small.": "World border cannot be smaller than 1 block wide"
+

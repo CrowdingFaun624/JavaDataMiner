@@ -1,0 +1,13 @@
+20w21a (from 20w20b)
+
+Total: 985 (+7, -0)
+
+Additions:
+	Added "DONKEY_EAT": "entity.donkey.eat"
+	Added "FOX_TELEPORT": "entity.fox.teleport"
+	Added "MULE_ANGRY": "entity.mule.angry"
+	Added "MULE_EAT": "entity.mule.eat"
+	Added "PARROT_IMITATE_HOGLIN": "entity.parrot.imitate.hoglin"
+	Added "PARROT_IMITATE_PIGLIN": "entity.parrot.imitate.piglin"
+	Added "PARROT_IMITATE_ZOGLIN": "entity.parrot.imitate.zoglin"
+

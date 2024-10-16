@@ -1,0 +1,7 @@
+inf-20100630-1 (from inf-20100629)
+
+Total: 51 (+0, -1)
+
+Removals:
+	Removed 1
+

@@ -1,0 +1,30 @@
+20w28a (from 20w27a)
+
+Total: 4773 (+12, -3)
+
+Additions:
+	Added "chat.square_brackets": "[%s]"
+	Added "command.context.parse_error": "%s at position %s: %s"
+	Added "commands.list.nameAndId": "%s (%s)"
+	Added "disconnect.exceeded_packet_rate": "Kicked for exceeding packet rate limit"
+	Added "options.generic_value": "%s: %s"
+	Added "options.off.composed": "%s: OFF"
+	Added "options.on.composed": "%s: ON"
+	Added "options.percent_add_value": "%s: +%s%%"
+	Added "options.percent_value": "%s: %s%%"
+	Added "options.pixel_value": "%s: %spx"
+	Added "potion.withAmplifier": "%s %s"
+	Added "potion.withDuration": "%s (%s)"
+
+Removals:
+	Removed "options.entityDistancePercent": "%s%%"
+	Removed "selectWorld.hardcoreMode": "Hardcore:"
+	Removed "selectWorld.hardcoreMode.info": "World is deleted upon death"
+
+Changes:
+	Changed "gamerule.doDaylightCycle" from "Advance in-game time" to "Advance time of day"
+	Changed "jigsaw_block.keep_jigsaws" from "Keep Jigsaws: " to "Keep Jigsaws"
+	Changed "selectWorld.allowCommands" from "Allow Cheats:" to "Allow Cheats"
+	Changed "selectWorld.bonusItems" from "Bonus Chest:" to "Bonus Chest"
+	Changed "selectWorld.mapFeatures" from "Generate Structures:" to "Generate Structures"
+

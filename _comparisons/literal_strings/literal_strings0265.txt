@@ -1,0 +1,42 @@
+1.6.2 (from 1.6.1)
+
+Total: 7572 (+21, -13)
+
+Additions:
+	Added " tried to attack an invalid entity"
+	Added "%s/%s%s"
+	Added "%s:%s:%s/%s"
+	Added "1.6.2"
+	Added "Attempting to attack an invalid entity"
+	Added "Current Language"
+	Added "Integrated singleplayer server"
+	Added "MC|Brand"
+	Added "Minecraft 1.6.2"
+	Added "Minecraft 1.6.2 ("
+	Added "Non-integrated multiplayer server"
+	Added "OwnerName"
+	Added "Server brand"
+	Added "Server type"
+	Added "Starting integrated minecraft server version 1.6.2"
+	Added "Starting minecraft server version 1.6.2"
+	Added "Unable to fit: %s - size: %dx%d - Maybe try a lowerresolution texturepack?"
+	Added "Unknown synced attribute modifier"
+	Added "mcsounddomain"
+	Added "textures/blocks"
+	Added "textures/items"
+
+Removals:
+	Removed " was caught trying to crash the server with an invalid position."
+	Removed "1.6.1"
+	Removed "Cannot modify readonly attribute"
+	Removed "Entity being force ticked"
+	Removed "Forcefully ticking entity"
+	Removed "Minecraft 1.6.1"
+	Removed "Minecraft 1.6.1 ("
+	Removed "Nope!"
+	Removed "Starting integrated minecraft server version 1.6.1"
+	Removed "Starting minecraft server version 1.6.1"
+	Removed "minecraft:"
+	Removed "textures/blocks/"
+	Removed "textures/items/"
+

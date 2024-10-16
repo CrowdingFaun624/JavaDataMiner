@@ -1,0 +1,7 @@
+23w42a (from 23w41a)
+
+Total: 105 (+1, -0)
+
+Additions:
+	Added crafter to STONE
+

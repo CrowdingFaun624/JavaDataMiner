@@ -1,0 +1,13 @@
+19w03a (from 19w02a)
+
+Total: 443 (+7, -0)
+
+Additions:
+	Added "subtitles.block.barrel.close": "Barrel closes"
+	Added "subtitles.block.barrel.open": "Barrel opens"
+	Added "subtitles.block.blastfurnace.fire_crackle": "Blast furnace crackles"
+	Added "subtitles.block.smoker.smoke": "Smoker smokes"
+	Added "subtitles.item.berries.pick": "Berries pop"
+	Added "subtitles.item.crop.plant": "Crop planted"
+	Added "subtitles.item.nether_wart.plant": "Crop planted"
+

@@ -1,0 +1,49 @@
+21w08a (from 21w07a)
+
+Total: 882 (+24, -17)
+
+Additions:
+	Added chiseled_deepslate
+	Added cobbled_deepslate
+	Added cobbled_deepslate_slab
+	Added cobbled_deepslate_stairs
+	Added cobbled_deepslate_wall
+	Added deepslate
+	Added deepslate_brick_slab
+	Added deepslate_brick_stairs
+	Added deepslate_brick_wall
+	Added deepslate_bricks
+	Added deepslate_diamond_ore
+	Added deepslate_gold_ore
+	Added deepslate_iron_ore
+	Added deepslate_lapis_ore
+	Added deepslate_redstone_ore
+	Added deepslate_tile_slab
+	Added deepslate_tile_stairs
+	Added deepslate_tile_wall
+	Added deepslate_tiles
+	Added polished_deepslate
+	Added polished_deepslate_slab
+	Added polished_deepslate_stairs
+	Added polished_deepslate_wall
+	Added smooth_basalt
+
+Removals:
+	Removed chiseled_grimstone
+	Removed grimstone
+	Removed grimstone_brick_slab
+	Removed grimstone_brick_stairs
+	Removed grimstone_brick_wall
+	Removed grimstone_bricks
+	Removed grimstone_slab
+	Removed grimstone_stairs
+	Removed grimstone_tile_slab
+	Removed grimstone_tile_stairs
+	Removed grimstone_tile_wall
+	Removed grimstone_tiles
+	Removed grimstone_wall
+	Removed polished_grimstone
+	Removed polished_grimstone_slab
+	Removed polished_grimstone_stairs
+	Removed polished_grimstone_wall
+

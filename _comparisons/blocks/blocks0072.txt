@@ -1,0 +1,16 @@
+14w32b (from 14w32a)
+
+Total: 193 (+10, -0)
+
+Additions:
+	Added acacia_fence
+	Added acacia_fence_gate
+	Added birch_fence
+	Added birch_fence_gate
+	Added dark_oak_fence
+	Added dark_oak_fence_gate
+	Added jungle_fence
+	Added jungle_fence_gate
+	Added spruce_fence
+	Added spruce_fence_gate
+

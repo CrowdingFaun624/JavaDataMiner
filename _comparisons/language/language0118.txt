@@ -1,0 +1,7 @@
+1.7.6 (from 1.7.6-pre2)
+
+Total: 1725 (+1, -0)
+
+Additions:
+	Added "multiplayer.player.joined.renamed": "%s (formerly known as %s) joined the game"
+

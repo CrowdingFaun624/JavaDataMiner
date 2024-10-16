@@ -1,0 +1,18 @@
+1.7.1 (from 1.7)
+
+Total: 1593 (+12, -0)
+
+Additions:
+	Added "item.record.11.desc": "C418 - 11"
+	Added "item.record.13.desc": "C418 - 13"
+	Added "item.record.blocks.desc": "C418 - blocks"
+	Added "item.record.cat.desc": "C418 - cat"
+	Added "item.record.chirp.desc": "C418 - chirp"
+	Added "item.record.far.desc": "C418 - far"
+	Added "item.record.mall.desc": "C418 - mall"
+	Added "item.record.mellohi.desc": "C418 - mellohi"
+	Added "item.record.stal.desc": "C418 - stal"
+	Added "item.record.strad.desc": "C418 - strad"
+	Added "item.record.wait.desc": "C418 - wait"
+	Added "item.record.ward.desc": "C418 - ward"
+

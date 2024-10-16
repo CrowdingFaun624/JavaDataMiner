@@ -1,0 +1,22 @@
+13w47b (from 13w47a)
+
+Total: 9688 (+7, -7)
+
+Additions:
+	Added "13w47b"
+	Added "Minecraft 13w47b"
+	Added "Minecraft 13w47b ("
+	Added "Outdated client! Please use 13w47b"
+	Added "Outdated server! I'm still on 13w47b"
+	Added "Starting integrated minecraft server version 13w47b"
+	Added "stream.unavailable.noFbo"
+
+Removals:
+	Removed "13w47a"
+	Removed "Minecraft 13w47a"
+	Removed "Minecraft 13w47a ("
+	Removed "Not ready to start streaming yet!"
+	Removed "Outdated client! Please use 13w47a"
+	Removed "Outdated server! I'm still on 13w47a"
+	Removed "Starting integrated minecraft server version 13w47a"
+

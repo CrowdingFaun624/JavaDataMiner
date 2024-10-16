@@ -1,0 +1,20 @@
+12w39b (from 12w39a)
+
+Total: 6465 (+6, -6)
+
+Additions:
+	Added "12w39b"
+	Added "Minecraft 12w39b"
+	Added "Minecraft 12w39b ("
+	Added "Minecraft Minecraft 12w39b"
+	Added "Starting integrated minecraft server version 12w39b"
+	Added "Starting minecraft server version 12w39b"
+
+Removals:
+	Removed "12w39a"
+	Removed "Minecraft 12w39a"
+	Removed "Minecraft 12w39a ("
+	Removed "Minecraft Minecraft 12w39a"
+	Removed "Starting integrated minecraft server version 12w39a"
+	Removed "Starting minecraft server version 12w39a"
+

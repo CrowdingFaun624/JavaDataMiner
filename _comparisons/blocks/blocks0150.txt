@@ -1,0 +1,11 @@
+1.19_deep_dark_experimental_snapshot-1 (from 1.18.1)
+
+Total: 903 (+5, -0)
+
+Additions:
+	Added reinforced_deepslate
+	Added sculk
+	Added sculk_catalyst
+	Added sculk_shrieker
+	Added sculk_vein
+

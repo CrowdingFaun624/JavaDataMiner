@@ -1,0 +1,11 @@
+13w37b (from 13w37a)
+
+Total: 1482 (+2, -0)
+
+Additions:
+	Added "commands.setidletimeout.success": "Successfully set the idle timeout to %d minutes."
+	Added "commands.setidletimeout.usage": "/setidletimeout <Minutes until kick>"
+
+Changes:
+	Changed "mco.configure.world.subscription.extend" from "Extend" to "Extend Subscription"
+

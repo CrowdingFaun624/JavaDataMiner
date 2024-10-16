@@ -1,0 +1,11 @@
+1.13-pre4 (from 1.13-pre3)
+
+Total: 3825 (+5, -0)
+
+Additions:
+	Added "argument.entity.selector.not_allowed": "Selector not allowed"
+	Added "commands.execute.conditional.fail": "Test failed"
+	Added "commands.execute.conditional.fail_count": "Test failed, count: %s"
+	Added "commands.execute.conditional.pass": "Test passed"
+	Added "commands.execute.conditional.pass_count": "Test passed, count: %s"
+

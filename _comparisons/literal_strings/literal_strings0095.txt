@@ -1,0 +1,8 @@
+a1.1.0-2 (from a1.1.0-1)
+
+Total: 1563 (+2, -0)
+
+Additions:
+	Added "FORCING RELOAD!"
+	Added "Failed to add "
+

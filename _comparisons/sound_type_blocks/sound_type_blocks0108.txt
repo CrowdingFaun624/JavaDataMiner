@@ -1,0 +1,7 @@
+18w49a (from 18w48b)
+
+Total: 17 (+1, -0)
+
+Additions:
+	Added sweet_berry_bush to 1.0;1.0;stone
+

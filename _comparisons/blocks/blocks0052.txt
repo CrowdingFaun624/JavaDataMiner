@@ -1,0 +1,11 @@
+1.5.2 (from 2point0_purple)
+
+Total: 158 (+0, -5)
+
+Removals:
+	Removed 159:ethoSlab
+	Removed 160:ethoSlab
+	Removed 161:torchOff
+	Removed 162:blockCoal
+	Removed 163:tintedGlass
+

@@ -1,0 +1,30 @@
+19w03a (from 19w02a)
+
+Total: 20 (+3, -0)
+
+Additions:
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.sweet_berry_bush.break
+		step: block.grass.step
+		place: block.sweet_berry_bush.place
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.crop.break
+		step: block.grass.step
+		place: item.crop.plant
+		hit: block.grass.hit
+		fall: block.grass.fall
+	Added:
+		volume: 1.0
+		pitch: 1.0
+		break: block.nether_wart.break
+		step: block.stone.step
+		place: item.nether_wart.plant
+		hit: block.stone.hit
+		fall: block.stone.fall
+

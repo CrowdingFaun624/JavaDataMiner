@@ -1,0 +1,18 @@
+a1.0.5_01 (from a1.0.5)
+
+Total: 1566 (+4, -6)
+
+Additions:
+	Added "Minecraft Alpha v1.0.5_01"
+	Added "Minecraft Alpha v1.0.5_01 ("
+	Added "Minecraft Minecraft Alpha v1.0.5_01"
+	Added "Minecraft: Minecraft Alpha v1.0.5_01n"
+
+Removals:
+	Removed "HANDLING A SPAWN PACKET!"
+	Removed "Minecraft Alpha v1.0.5"
+	Removed "Minecraft Alpha v1.0.5 ("
+	Removed "Minecraft Minecraft Alpha v1.0.5"
+	Removed "Minecraft: Minecraft Alpha v1.0.5n"
+	Removed "SPAWN!"
+

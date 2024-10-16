@@ -1,0 +1,7 @@
+20w19a (from 20w18a)
+
+Total: 4669 (+1, -0)
+
+Additions:
+	Added "stat.minecraft.strider_one_cm": "Distance by Strider"
+

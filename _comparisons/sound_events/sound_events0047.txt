@@ -1,0 +1,18 @@
+14w25a (from 14w21b)
+
+Total: 241 (+12, -0)
+
+Additions:
+	Added "mob.guardian.attack"
+	Added "mob.guardian.curse"
+	Added "mob.guardian.death"
+	Added "mob.guardian.elder.death"
+	Added "mob.guardian.elder.hit"
+	Added "mob.guardian.elder.idle"
+	Added "mob.guardian.flop"
+	Added "mob.guardian.hit"
+	Added "mob.guardian.idle"
+	Added "mob.guardian.land.death"
+	Added "mob.guardian.land.hit"
+	Added "mob.guardian.land.idle"
+

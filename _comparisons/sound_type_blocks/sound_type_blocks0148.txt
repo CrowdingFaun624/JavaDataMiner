@@ -1,0 +1,10 @@
+22w12a (from 22w11a)
+
+Total: 87 (+1, -1)
+
+Additions:
+	Added mud_brick_slab to MUD_BRICKS
+
+Removals:
+	Removed mud_brick_slab from STONE
+

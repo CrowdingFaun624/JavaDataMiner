@@ -1,0 +1,54 @@
+21w05a (from 21w03a)
+
+Total: 858 (+30, -16)
+
+Additions:
+	Added azalea
+	Added azalea_leaves
+	Added azalea_leaves_flowers
+	Added big_dripleaf
+	Added big_dripleaf_stem
+	Added cave_vines_body
+	Added cave_vines_head
+	Added exposed_copper_block
+	Added exposed_cut_copper
+	Added exposed_cut_copper_slab
+	Added exposed_cut_copper_stairs
+	Added flowering_azalea
+	Added hanging_roots
+	Added moss_block
+	Added moss_carpet
+	Added oxidized_copper_block
+	Added oxidized_cut_copper
+	Added oxidized_cut_copper_slab
+	Added oxidized_cut_copper_stairs
+	Added rooted_dirt
+	Added small_dripleaf
+	Added spore_blossom
+	Added waxed_exposed_copper
+	Added waxed_exposed_cut_copper
+	Added waxed_exposed_cut_copper_slab
+	Added waxed_exposed_cut_copper_stairs
+	Added waxed_weathered_copper
+	Added waxed_weathered_cut_copper
+	Added waxed_weathered_cut_copper_slab
+	Added waxed_weathered_cut_copper_stairs
+
+Removals:
+	Removed lightly_weathered_copper_block
+	Removed lightly_weathered_cut_copper
+	Removed lightly_weathered_cut_copper_slab
+	Removed lightly_weathered_cut_copper_stairs
+	Removed semi_weathered_copper_block
+	Removed semi_weathered_cut_copper
+	Removed semi_weathered_cut_copper_slab
+	Removed semi_weathered_cut_copper_stairs
+	Removed waxed_lightly_weathered_copper
+	Removed waxed_lightly_weathered_cut_copper
+	Removed waxed_lightly_weathered_cut_copper_slab
+	Removed waxed_lightly_weathered_cut_copper_stairs
+	Removed waxed_semi_weathered_copper
+	Removed waxed_semi_weathered_cut_copper
+	Removed waxed_semi_weathered_cut_copper_slab
+	Removed waxed_semi_weathered_cut_copper_stairs
+

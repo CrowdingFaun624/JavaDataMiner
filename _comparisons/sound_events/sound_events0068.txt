@@ -1,0 +1,10 @@
+16w41a (from 16w40a)
+
+Total: 493 (+4, -0)
+
+Additions:
+	Added "entity.elder_guardian.flop"
+	Added "entity.llama.chest"
+	Added "entity.mule.chest"
+	Added "item.armor.equip_elytra"
+

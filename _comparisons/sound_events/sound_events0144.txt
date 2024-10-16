@@ -1,0 +1,13 @@
+22w13a (from 22w12a)
+
+Total: 1306 (+7, -0)
+
+Additions:
+	Added "ALLAY_AMBIENT_WITHOUT_ITEM": "entity.allay.ambient_without_item"
+	Added "ALLAY_AMBIENT_WITH_ITEM": "entity.allay.ambient_with_item"
+	Added "ALLAY_DEATH": "entity.allay.death"
+	Added "ALLAY_FLAP": "entity.allay.flap"
+	Added "ALLAY_HURT": "entity.allay.hurt"
+	Added "ALLAY_ITEM_GIVEN": "entity.allay.item_given"
+	Added "ALLAY_ITEM_TAKEN": "entity.allay.item_taken"
+

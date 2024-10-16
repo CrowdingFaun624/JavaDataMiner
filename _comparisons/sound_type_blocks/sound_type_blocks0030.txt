@@ -1,0 +1,11 @@
+b1.9-pre4 (from b1.9-pre3)
+
+Total: 9 (+2, -1)
+
+Additions:
+	Added endPortalFrame to 1.0;1.0;stone;random.glass;random.glass
+	Added whiteStone to 1;1.0;1.0;stone
+
+Removals:
+	Removed airPortalFrame from 1.0;1.0;stone;random.glass;random.glass
+

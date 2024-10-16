@@ -1,0 +1,19 @@
+18w15a (from 18w14b)
+
+Total: 3480 (+9, -0)
+
+Additions:
+	Added "block.minecraft.blue_ice": "Blue Ice"
+	Added "block.minecraft.conduit": "Conduit"
+	Added "effect.conduit_power": "Conduit Power"
+	Added "entity.minecraft.dolphin": "Dolphin"
+	Added "item.minecraft.dolphin_spawn_egg": "Spawn Dolphin"
+	Added "item.minecraft.heart_of_the_sea": "Heart of the Sea"
+	Added "item.minecraft.nautilus_shell": "Nautilus Shell"
+	Added "menu.savingLevel": "Saving world"
+	Added "options.biomeBlendRadius": "Biome Blend"
+
+Changes:
+	Changed "item.minecraft.splash_potion.effect.turtle_master" from "Potion of the Turtle Master" to "Splash Potion of the Turtle Master"
+	Changed "item.minecraft.tipped_arrow.effect.turtle_master" from "Arrow of The Turtle Master" to "Arrow of the Turtle Master"
+

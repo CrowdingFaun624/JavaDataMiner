@@ -1,0 +1,45 @@
+12w40a (from 12w39b)
+
+Total: 6531 (+27, -10)
+
+Additions:
+	Added "12w40a"
+	Added "Lore"
+	Added "Minecraft 12w40a"
+	Added "Minecraft 12w40a ("
+	Added "Minecraft Minecraft 12w40a"
+	Added "Redstone Ready"
+	Added "Starting integrated minecraft server version 12w40a"
+	Added "Starting minecraft server version 12w40a"
+	Added "\\("
+	Added "biome_1"
+	Added "chance"
+	Added "count"
+	Added "decoration"
+	Added "distance"
+	Added "dungeon"
+	Added "gl_caps[gl_max_fragment_uniforms]"
+	Added "gl_caps[gl_max_vertex_uniforms]"
+	Added "lake"
+	Added "lava_lake"
+	Added "mineshaft"
+	Added "recheckGaps"
+	Added "size"
+	Added "spawn-protection"
+	Added "spread"
+	Added "stronghold"
+	Added "tickChunk"
+	Added "u00a75u00a7o"
+
+Removals:
+	Removed "12w39b"
+	Removed "DoLighting"
+	Removed "Minecraft 12w39b"
+	Removed "Minecraft 12w39b ("
+	Removed "Minecraft Minecraft 12w39b"
+	Removed "Placed stronghold in INVALID biome at ("
+	Removed "Starting integrated minecraft server version 12w39b"
+	Removed "Starting minecraft server version 12w39b"
+	Removed "lights"
+	Removed "updatelights"
+

@@ -1,0 +1,7 @@
+20w13a (from 20w12a)
+
+Total: 525 (+1, -0)
+
+Additions:
+	Added "subtitles.item.lodestone_compass.lock": "Lodestone Compass locks onto Lodestone"
+

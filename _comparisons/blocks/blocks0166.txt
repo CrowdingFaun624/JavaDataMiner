@@ -1,0 +1,59 @@
+23w43a (from 23w42a)
+
+Total: 1057 (+53, -0)
+
+Additions:
+	Added chiseled_copper
+	Added chiseled_tuff
+	Added chiseled_tuff_bricks
+	Added copper_bulb
+	Added copper_door
+	Added copper_grate
+	Added copper_trapdoor
+	Added exposed_chiseled_copper
+	Added exposed_copper_bulb
+	Added exposed_copper_door
+	Added exposed_copper_grate
+	Added exposed_copper_trapdoor
+	Added oxidized_chiseled_copper
+	Added oxidized_copper_bulb
+	Added oxidized_copper_door
+	Added oxidized_copper_grate
+	Added oxidized_copper_trapdoor
+	Added polished_tuff
+	Added polished_tuff_slab
+	Added polished_tuff_stairs
+	Added polished_tuff_wall
+	Added tuff_brick_slab
+	Added tuff_brick_stairs
+	Added tuff_brick_wall
+	Added tuff_bricks
+	Added tuff_slab
+	Added tuff_stairs
+	Added tuff_wall
+	Added waxed_chiseled_copper
+	Added waxed_copper_bulb
+	Added waxed_copper_door
+	Added waxed_copper_grate
+	Added waxed_copper_trapdoor
+	Added waxed_exposed_chiseled_copper
+	Added waxed_exposed_copper_bulb
+	Added waxed_exposed_copper_door
+	Added waxed_exposed_copper_grate
+	Added waxed_exposed_copper_trapdoor
+	Added waxed_oxidized_chiseled_copper
+	Added waxed_oxidized_copper_bulb
+	Added waxed_oxidized_copper_door
+	Added waxed_oxidized_copper_grate
+	Added waxed_oxidized_copper_trapdoor
+	Added waxed_weathered_chiseled_copper
+	Added waxed_weathered_copper_bulb
+	Added waxed_weathered_copper_door
+	Added waxed_weathered_copper_grate
+	Added waxed_weathered_copper_trapdoor
+	Added weathered_chiseled_copper
+	Added weathered_copper_bulb
+	Added weathered_copper_door
+	Added weathered_copper_grate
+	Added weathered_copper_trapdoor
+

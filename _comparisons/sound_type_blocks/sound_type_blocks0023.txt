@@ -1,0 +1,7 @@
+b1.4-1 (from b1.3_01)
+
+Total: 9 (+1, -0)
+
+Additions:
+	Added lockedchest to 1.0;1.0;wood
+

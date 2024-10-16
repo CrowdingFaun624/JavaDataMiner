@@ -1,0 +1,42 @@
+c0.0.22a_05 (from c0.0.21a)
+
+Total: 6 (+6, -0)
+
+Additions:
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: step.stone
+		step: step.stone
+	Added:
+		name: wood
+		volume: 1.0
+		pitch: 1.0
+		dig: step.wood
+		step: step.wood
+	Added:
+		name: gravel
+		volume: 1.0
+		pitch: 1.0
+		dig: step.gravel
+		step: step.gravel
+	Added:
+		name: grass
+		volume: 1.0
+		pitch: 1.0
+		dig: step.grass
+		step: step.grass
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.0
+		dig: step.stone
+		step: step.stone
+	Added:
+		name: stone
+		volume: 1.0
+		pitch: 1.5
+		dig: step.stone
+		step: step.stone
+

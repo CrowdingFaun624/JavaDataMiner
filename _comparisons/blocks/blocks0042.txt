@@ -1,0 +1,19 @@
+12w38a (from 12w37a)
+
+Total: 144 (+0, -0)
+
+Changes:
+	Changed 102:thinGlass's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 120:endPortalFrame's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 123:redstoneLight's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 124:redstoneLight's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 12:sand's "sound_type" from sand,1.0,1.0,dig.sand,step.gravel to sand,1.0,1.0,dig.sand,step.sand
+	Changed 20:glass's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 65:ladder's "sound_type" from wood,1.0,1.0,dig.wood,step.wood to ladder,1.0,1.0,dig.wood,step.ladder
+	Changed 78:snow's "sound_type" from cloth,1.0,1.0,dig.cloth,step.cloth to snow,1.0,1.0,dig.snow,step.snow
+	Changed 79:ice's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 80:snow's "sound_type" from cloth,1.0,1.0,dig.cloth,step.cloth to snow,1.0,1.0,dig.snow,step.snow
+	Changed 88:hellsand's "sound_type" from sand,1.0,1.0,dig.sand,step.gravel to sand,1.0,1.0,dig.sand,step.sand
+	Changed 89:lightgem's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+	Changed 90:portal's "sound_type" from stone,1.0,1.0,dig.stone,random.glass to stone,1.0,1.0,random.glass,step.stone
+

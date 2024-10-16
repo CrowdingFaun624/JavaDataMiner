@@ -1,0 +1,7 @@
+13w19a (from 13w18c)
+
+Total: 12 (+1, -0)
+
+Additions:
+	Added clayHardenedStained to 1;1.0;1.0;stone
+

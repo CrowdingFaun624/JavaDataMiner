@@ -1,0 +1,18 @@
+b1.2 (from b1.1_02)
+
+Total: 82 (+8, -2)
+
+Additions:
+	Added 0:cloth
+	Added 21:oreLapis
+	Added 22:blockLapis
+	Added 23:dispenser
+	Added 24:sandStone
+	Added 25:musicBlock
+	Added 91:litpumpkin
+	Added 92:cake
+
+Removals:
+	Removed 35:cloth
+	Removed 91:pumpkin
+

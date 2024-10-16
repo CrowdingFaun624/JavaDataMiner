@@ -1,0 +1,8 @@
+19w04a (from 19w03c)
+
+Total: 737 (+2, -0)
+
+Additions:
+	Added "ui.stonecutter.select_recipe"
+	Added "ui.stonecutter.take_result"
+

@@ -1,0 +1,9 @@
+inf-20100607 (from inf-20100420)
+
+Total: 9 (+3, -0)
+
+Additions:
+	Added 63 to 1.0;1.0;wood
+	Added 64 to 1.0;1.0;wood
+	Added 65 to 1.0;1.0;wood
+

@@ -1,0 +1,13 @@
+b1.2 (from b1.1_02)
+
+Total: 9 (+7, -0)
+
+Additions:
+	Added cake to 1.0;1.0;cloth
+	Added musicBlock to 1.0;1.0;stone
+	Added litpumpkin to 1.0;1.0;wood
+	Added blockLapis to 1;1.0;1.0;stone
+	Added dispenser to 1;1.0;1.0;stone
+	Added oreLapis to 1;1.0;1.0;stone
+	Added sandStone to 1;1.0;1.0;stone
+

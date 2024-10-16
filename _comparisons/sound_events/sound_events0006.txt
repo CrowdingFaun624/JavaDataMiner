@@ -1,0 +1,11 @@
+inf-20100227 (from in-20100223)
+
+Total: 18 (+0, -5)
+
+Removals:
+	Removed "fire.fire"
+	Removed "liquid.lava"
+	Removed "liquid.water"
+	Removed "random.explode"
+	Removed "random.pop"
+

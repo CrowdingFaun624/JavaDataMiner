@@ -1,0 +1,26 @@
+23w33a (from 23w32a)
+
+Total: 105 (+5, -7)
+
+Type Additions:
+	Added type SPONGE with blocks:
+		sponge
+	Added type WET_SPONGE with blocks:
+		wet_sponge
+
+Additions:
+	Added comparator to STONE
+	Added lever to STONE
+	Added repeater to STONE
+	Added jukebox to WOOD
+	Added tripwire_hook to WOOD
+
+Removals:
+	Removed sponge from GRASS
+	Removed wet_sponge from GRASS
+	Removed jukebox from STONE
+	Removed tripwire_hook from STONE
+	Removed comparator from WOOD
+	Removed lever from WOOD
+	Removed repeater from WOOD
+

@@ -1,0 +1,18 @@
+c0.0.18a_02 (from c0.0.17a)
+
+Total: 164 (+8, -2)
+
+Additions:
+	Added ".png"
+	Added "0.0.18a_02"
+	Added "Failed to load texture for "
+	Added "Loading texture for "
+	Added "Minecraft 0.0.18a_02"
+	Added "Releasing texture for "
+	Added "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:-_'*!\\\"#%/()=+?[]{}<>@|$"
+	Added "http://www.minecraft.net/skin/"
+
+Removals:
+	Removed "0.0.17a"
+	Removed "Minecraft 0.0.17a"
+

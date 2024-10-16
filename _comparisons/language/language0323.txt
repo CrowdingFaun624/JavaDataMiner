@@ -1,0 +1,10 @@
+19w42a (from 19w41a)
+
+Total: 4363 (+1, -0)
+
+Additions:
+	Added "chat.copy.click": "Click to copy to Clipboard"
+
+Changes:
+	Changed "block.minecraft.bee_nest" from "Bee nest" to "Bee Nest"
+

@@ -1,0 +1,14 @@
+18w20a (from 18w19b)
+
+Total: 12 (+3, -3)
+
+Additions:
+	Added kelp_plant to 1.0;1.0;grass
+	Added prismarine_brick_slab to 1.0;1.0;stone
+	Added prismarine_brick_stairs to 1.0;1.0;stone
+
+Removals:
+	Removed kelp_top from 1.0;1.0;grass
+	Removed prismarine_bricks_slab from 1.0;1.0;stone
+	Removed prismarine_bricks_stairs from 1.0;1.0;stone
+

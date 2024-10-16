@@ -1,0 +1,23 @@
+b1.4_01 (from b1.4)
+
+Total: 2231 (+4, -11)
+
+Additions:
+	Added "Minecraft Beta 1.4_01"
+	Added "Minecraft Beta 1.4_01 ("
+	Added "Minecraft Minecraft Beta 1.4_01"
+	Added "Minecraft: Minecraft Beta 1.4_01n"
+
+Removals:
+	Removed "/achievement/bg2.png"
+	Removed "?"
+	Removed "Go to store"
+	Removed "Minecraft Beta 1.4"
+	Removed "Minecraft Beta 1.4 ("
+	Removed "Minecraft Minecraft Beta 1.4"
+	Removed "Minecraft: Minecraft Beta 1.4n"
+	Removed "Not now"
+	Removed "Steve Co. Supply Crate"
+	Removed "You need a Steve Co. Supply Crate Key to open this. You can pick one up at the Minecraft store."
+	Removed "http://www.minecraft.net/store/loot.jsp"
+

@@ -1,0 +1,8 @@
+18w45a (from 18w44a)
+
+Total: 4139 (+2, -0)
+
+Additions:
+	Added "block.minecraft.illager_banner": "Illager Banner"
+	Added "block.minecraft.scaffolding": "Scaffolding"
+

@@ -1,0 +1,7 @@
+20w46a (from 20w45a)
+
+Total: 604 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.player.freeze_hurt": "Player freezes"
+

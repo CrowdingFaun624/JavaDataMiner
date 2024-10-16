@@ -1,0 +1,24 @@
+12w34b (from 12w34a)
+
+Total: 6181 (+8, -8)
+
+Additions:
+	Added "/armor/witherarmor.png"
+	Added "12w34b"
+	Added "Minecraft 12w34b"
+	Added "Minecraft 12w34b ("
+	Added "Minecraft Minecraft 12w34b"
+	Added "Starting integrated minecraft server version 12w34b"
+	Added "Starting minecraft server version 12w34b"
+	Added "u00a7oDyed"
+
+Removals:
+	Removed "12w34a"
+	Removed "Boss health"
+	Removed "Minecraft 12w34a"
+	Removed "Minecraft 12w34a ("
+	Removed "Minecraft Minecraft 12w34a"
+	Removed "Starting integrated minecraft server version 12w34a"
+	Removed "Starting minecraft server version 12w34a"
+	Removed "u00a7du00a7oDyed"
+

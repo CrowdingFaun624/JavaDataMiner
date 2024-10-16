@@ -1,0 +1,13 @@
+c0.0.20a_01 (from c0.0.19a_06-2)
+
+Total: 164 (+3, -2)
+
+Additions:
+	Added "0.0.20a_01"
+	Added "Minecraft 0.0.20a_01"
+	Added "Select block"
+
+Removals:
+	Removed "0.0.19a_06"
+	Removed "Minecraft 0.0.19a_06"
+

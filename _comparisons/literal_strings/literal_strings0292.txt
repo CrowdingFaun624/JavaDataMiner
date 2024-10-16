@@ -1,0 +1,41 @@
+13w49a (from 13w48b)
+
+Total: 9876 (+22, -11)
+
+Additions:
+	Added "13w49a"
+	Added "Can't find the resource index file: "
+	Added "Caught error stitching, removing all assigned resourcepacks"
+	Added "Changing view distance to {}, from {}"
+	Added "Minecraft 13w49a"
+	Added "Minecraft 13w49a ("
+	Added "Outdated client! Please use 13w49a"
+	Added "Outdated server! I'm still on 13w49a"
+	Added "Starting integrated minecraft server version 13w49a"
+	Added "Unable to fit: %s - size: %dx%d - Maybe try a lowerresolution resourcepack?"
+	Added "Unable to parse resource index file: "
+	Added "Unsupported protocol: "
+	Added "assetIndex"
+	Added "hash"
+	Added "http"
+	Added "https"
+	Added "indexes/"
+	Added "minecraft:pack.mcmeta"
+	Added "nvidia"
+	Added "objects"
+	Added "title.oldgl1"
+	Added "title.oldgl2"
+
+Removals:
+	Removed "13w48b"
+	Removed "Minecraft 13w48b"
+	Removed "Minecraft 13w48b ("
+	Removed "Old graphics card detected; this may prevent you from"
+	Removed "Outdated client! Please use 13w48b"
+	Removed "Outdated server! I'm still on 13w48b"
+	Removed "Starting integrated minecraft server version 13w48b"
+	Removed "Too big view radius!"
+	Removed "Too small view radius!"
+	Removed "Unable to fit: %s - size: %dx%d - Maybe try a lowerresolution texturepack?"
+	Removed "playing in the far future as OpenGL 2.1 will be required."
+

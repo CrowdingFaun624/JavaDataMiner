@@ -1,0 +1,25 @@
+15w33c (from 15w33b)
+
+Total: 2549 (+16, -0)
+
+Additions:
+	Added "item.shield.black.name": "Black Shield"
+	Added "item.shield.blue.name": "Blue Shield"
+	Added "item.shield.brown.name": "Brown Shield"
+	Added "item.shield.cyan.name": "Cyan Shield"
+	Added "item.shield.gray.name": "Gray Shield"
+	Added "item.shield.green.name": "Green Shield"
+	Added "item.shield.lightBlue.name": "Light Blue Shield"
+	Added "item.shield.lime.name": "Lime Shield"
+	Added "item.shield.magenta.name": "Magenta Shield"
+	Added "item.shield.orange.name": "Orange Shield"
+	Added "item.shield.pink.name": "Pink Shield"
+	Added "item.shield.purple.name": "Purple Shield"
+	Added "item.shield.red.name": "Red Shield"
+	Added "item.shield.silver.name": "Light Gray Shield"
+	Added "item.shield.white.name": "White Shield"
+	Added "item.shield.yellow.name": "Yellow Shield"
+
+Changes:
+	Changed "commands.scoreboard.players.usage" from "/scoreboard players <set|add|remove|reset|list|enable|test|operation> ..." to "/scoreboard players <set|add|remove|reset|list|enable|test|operation|tag> ..."
+

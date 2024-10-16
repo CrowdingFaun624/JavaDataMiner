@@ -1,0 +1,11 @@
+1.4 (from 12w42b)
+
+Total: 12 (+0, -1)
+
+Type Additions:
+	Added type 0.3;1.0;stone;anvil;random.anvil_land;anvil with blocks:
+		anvil
+
+Removals:
+	Removed anvil from 1.0;1.0;stone
+

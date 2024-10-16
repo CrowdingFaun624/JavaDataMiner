@@ -1,0 +1,27 @@
+inf-20100413 (from inf-20100330)
+
+Total: 1199 (+11, -8)
+
+Additions:
+	Added "/ Counted: "
+	Added "/rain.png"
+	Added "All: "
+	Added "Entities"
+	Added "Failed to add entity "
+	Added "Generating level"
+	Added "Preparing chunks"
+	Added "Preparing lights"
+	Added "Skipping Entity with id "
+	Added "There's no such entity to remove: "
+	Added "Wrong location! "
+
+Removals:
+	Removed "/mob/creeper.png"
+	Removed "/mob/pig.png"
+	Removed "/mob/sheep.png"
+	Removed "/mob/skeleton.png"
+	Removed "/mob/spider.png"
+	Removed "/mob/zombie.png"
+	Removed "Loading chunks"
+	Removed "LocalPlayer"
+

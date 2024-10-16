@@ -1,0 +1,38 @@
+1.19_deep_dark_experimental_snapshot-1 (from 1.18.1)
+
+Total: 5187 (+32, -0)
+
+Additions:
+	Added "biome.minecraft.deep_dark": "Deep Dark"
+	Added "block.minecraft.reinforced_deepslate": "Reinforced Deepslate"
+	Added "block.minecraft.sculk": "Sculk"
+	Added "block.minecraft.sculk_catalyst": "Sculk Catalyst"
+	Added "block.minecraft.sculk_shrieker": "Sculk Shrieker"
+	Added "block.minecraft.sculk_vein": "Sculk Vein"
+	Added "commands.spreadplayers.failed.invalid.height": "Invalid maxHeight %s; expected higher than world minimum %s"
+	Added "effect.minecraft.darkness": "Darkness"
+	Added "enchantment.minecraft.swift_sneak": "Swift Sneak"
+	Added "entity.minecraft.warden": "Warden"
+	Added "item.minecraft.warden_spawn_egg": "Warden Spawn Egg"
+	Added "options.darknessEffectScale": "Darkness Effect"
+	Added "options.darknessEffectScale.tooltip": "Controls how dark the Darkness effect gets when a Warden or Sculk Shrieker gives it to you, but will not affect the fog distance."
+	Added "subtitles.entity.parrot.imitate.warden": "Parrot roars"
+	Added "subtitles.entity.warden.agitated": "Warden groans angrily"
+	Added "subtitles.entity.warden.ambient": "Warden whines"
+	Added "subtitles.entity.warden.angry": "Warden rages"
+	Added "subtitles.entity.warden.attack_impact": "Warden lands hit"
+	Added "subtitles.entity.warden.death": "Warden dies"
+	Added "subtitles.entity.warden.dig": "Warden digs"
+	Added "subtitles.entity.warden.emerge": "Warden emerges"
+	Added "subtitles.entity.warden.heartbeat": "Warden heart beats"
+	Added "subtitles.entity.warden.hurt": "Warden hurts"
+	Added "subtitles.entity.warden.listening": "Warden takes notice"
+	Added "subtitles.entity.warden.listening_angry": "Warden takes notice angrily"
+	Added "subtitles.entity.warden.nearby_close": "Warden approaches"
+	Added "subtitles.entity.warden.nearby_closer": "Warden advances"
+	Added "subtitles.entity.warden.nearby_closest": "Warden draws close"
+	Added "subtitles.entity.warden.roar": "Warden roars"
+	Added "subtitles.entity.warden.sniff": "Warden sniffs"
+	Added "subtitles.entity.warden.step": "Warden steps"
+	Added "subtitles.entity.warden.tendril_clicks": "Warden tendrils click"
+

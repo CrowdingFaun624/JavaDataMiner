@@ -1,0 +1,15 @@
+17w13b (from 17w13a)
+
+Total: 3045 (+5, -0)
+
+Additions:
+	Added "advancements.empty": "There doesn't seem to be anything here..."
+	Added "subtitles.entity.parrot.ambient": "Parrot talks"
+	Added "subtitles.entity.parrot.death": "Parrot dies"
+	Added "subtitles.entity.parrot.eats": "Parrot eats"
+	Added "subtitles.entity.parrot.hurts": "Parrot hurts"
+
+Changes:
+	Changed "commands.advancement.revoke.usage" from "/advancement grant <player> <advancement> [criterion]" to "/advancement revoke <player> <advancement> [criterion]"
+	Changed "commands.recipe.alreadyHave" from "Player %s already have a recipe for %s" to "Player %s already has a recipe for %s"
+

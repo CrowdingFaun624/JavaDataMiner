@@ -1,0 +1,14 @@
+14w27a (from 14w26c)
+
+Total: 1929 (+8, -0)
+
+Additions:
+	Added "entity.Rabbit.name": "Rabbit"
+	Added "item.muttonCooked.name": "Cooked Mutton"
+	Added "item.muttonRaw.name": "Raw Mutton"
+	Added "item.rabbitCooked.name": "Cooked Rabbit"
+	Added "item.rabbitFoot.name": "Rabbit's Foot"
+	Added "item.rabbitHide.name": "Rabbit Hide"
+	Added "item.rabbitRaw.name": "Raw Rabbit"
+	Added "item.rabbitStew.name": "Rabbit Stew"
+

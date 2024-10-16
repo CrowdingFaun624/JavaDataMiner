@@ -1,0 +1,20 @@
+12w30e (from 12w30d)
+
+Total: 5823 (+6, -6)
+
+Additions:
+	Added "12w30e"
+	Added "Minecraft 12w30e"
+	Added "Minecraft 12w30e ("
+	Added "Minecraft Minecraft 12w30e"
+	Added "Starting integrated minecraft server version 12w30e"
+	Added "Starting minecraft server version 12w30e"
+
+Removals:
+	Removed "12w30d"
+	Removed "Minecraft 12w30d"
+	Removed "Minecraft 12w30d ("
+	Removed "Minecraft Minecraft 12w30d"
+	Removed "Starting integrated minecraft server version 12w30d"
+	Removed "Starting minecraft server version 12w30d"
+

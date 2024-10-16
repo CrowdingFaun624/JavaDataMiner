@@ -1,0 +1,7 @@
+17w15a (from 17w14a)
+
+Total: 309 (+1, -0)
+
+Additions:
+	Added "subtitles.entity.imitates": "%s imitates %s"
+

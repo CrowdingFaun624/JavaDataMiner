@@ -1,0 +1,15 @@
+18w10b (from 18w10a)
+
+Total: 565 (+6, -1)
+
+Additions:
+	Added blue_dead_coral
+	Added pink_dead_coral
+	Added purple_dead_coral
+	Added red_dead_coral
+	Added shulker_box
+	Added yellow_dead_coral
+
+Removals:
+	Removed dead_coral
+

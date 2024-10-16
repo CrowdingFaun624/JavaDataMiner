@@ -1,0 +1,12 @@
+12w39a (from 12w38b)
+
+Total: 1002 (+3, -0)
+
+Additions:
+	Added "commands.xp.failure.widthdrawXp": "Cannot give player negative experience points"
+	Added "commands.xp.success.levels": "Given %d levels to %s"
+	Added "commands.xp.success.negative.levels": "Taken %d levels from %s"
+
+Changes:
+	Changed "commands.xp.usage" from "/xp <amount> [player]" to "/xp <amount> [player] OR /xp <amount>L [player]"
+

@@ -1,0 +1,23 @@
+19w46a (from 19w45b)
+
+Total: 4373 (+14, -0)
+
+Additions:
+	Added "advancements.adventure.honey_block_slide.description": "Jump into a Honey Block to break your fall"
+	Added "advancements.adventure.honey_block_slide.title": "Sticky Situation"
+	Added "advancements.husbandry.safely_harvest_honey.description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees"
+	Added "advancements.husbandry.safely_harvest_honey.title": "Bee Our Guest"
+	Added "advancements.husbandry.silk_touch_nest.description": "Move a Bee Nest, with 3 bees inside, using Silk Touch"
+	Added "advancements.husbandry.silk_touch_nest.title": "Total Beelocation"
+	Added "options.biomeBlendRadius.1": "OFF (Fastest)"
+	Added "options.biomeBlendRadius.11": "11x11 (Extreme)"
+	Added "options.biomeBlendRadius.13": "13x13 (Showoff)"
+	Added "options.biomeBlendRadius.15": "15x15 (Maximum)"
+	Added "options.biomeBlendRadius.3": "3x3 (Fast)"
+	Added "options.biomeBlendRadius.5": "5x5 (Normal)"
+	Added "options.biomeBlendRadius.7": "7x7 (High)"
+	Added "options.biomeBlendRadius.9": "9x9 (Very High)"
+
+Changes:
+	Changed "stat.minecraft.damage_blocked_by_shield" from "Damage Blocked By Shield" to "Damage Blocked by Shield"
+

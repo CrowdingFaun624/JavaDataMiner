@@ -1,0 +1,41 @@
+23w07a (from 23w06a)
+
+Total: 100 (+4, -0)
+
+Type Additions:
+	Added type CHERRY_LEAVES with blocks:
+		cherry_leaves
+	Added type CHERRY_SAPLING with blocks:
+		cherry_sapling
+	Added type CHERRY_WOOD with blocks:
+		cherry_button
+		cherry_door
+		cherry_fence
+		cherry_fence_gate
+		cherry_log
+		cherry_planks
+		cherry_pressure_plate
+		cherry_sign
+		cherry_slab
+		cherry_stairs
+		cherry_trapdoor
+		cherry_wall_sign
+		cherry_wood
+		stripped_cherry_log
+		stripped_cherry_wood
+	Added type CHERRY_WOOD_HANGING_SIGN with blocks:
+		cherry_hanging_sign
+		cherry_wall_hanging_sign
+	Added type DECORATED_POT with blocks:
+		decorated_pot
+	Added type PINK_PETALS with blocks:
+		pink_petals
+	Added type SUSPICIOUS_SAND with blocks:
+		suspicious_sand
+
+Additions:
+	Added torchflower_crop to CROP
+	Added torchflower to GRASS
+	Added potted_cherry_sapling to STONE
+	Added potted_torchflower to STONE
+

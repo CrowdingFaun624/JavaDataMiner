@@ -1,0 +1,20 @@
+a1.2.3_04 (from a1.2.3_02)
+
+Total: 1703 (+6, -6)
+
+Additions:
+	Added " with id "
+	Added "Adding player "
+	Added "Minecraft Alpha v1.2.3_04"
+	Added "Minecraft Alpha v1.2.3_04 ("
+	Added "Minecraft Minecraft Alpha v1.2.3_04"
+	Added "Minecraft: Minecraft Alpha v1.2.3_04n"
+
+Removals:
+	Removed "!"
+	Removed "Minecraft Alpha v1.2.3_02"
+	Removed "Minecraft Alpha v1.2.3_02 ("
+	Removed "Minecraft Minecraft Alpha v1.2.3_02"
+	Removed "Minecraft: Minecraft Alpha v1.2.3_02n"
+	Removed "REINSERTING "
+

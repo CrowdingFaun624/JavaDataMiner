@@ -1,0 +1,19 @@
+a1.2.5 (from a1.2.4_01)
+
+Total: 1706 (+5, -6)
+
+Additions:
+	Added "Minecraft Alpha v1.2.5"
+	Added "Minecraft Alpha v1.2.5 ("
+	Added "Minecraft Minecraft Alpha v1.2.5"
+	Added "Minecraft: Minecraft Alpha v1.2.5n"
+	Added "Player524"
+
+Removals:
+	Removed " with id "
+	Removed "Adding player "
+	Removed "Minecraft Alpha v1.2.4_01"
+	Removed "Minecraft Alpha v1.2.4_01 ("
+	Removed "Minecraft Minecraft Alpha v1.2.4_01"
+	Removed "Minecraft: Minecraft Alpha v1.2.4_01n"
+

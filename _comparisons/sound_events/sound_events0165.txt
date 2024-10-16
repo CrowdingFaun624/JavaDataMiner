@@ -1,0 +1,7 @@
+24w04a (from 24w03b)
+
+Total: 1555 (+1, -0)
+
+Additions:
+	Added "ARMADILLO_HURT_REDUCED": "entity.armadillo.hurt_reduced"
+

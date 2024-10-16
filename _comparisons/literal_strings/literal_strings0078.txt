@@ -1,0 +1,20 @@
+a1.0.8_01 (from a1.0.7)
+
+Total: 1605 (+8, -4)
+
+Additions:
+	Added "/mob/cow.png"
+	Added "Cow"
+	Added "Minecraft Alpha v1.0.8_01"
+	Added "Minecraft Alpha v1.0.8_01 ("
+	Added "Minecraft Minecraft Alpha v1.0.8_01"
+	Added "Minecraft: Minecraft Alpha v1.0.8_01n"
+	Added "mob.cow"
+	Added "mob.cowhurt"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.7"
+	Removed "Minecraft Alpha v1.0.7 ("
+	Removed "Minecraft Minecraft Alpha v1.0.7"
+	Removed "Minecraft: Minecraft Alpha v1.0.7n"
+

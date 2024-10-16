@@ -1,0 +1,7 @@
+19w13b (from 19w13a)
+
+Total: 487 (+1, -0)
+
+Additions:
+	Added "subtitles.block.bell.resonate": "Bell resonates"
+

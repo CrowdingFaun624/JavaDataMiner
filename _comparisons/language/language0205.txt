@@ -1,0 +1,14 @@
+16w36a (from 16w35a)
+
+Total: 2964 (+0, -0)
+
+Changes:
+	Changed "commands.spreadplayers.failure.players" from "Could not spread %s players around %s,%s (too many players for space - try using spread of at most %s)" to "Could not spread %s player(s) around %s,%s (too many players for space - try using spread of at most %s)"
+	Changed "commands.spreadplayers.failure.teams" from "Could not spread %s teams around %s,%s (too many players for space - try using spread of at most %s)" to "Could not spread %s team(s) around %s,%s (too many players for space - try using spread of at most %s)"
+	Changed "commands.spreadplayers.spreading.players" from "Spreading %s players %s blocks around %s,%s (min %s blocks apart)" to "Spreading %s player(s) %s blocks around %s,%s (min %s blocks apart)"
+	Changed "commands.spreadplayers.spreading.teams" from "Spreading %s teams %s blocks around %s,%s (min %s blocks apart)" to "Spreading %s team(s) %s blocks around %s,%s (min %s blocks apart)"
+	Changed "commands.spreadplayers.success.players" from "Successfully spread %s players around %s,%s" to "Successfully spread %s player(s) around %s,%s"
+	Changed "commands.spreadplayers.success.teams" from "Successfully spread %s teams around %s,%s" to "Successfully spread %s team(s) around %s,%s"
+	Changed "debug.pause_focus.off" from "PauseOnLostFocus: disabled" to "Pause on lost focus: disabled"
+	Changed "debug.pause_focus.on" from "PauseOnLostFocus: enabled" to "Pause on lost focus: enabled"
+

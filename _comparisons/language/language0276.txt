@@ -1,0 +1,11 @@
+18w30a (from 1.13)
+
+Total: 3909 (+2, -0)
+
+Additions:
+	Added "book.invalid.tag": "* Invalid book tag *"
+	Added "resourcePack.broken_assets": "BROKEN ASSETS DETECTED"
+
+Changes:
+	Changed "selectWorld.backupWarning" from "This world was last played in version %s; you are on snapshot %s. Please make a backup in case you experience world corruptions!" to "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!"
+

@@ -1,0 +1,9 @@
+1.RV-Pre1 (from 1.9.2)
+
+Total: 447 (+3, -0)
+
+Additions:
+	Added "item.ankle_monitor.warning"
+	Added "item.reality_vision.use"
+	Added "item.smarter_watch.notice"
+

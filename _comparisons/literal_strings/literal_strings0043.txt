@@ -1,0 +1,26 @@
+in-20100219 (from in-20100218)
+
+Total: 1251 (+20, -0)
+
+Additions:
+	Added " B"
+	Added "/gui/furnace.png"
+	Added "A "
+	Added "All inclusive!"
+	Added "BurnTime"
+	Added "CONFLICT @ "
+	Added "CookTime"
+	Added "Freaky!"
+	Added "Furnace"
+	Added "Lit: "
+	Added "Loved by millions!"
+	Added "Music by C418!"
+	Added "NP is not in P!"
+	Added "Notch <3 Ez!"
+	Added "Tell your friends!"
+	Added "Ultimate edition!"
+	Added "Uninflammable!"
+	Added "Water proof!"
+	Added "Whoa, dude!"
+	Added "You've got a brand new key!"
+

@@ -1,0 +1,20 @@
+in-20100128-2304 (from in-20100125-2)
+
+Total: 987 (+14, -0)
+
+Additions:
+	Added " is already occupied by "
+	Added " when adding "
+	Added "&i="
+	Added "/gui/crafting.png"
+	Added "/misc/gear.png"
+	Added "/misc/gearmiddle.png"
+	Added "?n="
+	Added "Crafting"
+	Added "Result"
+	Added "Setting items["
+	Added "Slot "
+	Added "] to "
+	Added "http://minecraft.net/"
+	Added "http://www.minecraft.net/"
+

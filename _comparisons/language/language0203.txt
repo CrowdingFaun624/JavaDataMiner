@@ -1,0 +1,24 @@
+16w33a (from 16w32b)
+
+Total: 2962 (+11, -0)
+
+Additions:
+	Added "subtitles.entity.elder_guardian.ambient": "Elder Guardian moans"
+	Added "subtitles.entity.elder_guardian.ambient.land": "Elder Guardian flaps"
+	Added "subtitles.entity.elder_guardian.attack": "Elder Guardian shoots"
+	Added "subtitles.entity.elder_guardian.curse": "Elder Guardian curses"
+	Added "subtitles.entity.elder_guardian.death": "Elder Guardian dies"
+	Added "subtitles.entity.elder_guardian.flop": "Elder Guardian flops"
+	Added "subtitles.entity.elder_guardian.hurt": "Elder Guardian hurts"
+	Added "subtitles.entity.zombie_villager.ambient": "Zombie Villager groans"
+	Added "subtitles.entity.zombie_villager.death": "Zombie Villager dies"
+	Added "subtitles.entity.zombie_villager.hurt": "Zombie Villager hurts"
+	Added "tile.bed.tooFarAway": "You may not rest now, the bed is too far away"
+
+Changes:
+	Changed "debug.cycle_renderdistance.help" from "F3 + F = Cycle renderdistance (Shift to inverse)" to "F3 + F = Cycle render distance (Shift to invert)"
+	Changed "debug.cycle_renderdistance.message" from "RenderDistance: %s" to "Render Distance: %s"
+	Changed "debug.help.message" from "Keybindings:" to "Key bindings:"
+	Changed "debug.reload_resourcepacks.help" from "F3 + T = Reload resourcepacks" to "F3 + T = Reload resource packs"
+	Changed "debug.reload_resourcepacks.message" from "Reloaded resourcepacks" to "Reloaded resource packs"
+

@@ -1,0 +1,10 @@
+b1.7 (from b1.6.6)
+
+Total: 96 (+4, -0)
+
+Additions:
+	Added 29:pistonStickyBase
+	Added 33:pistonBase
+	Added 34
+	Added 36
+

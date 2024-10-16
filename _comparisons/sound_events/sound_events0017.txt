@@ -1,0 +1,19 @@
+a1.2.0 (from a1.1.2_01)
+
+Total: 56 (+13, -0)
+
+Additions:
+	Added "mob.ghast.affectionate_scream"
+	Added "mob.ghast.charge"
+	Added "mob.ghast.death"
+	Added "mob.ghast.fireball"
+	Added "mob.ghast.moan"
+	Added "mob.ghast.scream"
+	Added "mob.zombiepig.zpig"
+	Added "mob.zombiepig.zpigangry"
+	Added "mob.zombiepig.zpigdeath"
+	Added "mob.zombiepig.zpighurt"
+	Added "portal.portal"
+	Added "portal.travel"
+	Added "portal.trigger"
+

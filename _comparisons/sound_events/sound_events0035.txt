@@ -1,0 +1,19 @@
+12w42b (from 12w42a)
+
+Total: 158 (+13, -0)
+
+Additions:
+	Added "mob.bat.death"
+	Added "mob.bat.hurt"
+	Added "mob.bat.idle"
+	Added "mob.witch.death"
+	Added "mob.witch.hurt"
+	Added "mob.witch.idle"
+	Added "mob.wither.death"
+	Added "mob.wither.hurt"
+	Added "mob.wither.idle"
+	Added "mob.wither.spawn"
+	Added "mob.zombie.convert"
+	Added "random.anvil_land"
+	Added "random.anvil_use"
+

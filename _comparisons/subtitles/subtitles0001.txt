@@ -1,0 +1,7 @@
+15w45a (from 15w44b)
+
+Total: 179 (+0, -0)
+
+Changes:
+	Changed "subtitles.block.fire.ambient" from "Fire cackles" to "Fire crackles"
+

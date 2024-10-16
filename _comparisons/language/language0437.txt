@@ -1,0 +1,28 @@
+22w45a (from 22w44a)
+
+Total: 5767 (+17, -0)
+
+Additions:
+	Added "argument.gamemode.invalid": "Unknown gamemode: %s"
+	Added "block.minecraft.bamboo_block": "Block of Bamboo"
+	Added "block.minecraft.stripped_bamboo_block": "Block of Stripped Bamboo"
+	Added "chat.tag.system_single_player": "Server message."
+	Added "itemGroup.coloredBlocks": "Colored Blocks"
+	Added "itemGroup.foodAndDrink": "Food & Drinks"
+	Added "itemGroup.ingredients": "Ingredients"
+	Added "itemGroup.op": "Operator Utilities"
+	Added "lanServer.port": "Port number"
+	Added "lanServer.port.invalid": "Not a valid port.\nLeave the edit box empty or enter a number between 1024 and 65535."
+	Added "lanServer.port.unavailable": "Port not available.\nLeave the edit box empty or enter a different number between 1024 and 65535."
+	Added "options.operatorItemsTab": "Operator Items Tab"
+	Added "subtitles.chiseled_bookshelf.insert": "Book placed"
+	Added "subtitles.chiseled_bookshelf.insert_enchanted": "Enchanted book placed"
+	Added "subtitles.chiseled_bookshelf.take": "Book taken"
+	Added "subtitles.chiseled_bookshelf.take_enchanted": "Enchanted book taken"
+	Added "subtitles.entity.enderman.scream": "Enderman screams"
+
+Changes:
+	Changed "gamerule.lavaSourceConversion" from "Lave converts to source" to "Lava converts to source"
+	Changed "gui.chatReport.comments" from "Comments edit box" to "Comments"
+	Changed "gui.chatSelection.fold" from "%s messages hidden" to "%s message(s) hidden"
+

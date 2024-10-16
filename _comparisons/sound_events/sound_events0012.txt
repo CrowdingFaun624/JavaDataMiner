@@ -1,0 +1,16 @@
+a1.0.3 (from a1.0.2_02)
+
+Total: 34 (+10, -0)
+
+Additions:
+	Added "ambient.cave.cave"
+	Added "mob.creeper"
+	Added "mob.creeperdeath"
+	Added "mob.skeleton"
+	Added "mob.skeletonhurt"
+	Added "mob.spider"
+	Added "mob.spiderdeath"
+	Added "mob.zombie"
+	Added "mob.zombiedeath"
+	Added "mob.zombiehurt"
+

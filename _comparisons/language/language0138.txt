@@ -1,0 +1,20 @@
+14w26a (from 14w25b)
+
+Total: 1921 (+11, -0)
+
+Additions:
+	Added "commands.generic.parameter.invalid": "'%s' is not a valid parameter"
+	Added "commands.replaceitem.block.usage": "/replaceitem block [x] [y] [z] <slot> <item> [amount] [data] [dataTag]"
+	Added "commands.replaceitem.entity.usage": "/replaceitem entity <selector> <slot> <item> [amount] [data] [dataTag]"
+	Added "commands.replaceitem.failed": "Could not replace slot %d with %d * %s"
+	Added "commands.replaceitem.noContainer": "Block at %d, %d, %d is not a container"
+	Added "commands.replaceitem.success": "Replaced slot %d with %d * %s"
+	Added "commands.replaceitem.tagError": "Data tag parsing failed: %s"
+	Added "commands.replaceitem.usage": "/replaceitem <entity|block> ..."
+	Added "commands.worldborder.add.usage": "/worldborder add <sizeInBlocks> [timeInSeconds]"
+	Added "createWorld.customize.custom.useMonuments": "Ocean Monuments"
+	Added "generator.debug_all_block_states": "Debug Mode"
+
+Changes:
+	Changed "commands.scoreboard.teams.empty.usage" from "/scoreboard teams empty" to "/scoreboard teams empty <team>"
+

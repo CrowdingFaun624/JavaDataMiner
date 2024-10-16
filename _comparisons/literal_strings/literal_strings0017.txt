@@ -1,0 +1,29 @@
+c0.27_st (from c0.25_05_st)
+
+Total: 364 (+13, -8)
+
+Additions:
+	Added "("
+	Added ")"
+	Added ", "
+	Added "/mob/spider.png"
+	Added "/particles.png"
+	Added "/rain.png"
+	Added "0.27   SURVIVAL TEST"
+	Added "Limit framerate: "
+	Added "Minecraft 0.27   SURVIVAL TEST"
+	Added "fullscreen"
+	Added "limitFramerate"
+	Added "limitFramerate:"
+	Added "spider"
+
+Removals:
+	Removed "/item/sign.png"
+	Removed "0.25_05   SURVIVAL TEST"
+	Removed "Each line can"
+	Removed "Minecraft 0.25_05   SURVIVAL TEST"
+	Removed "This is a test"
+	Removed "be 15 chars!"
+	Removed "minecraft.net"
+	Removed "of the signs."
+

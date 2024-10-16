@@ -1,0 +1,7 @@
+inf-20100630-1 (from inf-20100629)
+
+Total: 9 (+0, -1)
+
+Removals:
+	Removed 1 from 1;1.0;1.0;stone
+

@@ -1,0 +1,7 @@
+1.16-pre1 (from 20w22a)
+
+Total: 592 (+0, -0)
+
+Changes:
+	Changed "subtitles.item.axe.strip" from "Debarking log" to "Axe scrapes"
+

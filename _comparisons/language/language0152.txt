@@ -1,0 +1,18 @@
+1.8.1-pre1 (from 1.8)
+
+Total: 2523 (+4, -1)
+
+Additions:
+	Added "commands.give.block.notFound": "There is no such block with name %d"
+	Added "commands.give.item.notFound": "There is no such item with name %d"
+	Added "entity.ThrownPotion.name": "Potion"
+	Added "tile.pumpkinStem.name": "Pumpkin Stem"
+
+Removals:
+	Removed "commands.give.notFound": "There is no such item with name %d"
+
+Changes:
+	Changed "commands.clone.usage" from "/clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]" to "/clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]"
+	Changed "commands.debug.usage" from "/debug <start|stop|chunk> [<x> <y> <z>]" to "/debug <start|stop>"
+	Changed "commands.effect.usage" from "/effect <player> <effect> [seconds] [amplifier] [hideParticles]" to "/effect <player> <effect> [seconds] [amplifier] [hideParticles] OR /effect <player> clear"
+

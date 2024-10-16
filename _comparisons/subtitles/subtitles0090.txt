@@ -1,0 +1,14 @@
+1.20-pre1 (from 23w18a)
+
+Total: 740 (+2, -0)
+
+Additions:
+	Added "subtitles.entity.sniffer.egg_crack": "Sniffer Egg cracks"
+	Added "subtitles.entity.sniffer.egg_hatch": "Sniffer Egg hatches"
+
+Changes:
+	Changed "subtitles.chiseled_bookshelf.insert_enchanted" from "Enchanted book placed" to "Enchanted Book placed"
+	Changed "subtitles.chiseled_bookshelf.take_enchanted" from "Enchanted book taken" to "Enchanted Book taken"
+	Changed "subtitles.entity.leash_knot.break" from "Leash knot breaks" to "Leash Knot breaks"
+	Changed "subtitles.entity.leash_knot.place" from "Leash knot tied" to "Leash Knot tied"
+

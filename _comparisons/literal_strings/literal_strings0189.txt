@@ -1,0 +1,21 @@
+12w30b (from 12w30a)
+
+Total: 5820 (+7, -6)
+
+Additions:
+	Added "12w30b"
+	Added "Minecraft 12w30b"
+	Added "Minecraft 12w30b ("
+	Added "Minecraft Minecraft 12w30b"
+	Added "Starting integrated minecraft server version 12w30b"
+	Added "Starting minecraft server version 12w30b"
+	Added "applet"
+
+Removals:
+	Removed "12w30a"
+	Removed "Minecraft 12w30a"
+	Removed "Minecraft 12w30a ("
+	Removed "Minecraft Minecraft 12w30a"
+	Removed "Starting integrated minecraft server version 12w30a"
+	Removed "Starting minecraft server version 12w30a"
+

@@ -1,0 +1,41 @@
+20w20a (from 20w19a)
+
+Total: 4693 (+26, -2)
+
+Additions:
+	Added "advancements.husbandry.netherite_hoe.description": "Use a Netherite ingot to upgrade a hoe, and then reevaluate your life choices"
+	Added "advancements.husbandry.netherite_hoe.title": "Serious Dedication"
+	Added "advancements.nether.charge_respawn_anchor.description": "Charge a Respawn Anchor to the maximum"
+	Added "advancements.nether.charge_respawn_anchor.title": "Not Quite \"Nine\" Lives"
+	Added "advancements.nether.distract_piglin.description": "Distract Piglins with gold"
+	Added "advancements.nether.distract_piglin.title": "Oh Shiny"
+	Added "advancements.nether.explore_nether.description": "Explore all Nether biomes"
+	Added "advancements.nether.explore_nether.title": "Hot Tourist Destinations"
+	Added "advancements.nether.find_bastion.description": "Enter a Bastion Remnant"
+	Added "advancements.nether.find_bastion.title": "Those Were the Days"
+	Added "advancements.nether.loot_bastion.description": "Loot a chest in a Bastion Remnant"
+	Added "advancements.nether.loot_bastion.title": "War Pigs"
+	Added "advancements.nether.netherite_armor.description": "Get a full suit of Netherite armor"
+	Added "advancements.nether.netherite_armor.title": "Cover Me in Debris"
+	Added "advancements.nether.obtain_ancient_debris.description": "Obtain Ancient Debris"
+	Added "advancements.nether.obtain_ancient_debris.title": "Hidden in the Depths"
+	Added "advancements.nether.obtain_crying_obsidian.description": "Obtain Crying Obsidian"
+	Added "advancements.nether.obtain_crying_obsidian.title": "Who Is Cutting Onions?"
+	Added "advancements.nether.ride_strider.description": "Ride a Strider with a Warped Fungus on a Stick"
+	Added "advancements.nether.ride_strider.title": "This Boat Has Legs"
+	Added "advancements.nether.use_lodestone.description": "Use a Compass on a Lodestone"
+	Added "advancements.nether.use_lodestone.title": "Country Lode, Take Me Home"
+	Added "debug.gamemodes.error": "Unable to open game mode switcher, no permission"
+	Added "debug.gamemodes.help": "F3 + F4 = Open game mode switcher"
+	Added "debug.gamemodes.press_f4": "F4"
+	Added "debug.gamemodes.select_next": "Next"
+
+Removals:
+	Removed "advancements.husbandry.break_diamond_hoe.description": "Completely use up a diamond hoe, and then reevaluate your life choices"
+	Removed "advancements.husbandry.break_diamond_hoe.title": "Serious Dedication"
+
+Changes:
+	Changed "advancements.adventure.bullseye.description" from "Hit the bullseye of a Target block with an arrow" to "Hit the bullseye of a Target block from at least 30 meters away"
+	Changed "advancements.story.deflect_arrow.description" from "Deflect an arrow or trident with a shield" to "Deflect a projectile with a shield"
+	Changed "advancements.story.form_obsidian.description" from "Form and mine a block of obsidian" to "Obtain a block of obsidian"
+

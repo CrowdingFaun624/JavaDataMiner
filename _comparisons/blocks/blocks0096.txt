@@ -1,0 +1,11 @@
+18w11a (from 18w10d)
+
+Total: 568 (+5, -0)
+
+Additions:
+	Added blue_coral_fan
+	Added pink_coral_fan
+	Added purple_coral_fan
+	Added red_coral_fan
+	Added yellow_coral_fan
+

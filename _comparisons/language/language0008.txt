@@ -1,0 +1,10 @@
+b1.6.5 (from b1.6.4)
+
+Total: 549 (+1, -1)
+
+Additions:
+	Added "options.framerateLimit": "Framerate cap"
+
+Removals:
+	Removed "options.limitFramerate": "Limit Framerate"
+

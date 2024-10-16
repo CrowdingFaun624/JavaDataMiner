@@ -1,0 +1,50 @@
+22w11a (from 22w13oneblockatatime)
+
+Total: 87 (+19, -1)
+
+Type Additions:
+	Added type FROGLIGHT with blocks:
+		ochre_froglight
+		pearlescent_froglight
+		verdant_froglight
+	Added type FROGSPAWN with blocks:
+		frogspawn
+	Added type MANGROVE_ROOTS with blocks:
+		mangrove_roots
+	Added type MUD with blocks:
+		mud
+	Added type MUDDY_MANGROVE_ROOTS with blocks:
+		muddy_mangrove_roots
+	Added type MUD_BRICKS with blocks:
+		mud_brick_stairs
+		mud_brick_wall
+		mud_bricks
+	Added type PACKED_MUD with blocks:
+		packed_mud
+	Added type SCULK_SHRIEKER with blocks:
+		sculk_shrieker
+
+Additions:
+	Added mangrove_leaves to GRASS
+	Added mangrove_propagule to GRASS
+	Added mud_brick_slab to STONE
+	Added potted_mangrove_propagule to STONE
+	Added mangrove_button to WOOD
+	Added mangrove_door to WOOD
+	Added mangrove_fence to WOOD
+	Added mangrove_fence_gate to WOOD
+	Added mangrove_log to WOOD
+	Added mangrove_planks to WOOD
+	Added mangrove_pressure_plate to WOOD
+	Added mangrove_sign to WOOD
+	Added mangrove_slab to WOOD
+	Added mangrove_stairs to WOOD
+	Added mangrove_trapdoor to WOOD
+	Added mangrove_wall_sign to WOOD
+	Added mangrove_wood to WOOD
+	Added stripped_mangrove_log to WOOD
+	Added stripped_mangrove_wood to WOOD
+
+Removals:
+	Removed generic_item_block from STONE
+

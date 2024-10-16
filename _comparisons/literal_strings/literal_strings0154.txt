@@ -1,0 +1,16 @@
+1.0.0-rc2-3 (from 1.0.0-rc2-2)
+
+Total: 3518 (+4, -4)
+
+Additions:
+	Added "Minecraft Minecraft RC2"
+	Added "Minecraft RC2"
+	Added "Minecraft RC2 ("
+	Added "Minecraft: Minecraft RC2n"
+
+Removals:
+	Removed "Minecraft Minecraft RC1"
+	Removed "Minecraft RC1"
+	Removed "Minecraft RC1 ("
+	Removed "Minecraft: Minecraft RC1n"
+

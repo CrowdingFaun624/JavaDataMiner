@@ -1,0 +1,15 @@
+19w41a (from 19w40a)
+
+Total: 23 (+2, -1)
+
+Type Additions:
+	Added type HONEY_BLOCK with blocks:
+		honey_block
+
+Additions:
+	Added honeycomb_block to CORAL_BLOCK
+	Added beehive to WOOD
+
+Removals:
+	Removed bee_hive from WOOD
+

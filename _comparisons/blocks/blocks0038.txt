@@ -1,0 +1,9 @@
+12w25a (from 12w24a)
+
+Total: 136 (+3, -0)
+
+Additions:
+	Added 134:stairsWoodSpruce
+	Added 135:stairsWoodBirch
+	Added 136:stairsWoodJungle
+

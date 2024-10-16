@@ -1,0 +1,36 @@
+20w07a (from 20w06a)
+
+Total: 914 (+18, -0)
+
+Additions:
+	Added "HOGLIN_AMBIENT": "entity.hoglin.ambient"
+	Added "HOGLIN_ANGRY": "entity.hoglin.angry"
+	Added "HOGLIN_ATTACK": "entity.hoglin.attack"
+	Added "HOGLIN_DEATH": "entity.hoglin.death"
+	Added "HOGLIN_HURT": "entity.hoglin.hurt"
+	Added "HOGLIN_RETREAT": "entity.hoglin.retreat"
+	Added "HOGLIN_STEP": "entity.hoglin.step"
+	Added "PIGLIN_ADMIRING_ITEM": "entity.piglin.admiring_item"
+	Added "PIGLIN_AMBIENT": "entity.piglin.ambient"
+	Added "PIGLIN_ANGRY": "entity.piglin.angry"
+	Added "PIGLIN_CELEBRATE": "entity.piglin.celebrate"
+	Added "PIGLIN_CONVERTED_TO_ZOMBIFIED": "entity.piglin.converted_to_zombified"
+	Added "PIGLIN_DEATH": "entity.piglin.death"
+	Added "PIGLIN_HURT": "entity.piglin.hurt"
+	Added "PIGLIN_JEALOUS": "entity.piglin.jealous"
+	Added "PIGLIN_RETREAT": "entity.piglin.retreat"
+	Added "PIGLIN_STEP": "entity.piglin.step"
+	Added "SNOW_GOLEM_SHEAR": "entity.snow_golem.shear"
+
+Changes:
+	Changed "SOUL_SAND_BREAK" from "block.soul_sand.break" to "block.soul_sand_break"
+	Changed "SOUL_SAND_FALL" from "block.soul_sand.fall" to "block.soul_sand_fall"
+	Changed "SOUL_SAND_HIT" from "block.soul_sand.hit" to "block.soul_sand_hit"
+	Changed "SOUL_SAND_PLACE" from "block.soul_sand.place" to "block.soul_sand_place"
+	Changed "SOUL_SAND_STEP" from "block.soul_sand.step" to "block.soul_sand_step"
+	Changed "SOUL_SOIL_BREAK" from "block.soul_soil.break" to "block.soul_soil_break"
+	Changed "SOUL_SOIL_FALL" from "block.soul_soil.fall" to "block.soul_soil_fall"
+	Changed "SOUL_SOIL_HIT" from "block.soul_soil.hit" to "block.soul_soil_hit"
+	Changed "SOUL_SOIL_PLACE" from "block.soul_soil.place" to "block.soul_soil_place"
+	Changed "SOUL_SOIL_STEP" from "block.soul_soil.step" to "block.soul_soil_step"
+

@@ -1,0 +1,16 @@
+23w33a (from 23w32a)
+
+Total: 1485 (+10, -0)
+
+Additions:
+	Added "SPONGE_BREAK": "block.sponge.break"
+	Added "SPONGE_FALL": "block.sponge.fall"
+	Added "SPONGE_HIT": "block.sponge.hit"
+	Added "SPONGE_PLACE": "block.sponge.place"
+	Added "SPONGE_STEP": "block.sponge.step"
+	Added "WET_SPONGE_BREAK": "block.wet_sponge.break"
+	Added "WET_SPONGE_FALL": "block.wet_sponge.fall"
+	Added "WET_SPONGE_HIT": "block.wet_sponge.hit"
+	Added "WET_SPONGE_PLACE": "block.wet_sponge.place"
+	Added "WET_SPONGE_STEP": "block.wet_sponge.step"
+

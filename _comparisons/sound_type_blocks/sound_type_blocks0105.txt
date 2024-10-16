@@ -1,0 +1,16 @@
+18w44a (from 18w43c)
+
+Total: 16 (+10, -0)
+
+Additions:
+	Added bell to 0.3;1.0;anvil
+	Added blast_furnace to 1.0;1.0;stone
+	Added grindstone to 1.0;1.0;stone
+	Added smoker to 1.0;1.0;stone
+	Added stonecutter to 1.0;1.0;stone
+	Added barrel to 1.0;1.0;wood
+	Added cartography_table to 1.0;1.0;wood
+	Added fletching_table to 1.0;1.0;wood
+	Added lectern to 1.0;1.0;wood
+	Added smithing_table to 1.0;1.0;wood
+

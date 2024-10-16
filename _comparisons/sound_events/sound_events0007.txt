@@ -1,0 +1,7 @@
+inf-20100316 (from inf-20100313)
+
+Total: 19 (+1, -0)
+
+Additions:
+	Added "random.pop"
+

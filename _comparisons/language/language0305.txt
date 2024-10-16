@@ -1,0 +1,32 @@
+3D Shareware v1.34 (from 19w13b)
+
+Total: 4308 (+22, -0)
+
+Additions:
+	Added "death.attack.nightmare": "%1$s was too soft for this world"
+	Added "death.attack.nightmare.player": "%1$s was too soft for this world (%2$s helped)"
+	Added "demo.help.nag1": "Please consider registering this game"
+	Added "demo.help.nag2": "to gain access to full episodes and"
+	Added "demo.help.nag3": "all weapons!"
+	Added "feedback.line1": "Ideas? Bugs? Praises? Send us a postcard!"
+	Added "feedback.line2": "Our address: Mojang AB, S\u00f6der M\u00e4larstrand 43, 118 25 Stockholm, Sweden"
+	Added "item.key.tooltip": "Opens %s doors"
+	Added "item.minecraft.3d": "3D"
+	Added "item.minecraft.blue_key": "Blue Key"
+	Added "item.minecraft.red_key": "Red Key"
+	Added "item.minecraft.yellow_key": "Yellow Key"
+	Added "key.boss_mode": "Boss Mode"
+	Added "key.decrease_view": "Decrease screen size"
+	Added "key.increase_view": "Increase screen size"
+	Added "menu.modem_play": "ModemPlay(TM)"
+	Added "menu.modem_played1": "Blip blop"
+	Added "menu.modem_played2": "Nej!"
+	Added "menu.select_episode": "Select episode"
+	Added "ui.next_disk.contents": "Insert disc %s into drive A and press ENTER"
+	Added "ui.next_disk.title": "Next disc required"
+	Added "ui.next_disk.wrong_contents": "I said ENTER!"
+
+Changes:
+	Changed "demo.help.buy" from "Purchase Now!" to "Open registration form"
+	Changed "demo.help.title" from "Minecraft Demo Mode" to "MineCraft Shareware"
+

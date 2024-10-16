@@ -1,0 +1,55 @@
+21w08a (from 21w07a)
+
+Total: 76 (+2, -17)
+
+Type Additions:
+	Added type DEEPSLATE with blocks:
+		cobbled_deepslate
+		cobbled_deepslate_stairs
+		cobbled_deepslate_wall
+		deepslate
+		deepslate_diamond_ore
+		deepslate_gold_ore
+		deepslate_iron_ore
+		deepslate_lapis_ore
+		deepslate_redstone_ore
+	Added type DEEPSLATE_BRICKS with blocks:
+		chiseled_deepslate
+		deepslate_brick_slab
+		deepslate_brick_stairs
+		deepslate_brick_wall
+		deepslate_bricks
+	Added type DEEPSLATE_TILES with blocks:
+		deepslate_tile_slab
+		deepslate_tile_stairs
+		deepslate_tile_wall
+		deepslate_tiles
+	Added type POLISHED_DEEPSLATE with blocks:
+		polished_deepslate
+		polished_deepslate_slab
+		polished_deepslate_stairs
+		polished_deepslate_wall
+
+Additions:
+	Added smooth_basalt to BASALT
+	Added cobbled_deepslate_slab to STONE
+
+Removals:
+	Removed chiseled_grimstone from STONE
+	Removed grimstone from STONE
+	Removed grimstone_brick_slab from STONE
+	Removed grimstone_brick_stairs from STONE
+	Removed grimstone_brick_wall from STONE
+	Removed grimstone_bricks from STONE
+	Removed grimstone_slab from STONE
+	Removed grimstone_stairs from STONE
+	Removed grimstone_tile_slab from STONE
+	Removed grimstone_tile_stairs from STONE
+	Removed grimstone_tile_wall from STONE
+	Removed grimstone_tiles from STONE
+	Removed grimstone_wall from STONE
+	Removed polished_grimstone from STONE
+	Removed polished_grimstone_slab from STONE
+	Removed polished_grimstone_stairs from STONE
+	Removed polished_grimstone_wall from STONE
+

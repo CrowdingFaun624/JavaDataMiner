@@ -1,0 +1,10 @@
+21w14a (from 21w13a)
+
+Total: 76 (+4, -0)
+
+Additions:
+	Added waxed_oxidized_copper to COPPER
+	Added waxed_oxidized_cut_copper to COPPER
+	Added waxed_oxidized_cut_copper_slab to COPPER
+	Added waxed_oxidized_cut_copper_stairs to COPPER
+

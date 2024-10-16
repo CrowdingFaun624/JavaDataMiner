@@ -1,0 +1,12 @@
+20w14a (from 20w14infinite)
+
+Total: 741 (+0, -6)
+
+Removals:
+	Removed ant
+	Removed book_box
+	Removed cursor
+	Removed neither_portal
+	Removed netherite_stairs
+	Removed zone
+

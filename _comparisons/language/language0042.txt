@@ -1,0 +1,21 @@
+12w34a (from 12w32a)
+
+Total: 968 (+15, -0)
+
+Additions:
+	Added "death.wither": "%1$s withered away"
+	Added "item.carrotGolden.name": "Golden Carrot"
+	Added "item.carrots.name": "Carrots"
+	Added "item.emptyMap.name": "Empty Map"
+	Added "item.flowerPot.name": "Flower Pot"
+	Added "item.frame.name": "Item Frame"
+	Added "item.potato.name": "Potato"
+	Added "item.potatoBaked.name": "Baked Potato"
+	Added "item.potatoPoisonous.name": "Poisonous Potato"
+	Added "potion.wither": "Wither"
+	Added "potion.wither.postfix": "Potion of Decay"
+	Added "tile.carrots.name": "Carrots"
+	Added "tile.cobbleWall.mossy.name": "Mossy Cobblestone Wall"
+	Added "tile.cobbleWall.normal.name": "Cobblestone Wall"
+	Added "tile.potatoes.name": "Potatoes"
+

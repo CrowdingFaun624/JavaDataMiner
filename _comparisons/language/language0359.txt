@@ -1,0 +1,12 @@
+20w29a (from 20w28a)
+
+Total: 4774 (+1, -0)
+
+Additions:
+	Added "argument.angle.incomplete": "Incomplete (expected 1 angle)"
+
+Changes:
+	Changed "commands.setworldspawn.success" from "Set the world spawn point to %s, %s, %s" to "Set the world spawn point to %s, %s, %s [%s]"
+	Changed "commands.spawnpoint.success.multiple" from "Set spawn point to %s, %s, %s in %s for %s players" to "Set spawn point to %s, %s, %s [%s] in %s for %s players"
+	Changed "commands.spawnpoint.success.single" from "Set spawn point to %s, %s, %s in %s for %s" to "Set spawn point to %s, %s, %s [%s] in %s for %s"
+

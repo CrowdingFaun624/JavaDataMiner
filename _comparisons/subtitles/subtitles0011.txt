@@ -1,0 +1,7 @@
+16w35a (from 16w33a)
+
+Total: 275 (+0, -0)
+
+Changes:
+	Changed "subtitles.entity.lightning.impact" from "Lighting strikes" to "Lightning strikes"
+

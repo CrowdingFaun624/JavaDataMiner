@@ -1,0 +1,19 @@
+20w10a (from 20w09a)
+
+Total: 927 (+13, -0)
+
+Additions:
+	Added "AMBIENT_CRIMSON_FOREST_ADDITIONS": "ambient.crimson_forest.additions"
+	Added "AMBIENT_CRIMSON_FOREST_LOOP": "ambient.crimson_forest.loop"
+	Added "AMBIENT_CRIMSON_FOREST_MOOD": "ambient.crimson_forest.mood"
+	Added "AMBIENT_NETHER_WASTES_ADDITIONS": "ambient.nether_wastes.additions"
+	Added "AMBIENT_NETHER_WASTES_LOOP": "ambient.nether_wastes.loop"
+	Added "AMBIENT_NETHER_WASTES_MOOD": "ambient.nether_wastes.mood"
+	Added "AMBIENT_SOUL_SAND_VALLEY_ADDITIONS": "ambient.soul_sand_valley.additions"
+	Added "AMBIENT_SOUL_SAND_VALLEY_LOOP": "ambient.soul_sand_valley.loop"
+	Added "AMBIENT_SOUL_SAND_VALLEY_MOOD": "ambient.soul_sand_valley.mood"
+	Added "AMBIENT_WARPED_FOREST_ADDITIONS": "ambient.warped_forest.additions"
+	Added "AMBIENT_WARPED_FOREST_LOOP": "ambient.warped_forest.loop"
+	Added "AMBIENT_WARPED_FOREST_MOOD": "ambient.warped_forest.mood"
+	Added "SMITHING_TABLE_USE": "block.smithing_table.use"
+

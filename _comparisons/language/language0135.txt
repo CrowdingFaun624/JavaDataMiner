@@ -1,0 +1,19 @@
+14w19a (from 14w18b)
+
+Total: 1899 (+10, -0)
+
+Additions:
+	Added "commands.worldborder.damage.amount.success": "Set world border damage amount to %s per block (from %s per block)"
+	Added "commands.worldborder.damage.amount.usage": "/worldborder damage amount <damagePerBlock>"
+	Added "commands.worldborder.damage.buffer.success": "Set world border damage buffer to %s blocks (from %s blocks)"
+	Added "commands.worldborder.damage.buffer.usage": "/worldborder damage buffer <sizeInBlocks>"
+	Added "commands.worldborder.damage.usage": "/worldborder damage <buffer|amount>"
+	Added "commands.worldborder.warning.distance.success": "Set world border warning to %s blocks away (from %s blocks)"
+	Added "commands.worldborder.warning.distance.usage": "/worldborder warning distance <blocks>"
+	Added "commands.worldborder.warning.time.success": "Set world border warning to %s seconds away (from %s seconds)"
+	Added "commands.worldborder.warning.time.usage": "/worldborder warning time <seconds>"
+	Added "commands.worldborder.warning.usage": "/worldborder warning <time|distance>"
+
+Changes:
+	Changed "commands.worldborder.usage" from "/worldborder <set|center>" to "/worldborder <set|center|damage|warning>"
+

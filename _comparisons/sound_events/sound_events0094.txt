@@ -1,0 +1,22 @@
+19w03a (from 19w02a)
+
+Total: 735 (+16, -0)
+
+Additions:
+	Added "block.barrel.close"
+	Added "block.barrel.open"
+	Added "block.blastfurnace.fire_crackle"
+	Added "block.composter.empty"
+	Added "block.composter.fill"
+	Added "block.composter.fill_success"
+	Added "block.composter.ready"
+	Added "block.crop.break"
+	Added "block.nether_wart.break"
+	Added "block.smoker.smoke"
+	Added "block.sweet_berry_bush.break"
+	Added "block.sweet_berry_bush.place"
+	Added "entity.player.hurt_sweet_berry_bush"
+	Added "item.crop.plant"
+	Added "item.nether_wart.plant"
+	Added "item.sweet_berries.pick_from_bush"
+

@@ -1,0 +1,16 @@
+b1.0.2 (from b1.0_01)
+
+Total: 1910 (+4, -4)
+
+Additions:
+	Added "Minecraft Beta 1.0.2"
+	Added "Minecraft Beta 1.0.2 ("
+	Added "Minecraft Minecraft Beta 1.0.2"
+	Added "Minecraft: Minecraft Beta 1.0.2n"
+
+Removals:
+	Removed "Minecraft Beta 1.0_01"
+	Removed "Minecraft Beta 1.0_01 ("
+	Removed "Minecraft Minecraft Beta 1.0_01"
+	Removed "Minecraft: Minecraft Beta 1.0_01n"
+

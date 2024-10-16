@@ -1,0 +1,12 @@
+1.7.2 (from 1.7.1)
+
+Total: 1595 (+3, -1)
+
+Additions:
+	Added "$o": "Play Demo World"
+	Added "tile.stainedGlass.name": "Stained Glass"
+	Added "tile.thinStainedGlass.name": "Stained Glass Pane"
+
+Removals:
+	Removed "menu.playdemo": "Play Demo World"
+

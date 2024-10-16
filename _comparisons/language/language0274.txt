@@ -1,0 +1,14 @@
+1.13-pre10 (from 1.13-pre9)
+
+Total: 3901 (+5, -0)
+
+Additions:
+	Added "optimizeWorld.confirm.description": "This will attempt to optimize your world by making sure all data is stored in the most recent game format. This can take a very long time, depending on your world. Once done, your world may play faster but will no longer be compatible with older versions of the game. Are you sure you wish to proceed?"
+	Added "optimizeWorld.confirm.title": "Optimize world"
+	Added "optimizeWorld.stage.upgrading": "Upgrading all chunks..."
+	Added "optimizeWorld.title": "Optimizing World '%s'"
+	Added "selectWorld.edit.optimize": "Optimize World"
+
+Changes:
+	Changed "options.fullscreen.resolution" from "Fullscreen resolution" to "Fullscreen Resolution"
+

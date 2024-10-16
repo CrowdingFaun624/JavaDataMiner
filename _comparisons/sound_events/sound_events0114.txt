@@ -1,0 +1,10 @@
+20w12a (from 20w11a)
+
+Total: 933 (+4, -0)
+
+Additions:
+	Added "RESPAWN_ANCHOR_AMBIENT": "block.respawn_anchor.ambient"
+	Added "RESPAWN_ANCHOR_CHARGE": "block.respawn_anchor.charge"
+	Added "RESPAWN_ANCHOR_DEPLETE": "block.respawn_anchor.deplete"
+	Added "RESPAWN_ANCHOR_SET_SPAWN": "block.respawn_anchor.set_spawn"
+

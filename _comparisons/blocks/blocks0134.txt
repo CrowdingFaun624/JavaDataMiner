@@ -1,0 +1,85 @@
+20w45a (from 1.16.5)
+
+Total: 838 (+76, -1)
+
+Additions:
+	Added amethyst_block
+	Added amethyst_cluster
+	Added black_candle
+	Added black_candle_cake
+	Added blue_candle
+	Added blue_candle_cake
+	Added brown_candle
+	Added brown_candle_cake
+	Added budding_amethyst
+	Added calcite
+	Added candle
+	Added candle_cake
+	Added copper_block
+	Added copper_ore
+	Added cut_copper
+	Added cut_copper_slab
+	Added cut_copper_stairs
+	Added cyan_candle
+	Added cyan_candle_cake
+	Added dirt_path
+	Added gray_candle
+	Added gray_candle_cake
+	Added green_candle
+	Added green_candle_cake
+	Added large_amethyst_bud
+	Added lava_cauldron
+	Added light_blue_candle
+	Added light_blue_candle_cake
+	Added light_gray_candle
+	Added light_gray_candle_cake
+	Added lightly_weathered_copper_block
+	Added lightly_weathered_cut_copper
+	Added lightly_weathered_cut_copper_slab
+	Added lightly_weathered_cut_copper_stairs
+	Added lightning_rod
+	Added lime_candle
+	Added lime_candle_cake
+	Added magenta_candle
+	Added magenta_candle_cake
+	Added medium_amethyst_bud
+	Added orange_candle
+	Added orange_candle_cake
+	Added pink_candle
+	Added pink_candle_cake
+	Added purple_candle
+	Added purple_candle_cake
+	Added red_candle
+	Added red_candle_cake
+	Added semi_weathered_copper_block
+	Added semi_weathered_cut_copper
+	Added semi_weathered_cut_copper_slab
+	Added semi_weathered_cut_copper_stairs
+	Added small_amethyst_bud
+	Added tinted_glass
+	Added tuff
+	Added water_cauldron
+	Added waxed_copper
+	Added waxed_cut_copper
+	Added waxed_cut_copper_slab
+	Added waxed_cut_copper_stairs
+	Added waxed_lightly_weathered_copper
+	Added waxed_lightly_weathered_cut_copper
+	Added waxed_lightly_weathered_cut_copper_slab
+	Added waxed_lightly_weathered_cut_copper_stairs
+	Added waxed_semi_weathered_copper
+	Added waxed_semi_weathered_cut_copper
+	Added waxed_semi_weathered_cut_copper_slab
+	Added waxed_semi_weathered_cut_copper_stairs
+	Added weathered_copper_block
+	Added weathered_cut_copper
+	Added weathered_cut_copper_slab
+	Added weathered_cut_copper_stairs
+	Added white_candle
+	Added white_candle_cake
+	Added yellow_candle
+	Added yellow_candle_cake
+
+Removals:
+	Removed grass_path
+

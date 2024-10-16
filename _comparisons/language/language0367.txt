@@ -1,0 +1,30 @@
+1.16.4-pre1 (from 1.16.3)
+
+Total: 4796 (+18, -4)
+
+Additions:
+	Added "gui.socialInteractions.empty_hidden": "No players hidden in chat"
+	Added "gui.socialInteractions.hidden_in_chat": "Chat messages from %s will be hidden"
+	Added "gui.socialInteractions.hide": "%s, Hide in Chat"
+	Added "gui.socialInteractions.search_hint": "Search..."
+	Added "gui.socialInteractions.server_label": "%s - %s players"
+	Added "gui.socialInteractions.show": "%s, Show in Chat"
+	Added "gui.socialInteractions.shown_in_chat": "Chat messages from %s will be shown"
+	Added "gui.socialInteractions.tab_all": "All"
+	Added "gui.socialInteractions.tab_hidden": "Hidden"
+	Added "gui.socialInteractions.title": "Social Interactions"
+	Added "gui.socialInteractions.tooltip.hide": "Hide messages from %s in chat"
+	Added "gui.socialInteractions.tooltip.show": "Show messages from %s in chat"
+	Added "key.socialInteractions": "Social Interactions Screen"
+	Added "multiplayer.disconnect.incompatible": "Incompatible client! Please use %s"
+	Added "multiplayer.socialInteractions.not_available": "Social Interactions are only available in Multiplayer worlds"
+	Added "multiplayer.status.incompatible": "Incompatible version!"
+	Added "tutorial.socialInteractions.description": "Press %s to open"
+	Added "tutorial.socialInteractions.title": "Social Interactions"
+
+Removals:
+	Removed "multiplayer.disconnect.outdated_client": "Outdated client! Please use %s"
+	Removed "multiplayer.disconnect.outdated_server": "Outdated server! I'm still on %s"
+	Removed "multiplayer.status.client_out_of_date": "Client out of date!"
+	Removed "multiplayer.status.server_out_of_date": "Server out of date!"
+

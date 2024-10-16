@@ -1,0 +1,67 @@
+20w06a (from 1.15.2)
+
+Total: 725 (+45, -0)
+
+Additions:
+	Added ancient_debris
+	Added basalt
+	Added crimson_button
+	Added crimson_door
+	Added crimson_fence
+	Added crimson_fence_gate
+	Added crimson_fungi
+	Added crimson_nylium
+	Added crimson_planks
+	Added crimson_pressure_plate
+	Added crimson_roots
+	Added crimson_sign
+	Added crimson_slab
+	Added crimson_stairs
+	Added crimson_stem
+	Added crimson_trapdoor
+	Added crimson_wall_sign
+	Added nether_sprouts
+	Added netherite_block
+	Added shroomlight
+	Added soul_fire
+	Added soul_fire_lantern
+	Added soul_fire_torch
+	Added soul_fire_wall_torch
+	Added soul_soil
+	Added stripped_crimson_stem
+	Added stripped_warped_stem
+	Added warped_button
+	Added warped_door
+	Added warped_fence
+	Added warped_fence_gate
+	Added warped_fungi
+	Added warped_nylium
+	Added warped_planks
+	Added warped_pressure_plate
+	Added warped_roots
+	Added warped_sign
+	Added warped_slab
+	Added warped_stairs
+	Added warped_stem
+	Added warped_trapdoor
+	Added warped_wall_sign
+	Added warped_wart_block
+	Added weeping_vines
+	Added weeping_vines_plant
+
+Changes:
+	Changed bone_block's "sound_type" from STONE to BONE_BLOCK
+	Changed nether_brick_fence's "sound_type" from STONE to NETHER_BRICKS
+	Changed nether_brick_slab's "sound_type" from STONE to NETHER_BRICKS
+	Changed nether_brick_stairs's "sound_type" from STONE to NETHER_BRICKS
+	Changed nether_brick_wall's "sound_type" from STONE to NETHER_BRICKS
+	Changed nether_bricks's "sound_type" from STONE to NETHER_BRICKS
+	Changed nether_quartz_ore's "sound_type" from STONE to NETHER_ORE
+	Changed nether_wart_block's "sound_type" from WOOD to WART_BLOCK
+	Changed netherrack's "sound_type" from STONE to NETHERRACK
+	Changed red_nether_brick_slab's "sound_type" from STONE to NETHER_BRICKS
+	Changed red_nether_brick_stairs's "sound_type" from STONE to NETHER_BRICKS
+	Changed red_nether_brick_wall's "sound_type" from STONE to NETHER_BRICKS
+	Changed red_nether_bricks's "sound_type" from STONE to NETHER_BRICKS
+	Changed soul_sand's "sound_type" from SAND to SOUL_SAND
+

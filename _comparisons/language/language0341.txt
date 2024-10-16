@@ -1,0 +1,31 @@
+20w13a (from 20w12a)
+
+Total: 4494 (+14, -4)
+
+Additions:
+	Added "block.minecraft.lodestone": "Lodestone"
+	Added "death.attack.badRespawnPoint.link": "Intentional Game Design"
+	Added "death.attack.badRespawnPoint.message": "%1$s was killed by %2$s"
+	Added "entity.minecraft.strider": "Strider"
+	Added "item.minecraft.lodestone_compass": "Lodestone Compass"
+	Added "item.minecraft.strider_spawn_egg": "Strider Spawn Egg"
+	Added "item.minecraft.warped_fungus_on_a_stick": "Warped Fungus on a Stick"
+	Added "jigsaw_block.joint.aligned": "Aligned"
+	Added "jigsaw_block.joint.rollable": "Rollable"
+	Added "jigsaw_block.joint_label": "Joint type:"
+	Added "jigsaw_block.name": "Name:"
+	Added "jigsaw_block.pool": "Target pool:"
+	Added "jigsaw_block.target": "Target name:"
+	Added "subtitles.item.lodestone_compass.lock": "Lodestone Compass locks onto Lodestone"
+
+Removals:
+	Removed "death.attack.netherBed.link": "Intentional Game Design"
+	Removed "death.attack.netherBed.message": "%1$s was killed by %2$s"
+	Removed "jigsaw_block.attachement_type": "Attachment type:"
+	Removed "jigsaw_block.target_pool": "Target pool:"
+
+Changes:
+	Changed "block.minecraft.spawn.not_valid" from "Your have no home bed or respawn anchor, or it was obstructed" to "You have no home bed or respawn anchor, or it was obstructed"
+	Changed "block.minecraft.twisting_vines_plant" from "Twisting Vines" to "Twisting Vines Plant"
+	Changed "block.minecraft.weeping_vines_plant" from "Weeping Vines" to "Weeping Vines Plant"
+

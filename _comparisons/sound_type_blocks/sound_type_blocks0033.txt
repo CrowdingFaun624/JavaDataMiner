@@ -1,0 +1,11 @@
+12w17a (from 12w16a)
+
+Total: 9 (+2, -1)
+
+Additions:
+	Added monsterStoneEgg to 1.0;1.0;stone
+	Added woodSlab to 1.0;1.0;wood
+
+Removals:
+	Removed 97 from 1.0;1.0;stone
+

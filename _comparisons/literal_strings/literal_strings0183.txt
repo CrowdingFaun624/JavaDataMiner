@@ -1,0 +1,20 @@
+12w23b (from 12w23a)
+
+Total: 5547 (+6, -6)
+
+Additions:
+	Added "12w23b"
+	Added "Minecraft 12w23b"
+	Added "Minecraft 12w23b ("
+	Added "Minecraft Minecraft 12w23b"
+	Added "Starting integrated minecraft server version 12w23b"
+	Added "Starting minecraft server version 12w23b"
+
+Removals:
+	Removed "12w23a"
+	Removed "Minecraft 12w23a"
+	Removed "Minecraft 12w23a ("
+	Removed "Minecraft Minecraft 12w23a"
+	Removed "Starting integrated minecraft server version 12w23a"
+	Removed "Starting minecraft server version 12w23a"
+

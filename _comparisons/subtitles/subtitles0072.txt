@@ -1,0 +1,7 @@
+21w38a (from 21w37a)
+
+Total: 653 (+1, -0)
+
+Additions:
+	Added "subtitles.block.growing_plant.crop": "Plant cropped"
+

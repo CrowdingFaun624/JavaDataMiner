@@ -1,0 +1,20 @@
+a1.0.1_01 (from inf-20100630-2)
+
+Total: 9 (+11, -1)
+
+Additions:
+	Added 55 to 1.0;1.0;stone
+	Added 68 to 1.0;1.0;wood
+	Added 69 to 1.0;1.0;wood
+	Added 72 to 1.0;1.0;wood
+	Added 75 to 1.0;1.0;wood
+	Added 76 to 1.0;1.0;wood
+	Added 71 to 1.0;1.5;stone
+	Added 70 to 1;1.0;1.0;stone
+	Added 73 to 1;1.0;1.0;stone
+	Added 74 to 1;1.0;1.0;stone
+	Added 77 to 1;1.0;1.0;stone
+
+Removals:
+	Removed 55 from 1.0;1.5;stone
+

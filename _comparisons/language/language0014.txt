@@ -1,0 +1,22 @@
+b1.9-pre1 (from b1.8.1)
+
+Total: 705 (+16, -0)
+
+Additions:
+	Added "entity.Blaze.name": "Blaze"
+	Added "entity.LavaSlime.name": "Magma Cube"
+	Added "item.blazeRod.desc": ""
+	Added "item.blazeRod.name": "Blaze Rod"
+	Added "item.ghastTear.desc": ""
+	Added "item.ghastTear.name": "Ghast Tear"
+	Added "item.netherStalkSeeds.desc": ""
+	Added "item.netherStalkSeeds.name": "Nether Wart"
+	Added "tile.netherBrick.desc": ""
+	Added "tile.netherBrick.name": "Nether Brick"
+	Added "tile.netherFence.desc": ""
+	Added "tile.netherFence.name": "Nether Brick Fence"
+	Added "tile.netherStalk.desc": ""
+	Added "tile.netherStalk.name": "Nether Wart"
+	Added "tile.stairsNetherBrick.desc": ""
+	Added "tile.stairsNetherBrick.name": "Nether Brick Stairs"
+

@@ -1,0 +1,16 @@
+18w44a (from 18w43c)
+
+Total: 668 (+10, -0)
+
+Additions:
+	Added barrel
+	Added bell
+	Added blast_furnace
+	Added cartography_table
+	Added fletching_table
+	Added grindstone
+	Added lectern
+	Added smithing_table
+	Added smoker
+	Added stonecutter
+

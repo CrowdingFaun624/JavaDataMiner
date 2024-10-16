@@ -1,0 +1,8 @@
+1.14.1 Pre-Release 1 (from 1.14)
+
+Total: 4320 (+2, -0)
+
+Additions:
+	Added "debug.pause.help": "F3 + Esc = Pause without pause menu (if pausing is possible)"
+	Added "menu.paused": "Game paused"
+

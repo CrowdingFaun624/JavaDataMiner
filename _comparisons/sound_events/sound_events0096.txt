@@ -1,0 +1,33 @@
+19w05a (from 19w04b)
+
+Total: 748 (+18, -7)
+
+Additions:
+	Added "block.lantern.break"
+	Added "block.lantern.fall"
+	Added "block.lantern.hit"
+	Added "block.lantern.place"
+	Added "block.lantern.step"
+	Added "entity.ravager.ambient"
+	Added "entity.ravager.attack"
+	Added "entity.ravager.death"
+	Added "entity.ravager.hurt"
+	Added "entity.ravager.roar"
+	Added "entity.ravager.step"
+	Added "entity.ravager.stunned"
+	Added "entity.wandering_trader.ambient"
+	Added "entity.wandering_trader.death"
+	Added "entity.wandering_trader.hurt"
+	Added "entity.wandering_trader.no"
+	Added "entity.wandering_trader.trade"
+	Added "entity.wandering_trader.yes"
+
+Removals:
+	Removed "entity.illager_beast.ambient"
+	Removed "entity.illager_beast.attack"
+	Removed "entity.illager_beast.death"
+	Removed "entity.illager_beast.hurt"
+	Removed "entity.illager_beast.roar"
+	Removed "entity.illager_beast.step"
+	Removed "entity.illager_beast.stunned"
+

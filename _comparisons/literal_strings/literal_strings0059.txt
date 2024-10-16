@@ -1,0 +1,15 @@
+inf-20100617-2 (from inf-20100616)
+
+Total: 1266 (+6, -1)
+
+Additions:
+	Added "F1 - F5: load levels   |   0-9: Set time of day   |   Space: return to spawn   |   Double click: zoom   |   Escape: hide this text"
+	Added "World1"
+	Added "World2"
+	Added "World3"
+	Added "World4"
+	Added "World5"
+
+Removals:
+	Removed "Lit: "
+

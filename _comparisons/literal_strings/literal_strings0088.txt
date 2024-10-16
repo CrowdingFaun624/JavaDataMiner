@@ -1,0 +1,23 @@
+a1.0.16 (from a1.0.15)
+
+Total: 1549 (+11, -4)
+
+Additions:
+	Added "&serverId="
+	Added "&sessionId="
+	Added "-"
+	Added "Failed to login: "
+	Added "Internal client error: "
+	Added "Minecraft Alpha v1.0.16"
+	Added "Minecraft Alpha v1.0.16 ("
+	Added "Minecraft Minecraft Alpha v1.0.16"
+	Added "Minecraft: Minecraft Alpha v1.0.16n"
+	Added "http://www.minecraft.net/game/joinserver.jsp?user="
+	Added "ok"
+
+Removals:
+	Removed "Minecraft Alpha v1.0.15"
+	Removed "Minecraft Alpha v1.0.15 ("
+	Removed "Minecraft Minecraft Alpha v1.0.15"
+	Removed "Minecraft: Minecraft Alpha v1.0.15n"
+

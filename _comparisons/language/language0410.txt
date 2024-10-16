@@ -1,0 +1,12 @@
+22w13oneblockatatime (from 1.18.2)
+
+Total: 5169 (+6, -0)
+
+Additions:
+	Added "advancements.end.ride_dragon.description": "Extra Good luck"
+	Added "advancements.end.ride_dragon.title": "Ride the End"
+	Added "block.minecraft.sculk": "Sculk"
+	Added "block.minecraft.sculk_catalyst": "Sculk Catalyst"
+	Added "block.minecraft.sculk_vein": "Sculk Vein"
+	Added "gamemode.gamemodeNotFound": "Unknown gamemode: %s"
+

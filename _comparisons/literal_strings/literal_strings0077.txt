@@ -1,0 +1,23 @@
+a1.0.7 (from a1.0.6_03)
+
+Total: 1600 (+10, -5)
+
+Additions:
+	Added ")]n"
+	Added "Getting id for "
+	Added "Minecraft Alpha v1.0.7"
+	Added "Minecraft Alpha v1.0.7 ("
+	Added "Minecraft Minecraft Alpha v1.0.7"
+	Added "Minecraft: Minecraft Alpha v1.0.7n"
+	Added "NOT TICKING because there are no chunks around here!"
+	Added "Removing entity because it's not in a chunk!!"
+	Added "Skipping packet with id "
+	Added "[failed to get system properties ("
+
+Removals:
+	Removed "Minecraft Alpha v1.0.6_03"
+	Removed "Minecraft Alpha v1.0.6_03 ("
+	Removed "Minecraft Minecraft Alpha v1.0.6_03"
+	Removed "Minecraft: Minecraft Alpha v1.0.6_03n"
+	Removed "[failed to get system properties]n"
+

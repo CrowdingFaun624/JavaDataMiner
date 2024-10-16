@@ -1,0 +1,20 @@
+20w09a (from 20w08a)
+
+Total: 40 (+6, -0)
+
+Type Additions:
+	Added type FUNGUS with blocks:
+		crimson_fungus
+		warped_fungus
+
+Type Removals:
+	Removed type FUNGI
+
+Additions:
+	Added target to GRASS
+	Added crying_obsidian to STONE
+	Added potted_crimson_fungus to STONE
+	Added potted_crimson_roots to STONE
+	Added potted_warped_fungus to STONE
+	Added potted_warped_roots to STONE
+

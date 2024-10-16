@@ -1,0 +1,13 @@
+16w35a (from 16w33a)
+
+Total: 2964 (+2, -0)
+
+Additions:
+	Added "commands.save.flushEnd": "Flushing completed"
+	Added "commands.save.flushStart": "Flushing all saves..."
+
+Changes:
+	Changed "options.snooper.desc" from "We want to collect information about your machine to help improve Minecraft by knowing what we can support and where the biggest problems are. All of this information is completely anonymous and viewable below. We promise we won't do anything bad with this data, but if you want to opt out then feel free to toggle it off!" to "We always want to improve Minecraft and, to help us do that, we'd like to collect some information. This lets us know what hardware to support and where the big problems are. It also gives us a sense of the size of our active player base, so we know if we're doing a good job. You can view all the information we collect below. If you want to opt out then you can simply toggle it off!"
+	Changed "options.snooper.title" from "Machine Specs Collection" to "Feed us data!"
+	Changed "subtitles.entity.lightning.impact" from "Lighting strikes" to "Lightning strikes"
+

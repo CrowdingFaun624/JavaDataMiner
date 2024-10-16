@@ -1,0 +1,13 @@
+1.18-pre1 (from 21w44a)
+
+Total: 5154 (+3, -2)
+
+Additions:
+	Added "advancements.adventure.play_jukebox_in_meadows.description": "Make the Meadows come alive with the sound of music from a jukebox"
+	Added "advancements.adventure.play_jukebox_in_meadows.title": "Sound of Music"
+	Added "generator.amplified.info": "Notice: Just for fun! Requires a beefy computer."
+
+Removals:
+	Removed "advancements.husbandry.play_jukebox_in_meadows.description": "Make the Meadows come alive with the sound of music from a jukebox"
+	Removed "advancements.husbandry.play_jukebox_in_meadows.title": "Sound of Music"
+

@@ -1,0 +1,21 @@
+a1.0.9 (from a1.0.8_01)
+
+Total: 1607 (+7, -6)
+
+Additions:
+	Added " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_'abcdefghijklmnopqrstuvwxyz{|}~u2302u00c7u00fcu00e9u00e2u00e4u00e0u00e5u00e7u00eau00ebu00e8u00efu00eeu00ecu00c4u00c5u00c9u00e6u00c6u00f4u00f6u00f2u00fbu00f9u00ffu00d6u00dcu00f8u00a3u00d8u00d7u0192u00e1u00edu00f3u00fau00f1u00d1u00aau00bau00bfu00aeu00acu00bdu00bcu00a1u00abu00bb"
+	Added " @ "
+	Added "Closed"
+	Added "Minecraft Alpha v1.0.9"
+	Added "Minecraft Alpha v1.0.9 ("
+	Added "Minecraft Minecraft Alpha v1.0.9"
+	Added "Minecraft: Minecraft Alpha v1.0.9n"
+
+Removals:
+	Removed "Getting id for "
+	Removed "Minecraft Alpha v1.0.8_01"
+	Removed "Minecraft Alpha v1.0.8_01 ("
+	Removed "Minecraft Minecraft Alpha v1.0.8_01"
+	Removed "Minecraft: Minecraft Alpha v1.0.8_01n"
+	Removed "NOT TICKING because there are no chunks around here!"
+

@@ -1,0 +1,131 @@
+18w43a (from 1.13.2)
+
+Total: 16 (+88, -29)
+
+Type Additions:
+	Added type 1.0;1.0;bamboo with blocks:
+		bamboo
+	Added type 1.0;1.0;bamboo;bamboo_sapling;bamboo;bamboo_sapling;bamboo_sapling;bamboo with blocks:
+		bamboo_sapling
+
+Additions:
+	Added cornflower to 1.0;1.0;grass
+	Added lily_of_the_valley to 1.0;1.0;grass
+	Added wither_rose to 1.0;1.0;grass
+	Added acacia_stairs to 1.0;1.0;stone
+	Added air to 1.0;1.0;stone
+	Added andesite_slab to 1.0;1.0;stone
+	Added andesite_stairs to 1.0;1.0;stone
+	Added andesite_wall to 1.0;1.0;stone
+	Added birch_stairs to 1.0;1.0;stone
+	Added brick_wall to 1.0;1.0;stone
+	Added dark_oak_stairs to 1.0;1.0;stone
+	Added diorite_slab to 1.0;1.0;stone
+	Added diorite_stairs to 1.0;1.0;stone
+	Added diorite_wall to 1.0;1.0;stone
+	Added end_stone_brick_slab to 1.0;1.0;stone
+	Added end_stone_brick_stairs to 1.0;1.0;stone
+	Added end_stone_brick_wall to 1.0;1.0;stone
+	Added granite_slab to 1.0;1.0;stone
+	Added granite_stairs to 1.0;1.0;stone
+	Added granite_wall to 1.0;1.0;stone
+	Added jungle_stairs to 1.0;1.0;stone
+	Added mossy_cobblestone_slab to 1.0;1.0;stone
+	Added mossy_cobblestone_stairs to 1.0;1.0;stone
+	Added mossy_stone_brick_slab to 1.0;1.0;stone
+	Added mossy_stone_brick_stairs to 1.0;1.0;stone
+	Added mossy_stone_brick_wall to 1.0;1.0;stone
+	Added nether_brick_wall to 1.0;1.0;stone
+	Added oak_stairs to 1.0;1.0;stone
+	Added polished_andesite_slab to 1.0;1.0;stone
+	Added polished_andesite_stairs to 1.0;1.0;stone
+	Added polished_diorite_slab to 1.0;1.0;stone
+	Added polished_diorite_stairs to 1.0;1.0;stone
+	Added polished_granite_slab to 1.0;1.0;stone
+	Added polished_granite_stairs to 1.0;1.0;stone
+	Added potted_acacia_sapling to 1.0;1.0;stone
+	Added potted_allium to 1.0;1.0;stone
+	Added potted_azure_bluet to 1.0;1.0;stone
+	Added potted_bamboo to 1.0;1.0;stone
+	Added potted_birch_sapling to 1.0;1.0;stone
+	Added potted_blue_orchid to 1.0;1.0;stone
+	Added potted_brown_mushroom to 1.0;1.0;stone
+	Added potted_cactus to 1.0;1.0;stone
+	Added potted_cornflower to 1.0;1.0;stone
+	Added potted_dandelion to 1.0;1.0;stone
+	Added potted_dark_oak_sapling to 1.0;1.0;stone
+	Added potted_dead_bush to 1.0;1.0;stone
+	Added potted_fern to 1.0;1.0;stone
+	Added potted_jungle_sapling to 1.0;1.0;stone
+	Added potted_lily_of_the_valley to 1.0;1.0;stone
+	Added potted_oak_sapling to 1.0;1.0;stone
+	Added potted_orange_tulip to 1.0;1.0;stone
+	Added potted_oxeye_daisy to 1.0;1.0;stone
+	Added potted_pink_tulip to 1.0;1.0;stone
+	Added potted_poppy to 1.0;1.0;stone
+	Added potted_red_mushroom to 1.0;1.0;stone
+	Added potted_red_tulip to 1.0;1.0;stone
+	Added potted_spruce_sapling to 1.0;1.0;stone
+	Added potted_white_tulip to 1.0;1.0;stone
+	Added potted_wither_rose to 1.0;1.0;stone
+	Added prismarine_wall to 1.0;1.0;stone
+	Added red_nether_brick_slab to 1.0;1.0;stone
+	Added red_nether_brick_stairs to 1.0;1.0;stone
+	Added red_nether_brick_wall to 1.0;1.0;stone
+	Added red_sandstone_wall to 1.0;1.0;stone
+	Added sandstone_wall to 1.0;1.0;stone
+	Added smooth_quartz_slab to 1.0;1.0;stone
+	Added smooth_quartz_stairs to 1.0;1.0;stone
+	Added smooth_red_sandstone_slab to 1.0;1.0;stone
+	Added smooth_red_sandstone_stairs to 1.0;1.0;stone
+	Added smooth_sandstone_slab to 1.0;1.0;stone
+	Added smooth_sandstone_stairs to 1.0;1.0;stone
+	Added smooth_stone_slab to 1.0;1.0;stone
+	Added spruce_stairs to 1.0;1.0;stone
+	Added stone_brick_wall to 1.0;1.0;stone
+	Added stone_stairs to 1.0;1.0;stone
+	Added acacia_sign to 1.0;1.0;wood
+	Added acacia_wall_sign to 1.0;1.0;wood
+	Added birch_sign to 1.0;1.0;wood
+	Added birch_wall_sign to 1.0;1.0;wood
+	Added dark_oak_sign to 1.0;1.0;wood
+	Added dark_oak_wall_sign to 1.0;1.0;wood
+	Added jungle_sign to 1.0;1.0;wood
+	Added jungle_wall_sign to 1.0;1.0;wood
+	Added loom to 1.0;1.0;wood
+	Added oak_sign to 1.0;1.0;wood
+	Added oak_wall_sign to 1.0;1.0;wood
+	Added spruce_sign to 1.0;1.0;wood
+	Added spruce_wall_sign to 1.0;1.0;wood
+
+Removals:
+	Removed potted_acacia_sapling from 1.0;1.0;grass
+	Removed potted_allium from 1.0;1.0;grass
+	Removed potted_azure_bluet from 1.0;1.0;grass
+	Removed potted_birch_sapling from 1.0;1.0;grass
+	Removed potted_blue_orchid from 1.0;1.0;grass
+	Removed potted_brown_mushroom from 1.0;1.0;grass
+	Removed potted_dandelion from 1.0;1.0;grass
+	Removed potted_dark_oak_sapling from 1.0;1.0;grass
+	Removed potted_dead_bush from 1.0;1.0;grass
+	Removed potted_fern from 1.0;1.0;grass
+	Removed potted_jungle_sapling from 1.0;1.0;grass
+	Removed potted_oak_sapling from 1.0;1.0;grass
+	Removed potted_orange_tulip from 1.0;1.0;grass
+	Removed potted_oxeye_daisy from 1.0;1.0;grass
+	Removed potted_pink_tulip from 1.0;1.0;grass
+	Removed potted_poppy from 1.0;1.0;grass
+	Removed potted_red_mushroom from 1.0;1.0;grass
+	Removed potted_red_tulip from 1.0;1.0;grass
+	Removed potted_spruce_sapling from 1.0;1.0;grass
+	Removed potted_white_tulip from 1.0;1.0;grass
+	Removed acacia_stairs from 1.0;1.0;wood
+	Removed birch_stairs from 1.0;1.0;wood
+	Removed dark_oak_stairs from 1.0;1.0;wood
+	Removed jungle_stairs from 1.0;1.0;wood
+	Removed oak_stairs from 1.0;1.0;wood
+	Removed sign from 1.0;1.0;wood
+	Removed spruce_stairs from 1.0;1.0;wood
+	Removed wall_sign from 1.0;1.0;wood
+	Removed potted_cactus from 1.0;1.0;wool
+

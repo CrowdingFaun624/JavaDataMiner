@@ -1,0 +1,16 @@
+20w09a (from 20w08a)
+
+Total: 519 (+4, -4)
+
+Additions:
+	Added "subtitles.entity.zombified_piglin.ambient": "Zombified Piglin grunts"
+	Added "subtitles.entity.zombified_piglin.angry": "Zombified Piglin angers"
+	Added "subtitles.entity.zombified_piglin.death": "Zombified Piglin dies"
+	Added "subtitles.entity.zombified_piglin.hurt": "Zombified Piglin hurts"
+
+Removals:
+	Removed "subtitles.entity.zombie_pigman.ambient": "Zombie Pigman grunts"
+	Removed "subtitles.entity.zombie_pigman.angry": "Zombie Pigman angers"
+	Removed "subtitles.entity.zombie_pigman.death": "Zombie Pigman dies"
+	Removed "subtitles.entity.zombie_pigman.hurt": "Zombie Pigman hurts"
+

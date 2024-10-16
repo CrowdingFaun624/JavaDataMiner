@@ -1,0 +1,38 @@
+1.19_deep_dark_experimental_snapshot-1 (from 1.18.1)
+
+Total: 80 (+4, -0)
+
+Additions:
+	Added "SCULK"
+		volume: 1.0
+		pitch: 1.0
+		break: SCULK_BREAK
+		step: SCULK_STEP
+		place: SCULK_PLACE
+		hit: SCULK_HIT
+		fall: SCULK_FALL
+	Added "SCULK_CATALYST"
+		volume: 1.0
+		pitch: 1.0
+		break: SCULK_CATALYST_BREAK
+		step: SCULK_CATALYST_STEP
+		place: SCULK_CATALYST_PLACE
+		hit: SCULK_CATALYST_HIT
+		fall: SCULK_CATALYST_FALL
+	Added "SCULK_SHRIEKER"
+		volume: 1.0
+		pitch: 1.0
+		break: SCULK_SHRIEKER_BREAK
+		step: SCULK_SHRIEKER_STEP
+		place: SCULK_SHRIEKER_PLACE
+		hit: SCULK_SHRIEKER_HIT
+		fall: SCULK_SHRIEKER_FALL
+	Added "SCULK_VEIN"
+		volume: 1.0
+		pitch: 1.0
+		break: SCULK_VEIN_BREAK
+		step: SCULK_VEIN_STEP
+		place: SCULK_VEIN_PLACE
+		hit: SCULK_VEIN_HIT
+		fall: SCULK_VEIN_FALL
+

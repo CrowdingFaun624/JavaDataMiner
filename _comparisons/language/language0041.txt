@@ -1,0 +1,28 @@
+12w32a (from 1.3.2)
+
+Total: 953 (+22, -0)
+
+Additions:
+	Added "advMode.allPlayers": "Use \"@a\" to target all players"
+	Added "advMode.command": "Console Command"
+	Added "advMode.nearestPlayer": "Use \"@p\" to target nearest player"
+	Added "advMode.notAllowed": "Must be an opped player in creative mode"
+	Added "advMode.notEnabled": "Command blocks are not enabled on this server"
+	Added "advMode.randomPlayer": "Use \"@r\" to target random player"
+	Added "advMode.setCommand": "Set Console Command for Block"
+	Added "commands.difficulty.success": "Set game difficulty to %s"
+	Added "commands.difficulty.usage": "/difficulty <new difficulty>"
+	Added "commands.gamerule.norule": "No game rule called '%s' is available"
+	Added "commands.gamerule.success": "Game rule has been updated"
+	Added "commands.gamerule.usage": "/gamerule <rule name> <value> OR /gamerule <rule name>"
+	Added "commands.spawnpoint.success": "Set %s's spawn point to (%d, %d, %d)"
+	Added "commands.spawnpoint.usage": "/spawnpoint OR /spawnpoint <player> OR /spawnpoint <player> <x> <y> <z>"
+	Added "commands.weather.clear": "Changing to clear weather"
+	Added "commands.weather.rain": "Changing to rainy weather"
+	Added "commands.weather.thunder": "Changing to rain and thunder"
+	Added "commands.weather.usage": "/weather <clear/rain/thunder> [duration in seconds]"
+	Added "tile.beacon.name": "Work in Progress"
+	Added "tile.beacon.primary": "Primary Power"
+	Added "tile.beacon.secondary": "Secondary Power"
+	Added "tile.commandBlock.name": "Command Block"
+

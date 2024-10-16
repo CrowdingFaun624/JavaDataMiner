@@ -1,0 +1,12 @@
+16w39b (from 16w39a)
+
+Total: 490 (+2, -2)
+
+Additions:
+	Added "block.shulker_box.close"
+	Added "block.shulker_box.open"
+
+Removals:
+	Removed "entity.shulker_box.close"
+	Removed "entity.shulker_box.open"
+

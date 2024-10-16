@@ -1,0 +1,18 @@
+b1.7.3 (from b1.7.2)
+
+Total: 2604 (+5, -5)
+
+Additions:
+	Added "Minecraft Beta 1.7.3"
+	Added "Minecraft Beta 1.7.3   Unlicensed Copy :("
+	Added "Minecraft Beta 1.7.3 ("
+	Added "Minecraft Minecraft Beta 1.7.3"
+	Added "Minecraft: Minecraft Beta 1.7.3n"
+
+Removals:
+	Removed "Minecraft Beta 1.7.2"
+	Removed "Minecraft Beta 1.7.2   Unlicensed Copy :("
+	Removed "Minecraft Beta 1.7.2 ("
+	Removed "Minecraft Minecraft Beta 1.7.2"
+	Removed "Minecraft: Minecraft Beta 1.7.2n"
+

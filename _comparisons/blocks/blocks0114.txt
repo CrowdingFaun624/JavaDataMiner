@@ -1,0 +1,7 @@
+19w05a (from 19w04b)
+
+Total: 674 (+0, -0)
+
+Changes:
+	Changed lantern's "sound_type" from METAL to LANTERN
+

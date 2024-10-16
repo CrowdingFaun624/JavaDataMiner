@@ -1,0 +1,36 @@
+c0.28_01 (from c0.27_st)
+
+Total: 363 (+13, -15)
+
+Additions:
+	Added "/mob/sheep.png"
+	Added "/mob/sheep_fur.png"
+	Added "0.28_01"
+	Added "Diagonal flood!?"
+	Added "Load file..."
+	Added "Minecraft 0.28_01"
+	Added "Save file..."
+	Added "Select block"
+	Added "com.mojang.minecraft.mob.Creeper$1"
+	Added "com.mojang.minecraft.mob.Skeleton$1"
+	Added "com.mojang.minecraft.player.Player$1"
+	Added "sheep"
+	Added "sheep.fur"
+
+Removals:
+	Removed " mobs"
+	Removed " ms"
+	Removed " mushrooms"
+	Removed " tiles in "
+	Removed "0.27   SURVIVAL TEST"
+	Removed "Added "
+	Removed "Downloading "
+	Removed "Failed to load texture for "
+	Removed "Flood filled "
+	Removed "IT HAPPENED!"
+	Removed "LavaCount: "
+	Removed "Loading texture for "
+	Removed "Minecraft 0.27   SURVIVAL TEST"
+	Removed "Version is 1!"
+	Removed "hoooly fuck"
+

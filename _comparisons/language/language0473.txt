@@ -1,0 +1,8 @@
+23w43b (from 23w43a)
+
+Total: 6491 (+2, -0)
+
+Additions:
+	Added "mco.notification.transferSubscription.buttonText": "Transfer Now"
+	Added "mco.notification.transferSubscription.message": "Java Realms subscriptions are moving to the Microsoft Store. Do not let your subscription expire!\nTransfer now and get 30 days of Realms for free.\nGo to Profile on minecraft.net to transfer your subscription."
+

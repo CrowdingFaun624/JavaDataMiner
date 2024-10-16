@@ -1,0 +1,22 @@
+b1.9-pre6 (from b1.9-pre5)
+
+Total: 873 (+13, -0)
+
+Additions:
+	Added "options.particles": "Particles"
+	Added "options.particles.all": "All"
+	Added "options.particles.decreased": "Decreased"
+	Added "options.particles.minimal": "Minimal"
+	Added "tile.bed.notSafe": "You may not rest now, there are monsters nearby"
+	Added "tile.dragonEgg.desc": ""
+	Added "tile.dragonEgg.name": "Dragon Egg"
+	Added "tile.tallgrass.fern.desc": ""
+	Added "tile.tallgrass.fern.name": "Fern"
+	Added "tile.tallgrass.grass.desc": ""
+	Added "tile.tallgrass.grass.name": "Grass"
+	Added "tile.tallgrass.shrub.desc": ""
+	Added "tile.tallgrass.shrub.name": "Shrub"
+
+Changes:
+	Changed "menu.mods" from "Mods and Texture Packs" to "Texture Packs"
+

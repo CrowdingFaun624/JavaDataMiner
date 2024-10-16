@@ -1,0 +1,7 @@
+23w42a (from 23w41a)
+
+Total: 1004 (+1, -0)
+
+Additions:
+	Added crafter
+

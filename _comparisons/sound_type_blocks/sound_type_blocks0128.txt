@@ -1,0 +1,96 @@
+20w45a (from 1.16.5)
+
+Total: 56 (+22, -1)
+
+Type Additions:
+	Added type AMETHYST with blocks:
+		amethyst_block
+		budding_amethyst
+	Added type AMETHYST_CLUSTER with blocks:
+		amethyst_cluster
+	Added type CALCITE with blocks:
+		calcite
+	Added type CANDLE with blocks:
+		black_candle
+		blue_candle
+		brown_candle
+		candle
+		cyan_candle
+		gray_candle
+		green_candle
+		light_blue_candle
+		light_gray_candle
+		lime_candle
+		magenta_candle
+		orange_candle
+		pink_candle
+		purple_candle
+		red_candle
+		white_candle
+		yellow_candle
+	Added type COPPER with blocks:
+		copper_block
+		cut_copper
+		cut_copper_slab
+		cut_copper_stairs
+		lightly_weathered_copper_block
+		lightly_weathered_cut_copper
+		lightly_weathered_cut_copper_slab
+		lightly_weathered_cut_copper_stairs
+		lightning_rod
+		semi_weathered_copper_block
+		semi_weathered_cut_copper
+		semi_weathered_cut_copper_slab
+		semi_weathered_cut_copper_stairs
+		waxed_copper
+		waxed_cut_copper
+		waxed_cut_copper_slab
+		waxed_cut_copper_stairs
+		waxed_lightly_weathered_copper
+		waxed_lightly_weathered_cut_copper
+		waxed_lightly_weathered_cut_copper_slab
+		waxed_lightly_weathered_cut_copper_stairs
+		waxed_semi_weathered_copper
+		waxed_semi_weathered_cut_copper
+		waxed_semi_weathered_cut_copper_slab
+		waxed_semi_weathered_cut_copper_stairs
+		weathered_copper_block
+		weathered_cut_copper
+		weathered_cut_copper_slab
+		weathered_cut_copper_stairs
+	Added type LARGE_AMETHYST_BUD with blocks:
+		medium_amethyst_bud
+	Added type MEDIUM_AMETHYST_BUD with blocks:
+		large_amethyst_bud
+	Added type SMALL_AMETHYST_BUD with blocks:
+		small_amethyst_bud
+	Added type TUFF with blocks:
+		tuff
+
+Additions:
+	Added tinted_glass to GLASS
+	Added dirt_path to GRASS
+	Added copper_ore to STONE
+	Added lava_cauldron to STONE
+	Added water_cauldron to STONE
+	Added black_candle_cake to WOOL
+	Added blue_candle_cake to WOOL
+	Added brown_candle_cake to WOOL
+	Added candle_cake to WOOL
+	Added cyan_candle_cake to WOOL
+	Added gray_candle_cake to WOOL
+	Added green_candle_cake to WOOL
+	Added light_blue_candle_cake to WOOL
+	Added light_gray_candle_cake to WOOL
+	Added lime_candle_cake to WOOL
+	Added magenta_candle_cake to WOOL
+	Added orange_candle_cake to WOOL
+	Added pink_candle_cake to WOOL
+	Added purple_candle_cake to WOOL
+	Added red_candle_cake to WOOL
+	Added white_candle_cake to WOOL
+	Added yellow_candle_cake to WOOL
+
+Removals:
+	Removed grass_path from GRASS
+

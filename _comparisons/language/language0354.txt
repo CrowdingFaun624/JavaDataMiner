@@ -1,0 +1,12 @@
+1.16-pre4 (from 1.16-pre3)
+
+Total: 4746 (+2, -2)
+
+Additions:
+	Added "commands.datapack.modify.disable": "Disabling data pack %s"
+	Added "commands.datapack.modify.enable": "Enabling data pack %s"
+
+Removals:
+	Removed "commands.datapack.disable.success": "Disabled data pack %s"
+	Removed "commands.datapack.enable.success": "Enabled data pack %s"
+

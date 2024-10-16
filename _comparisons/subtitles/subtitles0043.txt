@@ -1,0 +1,9 @@
+19w41a (from 19w40a)
+
+Total: 503 (+3, -0)
+
+Additions:
+	Added "subtitles.block.honey_block.slide": "Sliding down a honey block"
+	Added "subtitles.entity.iron_golem.damage": "Iron Golem breaks"
+	Added "subtitles.entity.iron_golem.repair": "Iron Golem repaired"
+

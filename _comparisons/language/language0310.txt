@@ -1,0 +1,7 @@
+1.14 Pre-Release 5 (from 1.14 Pre-Release 4)
+
+Total: 4318 (+0, -0)
+
+Changes:
+	Changed "gui.narrate.editBox" from "%s edit box" to "%s edit box: %s"
+

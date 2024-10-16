@@ -1,0 +1,11 @@
+14w03b (from 14w03a)
+
+Total: 1752 (+2, -1)
+
+Additions:
+	Added "options.skinCustomisation": "Skin Customization..."
+	Added "options.skinCustomisation.title": "Skin Customization"
+
+Removals:
+	Removed "commands.generic.deprecatedId": "Warning: Using numeric IDs will not be supported in the future. Please use names, such as '%s'"
+

@@ -1,0 +1,15 @@
+b1.0 (from a1.2.6)
+
+Total: 61 (+6, -1)
+
+Additions:
+	Added "dig.cloth"
+	Added "dig.grass"
+	Added "dig.gravel"
+	Added "dig.sand"
+	Added "dig.stone"
+	Added "dig.wood"
+
+Removals:
+	Removed "step.sand"
+

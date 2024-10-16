@@ -1,0 +1,9 @@
+16w41a (from 16w40a)
+
+Total: 304 (+3, -0)
+
+Additions:
+	Added "subtitles.entity.llama.chest": "Llama Chest equips"
+	Added "subtitles.entity.mule.chest": "Mule Chest equips"
+	Added "subtitles.item.armor.equip_elytra": "Elytra rustles"
+
