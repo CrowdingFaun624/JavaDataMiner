@@ -1,0 +1,250 @@
+{
+  "1": {
+    "sound_type": "aB",
+    "code_name": "h"
+  },
+  "2": {
+    "sound_type": "aA",
+    "code_name": "i"
+  },
+  "3": {
+    "sound_type": "az",
+    "code_name": "j"
+  },
+  "4": {
+    "sound_type": "aB",
+    "code_name": "k"
+  },
+  "5": {
+    "sound_type": "b",
+    "code_name": "l"
+  },
+  "6": {
+    "sound_type": "aA",
+    "code_name": "m"
+  },
+  "7": {
+    "sound_type": "aB",
+    "code_name": "n"
+  },
+  "8": {
+    "sound_type": "a",
+    "code_name": "o"
+  },
+  "9": {
+    "sound_type": "a",
+    "code_name": "p"
+  },
+  "10": {
+    "sound_type": "a",
+    "code_name": "q"
+  },
+  "11": {
+    "sound_type": "a",
+    "code_name": "r"
+  },
+  "12": {
+    "sound_type": "aF",
+    "code_name": "s"
+  },
+  "13": {
+    "sound_type": "az",
+    "code_name": "t"
+  },
+  "14": {
+    "sound_type": "aB",
+    "code_name": "u"
+  },
+  "15": {
+    "sound_type": "aB",
+    "code_name": "v"
+  },
+  "16": {
+    "sound_type": "aB",
+    "code_name": "w"
+  },
+  "17": {
+    "sound_type": "b",
+    "code_name": "x"
+  },
+  "18": {
+    "sound_type": "aA",
+    "code_name": "y"
+  },
+  "19": {
+    "sound_type": "aA",
+    "code_name": "z"
+  },
+  "20": {
+    "sound_type": "aD",
+    "code_name": "A"
+  },
+  "21": {
+    "sound_type": "aE",
+    "code_name": "B"
+  },
+  "22": {
+    "sound_type": "aE",
+    "code_name": "C"
+  },
+  "23": {
+    "sound_type": "aE",
+    "code_name": "D"
+  },
+  "24": {
+    "sound_type": "aE",
+    "code_name": "E"
+  },
+  "25": {
+    "sound_type": "aE",
+    "code_name": "F"
+  },
+  "26": {
+    "sound_type": "aE",
+    "code_name": "G"
+  },
+  "27": {
+    "sound_type": "aE",
+    "code_name": "H"
+  },
+  "28": {
+    "sound_type": "aE",
+    "code_name": "I"
+  },
+  "29": {
+    "sound_type": "aE",
+    "code_name": "J"
+  },
+  "30": {
+    "sound_type": "aE",
+    "code_name": "K"
+  },
+  "31": {
+    "sound_type": "aE",
+    "code_name": "L"
+  },
+  "32": {
+    "sound_type": "aE",
+    "code_name": "M"
+  },
+  "33": {
+    "sound_type": "aE",
+    "code_name": "N"
+  },
+  "34": {
+    "sound_type": "aE",
+    "code_name": "O"
+  },
+  "35": {
+    "sound_type": "aE",
+    "code_name": "P"
+  },
+  "36": {
+    "sound_type": "aE",
+    "code_name": "Q"
+  },
+  "37": {
+    "sound_type": "aA",
+    "code_name": "R"
+  },
+  "38": {
+    "sound_type": "aA",
+    "code_name": "S"
+  },
+  "39": {
+    "sound_type": "aA",
+    "code_name": "T"
+  },
+  "40": {
+    "sound_type": "aA",
+    "code_name": "U"
+  },
+  "41": {
+    "sound_type": "aC",
+    "code_name": "V"
+  },
+  "42": {
+    "sound_type": "aC",
+    "code_name": "W"
+  },
+  "43": {
+    "sound_type": "aB",
+    "code_name": "X"
+  },
+  "44": {
+    "sound_type": "aB",
+    "code_name": "Y"
+  },
+  "45": {
+    "sound_type": "aB",
+    "code_name": "Z"
+  },
+  "46": {
+    "sound_type": "aA",
+    "code_name": "aa"
+  },
+  "47": {
+    "sound_type": "b",
+    "code_name": "ab"
+  },
+  "48": {
+    "sound_type": "aB",
+    "code_name": "ac"
+  },
+  "49": {
+    "sound_type": "aB",
+    "code_name": "ad"
+  },
+  "50": {
+    "sound_type": "b",
+    "code_name": "ae"
+  },
+  "51": {
+    "sound_type": "b",
+    "code_name": "af"
+  },
+  "52": {
+    "sound_type": "b",
+    "code_name": null
+  },
+  "53": {
+    "sound_type": "b",
+    "code_name": null
+  },
+  "54": {
+    "sound_type": "b",
+    "code_name": "ag"
+  },
+  "55": {
+    "sound_type": "aC",
+    "code_name": "ah"
+  },
+  "56": {
+    "sound_type": "aB",
+    "code_name": "ai"
+  },
+  "57": {
+    "sound_type": "aC",
+    "code_name": "aj"
+  },
+  "58": {
+    "sound_type": "b",
+    "code_name": "ak"
+  },
+  "59": {
+    "sound_type": "aA",
+    "code_name": "al"
+  },
+  "60": {
+    "sound_type": "az",
+    "code_name": "am"
+  },
+  "61": {
+    "sound_type": "aB",
+    "code_name": "an"
+  },
+  "62": {
+    "sound_type": "aB",
+    "code_name": null
+  }
+}

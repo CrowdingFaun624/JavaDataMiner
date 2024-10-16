@@ -1,0 +1,209 @@
+{
+  "ANVIL": {
+    "volume": 0.3,
+    "pitch": 1.0,
+    "break": "ANVIL_BREAK",
+    "step": "ANVIL_STEP",
+    "place": "ANVIL_PLACE",
+    "hit": "ANVIL_HIT",
+    "fall": "ANVIL_FALL"
+  },
+  "BAMBOO": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_BREAK",
+    "step": "BAMBOO_STEP",
+    "place": "BAMBOO_PLACE",
+    "hit": "BAMBOO_HIT",
+    "fall": "BAMBOO_FALL"
+  },
+  "BAMBOO_SAPLING": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_SAPLING_BREAK",
+    "step": "BAMBOO_STEP",
+    "place": "BAMBOO_SAPLING_PLACE",
+    "hit": "BAMBOO_SAPLING_HIT",
+    "fall": "BAMBOO_FALL"
+  },
+  "CORAL_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CORAL_BLOCK_BREAK",
+    "step": "CORAL_BLOCK_STEP",
+    "place": "CORAL_BLOCK_PLACE",
+    "hit": "CORAL_BLOCK_HIT",
+    "fall": "CORAL_BLOCK_FALL"
+  },
+  "CROP": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CROP_BREAK",
+    "step": "GRASS_STEP",
+    "place": "CROP_PLANTED",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "GLASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GLASS_BREAK",
+    "step": "GLASS_STEP",
+    "place": "GLASS_PLACE",
+    "hit": "GLASS_HIT",
+    "fall": "GLASS_FALL"
+  },
+  "GRASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GRASS_BREAK",
+    "step": "GRASS_STEP",
+    "place": "GRASS_PLACE",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "GRAVEL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GRAVEL_BREAK",
+    "step": "GRAVEL_STEP",
+    "place": "GRAVEL_PLACE",
+    "hit": "GRAVEL_HIT",
+    "fall": "GRAVEL_FALL"
+  },
+  "HARD_CROP": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOD_BREAK",
+    "step": "WOOD_STEP",
+    "place": "CROP_PLANTED",
+    "hit": "WOOD_HIT",
+    "fall": "WOOD_FALL"
+  },
+  "HONEY_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "HONEY_BLOCK_BREAK",
+    "step": "HONEY_BLOCK_STEP",
+    "place": "HONEY_BLOCK_PLACE",
+    "hit": "HONEY_BLOCK_HIT",
+    "fall": "HONEY_BLOCK_FALL"
+  },
+  "LADDER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LADDER_BREAK",
+    "step": "LADDER_STEP",
+    "place": "LADDER_PLACE",
+    "hit": "LADDER_HIT",
+    "fall": "LADDER_FALL"
+  },
+  "LANTERN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LANTERN_BREAK",
+    "step": "LANTERN_STEP",
+    "place": "LANTERN_PLACE",
+    "hit": "LANTERN_HIT",
+    "fall": "LANTERN_FALL"
+  },
+  "METAL": {
+    "volume": 1.0,
+    "pitch": 1.5,
+    "break": "METAL_BREAK",
+    "step": "METAL_STEP",
+    "place": "METAL_PLACE",
+    "hit": "METAL_HIT",
+    "fall": "METAL_FALL"
+  },
+  "NETHER_WART": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_WART_BREAK",
+    "step": "STONE_STEP",
+    "place": "NETHER_WART_PLANTED",
+    "hit": "STONE_HIT",
+    "fall": "STONE_FALL"
+  },
+  "SAND": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SAND_BREAK",
+    "step": "SAND_STEP",
+    "place": "SAND_PLACE",
+    "hit": "SAND_HIT",
+    "fall": "SAND_FALL"
+  },
+  "SCAFFOLDING": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCAFFOLDING_BREAK",
+    "step": "SCAFFOLDING_STEP",
+    "place": "SCAFFOLDING_PLACE",
+    "hit": "SCAFFOLDING_HIT",
+    "fall": "SCAFFOLDING_FALL"
+  },
+  "SLIME_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SLIME_BLOCK_BREAK",
+    "step": "SLIME_BLOCK_STEP",
+    "place": "SLIME_BLOCK_PLACE",
+    "hit": "SLIME_BLOCK_HIT",
+    "fall": "SLIME_BLOCK_FALL"
+  },
+  "SNOW": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SNOW_BREAK",
+    "step": "SNOW_STEP",
+    "place": "SNOW_PLACE",
+    "hit": "SNOW_HIT",
+    "fall": "SNOW_FALL"
+  },
+  "STONE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "STONE_BREAK",
+    "step": "STONE_STEP",
+    "place": "STONE_PLACE",
+    "hit": "STONE_HIT",
+    "fall": "STONE_FALL"
+  },
+  "SWEET_BERRY_BUSH": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SWEET_BERRY_BUSH_BREAK",
+    "step": "GRASS_STEP",
+    "place": "SWEET_BERRY_BUSH_PLACE",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "WET_GRASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WET_GRASS_BREAK",
+    "step": "WET_GRASS_STEP",
+    "place": "WET_GRASS_PLACE",
+    "hit": "WET_GRASS_HIT",
+    "fall": "WET_GRASS_FALL"
+  },
+  "WOOD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOD_BREAK",
+    "step": "WOOD_STEP",
+    "place": "WOOD_PLACE",
+    "hit": "WOOD_HIT",
+    "fall": "WOOD_FALL"
+  },
+  "WOOL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOL_BREAK",
+    "step": "WOOL_STEP",
+    "place": "WOOL_PLACE",
+    "hit": "WOOL_HIT",
+    "fall": "WOOL_FALL"
+  }
+}

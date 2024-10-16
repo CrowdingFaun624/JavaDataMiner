@@ -1,0 +1,2887 @@
+{
+  "stone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "b"
+  },
+  "granite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "c"
+  },
+  "polished_granite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "d"
+  },
+  "diorite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "e"
+  },
+  "polished_diorite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "f"
+  },
+  "andesite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "g"
+  },
+  "polished_andesite": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "h"
+  },
+  "grass_block": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "i"
+  },
+  "dirt": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "j"
+  },
+  "coarse_dirt": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "k"
+  },
+  "podzol": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "l"
+  },
+  "cobblestone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "m"
+  },
+  "oak_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "n"
+  },
+  "spruce_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "o"
+  },
+  "birch_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "p"
+  },
+  "jungle_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "q"
+  },
+  "acacia_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "r"
+  },
+  "dark_oak_planks": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "s"
+  },
+  "oak_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "t"
+  },
+  "spruce_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "u"
+  },
+  "birch_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "v"
+  },
+  "jungle_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "w"
+  },
+  "acacia_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "x"
+  },
+  "dark_oak_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "y"
+  },
+  "bedrock": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "z"
+  },
+  "water": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "A"
+  },
+  "lava": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "C"
+  },
+  "sand": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "D"
+  },
+  "red_sand": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "E"
+  },
+  "gravel": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "F"
+  },
+  "gold_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "G"
+  },
+  "iron_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "H"
+  },
+  "coal_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "I"
+  },
+  "oak_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "J"
+  },
+  "spruce_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "K"
+  },
+  "birch_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "L"
+  },
+  "jungle_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "M"
+  },
+  "acacia_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "N"
+  },
+  "dark_oak_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "O"
+  },
+  "stripped_spruce_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "Q"
+  },
+  "stripped_birch_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "R"
+  },
+  "stripped_jungle_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "S"
+  },
+  "stripped_acacia_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "T"
+  },
+  "stripped_dark_oak_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "U"
+  },
+  "stripped_oak_log": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "P"
+  },
+  "oak_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "V"
+  },
+  "spruce_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "W"
+  },
+  "birch_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "X"
+  },
+  "jungle_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "Y"
+  },
+  "acacia_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "Z"
+  },
+  "dark_oak_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aa"
+  },
+  "stripped_oak_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ab"
+  },
+  "stripped_spruce_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ac"
+  },
+  "stripped_birch_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ad"
+  },
+  "stripped_jungle_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ae"
+  },
+  "stripped_acacia_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "af"
+  },
+  "stripped_dark_oak_wood": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ag"
+  },
+  "oak_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ah"
+  },
+  "spruce_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ai"
+  },
+  "birch_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "aj"
+  },
+  "jungle_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ak"
+  },
+  "acacia_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "al"
+  },
+  "dark_oak_leaves": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "am"
+  },
+  "sponge": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "an"
+  },
+  "wet_sponge": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ao"
+  },
+  "glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "ap"
+  },
+  "lapis_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "aq"
+  },
+  "lapis_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ar"
+  },
+  "dispenser": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "as"
+  },
+  "sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "at"
+  },
+  "chiseled_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "au"
+  },
+  "cut_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "av"
+  },
+  "note_block": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aw"
+  },
+  "white_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ax"
+  },
+  "orange_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ay"
+  },
+  "magenta_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "az"
+  },
+  "light_blue_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aA"
+  },
+  "yellow_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aB"
+  },
+  "lime_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aC"
+  },
+  "pink_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aD"
+  },
+  "gray_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aE"
+  },
+  "light_gray_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aF"
+  },
+  "cyan_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aG"
+  },
+  "purple_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aH"
+  },
+  "blue_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aI"
+  },
+  "brown_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aJ"
+  },
+  "green_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aK"
+  },
+  "red_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aL"
+  },
+  "black_bed": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "aM"
+  },
+  "powered_rail": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "aN"
+  },
+  "detector_rail": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "aO"
+  },
+  "sticky_piston": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "aP"
+  },
+  "cobweb": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "aQ"
+  },
+  "grass": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "aR"
+  },
+  "fern": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "aS"
+  },
+  "dead_bush": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "aT"
+  },
+  "seagrass": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "aU"
+  },
+  "tall_seagrass": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "aV"
+  },
+  "piston": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "aW"
+  },
+  "piston_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "aX"
+  },
+  "white_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "aY"
+  },
+  "orange_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "aZ"
+  },
+  "magenta_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "ba"
+  },
+  "light_blue_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bb"
+  },
+  "yellow_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bc"
+  },
+  "lime_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bd"
+  },
+  "pink_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "be"
+  },
+  "gray_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bf"
+  },
+  "light_gray_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bg"
+  },
+  "cyan_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bh"
+  },
+  "purple_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bi"
+  },
+  "blue_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bj"
+  },
+  "brown_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bk"
+  },
+  "green_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bl"
+  },
+  "red_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bm"
+  },
+  "black_wool": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "bn"
+  },
+  "moving_piston": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bo"
+  },
+  "dandelion": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bp"
+  },
+  "poppy": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bq"
+  },
+  "blue_orchid": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "br"
+  },
+  "allium": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bs"
+  },
+  "azure_bluet": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bt"
+  },
+  "red_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bu"
+  },
+  "orange_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bv"
+  },
+  "white_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bw"
+  },
+  "pink_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bx"
+  },
+  "oxeye_daisy": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "by"
+  },
+  "brown_mushroom": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bz"
+  },
+  "red_mushroom": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "bA"
+  },
+  "gold_block": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "bB"
+  },
+  "iron_block": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "bC"
+  },
+  "bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ca"
+  },
+  "tnt": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "cb"
+  },
+  "bookshelf": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cc"
+  },
+  "mossy_cobblestone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cd"
+  },
+  "obsidian": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ce"
+  },
+  "torch": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cf"
+  },
+  "wall_torch": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cg"
+  },
+  "fire": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "ch"
+  },
+  "spawner": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "ci"
+  },
+  "oak_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cj"
+  },
+  "chest": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ck"
+  },
+  "redstone_wire": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cl"
+  },
+  "diamond_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cm"
+  },
+  "diamond_block": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "cn"
+  },
+  "crafting_table": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "co"
+  },
+  "wheat": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "cp"
+  },
+  "farmland": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "cq"
+  },
+  "furnace": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cr"
+  },
+  "sign": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cs"
+  },
+  "oak_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ct"
+  },
+  "ladder": {
+    "sound_type": "LADDER",
+    "sound_type_code_name": "j",
+    "code_name": "cz"
+  },
+  "rail": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "cA"
+  },
+  "cobblestone_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cB"
+  },
+  "wall_sign": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cC"
+  },
+  "lever": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cD"
+  },
+  "stone_pressure_plate": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cE"
+  },
+  "iron_door": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "cF"
+  },
+  "oak_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cG"
+  },
+  "spruce_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cH"
+  },
+  "birch_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cI"
+  },
+  "jungle_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cJ"
+  },
+  "acacia_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cK"
+  },
+  "dark_oak_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cL"
+  },
+  "redstone_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cM"
+  },
+  "redstone_torch": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cN"
+  },
+  "redstone_wall_torch": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cO"
+  },
+  "stone_button": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cP"
+  },
+  "snow": {
+    "sound_type": "SNOW",
+    "sound_type_code_name": "i",
+    "code_name": "cQ"
+  },
+  "ice": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "cR"
+  },
+  "snow_block": {
+    "sound_type": "SNOW",
+    "sound_type_code_name": "i",
+    "code_name": "cS"
+  },
+  "cactus": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "cT"
+  },
+  "clay": {
+    "sound_type": "GRAVEL",
+    "sound_type_code_name": "b",
+    "code_name": "cU"
+  },
+  "sugar_cane": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "cV"
+  },
+  "jukebox": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "cW"
+  },
+  "oak_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cX"
+  },
+  "pumpkin": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dd"
+  },
+  "netherrack": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "de"
+  },
+  "soul_sand": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "df"
+  },
+  "glowstone": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "dg"
+  },
+  "nether_portal": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "dh"
+  },
+  "carved_pumpkin": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "di"
+  },
+  "jack_o_lantern": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dj"
+  },
+  "cake": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "dk"
+  },
+  "repeater": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dl"
+  },
+  "white_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gA"
+  },
+  "orange_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gB"
+  },
+  "magenta_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gC"
+  },
+  "light_blue_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gD"
+  },
+  "yellow_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gE"
+  },
+  "lime_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gF"
+  },
+  "pink_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gG"
+  },
+  "gray_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gH"
+  },
+  "light_gray_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gI"
+  },
+  "cyan_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gJ"
+  },
+  "purple_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gK"
+  },
+  "blue_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gL"
+  },
+  "brown_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gM"
+  },
+  "green_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gN"
+  },
+  "red_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gO"
+  },
+  "black_stained_glass": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gP"
+  },
+  "oak_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dm"
+  },
+  "spruce_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dn"
+  },
+  "birch_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "do"
+  },
+  "jungle_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dp"
+  },
+  "acacia_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dq"
+  },
+  "dark_oak_trapdoor": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dr"
+  },
+  "infested_stone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ds"
+  },
+  "infested_cobblestone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dt"
+  },
+  "infested_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "du"
+  },
+  "infested_mossy_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dv"
+  },
+  "infested_cracked_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dw"
+  },
+  "infested_chiseled_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dx"
+  },
+  "stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dy"
+  },
+  "mossy_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dz"
+  },
+  "cracked_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dA"
+  },
+  "chiseled_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dB"
+  },
+  "brown_mushroom_block": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dC"
+  },
+  "red_mushroom_block": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dD"
+  },
+  "mushroom_stem": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dE"
+  },
+  "iron_bars": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "dF"
+  },
+  "glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "dG"
+  },
+  "melon": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dH"
+  },
+  "attached_pumpkin_stem": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dI"
+  },
+  "attached_melon_stem": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dJ"
+  },
+  "pumpkin_stem": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dK"
+  },
+  "melon_stem": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dL"
+  },
+  "vine": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "dM"
+  },
+  "oak_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dN"
+  },
+  "brick_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dT"
+  },
+  "stone_brick_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dU"
+  },
+  "mycelium": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "dV"
+  },
+  "lily_pad": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "dW"
+  },
+  "nether_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dX"
+  },
+  "nether_brick_fence": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dY"
+  },
+  "nether_brick_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "dZ"
+  },
+  "nether_wart": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ea"
+  },
+  "enchanting_table": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "eb"
+  },
+  "brewing_stand": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ec"
+  },
+  "cauldron": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ed"
+  },
+  "end_portal": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ee"
+  },
+  "end_portal_frame": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "ef"
+  },
+  "end_stone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "eg"
+  },
+  "dragon_egg": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "eh"
+  },
+  "redstone_lamp": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "ei"
+  },
+  "cocoa": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ej"
+  },
+  "sandstone_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ek"
+  },
+  "emerald_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "el"
+  },
+  "ender_chest": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "em"
+  },
+  "tripwire_hook": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "en"
+  },
+  "tripwire": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "eo"
+  },
+  "emerald_block": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "ep"
+  },
+  "spruce_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eq"
+  },
+  "birch_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "er"
+  },
+  "jungle_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "es"
+  },
+  "command_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "et"
+  },
+  "beacon": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "eu"
+  },
+  "cobblestone_wall": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ev"
+  },
+  "mossy_cobblestone_wall": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ew"
+  },
+  "flower_pot": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ex"
+  },
+  "potted_oak_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eI"
+  },
+  "potted_spruce_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eJ"
+  },
+  "potted_birch_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eK"
+  },
+  "potted_jungle_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eL"
+  },
+  "potted_acacia_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eM"
+  },
+  "potted_dark_oak_sapling": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eN"
+  },
+  "potted_fern": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eR"
+  },
+  "potted_dandelion": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eH"
+  },
+  "potted_poppy": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ey"
+  },
+  "potted_blue_orchid": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ez"
+  },
+  "potted_allium": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eA"
+  },
+  "potted_azure_bluet": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eB"
+  },
+  "potted_red_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eC"
+  },
+  "potted_orange_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eD"
+  },
+  "potted_white_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eE"
+  },
+  "potted_pink_tulip": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eF"
+  },
+  "potted_oxeye_daisy": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eG"
+  },
+  "potted_red_mushroom": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eO"
+  },
+  "potted_brown_mushroom": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eP"
+  },
+  "potted_dead_bush": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eQ"
+  },
+  "potted_cactus": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "eS"
+  },
+  "carrots": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eT"
+  },
+  "potatoes": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "eU"
+  },
+  "oak_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eV"
+  },
+  "spruce_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eW"
+  },
+  "birch_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eX"
+  },
+  "jungle_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eY"
+  },
+  "acacia_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "eZ"
+  },
+  "dark_oak_button": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "fa"
+  },
+  "skeleton_wall_skull": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fb"
+  },
+  "skeleton_skull": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fc"
+  },
+  "wither_skeleton_wall_skull": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fd"
+  },
+  "wither_skeleton_skull": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fe"
+  },
+  "zombie_wall_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ff"
+  },
+  "zombie_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fg"
+  },
+  "player_wall_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fh"
+  },
+  "player_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fi"
+  },
+  "creeper_wall_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fj"
+  },
+  "creeper_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fk"
+  },
+  "dragon_wall_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fl"
+  },
+  "dragon_head": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fm"
+  },
+  "anvil": {
+    "sound_type": "ANVIL",
+    "sound_type_code_name": "k",
+    "code_name": "fn"
+  },
+  "chipped_anvil": {
+    "sound_type": "ANVIL",
+    "sound_type_code_name": "k",
+    "code_name": "fo"
+  },
+  "damaged_anvil": {
+    "sound_type": "ANVIL",
+    "sound_type_code_name": "k",
+    "code_name": "fp"
+  },
+  "trapped_chest": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "fq"
+  },
+  "light_weighted_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "fr"
+  },
+  "heavy_weighted_pressure_plate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "fs"
+  },
+  "comparator": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ft"
+  },
+  "daylight_detector": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "fu"
+  },
+  "redstone_block": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "fv"
+  },
+  "nether_quartz_ore": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fw"
+  },
+  "hopper": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "fx"
+  },
+  "quartz_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fy"
+  },
+  "chiseled_quartz_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fA"
+  },
+  "quartz_pillar": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fz"
+  },
+  "quartz_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fB"
+  },
+  "activator_rail": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "fC"
+  },
+  "dropper": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fD"
+  },
+  "white_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fE"
+  },
+  "orange_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fF"
+  },
+  "magenta_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fG"
+  },
+  "light_blue_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fH"
+  },
+  "yellow_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fI"
+  },
+  "lime_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fJ"
+  },
+  "pink_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fK"
+  },
+  "gray_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fL"
+  },
+  "light_gray_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fM"
+  },
+  "cyan_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fN"
+  },
+  "purple_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fO"
+  },
+  "blue_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fP"
+  },
+  "brown_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fQ"
+  },
+  "green_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fR"
+  },
+  "red_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fS"
+  },
+  "black_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fT"
+  },
+  "white_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gQ"
+  },
+  "orange_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gR"
+  },
+  "magenta_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gS"
+  },
+  "light_blue_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gT"
+  },
+  "yellow_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gU"
+  },
+  "lime_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gV"
+  },
+  "pink_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gW"
+  },
+  "gray_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gX"
+  },
+  "light_gray_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gY"
+  },
+  "cyan_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gZ"
+  },
+  "purple_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "ha"
+  },
+  "blue_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "hb"
+  },
+  "brown_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "hc"
+  },
+  "green_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "hd"
+  },
+  "red_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "he"
+  },
+  "black_stained_glass_pane": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "hf"
+  },
+  "acacia_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "gr"
+  },
+  "dark_oak_stairs": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "gs"
+  },
+  "slime_block": {
+    "sound_type": "SLIME_BLOCK",
+    "sound_type_code_name": "l",
+    "code_name": "gt"
+  },
+  "barrier": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "fU"
+  },
+  "iron_trapdoor": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "fV"
+  },
+  "prismarine": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hg"
+  },
+  "prismarine_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hh"
+  },
+  "dark_prismarine": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hi"
+  },
+  "prismarine_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hj"
+  },
+  "prismarine_brick_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hk"
+  },
+  "dark_prismarine_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hl"
+  },
+  "prismarine_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bT"
+  },
+  "prismarine_brick_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bU"
+  },
+  "dark_prismarine_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bV"
+  },
+  "sea_lantern": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "hm"
+  },
+  "hay_block": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "fW"
+  },
+  "white_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "fX"
+  },
+  "orange_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "fY"
+  },
+  "magenta_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "fZ"
+  },
+  "light_blue_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "ga"
+  },
+  "yellow_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gb"
+  },
+  "lime_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gc"
+  },
+  "pink_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gd"
+  },
+  "gray_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "ge"
+  },
+  "light_gray_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gf"
+  },
+  "cyan_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gg"
+  },
+  "purple_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gh"
+  },
+  "blue_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gi"
+  },
+  "brown_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gj"
+  },
+  "green_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gk"
+  },
+  "red_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gl"
+  },
+  "black_carpet": {
+    "sound_type": "WOOL",
+    "sound_type_code_name": "g",
+    "code_name": "gm"
+  },
+  "terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "gn"
+  },
+  "coal_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "go"
+  },
+  "packed_ice": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gp"
+  },
+  "sunflower": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gu"
+  },
+  "lilac": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gv"
+  },
+  "rose_bush": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gw"
+  },
+  "peony": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gx"
+  },
+  "tall_grass": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gy"
+  },
+  "large_fern": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "gz"
+  },
+  "white_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hn"
+  },
+  "orange_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ho"
+  },
+  "magenta_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hp"
+  },
+  "light_blue_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hq"
+  },
+  "yellow_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hr"
+  },
+  "lime_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hs"
+  },
+  "pink_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "ht"
+  },
+  "gray_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hu"
+  },
+  "light_gray_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hv"
+  },
+  "cyan_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hw"
+  },
+  "purple_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hx"
+  },
+  "blue_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hy"
+  },
+  "brown_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hz"
+  },
+  "green_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hA"
+  },
+  "red_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hB"
+  },
+  "black_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hC"
+  },
+  "white_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hD"
+  },
+  "orange_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hE"
+  },
+  "magenta_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hF"
+  },
+  "light_blue_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hG"
+  },
+  "yellow_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hH"
+  },
+  "lime_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hI"
+  },
+  "pink_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hJ"
+  },
+  "gray_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hK"
+  },
+  "light_gray_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hL"
+  },
+  "cyan_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hM"
+  },
+  "purple_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hN"
+  },
+  "blue_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hO"
+  },
+  "brown_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hP"
+  },
+  "green_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hQ"
+  },
+  "red_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hR"
+  },
+  "black_wall_banner": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hS"
+  },
+  "red_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hT"
+  },
+  "chiseled_red_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hU"
+  },
+  "cut_red_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hV"
+  },
+  "red_sandstone_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "hW"
+  },
+  "oak_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bD"
+  },
+  "spruce_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bE"
+  },
+  "birch_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bF"
+  },
+  "jungle_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bG"
+  },
+  "acacia_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bH"
+  },
+  "dark_oak_slab": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "bI"
+  },
+  "stone_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bJ"
+  },
+  "sandstone_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bK"
+  },
+  "petrified_oak_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bL"
+  },
+  "cobblestone_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bM"
+  },
+  "brick_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bN"
+  },
+  "stone_brick_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bO"
+  },
+  "nether_brick_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bP"
+  },
+  "quartz_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bQ"
+  },
+  "red_sandstone_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bR"
+  },
+  "purpur_slab": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bS"
+  },
+  "smooth_stone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bW"
+  },
+  "smooth_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bX"
+  },
+  "smooth_quartz": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bY"
+  },
+  "smooth_red_sandstone": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "bZ"
+  },
+  "spruce_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dO"
+  },
+  "birch_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dP"
+  },
+  "jungle_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dQ"
+  },
+  "acacia_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dS"
+  },
+  "dark_oak_fence_gate": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dR"
+  },
+  "spruce_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cY"
+  },
+  "birch_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cZ"
+  },
+  "jungle_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "da"
+  },
+  "acacia_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "dc"
+  },
+  "dark_oak_fence": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "db"
+  },
+  "spruce_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cu"
+  },
+  "birch_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cv"
+  },
+  "jungle_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cw"
+  },
+  "acacia_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cx"
+  },
+  "dark_oak_door": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "cy"
+  },
+  "end_rod": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hX"
+  },
+  "chorus_plant": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hY"
+  },
+  "chorus_flower": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "hZ"
+  },
+  "purpur_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ia"
+  },
+  "purpur_pillar": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ib"
+  },
+  "purpur_stairs": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ic"
+  },
+  "end_stone_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "id"
+  },
+  "beetroots": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "ie"
+  },
+  "grass_path": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "if"
+  },
+  "end_gateway": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ig"
+  },
+  "repeating_command_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ih"
+  },
+  "chain_command_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ii"
+  },
+  "frosted_ice": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "ij"
+  },
+  "magma_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ik"
+  },
+  "nether_wart_block": {
+    "sound_type": "WOOD",
+    "sound_type_code_name": "a",
+    "code_name": "il"
+  },
+  "red_nether_bricks": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "im"
+  },
+  "bone_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "in"
+  },
+  "structure_void": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "io"
+  },
+  "observer": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ip"
+  },
+  "shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iq"
+  },
+  "white_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ir"
+  },
+  "orange_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "is"
+  },
+  "magenta_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "it"
+  },
+  "light_blue_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iu"
+  },
+  "yellow_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iv"
+  },
+  "lime_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iw"
+  },
+  "pink_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ix"
+  },
+  "gray_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iy"
+  },
+  "light_gray_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iz"
+  },
+  "cyan_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iA"
+  },
+  "purple_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iB"
+  },
+  "blue_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iC"
+  },
+  "brown_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iD"
+  },
+  "green_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iE"
+  },
+  "red_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iF"
+  },
+  "black_shulker_box": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iG"
+  },
+  "white_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iH"
+  },
+  "orange_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iI"
+  },
+  "magenta_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iJ"
+  },
+  "light_blue_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iK"
+  },
+  "yellow_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iL"
+  },
+  "lime_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iM"
+  },
+  "pink_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iN"
+  },
+  "gray_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iO"
+  },
+  "light_gray_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iP"
+  },
+  "cyan_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iQ"
+  },
+  "purple_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iR"
+  },
+  "blue_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iS"
+  },
+  "brown_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iT"
+  },
+  "green_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iU"
+  },
+  "red_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iV"
+  },
+  "black_glazed_terracotta": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iW"
+  },
+  "white_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iX"
+  },
+  "orange_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iY"
+  },
+  "magenta_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "iZ"
+  },
+  "light_blue_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ja"
+  },
+  "yellow_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jb"
+  },
+  "lime_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jc"
+  },
+  "pink_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jd"
+  },
+  "gray_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "je"
+  },
+  "light_gray_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jf"
+  },
+  "cyan_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jg"
+  },
+  "purple_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jh"
+  },
+  "blue_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ji"
+  },
+  "brown_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jj"
+  },
+  "green_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jk"
+  },
+  "red_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jl"
+  },
+  "black_concrete": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jm"
+  },
+  "white_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jn"
+  },
+  "orange_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jo"
+  },
+  "magenta_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jp"
+  },
+  "light_blue_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jq"
+  },
+  "yellow_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jr"
+  },
+  "lime_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "js"
+  },
+  "pink_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jt"
+  },
+  "gray_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "ju"
+  },
+  "light_gray_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jv"
+  },
+  "cyan_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jw"
+  },
+  "purple_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jx"
+  },
+  "blue_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jy"
+  },
+  "brown_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jz"
+  },
+  "green_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jA"
+  },
+  "red_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jB"
+  },
+  "black_concrete_powder": {
+    "sound_type": "SAND",
+    "sound_type_code_name": "h",
+    "code_name": "jC"
+  },
+  "kelp": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jE"
+  },
+  "kelp_plant": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jD"
+  },
+  "dried_kelp_block": {
+    "sound_type": "GRASS",
+    "sound_type_code_name": "c",
+    "code_name": "jF"
+  },
+  "turtle_egg": {
+    "sound_type": "METAL",
+    "sound_type_code_name": "e",
+    "code_name": "jG"
+  },
+  "dead_tube_coral_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jJ"
+  },
+  "dead_brain_coral_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jK"
+  },
+  "dead_bubble_coral_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jL"
+  },
+  "dead_fire_coral_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jM"
+  },
+  "dead_horn_coral_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jN"
+  },
+  "tube_coral_block": {
+    "sound_type": "CORAL_BLOCK",
+    "sound_type_code_name": "n",
+    "code_name": "jO"
+  },
+  "brain_coral_block": {
+    "sound_type": "CORAL_BLOCK",
+    "sound_type_code_name": "n",
+    "code_name": "jP"
+  },
+  "bubble_coral_block": {
+    "sound_type": "CORAL_BLOCK",
+    "sound_type_code_name": "n",
+    "code_name": "jQ"
+  },
+  "fire_coral_block": {
+    "sound_type": "CORAL_BLOCK",
+    "sound_type_code_name": "n",
+    "code_name": "jR"
+  },
+  "horn_coral_block": {
+    "sound_type": "CORAL_BLOCK",
+    "sound_type_code_name": "n",
+    "code_name": "jS"
+  },
+  "tube_coral": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jT"
+  },
+  "brain_coral": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jU"
+  },
+  "bubble_coral": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jV"
+  },
+  "fire_coral": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jW"
+  },
+  "horn_coral": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jX"
+  },
+  "tube_coral_fan": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jY"
+  },
+  "brain_coral_fan": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "jZ"
+  },
+  "bubble_coral_fan": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "ka"
+  },
+  "fire_coral_fan": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "kb"
+  },
+  "horn_coral_fan": {
+    "sound_type": "WET_GRASS",
+    "sound_type_code_name": "m",
+    "code_name": "kc"
+  },
+  "sea_pickle": {
+    "sound_type": "SLIME_BLOCK",
+    "sound_type_code_name": "l",
+    "code_name": "kd"
+  },
+  "blue_ice": {
+    "sound_type": "GLASS",
+    "sound_type_code_name": "f",
+    "code_name": "gq"
+  },
+  "conduit": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "ke"
+  },
+  "void_air": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jH"
+  },
+  "cave_air": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "jI"
+  },
+  "bubble_column": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "B"
+  },
+  "structure_block": {
+    "sound_type": "STONE",
+    "sound_type_code_name": "d",
+    "code_name": "kf"
+  }
+}

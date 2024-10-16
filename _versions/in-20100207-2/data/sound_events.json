@@ -1,0 +1,19 @@
+[
+  "fire.fire",
+  "fire.ignite",
+  "liquid.lava",
+  "liquid.water",
+  "random.bow",
+  "random.click",
+  "random.drr",
+  "random.explode",
+  "random.fizz",
+  "random.fuse",
+  "random.hurt",
+  "random.pop",
+  "random.splash",
+  "step.grass",
+  "step.gravel",
+  "step.stone",
+  "step.wood"
+]

@@ -1,0 +1,266 @@
+{
+  "1": {
+    "sound_type": "aG",
+    "code_name": "g"
+  },
+  "2": {
+    "sound_type": "aF",
+    "code_name": "h"
+  },
+  "3": {
+    "sound_type": "aE",
+    "code_name": "i"
+  },
+  "4": {
+    "sound_type": "aG",
+    "code_name": "j"
+  },
+  "5": {
+    "sound_type": "aD",
+    "code_name": "k"
+  },
+  "6": {
+    "sound_type": "aF",
+    "code_name": "l"
+  },
+  "7": {
+    "sound_type": "aG",
+    "code_name": "m"
+  },
+  "8": {
+    "sound_type": "a",
+    "code_name": "n"
+  },
+  "9": {
+    "sound_type": "a",
+    "code_name": "o"
+  },
+  "10": {
+    "sound_type": "a",
+    "code_name": "p"
+  },
+  "11": {
+    "sound_type": "a",
+    "code_name": "q"
+  },
+  "12": {
+    "sound_type": "aK",
+    "code_name": "r"
+  },
+  "13": {
+    "sound_type": "aE",
+    "code_name": "s"
+  },
+  "14": {
+    "sound_type": "aG",
+    "code_name": "t"
+  },
+  "15": {
+    "sound_type": "aG",
+    "code_name": "u"
+  },
+  "16": {
+    "sound_type": "aG",
+    "code_name": "v"
+  },
+  "17": {
+    "sound_type": "aD",
+    "code_name": "w"
+  },
+  "18": {
+    "sound_type": "aF",
+    "code_name": "x"
+  },
+  "19": {
+    "sound_type": "aF",
+    "code_name": "y"
+  },
+  "20": {
+    "sound_type": "aI",
+    "code_name": "z"
+  },
+  "21": {
+    "sound_type": "aJ",
+    "code_name": "A"
+  },
+  "22": {
+    "sound_type": "aJ",
+    "code_name": "B"
+  },
+  "23": {
+    "sound_type": "aJ",
+    "code_name": "C"
+  },
+  "24": {
+    "sound_type": "aJ",
+    "code_name": "D"
+  },
+  "25": {
+    "sound_type": "aJ",
+    "code_name": "E"
+  },
+  "26": {
+    "sound_type": "aJ",
+    "code_name": "F"
+  },
+  "27": {
+    "sound_type": "aJ",
+    "code_name": "G"
+  },
+  "28": {
+    "sound_type": "aJ",
+    "code_name": "H"
+  },
+  "29": {
+    "sound_type": "aJ",
+    "code_name": "I"
+  },
+  "30": {
+    "sound_type": "aJ",
+    "code_name": "J"
+  },
+  "31": {
+    "sound_type": "aJ",
+    "code_name": "K"
+  },
+  "32": {
+    "sound_type": "aJ",
+    "code_name": "L"
+  },
+  "33": {
+    "sound_type": "aJ",
+    "code_name": "M"
+  },
+  "34": {
+    "sound_type": "aJ",
+    "code_name": "N"
+  },
+  "35": {
+    "sound_type": "aJ",
+    "code_name": "O"
+  },
+  "36": {
+    "sound_type": "aJ",
+    "code_name": "P"
+  },
+  "37": {
+    "sound_type": "aF",
+    "code_name": "Q"
+  },
+  "38": {
+    "sound_type": "aF",
+    "code_name": "R"
+  },
+  "39": {
+    "sound_type": "aF",
+    "code_name": "S"
+  },
+  "40": {
+    "sound_type": "aF",
+    "code_name": "T"
+  },
+  "41": {
+    "sound_type": "aH",
+    "code_name": "U"
+  },
+  "42": {
+    "sound_type": "aH",
+    "code_name": "V"
+  },
+  "43": {
+    "sound_type": "aG",
+    "code_name": "W"
+  },
+  "44": {
+    "sound_type": "aG",
+    "code_name": "X"
+  },
+  "45": {
+    "sound_type": "aG",
+    "code_name": "Y"
+  },
+  "46": {
+    "sound_type": "aF",
+    "code_name": "Z"
+  },
+  "47": {
+    "sound_type": "aD",
+    "code_name": "aa"
+  },
+  "48": {
+    "sound_type": "aG",
+    "code_name": "ab"
+  },
+  "49": {
+    "sound_type": "aG",
+    "code_name": "ac"
+  },
+  "50": {
+    "sound_type": "aD",
+    "code_name": "ad"
+  },
+  "51": {
+    "sound_type": "aD",
+    "code_name": "ae"
+  },
+  "52": {
+    "sound_type": "aD",
+    "code_name": null
+  },
+  "53": {
+    "sound_type": "aD",
+    "code_name": null
+  },
+  "54": {
+    "sound_type": "aD",
+    "code_name": "af"
+  },
+  "55": {
+    "sound_type": "aH",
+    "code_name": "ag"
+  },
+  "56": {
+    "sound_type": "aG",
+    "code_name": "ah"
+  },
+  "57": {
+    "sound_type": "aH",
+    "code_name": "ai"
+  },
+  "58": {
+    "sound_type": "aD",
+    "code_name": "aj"
+  },
+  "59": {
+    "sound_type": "aF",
+    "code_name": "ak"
+  },
+  "60": {
+    "sound_type": "aE",
+    "code_name": "al"
+  },
+  "61": {
+    "sound_type": "aG",
+    "code_name": "am"
+  },
+  "62": {
+    "sound_type": "aG",
+    "code_name": "an"
+  },
+  "63": {
+    "sound_type": "aD",
+    "code_name": "ao"
+  },
+  "64": {
+    "sound_type": "aD",
+    "code_name": "ap"
+  },
+  "65": {
+    "sound_type": "aD",
+    "code_name": "aq"
+  },
+  "66": {
+    "sound_type": "aH",
+    "code_name": "ar"
+  }
+}

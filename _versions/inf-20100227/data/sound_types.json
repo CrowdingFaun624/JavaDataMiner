@@ -1,0 +1,65 @@
+{
+  "a": {
+    "name": "stone",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.stone",
+    "step": "step.stone"
+  },
+  "b": {
+    "name": "wood",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.wood",
+    "step": "step.wood"
+  },
+  "ay": {
+    "name": "gravel",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.gravel",
+    "step": "step.gravel"
+  },
+  "az": {
+    "name": "grass",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.grass",
+    "step": "step.grass"
+  },
+  "aA": {
+    "name": "stone",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.stone",
+    "step": "step.stone"
+  },
+  "aB": {
+    "name": "stone",
+    "volume": 1.0,
+    "pitch": 1.5,
+    "dig": "step.stone",
+    "step": "step.stone"
+  },
+  "aC": {
+    "name": "stone",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "random.glass",
+    "step": "step.stone"
+  },
+  "aD": {
+    "name": "cloth",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.cloth",
+    "step": "step.cloth"
+  },
+  "aE": {
+    "name": "sand",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "dig": "step.gravel",
+    "step": "step.sand"
+  }
+}

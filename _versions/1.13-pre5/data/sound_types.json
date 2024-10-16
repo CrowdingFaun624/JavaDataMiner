@@ -1,0 +1,110 @@
+{
+  "a": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.wood.break",
+    "step": "block.wood.step",
+    "place": "block.wood.place",
+    "hit": "block.wood.hit",
+    "fall": "block.wood.fall"
+  },
+  "b": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.gravel.break",
+    "step": "block.gravel.step",
+    "place": "block.gravel.place",
+    "hit": "block.gravel.hit",
+    "fall": "block.gravel.fall"
+  },
+  "c": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.grass.break",
+    "step": "block.grass.step",
+    "place": "block.grass.place",
+    "hit": "block.grass.hit",
+    "fall": "block.grass.fall"
+  },
+  "d": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.stone.break",
+    "step": "block.stone.step",
+    "place": "block.stone.place",
+    "hit": "block.stone.hit",
+    "fall": "block.stone.fall"
+  },
+  "e": {
+    "volume": 1.0,
+    "pitch": 1.5,
+    "break": "block.metal.break",
+    "step": "block.metal.step",
+    "place": "block.metal.place",
+    "hit": "block.metal.hit",
+    "fall": "block.metal.fall"
+  },
+  "f": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.glass.break",
+    "step": "block.glass.step",
+    "place": "block.glass.place",
+    "hit": "block.glass.hit",
+    "fall": "block.glass.fall"
+  },
+  "g": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.wool.break",
+    "step": "block.wool.step",
+    "place": "block.wool.place",
+    "hit": "block.wool.hit",
+    "fall": "block.wool.fall"
+  },
+  "h": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.sand.break",
+    "step": "block.sand.step",
+    "place": "block.sand.place",
+    "hit": "block.sand.hit",
+    "fall": "block.sand.fall"
+  },
+  "i": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.snow.break",
+    "step": "block.snow.step",
+    "place": "block.snow.place",
+    "hit": "block.snow.hit",
+    "fall": "block.snow.fall"
+  },
+  "j": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.ladder.break",
+    "step": "block.ladder.step",
+    "place": "block.ladder.place",
+    "hit": "block.ladder.hit",
+    "fall": "block.ladder.fall"
+  },
+  "k": {
+    "volume": 0.3,
+    "pitch": 1.0,
+    "break": "block.anvil.break",
+    "step": "block.anvil.step",
+    "place": "block.anvil.place",
+    "hit": "block.anvil.hit",
+    "fall": "block.anvil.fall"
+  },
+  "l": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "block.slime_block.break",
+    "step": "block.slime_block.step",
+    "place": "block.slime_block.place",
+    "hit": "block.slime_block.hit",
+    "fall": "block.slime_block.fall"
+  }
+}

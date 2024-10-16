@@ -1,0 +1,787 @@
+{
+  "v": {
+    "id": 1,
+    "name": "stone",
+    "sound_type": "h"
+  },
+  "w": {
+    "id": 2,
+    "name": "grass",
+    "sound_type": "g"
+  },
+  "x": {
+    "id": 3,
+    "name": "dirt",
+    "sound_type": "f"
+  },
+  "y": {
+    "id": 4,
+    "name": "stonebrick",
+    "sound_type": "h"
+  },
+  "z": {
+    "id": 5,
+    "name": "wood",
+    "sound_type": "e"
+  },
+  "A": {
+    "id": 6,
+    "name": "sapling",
+    "sound_type": "g"
+  },
+  "B": {
+    "id": 7,
+    "name": "bedrock",
+    "sound_type": "h"
+  },
+  "C": {
+    "id": 8,
+    "name": "water",
+    "sound_type": "d"
+  },
+  "D": {
+    "id": 9,
+    "name": "water",
+    "sound_type": "d"
+  },
+  "E": {
+    "id": 10,
+    "name": "lava",
+    "sound_type": "d"
+  },
+  "F": {
+    "id": 11,
+    "name": "lava",
+    "sound_type": "d"
+  },
+  "G": {
+    "id": 12,
+    "name": "sand",
+    "sound_type": "l"
+  },
+  "H": {
+    "id": 13,
+    "name": "gravel",
+    "sound_type": "f"
+  },
+  "I": {
+    "id": 14,
+    "name": "oreGold",
+    "sound_type": "h"
+  },
+  "J": {
+    "id": 15,
+    "name": "oreIron",
+    "sound_type": "h"
+  },
+  "K": {
+    "id": 16,
+    "name": "oreCoal",
+    "sound_type": "h"
+  },
+  "L": {
+    "id": 17,
+    "name": "log",
+    "sound_type": "e"
+  },
+  "M": {
+    "id": 18,
+    "name": "leaves",
+    "sound_type": "g"
+  },
+  "N": {
+    "id": 19,
+    "name": "sponge",
+    "sound_type": "g"
+  },
+  "O": {
+    "id": 20,
+    "name": "glass",
+    "sound_type": "j"
+  },
+  "P": {
+    "id": 21,
+    "name": "oreLapis",
+    "sound_type": "h"
+  },
+  "Q": {
+    "id": 22,
+    "name": "blockLapis",
+    "sound_type": "h"
+  },
+  "R": {
+    "id": 23,
+    "name": "dispenser",
+    "sound_type": "h"
+  },
+  "S": {
+    "id": 24,
+    "name": "sandStone",
+    "sound_type": "h"
+  },
+  "T": {
+    "id": 25,
+    "name": "musicBlock",
+    "sound_type": "d"
+  },
+  "U": {
+    "id": 26,
+    "name": "bed",
+    "sound_type": "d"
+  },
+  "V": {
+    "id": 27,
+    "name": "goldenRail",
+    "sound_type": "i"
+  },
+  "W": {
+    "id": 28,
+    "name": "detectorRail",
+    "sound_type": "i"
+  },
+  "X": {
+    "id": 29,
+    "name": "pistonStickyBase",
+    "sound_type": "h"
+  },
+  "Y": {
+    "id": 30,
+    "name": "web",
+    "sound_type": "d"
+  },
+  "Z": {
+    "id": 31,
+    "name": "tallgrass",
+    "sound_type": "g"
+  },
+  "aa": {
+    "id": 32,
+    "name": "deadbush",
+    "sound_type": "g"
+  },
+  "ab": {
+    "id": 33,
+    "name": "pistonBase",
+    "sound_type": "h"
+  },
+  "ac": {
+    "id": 34,
+    "name": null,
+    "sound_type": "h"
+  },
+  "ad": {
+    "id": 0,
+    "name": "cloth",
+    "sound_type": "k"
+  },
+  "ae": {
+    "id": 36,
+    "name": null,
+    "sound_type": "d"
+  },
+  "af": {
+    "id": 37,
+    "name": "flower",
+    "sound_type": "g"
+  },
+  "ag": {
+    "id": 38,
+    "name": "rose",
+    "sound_type": "g"
+  },
+  "ah": {
+    "id": 39,
+    "name": "mushroom",
+    "sound_type": "g"
+  },
+  "ai": {
+    "id": 40,
+    "name": "mushroom",
+    "sound_type": "g"
+  },
+  "aj": {
+    "id": 41,
+    "name": "blockGold",
+    "sound_type": "i"
+  },
+  "ak": {
+    "id": 42,
+    "name": "blockIron",
+    "sound_type": "i"
+  },
+  "al": {
+    "id": 43,
+    "name": "stoneSlab",
+    "sound_type": "h"
+  },
+  "am": {
+    "id": 44,
+    "name": "stoneSlab",
+    "sound_type": "h"
+  },
+  "an": {
+    "id": 45,
+    "name": "brick",
+    "sound_type": "h"
+  },
+  "ao": {
+    "id": 46,
+    "name": "tnt",
+    "sound_type": "g"
+  },
+  "ap": {
+    "id": 47,
+    "name": "bookshelf",
+    "sound_type": "e"
+  },
+  "aq": {
+    "id": 48,
+    "name": "stoneMoss",
+    "sound_type": "h"
+  },
+  "ar": {
+    "id": 49,
+    "name": "obsidian",
+    "sound_type": "h"
+  },
+  "as": {
+    "id": 50,
+    "name": "torch",
+    "sound_type": "e"
+  },
+  "at": {
+    "id": 51,
+    "name": "fire",
+    "sound_type": "e"
+  },
+  "au": {
+    "id": 52,
+    "name": "mobSpawner",
+    "sound_type": "i"
+  },
+  "av": {
+    "id": 53,
+    "name": "stairsWood",
+    "sound_type": "e"
+  },
+  "aw": {
+    "id": 54,
+    "name": "chest",
+    "sound_type": "e"
+  },
+  "ax": {
+    "id": 55,
+    "name": "redstoneDust",
+    "sound_type": "d"
+  },
+  "ay": {
+    "id": 56,
+    "name": "oreDiamond",
+    "sound_type": "h"
+  },
+  "az": {
+    "id": 57,
+    "name": "blockDiamond",
+    "sound_type": "i"
+  },
+  "aA": {
+    "id": 58,
+    "name": "workbench",
+    "sound_type": "e"
+  },
+  "aB": {
+    "id": 59,
+    "name": "crops",
+    "sound_type": "g"
+  },
+  "aC": {
+    "id": 60,
+    "name": "farmland",
+    "sound_type": "f"
+  },
+  "aD": {
+    "id": 61,
+    "name": "furnace",
+    "sound_type": "h"
+  },
+  "aE": {
+    "id": 62,
+    "name": "furnace",
+    "sound_type": "h"
+  },
+  "aF": {
+    "id": 63,
+    "name": "sign",
+    "sound_type": "e"
+  },
+  "aG": {
+    "id": 64,
+    "name": "doorWood",
+    "sound_type": "e"
+  },
+  "aH": {
+    "id": 65,
+    "name": "ladder",
+    "sound_type": "n"
+  },
+  "aI": {
+    "id": 66,
+    "name": "rail",
+    "sound_type": "i"
+  },
+  "aJ": {
+    "id": 67,
+    "name": "stairsStone",
+    "sound_type": "h"
+  },
+  "aK": {
+    "id": 68,
+    "name": "sign",
+    "sound_type": "e"
+  },
+  "aL": {
+    "id": 69,
+    "name": "lever",
+    "sound_type": "e"
+  },
+  "aM": {
+    "id": 70,
+    "name": "pressurePlate",
+    "sound_type": "h"
+  },
+  "aN": {
+    "id": 71,
+    "name": "doorIron",
+    "sound_type": "i"
+  },
+  "aO": {
+    "id": 72,
+    "name": "pressurePlate",
+    "sound_type": "e"
+  },
+  "aP": {
+    "id": 73,
+    "name": "oreRedstone",
+    "sound_type": "h"
+  },
+  "aQ": {
+    "id": 74,
+    "name": "oreRedstone",
+    "sound_type": "h"
+  },
+  "aR": {
+    "id": 75,
+    "name": "notGate",
+    "sound_type": "e"
+  },
+  "aS": {
+    "id": 76,
+    "name": "notGate",
+    "sound_type": "e"
+  },
+  "aT": {
+    "id": 77,
+    "name": "button",
+    "sound_type": "h"
+  },
+  "aU": {
+    "id": 78,
+    "name": "snow",
+    "sound_type": "m"
+  },
+  "aV": {
+    "id": 79,
+    "name": "ice",
+    "sound_type": "j"
+  },
+  "aW": {
+    "id": 80,
+    "name": "snow",
+    "sound_type": "m"
+  },
+  "aX": {
+    "id": 81,
+    "name": "cactus",
+    "sound_type": "k"
+  },
+  "aY": {
+    "id": 82,
+    "name": "clay",
+    "sound_type": "f"
+  },
+  "aZ": {
+    "id": 83,
+    "name": "reeds",
+    "sound_type": "g"
+  },
+  "ba": {
+    "id": 84,
+    "name": "jukebox",
+    "sound_type": "h"
+  },
+  "bb": {
+    "id": 85,
+    "name": "fence",
+    "sound_type": "e"
+  },
+  "bc": {
+    "id": 86,
+    "name": "pumpkin",
+    "sound_type": "e"
+  },
+  "bd": {
+    "id": 87,
+    "name": "hellrock",
+    "sound_type": "h"
+  },
+  "be": {
+    "id": 88,
+    "name": "hellsand",
+    "sound_type": "l"
+  },
+  "bf": {
+    "id": 89,
+    "name": "lightgem",
+    "sound_type": "j"
+  },
+  "bg": {
+    "id": 90,
+    "name": "portal",
+    "sound_type": "j"
+  },
+  "bh": {
+    "id": 91,
+    "name": "litpumpkin",
+    "sound_type": "e"
+  },
+  "bi": {
+    "id": 92,
+    "name": "cake",
+    "sound_type": "k"
+  },
+  "bj": {
+    "id": 93,
+    "name": "diode",
+    "sound_type": "e"
+  },
+  "bk": {
+    "id": 94,
+    "name": "diode",
+    "sound_type": "e"
+  },
+  "bl": {
+    "id": 95,
+    "name": "lockedchest",
+    "sound_type": "e"
+  },
+  "bm": {
+    "id": 96,
+    "name": "trapdoor",
+    "sound_type": "e"
+  },
+  "bn": {
+    "id": 97,
+    "name": "monsterStoneEgg",
+    "sound_type": "d"
+  },
+  "bo": {
+    "id": 98,
+    "name": "stonebricksmooth",
+    "sound_type": "h"
+  },
+  "bp": {
+    "id": 99,
+    "name": "mushroom",
+    "sound_type": "e"
+  },
+  "bq": {
+    "id": 100,
+    "name": "mushroom",
+    "sound_type": "e"
+  },
+  "br": {
+    "id": 101,
+    "name": "fenceIron",
+    "sound_type": "i"
+  },
+  "bs": {
+    "id": 102,
+    "name": "thinGlass",
+    "sound_type": "j"
+  },
+  "bt": {
+    "id": 103,
+    "name": "melon",
+    "sound_type": "e"
+  },
+  "bu": {
+    "id": 104,
+    "name": "pumpkinStem",
+    "sound_type": "e"
+  },
+  "bv": {
+    "id": 105,
+    "name": "pumpkinStem",
+    "sound_type": "e"
+  },
+  "bw": {
+    "id": 106,
+    "name": "vine",
+    "sound_type": "g"
+  },
+  "bx": {
+    "id": 107,
+    "name": "fenceGate",
+    "sound_type": "e"
+  },
+  "by": {
+    "id": 108,
+    "name": "stairsBrick",
+    "sound_type": "h"
+  },
+  "bz": {
+    "id": 109,
+    "name": "stairsStoneBrickSmooth",
+    "sound_type": "h"
+  },
+  "bA": {
+    "id": 110,
+    "name": "mycel",
+    "sound_type": "g"
+  },
+  "bB": {
+    "id": 111,
+    "name": "waterlily",
+    "sound_type": "g"
+  },
+  "bC": {
+    "id": 112,
+    "name": "netherBrick",
+    "sound_type": "h"
+  },
+  "bD": {
+    "id": 113,
+    "name": "netherFence",
+    "sound_type": "h"
+  },
+  "bE": {
+    "id": 114,
+    "name": "stairsNetherBrick",
+    "sound_type": "h"
+  },
+  "bF": {
+    "id": 115,
+    "name": "netherStalk",
+    "sound_type": "g"
+  },
+  "bG": {
+    "id": 116,
+    "name": "enchantmentTable",
+    "sound_type": "d"
+  },
+  "bH": {
+    "id": 117,
+    "name": "brewingStand",
+    "sound_type": "d"
+  },
+  "bI": {
+    "id": 118,
+    "name": "cauldron",
+    "sound_type": "d"
+  },
+  "bJ": {
+    "id": 119,
+    "name": null,
+    "sound_type": "d"
+  },
+  "bK": {
+    "id": 120,
+    "name": "endPortalFrame",
+    "sound_type": "j"
+  },
+  "bL": {
+    "id": 121,
+    "name": "whiteStone",
+    "sound_type": "h"
+  },
+  "bM": {
+    "id": 122,
+    "name": "dragonEgg",
+    "sound_type": "h"
+  },
+  "bN": {
+    "id": 123,
+    "name": "redstoneLight",
+    "sound_type": "j"
+  },
+  "bO": {
+    "id": 124,
+    "name": "redstoneLight",
+    "sound_type": "j"
+  },
+  "bP": {
+    "id": 125,
+    "name": "woodSlab",
+    "sound_type": "e"
+  },
+  "bQ": {
+    "id": 126,
+    "name": "woodSlab",
+    "sound_type": "e"
+  },
+  "bR": {
+    "id": 127,
+    "name": "cocoa",
+    "sound_type": "e"
+  },
+  "bS": {
+    "id": 128,
+    "name": "stairsSandStone",
+    "sound_type": "h"
+  },
+  "bT": {
+    "id": 129,
+    "name": "oreEmerald",
+    "sound_type": "h"
+  },
+  "bU": {
+    "id": 130,
+    "name": "enderChest",
+    "sound_type": "h"
+  },
+  "bV": {
+    "id": 131,
+    "name": "tripWireSource",
+    "sound_type": "d"
+  },
+  "bW": {
+    "id": 132,
+    "name": "tripWire",
+    "sound_type": "d"
+  },
+  "bX": {
+    "id": 133,
+    "name": "blockEmerald",
+    "sound_type": "i"
+  },
+  "bY": {
+    "id": 134,
+    "name": "stairsWoodSpruce",
+    "sound_type": "e"
+  },
+  "bZ": {
+    "id": 135,
+    "name": "stairsWoodBirch",
+    "sound_type": "e"
+  },
+  "ca": {
+    "id": 136,
+    "name": "stairsWoodJungle",
+    "sound_type": "e"
+  },
+  "cb": {
+    "id": 137,
+    "name": "commandBlock",
+    "sound_type": "d"
+  },
+  "cc": {
+    "id": 138,
+    "name": "beacon",
+    "sound_type": "d"
+  },
+  "cd": {
+    "id": 139,
+    "name": "cobbleWall",
+    "sound_type": "h"
+  },
+  "ce": {
+    "id": 140,
+    "name": "flowerPot",
+    "sound_type": "d"
+  },
+  "cf": {
+    "id": 141,
+    "name": "carrots",
+    "sound_type": "g"
+  },
+  "cg": {
+    "id": 142,
+    "name": "potatoes",
+    "sound_type": "g"
+  },
+  "ch": {
+    "id": 143,
+    "name": "button",
+    "sound_type": "e"
+  },
+  "ci": {
+    "id": 144,
+    "name": "skull",
+    "sound_type": "h"
+  },
+  "cj": {
+    "id": 145,
+    "name": "anvil",
+    "sound_type": "o"
+  },
+  "ck": {
+    "id": 146,
+    "name": "chestTrap",
+    "sound_type": "e"
+  },
+  "cl": {
+    "id": 147,
+    "name": "weightedPlate_light",
+    "sound_type": "e"
+  },
+  "cm": {
+    "id": 148,
+    "name": "weightedPlate_heavy",
+    "sound_type": "e"
+  },
+  "cn": {
+    "id": 149,
+    "name": "comparator",
+    "sound_type": "e"
+  },
+  "co": {
+    "id": 150,
+    "name": "comparator",
+    "sound_type": "e"
+  },
+  "cp": {
+    "id": 151,
+    "name": "daylightDetector",
+    "sound_type": "e"
+  },
+  "cq": {
+    "id": 152,
+    "name": "blockRedstone",
+    "sound_type": "i"
+  },
+  "cr": {
+    "id": 153,
+    "name": "netherquartz",
+    "sound_type": "h"
+  },
+  "cs": {
+    "id": 154,
+    "name": "hopper",
+    "sound_type": "e"
+  },
+  "ct": {
+    "id": 155,
+    "name": "quartzBlock",
+    "sound_type": "h"
+  },
+  "cu": {
+    "id": 156,
+    "name": "stairsQuartz",
+    "sound_type": "h"
+  },
+  "cv": {
+    "id": 157,
+    "name": "activatorRail",
+    "sound_type": "i"
+  }
+}

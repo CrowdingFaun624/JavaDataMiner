@@ -1,0 +1,662 @@
+{
+  "minecraft:stone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:grass": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:dirt": {
+    "sound_type": "j",
+    "code_name": "static"
+  },
+  "minecraft:cobblestone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:planks": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:sapling": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:bedrock": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:water_flow": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:water_still": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:lava_flow": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:lava_still": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:sand": {
+    "sound_type": "p",
+    "code_name": "static"
+  },
+  "minecraft:gravel": {
+    "sound_type": "j",
+    "code_name": "static"
+  },
+  "minecraft:gold_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:iron_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:coal_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:log": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:leaves": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:sponge": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:glass": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:lapis_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:lapis_block": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:dispenser": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:sandstone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:noteblock": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:bed": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:rail_golden": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:rail_detector": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:piston_base_sticky": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:web": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:tallgrass": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:deadbush": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:piston_base": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:piston_extension": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:wool_colored": {
+    "sound_type": "o",
+    "code_name": "static"
+  },
+  "minecraft:piston_moving_piece": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:flower1": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:flower2": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:mushroom_brown": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:mushroom_red": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:gold_block": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:iron_block": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:stone_slab": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:stone_slab_half": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:brick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:tnt": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:bookshelf": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:cobblestone_mossy": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:obsidian": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:torch_on": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:fire": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:mob_spawner": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:stairs_oak": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:chest": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:redstone_dust": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:diamond_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:diamond_block": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:crafting_table": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:wheat": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:farmland": {
+    "sound_type": "j",
+    "code_name": "static"
+  },
+  "minecraft:furnace": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:furnace_on": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:sign": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:door_wood": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:ladder": {
+    "sound_type": "r",
+    "code_name": "static"
+  },
+  "minecraft:rail_normal": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:stairs_stone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:sign_wall": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:lever": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:pressureplate_stone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:door_iron": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:pressureplate_wood": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:redstone_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:redstone_ore_on": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:redstone_torch_off": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:redstone_torch_on": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:button_stone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:snow_top": {
+    "sound_type": "q",
+    "code_name": "static"
+  },
+  "minecraft:ice": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:snow": {
+    "sound_type": "q",
+    "code_name": "static"
+  },
+  "minecraft:cactus": {
+    "sound_type": "o",
+    "code_name": "static"
+  },
+  "minecraft:clay": {
+    "sound_type": "j",
+    "code_name": "static"
+  },
+  "minecraft:reeds": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:jukebox": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:fence": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:pumpkin": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:netherrack": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:soul_sand": {
+    "sound_type": "p",
+    "code_name": "static"
+  },
+  "minecraft:glowstone": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:portal": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:pumpkin_lit": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:cake": {
+    "sound_type": "o",
+    "code_name": "static"
+  },
+  "minecraft:repeater_off": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:repeater_on": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:chest_locked_aprilfools": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:trapdoor": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:monster_egg": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:stonebrick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:mushroom_block_brown": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:mushroom_block_red": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:iron_bars": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:glass_pane": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:melon": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:pumpkin_stem": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:melon_stem": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:vine": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:fence_gate": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:stair_brick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:stair_stonebrick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:mycelium": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:waterlily": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:nether_brick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:fence_nether": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:stairs_netherbrick": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:nether_wart": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:enchanting_table": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:brewing_stand": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:cauldron": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:portal_end": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:endframe": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:end_stone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:dragon_egg": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:redstone_lamp_off": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:redstone_lamp_on": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:slab_wood": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:slab_wood_half": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:cocoa": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:stairs_sandstone": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:emerald_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:chest_ender": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:trip_wire_source": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:trip_wire": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:emerald_block": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:stairs_wood_spruce": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:stairs_wood_birch": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:stairs_wood_jungle": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:command_block": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:beacon": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:wall_cobble": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:flower_pot": {
+    "sound_type": "h",
+    "code_name": "static"
+  },
+  "minecraft:carrots": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:potatoes": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:button_wood": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:skull": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:anvil": {
+    "sound_type": "s",
+    "code_name": "static"
+  },
+  "minecraft:chest_trap": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:weighted_plate_light": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:weighted_plate_heavy": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:comparator_off": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:comparator_on": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:daylight_detector": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:redstone_block": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:quartz_ore": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:hopper": {
+    "sound_type": "i",
+    "code_name": "static"
+  },
+  "minecraft:quartz_block": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:stairs_quartz": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:rail_activator": {
+    "sound_type": "m",
+    "code_name": "static"
+  },
+  "minecraft:dropper": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:hardened_clay_stained": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:hay_block": {
+    "sound_type": "k",
+    "code_name": "static"
+  },
+  "minecraft:wool_carpet": {
+    "sound_type": "o",
+    "code_name": "static"
+  },
+  "minecraft:hardened_clay": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:coal_block": {
+    "sound_type": "l",
+    "code_name": "static"
+  },
+  "minecraft:ice_packed": {
+    "sound_type": "n",
+    "code_name": "static"
+  },
+  "minecraft:double_plant": {
+    "sound_type": "k",
+    "code_name": "static"
+  }
+}

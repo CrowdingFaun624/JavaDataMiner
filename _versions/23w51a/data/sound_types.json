@@ -1,0 +1,992 @@
+{
+  "AMETHYST": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "AMETHYST_BLOCK_BREAK",
+    "step": "AMETHYST_BLOCK_STEP",
+    "place": "AMETHYST_BLOCK_PLACE",
+    "hit": "AMETHYST_BLOCK_HIT",
+    "fall": "AMETHYST_BLOCK_FALL"
+  },
+  "AMETHYST_CLUSTER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "AMETHYST_CLUSTER_BREAK",
+    "step": "AMETHYST_CLUSTER_STEP",
+    "place": "AMETHYST_CLUSTER_PLACE",
+    "hit": "AMETHYST_CLUSTER_HIT",
+    "fall": "AMETHYST_CLUSTER_FALL"
+  },
+  "ANCIENT_DEBRIS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "ANCIENT_DEBRIS_BREAK",
+    "step": "ANCIENT_DEBRIS_STEP",
+    "place": "ANCIENT_DEBRIS_PLACE",
+    "hit": "ANCIENT_DEBRIS_HIT",
+    "fall": "ANCIENT_DEBRIS_FALL"
+  },
+  "ANVIL": {
+    "volume": 0.3,
+    "pitch": 1.0,
+    "break": "ANVIL_BREAK",
+    "step": "ANVIL_STEP",
+    "place": "ANVIL_PLACE",
+    "hit": "ANVIL_HIT",
+    "fall": "ANVIL_FALL"
+  },
+  "AZALEA": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "AZALEA_BREAK",
+    "step": "AZALEA_STEP",
+    "place": "AZALEA_PLACE",
+    "hit": "AZALEA_HIT",
+    "fall": "AZALEA_FALL"
+  },
+  "AZALEA_LEAVES": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "AZALEA_LEAVES_BREAK",
+    "step": "AZALEA_LEAVES_STEP",
+    "place": "AZALEA_LEAVES_PLACE",
+    "hit": "AZALEA_LEAVES_HIT",
+    "fall": "AZALEA_LEAVES_FALL"
+  },
+  "BAMBOO": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_BREAK",
+    "step": "BAMBOO_STEP",
+    "place": "BAMBOO_PLACE",
+    "hit": "BAMBOO_HIT",
+    "fall": "BAMBOO_FALL"
+  },
+  "BAMBOO_SAPLING": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_SAPLING_BREAK",
+    "step": "BAMBOO_STEP",
+    "place": "BAMBOO_SAPLING_PLACE",
+    "hit": "BAMBOO_SAPLING_HIT",
+    "fall": "BAMBOO_FALL"
+  },
+  "BAMBOO_WOOD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_WOOD_BREAK",
+    "step": "BAMBOO_WOOD_STEP",
+    "place": "BAMBOO_WOOD_PLACE",
+    "hit": "BAMBOO_WOOD_HIT",
+    "fall": "BAMBOO_WOOD_FALL"
+  },
+  "BAMBOO_WOOD_HANGING_SIGN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BAMBOO_WOOD_HANGING_SIGN_BREAK",
+    "step": "BAMBOO_WOOD_HANGING_SIGN_STEP",
+    "place": "BAMBOO_WOOD_HANGING_SIGN_PLACE",
+    "hit": "BAMBOO_WOOD_HANGING_SIGN_HIT",
+    "fall": "BAMBOO_WOOD_HANGING_SIGN_FALL"
+  },
+  "BASALT": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BASALT_BREAK",
+    "step": "BASALT_STEP",
+    "place": "BASALT_PLACE",
+    "hit": "BASALT_HIT",
+    "fall": "BASALT_FALL"
+  },
+  "BIG_DRIPLEAF": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BIG_DRIPLEAF_BREAK",
+    "step": "BIG_DRIPLEAF_STEP",
+    "place": "BIG_DRIPLEAF_PLACE",
+    "hit": "BIG_DRIPLEAF_HIT",
+    "fall": "BIG_DRIPLEAF_FALL"
+  },
+  "BONE_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BONE_BLOCK_BREAK",
+    "step": "BONE_BLOCK_STEP",
+    "place": "BONE_BLOCK_PLACE",
+    "hit": "BONE_BLOCK_HIT",
+    "fall": "BONE_BLOCK_FALL"
+  },
+  "CALCITE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CALCITE_BREAK",
+    "step": "CALCITE_STEP",
+    "place": "CALCITE_PLACE",
+    "hit": "CALCITE_HIT",
+    "fall": "CALCITE_FALL"
+  },
+  "CANDLE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CANDLE_BREAK",
+    "step": "CANDLE_STEP",
+    "place": "CANDLE_PLACE",
+    "hit": "CANDLE_HIT",
+    "fall": "CANDLE_FALL"
+  },
+  "CAVE_VINES": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CAVE_VINES_BREAK",
+    "step": "CAVE_VINES_STEP",
+    "place": "CAVE_VINES_PLACE",
+    "hit": "CAVE_VINES_HIT",
+    "fall": "CAVE_VINES_FALL"
+  },
+  "CHAIN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHAIN_BREAK",
+    "step": "CHAIN_STEP",
+    "place": "CHAIN_PLACE",
+    "hit": "CHAIN_HIT",
+    "fall": "CHAIN_FALL"
+  },
+  "CHERRY_LEAVES": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHERRY_LEAVES_BREAK",
+    "step": "CHERRY_LEAVES_STEP",
+    "place": "CHERRY_LEAVES_PLACE",
+    "hit": "CHERRY_LEAVES_HIT",
+    "fall": "CHERRY_LEAVES_FALL"
+  },
+  "CHERRY_SAPLING": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHERRY_SAPLING_BREAK",
+    "step": "CHERRY_SAPLING_STEP",
+    "place": "CHERRY_SAPLING_PLACE",
+    "hit": "CHERRY_SAPLING_HIT",
+    "fall": "CHERRY_SAPLING_FALL"
+  },
+  "CHERRY_WOOD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHERRY_WOOD_BREAK",
+    "step": "CHERRY_WOOD_STEP",
+    "place": "CHERRY_WOOD_PLACE",
+    "hit": "CHERRY_WOOD_HIT",
+    "fall": "CHERRY_WOOD_FALL"
+  },
+  "CHERRY_WOOD_HANGING_SIGN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHERRY_WOOD_HANGING_SIGN_BREAK",
+    "step": "CHERRY_WOOD_HANGING_SIGN_STEP",
+    "place": "CHERRY_WOOD_HANGING_SIGN_PLACE",
+    "hit": "CHERRY_WOOD_HANGING_SIGN_HIT",
+    "fall": "CHERRY_WOOD_HANGING_SIGN_FALL"
+  },
+  "CHISELED_BOOKSHELF": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CHISELED_BOOKSHELF_BREAK",
+    "step": "CHISELED_BOOKSHELF_STEP",
+    "place": "CHISELED_BOOKSHELF_PLACE",
+    "hit": "CHISELED_BOOKSHELF_HIT",
+    "fall": "CHISELED_BOOKSHELF_FALL"
+  },
+  "COPPER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "COPPER_BREAK",
+    "step": "COPPER_STEP",
+    "place": "COPPER_PLACE",
+    "hit": "COPPER_HIT",
+    "fall": "COPPER_FALL"
+  },
+  "COPPER_BULB": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "COPPER_BULB_BREAK",
+    "step": "COPPER_BULB_STEP",
+    "place": "COPPER_BULB_PLACE",
+    "hit": "COPPER_BULB_HIT",
+    "fall": "COPPER_BULB_FALL"
+  },
+  "COPPER_GRATE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "COPPER_GRATE_BREAK",
+    "step": "COPPER_GRATE_STEP",
+    "place": "COPPER_GRATE_PLACE",
+    "hit": "COPPER_GRATE_HIT",
+    "fall": "COPPER_GRATE_FALL"
+  },
+  "CORAL_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CORAL_BLOCK_BREAK",
+    "step": "CORAL_BLOCK_STEP",
+    "place": "CORAL_BLOCK_PLACE",
+    "hit": "CORAL_BLOCK_HIT",
+    "fall": "CORAL_BLOCK_FALL"
+  },
+  "CROP": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "CROP_BREAK",
+    "step": "GRASS_STEP",
+    "place": "CROP_PLANTED",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "DECORATED_POT": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DECORATED_POT_BREAK",
+    "step": "DECORATED_POT_STEP",
+    "place": "DECORATED_POT_PLACE",
+    "hit": "DECORATED_POT_HIT",
+    "fall": "DECORATED_POT_FALL"
+  },
+  "DECORATED_POT_CRACKED": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DECORATED_POT_SHATTER",
+    "step": "DECORATED_POT_STEP",
+    "place": "DECORATED_POT_PLACE",
+    "hit": "DECORATED_POT_HIT",
+    "fall": "DECORATED_POT_FALL"
+  },
+  "DEEPSLATE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DEEPSLATE_BREAK",
+    "step": "DEEPSLATE_STEP",
+    "place": "DEEPSLATE_PLACE",
+    "hit": "DEEPSLATE_HIT",
+    "fall": "DEEPSLATE_FALL"
+  },
+  "DEEPSLATE_BRICKS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DEEPSLATE_BRICKS_BREAK",
+    "step": "DEEPSLATE_BRICKS_STEP",
+    "place": "DEEPSLATE_BRICKS_PLACE",
+    "hit": "DEEPSLATE_BRICKS_HIT",
+    "fall": "DEEPSLATE_BRICKS_FALL"
+  },
+  "DEEPSLATE_TILES": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DEEPSLATE_TILES_BREAK",
+    "step": "DEEPSLATE_TILES_STEP",
+    "place": "DEEPSLATE_TILES_PLACE",
+    "hit": "DEEPSLATE_TILES_HIT",
+    "fall": "DEEPSLATE_TILES_FALL"
+  },
+  "DRIPSTONE_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "DRIPSTONE_BLOCK_BREAK",
+    "step": "DRIPSTONE_BLOCK_STEP",
+    "place": "DRIPSTONE_BLOCK_PLACE",
+    "hit": "DRIPSTONE_BLOCK_HIT",
+    "fall": "DRIPSTONE_BLOCK_FALL"
+  },
+  "EMPTY": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "EMPTY",
+    "step": "EMPTY",
+    "place": "EMPTY",
+    "hit": "EMPTY",
+    "fall": "EMPTY"
+  },
+  "FLOWERING_AZALEA": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "FLOWERING_AZALEA_BREAK",
+    "step": "FLOWERING_AZALEA_STEP",
+    "place": "FLOWERING_AZALEA_PLACE",
+    "hit": "FLOWERING_AZALEA_HIT",
+    "fall": "FLOWERING_AZALEA_FALL"
+  },
+  "FROGLIGHT": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "FROGLIGHT_BREAK",
+    "step": "FROGLIGHT_STEP",
+    "place": "FROGLIGHT_PLACE",
+    "hit": "FROGLIGHT_HIT",
+    "fall": "FROGLIGHT_FALL"
+  },
+  "FROGSPAWN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "FROGSPAWN_BREAK",
+    "step": "FROGSPAWNSTEP",
+    "place": "FROGSPAWN_PLACE",
+    "hit": "FROGSPAWN_HIT",
+    "fall": "FROGSPAWN_FALL"
+  },
+  "FUNGUS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "FUNGUS_BREAK",
+    "step": "FUNGUS_STEP",
+    "place": "FUNGUS_PLACE",
+    "hit": "FUNGUS_HIT",
+    "fall": "FUNGUS_FALL"
+  },
+  "GILDED_BLACKSTONE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GILDED_BLACKSTONE_BREAK",
+    "step": "GILDED_BLACKSTONE_STEP",
+    "place": "GILDED_BLACKSTONE_PLACE",
+    "hit": "GILDED_BLACKSTONE_HIT",
+    "fall": "GILDED_BLACKSTONE_FALL"
+  },
+  "GLASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GLASS_BREAK",
+    "step": "GLASS_STEP",
+    "place": "GLASS_PLACE",
+    "hit": "GLASS_HIT",
+    "fall": "GLASS_FALL"
+  },
+  "GLOW_LICHEN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GRASS_BREAK",
+    "step": "VINE_STEP",
+    "place": "GRASS_PLACE",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "GRASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GRASS_BREAK",
+    "step": "GRASS_STEP",
+    "place": "GRASS_PLACE",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "GRAVEL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "GRAVEL_BREAK",
+    "step": "GRAVEL_STEP",
+    "place": "GRAVEL_PLACE",
+    "hit": "GRAVEL_HIT",
+    "fall": "GRAVEL_FALL"
+  },
+  "HANGING_ROOTS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "HANGING_ROOTS_BREAK",
+    "step": "HANGING_ROOTS_STEP",
+    "place": "HANGING_ROOTS_PLACE",
+    "hit": "HANGING_ROOTS_HIT",
+    "fall": "HANGING_ROOTS_FALL"
+  },
+  "HANGING_SIGN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "HANGING_SIGN_BREAK",
+    "step": "HANGING_SIGN_STEP",
+    "place": "HANGING_SIGN_PLACE",
+    "hit": "HANGING_SIGN_HIT",
+    "fall": "HANGING_SIGN_FALL"
+  },
+  "HARD_CROP": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOD_BREAK",
+    "step": "WOOD_STEP",
+    "place": "CROP_PLANTED",
+    "hit": "WOOD_HIT",
+    "fall": "WOOD_FALL"
+  },
+  "HONEY_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "HONEY_BLOCK_BREAK",
+    "step": "HONEY_BLOCK_STEP",
+    "place": "HONEY_BLOCK_PLACE",
+    "hit": "HONEY_BLOCK_HIT",
+    "fall": "HONEY_BLOCK_FALL"
+  },
+  "LADDER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LADDER_BREAK",
+    "step": "LADDER_STEP",
+    "place": "LADDER_PLACE",
+    "hit": "LADDER_HIT",
+    "fall": "LADDER_FALL"
+  },
+  "LANTERN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LANTERN_BREAK",
+    "step": "LANTERN_STEP",
+    "place": "LANTERN_PLACE",
+    "hit": "LANTERN_HIT",
+    "fall": "LANTERN_FALL"
+  },
+  "LARGE_AMETHYST_BUD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LARGE_AMETHYST_BUD_BREAK",
+    "step": "AMETHYST_CLUSTER_STEP",
+    "place": "LARGE_AMETHYST_BUD_PLACE",
+    "hit": "AMETHYST_CLUSTER_HIT",
+    "fall": "AMETHYST_CLUSTER_FALL"
+  },
+  "LILY_PAD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "BIG_DRIPLEAF_BREAK",
+    "step": "BIG_DRIPLEAF_STEP",
+    "place": "LILY_PAD_PLACE",
+    "hit": "BIG_DRIPLEAF_HIT",
+    "fall": "BIG_DRIPLEAF_FALL"
+  },
+  "LODESTONE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "LODESTONE_BREAK",
+    "step": "LODESTONE_STEP",
+    "place": "LODESTONE_PLACE",
+    "hit": "LODESTONE_HIT",
+    "fall": "LODESTONE_FALL"
+  },
+  "MANGROVE_ROOTS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MANGROVE_ROOTS_BREAK",
+    "step": "MANGROVE_ROOTS_STEP",
+    "place": "MANGROVE_ROOTS_PLACE",
+    "hit": "MANGROVE_ROOTS_HIT",
+    "fall": "MANGROVE_ROOTS_FALL"
+  },
+  "MEDIUM_AMETHYST_BUD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MEDIUM_AMETHYST_BUD_BREAK",
+    "step": "AMETHYST_CLUSTER_STEP",
+    "place": "MEDIUM_AMETHYST_BUD_PLACE",
+    "hit": "AMETHYST_CLUSTER_HIT",
+    "fall": "AMETHYST_CLUSTER_FALL"
+  },
+  "METAL": {
+    "volume": 1.0,
+    "pitch": 1.5,
+    "break": "METAL_BREAK",
+    "step": "METAL_STEP",
+    "place": "METAL_PLACE",
+    "hit": "METAL_HIT",
+    "fall": "METAL_FALL"
+  },
+  "MOSS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MOSS_BREAK",
+    "step": "MOSS_STEP",
+    "place": "MOSS_PLACE",
+    "hit": "MOSS_HIT",
+    "fall": "MOSS_FALL"
+  },
+  "MOSS_CARPET": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MOSS_CARPET_BREAK",
+    "step": "MOSS_CARPET_STEP",
+    "place": "MOSS_CARPET_PLACE",
+    "hit": "MOSS_CARPET_HIT",
+    "fall": "MOSS_CARPET_FALL"
+  },
+  "MUD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MUD_BREAK",
+    "step": "MUD_STEP",
+    "place": "MUD_PLACE",
+    "hit": "MUD_HIT",
+    "fall": "MUD_FALL"
+  },
+  "MUDDY_MANGROVE_ROOTS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MUDDY_MANGROVE_ROOTS_BREAK",
+    "step": "MUDDY_MANGROVE_ROOTS_STEP",
+    "place": "MUDDY_MANGROVE_ROOTS_PLACE",
+    "hit": "MUDDY_MANGROVE_ROOTS_HIT",
+    "fall": "MUDDY_MANGROVE_ROOTS_FALL"
+  },
+  "MUD_BRICKS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "MUD_BRICKS_BREAK",
+    "step": "MUD_BRICKS_STEP",
+    "place": "MUD_BRICKS_PLACE",
+    "hit": "MUD_BRICKS_HIT",
+    "fall": "MUD_BRICKS_FALL"
+  },
+  "NETHERITE_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHERITE_BLOCK_BREAK",
+    "step": "NETHERITE_BLOCK_STEP",
+    "place": "NETHERITE_BLOCK_PLACE",
+    "hit": "NETHERITE_BLOCK_HIT",
+    "fall": "NETHERITE_BLOCK_FALL"
+  },
+  "NETHERRACK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHERRACK_BREAK",
+    "step": "NETHERRACK_STEP",
+    "place": "NETHERRACK_PLACE",
+    "hit": "NETHERRACK_HIT",
+    "fall": "NETHERRACK_FALL"
+  },
+  "NETHER_BRICKS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_BRICKS_BREAK",
+    "step": "NETHER_BRICKS_STEP",
+    "place": "NETHER_BRICKS_PLACE",
+    "hit": "NETHER_BRICKS_HIT",
+    "fall": "NETHER_BRICKS_FALL"
+  },
+  "NETHER_GOLD_ORE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_GOLD_ORE_BREAK",
+    "step": "NETHER_GOLD_ORE_STEP",
+    "place": "NETHER_GOLD_ORE_PLACE",
+    "hit": "NETHER_GOLD_ORE_HIT",
+    "fall": "NETHER_GOLD_ORE_FALL"
+  },
+  "NETHER_ORE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_ORE_BREAK",
+    "step": "NETHER_ORE_STEP",
+    "place": "NETHER_ORE_PLACE",
+    "hit": "NETHER_ORE_HIT",
+    "fall": "NETHER_ORE_FALL"
+  },
+  "NETHER_SPROUTS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_SPROUTS_BREAK",
+    "step": "NETHER_SPROUTS_STEP",
+    "place": "NETHER_SPROUTS_PLACE",
+    "hit": "NETHER_SPROUTS_HIT",
+    "fall": "NETHER_SPROUTS_FALL"
+  },
+  "NETHER_WART": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_WART_BREAK",
+    "step": "STONE_STEP",
+    "place": "NETHER_WART_PLANTED",
+    "hit": "STONE_HIT",
+    "fall": "STONE_FALL"
+  },
+  "NETHER_WOOD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_WOOD_BREAK",
+    "step": "NETHER_WOOD_STEP",
+    "place": "NETHER_WOOD_PLACE",
+    "hit": "NETHER_WOOD_HIT",
+    "fall": "NETHER_WOOD_FALL"
+  },
+  "NETHER_WOOD_HANGING_SIGN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NETHER_WOOD_HANGING_SIGN_BREAK",
+    "step": "NETHER_WOOD_HANGING_SIGN_STEP",
+    "place": "NETHER_WOOD_HANGING_SIGN_PLACE",
+    "hit": "NETHER_WOOD_HANGING_SIGN_HIT",
+    "fall": "NETHER_WOOD_HANGING_SIGN_FALL"
+  },
+  "NYLIUM": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "NYLIUM_BREAK",
+    "step": "NYLIUM_STEP",
+    "place": "NYLIUM_PLACE",
+    "hit": "NYLIUM_HIT",
+    "fall": "NYLIUM_FALL"
+  },
+  "PACKED_MUD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "PACKED_MUD_BREAK",
+    "step": "PACKED_MUD_STEP",
+    "place": "PACKED_MUD_PLACE",
+    "hit": "PACKED_MUD_HIT",
+    "fall": "PACKED_MUD_FALL"
+  },
+  "PINK_PETALS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "PINK_PETALS_BREAK",
+    "step": "PINK_PETALS_STEP",
+    "place": "PINK_PETALS_PLACE",
+    "hit": "PINK_PETALS_HIT",
+    "fall": "PINK_PETALS_FALL"
+  },
+  "POINTED_DRIPSTONE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "POINTED_DRIPSTONE_BREAK",
+    "step": "POINTED_DRIPSTONE_STEP",
+    "place": "POINTED_DRIPSTONE_PLACE",
+    "hit": "POINTED_DRIPSTONE_HIT",
+    "fall": "POINTED_DRIPSTONE_FALL"
+  },
+  "POLISHED_DEEPSLATE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "POLISHED_DEEPSLATE_BREAK",
+    "step": "POLISHED_DEEPSLATE_STEP",
+    "place": "POLISHED_DEEPSLATE_PLACE",
+    "hit": "POLISHED_DEEPSLATE_HIT",
+    "fall": "POLISHED_DEEPSLATE_FALL"
+  },
+  "POLISHED_TUFF": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "POLISHED_TUFF_BREAK",
+    "step": "POLISHED_TUFF_STEP",
+    "place": "POLISHED_TUFF_PLACE",
+    "hit": "POLISHED_TUFF_HIT",
+    "fall": "POLISHED_TUFF_FALL"
+  },
+  "POWDER_SNOW": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "POWDER_SNOW_BREAK",
+    "step": "POWDER_SNOW_STEP",
+    "place": "POWDER_SNOW_PLACE",
+    "hit": "POWDER_SNOW_HIT",
+    "fall": "POWDER_SNOW_FALL"
+  },
+  "ROOTED_DIRT": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "ROOTED_DIRT_BREAK",
+    "step": "ROOTED_DIRT_STEP",
+    "place": "ROOTED_DIRT_PLACE",
+    "hit": "ROOTED_DIRT_HIT",
+    "fall": "ROOTED_DIRT_FALL"
+  },
+  "ROOTS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "ROOTS_BREAK",
+    "step": "ROOTS_STEP",
+    "place": "ROOTS_PLACE",
+    "hit": "ROOTS_HIT",
+    "fall": "ROOTS_FALL"
+  },
+  "SAND": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SAND_BREAK",
+    "step": "SAND_STEP",
+    "place": "SAND_PLACE",
+    "hit": "SAND_HIT",
+    "fall": "SAND_FALL"
+  },
+  "SCAFFOLDING": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCAFFOLDING_BREAK",
+    "step": "SCAFFOLDING_STEP",
+    "place": "SCAFFOLDING_PLACE",
+    "hit": "SCAFFOLDING_HIT",
+    "fall": "SCAFFOLDING_FALL"
+  },
+  "SCULK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCULK_BLOCK_BREAK",
+    "step": "SCULK_BLOCK_STEP",
+    "place": "SCULK_BLOCK_PLACE",
+    "hit": "SCULK_BLOCK_HIT",
+    "fall": "SCULK_BLOCK_FALL"
+  },
+  "SCULK_CATALYST": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCULK_CATALYST_BREAK",
+    "step": "SCULK_CATALYST_STEP",
+    "place": "SCULK_CATALYST_PLACE",
+    "hit": "SCULK_CATALYST_HIT",
+    "fall": "SCULK_CATALYST_FALL"
+  },
+  "SCULK_SENSOR": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCULK_SENSOR_BREAK",
+    "step": "SCULK_SENSOR_STEP",
+    "place": "SCULK_SENSOR_PLACE",
+    "hit": "SCULK_SENSOR_HIT",
+    "fall": "SCULK_SENSOR_FALL"
+  },
+  "SCULK_SHRIEKER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCULK_SHRIEKER_BREAK",
+    "step": "SCULK_SHRIEKER_STEP",
+    "place": "SCULK_SHRIEKER_PLACE",
+    "hit": "SCULK_SHRIEKER_HIT",
+    "fall": "SCULK_SHRIEKER_FALL"
+  },
+  "SCULK_VEIN": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SCULK_VEIN_BREAK",
+    "step": "SCULK_VEIN_STEP",
+    "place": "SCULK_VEIN_PLACE",
+    "hit": "SCULK_VEIN_HIT",
+    "fall": "SCULK_VEIN_FALL"
+  },
+  "SHROOMLIGHT": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SHROOMLIGHT_BREAK",
+    "step": "SHROOMLIGHT_STEP",
+    "place": "SHROOMLIGHT_PLACE",
+    "hit": "SHROOMLIGHT_HIT",
+    "fall": "SHROOMLIGHT_FALL"
+  },
+  "SLIME_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SLIME_BLOCK_BREAK",
+    "step": "SLIME_BLOCK_STEP",
+    "place": "SLIME_BLOCK_PLACE",
+    "hit": "SLIME_BLOCK_HIT",
+    "fall": "SLIME_BLOCK_FALL"
+  },
+  "SMALL_AMETHYST_BUD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SMALL_AMETHYST_BUD_BREAK",
+    "step": "AMETHYST_CLUSTER_STEP",
+    "place": "SMALL_AMETHYST_BUD_PLACE",
+    "hit": "AMETHYST_CLUSTER_HIT",
+    "fall": "AMETHYST_CLUSTER_FALL"
+  },
+  "SMALL_DRIPLEAF": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SMALL_DRIPLEAF_BREAK",
+    "step": "SMALL_DRIPLEAF_STEP",
+    "place": "SMALL_DRIPLEAF_PLACE",
+    "hit": "SMALL_DRIPLEAF_HIT",
+    "fall": "SMALL_DRIPLEAF_FALL"
+  },
+  "SNOW": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SNOW_BREAK",
+    "step": "SNOW_STEP",
+    "place": "SNOW_PLACE",
+    "hit": "SNOW_HIT",
+    "fall": "SNOW_FALL"
+  },
+  "SOUL_SAND": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SOUL_SAND_BREAK",
+    "step": "SOUL_SAND_STEP",
+    "place": "SOUL_SAND_PLACE",
+    "hit": "SOUL_SAND_HIT",
+    "fall": "SOUL_SAND_FALL"
+  },
+  "SOUL_SOIL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SOUL_SOIL_BREAK",
+    "step": "SOUL_SOIL_STEP",
+    "place": "SOUL_SOIL_PLACE",
+    "hit": "SOUL_SOIL_HIT",
+    "fall": "SOUL_SOIL_FALL"
+  },
+  "SPONGE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SPONGE_BREAK",
+    "step": "SPONGE_STEP",
+    "place": "SPONGE_PLACE",
+    "hit": "SPONGE_HIT",
+    "fall": "SPONGE_FALL"
+  },
+  "SPORE_BLOSSOM": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SPORE_BLOSSOM_BREAK",
+    "step": "SPORE_BLOSSOM_STEP",
+    "place": "SPORE_BLOSSOM_PLACE",
+    "hit": "SPORE_BLOSSOM_HIT",
+    "fall": "SPORE_BLOSSOM_FALL"
+  },
+  "STEM": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "STEM_BREAK",
+    "step": "STEM_STEP",
+    "place": "STEM_PLACE",
+    "hit": "STEM_HIT",
+    "fall": "STEM_FALL"
+  },
+  "STONE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "STONE_BREAK",
+    "step": "STONE_STEP",
+    "place": "STONE_PLACE",
+    "hit": "STONE_HIT",
+    "fall": "STONE_FALL"
+  },
+  "SUSPICIOUS_GRAVEL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SUSPICIOUS_GRAVEL_BREAK",
+    "step": "SUSPICIOUS_GRAVEL_STEP",
+    "place": "SUSPICIOUS_GRAVEL_PLACE",
+    "hit": "SUSPICIOUS_GRAVEL_HIT",
+    "fall": "SUSPICIOUS_GRAVEL_FALL"
+  },
+  "SUSPICIOUS_SAND": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SUSPICIOUS_SAND_BREAK",
+    "step": "SUSPICIOUS_SAND_STEP",
+    "place": "SUSPICIOUS_SAND_PLACE",
+    "hit": "SUSPICIOUS_SAND_HIT",
+    "fall": "SUSPICIOUS_SAND_FALL"
+  },
+  "SWEET_BERRY_BUSH": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "SWEET_BERRY_BUSH_BREAK",
+    "step": "GRASS_STEP",
+    "place": "SWEET_BERRY_BUSH_PLACE",
+    "hit": "GRASS_HIT",
+    "fall": "GRASS_FALL"
+  },
+  "TRIAL_SPAWNER": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "TRIAL_SPAWNER_BREAK",
+    "step": "TRIAL_SPAWNER_STEP",
+    "place": "TRIAL_SPAWNER_PLACE",
+    "hit": "TRIAL_SPAWNER_HIT",
+    "fall": "TRIAL_SPAWNER_FALL"
+  },
+  "TUFF": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "TUFF_BREAK",
+    "step": "TUFF_STEP",
+    "place": "TUFF_PLACE",
+    "hit": "TUFF_HIT",
+    "fall": "TUFF_FALL"
+  },
+  "TUFF_BRICKS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "TUFF_BRICKS_BREAK",
+    "step": "TUFF_BRICKS_STEP",
+    "place": "TUFF_BRICKS_PLACE",
+    "hit": "TUFF_BRICKS_HIT",
+    "fall": "TUFF_BRICKS_FALL"
+  },
+  "TWISTING_VINES": {
+    "volume": 1.0,
+    "pitch": 0.5,
+    "break": "WEEPING_VINES_BREAK",
+    "step": "WEEPING_VINES_STEP",
+    "place": "WEEPING_VINES_PLACE",
+    "hit": "WEEPING_VINES_HIT",
+    "fall": "WEEPING_VINES_FALL"
+  },
+  "VINE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "VINE_BREAK",
+    "step": "VINE_STEP",
+    "place": "VINE_PLACE",
+    "hit": "VINE_HIT",
+    "fall": "VINE_FALL"
+  },
+  "WART_BLOCK": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WART_BLOCK_BREAK",
+    "step": "WART_BLOCK_STEP",
+    "place": "WART_BLOCK_PLACE",
+    "hit": "WART_BLOCK_HIT",
+    "fall": "WART_BLOCK_FALL"
+  },
+  "WEEPING_VINES": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WEEPING_VINES_BREAK",
+    "step": "WEEPING_VINES_STEP",
+    "place": "WEEPING_VINES_PLACE",
+    "hit": "WEEPING_VINES_HIT",
+    "fall": "WEEPING_VINES_FALL"
+  },
+  "WET_GRASS": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WET_GRASS_BREAK",
+    "step": "WET_GRASS_STEP",
+    "place": "WET_GRASS_PLACE",
+    "hit": "WET_GRASS_HIT",
+    "fall": "WET_GRASS_FALL"
+  },
+  "WET_SPONGE": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WET_SPONGE_BREAK",
+    "step": "WET_SPONGE_STEP",
+    "place": "WET_SPONGE_PLACE",
+    "hit": "WET_SPONGE_HIT",
+    "fall": "WET_SPONGE_FALL"
+  },
+  "WOOD": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOD_BREAK",
+    "step": "WOOD_STEP",
+    "place": "WOOD_PLACE",
+    "hit": "WOOD_HIT",
+    "fall": "WOOD_FALL"
+  },
+  "WOOL": {
+    "volume": 1.0,
+    "pitch": 1.0,
+    "break": "WOOL_BREAK",
+    "step": "WOOL_STEP",
+    "place": "WOOL_PLACE",
+    "hit": "WOOL_HIT",
+    "fall": "WOOL_FALL"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  "random.click",
+  "random.explode",
+  "random.fuse",
+  "random.hurt",
+  "random.pop",
+  "random.splash",
+  "step.grass",
+  "step.gravel",
+  "step.stone",
+  "step.wood"
+]
