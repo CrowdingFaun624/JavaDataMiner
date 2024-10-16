@@ -3,6 +3,7 @@ import Comparison.CompareAllVersions as CompareAllVersions
 import DataMiners.DataMiners as DataMiners
 import Importer.Decompiler as Decompiler
 import Importer.JarImporter as JarImporter
+import Importer.JarRemapper as JarRemapper
 import Utilities.AssetsStorage as AssetsStorage
 import Utilities.DataRedoer as DataRedoer
 import Utilities.DecompileZipper as DecompileZipper
@@ -25,6 +26,7 @@ if __name__ == "__main__":
         "LanguageKeyGenerator": LanguageKeyGenerator.main,
         "MappingCondenser": MappingCondenser.main,
         "PlaylistAssembler": PlaylistAssembler.main,
+        "Remapper": JarRemapper.main,
         "Searcher": Searcher.main,
         "SearcherCompare": Searcher.search_compare_user,
         "SoundsJsonTablifier": SoundsJsonTablifier.main

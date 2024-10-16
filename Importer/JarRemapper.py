@@ -31,3 +31,7 @@ def remap_client(version:str) -> None:
 def remap_server(version:str) -> None:
     '''Remaps the given version's server.jar'''
     remap(version, "server")
+
+def main() -> None:
+    version = input("Remap client of version: ")
+    remap_client(version)
