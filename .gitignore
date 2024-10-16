@@ -2,6 +2,8 @@ _assets
 _assets_storage
 _search
 _versions/version_manifest.json
+*assets/*
+*assets.json
 *version.json
 *client_decompiled.zip
 *client.jar
